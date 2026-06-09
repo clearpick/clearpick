@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Homepage -->
+  <url>
+    <loc>https://toolrank.pplx.app/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+
+  <!-- Category Pages -->
+  <url>
+    <loc>https://toolrank.pplx.app/headphones.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/kitchen.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/camping.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/software.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/smart-home.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/robot-vacuums.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/fitness.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/pet-supplies.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/gaming.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/lawn-garden.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+
+  <!-- Blog Index -->
+  <url>
+    <loc>https://toolrank.pplx.app/blog/index.html</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+
+  <!-- Blog Articles -->
+  <url>
+    <loc>https://toolrank.pplx.app/blog/best-robot-vacuum-pet-hair-canada.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/blog/echo-dot-vs-google-nest-mini-canada.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/blog/schwinn-ic4-review-canada.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/blog/best-antivirus-canada-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/blog/best-cordless-leaf-blower-canada-2026.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://toolrank.pplx.app/about.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+  <url>
+    <loc>https://toolrank.pplx.app/privacy.html</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+    <lastmod>2026-06-06</lastmod>
+  </url>
+
+</urlset>
