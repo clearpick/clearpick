@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Razer Huntsman V3 Pro TKL","description":"The Razer Huntsman V3 Pro TKL uses analog optical switches that detect how far each key is pressed — enabling dual-function keys, variable actuation, and rapid trigger without debounce delay. The most","brand":{"@type":"Brand","name":"Razer"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"229","availability":"https://schema.org/InStock","url":"https://amzn.to/4xcmpOv"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Razer Huntsman V3 Pro TKL",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Razer Huntsman V3 Pro TKL is for serious competitive Canadian gamers who want the absolute fastest keyboard switch technology available. The analog optical switches, 8000Hz polling rate, and rapid trigger support combine into the most technically capable gaming keyboard in the consumer category. Casual and intermediate players won't perceive the performance advantage — but for competitive players who want every technical edge available, the Huntsman V3 Pro TKL is the top of the category."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Amazon Echo Pop","description":"The Amazon Echo Pop is the most affordable entry point into the Alexa ecosystem in Canada — its half-sphere design fits on shelves and nightstands, sound quality beats the Echo Dot for the same price,","brand":{"@type":"Brand","name":"Amazon"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"9.0","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4vADfox"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Amazon Echo Pop",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "For Canadians who want Alexa in secondary rooms without the cost or size of the Echo Dot. The compact half-sphere fits spaces where the Dot feels oversized, and multi-room audio makes it a natural companion to a primary Echo in another room."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.0",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

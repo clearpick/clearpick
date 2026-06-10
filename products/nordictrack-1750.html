@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"NordicTrack Commercial 1750 Treadmill","description":"The NordicTrack Commercial 1750 packs a 4.25 CHP motor onto a 22"×60" cushioned deck. iFIT auto-adjusts speed and incline to match virtual terrain on the 16" pivot touchscreen, which also streams Netf","brand":{"@type":"Brand","name":"NordicTrack"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"2499","availability":"https://schema.org/InStock","url":"https://amzn.to/3POEYrg"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "NordicTrack Commercial 1750 Treadmill",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The NordicTrack Commercial 1750 is the home treadmill for serious Canadian runners who need commercial-grade performance for year-round indoor training. The decline capability, 4.25 CHP motor, and iFIT integration make it the most complete home treadmill available. Factor in the iFIT subscription cost and go in knowing the subscription management is frustrating — but the hardware itself is the benchmark for home treadmills at this price."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

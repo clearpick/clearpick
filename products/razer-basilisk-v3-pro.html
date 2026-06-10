@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Razer Basilisk V3 Pro Wireless","description":"The Razer Basilisk V3 Pro is the flagship wireless gaming mouse with an 11-button customizable layout, HyperScroll tilt wheel, and 90-hour battery via the 30K DPI optical sensor. Supports 4000Hz Hyper","brand":{"@type":"Brand","name":"Razer"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"199","availability":"https://schema.org/InStock","url":"https://amzn.to/3Q84l7s"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Razer Basilisk V3 Pro Wireless",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Razer Basilisk V3 Pro is for Canadian gamers and power users who want maximum scroll wheel versatility, glass surface tracking, and Qi wireless charging in one mouse. The HyperScroll Pro tilt wheel is genuinely the best scroll wheel in the gaming mouse category for mixed gaming and productivity use. For pure competitive gaming performance, the G502 X Lightspeed's LIGHTFORCE switches have a response time edge — but for gamers who also work at their desk, the Basilisk V3 Pro is the more practical all-day mouse."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.0",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

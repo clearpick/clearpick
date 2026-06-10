@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Bose QuietComfort Headphones","description":"The Bose QuietComfort delivers the same legendary comfort and strong ANC as the Ultra at $100–$150 CAD less. It drops Immersive Audio but keeps 24-hour battery, multipoint connection, and the plush fi","brand":{"@type":"Brand","name":"Bose"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"349","availability":"https://schema.org/InStock","url":"https://amzn.to/4e2vMra"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bose QuietComfort Headphones",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Bose QuietComfort is the headphone for Canadians who prioritize comfort and noise cancellation above everything else. If you're on a plane every week, in a loud open office, or simply can't tolerate ear fatigue on long listening sessions, nothing at this price point matches it. The Sennheiser Momentum 4 edges it on sound quality and battery life, but for pure ANC and all-day comfort, Bose is still the standard."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

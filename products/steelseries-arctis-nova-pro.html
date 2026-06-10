@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"SteelSeries Arctis Nova Pro Wireless","description":"The SteelSeries Arctis Nova Pro Wireless is the most feature-rich gaming headset available, with dual-battery hot-swap, active noise cancellation, and a 360° Spatial Audio engine. Its GameDAC Gen 2 ba","brand":{"@type":"Brand","name":"SteelSeries"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"349","availability":"https://schema.org/InStock","url":"https://amzn.to/3RQvDje"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "SteelSeries Arctis Nova Pro Wireless",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Excellent for competitive gamers who sit at a fixed desk and want zero wireless latency. The ANC is a genuine bonus for open-plan gaming setups."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

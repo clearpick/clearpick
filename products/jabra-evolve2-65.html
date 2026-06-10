@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Jabra Evolve2 65","description":"The Jabra Evolve2 65 is the gold standard for hybrid workers in Canada — its 6-mic call technology isolates your voice with surgical precision, and the 37-hour battery lasts a full work week on a sing","brand":{"@type":"Brand","name":"Jabra"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"279","availability":"https://schema.org/InStock","url":"https://amzn.to/3RMFGpz"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Jabra Evolve2 65",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Jabra Evolve2 65 is the work headset for Canadian professionals who need call quality that matches the price they're paying. The mic performance, UC platform certification, and busylight are built for the open-plan hybrid office. If you're on Teams or Zoom calls for four-plus hours a day, this is the headset that makes you sound professional and eliminates the background noise excuses."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

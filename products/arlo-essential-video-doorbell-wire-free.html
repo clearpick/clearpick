@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Arlo Essential Video Doorbell Wire-Free","description":"The Arlo Essential Video Doorbell Wire-Free is the most flexible smart doorbell installation option for Canadian renters and homeowners who can't or don't want to run wiring — its rechargeable battery","brand":{"@type":"Brand","name":"Arlo"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.6","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3Qnui2Z"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Arlo Essential Video Doorbell Wire-Free",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "For Canadian homeowners who want the best video quality and widest field of view in a wire-free doorbell. The 2K HDR and 180-degree FOV combination is unmatched at this price, and the triple-ecosystem compatibility makes it the most flexible premium option available."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

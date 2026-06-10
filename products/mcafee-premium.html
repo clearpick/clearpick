@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"McAfee+ Premium","description":"McAfee+ Premium takes the Total Protection package and adds stronger identity theft protection — including dark web monitoring, Social Privacy Manager to automatically clean up personal data from data","brand":{"@type":"Brand","name":"McAfee"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.4","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4uXYwJ5"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "McAfee+ Premium",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.4",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "McAfee Premium is for Canadian users who want comprehensive identity protection alongside malware security — particularly those who have previously experienced identity theft or want proactive data broker cleanup automation. The identity monitoring, data cleanup requests, and unlimited device coverage make it the most complete identity-plus-security package available. For users who primarily want malware protection without identity features, McAfee Total Protection or Bitdefender at lower prices are the more focused choices."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.4",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

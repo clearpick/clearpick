@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Roborock Qrevo S Robot Vacuum and Mop","description":"The Roborock Qrevo S is Roborock's answer to fully automatic cleaning — it mops with spinning pads that lift up automatically when the robot detects carpet, preventing wet carpet disasters. The all-in","brand":{"@type":"Brand","name":"Roborock"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.9","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4uVUwsf"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Roborock Qrevo S Robot Vacuum and Mop",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The roborock Qrevo S is the step up from the Q8 Max for Canadian households that need genuine mopping alongside vacuuming, particularly in homes with pets and mixed flooring. The anti-tangle dual roller is a real quality-of-life improvement for long-hair households, and the sonic mopping with auto carpet lift makes it practically hands-free in open-concept layouts. It's the vacuum for people who've outgrown a basic robot and want a system that handles floors completely."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

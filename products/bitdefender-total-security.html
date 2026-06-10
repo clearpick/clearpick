@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Bitdefender Total Security","description":"Bitdefender Total Security consistently tops independent lab tests from AV-TEST and AV-Comparatives for detection rates, and it does it while using barely any system resources — so your PC stays fast.","brand":{"@type":"Brand","name":"Bitdefender"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"60/yr","availability":"https://schema.org/InStock","url":"https://amzn.to/4xaqDpE"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bitdefender Total Security",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.1",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Bitdefender Total Security is the best overall antivirus for Canadian users who want top-tier malware protection with zero system slowdown and minimal intrusion. Tom's Guide recommends it as the best antivirus software available, and independent lab testing backs that up consistently. For users who want the most comprehensive feature set including unlimited VPN, Norton 360 Deluxe adds more extras — but for pure protection performance with the lightest footprint, Bitdefender is the clear pick."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.1",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

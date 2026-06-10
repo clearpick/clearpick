@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Hamilton Beach 31127D Countertop Oven","description":"The Hamilton Beach 31127D is the most affordable full-function toaster oven available in Canada that still delivers reliable results. Bake, broil, and toast without fuss — no complicated settings, no ","brand":{"@type":"Brand","name":"Hamilton Beach"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"7.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4vA5CmQ"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Hamilton Beach 31127D Countertop Oven",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "7.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Hamilton Beach 31127D is for Canadian kitchens with tight counter space or layout constraints that make standard swing-door toaster ovens impractical. The roll-top door design is genuinely clever and the large capacity at a budget price makes it a strong value pick. For buyers who need clearance-free counter placement or maximum capacity without Breville pricing, this is the practical choice."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "7.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

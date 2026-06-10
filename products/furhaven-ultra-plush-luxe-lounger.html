@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Furhaven Ultra Plush Luxe Lounger Dog Bed","description":"The Furhaven Ultra Plush Luxe Lounger is the softest, most cloud-like dog bed for dogs who love to sink into softness — its ultra-plush filling and sherpa-like cover feel premium at a budget price. Th","brand":{"@type":"Brand","name":"Furhaven"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3RKKRq2"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Furhaven Ultra Plush Luxe Lounger Dog Bed",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The FurHaven Ultra Plush Luxe Lounger is for Canadian pet owners with young, healthy dogs who love soft, enclosed sleeping spaces. The ultra-plush surface and raised sides create the burrowing comfort that many dogs prefer. It's a comfort bed not an orthopedic bed — for senior dogs or those with joint issues, memory foam is the better choice. But for everyday comfort at a reasonable price, the Luxe Lounger is a practical and well-liked option."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

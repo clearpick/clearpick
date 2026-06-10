@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Microsoft 365 Family","description":"Microsoft 365 Family is the best-value subscription in Canadian software — up to 6 people each get the full desktop Office suite (Word, Excel, PowerPoint, Outlook, OneNote, Teams), their own 1 TB of O","brand":{"@type":"Brand","name":"Microsoft"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"120/yr","availability":"https://schema.org/InStock","url":"https://amzn.to/4dTDrtd"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Microsoft 365 Family",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Microsoft 365 Family is the right choice for Canadian households where multiple family members need Office and cloud storage. At 6 licenses with 1TB each, the per-person cost makes it significantly more economical than multiple Personal subscriptions. The independent storage accounts and Family Safety features add meaningful value for Canadian families with children. If only one person in your household needs Office, the Personal plan is simpler and less expensive."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

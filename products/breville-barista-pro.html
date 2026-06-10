@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Breville Barista Pro (BES878BSS)","description":"The Breville Barista Pro sits between the Bambino Plus and Barista Express — it combines ThermoJet's 3-second heat-up time with an integrated conical burr grinder and a backlit LCD display for precise" ,"brand":{"@type":"Brand","name":"Breville"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"1100","availability":"https://schema.org/InStock","url":"https://amzn.to/4uX6H8c"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Breville Barista Pro BES878BSS",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Breville Barista Pro is for Canadian espresso enthusiasts who want the convenience of a built-in grinder with the performance and control to grow their skills. The ThermoJet heating and 30-setting grinder make it a meaningful step up from the Barista Express. If you're serious about espresso but not ready for a separate grinder and dual boiler setup, the Barista Pro hits the sweet spot between convenience and capability."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

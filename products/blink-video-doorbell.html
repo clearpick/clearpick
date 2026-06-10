@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Blink Video Doorbell","description":"The Blink Video Doorbell is Amazon's most affordable smart doorbell and the best budget video doorbell for Canadian homeowners — it works wired or on battery power, delivers 1080p HD live video with t","brand":{"@type":"Brand","name":"Blink"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3PKfVpi"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Blink Video Doorbell",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "For budget-conscious homeowners and renters who want basic video doorbell functionality at the lowest price with the least maintenance. The 2-year AA battery life is genuinely unmatched — no charging, no wiring, no subscription required for basic use."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

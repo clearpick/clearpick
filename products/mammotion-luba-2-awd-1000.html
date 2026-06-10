@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Mammotion LUBA 2 AWD 1000 Robot Lawn Mower","description":"The Mammotion LUBA 2 AWD 1000 is the most capable wire-free robot mower for large Canadian properties — it handles up to 1 acre, uses all-wheel-drive to tackle slopes up to 80% grade (steeper than com","brand":{"@type":"Brand","name":"Mammotion"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.7","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4g3JAnR"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Mammotion LUBA 2 AWD 1000 Robot Lawn Mower",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Luba 2 is the most exciting robotic mower innovation — no boundary wire required is a genuine paradigm shift. The all-wheel drive and RTK GPS position it as the best technical option. Husqvarna's longer track record and Canadian dealer support network are meaningful advantages if reliability matters most. Choose Luba 2 for innovation, Husqvarna for proven dependability."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

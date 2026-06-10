@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Bedsure Orthopedic Dog Bed","description":"The Bedsure Orthopedic Dog Bed delivers genuine memory foam joint support at the lowest price point in Canada — it uses a high-density foam base that maintains its shape under heavy dogs, has a waterp","brand":{"@type":"Brand","name":"Bedsure"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.6","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3RSBmFm"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bedsure Orthopedic Dog Bed",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Bedsure Orthopedic Dog Bed is for Canadian pet owners who want genuine joint support without the premium pricing of top-tier orthopedic beds. The waterproof lining, machine-washable cover, and egg-crate foam deliver real value for small to medium dogs. For large breeds or senior dogs with significant joint issues where lasting foam density matters, the PetFusion Ultimate is worth the investment — but for everyday orthopedic support on a reasonable budget, Bedsure delivers."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

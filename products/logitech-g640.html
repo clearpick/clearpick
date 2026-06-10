@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Logitech G640 Large Gaming Mouse Pad","description":"The Logitech G640 is tuned specifically for optical sensors with a consistent yarn weave that provides just the right drag for low-DPI FPS gaming. At 400×460mm it's large enough for wide sweeping move","brand":{"@type":"Brand","name":"Logitech"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"39","availability":"https://schema.org/InStock","url":"https://amzn.to/4g3U86n"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Logitech G640 Large Gaming Mouse Pad",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Logitech G640 is for Canadian gamers building a Logitech peripheral setup who want a large, balanced cloth surface that pairs naturally with Logitech optical sensors. The large format, moderate texture, and non-slip base make it a solid everyday gaming pad. For the best standalone pad performance regardless of brand, the SteelSeries QcK Heavy's 6mm base offers better long-term stability — but for Logitech ecosystem users, the G640 is the natural complement."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

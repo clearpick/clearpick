@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Bowflex SelectTech 552 Dumbbells","description":"The Bowflex SelectTech 552 adjusts from 5 to 52.5 lbs via a simple dial mechanism, replacing 15 sets of traditional weights. A Canadian bestseller for home gyms, compatible with the Bowflex JRNY app f","brand":{"@type":"Brand","name":"Bowflex"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"499","availability":"https://schema.org/InStock","url":"https://amzn.to/4ul97fM"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bowflex SelectTech 552 Dumbbells",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.4",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Bowflex SelectTech 552 has an active safety recall as of June 2025 — verify current recall status at CPSC.gov before purchasing. When the recall is resolved, the SelectTech 552 is the adjustable dumbbell for Canadian home gym owners who prioritize fast weight changes and traditional dumbbell feel over heavy-duty durability. The dial mechanism and natural shape are genuine advantages for circuit training and moderate home gym use. For heavy daily lifting, the PowerBlock Elite EXP's magnetic pin system holds up better long term."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.4",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

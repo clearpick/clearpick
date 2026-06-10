@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Breville Compact Smart Oven (BOV650BSS)","description":"The Breville Compact Smart Oven uses Element IQ technology to direct power to whichever of its four quartz heating elements is needed most — so your toast is perfectly even, your pizza is crispy on th","brand":{"@type":"Brand","name":"Breville"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"200","availability":"https://schema.org/InStock","url":"https://amzn.to/4g4XdTL"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Breville Compact Smart Oven",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Breville Compact Smart Oven is for Canadian kitchens where counter space is limited but quality still matters. The Element IQ toasting is genuinely the best in the countertop category and the compact footprint makes it practical for apartments and smaller kitchens. If you primarily toast, reheat, and do occasional small bakes, this is the one. Step up to the larger Breville Smart Oven Air Fryer if you want convection and air frying capability."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

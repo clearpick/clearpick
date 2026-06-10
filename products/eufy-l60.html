@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"eufy L60 Robot Vacuum","description":"The eufy L60 is the best mid-range robot vacuum for Canadian homes — it upgrades the basic eufy lineup with AI-powered obstacle avoidance that navigates around pet toys, shoes, and cables without gett","brand":{"@type":"Brand","name":"eufy"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4uQLvRi"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "eufy L60 Robot Vacuum",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The eufy L60 hits a strong value position in the mid-tier robot vacuum market. Accurate laser navigation, solid suction, and a quieter-than-average operation make it a reliable daily driver for Canadian homes. It's a meaningful step up from the entry-level 11S without crossing into the premium pricing of roborock and Dreame's top models. For eufy loyalists or anyone wanting a capable vacuum without the premium price tag, it earns its spot."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

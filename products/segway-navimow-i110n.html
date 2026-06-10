@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Segway Navimow i110N Robot Lawn Mower","description":"The Segway Navimow i110N eliminates the most frustrating part of robot mower ownership — installing a boundary wire. Instead, it uses EFLS (Exact Fusion Locating System) combining GPS, RTK, and vision","brand":{"@type":"Brand","name":"Segway"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4oh1iXl"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Segway Navimow i110N Robot Lawn Mower",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "A solid no-boundary-wire alternative competing directly with the Mammotion Luba 2. Compare software maturity reviews before choosing between the two — Husqvarna remains the gold standard for established reliability."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

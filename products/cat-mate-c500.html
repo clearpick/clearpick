@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Cat Mate C500 Automatic Pet Feeder","description":"The Cat Mate C500 is a reliable 5-meal automatic pet feeder that works on batteries, requires no WiFi, and handles both wet and dry food — making it a dependable option for Canadian pet owners who wan","brand":{"@type":"Brand","name":"Cat Mate"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.3","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3Q0S0C3"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Cat Mate C500 Automatic Pet Feeder",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.3",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Cat Mate C500 is for Canadian cat owners whose cats eat wet or raw food and need reliable automated feeding for single-day absences. The ice pack compartments solve the wet food safety problem that makes standard automatic feeders unusable for wet-food-only cats. It's not a smart feeder and it's not a multi-day solution — but for one-day trips with a wet-food cat, nothing else in the category works as reliably."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.3",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

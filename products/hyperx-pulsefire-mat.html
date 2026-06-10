@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"HyperX Pulsefire Mat","description":"The HyperX Pulsefire Mat pairs a natural rubber base with a micro-woven surface that works equally well for gaming and daily desk use. One of the few pads comfortable enough for long typing sessions a","brand":{"@type":"Brand","name":"HyperX"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"29","availability":"https://schema.org/InStock","url":"https://amzn.to/43RBsiZ"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "HyperX Pulsefire Mat",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The HyperX Pulsefire Mat is the right mousepad for Canadian gamers setting up their first proper gaming desk or upgrading from a bare desk surface. The stitched edges, consistent tracking surface, and non-slip base deliver everything a gaming mousepad needs to do at an accessible price. When you're ready to upgrade, the SteelSeries QcK Heavy's 6mm base offers better long-term stability — but for getting started properly, the Pulsefire Mat is the practical first choice."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

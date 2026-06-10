@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Husqvarna 350iB Battery Leaf Blower","description":"The Husqvarna 350iB is the professional-grade battery leaf blower for Canadian homeowners with large properties — it delivers 1.7N of blowing force from Husqvarna's 36V POWER FOR ALL battery platform,","brand":{"@type":"Brand","name":"Husqvarna"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4uXfGpW"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Husqvarna 350iB Battery Leaf Blower",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Excellent blower for existing Husqvarna PACE tool owners. The power is strong and the ergonomics are well thought out. For new buyers without existing Husqvarna tools, EGO offers better ecosystem depth and wider Canadian availability."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

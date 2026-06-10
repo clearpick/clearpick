@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Razer Gigantus V2","description":"The Razer Gigantus V2 offers a micro-textured cloth surface that balances control and speed — one of the best-reviewed pads in Canada under $40 CAD, with a 3mm anti-slip rubber base and stitched edges","brand":{"@type":"Brand","name":"Razer"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"35","availability":"https://schema.org/InStock","url":"https://amzn.to/4e56FnE"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Razer Gigantus V2",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Razer Gigantus V2 is for Canadian gamers building a Razer peripheral setup who want a large, cushioned cloth surface optimized for Razer sensors. The multiple size options, thick cushioned base, and Razer sensor optimization make it the natural mousepad choice for the Razer ecosystem. For the best standalone pad performance regardless of brand, the SteelSeries QcK Heavy remains the benchmark — but for Razer users, the Gigantus V2 is the cohesive choice."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

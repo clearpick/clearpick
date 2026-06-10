@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Bose QuietComfort Ultra","description":"The Bose QuietComfort Ultra is Bose's current flagship, delivering industry-leading noise cancellation with Immersive Audio and the most comfortable fit of any over-ear headphone on the market. Canadi","brand":{"@type":"Brand","name":"Bose"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"499","availability":"https://schema.org/InStock","url":"https://amzn.to/4g60Dpj"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Bose QuietComfort Ultra",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Bose QuietComfort Ultra is for Canadian listeners who want the best spatial audio experience available in a wireless headphone. The Immersive Audio processing is genuinely impressive on supported content and the ANC is the best Bose has ever shipped. The battery life trade-off and premium pricing are real considerations — but if you're a frequent flyer or serious media consumer who wants the most enveloping listening experience at this price, the Ultra delivers it."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

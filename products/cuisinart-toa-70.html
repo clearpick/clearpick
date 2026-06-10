@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Cuisinart TOA-70 Digital Air Fryer Toaster Oven","description":"The Cuisinart TOA-70 upgrades the TOA-60 with a digital display and larger interior capacity — making it the right pick for Canadian households that cook for more than two people and appreciate the pr","brand":{"@type":"Brand","name":"Cuisinart"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3RYbLbz"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Cuisinart TOA-70 Digital Air Fryer Toaster Oven",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Cuisinart TOA-70 is for Canadian kitchens that want air frying capability without adding another dedicated appliance. The large capacity and 7 cooking functions make it the most versatile countertop oven on the market. If counter space is at a premium and you want one appliance that handles everything from toast to air-fried wings to roast chicken, this is the one."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

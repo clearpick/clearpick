@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Breville Barista Express (BES870XL)","description":"The Breville Barista Express is the all-in-one espresso solution that fits your counter and your budget — a 64-oz integrated conical burr grinder with 16 grind settings feeds freshly ground beans dire","brand":{"@type":"Brand","name":"Breville"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"900","availability":"https://schema.org/InStock","url":"https://amzn.to/4fvo4rZ"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Breville Barista Express",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Breville Barista Express is the espresso machine that convinced a generation of Canadian coffee drinkers to stop buying lattes and start making them. The all-in-one grind-and-brew design removes the biggest barrier to home espresso — the grinder — while still delivering real espresso quality. It's not the choice for serious espresso hobbyists who want to obsess over separate components, but for the Canadian household that wants great espresso without a barista degree, nothing at this price point competes."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

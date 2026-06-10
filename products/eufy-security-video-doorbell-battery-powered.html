@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"eufy Security Video Doorbell Battery-Powered","description":"The eufy Security Video Doorbell Battery-Powered is the best smart doorbell for Canadians who refuse to pay monthly subscription fees — all video is stored locally on the included homebase, motion det","brand":{"@type":"Brand","name":"eufy"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.7","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4oc1ozr"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "eufy Security Video Doorbell Battery-Powered",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "For Canadian homeowners who want 2K video and local storage without monthly fees. The AI human detection and dual-band Wi-Fi make it a genuinely capable security device — the no-subscription model alone justifies the HomeBase setup for most buyers."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

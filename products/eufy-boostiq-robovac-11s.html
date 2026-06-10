@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"eufy BoostIQ RoboVac 11S","description":"The eufy BoostIQ RoboVac 11S is one of the slimmest robot vacuums available at just 2.85' tall, letting it glide under furniture that stops bulkier models. BoostIQ technology automatically increases s","brand":{"@type":"Brand","name":"eufy"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"190","availability":"https://schema.org/InStock","url":"https://amzn.to/3Q682KH"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "eufy BoostIQ RoboVac 11S",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "7.2",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The eufy 11S is the right robot vacuum for Canadians who want a set-it-and-forget-it floor maintainer without paying for smart features they don't need. It's not going to map your home or avoid your dog's toys, but it will quietly sweep your floors every day without you touching it. For apartment dwellers and anyone with mostly hard floors, it's one of the best values in the category."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "7.2",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

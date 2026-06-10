@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Shark AI Ultra XL HEPA Robot Vacuum","description":"The Shark AI Ultra XL HEPA upgrades the standard Shark AI Ultra with a larger 90-day self-emptying base and a HEPA filter that traps 99.97% of particles — making it the best robot vacuum for Canadian ","brand":{"@type":"Brand","name":"Shark"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.4","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4g6KboR"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Shark AI Ultra XL HEPA Robot Vacuum",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.4",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Shark AI Ultra XL HEPA is the standard AI Ultra for larger Canadian homes or households with multiple pets where emptying every 30 days becomes a real maintenance task. The doubled capacity and sealed HEPA emptying make it a meaningful upgrade for high-volume households. If you're choosing between the two, the XL is worth the premium for anyone with more than one pet or a home over 2,000 square feet."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.4",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

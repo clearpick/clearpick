@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"eufy X10 Pro Omni Robot Vacuum","description":"The eufy X10 Pro Omni is eufy's flagship all-in-one robot vacuum and mop — it self-empties, self-washes its mop pad, and self-refills water, so you can set it and truly forget it for weeks. With 8,000","brand":{"@type":"Brand","name":"eufy"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"9.1","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4dVrBPe"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "eufy X10 Pro Omni Robot Vacuum",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.1",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The eufy X10 Pro Omni is for Canadian households that want a robot to handle floors completely without any manual steps. The 8000Pa suction, camera obstacle avoidance, and fully autonomous Omni station combine into the closest thing available to a truly hands-free floor cleaning system. It's a premium investment but one that delivers on its promise — if budget isn't the primary concern, this is one of the best robot vacuums you can buy."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.1",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

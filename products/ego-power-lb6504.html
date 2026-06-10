@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"EGO Power+ LB6504 650 CFM Cordless Leaf Blower","description":"The EGO Power+ LB6504 is the most powerful cordless leaf blower in Canada, delivering 650 CFM of airflow and 180 MPH wind speed on a 56V lithium-ion battery — matching or exceeding most mid-range gas ","brand":{"@type":"Brand","name":"EGO Power+"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"230","availability":"https://schema.org/InStock","url":"https://amzn.to/4ocVcXS"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "EGO Power+ LB6504 Leaf Blower",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The EGO LB6504 is the cordless leaf blower that finally convinced Canadian homeowners to ditch gas. The 650 CFM output handles everything a typical suburban lot throws at it — wet fall leaves, pine needles, light snow off decks — and the quiet operation means early morning cleanup without waking the street. If you're already in the EGO 56V ecosystem it's a natural add. If you're not, it's still worth building around."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.0",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

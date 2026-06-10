@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"BioLite CampStove 2+","description":"The BioLite CampStove 2+ is unlike any other camp stove — it burns sticks and twigs you collect at camp, converts heat into electricity to fan its own fire and charge your devices, and charges a built","brand":{"@type":"Brand","name":"BioLite"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"7.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/43jJeL7"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "BioLite CampStove 2+",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "7.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The BioLite CampStove 2+ is for campers who want to eliminate fuel dependency and add off-grid charging without adding solar panels or power banks. The trade-off is weight and cooking speed. If you primarily boil water on short trips, the MSR PocketRocket is simpler."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "7.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

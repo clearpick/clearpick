@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Ninja AF161 Max XL Air Fryer","description":"The Ninja AF161 Max XL reaches 450°F with Max Crisp Technology — superheated air that cooks up to 30% faster than a standard air fryer with up to 75% less fat than deep frying. The 5.5-quart ceramic-c","brand":{"@type":"Brand","name":"Ninja"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"120","availability":"https://schema.org/InStock","url":"https://amzn.to/4e7wQdk"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Ninja AF161 Max XL Air Fryer",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Ninja AF161 Max XL is the air fryer for Canadian households who want maximum crispiness and family-sized capacity without paying for dual-basket features they may not need. The 450°F Max Crisp Technology genuinely delivers on its promise and the 5.5 quart basket handles real family meals. If you cook for two or want to run different foods simultaneously, look at the Ninja Foodi DualZone — but for straightforward, high-performance air frying, this is the benchmark."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

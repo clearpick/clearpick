@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"DeWalt 60V FLEXVOLT Leaf Blower","description":"The DeWalt 60V FLEXVOLT Leaf Blower is the premium choice for Canadian homeowners already invested in the DeWalt FLEXVOLT battery platform — it delivers 125 MPH air speed and 600 CFM of airflow, handl","brand":{"@type":"Brand","name":"DeWalt"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3RVxX8D"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "DeWalt 60V FLEXVOLT Leaf Blower",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Best cordless blower for DEWALT FlexVolt tool owners who need contractor-grade durability. For residential homeowners without an existing DEWALT ecosystem, EGO delivers comparable residential power at lower cost."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

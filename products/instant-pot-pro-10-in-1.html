@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Instant Pot Pro 10-in-1 (6 Quart)","description":"The Instant Pot Pro 10-in-1 is the most versatile multi-cooker in Canada, replacing up to ten kitchen appliances with one countertop device. It pressure cooks up to 70% faster than traditional methods","brand":{"@type":"Brand","name":"Instant Pot"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"130","availability":"https://schema.org/InStock","url":"https://amzn.to/4dT26Oz"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Instant Pot Pro 10-in-1",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Instant Pot Pro 10-in-1 is the right pressure cooker for Canadian families who use their Instant Pot several times a week and want the best version available. The faster preheat, quieter steam release, and dishwasher-safe inner pot are genuine improvements over the Duo that daily users will notice immediately. If you're a casual user who pressure cooks once a week, the Duo at a lower price point covers your needs — but for serious meal preppers, the Pro earns its price."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

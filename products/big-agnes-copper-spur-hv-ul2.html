@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Big Agnes Copper Spur HV UL2","description":"The Big Agnes Copper Spur HV UL2 is the benchmark ultralight tent for serious backpackers in Canada — weighing just 1.02 kg (2 lb 4 oz) with a high-volume design that delivers far more liveable headro","brand":{"@type":"Brand","name":"Big Agnes"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"800","availability":"https://schema.org/InStock","url":"https://amzn.to/4fpLJdm"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Big Agnes Copper Spur HV UL2",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Copper Spur HV UL2 is purpose-built for Canadian backpackers covering serious distance. Every gram you save on shelter compounds across a 7-day trip in the backcountry. The premium is justified for anyone hiking more than 20 km between sites — car campers should buy a Coleman."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

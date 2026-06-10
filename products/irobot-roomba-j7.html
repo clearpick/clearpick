@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"iRobot Roomba j7+","description":"The iRobot Roomba j7+ has one unique feature that no other robot vacuum can match: it detects and avoids pet waste. iRobot's PrecisionVision AI recognizes solid pet accidents and steers around them — ","brand":{"@type":"Brand","name":"iRobot"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4uie0pR"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "iRobot Roomba j7+",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Roomba J7 is the robot vacuum for Canadian pet owners who've had a bad experience with a robot running through an accident. The obstacle avoidance is genuinely the best in the category and the PetKeeper Promise backs it up with real accountability. It trades some suction power for that avoidance sophistication — a worthwhile trade for households with dogs or cats where the alternative is a very bad morning."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

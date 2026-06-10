@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Gaggia Classic Pro (RI9380/46)","description":"The Gaggia Classic Pro is the espresso machine of choice for purists in Canada — a commercial-grade 58mm chrome-plated brass group head, 3-way solenoid valve, and 9-bar OPV (over-pressure valve) pre-s" ,"brand":{"@type":"Brand","name":"Gaggia"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"650","availability":"https://schema.org/InStock","url":"https://amzn.to/4etSE4c"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Gaggia Classic Pro RI9380/46",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.1",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Gaggia Classic Pro is the espresso machine for Canadians who want to genuinely learn the craft rather than automate it. The commercial 58mm portafilter, manual steam wand, and bulletproof build quality make it the entry point to serious home espresso — not because it's easy, but because it's capable of excellent results and built to last a lifetime. Pair it with a quality grinder and you have a setup that outperforms machines costing three times as much in skilled hands."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.1",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

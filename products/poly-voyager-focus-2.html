@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Poly Voyager Focus 2","description":"The Poly Voyager Focus 2 is the top-rated business headset in Canada, with a boom microphone that isolates voice from background noise using three mics and hybrid ANC. Built for Microsoft Teams and Zo","brand":{"@type":"Brand","name":"Poly"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"269","availability":"https://schema.org/InStock","url":"https://amzn.to/4vztwPn"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Poly Voyager Focus 2",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.2",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Poly Voyager Focus 2 is the professional headset for Canadian remote workers and hybrid professionals who need to sound absolutely clear on every call. Poly's acoustic fence microphone technology is trusted by enterprise IT departments for a reason — it makes you sound like you're in a recording studio regardless of your actual environment."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.2",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

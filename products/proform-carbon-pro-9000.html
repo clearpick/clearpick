@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"ProForm Carbon Pro 9000 Treadmill","description":"The ProForm Carbon Pro 9000 delivers the iFIT connected training experience at a lower price than the NordicTrack 1750 — it includes a 10-inch touchscreen, iFIT trainer-led workouts, 12% incline capab","brand":{"@type":"Brand","name":"ProForm"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.7","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3SpWmmO"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "ProForm Carbon Pro 9000 Treadmill",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The ProForm Carbon Pro 9000 is for Canadian runners who want a serious training treadmill with interactive iFIT programming and a large running deck. The 3.6 CHP motor, 20x60 inch deck, and auto-adjusting iFIT workouts make it a complete home training solution. Compare it directly to the NordicTrack 1750 before buying — at similar price points the NordicTrack has a more powerful motor and wider incline range, while the ProForm models offer larger touchscreens."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

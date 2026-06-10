@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Jabra Evolve2 75","description":"The Jabra Evolve2 75 is the gold standard for hybrid workers who spend hours on calls and virtual meetings — its 8-mic array with advanced call technology makes your voice sound professional in any en","brand":{"@type":"Brand","name":"Jabra"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4dT971M"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Jabra Evolve2 75",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Jabra Evolve2 75 is the premium upgrade for Canadian professionals who need the absolute best call quality available in a wireless headset. The eight-mic system and over-ear ANC make it the top choice for executives, sales professionals, and anyone whose reputation depends on how they sound on a call."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

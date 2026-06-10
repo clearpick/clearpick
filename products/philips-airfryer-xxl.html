@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Philips Airfryer XXL","description":"The Philips Airfryer XXL is the original premium air fryer and still one of the best — its patented Rapid Air technology creates a high-speed vortex of hot air that cooks food up to 90% less fat than " ,"brand":{"@type":"Brand","name":"Philips"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"280","availability":"https://schema.org/InStock","url":"https://amzn.to/4dQUbBe"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Philips Airfryer XXL",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Philips Airfryer XXL is for Canadian households that want the best air frying results available without compromise. The Rapid Air Technology produces genuinely superior cooking evenness and the Fat Removal function delivers on the health promise that cheaper air fryers only imply. The premium price is real — but for performance-focused buyers who cook for a family and want results that match what they see on the box, Philips earns it."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

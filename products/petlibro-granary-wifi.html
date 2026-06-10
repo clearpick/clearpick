@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"PETLIBRO Granary WiFi Automatic Cat Feeder","description":"The PETLIBRO Granary WiFi is the best smart automatic cat feeder for Canadian pet owners who want to monitor and control their cat's feeding schedule from anywhere — it connects directly to your WiFi ","brand":{"@type":"Brand","name":"PETLIBRO"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3QtEXsS"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "PETLIBRO Granary WiFi Automatic Cat Feeder",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The PETLIBRO Granary WiFi Feeder is for Canadian pet owners who travel regularly or work unpredictable hours and need reliable automated feeding with remote verification. The camera, precise scheduling, and secure lid make it the most complete automatic feeder in the mid-price category. If you just need basic timed feeding without camera monitoring, there are simpler options — but for full remote feeding management, the Granary WiFi delivers."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

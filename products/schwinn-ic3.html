@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Schwinn IC3 Indoor Cycling Bike","description":"The Schwinn IC3 is the entry point into serious indoor cycling, with 20 levels of felt-pad resistance and full Bluetooth connectivity for Zwift and Peloton apps. Lighter and more compact than the IC4,","brand":{"@type":"Brand","name":"Schwinn"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"699","availability":"https://schema.org/InStock","url":"https://amzn.to/4xeTgC4"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Schwinn IC3 Indoor Cycling Bike",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Schwinn IC3 is for Canadian home cyclists who want reliable indoor cycling performance without paying for app connectivity they won't use. The friction resistance, SPD-compatible pedals, and solid steel frame deliver genuine cycling performance at a price that makes it accessible without compromise. If you plan to use Peloton, Zwift, or any fitness app, step up to the IC4 — but for straightforward daily cycling, the IC3 is the practical choice."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.0",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

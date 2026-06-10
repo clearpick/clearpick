@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Breville Bambino Plus (BES500BSS)","description":"The Breville Bambino Plus is the best compact espresso machine in Canada for home baristas who want genuine café quality without a large footprint. It heats up in just 3 seconds using ThermoJet techno" ,"brand":{"@type":"Brand","name":"Breville"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"600","availability":"https://schema.org/InStock","url":"https://amzn.to/4uX6H8c"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Breville Bambino Plus BES500BSS",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.4",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Breville Bambino Plus is the espresso machine for Canadians who want café-quality lattes and cappuccinos at home without barista training or a large machine footprint. The 3-second heat-up and automatic steam wand make daily use genuinely effortless. Pair it with a quality grinder and you have a setup that rivals machines costing twice as much. If you want the grinder built in for simplicity, look at the Barista Express — but for pure espresso quality in the smallest possible package, the Bambino Plus wins."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.4",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

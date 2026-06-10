@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"EPOS IMPACT 1000","description":"The EPOS IMPACT 1000 is built for enterprise environments where call quality and all-day comfort are non-negotiable. EPOS (formerly Sennheiser Communications) brings German audio engineering to a head","brand":{"@type":"Brand","name":"EPOS"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.3","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4uq3m0q"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "EPOS IMPACT 1000",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.3",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The EPOS IMPACT 1000 is for Canadian contact centre professionals and enterprise teams who need the most reliable, clear-sounding headset for high-volume calling environments. The DECT wireless, Voice Clarity microphone, and UC platform compatibility make it the professional standard for organisations where call quality is mission-critical. Consumer buyers should look at Jabra or Poly instead."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.3",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Cosori Pro LE 5.8-Qt Air Fryer","description":"The Cosori Pro LE 5.8-Qt is the best value air fryer in Canada — it delivers crispy, consistent results, connects to the Cosori app for 100+ guided recipes, and runs quieter than most competitors. Wit","brand":{"@type":"Brand","name":"Cosori"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.6","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3QcYZaS"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Cosori Pro LE 5.8-Qt Air Fryer",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Cosori Pro LE is for Canadian households that want smart connectivity alongside solid air frying performance. The app control, quiet operation, and 12 presets make it one of the most user-friendly air fryers in the mid-tier category. If you want WiFi control and a quieter kitchen, the Cosori edges out Ninja at this price point. If dual-zone cooking is a priority, step up to the Ninja Foodi DualZone instead."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

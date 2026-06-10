@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Ryobi 40V Whisper Series Leaf Blower","description":"The Ryobi 40V Whisper Series is the quietest leaf blower available in Canada — it operates at 59 dB, which is roughly conversation level, making it the only blower you can use early morning or in nois","brand":{"@type":"Brand","name":"Ryobi"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.6","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4vAFqsd"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Ryobi 40V Whisper Series Leaf Blower",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Best cordless blower for RYOBI tool ecosystem owners who want quieter operation. The Whisper noise reduction is meaningful for use before 9am in suburban neighbourhoods. If you don't already own RYOBI 40V tools, EGO 56V gives more power for similar investment."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

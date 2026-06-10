@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Rosetta Stone","description":"Rosetta Stone remains the most immersive language learning platform in Canada, teaching 25 languages through context-based lessons that mirror how children naturally acquire language — no translation,","brand":{"@type":"Brand","name":"Rosetta Stone"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"200 (lifetime)","availability":"https://schema.org/InStock","url":"https://amzn.to/4ofa2x9"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Rosetta Stone",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Rosetta Stone is for Canadian learners who want thorough immersive language acquisition, particularly for French which is uniquely valuable in Canada for professional development and federal employment. The lifetime subscription option and 24-language access make it the best long-term value for serious language learners. For faster conversational ability, Pimsleur's audio-focused method gets to speaking sooner — but for deep, lasting language fluency, Rosetta Stone's immersion approach delivers."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

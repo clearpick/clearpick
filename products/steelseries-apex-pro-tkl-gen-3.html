@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"SteelSeries Apex Pro TKL Gen 3 Keyboard","description":"The SteelSeries Apex Pro TKL Gen 3 features OmniPoint 2.0 adjustable magnetic switches — the most configurable gaming keyboard switches available — letting you set actuation per individual key from 0.","brand":{"@type":"Brand","name":"SteelSeries"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"9.0","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4fPwQBt"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "SteelSeries Apex Pro TKL Gen 3 Keyboard",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The SteelSeries Apex Pro TKL Gen 3 is the competitive gaming keyboard benchmark for Canadian FPS players. The OmniPoint 3.0 switches with adjustable actuation, proven rapid trigger implementation, and complete out-of-box package make it the standard recommendation for serious competitive gaming. If Hall effect performance with a better typing experience is the priority, the Keychron Q1 HE is the better all-day keyboard — but for pure competitive gaming performance, the Apex Pro Gen 3 leads the category."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.0",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

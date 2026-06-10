@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Anker Soundcore Space Q45","description":"The Anker Soundcore Space Q45 delivers genuine active noise cancellation and hi-res audio certification at a price that makes every competitor blush. With 50-hour battery life and adaptive ANC that ad","brand":{"@type":"Brand","name":"Anker"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"79","availability":"https://schema.org/InStock","url":"https://amzn.to/4oayyzp"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Anker Soundcore Space Q45",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.4",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Anker Soundcore Space Q45 is the answer for Canadian buyers who want wireless ANC headphones without spending $300+. The battery life, LDAC support, and app-controlled EQ punch well above the price point. For students, budget-conscious commuters, or anyone who wants a capable everyday headphone without a big investment, this is the clear pick."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.4",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

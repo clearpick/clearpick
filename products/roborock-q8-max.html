@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"roborock Q8 Max+","description":"The roborock Q8 Max+ combines 5500Pa HyperForce suction with an auto-empty dock that holds up to 7 weeks of debris, meaning you almost never touch the dustbin. Its reactive tech obstacle avoidance ste","brand":{"@type":"Brand","name":"roborock"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"550","availability":"https://schema.org/InStock","url":"https://amzn.to/3RO8mhW"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "roborock Q8 Max+",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The roborock Q8 Max is the robot vacuum that Canadian Reddit users recommend most consistently, and the reasons are straightforward — reliable mapping, genuine pet hair performance, and a vacuum-mop combo that actually works. It sits in the sweet spot between budget models that can't navigate properly and premium models that cost twice as much. For Canadian households with pets and mixed hard floor and carpet, this is the one most people end up with."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

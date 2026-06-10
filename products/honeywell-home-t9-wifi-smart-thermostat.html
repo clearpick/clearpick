@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Honeywell Home T9 WiFi Smart Thermostat","description":"The Honeywell Home T9 is the best smart thermostat for larger Canadian homes with multiple rooms — its optional Smart Room Sensors detect which rooms are actually occupied and adjust heating/cooling a","brand":{"@type":"Brand","name":"Honeywell Home"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4vxUJ4X"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Honeywell Home T9 WiFi Smart Thermostat",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "For Canadian homeowners with larger multi-room homes where room-by-room temperature control delivers meaningful savings. The ecosystem-neutral compatibility with Alexa, Google, and HomeKit makes it the most flexible option in the smart thermostat category."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

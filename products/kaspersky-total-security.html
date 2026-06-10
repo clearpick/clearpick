@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Kaspersky Total Security","description":"Kaspersky Total Security packs more features per dollar than virtually any other security suite in Canada: real-time antivirus, a Safe Money isolated browser for online banking and shopping, unlimited","brand":{"@type":"Brand","name":"Kaspersky"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"65/yr","availability":"https://schema.org/InStock","url":"https://amzn.to/4xduuT0"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Kaspersky Total Security",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Kaspersky Total Security delivers technically excellent malware protection with a lightweight footprint. However, Canadian users should research the national security considerations before installing — the US government ban due to Russian ownership concerns and Canadian government advisories are real factors worth understanding, particularly for anyone using the device for work, banking, or sensitive personal information. For equivalent technical protection without these considerations, Bitdefender Total Security is the ClearPick recommendation for most Canadian users."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

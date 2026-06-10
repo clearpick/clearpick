@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"ProForm Pro 9000 Treadmill","description":"The ProForm Pro 9000 delivers iFIT-powered auto-incline training on a wide 22"×60" belt with 12% incline and -3% decline — matching NordicTrack's specs at a competitive price. The 10" Smart HD touchsc","brand":{"@type":"Brand","name":"ProForm"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"1799","availability":"https://schema.org/InStock","url":"https://amzn.to/4ocnDFj"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "ProForm Pro 9000 Treadmill",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The ProForm Pro 9000 is for Canadian home runners who want a large interactive touchscreen, incline and decline training, and iFIT connectivity in a foldable package. The 22-inch display is the standout feature over the NordicTrack 1750 — if screen size and immersive workouts are priorities, ProForm wins that comparison. For motor power and incline range, the NordicTrack 1750 has the edge. Both are excellent — the choice comes down to screen size versus motor performance."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

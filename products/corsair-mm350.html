@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Corsair MM350 Pro Extended XL","description":"The Corsair MM350 Pro Extended XL covers the entire desk at 930×400mm with a waterproof micro-textured cloth top and 5mm rubber base that absorbs desk vibration. Built to survive spills and late-night","brand":{"@type":"Brand","name":"Corsair"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"55","availability":"https://schema.org/InStock","url":"https://amzn.to/4x8QrCR"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Corsair MM350 Pro Extended XL",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Corsair MM350 is for Canadian gamers who prefer hard pad performance and need spill resistance for a shared desk environment. The spill-resistant coating, consistent tracking surface, and Corsair build quality make it the most practical hard pad in the mid-price category. Hard vs cloth is a genuine preference divide — if you've never tried a hard pad, the QcK Heavy is the safer starting point, but for committed hard pad users, the MM350 is the reliable choice."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Corsair Dark Core RGB Pro SE","description":"The Corsair Dark Core RGB Pro SE is a large-format wireless gaming mouse with three connectivity options including Qi wireless charging and swappable side grips that physically adapt to different hand","brand":{"@type":"Brand","name":"Corsair"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"129","availability":"https://schema.org/InStock","url":"https://amzn.to/4esC58M"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Corsair Dark Core RGB Pro SE",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Corsair Dark Core RGB Pro SE is for Canadian gamers building a full Corsair ecosystem who want wireless freedom with Qi charging flexibility. The Slipstream wireless latency and iCUE integration make it a natural choice for existing Corsair users. For gamers not invested in Corsair peripherals, the Logitech G502 X Lightspeed offers more programmable controls and PowerPlay compatibility at a comparable price."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

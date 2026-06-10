@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Ninja Foodi XL Pro DT201 Air Fry Oven","description":"The Ninja Foodi XL Pro DT201 is the most versatile countertop oven available in Canada — it can air fry, bake, roast, dehydrate, and even proof dough, with an XL capacity that fits two 12-inch pizzas ","brand":{"@type":"Brand","name":"Ninja"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.7","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3GNgqOY"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Ninja Foodi XL Pro DT201 Air Fry Oven",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Same recommendation as the Ninja Foodi XL Pro Air Oven. Verify availability in Canada."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

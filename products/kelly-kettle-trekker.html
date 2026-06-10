@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Kelly Kettle Trekker","description":"The Kelly Kettle Trekker is the classic wood-burning camp kettle that has been boiling water in the Irish outdoors since 1896 — its chimney design boils water in under 4 minutes using just twigs, pine","brand":{"@type":"Brand","name":"Kelly Kettle"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4xair9b"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Kelly Kettle Trekker",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Kelly Kettle Trekker is for campers who want to eliminate fuel dependency entirely in forested environments. The boil speed is genuinely impressive for a fuel-free system. Above treeline or where fire bans apply, pair it with a canister stove or choose the BioLite instead."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

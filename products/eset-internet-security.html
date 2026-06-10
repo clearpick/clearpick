@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"ESET Internet Security","description":"ESET Internet Security gives Canadian users access to ESET's industry-leading malware detection engine at the most affordable entry point — it covers 3 devices, includes firewall protection, anti-phis","brand":{"@type":"Brand","name":"ESET"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.7","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/49HFCNV"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "ESET Internet Security",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "ESET Internet Security is for Canadian users who want reliable malware protection with the absolute minimum system footprint. The security community's consistent recommendation, lightweight operation, and straightforward pricing make it the antivirus for users who are tired of bloated suites and aggressive upselling. For the most feature-rich protection, Norton and Bitdefender have more extras — but for clean, quiet, reliable security that respects your system resources, ESET Internet Security is the ClearPick recommendation."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

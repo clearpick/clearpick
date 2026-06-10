@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"NEMO Disco 15 Sleeping Bag","description":"The NEMO Disco 15 is the sleeping bag of choice for side sleepers across Canada — its unique spoon-shaped cut flares at the knees and hips so you can sleep in any position without fighting the bag. Th","brand":{"@type":"Brand","name":"NEMO"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"380","availability":"https://schema.org/InStock","url":"https://amzn.to/43Q3BqD"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "NEMO Disco 15 Sleeping Bag",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The NEMO Disco 15 is for Canadian campers who prioritize sleep quality over minimum weight. If you sleep on your side and spend three-season nights where temperatures drop into single digits, this bag solves a real problem. Pure gram-counters should look at a standard mummy."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

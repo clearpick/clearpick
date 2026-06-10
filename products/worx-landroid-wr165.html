@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"WORX Landroid WR165 Robot Lawn Mower","description":"The WORX Landroid WR165 is the most accessible robot lawn mower in Canada — it handles lawns up to 1/8 acre, uses a boundary wire system to stay in your yard, and operates quietly enough to run while ","brand":{"@type":"Brand","name":"WORX"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.1","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4uY0SaT"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "WORX Landroid WR165 Robot Lawn Mower",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.1",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The best budget robotic lawn mower for small urban lots under 500 m². If you have a compact backyard and don't want to spend $2,000 on a Husqvarna, the WORX Landroid delivers the core automated mowing experience at an accessible price. Expect to manage more edge trimming than with premium models."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.1",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

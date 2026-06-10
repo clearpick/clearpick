@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Instant Vortex Plus 6-Qt Air Fryer","description":"The Instant Vortex Plus 6-Quart Air Fryer is the sweet spot for Canadian households of 2-4 people — large enough to cook a full chicken or a generous batch of fries, with clear cooking presets and an ","brand":{"@type":"Brand","name":"Instant"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3RXbbh3"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Instant Vortex Plus 6-Qt Air Fryer",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Instant Vortex Plus is the best mid-range air fryer for home cooks who value consistent results and quieter operation. The EvenCrisp technology genuinely reduces the need to shake or rotate food mid-cook. Excellent for daily use by 2–4 person households."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"PETLIBRO One RFID Microchip Cat Feeder","description":"The PETLIBRO One RFID Microchip Cat Feeder reads your cat's existing microchip or RFID collar tag and opens only for that specific cat — solving the universal problem in multi-cat Canadian households ","brand":{"@type":"Brand","name":"PETLIBRO"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.9","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3QtEXsS"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "PETLIBRO One RFID Microchip Cat Feeder",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The PETLIBRO One RFID Cat Feeder is the solution for Canadian multi-cat households where one cat eats another's food — whether due to medical dietary needs, weight management, or simple competition. The microchip detection that opens only for the registered cat solves a problem that no standard automatic feeder can address. If your cats eat the same food and competition isn't an issue, a standard timed feeder covers your needs for less — but for separated feeding, the RFID system is irreplaceable."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

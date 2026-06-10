@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Keychron Q1 HE Wireless","description":"The Keychron Q1 HE is a gasket-mounted keyboard with magnetic Hall-effect switches and a CNC-machined aluminum body — delivering a premium typing and gaming experience that undercuts most custom board","brand":{"@type":"Brand","name":"Keychron"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"219","availability":"https://schema.org/InStock","url":"https://amzn.to/4eogBtL"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Keychron Q1 HE Wireless",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.1",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Keychron Q1 HE is for Canadian gamers who want Hall effect magnetic switch performance without sacrificing typing quality for daily productivity use. The double-gasket mount, aluminum case, and wireless connectivity make it the most premium-feeling Hall effect keyboard at this price. For pure competitive gaming setups where the OLED display and wrist rest matter, the SteelSeries Apex Pro has the gaming-specific edge — but for gamers who type all day and game in the evening, the Q1 HE is the better all-day keyboard."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.1",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

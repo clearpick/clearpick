@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"HyperX Cloud III Wireless","description":"The HyperX Cloud III Wireless is the best all-around gaming headset under $200 CAD — it delivers clear, punchy gaming audio, a great detachable mic for squad comms, and 100 hours of battery life that ","brand":{"@type":"Brand","name":"HyperX"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.3","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4dWdysJ"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "HyperX Cloud III Wireless",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.3",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The HyperX Cloud III Wireless is the gaming headset for Canadian PC and PlayStation players who want low-latency wireless audio without compromise. The 100-hour battery, accurate positional audio, and 2.4GHz connection solve the three problems that make gaming headsets frustrating. It's not the right choice for travel or office use — it's purely built for gaming and it does that exceptionally well."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.3",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"JBL Live 780NC","description":"The JBL Live 780NC delivers JBL's signature bass-forward sound with adaptive noise cancellation and a 65-hour battery — the go-to pick for Canadians who want punchy audio for workouts and commutes wit","brand":{"@type":"Brand","name":"JBL"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"199","availability":"https://schema.org/InStock","url":"https://amzn.to/4fqt2X1"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "JBL Live 780NC",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.3",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The JBL Live 780NC is the right headphone for Canadian listeners who want strong battery life, solid ANC, and an energetic sound signature without paying Sony or Bose flagship prices. The 65-hour runtime makes it the practical choice for frequent travellers who don't want to think about charging, and the JBL bass tuning suits casual listening well."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.3",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

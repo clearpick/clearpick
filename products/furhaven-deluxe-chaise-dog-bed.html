@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Furhaven Deluxe Chaise Dog Bed","description":"The Furhaven Deluxe Chaise Dog Bed combines the joint-supporting foam base of an orthopedic dog bed with a plush velvet cover in a chaise lounge shape — giving dogs who like to rest their head on a bo","brand":{"@type":"Brand","name":"Furhaven"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.6","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4oaHVyU"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Furhaven Deluxe Chaise Dog Bed",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The FurHaven Deluxe Chaise Dog Bed is for Canadian pet owners who want a comfortable, design-forward bed that accommodates how their dog actually sleeps. The chaise design genuinely supports natural dog sleeping positions and the multiple size options cover large Canadian breeds well. For senior dogs or those with joint issues, step up to an orthopedic memory foam bed — but for healthy dogs who just need a comfortable, good-looking place to sleep, the FurHaven Chaise delivers."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

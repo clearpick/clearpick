@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Turtle Beach Stealth Pro Wireless","description":"The Turtle Beach Stealth Pro Wireless is the premium multi-platform gaming headset — it works across Xbox, PlayStation, and PC with swappable batteries so you never run out mid-session. Turtle Beach p","brand":{"@type":"Brand","name":"Turtle Beach"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.3","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4oi2olx"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Turtle Beach Stealth Pro Wireless",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.3",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Turtle Beach Stealth Pro Wireless is for serious Canadian gamers who play across multiple platforms and want one premium headset to cover all of them. The swappable battery system, simultaneous dual wireless, and SuperHuman Hearing make it a technically impressive option for competitive and cross-platform play. If you primarily play one platform, comparable performance is available for less."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.3",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Sonos Era 100","description":"The Sonos Era 100 is the best-sounding smart speaker for music-serious Canadians — it delivers a wider stereo sound stage than any previous Sonos One thanks to angled tweeters, supports Apple AirPlay ","brand":{"@type":"Brand","name":"Sonos"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.6","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/43VHz5S"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Sonos Era 100",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "For Canadian music lovers who want a compact speaker that prioritizes sound quality over smart home features. Trueplay calibration, true stereo separation, and Sonos multi-room integration make it the best-sounding compact speaker in its category — just don't buy it expecting Echo-level smart home control."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

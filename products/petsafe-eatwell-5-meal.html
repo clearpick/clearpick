@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"PetSafe Eatwell 5-Meal Automatic Pet Feeder","description":"The PetSafe Eatwell 5-Meal is the most reliable simple automatic pet feeder in Canada — no WiFi, no app, no subscription. It has five individual compartments that rotate on a programmable timer, can f","brand":{"@type":"Brand","name":"PetSafe"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.4","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4esi4iB"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "PetSafe Eatwell 5-Meal Automatic Pet Feeder",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.4",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The PetSafe Eatwell 5-Meal Feeder is for Canadian pet owners who want simple, reliable automated feeding without smart home complexity. The battery-powered rotating tray, five-meal capacity, and zero connectivity requirements make it the most dependable automatic feeder for short absences. For multi-day travel or remote meal monitoring, the PETLIBRO WiFi feeder is the better tool — but for straightforward day-trip and overnight feeding without any setup complexity, the Eatwell delivers exactly what it promises."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.4",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

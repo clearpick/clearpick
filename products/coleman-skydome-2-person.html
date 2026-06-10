@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Coleman Skydome 2-Person Tent","description":"The Coleman Skydome 2-Person Tent is the best entry-level 2-person tent for Canadian campers — it sets up in under 5 minutes with Coleman's pre-attached poles, offers 20% more headroom than a standard","brand":{"@type":"Brand","name":"Coleman"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.3","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3GJOxvB"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Coleman Skydome 2-Person Tent",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.3",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Coleman Skydome 2-person is the go-to starter tent for Canadian couples and solo campers who camp at established sites. Fast setup, honest weather protection, and an honest price. Backpackers who need to carry their shelter should look at the Big Agnes or MSR options."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.3",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

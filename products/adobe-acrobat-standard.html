@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Adobe Acrobat Standard","description":"Adobe Acrobat Standard is the definitive PDF tool for professionals in Canada — you can edit text and images directly in PDFs, convert files from Word, Excel, and PowerPoint to and from PDF, add legal","brand":{"@type":"Brand","name":"Adobe"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"220/yr","availability":"https://schema.org/InStock","url":"https://amzn.to/4uUnpW1"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Adobe Acrobat Standard",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.2",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Adobe Acrobat Standard is for Canadian professionals who work with PDFs daily and need editing, conversion, and e-signature capability in the industry-standard software. The conversion accuracy, direct PDF editing, and built-in e-signatures justify the subscription cost for regular users. For occasional PDF needs, free tools and browser-based solutions cover most requirements — but for Canadian professionals whose workflow depends on PDF reliability and compatibility, Acrobat Standard is the professional choice."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.2",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

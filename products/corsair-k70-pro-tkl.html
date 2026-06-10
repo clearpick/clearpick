@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"CORSAIR K70 PRO TKL","description":"The CORSAIR K70 PRO TKL delivers a compact tenkeyless layout with CORSAIR's RAPIDTRIGGER technology, per-key RGB, and Cherry MX switches — backed by CORSAIR's iCUE software for deep macro and lighting","brand":{"@type":"Brand","name":"CORSAIR"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"179","availability":"https://schema.org/InStock","url":"https://amzn.to/4e2geFj"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "CORSAIR K70 PRO TKL",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Corsair K70 Pro TKL is for Canadian gamers who want fast, reliable gaming performance in a TKL form factor with full Corsair ecosystem integration. The MGX switches, iCUE compatibility, and USB-C cable make it a complete gaming keyboard. For gamers who want hot-swappable switches or a premium typing experience alongside gaming, the Keychron Q1 HE offers more flexibility — but for pure gaming performance in a Corsair setup, the K70 Pro TKL delivers."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Westinghouse ePX3500 Electric Pressure Washer","description":"The Westinghouse ePX3500 delivers the strongest electric pressure washing performance available in Canada — 3500 PSI of pressure tackles jobs that would normally require a gas machine, including strip","brand":{"@type":"Brand","name":"Westinghouse"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/43lnPIQ"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Westinghouse ePX3500 Electric Pressure Washer",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Purpose-built for people who need professional-grade pressure washing power. Stripping concrete sealant, cleaning large agricultural equipment, or running a pressure washing side business — the EPX3500 handles it all. Residential homeowners are better served by the quieter, simpler Sun-Joe or Greenworks options."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

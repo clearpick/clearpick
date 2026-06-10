@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"PowerBlock Elite EXP Adjustable Dumbbells","description":"The PowerBlock Elite EXP replaces 16 pairs of dumbbells in a shoebox footprint, with a steel build that outlasts plastic dial-based alternatives. Expandable to 90 lbs per hand via add-on kits, so they","brand":{"@type":"Brand","name":"PowerBlock"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"549","availability":"https://schema.org/InStock","url":"https://amzn.to/3RRdtxO"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "PowerBlock Elite EXP Adjustable Dumbbells",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The PowerBlock Elite EXP is the adjustable dumbbell for Canadian home gym owners who train seriously and need a reliable, expandable system that lasts. The magnetic selector, 330 lb capacity, and expandability to 90 lbs make it the most practical heavy-use adjustable dumbbell available. The block shape takes adjustment but the reliability and space savings make it the long-term choice for dedicated home lifters."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Breville Smart Oven Air Fryer Compact (BOV680BSS)","description":"The Breville Smart Oven Air Fryer Compact is the upgrade pick for anyone who wants true oven performance plus air frying in a compact countertop footprint. Element IQ directs heat precisely across fou" ,"brand":{"@type":"Brand","name":"Breville"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"350","availability":"https://schema.org/InStock","url":"https://amzn.to/43nn5Tv"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Breville Smart Oven Air Fryer Compact",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Best for small kitchen owners who want air fryer capability without giving up a full toaster oven slot. The compact size is both its strength and limitation. If your kitchen has space, the full-size Breville Smart Oven Air Fryer does more."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

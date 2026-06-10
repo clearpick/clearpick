@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"De'Longhi La Specialista Maestro EC9665M","description":"The De'Longhi La Specialista Maestro is the most automated premium espresso machine in Canada — sensor grinding technology weighs the dose and adjusts grind size automatically for a perfect extraction" ,"brand":{"@type":"Brand","name":"De'Longhi"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"1500","availability":"https://schema.org/InStock","url":"https://amzn.to/4et6zaH"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "De'Longhi La Specialista Maestro EC9665M",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Same purchase recommendation as the La Specialista Maestro listing."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Husqvarna Automower 415X Robotic Lawn Mower","description":"The Husqvarna Automower 415X is the most capable residential robotic mower in Canada, handling up to 0.4 acres of lawn including slopes up to 40% incline — steeper than almost any competitor. It uses ","brand":{"@type":"Brand","name":"Husqvarna"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"1,800","availability":"https://schema.org/InStock","url":"https://amzn.to/3RRbaea"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Husqvarna Automower 415X",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Husqvarna Automower 415X is for Canadian homeowners who have decided their weekends are worth more than the cost of the mower. Once the boundary wire is in place it genuinely runs itself — quietly, consistently, and without fuel or maintenance costs. The price is real but so is the time it gives back every week from May through October. If your lawn is under 0.4 acres and you hate mowing, this pays for itself in peace of mind within a single season."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

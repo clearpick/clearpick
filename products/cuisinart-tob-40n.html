@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Cuisinart TOB-40N","description":"The Cuisinart TOB-40N Custom Classic Toaster Oven is the best no-frills toaster oven for Canadian buyers who want reliable, consistent performance without spending Breville money. It handles toast, ba","brand":{"@type":"Brand","name":"Cuisinart"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.1","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4fwQRMW"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Cuisinart TOB-40N",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.1",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Cuisinart TOB-40N is the no-frills toaster oven for Canadians who want reliable daily performance without paying for features they won't use. It toasts evenly, broils effectively, and cleans up easily. For a first apartment, a cottage, or anyone who just needs a simple countertop oven without complexity, it's the clear practical choice."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.1",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

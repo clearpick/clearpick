@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Schwinn IC4 Indoor Cycling Bike","description":"The Schwinn IC4 rivals Peloton at a fraction of the price, offering 100 magnetic resistance levels and full compatibility with Peloton, Zwift, and JRNY apps. Ships with a Bluetooth heart rate monitor,","brand":{"@type":"Brand","name":"Schwinn"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"999","availability":"https://schema.org/InStock","url":"https://amzn.to/3RTN4PV"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Schwinn IC4 Indoor Cycling Bike",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Schwinn IC4 is the indoor cycling bike for Canadians who want a premium ride quality and app-connected workouts without paying Peloton prices. The 40 lb flywheel, 100 resistance levels, and native Bluetooth connectivity deliver a gym-quality cycling experience that Peloton app users consistently rate as comparable to the actual Peloton bike at a fraction of the cost. If you don't need Bluetooth and just want a simple stationary bike, the IC3 saves you money — but for connected training, the IC4 is the clear pick."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

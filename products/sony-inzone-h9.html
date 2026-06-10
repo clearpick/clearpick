@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Sony INZONE H9 Wireless","description":"The Sony INZONE H9 is built for PlayStation 5 with Sony's 360 Spatial Sound for Gaming and class-leading ANC borrowed from the WH-1000XM line. Works equally well on PC via the 2.4GHz USB dongle.","brand":{"@type":"Brand","name":"Sony"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"299","availability":"https://schema.org/InStock","url":"https://amzn.to/4vsOuiM"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Sony INZONE H9 Wireless",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.2",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Sony INZONE H9 is for Canadian PlayStation 5 gamers who want flagship gaming audio without giving up ANC for the commute home. The 360 Spatial Sound with head tracking is the best immersive audio experience available on PS5, and genuine Sony-grade ANC in a gaming headset is a real differentiator. If you're deep in the PlayStation ecosystem and want one headset that handles gaming and daily life equally well, this is it."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.2",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

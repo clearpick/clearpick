@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Coleman Skydome 4-Person Camping Tent","description":"The Coleman Skydome is the most practical family tent in Canada for car camping trips — Dark Room technology blocks 90% of sunlight so kids actually sleep in, and the pre-attached, colour-coded poles ","brand":{"@type":"Brand","name":"Coleman"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"160","availability":"https://schema.org/InStock","url":"https://amzn.to/4ujGeRm"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Coleman Skydome 4-Person",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.3",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Coleman Skydome 4-person is the family car camping tent that does everything right at a price that doesn't require a second thought. The 10-minute setup is genuine, the weather protection is solid for Canadian summers, and the space is honest. Don't take it above treeline."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.3",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

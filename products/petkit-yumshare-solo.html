@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"PETKIT YumShare Solo Automatic Pet Feeder","description":"The PETKIT YumShare Solo is the premium automatic pet feeder for single-pet households in Canada — it uses a DesiCcare desiccant system to keep kibble fresh longer, has dual power supply (AC + battery","brand":{"@type":"Brand","name":"PETKIT"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.6","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4fri1ER"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "PETKIT YumShare Solo Automatic Pet Feeder",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The PETKIT YumShare Solo is for Canadian cat owners in smaller living spaces who want automated feeding and a hygienic water source in one compact unit. The dual stainless steel bowls solve the plastic bowl hygiene concern that many cat owners deal with, and the combined food-water design saves meaningful space in smaller Canadian apartments. For cats that prefer flowing water, pair it with a separate fountain — but for cats that drink from standing water, the YumShare Solo is a practical all-in-one solution."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"eufy Auto-Empty C10","description":"The eufy Auto-Empty C10 brings self-emptying capability to the most affordable price point in Canada — it vacuums your floors and empties itself into the base station, so you only need to empty the ba","brand":{"@type":"Brand","name":"eufy"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"7.8","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4uXYJfl"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "eufy Auto-Empty C10",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "7.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The eufy AutoEmpty C10 is the simplest path to a self-emptying robot vacuum without paying for navigation or mopping features you may not need. The slim profile, reliable suction, and genuinely compact self-empty station make it ideal for smaller Canadian homes and apartments. If you want set-it-and-forget-it vacuuming without the complexity of full smart mapping, this delivers exactly that."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "7.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

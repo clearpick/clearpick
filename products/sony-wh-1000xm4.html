@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Sony WH-1000XM4","description":"The Sony WH-1000XM4 is the previous flagship — and at its current Canadian street price, it offers nearly identical noise cancellation and sound quality to the XM5 at $80–$120 CAD less. The smartest v","brand":{"@type":"Brand","name":"Sony"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"279","availability":"https://schema.org/InStock","url":"https://amzn.to/4ofRjBs"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Sony WH-1000XM4",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Sony WH-1000XM4 is the headphone that proves last year's flagship is often this year's best value. The ANC is still class-competitive, the sound quality is excellent, and the foldable design makes it genuinely more practical for travel than its successor. If you find it on sale for under $200 CAD — which happens regularly at Canadian retailers — it's one of the best headphone purchases you can make."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

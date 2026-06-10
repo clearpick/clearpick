@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Pimsleur Premium All Access","description":"Pimsleur Premium All Access is the best language learning program in Canada for people who want to actually speak and understand a language rather than just read flashcards. Its audio-first, spaced-re","brand":{"@type":"Brand","name":"Pimsleur"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4fw3mZ9"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Pimsleur Premium All Access",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Pimsleur Premium All Access is for Canadian adults who want the fastest path to conversational speaking ability across multiple languages. The audio-first method, 30-minute lesson format, and proven methodology make it the best language learning tool for busy Canadians who commute, exercise, or have limited dedicated study time. For deep written language proficiency and immersive long-term acquisition, Rosetta Stone's method complements Pimsleur well — but for getting to actual conversation quickly, Pimsleur is unmatched."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

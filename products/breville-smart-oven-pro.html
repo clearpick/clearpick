@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Breville Smart Oven Pro (BOV845BSS)","description":"The Breville Smart Oven Pro is the flagship countertop oven in Canada — a full step up from the Compact with five quartz heating elements (vs four), an interior oven light so you can actually see your" ,"brand":{"@type":"Brand","name":"Breville"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"400","availability":"https://schema.org/InStock","url":"https://amzn.to/4xg5HNY"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Breville Smart Oven Pro BOV845BSS",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Smart Oven Pro is the best full-featured countertop oven in Breville's lineup. If you're replacing a conventional oven or supplementing it for speed, the convection and slow cook functions make it genuinely useful beyond toast. Excellent for apartment cooks who want oven-quality results."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

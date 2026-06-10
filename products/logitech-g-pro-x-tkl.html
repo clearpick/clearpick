@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Logitech G PRO X TKL Rapid","description":"Developed with esports pros, the Logitech G PRO X TKL Rapid features magnetic Hall-effect switches with adjustable rapid trigger — detecting keystrokes as short as 0.1mm with zero debounce. The alumin","brand":{"@type":"Brand","name":"Logitech"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"199","availability":"https://schema.org/InStock","url":"https://amzn.to/3RRy0SU"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Logitech G PRO X TKL Rapid",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Logitech G Pro X TKL Rapid is for serious competitive Canadian gamers who want professional-grade Hall effect performance with LIGHTSPEED wireless. The tournament build quality, rapid trigger support, and 1ms wireless make it the closest thing to professional esports equipment available to Canadian consumers. If you're not competing seriously, the Keychron Q1 HE delivers Hall effect performance with better typing quality for less — but for competitive players, the G Pro X TKL Rapid is the standard."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.0",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

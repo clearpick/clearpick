@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"iRobot Roomba Combo j9+","description":"The iRobot Roomba Combo j9+ brings iRobot's best-in-class obstacle avoidance to a vacuum-and-mop combination — and crucially, its mop arm retracts completely off the floor when the robot detects carpe","brand":{"@type":"Brand","name":"iRobot"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.4","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/3Qalptx"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "iRobot Roomba Combo j9+",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.4",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Roomba Combo J9 is the most complete robot vacuum-mop package iRobot has ever made. The retractable mop that lifts onto the robot's back when hitting carpet is the feature that makes it genuinely practical in mixed-floor Canadian homes — no wet carpet, no manual intervention. Combined with the J-series obstacle avoidance, it's the premium choice for households that need both vacuuming and mopping to just work without thinking about it."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.4",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

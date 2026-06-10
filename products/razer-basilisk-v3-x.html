@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Razer Basilisk V3 X HyperSpeed","description":"The Razer Basilisk V3 X HyperSpeed delivers HyperSpeed wireless at a sub-$80 CAD price point — the most affordable entry into Razer's latency-free wireless ecosystem. Reliable 18K DPI sensor in the sa","brand":{"@type":"Brand","name":"Razer"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"79","availability":"https://schema.org/InStock","url":"https://amzn.to/43o9UBI"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Razer Basilisk V3 X HyperSpeed",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Razer Basilisk V3 X HyperSpeed is for Canadian gamers who want Razer wireless performance without the premium pricing of the V3 Pro. The HyperSpeed sub-1ms wireless and Focus X sensor deliver genuine competitive performance at a significantly lower price. If HyperScroll, Qi charging, and glass-surface tracking are features you'll use, the V3 Pro justifies the upgrade — but for straightforward wireless gaming performance, the X HyperSpeed punches above its price."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

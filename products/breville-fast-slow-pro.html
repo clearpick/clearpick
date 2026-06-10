@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Breville Fast Slow Pro (BPR700BSS)","description":"The Breville Fast Slow Pro is the premium alternative to Instant Pot for serious cooks who want precise control. Its unique Pressure IQ technology lets you choose from three exact pressure levels (Lo," ,"brand":{"@type":"Brand","name":"Breville"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"250","availability":"https://schema.org/InStock","url":"https://amzn.to/4et6u6T"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Breville Fast Slow Pro BPR700BSS",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Breville Fast Slow Pro is for Canadian home cooks who want both pressure cooking and genuine slow cooking performance in one appliance. The precise temperature-controlled slow cook function is the standout feature — it's what the Instant Pot's slow cook setting should have been. If slow cooking is a regular part of your meal routine, the Fast Slow Pro delivers results that the Instant Pot simply can't match on that function."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

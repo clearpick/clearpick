@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Logitech G502 X LIGHTSPEED","description":"The Logitech G502 X LIGHTSPEED is the wireless evolution of the most popular gaming mouse ever made — with the HERO 25K sensor, LIGHTFORCE hybrid optical-mechanical switches rated for 150M clicks, and","brand":{"@type":"Brand","name":"Logitech"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"179","availability":"https://schema.org/InStock","url":"https://amzn.to/4erv5sL"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Logitech G502 X LIGHTSPEED",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Logitech G502 X Lightspeed is for Canadian competitive gamers who want maximum features, the fastest switches available, and wireless freedom without battery anxiety. The LIGHTFORCE hybrid switches and HERO 25K sensor combine into one of the most technically capable gaming mice available. If weight is your priority, the G Pro X Superlight is lighter — but for features, switch speed, and PowerPlay compatibility, the G502 X leads the category."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

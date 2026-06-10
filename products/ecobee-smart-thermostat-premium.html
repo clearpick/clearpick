@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"ecobee Smart Thermostat Premium","description":"The ecobee Smart Thermostat Premium is the most feature-packed thermostat in Canada, with a built-in air quality monitor, SmartSensor for room-by-room occupancy detection, and Alexa speaker built righ","brand":{"@type":"Brand","name":"ecobee"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"299","availability":"https://schema.org/InStock","url":"https://amzn.to/4dSKnqr"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "ecobee Smart Thermostat Premium",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "For Canadian homeowners who want maximum energy savings, multi-room sensing, and built-in Alexa in one device. Check with your utility provider — Canadian rebates of $50–100 are available in many provinces and meaningfully offset the premium pricing."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.0",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

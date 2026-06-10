@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Amazon Echo Dot 5th Gen","description":"The Amazon Echo Dot 5th Gen delivers noticeably better bass than its predecessor, a built-in temperature sensor for smart automations, and can act as an Eero Wi-Fi extender. At under $70 CAD, it's the","brand":{"@type":"Brand","name":"Amazon"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"70","availability":"https://schema.org/InStock","url":"https://amzn.to/4uWdLCj"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Amazon Echo Dot 5th Gen",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.1",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Entry point for Canadians building an Alexa ecosystem. Woman & Home calls it ideal for users who want smart home convenience without complexity. The motion and temperature sensors, Zigbee/Matter hub, and Ring/ecobee compatibility make it the most capable compact Alexa device available."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.1",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

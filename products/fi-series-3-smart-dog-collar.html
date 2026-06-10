@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Fi Series 3 Smart Dog Collar","description":"The Fi Series 3 is the best GPS dog collar for Canadian dog owners who want real-time location tracking, activity monitoring, and a collar that actually survives outdoor adventures — it's fully waterp","brand":{"@type":"Brand","name":"Fi"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.7","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4od2ZF9"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Fi Series 3 Smart Dog Collar",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Fi Series 3 is for Canadian dog owners who prioritize battery life, health monitoring, and daily convenience over maximum real-time tracking precision. The 2-3 month battery and comprehensive AI behavior detection make it the most practical GPS collar for everyday use. If your dog is an escape artist who needs second-by-second live tracking, Tractive's faster update frequency is the better tool — but for most Canadian dog owners who want GPS peace of mind without weekly charging, Fi is the clear pick."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"DEWALT 2100 PSI Cordless Pressure Washer","description":"The DEWALT 2100 PSI Cordless Pressure Washer is the most practical pressure washer for Canadian users who need to clean in locations without a power outlet — boats, RVs, remote decks, and job sites. I","brand":{"@type":"Brand","name":"DEWALT"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.3","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/43Frvp3"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "DEWALT 2100 PSI Cordless Pressure Washer",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.3",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Good mid-range pressure washer for DEWALT tool ecosystem owners. The corded reliability is preferable for very long cleaning sessions. The Greenworks Pro edges it on PSI for the toughest jobs."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.3",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

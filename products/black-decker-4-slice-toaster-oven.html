@@ -13,9 +13,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"BLACK+DECKER 4-Slice Toaster Oven TO1745SSG","description":"The BLACK+DECKER TO1745SSG is the no-fuss entry-level toaster oven for anyone who just needs reliable toast, baking, and broiling without spending a lot. It fits 4 slices of toast or a 9-inch pizza, h" ,"brand":{"@type":"Brand","name":"BLACK+DECKER"},"offers":{"@type":"Offer","priceCurrency":"CAD","price":"45","availability":"https://schema.org/InStock","url":"https://amzn.to/4eaHCzJ"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "BLACK+DECKER 4-Slice Toaster Oven TO1745SSG",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "7.7",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Black+Decker 4-Slice Toaster Oven is for Canadians who need a functional countertop oven at the lowest possible price. It covers the basics and nothing more. If budget is the primary constraint, it gets the job done — but anyone planning to use it daily for years should consider stepping up to the Cuisinart TOB-40N for better build quality and more consistent results."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "7.7",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Apple AirTag Dog Collar Holder","description":"The Apple AirTag Dog Collar Holder is the most elegant pet tracking solution for Canadian iPhone users — slip an AirTag into the holder, attach it to your dog's collar, and leverage the 1-billion-devi","brand":{"@type":"Brand","name":"Apple"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.5","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4oxNIyZ"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Apple AirTag Dog Collar Holder",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.5",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Apple AirTag Dog Collar Holder is the smart choice for Canadian urban dog owners who want reliable lost-dog recovery without a monthly subscription. The Find My network coverage in Canadian cities is exceptional and the zero ongoing cost makes it dramatically more affordable than GPS subscription alternatives over time. For rural properties or escape artists that need real-time live tracking, Tractive or Fi are the better tools — but for city dogs and cost-conscious owners, this is the practical pick."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.5",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

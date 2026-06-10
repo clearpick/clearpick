@@ -14,7 +14,39 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Greenworks 80V Cordless Leaf Blower","description":"The Greenworks 80V Leaf Blower is the highest-voltage battery blower in Greenworks' lineup, delivering up to 165 MPH air speed that rivals gas-powered models — without the fumes, noise, or maintenance","brand":{"@type":"Brand","name":"Greenworks"},"aggregateRating":{"@type":"AggregateRating","ratingValue":"8.6","bestRating":"10","ratingCount":"500"},"offers":{"@type":"Offer","priceCurrency":"CAD","availability":"https://schema.org/InStock","url":"https://amzn.to/4vDtiqw"}}
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Greenworks 80V Cordless Leaf Blower",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.6",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "Best cordless blower for raw power seekers. The 80V platform genuinely outperforms 56V options on wet leaves and heavy debris. Choose Greenworks 80V if raw power is the priority; choose EGO if ecosystem compatibility matters more."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.6",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
+        const w = el.style.width; el.style.width = '0%';
+        requestAnimationFrame(() => { requestAnimationFrame(() => { el.style.width = w; }); });
+      });
+    });
   </script>
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }

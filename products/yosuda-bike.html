@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"YOSUDA Indoor Cycling Bike","description":"The YOSUDA is the go-to budget option for Canadians who want a reliable cycling workout without app subscriptions. A 35 lb flywheel delivers surprisingly smooth rides, and the fully adjustable seat an","brand":{"@type":"Brand","name":"YOSUDA"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"399","availability":"https://schema.org/InStock","url":"https://amzn.to/3RSFTrh"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "YOSUDA Indoor Cycling Bike",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "7.8",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Yosuda Indoor Cycling Bike is for Canadians who want to try indoor cycling at the lowest possible entry point. It's quiet, adjustable, and functional for daily use. It won't connect to any fitness app and the resistance isn't as refined as magnetic systems — but for a first indoor cycling bike or a simple daily cardio tool, it delivers what it promises at a price that makes the commitment easy."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "7.8",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"SteelSeries QcK Heavy","description":"The SteelSeries QcK Heavy is the choice of more esports pros than any other mousepad — its extra-thick 6mm rubber base eliminates desk vibration and the micro-woven cloth surface is optimized for both","brand":{"@type":"Brand","name":"SteelSeries"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"49","availability":"https://schema.org/InStock","url":"https://amzn.to/4dUCrVI"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "SteelSeries QcK Heavy",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "9.0",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The SteelSeries QcK Heavy is the mousepad that competitive gamers return to after trying alternatives. The 6mm base, consistent micro-woven surface, and non-slip rubber make it the reliability standard in the category. It's not the flashiest pad and it doesn't need to be — it performs consistently every session for years. For Canadian gamers who want a pad that just works without thinking about it, the QcK Heavy is the clear pick."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "9.0",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';

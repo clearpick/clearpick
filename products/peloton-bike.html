@@ -14,9 +14,33 @@
 <meta content="index, follow" name="robots"/>
 <link href="../css/style.css" rel="stylesheet"/>
 <script type="application/ld+json">
-  {"@context":"https://schema.org","@type":"Product","name":"Peloton Bike","description":"The original Peloton Bike remains the gold standard for live instructor-led indoor cycling in Canada, with a 21.5" HD touchscreen, auto-resistance adjustments, and a library of 10,000+ classes. If you","brand":{"@type":"Brand","name":"Peloton"}, "offers":{"@type":"Offer","priceCurrency":"CAD","price":"1999","availability":"https://schema.org/InStock","url":"https://amzn.to/4ofAzuf"}}
-  
-    // Animate score bars on load
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "Peloton Bike",
+  "review": {
+    "@type": "Review",
+    "reviewRating": {
+      "@type": "Rating",
+      "ratingValue": "8.9",
+      "bestRating": "10"
+    },
+    "author": {
+      "@type": "Organization",
+      "name": "ClearPick"
+    },
+    "reviewBody": "The Peloton Bike is for Canadian home cyclists who want the full connected fitness experience and are committed to using it consistently. The platform, community, and live class experience are genuinely unmatched — no alternative delivers the same motivation ecosystem. The hardware and subscription cost are real, and the value only materializes if you ride regularly. If you'll use it daily, it's worth it. If you're uncertain about commitment, the Schwinn IC4 with the Peloton app gives you the classes at a fraction of the cost while you decide."
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "8.9",
+    "bestRating": "10",
+    "worstRating": "1",
+    "reviewCount": "1"
+  }
+}
+</script>
+<script>
     window.addEventListener('load', () => {
       document.querySelectorAll('.clearpick-score-bar__fill').forEach(el => {
         const w = el.style.width; el.style.width = '0%';
