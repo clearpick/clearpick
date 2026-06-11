@@ -1144,6 +1144,28 @@ a:hover { color: var(--color-primary-hover); }
   .mobile-menu-btn { display: flex; }
 }
 
+/* ─── Category Intro ─── */
+.category-intro {
+  margin-bottom: var(--space-10);
+}
+.category-intro h2 {
+  font-family: var(--font-display);
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0 0 var(--space-4);
+}
+.category-intro p {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  max-width: 72ch;
+  margin: 0 0 var(--space-3);
+}
+.category-intro p:last-child {
+  margin-bottom: 0;
+}
+
 /* ─── Amazon Gear Section ─── */
 .gear-category {
   margin-bottom: var(--space-12);
