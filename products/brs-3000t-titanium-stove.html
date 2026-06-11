@@ -16,7 +16,7 @@
 <style>
     .product-hero { padding: var(--space-12) 0 var(--space-8); }
     .product-hero__inner { display: grid; grid-template-columns: 1fr 360px; gap: var(--space-12); align-items: start; }
-    @media(max-width:768px){ .product-hero__inner { grid-template-columns:1fr; } .product-cta-box { order:-1; position:static !important; } }
+    @media(max-width:768px){ .product-hero__inner { grid-template-columns:1fr; } .product-cta-box { order:-1; } }
     .product-hero__category { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--color-accent); margin-bottom:var(--space-3); }
     .product-hero__title { font-size:clamp(1.6rem, 2.5vw + 1rem, 2.6rem); font-weight:800; line-height:1.15; color:var(--color-text-primary); margin-bottom:var(--space-4); }
     .product-hero__tag { display:inline-block; background:rgba(26,140,255,.12); color:var(--color-accent); padding:4px 14px; border-radius:99px; font-size:var(--text-sm); font-weight:700; margin-bottom:var(--space-5); }
@@ -25,7 +25,8 @@
     .product-hero__specs summary { padding:var(--space-4) var(--space-5); font-weight:700; font-size:var(--text-sm); cursor:pointer; list-style:none; display:flex; justify-content:space-between; align-items:center; color:var(--color-text-primary); }
     .product-hero__specs summary::after { content:"▾"; }
     .product-hero__specs[open] summary::after { content:"▴"; }
-    .product-cta-box { background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-2xl); padding:var(--space-8); position:sticky; top:calc(64px + var(--space-6)); }
+    .product-cta-box { background:var(--color-surface); border:1px solid var(--color-border); border-radius:var(--radius-2xl); padding:var(--space-8); }
+    @media(min-width:769px){ .product-cta-box { position:sticky; top:calc(64px + var(--space-6)); } }
     .product-cta-box__badge { font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.08em; color:var(--color-accent); margin-bottom:var(--space-3); }
     .product-cta-box__name { font-size:var(--text-lg); font-weight:800; color:var(--color-text-primary); margin-bottom:var(--space-2); line-height:1.3; }
     .product-cta-box__price { font-size:var(--text-xl); font-weight:800; color:var(--color-text-primary); margin-bottom:var(--space-6); }
