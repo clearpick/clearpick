@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
@@ -370,76 +370,61 @@
   </script>
   <script>
   (function () {
-    const PRODUCTS = [
-      { name: "Sony WH-1000XM5", tag: "Best for Commuting", category: "Headphones", url: "https://amzn.to/49K2mwR", icon: "🎧", page: "headphones.html" },
-      { name: "SteelSeries Arctis Nova Pro Wireless", tag: "Best for Gaming", category: "Headphones", url: "https://amzn.to/3RQvDje", icon: "🎧", page: "headphones.html" },
-      { name: "Jabra Evolve2 65", tag: "Best for Calls", category: "Headphones", url: "https://amzn.to/3RMFGpz", icon: "🎧", page: "headphones.html" },
-      { name: "Anker Soundcore Space Q45", tag: "Best Budget Pick", category: "Headphones", url: "https://amzn.to/4oayyzp", icon: "🎧", page: "headphones.html" },
-      { name: "Instant Pot Pro 10-in-1", tag: "Best for Meal Preppers", category: "Kitchen", url: "https://amzn.to/4dT26Oz", icon: "🍳", page: "kitchen.html" },
-      { name: "Ninja AF161 Max XL Air Fryer", tag: "Best for Crispy Food", category: "Kitchen", url: "https://amzn.to/4e7wQdk", icon: "🍳", page: "kitchen.html" },
-      { name: "Breville Compact Smart Oven", tag: "Best for Small Kitchens", category: "Kitchen", url: "https://amzn.to/4g4XdTL", icon: "🍳", page: "kitchen.html" },
-      { name: "Breville Barista Express", tag: "Best for Coffee Lovers", category: "Kitchen", url: "https://amzn.to/4fvo4rZ", icon: "☕", page: "kitchen.html" },
-      { name: "Cuisinart Toaster Oven", tag: "Best for Beginners", category: "Kitchen", url: "https://amzn.to/4dXbjUw", icon: "🍳", page: "kitchen.html" },
-      { name: "Big Agnes Copper Spur HV UL2", tag: "Best for Backpackers", category: "Camping", url: "https://amzn.to/4fpLJdm", icon: "⛺", page: "camping.html" },
-      { name: "Coleman Skydome 4-Person", tag: "Best for Car Camping", category: "Camping", url: "https://amzn.to/4ujGeRm", icon: "⛺", page: "camping.html" },
-      { name: "BioLite CampStove 2+", tag: "Best for Survival", category: "Camping", url: "https://amzn.to/43jAzzy", icon: "🔥", page: "camping.html" },
-      { name: "NEMO Disco 15 Sleeping Bag", tag: "Best for Cold Weather", category: "Camping", url: "https://amzn.to/43Q3BqD", icon: "🏕️", page: "camping.html" },
-      { name: "Norton 360 Deluxe", tag: "Best for Families", category: "Security", url: "https://www.amazon.ca/s?k=Norton+360+Deluxe", icon: "🔒", page: "software.html" },
-      { name: "Bitdefender Total Security", tag: "Best for a Single PC", category: "Security", url: "https://www.amazon.ca/s?k=Bitdefender+Total+Security", icon: "🔒", page: "software.html" },
-      { name: "Malwarebytes Premium + Privacy VPN", tag: "Best for Privacy", category: "Security", url: "https://www.amazon.ca/s?k=Malwarebytes+Premium", icon: "🔒", page: "software.html" },
-      { name: "Kaspersky Small Office Security", tag: "Best for Business", category: "Security", url: "https://www.amazon.ca/s?k=Kaspersky+Small+Office+Security", icon: "🔒", page: "software.html" },
-      { name: "Microsoft 365 Personal", tag: "Best for Office Work", category: "Productivity", url: "https://www.amazon.ca/s?k=Microsoft+365+Personal", icon: "💼", page: "software.html" },
-      { name: "Microsoft 365 Family", tag: "Best for Students & Families", category: "Productivity", url: "https://www.amazon.ca/s?k=Microsoft+365+Family", icon: "💼", page: "software.html" },
-      { name: "Adobe Acrobat Standard", tag: "Best for PDF Work", category: "Productivity", url: "https://www.amazon.ca/s?k=Adobe+Acrobat+Standard", icon: "📄", page: "software.html" },
-      { name: "Rosetta Stone Lifetime", tag: "Best for Learning Languages", category: "Productivity", url: "https://www.amazon.ca/s?k=Rosetta+Stone+Lifetime", icon: "🌐", page: "software.html" },
-    ];
+    let PRODUCTS = [];
+
+    fetch('products.json')
+      .then(function(r){ return r.json(); })
+      .then(function(data){ PRODUCTS = data; })
+      .catch(function(){ PRODUCTS = []; });
+
     const input = document.getElementById('search-input');
     const results = document.getElementById('search-results');
     const clearBtn = document.getElementById('search-clear');
     let activeIdx = -1;
+
     function hl(text, q) {
       return text.replace(new RegExp('(' + q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&') + ')','gi'),'<mark>$1</mark>');
     }
     function search(query) {
       if (!query || query.length < 2) { close(); return; }
       const q = query.toLowerCase();
-      const matches = PRODUCTS.filter(p =>
-        p.name.toLowerCase().includes(q) || p.tag.toLowerCase().includes(q) || p.category.toLowerCase().includes(q)
-      ).slice(0,8);
+      const matches = PRODUCTS.filter(function(p) {
+        return p.name.toLowerCase().includes(q) || p.tag.toLowerCase().includes(q) || p.category.toLowerCase().includes(q);
+      }).slice(0,8);
       if (!matches.length) {
         results.innerHTML = '<li class="search-results__empty">No results for <strong>' + query + '</strong></li>';
         results.hidden = false; input.setAttribute('aria-expanded','true'); return;
       }
-      results.innerHTML = matches.map((p,i) =>
-        '<li class="search-results__item" role="option" data-idx="'+i+'" data-url="'+p.url+'" data-page="'+p.page+'">' +
-        '<span class="search-results__icon">'+p.icon+'</span>' +
-        '<span class="search-results__text">' +
-          '<span class="search-results__name">'+hl(p.name,query)+'</span>' +
-          '<span class="search-results__meta">'+p.tag+' · '+p.category+'</span>' +
-        '</span>' +
-        '<span class="search-results__arrow">→</span></li>'
-      ).join('');
+      results.innerHTML = matches.map(function(p,i) {
+        return '<li class="search-results__item" role="option" data-idx="'+i+'" data-page="'+p.page+'">' +
+          '<span class="search-results__icon">'+p.icon+'</span>' +
+          '<span class="search-results__text">' +
+            '<span class="search-results__name">'+hl(p.name,query)+'</span>' +
+            '<span class="search-results__meta">'+p.tag+' · '+p.category+'</span>' +
+          '</span>' +
+          '<span class="search-results__arrow">→</span></li>';
+      }).join('');
       results.hidden = false; input.setAttribute('aria-expanded','true'); activeIdx = -1;
-      results.querySelectorAll('.search-results__item').forEach(item => {
-        item.addEventListener('mousedown', e => { e.preventDefault(); window.open(item.dataset.url,'_blank','noopener,noreferrer'); close(); });
+      results.querySelectorAll('.search-results__item').forEach(function(item) {
+        item.addEventListener('mousedown', function(e) { e.preventDefault(); window.location.href = item.dataset.page; close(); });
       });
     }
     function close() { results.hidden = true; input.setAttribute('aria-expanded','false'); activeIdx = -1; }
     function setActive(idx) {
-      results.querySelectorAll('.search-results__item').forEach((el,i) => el.classList.toggle('search-results__item--active', i===idx));
+      results.querySelectorAll('.search-results__item').forEach(function(el,i) { el.classList.toggle('search-results__item--active', i===idx); });
       activeIdx = idx;
     }
-    input.addEventListener('input', () => { const v=input.value.trim(); clearBtn.hidden=!v; search(v); });
-    input.addEventListener('keydown', e => {
+    input.addEventListener('input', function() { const v=input.value.trim(); clearBtn.hidden=!v; search(v); });
+    input.addEventListener('keydown', function(e) {
       const items = results.querySelectorAll('.search-results__item');
       if (e.key==='ArrowDown') { e.preventDefault(); setActive(Math.min(activeIdx+1,items.length-1)); }
       else if (e.key==='ArrowUp') { e.preventDefault(); setActive(Math.max(activeIdx-1,0)); }
-      else if (e.key==='Enter' && activeIdx>=0) { e.preventDefault(); const u=items[activeIdx]?.dataset.url; if(u){window.open(u,'_blank','noopener,noreferrer');close();} }
+      else if (e.key==='Enter' && activeIdx>=0) { e.preventDefault(); const pg=items[activeIdx] && items[activeIdx].dataset.page; if(pg){ window.location.href=pg; close(); } }
       else if (e.key==='Escape') close();
     });
-    clearBtn.addEventListener('click', () => { input.value=''; clearBtn.hidden=true; close(); input.focus(); });
-    document.addEventListener('click', e => { if(!document.getElementById('search-wrap').contains(e.target)) close(); });
-    input.addEventListener('focus', () => { if(input.value.trim().length>=2) search(input.value.trim()); });
+    clearBtn.addEventListener('click', function() { input.value=''; clearBtn.hidden=true; close(); input.focus(); });
+    document.addEventListener('click', function(e) { if(!document.getElementById('search-wrap').contains(e.target)) close(); });
+    input.addEventListener('focus', function() { if(input.value.trim().length>=2) search(input.value.trim()); });
   })();
   </script>
 <script data-pplx-inline-edit>
