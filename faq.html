@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How ClearPick Works | FAQ &amp; Methodology</title>
+  <meta name="description" content="How ClearPick scores products, where our reviews come from, how affiliate links work — full transparency on our methodology." />
+  <link rel="canonical" href="https://clearpick.pplx.app/faq.html" />
+  <meta name="robots" content="index, follow" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <svg class="logo-mark" viewBox="0 0 32 32" fill="none" aria-label="ClearPick" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="url(#cp-grad-hdr-faq)"/>
+            <path d="M8 16.5L13.5 22L24 11" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="cp-grad-hdr-faq" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#1a8cff"/>
+                <stop offset="1" stop-color="#0055cc"/>
+              </linearGradient>
+            </defs>
+          </svg>
+          ClearPick
+        </a>
+        <nav class="nav" aria-label="Main">
+          <a href="index.html" class="nav__link">Home</a>
+          <details class="nav__dropdown">
+            <summary class="nav__link nav__dropdown-trigger">
+              Categories
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="dropdown-chevron"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="dropdown__menu" role="menu">
+              <a href="headphones.html" class="dropdown__item">
+                <span class="dropdown__icon">🎧</span>
+                <span class="dropdown__text"><span class="dropdown__label">Headphones</span></span>
+              </a>
+              <a href="kitchen.html" class="dropdown__item">
+                <span class="dropdown__icon">🍳</span>
+                <span class="dropdown__text"><span class="dropdown__label">Kitchen Appliances</span></span>
+              </a>
+              <a href="camping.html" class="dropdown__item">
+                <span class="dropdown__icon">⛺</span>
+                <span class="dropdown__text"><span class="dropdown__label">Outdoor &amp; Camping</span></span>
+              </a>
+              <a href="software.html" class="dropdown__item">
+                <span class="dropdown__icon">💻</span>
+                <span class="dropdown__text"><span class="dropdown__label">Software</span></span>
+              </a>
+              <a href="smart-home.html" class="dropdown__item">
+                <span class="dropdown__icon">🏠</span>
+                <span class="dropdown__text"><span class="dropdown__label">Smart Home</span></span>
+              </a>
+              <a href="robot-vacuums.html" class="dropdown__item">
+                <span class="dropdown__icon">🤖</span>
+                <span class="dropdown__text"><span class="dropdown__label">Robot Vacuums</span></span>
+              </a>
+              <a href="fitness.html" class="dropdown__item">
+                <span class="dropdown__icon">💪</span>
+                <span class="dropdown__text"><span class="dropdown__label">Fitness Equipment</span></span>
+              </a>
+              <a href="pet-supplies.html" class="dropdown__item">
+                <span class="dropdown__icon">🐾</span>
+                <span class="dropdown__text"><span class="dropdown__label">Pet Supplies</span></span>
+              </a>
+              <a href="gaming.html" class="dropdown__item">
+                <span class="dropdown__icon">🎮</span>
+                <span class="dropdown__text"><span class="dropdown__label">Gaming</span></span>
+              </a>
+              <a href="lawn-garden.html" class="dropdown__item">
+                <span class="dropdown__icon">🌿</span>
+                <span class="dropdown__text"><span class="dropdown__label">Lawn &amp; Garden</span></span>
+              </a>
+            </div>
+          </details>
+          <a href="blog/index.html" class="nav__link">Blog</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="faq.html" class="nav__link active">How It Works</a>
+        </nav>
+        <div class="header-search-wrap" id="header-search-wrap">
+          <div class="search-box">
+            <svg class="search-box__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="search" id="header-search-input" class="search-box__input" placeholder="Search products…" autocomplete="off" aria-label="Search products" aria-autocomplete="list" aria-controls="header-search-results" aria-expanded="false" />
+            <button class="search-box__clear" id="header-search-clear" aria-label="Clear search" hidden><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+          </div>
+          <ul class="search-results" id="header-search-results" role="listbox" aria-label="Search suggestions" hidden></ul>
+        </div>
+        <div class="header-actions">
+          <button class="header-search-btn" id="header-search-btn" aria-label="Open search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
+          <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+          <button class="mobile-menu-btn" aria-label="Open menu">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__icon">🔍</div>
+      <h1 class="page-hero__title">How ClearPick Works</h1>
+      <p class="page-hero__subtitle">Full transparency on our methodology — how we score products, where the reviews come from, and how we make money.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container" style="max-width: 740px;">
+      <div style="display: flex; flex-direction: column; gap: var(--space-12);">
+
+        <div>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">What is ClearPick?</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">ClearPick exists to solve one problem: figuring out if a product is actually worth buying without spending hours reading through scattered reviews across a dozen different websites. Instead of writing our own opinions from scratch, we read what real buyers, professional reviewers, and online communities are already saying — then bring it together into one clear, honest verdict for Canadian shoppers.</p>
+          <p style="color: var(--color-text-muted); line-height: 1.75;">We're not testing products in a lab. We're reading the reviews so you don't have to.</p>
+        </div>
+
+        <div>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">How the ClearPick Score works</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">Every product on ClearPick gets a score out of 10, broken down into category-specific factors (like sound quality, battery life, or durability depending on the product type).</p>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-6);">That score isn't our personal opinion pulled from thin air. It reflects a synthesis of:</p>
+          <div style="display: grid; gap: var(--space-3); margin-bottom: var(--space-6);">
+            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5);">
+              <strong style="color: var(--color-text);">Amazon.ca buyer ratings and review patterns</strong>
+            </div>
+            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5);">
+              <strong style="color: var(--color-text);">Reddit community discussion and sentiment</strong>
+            </div>
+            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5);">
+              <strong style="color: var(--color-text);">Professional testing from Wirecutter, RTINGS, Tom's Guide, and others</strong>
+            </div>
+          </div>
+          <p style="color: var(--color-text-muted); line-height: 1.75;">When sources broadly agree, the score reflects that consensus. When there's genuine disagreement — say, professional reviewers love a product but real owners report durability issues after a year — we factor that in too, and you'll usually see it called out directly in the "Worth Knowing" section of the review.</p>
+        </div>
+
+        <div>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">What "What Real Buyers Are Saying" actually means</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">Every product page includes a section with real quotes from actual buyers and reviewers, with the source named — Reddit, Amazon, RTINGS, Tom's Guide, and others. These aren't made up. They're paraphrased from real discussions and reviews we found, with attribution so you can see where the sentiment is coming from.</p>
+          <p style="color: var(--color-text-muted); line-height: 1.75;">If something seems off or you can't find similar sentiment elsewhere, we want to know — this entire site is built on the premise that the aggregation is real, and we take that seriously.</p>
+        </div>
+
+        <div>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">How ClearPick makes money</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">ClearPick uses Amazon affiliate links. If you click through to Amazon and make a purchase, ClearPick may earn a small commission — at no extra cost to you. The price you pay is exactly the same whether you use our link or go to Amazon directly.</p>
+          <p style="color: var(--color-text-muted); line-height: 1.75;">This is how we keep ClearPick free to use. It does not influence our scores or verdicts — we don't get paid more for recommending one product over another, and we'll tell you honestly when something has known issues, even if that means you might not buy it.</p>
+        </div>
+
+        <div>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">How often is ClearPick updated?</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">Product pages are updated periodically as buyer sentiment shifts, new versions of products are released, or pricing changes. Each product page shows when it was last updated. If a product we've reviewed gets discontinued or replaced by a newer model, we aim to update the review to reflect that.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0; margin-top: 0;">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="faq.html">How It Works</a> · <a href="privacy.html">Privacy Policy</a></p>
+        <p class="footer-bottom__disclaimer">Some links on this site are affiliate links. We may earn a commission if you purchase through them, at no extra cost to you.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) {
+      const html = document.documentElement;
+      themeBtn.addEventListener('click', () => {
+        html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark');
+      });
+    }
+    document.addEventListener('click', e => {
+      const dd = document.querySelector('.nav__dropdown');
+      if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open');
+    });
+  </script>
+  <script src="js/search.js"></script>
+</body>
+</html>
