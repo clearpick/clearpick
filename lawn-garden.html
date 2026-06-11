@@ -146,8 +146,35 @@
             <p class="gear-category__sub">Ranked by use case — smarter tools for your outdoor space.</p>
           </div>
         </div>
-        <div class="product-grid">
-          <a class="product-card" href="products/ego-power-lb6504.html">
+                <div class="sort-filter-bar">
+          <div class="sort-filter-bar__controls">
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="sort-select">Sort by</label>
+              <select class="sort-filter-bar__select" id="sort-select">
+                <option value="default">Default Order</option>
+                <option value="score-desc">ClearPick Score (High to Low)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+                <option value="name-asc">Name (A&#8211;Z)</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="brand-select">Brand</label>
+              <select class="sort-filter-bar__select" id="brand-select">
+                <option value="">All Brands</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="tag-select">Best For</label>
+              <select class="sort-filter-bar__select" id="tag-select">
+                <option value="">All</option>
+              </select>
+            </div>
+            <button class="sort-filter-bar__reset btn btn--ghost" id="filter-reset">Reset</button>
+          </div>
+          <div class="sort-filter-bar__count" id="filter-count"></div>
+        </div><div class="product-grid">
+          <a class="product-card" href="products/ego-power-lb6504.html" data-score="9" data-price="230" data-brand="EGO" data-tag="Best Overall Cordless Leaf Blower">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -162,7 +189,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/greenworks-pro-2700-psi.html">
+          <a class="product-card" href="products/greenworks-pro-2700-psi.html" data-score="8.8" data-price="299" data-brand="Greenworks" data-tag="Best Battery Pressure Washer">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -177,7 +204,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/husqvarna-automower-415x.html">
+          <a class="product-card" href="products/husqvarna-automower-415x.html" data-score="8.6" data-price="1800" data-brand="Husqvarna" data-tag="Best Premium Robotic Mower">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -192,7 +219,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/dewalt-2100-psi-pressure-washer.html">
+          <a class="product-card" href="products/dewalt-2100-psi-pressure-washer.html" data-score="8.3" data-price="329" data-brand="DEWALT" data-tag="Best Compact Cordless Pressure Washer">
             <div class="product-card__badge">Best Compact Cordless Pressure Washer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B09VWH6C3G.01._SCLZZZZZZZ_.jpg" alt="DEWALT 2100 PSI Cordless Pressure Washer" class="product-card__img" loading="lazy"
@@ -203,7 +230,7 @@
               <p class="product-card__desc">The DEWALT 2100 PSI Cordless Pressure Washer is the most practical pressure washer for Canadian users who need to clean in locations without a power outlet — boats, RVs, remote decks, and job sites. It runs on DEWALT FLEXVOLT 60V battery, delivers 2100 PSI, and includes an onboard detergent tank. Real portability without sacrificing meaningful cleaning power.</p>
             </div>
           </a>
-          <a class="product-card" href="products/dewalt-60v-flexvolt-leaf-blower.html">
+          <a class="product-card" href="products/dewalt-60v-flexvolt-leaf-blower.html" data-score="8.8" data-price="249" data-brand="DeWalt" data-tag="Best High-CFM Leaf Blower">
             <div class="product-card__badge">Best High-CFM Leaf Blower</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CX276K2N.01._SCLZZZZZZZ_.jpg" alt="DeWalt 60V FLEXVOLT Leaf Blower" class="product-card__img" loading="lazy"
@@ -214,7 +241,7 @@
               <p class="product-card__desc">The DeWalt 60V FLEXVOLT Leaf Blower is the premium choice for Canadian homeowners already invested in the DeWalt FLEXVOLT battery platform — it delivers 125 MPH air speed and 600 CFM of airflow, handles wet leaves and debris with ease, and uses the same 60V FLEXVOLT battery as DeWalt's most powerful outdoor tools and job site equipment.</p>
             </div>
           </a>
-          <a class="product-card" href="products/greenworks-80v-leaf-blower.html">
+          <a class="product-card" href="products/greenworks-80v-leaf-blower.html" data-score="8.6" data-price="279" data-brand="Greenworks" data-tag="Best High-Voltage Battery Blower">
             <div class="product-card__badge">Best High-Voltage Battery Blower</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CLSF9WK3.01._SCLZZZZZZZ_.jpg" alt="Greenworks 80V Cordless Leaf Blower" class="product-card__img" loading="lazy"
@@ -225,7 +252,7 @@
               <p class="product-card__desc">The Greenworks 80V Leaf Blower is the highest-voltage battery blower in Greenworks' lineup, delivering up to 165 MPH air speed that rivals gas-powered models — without the fumes, noise, or maintenance. For Canadian homeowners with large lots, heavy fall leaf loads, or wet debris, the 80V platform delivers the power needed to actually get the job done in one pass.</p>
             </div>
           </a>
-          <a class="product-card" href="products/husqvarna-350ib.html">
+          <a class="product-card" href="products/husqvarna-350ib.html" data-score="8.8" data-price="299" data-brand="Husqvarna" data-tag="Best for Serious Homeowners">
             <div class="product-card__badge">Best for Serious Homeowners</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CB6GVV75.01._SCLZZZZZZZ_.jpg" alt="Husqvarna 350iB Battery Leaf Blower" class="product-card__img" loading="lazy"
@@ -233,10 +260,10 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Husqvarna 350iB Battery Leaf Blower</h3>
-              <p class="product-card__desc">The Husqvarna 350iB is the professional-grade battery leaf blower for Canadian homeowners with large properties — it delivers 1.7N of blowing force from Husqvarna's 36V POWER FOR ALL battery platform, handles wet and heavy leaves without bogging, and runs quietly enough to use early morning without disturbing neighbours. One battery works across the entire Husqvarna POWER FOR ALL lineup.</p>
+              <p class="product-card__desc">The Husqvarna 350iB is the professional-grade battery leaf blower for Canadian homeowners with large properties — it deBest Overall Cordless Leaf Blowerrce from Husqvarna's 36V POWER FOR ALL battery platform, handles wet and heavy leaves without bogging, and runs quietly enough to use early morning without disturbing neighbours. One battery works across the entire Husqvarna POWER FOR ALL lineup.</p>
             </div>
           </a>
-          <a class="product-card" href="products/k-rcher-k5-premium.html">
+          <a class="product-card" href="products/k-rcher-k5-premium.html" data-score="8.8" data-price="449" data-brand="Kärcher" data-tag="Best Corded Electric Pressure Washer">
             <div class="product-card__badge">Best Corded Electric Pressure Washer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B01BMETENG.01._SCLZZZZZZZ_.jpg" alt="Kärcher K5 Premium Pressure Washer" class="product-card__img" loading="lazy"
@@ -247,7 +274,7 @@
               <p class="product-card__desc">The Kärcher K5 Premium is the premium European-engineered pressure washer for Canadian buyers who want the best build quality and a connected home system — it includes Kärcher's Home &amp; Garden app for customized cleaning programs, a water-cooled motor for longer runtimes, and 2000 PSI with 1.4 GPM that handles every common household cleaning task. Kärcher is the global pressure washer standard for a reason.</p>
             </div>
           </a>
-          <a class="product-card" href="products/mammotion-luba-2-awd-1000.html">
+          <a class="product-card" href="products/mammotion-luba-2-awd-1000.html" data-score="8.7" data-price="1999" data-brand="Mammotion" data-tag="Best for Large Properties">
             <div class="product-card__badge">Best for Large Properties</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0GKNYZPC3.01._SCLZZZZZZZ_.jpg" alt="Mammotion LUBA 2 AWD 1000 Robot Lawn Mower" class="product-card__img" loading="lazy"
@@ -258,7 +285,7 @@
               <p class="product-card__desc">The Mammotion LUBA 2 AWD 1000 is the most capable wire-free robot mower for large Canadian properties — it handles up to 1 acre, uses all-wheel-drive to tackle slopes up to 80% grade (steeper than competitors), and navigates via RTK GPS without any boundary wire. If your property has hills, obstacles, and more than 1/4 acre, the LUBA 2 is the robot mower to consider.</p>
             </div>
           </a>
-          <a class="product-card" href="products/ryobi-40v-whisper.html">
+          <a class="product-card" href="products/ryobi-40v-whisper.html" data-score="8.6" data-price="199" data-brand="Ryobi" data-tag="Best Quiet Leaf Blower">
             <div class="product-card__badge">Best Quiet Leaf Blower</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B083N9TLMZ.01._SCLZZZZZZZ_.jpg" alt="Ryobi 40V Whisper Series Leaf Blower" class="product-card__img" loading="lazy"
@@ -269,7 +296,7 @@
               <p class="product-card__desc">The Ryobi 40V Whisper Series is the quietest leaf blower available in Canada — it operates at 59 dB, which is roughly conversation level, making it the only blower you can use early morning or in noise-restricted neighbourhoods without complaints. Despite the quiet operation, it still delivers 110 MPH / 500 CFM airflow from the ubiquitous Ryobi 40V battery platform.</p>
             </div>
           </a>
-          <a class="product-card" href="products/segway-navimow-i110n.html">
+          <a class="product-card" href="products/segway-navimow-i110n.html" data-score="8.5" data-price="1299" data-brand="Segway" data-tag="Best Wire-Free Robot Mower">
             <div class="product-card__badge">Best Wire-Free Robot Mower</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0FC4GY5S3.01._SCLZZZZZZZ_.jpg" alt="Segway Navimow i110N Robot Lawn Mower" class="product-card__img" loading="lazy"
@@ -280,7 +307,7 @@
               <p class="product-card__desc">The Segway Navimow i110N eliminates the most frustrating part of robot mower ownership — installing a boundary wire. Instead, it uses EFLS (Exact Fusion Locating System) combining GPS, RTK, and vision sensors to know exactly where it is and where your lawn ends. No buried wire, no week-long installation project. For Canadian homeowners who want a robot mower without the setup hassle, this is the breakthrough product.</p>
             </div>
           </a>
-          <a class="product-card" href="products/sun-joe-spx3000.html">
+          <a class="product-card" href="products/sun-joe-spx3000.html" data-score="8.6" data-price="179" data-brand="Sun Joe" data-tag="Best Budget Pressure Washer">
             <div class="product-card__badge">Best Budget Pressure Washer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B00CPGMUXW.01._SCLZZZZZZZ_.jpg" alt="Sun Joe SPX3000 Electric Pressure Washer" class="product-card__img" loading="lazy"
@@ -291,7 +318,7 @@
               <p class="product-card__desc">The Sun Joe SPX3000 is the best-selling budget electric pressure washer in Canada — 2030 PSI of pressure handles driveways, decks, and car washing at a price that makes it the go-to recommendation for first-time pressure washer buyers. It includes two detergent tanks for switching cleaning solutions mid-job and five quick-connect nozzles for different applications.</p>
             </div>
           </a>
-          <a class="product-card" href="products/westinghouse-epx3500.html">
+          <a class="product-card" href="products/westinghouse-epx3500.html" data-score="8.8" data-price="399" data-brand="Westinghouse" data-tag="Best High-Power Electric Pressure Washer">
             <div class="product-card__badge">Best High-Power Electric Pressure Washer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0BVGSX46M.01._SCLZZZZZZZ_.jpg" alt="Westinghouse ePX3500 Electric Pressure Washer" class="product-card__img" loading="lazy"
@@ -299,10 +326,10 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Westinghouse ePX3500 Electric Pressure Washer</h3>
-              <p class="product-card__desc">The Westinghouse ePX3500 delivers the strongest electric pressure washing performance available in Canada — 3500 PSI of pressure tackles jobs that would normally require a gas machine, including stripping old paint, cleaning stubborn oil stains from concrete, and pressure washing large commercial-scale surfaces. For heavy-duty users who want electric convenience at gas-level power, this is the benchmark.</p>
+              <p class="product-card__desc">The Westinghouse ePX3500 delivers the strongest electric pressure washing performance available in Canada — 3500 PSI of pressure tackles jobs that would normally require a gas machine, including stripping old paintBest Premium Robotic Mower stains from concrete, and pressure washing large commercial-scale surfaces. For heavy-duty users who want electric convenience at gas-level power, this is the benchmark.</p>
             </div>
           </a>
-          <a class="product-card" href="products/worx-landroid-wr165.html">
+          <a class="product-card" href="products/worx-landroid-wr165.html" data-score="8.1" data-price="999" data-brand="WORX" data-tag="Best Budget Robot Mower">
             <div class="product-card__badge">Best Budget Robot Mower</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B097NGYWST.01._SCLZZZZZZZ_.jpg" alt="WORX Landroid WR165 Robot Lawn Mower" class="product-card__img" loading="lazy"
@@ -709,5 +736,6 @@
 })();
 
 
-</script></body>
+</script>
+<script src="js/filter-sort.js"></script></body>
 </html>

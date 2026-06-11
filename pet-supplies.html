@@ -146,8 +146,35 @@
             <p class="gear-category__sub">Ranked by use case — the best gear for your dog or cat.</p>
           </div>
         </div>
-        <div class="product-grid">
-          <a class="product-card" href="products/petlibro-granary-wifi.html">
+                <div class="sort-filter-bar">
+          <div class="sort-filter-bar__controls">
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="sort-select">Sort by</label>
+              <select class="sort-filter-bar__select" id="sort-select">
+                <option value="default">Default Order</option>
+                <option value="score-desc">ClearPick Score (High to Low)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+                <option value="name-asc">Name (A&#8211;Z)</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="brand-select">Brand</label>
+              <select class="sort-filter-bar__select" id="brand-select">
+                <option value="">All Brands</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="tag-select">Best For</label>
+              <select class="sort-filter-bar__select" id="tag-select">
+                <option value="">All</option>
+              </select>
+            </div>
+            <button class="sort-filter-bar__reset btn btn--ghost" id="filter-reset">Reset</button>
+          </div>
+          <div class="sort-filter-bar__count" id="filter-count"></div>
+        </div><div class="product-grid">
+          <a class="product-card" href="products/petlibro-granary-wifi.html" data-score="8.8" data-price="99" data-brand="PETLIBRO" data-tag="Best WiFi Feeder with Camera">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -162,7 +189,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/tractive-gps-dog-6.html">
+          <a class="product-card" href="products/tractive-gps-dog-6.html" data-score="8.8" data-price="70" data-brand="Tractive" data-tag="Best Real-Time GPS Tracker">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -177,7 +204,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/petfusion-ultimate-dog-bed.html">
+          <a class="product-card" href="products/petfusion-ultimate-dog-bed.html" data-score="8.8" data-price="110" data-brand="PetFusion" data-tag="Best for Senior Dogs">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -192,7 +219,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/apple-airtag-dog-collar-holder.html">
+          <a class="product-card" href="products/apple-airtag-dog-collar-holder.html" data-score="8.5" data-price="49" data-brand="Apple" data-tag="Best for iPhone Users">
             <div class="product-card__badge">Best for iPhone Users</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0D1TP2LDT.01._SCLZZZZZZZ_.jpg" alt="Apple AirTag Dog Collar Holder" class="product-card__img" loading="lazy"
@@ -203,7 +230,7 @@
               <p class="product-card__desc">The Apple AirTag Dog Collar Holder is the most elegant pet tracking solution for Canadian iPhone users — slip an AirTag into the holder, attach it to your dog's collar, and leverage the 1-billion-device Apple Find My network for passive tracking anywhere iPhones exist. It's not real-time GPS like Fi or Tractive, but for everyday lost-dog scenarios in populated Canadian cities, the coverage is unbeatable.</p>
             </div>
           </a>
-          <a class="product-card" href="products/bedsure-orthopedic-dog-bed.html">
+          <a class="product-card" href="products/bedsure-orthopedic-dog-bed.html" data-score="8.6" data-price="59" data-brand="Bedsure" data-tag="Best Budget Orthopedic Dog Bed">
             <div class="product-card__badge">Best Budget Orthopedic Dog Bed</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0DTH4TCQX.01._SCLZZZZZZZ_.jpg" alt="Bedsure Orthopedic Dog Bed" class="product-card__img" loading="lazy"
@@ -214,7 +241,7 @@
               <p class="product-card__desc">The Bedsure Orthopedic Dog Bed delivers genuine memory foam joint support at the lowest price point in Canada — it uses a high-density foam base that maintains its shape under heavy dogs, has a waterproof inner liner protecting the foam, and a removable machine-washable cover. For aging dogs or larger breeds with joint issues, this is the most accessible orthopedic upgrade.</p>
             </div>
           </a>
-          <a class="product-card" href="products/cat-mate-c500.html">
+          <a class="product-card" href="products/cat-mate-c500.html" data-score="8.3" data-price="59" data-brand="Cat Mate" data-tag="Best Wet Food Auto Feeder">
             <div class="product-card__badge">Best Wet Food Auto Feeder</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B01AUYLVU8.01._SCLZZZZZZZ_.jpg" alt="Cat Mate C500 Automatic Pet Feeder" class="product-card__img" loading="lazy"
@@ -225,18 +252,17 @@
               <p class="product-card__desc">The Cat Mate C500 is a reliable 5-meal automatic pet feeder that works on batteries, requires no WiFi, and handles both wet and dry food — making it a dependable option for Canadian pet owners who want timed feeding without the tech complexity. The digital clock display makes scheduling intuitive, and the ice packs in each compartment keep wet food fresh longer.</p>
             </div>
           </a>
-          <a class="product-card" href="products/fi-series-3-smart-dog-collar.html">
+          <a class="product-card" href="products/fi-series-3-smart-dog-collar.html" data-score="8.7" data-price="179" data-brand="Fi" data-tag="Best Long-Battery GPS Collar">
             <div class="product-card__badge">Best Long-Battery GPS Collar</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0FHHYX4G5.01._SCLZZZZZZZ_.jpg" alt="Fi Series 3 Smart Dog Collar" class="product-card__img" loading="lazy"
                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
             </div>
             <div class="product-card__body">
-              <h3 class="product-card__name">Fi Series 3 Smart Dog Collar</h3>
-              <p class="product-card__desc">The Fi Series 3 is the best GPS dog collar for Canadian dog owners who want real-time location tracking, activity monitoring, and a collar that actually survives outdoor adventures — it's fully waterproof, has up to 3-month battery life on base model, and uses a cellular+GPS+WiFi hybrid to track your dog with minimal dead zones even in rural Canadian areas.</p>
+              <h3 class="product-card__name">Fi Series 3 Smart Dog CollBest WiFi Feeder with Camera"product-card__desc">The Fi Series 3 is the best GPS dog collar for Canadian dog owners who want real-time location tracking, activity monitoring, and a collar that actually survives outdoor adventures — it's fully waterproof, has up to 3-month battery life on base model, and uses a cellular+GPS+WiFi hybrid to track your dog with minimal dead zones even in rural Canadian areas.</p>
             </div>
           </a>
-          <a class="product-card" href="products/furhaven-deluxe-chaise-dog-bed.html">
+          <a class="product-card" href="products/furhaven-deluxe-chaise-dog-bed.html" data-score="8.6" data-price="79" data-brand="Furhaven" data-tag="Best Chaise Lounge Dog Bed">
             <div class="product-card__badge">Best Chaise Lounge Dog Bed</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0759M2DPY.01._SCLZZZZZZZ_.jpg" alt="Furhaven Deluxe Chaise Dog Bed" class="product-card__img" loading="lazy"
@@ -247,7 +273,7 @@
               <p class="product-card__desc">The Furhaven Deluxe Chaise Dog Bed combines the joint-supporting foam base of an orthopedic dog bed with a plush velvet cover in a chaise lounge shape — giving dogs who like to rest their head on a bolster the perfect setup. The removable, machine-washable cover makes it easy to maintain for Canadian dog owners through muddy season.</p>
             </div>
           </a>
-          <a class="product-card" href="products/furhaven-ultra-plush-luxe-lounger.html">
+          <a class="product-card" href="products/furhaven-ultra-plush-luxe-lounger.html" data-score="8.5" data-price="69" data-brand="Furhaven" data-tag="Best for Small Dogs">
             <div class="product-card__badge">Best for Small Dogs</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B073PZL8HR.01._SCLZZZZZZZ_.jpg" alt="Furhaven Ultra Plush Luxe Lounger Dog Bed" class="product-card__img" loading="lazy"
@@ -258,7 +284,7 @@
               <p class="product-card__desc">The Furhaven Ultra Plush Luxe Lounger is the softest, most cloud-like dog bed for dogs who love to sink into softness — its ultra-plush filling and sherpa-like cover feel premium at a budget price. The egg crate foam base provides gentle cushioning, and the removable cover is machine washable. Ideal for smaller breeds or dogs who don't need medical-grade orthopedic support.</p>
             </div>
           </a>
-          <a class="product-card" href="products/garmin-alpha-tt-25.html">
+          <a class="product-card" href="products/garmin-alpha-tt-25.html" data-score="8.6" data-price="699" data-brand="Garmin" data-tag="Best for Hunting &amp; Working Dogs">
             <div class="product-card__badge">Best for Hunting &amp; Working Dogs</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0BYGGBLKM.01._SCLZZZZZZZ_.jpg" alt="Garmin Alpha TT 25" class="product-card__img" loading="lazy"
@@ -266,10 +292,10 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Garmin Alpha TT 25</h3>
-              <p class="product-card__desc">The Garmin Alpha TT 25 is the professional-grade GPS dog tracking system for Canadian hunters and working dog handlers — it tracks up to 20 dogs simultaneously, works in remote wilderness areas without cell coverage using its dedicated GPS, and includes training tones for field work. If your dog works in the backcountry where no cellular network reaches, this is the only reliable option.</p>
+              <p class="product-card__desc">The Garmin Alpha TT 25 is the professional-grade GPS dog tracking system for Canadian hunters and working dog handlers — it tracks up to 20 dogs simultaneously, works in remote wilderness areas without cell coverage using its dedicated GPS, and includes training tones for field work. If your dog works in the backcountry whBest Real-Time GPS Trackerork reaches, this is the only reliable option.</p>
             </div>
           </a>
-          <a class="product-card" href="products/petkit-yumshare-solo.html">
+          <a class="product-card" href="products/petkit-yumshare-solo.html" data-score="8.6" data-price="129" data-brand="PETKIT" data-tag="Best Premium Smart Feeder">
             <div class="product-card__badge">Best Premium Smart Feeder</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B09F6GB43M.01._SCLZZZZZZZ_.jpg" alt="PETKIT YumShare Solo Automatic Pet Feeder" class="product-card__img" loading="lazy"
@@ -280,7 +306,7 @@
               <p class="product-card__desc">The PETKIT YumShare Solo is the premium automatic pet feeder for single-pet households in Canada — it uses a DesiCcare desiccant system to keep kibble fresh longer, has dual power supply (AC + battery), built-in scale to track exact portions dispensed, and a built-in camera for remote monitoring. If your cat's or dog's diet is carefully managed, PETKIT's precision matters.</p>
             </div>
           </a>
-          <a class="product-card" href="products/petlibro-one-rfid-cat-feeder.html">
+          <a class="product-card" href="products/petlibro-one-rfid-cat-feeder.html" data-score="8.9" data-price="129" data-brand="PETLIBRO" data-tag="Best for Multi-Cat Homes">
             <div class="product-card__badge">Best for Multi-Cat Homes</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0FS7Q3LFQ.01._SCLZZZZZZZ_.jpg" alt="PETLIBRO One RFID Microchip Cat Feeder" class="product-card__img" loading="lazy"
@@ -291,7 +317,7 @@
               <p class="product-card__desc">The PETLIBRO One RFID Microchip Cat Feeder reads your cat's existing microchip or RFID collar tag and opens only for that specific cat — solving the universal problem in multi-cat Canadian households where one cat steals the other's food. It can also be used for diet-controlled cats who shouldn't free-graze.</p>
             </div>
           </a>
-          <a class="product-card" href="products/petsafe-eatwell-5-meal.html">
+          <a class="product-card" href="products/petsafe-eatwell-5-meal.html" data-score="8.4" data-price="49" data-brand="PetSafe" data-tag="Best Simple Timed Pet Feeder">
             <div class="product-card__badge">Best Simple Timed Pet Feeder</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B000GEWHNS.01._SCLZZZZZZZ_.jpg" alt="PetSafe Eatwell 5-Meal Automatic Pet Feeder" class="product-card__img" loading="lazy"
@@ -305,7 +331,7 @@
         </div>
       </div>
       <div class="gear-disclosure">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+     Best for Senior Dogsht="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
         As an Amazon Associate, ClearPick earns from qualifying purchases. Links are affiliate links — at no extra cost to you. Rankings are based on genuine performance, not commission rates.
       </div>
     </div>
@@ -698,5 +724,6 @@
 })();
 
 
-</script></body>
+</script>
+<script src="js/filter-sort.js"></script></body>
 </html>

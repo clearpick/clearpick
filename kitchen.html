@@ -162,8 +162,35 @@
             <p class="gear-category__sub">Ranked by use case — find yours fast</p>
           </div>
         </div>
-        <div class="product-grid">
-          <a class="product-card" href="products/instant-pot-pro-10-in-1.html">
+                <div class="sort-filter-bar">
+          <div class="sort-filter-bar__controls">
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="sort-select">Sort by</label>
+              <select class="sort-filter-bar__select" id="sort-select">
+                <option value="default">Default Order</option>
+                <option value="score-desc">ClearPick Score (High to Low)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+                <option value="name-asc">Name (A&#8211;Z)</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="brand-select">Brand</label>
+              <select class="sort-filter-bar__select" id="brand-select">
+                <option value="">All Brands</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="tag-select">Best For</label>
+              <select class="sort-filter-bar__select" id="tag-select">
+                <option value="">All</option>
+              </select>
+            </div>
+            <button class="sort-filter-bar__reset btn btn--ghost" id="filter-reset">Reset</button>
+          </div>
+          <div class="sort-filter-bar__count" id="filter-count"></div>
+        </div><div class="product-grid">
+          <a class="product-card" href="products/instant-pot-pro-10-in-1.html" data-score="8.9" data-price="130" data-brand="Instant" data-tag="Best for Meal Preppers">
             <div class="product-card__badge">Best for Meal Preppers</div>
             <div class="product-card__img-wrap">
               <img src="https://instantpot.com/cdn/shop/files/112-0123-01_Pro_6Qt_Feature3_03_ATF.jpg?v=1751920441&width=3000" alt="Instant Pot Pro 10-in-1 (6 Quart)" class="product-card__img" loading="lazy"
@@ -179,7 +206,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/ninja-af161-max-xl-air-fryer.html">
+          <a class="product-card" href="products/ninja-af161-max-xl-air-fryer.html" data-score="8.6" data-price="120" data-brand="Ninja" data-tag="Best for Crispy Food">
             <div class="product-card__badge">Best for Crispy Food</div>
             <div class="product-card__img-wrap">
               <img src="https://images.thdstatic.com/productImages/7f305921-8100-4520-923a-6ce6c6b86c5b/svn/grey-ninja-air-fryers-af161-64_600.jpg" alt="Ninja AF161 Max XL Air Fryer" class="product-card__img" loading="lazy"
@@ -195,7 +222,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/breville-compact-smart-oven.html">
+          <a class="product-card" href="products/breville-compact-smart-oven.html" data-score="8.5" data-price="200" data-brand="Breville" data-tag="Best for Small Kitchens">
             <div class="product-card__badge">Best for Small Kitchens</div>
             <div class="product-card__img-wrap">
               <img src="https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/BOV650/BOV650_BSS.png?pdp" alt="Breville Compact Smart Oven (BOV650BSS)" class="product-card__img" loading="lazy"
@@ -211,7 +238,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/breville-barista-express.html">
+          <a class="product-card" href="products/breville-barista-express.html" data-score="8.5" data-price="900" data-brand="Breville" data-tag="Best All-in-One Espresso Grinder">
             <div class="product-card__badge">Best All-in-One Espresso Grinder</div>
             <div class="product-card__img-wrap">
               <img src="https://assets.breville.com/cdn-cgi/image/width=1300,format=auto/Dynamic_Bundle/US/BES870XL_Transparent_1300x1300.png?pdp" alt="Breville Barista Express (BES870XL)" class="product-card__img" loading="lazy"
@@ -227,7 +254,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/cuisinart-tob-40n.html">
+          <a class="product-card" href="products/cuisinart-tob-40n.html" data-score="8.1" data-price="99" data-brand="Cuisinart" data-tag="Best First Toaster Oven">
             <div class="product-card__badge">Best First Toaster Oven</div>
             <div class="product-card__img-wrap">
               <img src="https://www.cuisinart.com/dw/image/v2/ABAF_PRD/on/demandware.static/-/Sites-master-us/default/dwe89c5d62/images/large/01_tob40nnas_silo.jpg" alt="Cuisinart TOB-40N Custom Classic 4-Slice Toaster Oven" class="product-card__img" loading="lazy"
@@ -236,14 +263,14 @@
             <div class="product-card__body">
               <h3 class="product-card__name">Cuisinart TOB-40N Custom Classic 4-Slice Toaster Oven</h3>
               <p class="product-card__desc">The Cuisinart TOB-40N Custom Classic Toaster Oven Broiler offers compact cooking versatility with 1800 watts of power, a nonstick interior, and an Always Even Shade Control that automatically adjusts toasting timing for consistent results every time. It fits an 11" pizza or 6 slices of toast and features a convenient auto slide-out rack for hands-free loading and removal.</p>
-              <details class="product-card__specs">
+              <details class="pBest for Meal Prepperss">
                 <summary class="product-card__specs-toggle">Tech Specs <span class="specs-arrow">▾</span></summary>
                 <table class="spec-table"><tbody><tr><td class='spec-table__label'>Capacity</td><td class='spec-table__value'>0.5 cu ft — fits 11" pizza or 6 slices of toast</td></tr><tr><td class='spec-table__label'>Wattage</td><td class='spec-table__value'>1800W</td></tr><tr><td class='spec-table__label'>Functions</td><td class='spec-table__value'>Toast, Bagel, Bake, Broil, Keep Warm</td></tr><tr><td class='spec-table__label'>Dimensions</td><td class='spec-table__value'>16.0 x 12.0 x 9.0 in (W x D x H)</td></tr><tr><td class='spec-table__label'>Weight</td><td class='spec-table__value'>11 lbs</td></tr><tr><td class='spec-table__label'>Temperature Range</td><td class='spec-table__value'>Warm (~100°F) to 450°F for Bake/Broil</td></tr><tr><td class='spec-table__label'>Timer</td><td class='spec-table__value'>Built-in stay-on timer for Bake, Broil, and Warm functions; shade selector dial for Toast and Bagel</td></tr></tbody></table>
               </details>
               
             </div>
           </a>
-          <a class="product-card" href="products/black-decker-4-slice-toaster-oven.html">
+          <a class="product-card" href="products/black-decker-4-slice-toaster-oven.html" data-score="7.7" data-price="45" data-brand="BLACK+DECKER" data-tag="Best Budget Toaster Oven">
             <div class="product-card__badge">Best Budget Toaster Oven</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B00GGFHH4U.01._SCLZZZZZZZ_.jpg" alt="BLACK+DECKER 4-Slice Toaster Oven TO1745SSG" class="product-card__img" loading="lazy"
@@ -254,7 +281,7 @@
               <p class="product-card__desc">The BLACK+DECKER TO1745SSG is the no-fuss entry-level toaster oven for anyone who just needs reliable toast, baking, and broiling without spending a lot. It fits 4 slices of toast or a 9-inch pizza, has three cooking functions (bake, broil, toast) with a 30-minute timer and stay-on function, and its stainless steel exterior is easy to wipe clean. At under $50 CAD it's the most affordable option on this page and handles everyday kitchen tasks with zero complications.</p>
             </div>
           </a>
-          <a class="product-card" href="products/breville-bambino-plus.html">
+          <a class="product-card" href="products/breville-bambino-plus.html" data-score="8.4" data-price="600" data-brand="Breville" data-tag="Best Compact Espresso Machine">
             <div class="product-card__badge">Best Compact Espresso Machine</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B07JH9CRBZ.01._SCLZZZZZZZ_.jpg" alt="Breville Bambino Plus (BES500BSS)" class="product-card__img" loading="lazy"
@@ -265,7 +292,7 @@
               <p class="product-card__desc">The Breville Bambino Plus is the best compact espresso machine in Canada for home baristas who want genuine café quality without a large footprint. It heats up in just 3 seconds using ThermoJet technology, and the automatic steam wand textures milk to the right temperature and consistency for flat whites and lattes without any manual technique required. At a fraction of the counter space of the Barista Express (and without a built-in grinder), it pairs perfectly with a separate burr grinder if you want to go all-in.</p>
             </div>
           </a>
-          <a class="product-card" href="products/breville-barista-pro.html">
+          <a class="product-card" href="products/breville-barista-pro.html" data-score="8.7" data-price="1100" data-brand="Breville" data-tag="Best Mid-Range Espresso Machine">
             <div class="product-card__badge">Best Mid-Range Espresso Machine</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B07JH9CRBZ.01._SCLZZZZZZZ_.jpg" alt="Breville Barista Pro (BES878BSS)" class="product-card__img" loading="lazy"
@@ -273,10 +300,10 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Breville Barista Pro (BES878BSS)</h3>
-              <p class="product-card__desc">The Breville Barista Pro sits between the Bambino Plus and Barista Express — it combines ThermoJet's 3-second heat-up time with an integrated conical burr grinder and a backlit LCD display for precise control over grind size, dose, and extraction time. Unlike the Barista Express which uses a thermocoil, the Barista Pro's ThermoJet system reaches optimal brew temperature faster and more consistently, making it the better pick for anyone who wants café-quality espresso with minimal waiting.</p>
+              <p class="product-card__desc">The Breville Barista Pro sits between the Bambino Plus and Barista Best for Crispy Foodombines ThermoJet's 3-second heat-up time with an integrated conical burr grinder and a backlit LCD display for precise control over grind size, dose, and extraction time. Unlike the Barista Express which uses a thermocoil, the Barista Pro's ThermoJet system reaches optimal brew temperature faster and more consistently, making it the better pick for anyone who wants café-quality espresso with minimal waiting.</p>
             </div>
           </a>
-          <a class="product-card" href="products/breville-fast-slow-pro.html">
+          <a class="product-card" href="products/breville-fast-slow-pro.html" data-score="8.5" data-price="250" data-brand="Breville" data-tag="Best Premium Pressure Cooker">
             <div class="product-card__badge">Best Premium Pressure Cooker</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B013I40R8E.01._SCLZZZZZZZ_.jpg" alt="Breville Fast Slow Pro (BPR700BSS)" class="product-card__img" loading="lazy"
@@ -287,7 +314,7 @@
               <p class="product-card__desc">The Breville Fast Slow Pro is the premium alternative to Instant Pot for serious cooks who want precise control. Its unique Pressure IQ technology lets you choose from three exact pressure levels (Lo, Hi, and Custom), unlike Instant Pot which offers only one fixed pressure. A 24-hour keep-warm function, automatic steam release, and a large easy-to-read display make it the most thoughtfully designed pressure cooker in Canada — and Breville's build quality means it's built to last significantly longer than budget alternatives.</p>
             </div>
           </a>
-          <a class="product-card" href="products/cosori-pro-le-5-8-qt.html">
+          <a class="product-card" href="products/cosori-pro-le-5-8-qt.html" data-score="8.6" data-price="119" data-brand="Cosori" data-tag="Best Budget Air Fryer">
             <div class="product-card__badge">Best Budget Air Fryer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CCJ8X596.01._SCLZZZZZZZ_.jpg" alt="Cosori Pro LE 5.8-Qt Air Fryer" class="product-card__img" loading="lazy"
@@ -298,7 +325,7 @@
               <p class="product-card__desc">The Cosori Pro LE 5.8-Qt is the best value air fryer in Canada — it delivers crispy, consistent results, connects to the Cosori app for 100+ guided recipes, and runs quieter than most competitors. With 5.8 quarts of capacity and a square basket that makes better use of space than round baskets, it punches well above its price point.</p>
             </div>
           </a>
-          <a class="product-card" href="products/cuisinart-toa-70.html">
+          <a class="product-card" href="products/cuisinart-toa-70.html" data-score="8.5" data-price="249" data-brand="Cuisinart" data-tag="Best Digital Air Fryer Oven">
             <div class="product-card__badge">Best Digital Air Fryer Oven</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B09HSWBTN4.01._SCLZZZZZZZ_.jpg" alt="Cuisinart TOA-70 Digital Air Fryer Toaster Oven" class="product-card__img" loading="lazy"
@@ -309,10 +336,10 @@
               <p class="product-card__desc">The Cuisinart TOA-70 upgrades the TOA-60 with a digital display and larger interior capacity — making it the right pick for Canadian households that cook for more than two people and appreciate the precision of digital controls. Same reliable Cuisinart multi-function performance, just with more room and easier programming.</p>
             </div>
           </a>
-          <a class="product-card" href="products/gaggia-classic-pro.html">
+          <a class="product-card" href="products/gaggia-classic-pro.html" data-score="8.1" data-price="650" data-brand="Gaggia" data-tag="Best for Manual Espresso Technique">
             <div class="product-card__badge">Best for Manual Espresso Technique</div>
             <div class="product-card__img-wrap">
-              <img src="https://images-na.ssl-images-amazon.com/images/P/B07RQ3NL76.01._SCLZZZZZZZ_.jpg" alt="Gaggia Classic Pro (RI9380/46)" class="product-card__img" loading="lazy"
+              <img src="https://images-na.ssl-images-amazon.com/images/P/B07RQ3NL76.01._SCLZZZZZZZ_.jpg" alt="Gaggia Classic Pro (RI93Best for Small Kitchensct-card__img" loading="lazy"
                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
             </div>
             <div class="product-card__body">
@@ -320,7 +347,7 @@
               <p class="product-card__desc">The Gaggia Classic Pro is the espresso machine of choice for purists in Canada — a commercial-grade 58mm chrome-plated brass group head, 3-way solenoid valve, and 9-bar OPV (over-pressure valve) pre-set from the factory deliver the kind of extraction control that $3,000 machines offered a decade ago. It's not automatic — you need a good grinder and some technique — but for enthusiasts who want to dial in every shot manually, the Gaggia Classic Pro is legendary for its upgrade path and longevity. Many owners are still pulling shots on 20-year-old machines.</p>
             </div>
           </a>
-          <a class="product-card" href="products/hamilton-beach-31127d.html">
+          <a class="product-card" href="products/hamilton-beach-31127d.html" data-score="7.8" data-price="79" data-brand="Hamilton Beach" data-tag="Best Roll-Top Toaster Oven">
             <div class="product-card__badge">Best Roll-Top Toaster Oven</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B06WGNC8Q4.01._SCLZZZZZZZ_.jpg" alt="Hamilton Beach 31127D Countertop Oven" class="product-card__img" loading="lazy"
@@ -331,7 +358,7 @@
               <p class="product-card__desc">The Hamilton Beach 31127D is the most affordable full-function toaster oven available in Canada that still delivers reliable results. Bake, broil, and toast without fuss — no complicated settings, no app required. For a starter toaster oven or for anyone who wants basic countertop oven functionality at the lowest possible price, this is the pick.</p>
             </div>
           </a>
-          <a class="product-card" href="products/instant-pot-duo-crisp-11-in-1.html">
+          <a class="product-card" href="products/instant-pot-duo-crisp-11-in-1.html" data-score="8.8" data-price="179" data-brand="Instant" data-tag="Best Pressure Cooker + Air Fryer">
             <div class="product-card__badge">Best Pressure Cooker + Air Fryer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B07VT23JDM.01._SCLZZZZZZZ_.jpg" alt="Instant Pot Duo Crisp 11-in-1" class="product-card__img" loading="lazy"
@@ -342,7 +369,7 @@
               <p class="product-card__desc">The Instant Pot Duo Crisp 11-in-1 is the hybrid appliance that lets you pressure cook a pot roast and then air fry it crispy without switching pots — it replaces 11 kitchen appliances in one with a dual-lid system (pressure lid + air fryer lid). For Canadians with limited counter space who want both pressure cooking and air frying, this is the smartest single purchase.</p>
             </div>
           </a>
-          <a class="product-card" href="products/instant-pot-duo-plus-9-in-1.html">
+          <a class="product-card" href="products/instant-pot-duo-plus-9-in-1.html" data-score="8.8" data-price="110" data-brand="Instant" data-tag="Best Value Multi-Cooker">
             <div class="product-card__badge">Best Value Multi-Cooker</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B01NBKTPTS.01._SCLZZZZZZZ_.jpg" alt="Instant Pot Duo Plus 9-in-1 (6 Quart)" class="product-card__img" loading="lazy"
@@ -353,7 +380,7 @@
               <p class="product-card__desc">The Instant Pot Duo Plus is the best-selling multi-cooker in Canada for good reason — nine cooking functions in one pot (pressure cook, slow cook, rice cooker, yogurt maker, steamer, sauté, soup/broth, bean/chili, and keep warm) at a price that undercuts the Pro model by $20+. The 6-quart stainless steel inner pot handles 3–6 servings, the blue LCD display shows real-time cooking progress, and over 13 built-in smart programs cover the most common meals with one button.</p>
             </div>
           </a>
-          <a class="product-card" href="products/ninja-foodi-dualzone-7-qt.html">
+          <a class="product-card" href="products/ninja-Best All-in-One Espresso Grinderdata-score="8.7" data-price="199" data-brand="Ninja" data-tag="Best Mid-Size Dual Basket">
             <div class="product-card__badge">Best Mid-Size Dual Basket</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0D888HK4K.01._SCLZZZZZZZ_.jpg" alt="Ninja Foodi DualZone 7-Qt Air Fryer" class="product-card__img" loading="lazy"
@@ -364,7 +391,7 @@
               <p class="product-card__desc">The Ninja Foodi DualZone 7-Qt brings Ninja's two-basket simultaneous cooking to a slightly more compact 7-quart form factor — still large enough for most Canadian families, but a bit more manageable on the countertop than the full 8Qt model. DualZone technology still lets you cook two different foods at different temps, finishing at the same time.</p>
             </div>
           </a>
-          <a class="product-card" href="products/philips-airfryer-xxl.html">
+          <a class="product-card" href="products/philips-airfryer-xxl.html" data-score="8.6" data-price="280" data-brand="Philips" data-tag="Best Premium Air Fryer">
             <div class="product-card__badge">Best Premium Air Fryer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B07G3V9K17.01._SCLZZZZZZZ_.jpg" alt="Philips Airfryer XXL" class="product-card__img" loading="lazy"
@@ -375,7 +402,7 @@
               <p class="product-card__desc">The Philips Airfryer XXL is the original premium air fryer and still one of the best — its patented Rapid Air technology creates a high-speed vortex of hot air that cooks food up to 90% less fat than deep frying while delivering genuinely crispy results. The 7-litre XXL capacity fits a whole 1.4 kg chicken or enough fries for a family of four. Twin TurboStar technology draws excess fat away from food during cooking for healthier results, and the integrated digital display with 7 presets makes it easy to use every day.</p>
             </div>
           </a>
-          <a class="product-card" href="products/breville-smart-oven-air-fryer-compact.html">
+          <a class="product-card" href="products/breville-smart-oven-air-fryer-compact.html" data-score="8.8" data-price="350" data-brand="Breville" data-tag="Best Compact Air Fryer Oven">
             <div class="product-card__badge">Best Compact Air Fryer Oven</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B07YX7PYH4.01._SCLZZZZZZZ_.jpg" alt="Breville Smart Oven Air Fryer Compact (BOV680BSS)" class="product-card__img" loading="lazy"
@@ -386,11 +413,10 @@
               <p class="product-card__desc">The Breville Smart Oven Air Fryer Compact is the upgrade pick for anyone who wants true oven performance plus air frying in a compact countertop footprint. Element IQ directs heat precisely across four quartz elements, while the Super Convection air fry mode delivers hot circulating air for crispy results rivalling a dedicated air fryer. Ten cooking functions including toast, bake, roast, broil, pizza, cookies, and air fry cover virtually every cooking task, and the interior fits a 12-inch pizza or 6 slices of toast.</p>
               <details class="product-card__specs">
                 <summary class="product-card__specs-toggle">Tech Specs <span class="specs-arrow">▾</span></summary>
-                <table class="spec-table"><tbody><tr><td class='spec-table__label'>Technology</td><td class='spec-table__value'>Element IQ + Super Convection air fry</td></tr><tr><td class='spec-table__label'>Functions</td><td class='spec-table__value'>10 presets including dedicated air fry mode</td></tr><tr><td class='spec-table__label'>Capacity</td><td class='spec-table__value'>Fits 12" pizza or 6 slices toast</td></tr><tr><td class='spec-table__label'>Power</td><td class='spec-table__value'>1800W</td></tr><tr><td class='spec-table__label'>Display</td><td class='spec-table__value'>LCD with precise time/temp control</td></tr><tr><td class='spec-table__label'>Best For</td><td class='spec-table__value'>Home cooks who want air fryer + oven in one</td></tr></tbody></table>
-              </details>
+                <table class="spec-table"><tbody><tr><td class='spec-table__label'>Technology</td><td class='spec-table__value'>Element IQ + Super Convection air fry</td></tr><tr><td class='spec-table__label'>Functions</td><td class='spec-table__value'>10 presets including dedicated air fry mode</td></tr><tr><td class='spec-table__label'>Capacity</td><td class='spec-table__value'>Fits 12" pizza or 6 slices toast</td></tr><tr><td class='spec-table__label'>Power</td><td class='spec-table__value'>1800W</td></tr><tr><td class='spec-table__label'>Display</td><td class='spec-table__value'>LCD with precise time/temp control</td></tr><tr><td class='spec-table__label'>Best For</td><td class='spec-table__value'>Home cooks who want air fryer + oven in one</td></tr></Best First Toaster Oven      </details>
             </div>
           </a>
-          <a class="product-card" href="products/breville-smart-oven-pro.html">
+          <a class="product-card" href="products/breville-smart-oven-pro.html" data-score="8.9" data-price="400" data-brand="Breville" data-tag="Best Convection Toaster Oven">
             <div class="product-card__badge">Best Convection Toaster Oven</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B00XBOXVIA.01._SCLZZZZZZZ_.jpg" alt="Breville Smart Oven Pro (BOV845BSS)" class="product-card__img" loading="lazy"
@@ -405,7 +431,7 @@
               </details>
             </div>
           </a>
-          <a class="product-card" href="products/cuisinart-toa-60.html">
+          <a class="product-card" href="products/cuisinart-toa-60.html" data-score="8.5" data-price="199" data-brand="Cuisinart" data-tag="Best Value Air Fryer Oven">
             <div class="product-card__badge">Best Value Air Fryer Oven</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B075BL334F.01._SCLZZZZZZZ_.jpg" alt="Cuisinart TOA-60 Air Fryer Toaster Oven" class="product-card__img" loading="lazy"
@@ -420,7 +446,7 @@
               </details>
             </div>
           </a>
-          <a class="product-card" href="products/delonghi-la-specialista-maestro.html">
+          <a class="product-card" href="products/delonghi-la-specialista-maestro.html" data-score="8.6" data-price="1500" data-brand="De'Longhi" data-tag="Best Premium Home Espresso Machine">
             <div class="product-card__badge">Best Premium Home Espresso Machine</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0DGRTWFKJ.01._SCLZZZZZZZ_.jpg" alt="De'Longhi La Specialista Maestro EC9665M" class="product-card__img" loading="lazy"
@@ -435,7 +461,7 @@
               </details>
             </div>
           </a>
-          <a class="product-card" href="products/instant-vortex-plus-6-qt.html">
+          <a class="product-card" href="products/instant-vortex-plus-6-qt.html" data-score="8.5" data-price="129" data-brand="Instant" data-tag="Best Mid-Size Air Fryer">
             <div class="product-card__badge">Best Mid-Size Air Fryer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B07VHFMZHJ.01._SCLZZZZZZZ_.jpg" alt="Instant Vortex Plus 6-Qt Air Fryer" class="product-card__img" loading="lazy"
@@ -450,7 +476,7 @@
               </details>
             </div>
           </a>
-          <a class="product-card" href="products/ninja-foodi-2-basket-8qt.html">
+          <a class="product-card" href="products/ninja-foodi-2-basket-8qt.html" data-score="8.7" data-price="229" data-brand="Ninja" data-tag="Best Budget Dual-Basket Air Fryer">
             <div class="product-card__badge">Best Budget Dual-Basket Air Fryer</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B08GL1XSH8.01._SCLZZZZZZZ_.jpg" alt="Ninja Foodi 2-Basket Air Fryer 8Qt" class="product-card__img" loading="lazy"
@@ -465,7 +491,7 @@
               </details>
             </div>
           </a>
-          <a class="product-card" href="products/ninja-foodi-xl-pro-dt201.html">
+          <a class="product-card" href="products/ninja-foodi-xl-pro-dt201.html" data-score="8.7" data-price="349" data-brand="Ninja" data-tag="Best XL Air Fry Oven">
             <div class="product-card__badge">Best XL Air Fry Oven</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B08LQY2XF5.01._SCLZZZZZZZ_.jpg" alt="Ninja Foodi XL Pro DT201 Air Fry Oven" class="product-card__img" loading="lazy"
@@ -886,5 +912,6 @@
 })();
 
 
-</script></body>
+</script>
+<script src="js/filter-sort.js"></script></body>
 </html>

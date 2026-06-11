@@ -162,8 +162,35 @@
             <p class="gear-category__sub">Ranked by use case — find yours fast</p>
           </div>
         </div>
-        <div class="product-grid">
-          <a class="product-card" href="products/norton-360-deluxe.html">
+                <div class="sort-filter-bar">
+          <div class="sort-filter-bar__controls">
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="sort-select">Sort by</label>
+              <select class="sort-filter-bar__select" id="sort-select">
+                <option value="default">Default Order</option>
+                <option value="score-desc">ClearPick Score (High to Low)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+                <option value="name-asc">Name (A&#8211;Z)</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="brand-select">Brand</label>
+              <select class="sort-filter-bar__select" id="brand-select">
+                <option value="">All Brands</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="tag-select">Best For</label>
+              <select class="sort-filter-bar__select" id="tag-select">
+                <option value="">All</option>
+              </select>
+            </div>
+            <button class="sort-filter-bar__reset btn btn--ghost" id="filter-reset">Reset</button>
+          </div>
+          <div class="sort-filter-bar__count" id="filter-count"></div>
+        </div><div class="product-grid">
+          <a class="product-card" href="products/norton-360-deluxe.html" data-score="8.6" data-price="80" data-brand="Norton" data-tag="Best for Families">
             <div class="product-card__badge">Best for Families</div>
             <div class="product-card__img-wrap">
               <img src="https://media.officedepot.com/images/t_enlarge%2Cf_auto/products/5111751/1.jpg" alt="Norton 360 Deluxe" class="product-card__img" loading="lazy"
@@ -179,7 +206,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/bitdefender-total-security.html">
+          <a class="product-card" href="products/bitdefender-total-security.html" data-score="9.1" data-price="60" data-brand="Bitdefender" data-tag="Best Overall Protection Score">
             <div class="product-card__badge">Best Overall Protection Score</div>
             <div class="product-card__img-wrap">
               <img src="https://esdcodes.com/489-large_default/bitdefender-total-security-2024-pc-mac.jpg" alt="Bitdefender Total Security" class="product-card__img" loading="lazy"
@@ -195,7 +222,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/malwarebytes-premium.html">
+          <a class="product-card" href="products/malwarebytes-premium.html" data-score="8.6" data-price="45" data-brand="Malwarebytes" data-tag="Best for Privacy">
             <div class="product-card__badge">Best for Privacy</div>
             <div class="product-card__img-wrap">
               <img src="https://i5.walmartimages.com/asr/7e469fa6-8589-43ee-a784-deadc831fbf6.ad6d22f4c7ad16bb751e0f366858001f.png" alt="Malwarebytes Premium + Privacy VPN" class="product-card__img" loading="lazy"
@@ -211,7 +238,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/kaspersky-total-security.html">
+          <a class="product-card" href="products/kaspersky-total-security.html" data-score="8.6" data-price="65" data-brand="Kaspersky" data-tag="Best for Business">
             <div class="product-card__badge">Best for Business</div>
             <div class="product-card__img-wrap">
               <img src="https://msofficestore.us/wp-content/uploads/2024/02/kaspersky-small-office-security-15-devices.png" alt="Kaspersky Small Office Security" class="product-card__img" loading="lazy"
@@ -227,7 +254,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/eset-home-security-premium.html">
+          <a class="product-card" href="products/eset-home-security-premium.html" data-score="8.8" data-price="89" data-brand="ESET" data-tag="Best for Low System Impact">
             <div class="product-card__badge">Best for Low System Impact</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0F1H22T9D.01._SCLZZZZZZZ_.jpg" alt="ESET HOME Security Premium" class="product-card__img" loading="lazy"
@@ -235,10 +262,10 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">ESET HOME Security Premium</h3>
-              <p class="product-card__desc">ESET HOME Security Premium is the top choice for Canadian power users and IT-minded individuals who want enterprise-grade antivirus performance with minimal impact on system speed. ESET consistently scores at the top of independent lab tests for malware detection while using less RAM and CPU than any major competitor — plus it adds password manager, secure browser, and network inspector.</p>
+              <p class="product-card__desc">ESET HOME Security Premium is the top choice for Canadian power users and IT-minded individuals who want enterprise-grade antivirus performance with minimal impact on system speed. ESET consistently scores at the top of indepenBest for Familiesection while using less RAM and CPU than any major competitor — plus it adds password manager, secure browser, and network inspector.</p>
             </div>
           </a>
-          <a class="product-card" href="products/eset-internet-security.html">
+          <a class="product-card" href="products/eset-internet-security.html" data-score="8.7" data-price="59" data-brand="ESET" data-tag="Best Lightweight Antivirus">
             <div class="product-card__badge">Best Lightweight Antivirus</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0F1H6J72S.01._SCLZZZZZZZ_.jpg" alt="ESET Internet Security" class="product-card__img" loading="lazy"
@@ -249,7 +276,7 @@
               <p class="product-card__desc">ESET Internet Security gives Canadian users access to ESET's industry-leading malware detection engine at the most affordable entry point — it covers 3 devices, includes firewall protection, anti-phishing, and webcam protection, and maintains ESET's hallmark of running invisibly in the background without slowing down your machine.</p>
             </div>
           </a>
-          <a class="product-card" href="products/mcafee-premium.html">
+          <a class="product-card" href="products/mcafee-premium.html" data-score="8.4" data-price="109" data-brand="McAfee+" data-tag="Best Identity Protection Suite">
             <div class="product-card__badge">Best Identity Protection Suite</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0BBVWMFBB.01._SCLZZZZZZZ_.jpg" alt="McAfee+ Premium" class="product-card__img" loading="lazy"
@@ -260,7 +287,7 @@
               <p class="product-card__desc">McAfee+ Premium takes the Total Protection package and adds stronger identity theft protection — including dark web monitoring, Social Privacy Manager to automatically clean up personal data from data broker sites, and enhanced credit monitoring. For Canadians concerned specifically about identity theft and data privacy, this is the meaningful upgrade over standard Total Protection.</p>
             </div>
           </a>
-          <a class="product-card" href="products/mcafee-total-protection.html">
+          <a class="product-card" href="products/mcafee-total-protection.html" data-score="8.4" data-price="69" data-brand="McAfee" data-tag="Best for Unlimited Devices">
             <div class="product-card__badge">Best for Unlimited Devices</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0C5K33CLY.01._SCLZZZZZZZ_.jpg" alt="McAfee Total Protection" class="product-card__img" loading="lazy"
@@ -282,10 +309,10 @@
           </div>
         </div>
         <div class="product-grid">
-          <a class="product-card" href="products/microsoft-365-personal.html">
+          <a class="product-card" href="products/microsoft-365-personal.html" data-score="8.7" data-price="89" data-brand="Microsoft" data-tag="Best for Office Work">
             <div class="product-card__badge">Best for Office Work</div>
             <div class="product-card__img-wrap">
-              <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Microsoft-365-Personal-EN" alt="Microsoft 365 Personal" class="product-card__img" loading="lazy"
+              <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Microsoft-365-Personal-EN" alt="Microsoft 365 Personal" cBest Overall Protection Scoreimg" loading="lazy"
                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
             </div>
             <div class="product-card__body">
@@ -298,7 +325,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/microsoft-365-family.html">
+          <a class="product-card" href="products/microsoft-365-family.html" data-score="8.9" data-price="120" data-brand="Microsoft" data-tag="Best for Students &amp; Families">
             <div class="product-card__badge">Best for Students & Families</div>
             <div class="product-card__img-wrap">
               <img src="https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/Microsoft-365-Family-EN" alt="Microsoft 365 Family" class="product-card__img" loading="lazy"
@@ -314,11 +341,10 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/adobe-acrobat-standard.html">
+          <a class="product-card" href="products/adobe-acrobat-standard.html" data-score="8.2" data-price="220" data-brand="Adobe" data-tag="Best for PDF Work">
             <div class="product-card__badge">Best for PDF Work</div>
             <div class="product-card__img-wrap">
-              <img src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/708863/708863_vw_arv00_Acrobat_Standard_DC_boxshot_angle_3in1000/708863" alt="Adobe Acrobat Standard" class="product-card__img" loading="lazy"
-                onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
+              <img src="https://media.officedepot.com/images/f_auto,q_auto,e_sharpen,h_450/products/708863/708863_vw_arv00_Acrobat_Standard_DC_boxshot_angle_3in1000/708863" alt="Adobe Acrobat Standard" class="product-card__img" loadinBest for Privacy      onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Adobe Acrobat Standard</h3>
@@ -330,7 +356,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/rosetta-stone.html">
+          <a class="product-card" href="products/rosetta-stone.html" data-score="8.6" data-price="200" data-brand="Rosetta Stone" data-tag="Best for Learning Languages">
             <div class="product-card__badge">Best for Learning Languages</div>
             <div class="product-card__img-wrap">
               <img src="https://static.helixbeta.com/prod/11111/5318/11111_697485318.jpeg?imwidth=5000" alt="Rosetta Stone Lifetime" class="product-card__img" loading="lazy"
@@ -346,7 +372,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/pimsleur-premium-all-access.html">
+          <a class="product-card" href="products/pimsleur-premium-all-access.html" data-score="8.5" data-Best for Business-brand="Pimsleur" data-tag="Best for Spoken Language">
             <div class="product-card__badge">Best for Spoken Language</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B09DHWG3ST.01._SCLZZZZZZZ_.jpg" alt="Pimsleur Premium All Access" class="product-card__img" loading="lazy"
@@ -715,7 +741,7 @@
         `<div style="position:relative;left:-${scrollX}px;top:-${scrollY}px">` +
         html +
         "</div></div></foreignObject></svg>";
-      const svgUrl = `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+      const svgUrl = Best for Office Workutf-8,${encodeURIComponent(svg)}`;
       const image = new Image();
       image.onload = function () {
         const canvas = document.createElement("canvas");
@@ -763,5 +789,6 @@
 })();
 
 
-</script></body>
+</script>
+<script src="js/filter-sort.js"></script></body>
 </html>

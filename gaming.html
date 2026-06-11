@@ -146,8 +146,35 @@
             <p class="gear-category__sub">Ranked by use case — gear that gives you the edge.</p>
           </div>
         </div>
-        <div class="product-grid">
-          <a class="product-card" href="products/logitech-g502-x.html">
+                <div class="sort-filter-bar">
+          <div class="sort-filter-bar__controls">
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="sort-select">Sort by</label>
+              <select class="sort-filter-bar__select" id="sort-select">
+                <option value="default">Default Order</option>
+                <option value="score-desc">ClearPick Score (High to Low)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+                <option value="name-asc">Name (A&#8211;Z)</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="brand-select">Brand</label>
+              <select class="sort-filter-bar__select" id="brand-select">
+                <option value="">All Brands</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="tag-select">Best For</label>
+              <select class="sort-filter-bar__select" id="tag-select">
+                <option value="">All</option>
+              </select>
+            </div>
+            <button class="sort-filter-bar__reset btn btn--ghost" id="filter-reset">Reset</button>
+          </div>
+          <div class="sort-filter-bar__count" id="filter-count"></div>
+        </div><div class="product-grid">
+          <a class="product-card" href="products/logitech-g502-x.html" data-score="8.9" data-price="179" data-brand="Logitech" data-tag="Best for Multi-Genre Gaming">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -162,7 +189,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/corsair-k70-pro-tkl.html">
+          <a class="product-card" href="products/corsair-k70-pro-tkl.html" data-score="8.7" data-price="179" data-brand="CORSAIR" data-tag="Best for Competitive FPS">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -177,7 +204,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/steelseries-qck-heavy.html">
+          <a class="product-card" href="products/steelseries-qck-heavy.html" data-score="9" data-price="49" data-brand="SteelSeries" data-tag="Best All-Around Mousepad">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -192,7 +219,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/corsair-dark-core.html">
+          <a class="product-card" href="products/corsair-dark-core.html" data-score="8.8" data-price="129" data-brand="Corsair" data-tag="Best Wireless Mouse with Qi Charging">
             <div class="product-card__badge">Best Wireless Mouse with Qi Charging</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B082LVNJ4W.01._SCLZZZZZZZ_.jpg" alt="Corsair Dark Core RGB Pro SE Wireless Mouse" class="product-card__img" loading="lazy"
@@ -203,7 +230,7 @@
               <p class="product-card__desc">The Corsair Dark Core RGB Pro SE stands out with a unique feature: it supports Qi wireless charging, so you can place it on a compatible mouse pad or charging stand and it charges without plugging in. It also delivers slipstream wireless (sub-1ms latency), a 18,000 DPI sensor, and swappable side grips for different hand sizes — making it one of the most versatile flagship gaming mice in Canada.</p>
             </div>
           </a>
-          <a class="product-card" href="products/corsair-mm350.html">
+          <a class="product-card" href="products/corsair-mm350.html" data-score="8.6" data-price="55" data-brand="Corsair" data-tag="Best XL Spill-Proof Pad">
             <div class="product-card__badge">Best XL Spill-Proof Pad</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B08JH8C5T5.01._SCLZZZZZZZ_.jpg" alt="Corsair MM350 Pro Extended XL" class="product-card__img" loading="lazy"
@@ -214,7 +241,7 @@
               <p class="product-card__desc">The Corsair MM350 Pro Extended XL covers the entire desk at 930×400mm with a waterproof micro-textured cloth top and 5mm rubber base that absorbs desk vibration. Built to survive spills and late-night gaming sessions.</p>
             </div>
           </a>
-          <a class="product-card" href="products/hyperx-pulsefire-mat.html">
+          <a class="product-card" href="products/hyperx-pulsefire-mat.html" data-score="8.6" data-price="29" data-brand="HyperX" data-tag="Best Entry-Level Mousepad">
             <div class="product-card__badge">Best Entry-Level Mousepad</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B09TZTSX68.01._SCLZZZZZZZ_.jpg" alt="HyperX Pulsefire Mat" class="product-card__img" loading="lazy"
@@ -225,7 +252,7 @@
               <p class="product-card__desc">The HyperX Pulsefire Mat pairs a natural rubber base with a micro-woven surface that works equally well for gaming and daily desk use. One of the few pads comfortable enough for long typing sessions and precise enough for FPS gaming.</p>
             </div>
           </a>
-          <a class="product-card" href="products/keychron-q1-he.html">
+          <a class="product-card" href="products/keychron-q1-he.html" data-score="9.1" data-price="219" data-brand="Keychron" data-tag="Best Wireless Mechanical Keyboard">
             <div class="product-card__badge">Best Wireless Mechanical Keyboard</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0D4YKXSPD.01._SCLZZZZZZZ_.jpg" alt="Keychron Q1 HE Wireless" class="product-card__img" loading="lazy"
@@ -233,10 +260,10 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Keychron Q1 HE Wireless</h3>
-              <p class="product-card__desc">The Keychron Q1 HE is a gasket-mounted keyboard with magnetic Hall-effect switches and a CNC-machined aluminum body — delivering a premium typing and gaming experience that undercuts most custom boards. Available with Canadian-compatible keycaps.</p>
+              <p class="product-card__desc">The Keychron Q1 HE is a gasket-mounted keyboard with magnetic Hall-effect switches and a CNC-machined aluminum body — delivering a premium typing and gaming experience that undercuts most custom boards. Best for Multi-Genre Gamingmpatible keycaps.</p>
             </div>
           </a>
-          <a class="product-card" href="products/logitech-g-pro-x-tkl.html">
+          <a class="product-card" href="products/logitech-g-pro-x-tkl.html" data-score="9" data-price="199" data-brand="Logitech" data-tag="Best Esports TKL Keyboard">
             <div class="product-card__badge">Best Esports TKL Keyboard</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0DJD163HT.01._SCLZZZZZZZ_.jpg" alt="Logitech G PRO X TKL Rapid Keyboard" class="product-card__img" loading="lazy"
@@ -247,7 +274,7 @@
               <p class="product-card__desc">The Logitech G PRO X TKL Rapid is built to the specifications preferred by professional esports players — it uses Logitech's GX Rapid mechanical switches with adjustable actuation (0.1mm to 4mm), a rapid trigger mode that fires as soon as the key starts returning, and a tournament-ready TKL layout that fits on any size desk. Used by CS2, Valorant, and Overwatch pros.</p>
             </div>
           </a>
-          <a class="product-card" href="products/logitech-g640.html">
+          <a class="product-card" href="products/logitech-g640.html" data-score="8.8" data-price="39" data-brand="Logitech" data-tag="Best Large Balanced-Texture Pad">
             <div class="product-card__badge">Best Large Balanced-Texture Pad</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0BHMKVF1P.01._SCLZZZZZZZ_.jpg" alt="Logitech G640 Large Gaming Mouse Pad" class="product-card__img" loading="lazy"
@@ -258,7 +285,7 @@
               <p class="product-card__desc">The Logitech G640 is tuned specifically for optical sensors with a consistent yarn weave that provides just the right drag for low-DPI FPS gaming. At 400×460mm it's large enough for wide sweeping movements while remaining desk-friendly.</p>
             </div>
           </a>
-          <a class="product-card" href="products/razer-basilisk-v3-pro.html">
+          <a class="product-card" href="products/razer-basilisk-v3-pro.html" data-score="9" data-price="199" data-brand="Razer" data-tag="Best Scroll Wheel Versatility">
             <div class="product-card__badge">Best Scroll Wheel Versatility</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0B6Y3XYFG.01._SCLZZZZZZZ_.jpg" alt="Razer Basilisk V3 Pro Wireless" class="product-card__img" loading="lazy"
@@ -269,10 +296,10 @@
               <p class="product-card__desc">The Razer Basilisk V3 Pro is the flagship wireless gaming mouse with an 11-button customizable layout, HyperScroll tilt wheel, and 90-hour battery via the 30K DPI optical sensor. Supports 4000Hz HyperPolling — the highest available on any wireless mouse.</p>
             </div>
           </a>
-          <a class="product-card" href="products/razer-basilisk-v3-x.html">
+          <a class="product-card" href="products/razer-basilisk-v3-x.html" data-score="8.7" data-price="79" data-brand="Razer" data-tag="Best Value Wireless Gaming Mouse">
             <div class="product-card__badge">Best Value Wireless Gaming Mouse</div>
             <div class="product-card__img-wrap">
-              <img src="https://images-na.ssl-images-amazon.com/images/P/B0BXBC26X8.01._SCLZZZZZZZ_.jpg" alt="Razer Basilisk V3 X HyperSpeed" class="product-card__img" loading="lazy"
+              <img src="https://images-na.ssl-images-amazon.com/images/P/B0BXBC26X8Best for Competitive FPS" alt="Razer Basilisk V3 X HyperSpeed" class="product-card__img" loading="lazy"
                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
             </div>
             <div class="product-card__body">
@@ -280,7 +307,7 @@
               <p class="product-card__desc">The Razer Basilisk V3 X HyperSpeed delivers Razer's HyperSpeed wireless technology at under $100 CAD — it uses a dual-mode wireless system (HyperSpeed 2.4GHz for gaming, Bluetooth for office), 18,000 DPI sensor, and an ergonomic right-handed design with Razer's signature multi-button layout. The best wireless gaming mouse under $100 for most Canadian gamers.</p>
             </div>
           </a>
-          <a class="product-card" href="products/razer-gigantus-v2.html">
+          <a class="product-card" href="products/razer-gigantus-v2.html" data-score="8.8" data-price="35" data-brand="Razer" data-tag="Best Cushioned Desk Mat">
             <div class="product-card__badge">Best Cushioned Desk Mat</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B088539GLT.01._SCLZZZZZZZ_.jpg" alt="Razer Gigantus V2" class="product-card__img" loading="lazy"
@@ -291,7 +318,7 @@
               <p class="product-card__desc">The Razer Gigantus V2 offers a micro-textured cloth surface that balances control and speed — one of the best-reviewed pads in Canada under $40 CAD, with a 3mm anti-slip rubber base and stitched edges in sizes from Medium to XXL.</p>
             </div>
           </a>
-          <a class="product-card" href="products/razer-huntsman-v3-pro.html">
+          <a class="product-card" href="products/razer-huntsman-v3-pro.html" data-score="8.9" data-price="229" data-brand="Razer" data-tag="Best for Competitive Shooter Inputs">
             <div class="product-card__badge">Best for Competitive Shooter Inputs</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CG7BWG7J.01._SCLZZZZZZZ_.jpg" alt="Razer Huntsman V3 Pro TKL Keyboard" class="product-card__img" loading="lazy"
@@ -302,7 +329,7 @@
               <p class="product-card__desc">The Razer Huntsman V3 Pro TKL uses analog optical switches — each key is not just on/off, but detects how far down you press (0-4mm), enabling precision controls in racing games and nuanced character movement in shooters. In TKL form factor, it removes the numpad for extra mouse space. If you want the keyboard technology advantage used in esports, this is it.</p>
             </div>
           </a>
-          <a class="product-card" href="products/razer-naga-v2-pro.html">
+          <a class="product-card" href="products/razer-naga-v2-pro.html" data-score="8.8" data-price="249" data-brand="Razer" data-tag="Best for MMO Games">
             <div class="product-card__badge">Best for MMO Games</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0BGJTLFN5.01._SCLZZZZZZZ_.jpg" alt="Razer Naga V2 Pro Wireless" class="product-card__img" loading="lazy"
@@ -310,10 +337,10 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Razer Naga V2 Pro Wireless</h3>
-              <p class="product-card__desc">The Razer Naga V2 Pro is purpose-built for MMO and MOBA gamers with a swappable side plate system offering 2, 6, or 12-button configurations. The 30K DPI Focus Pro sensor and HyperSpeed wireless make it the most versatile gaming mouse for hotkey-heavy games.</p>
+              <p class="product-card__desc">The Razer Naga V2 Pro is purpose-built for MMO and MOBA gamers with a swappable side plate system offering 2, 6, or 12-button configurations. The 30K DPI Focus Pro Best All-Around Mousepadd wireless make it the most versatile gaming mouse for hotkey-heavy games.</p>
             </div>
           </a>
-          <a class="product-card" href="products/steelseries-apex-pro-tkl-gen-3.html">
+          <a class="product-card" href="products/steelseries-apex-pro-tkl-gen-3.html" data-score="9" data-price="249" data-brand="SteelSeries" data-tag="Best for Customizable Actuation">
             <div class="product-card__badge">Best for Customizable Actuation</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0DZZN889Q.01._SCLZZZZZZZ_.jpg" alt="SteelSeries Apex Pro TKL Gen 3 Keyboard" class="product-card__img" loading="lazy"
@@ -324,7 +351,7 @@
               <p class="product-card__desc">The SteelSeries Apex Pro TKL Gen 3 features OmniPoint 2.0 adjustable magnetic switches — the most configurable gaming keyboard switches available — letting you set actuation per individual key from 0.2mm to 3.8mm. Combined with a built-in OLED display and SteelSeries' best rapid trigger implementation, it's the keyboard for competitive players who tune everything to their exact preference.</p>
             </div>
           </a>
-          <a class="product-card" href="products/steelseries-arctis-nova-pro-wireless.html">
+          <a class="product-card" href="products/steelseries-arctis-nova-pro-wireless.html" data-score="8.8" data-price="399" data-brand="SteelSeries" data-tag="Best ANC Gaming Headset">
             <div class="product-card__badge">Best ANC Gaming Headset</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B09ZWKD9TF.01._SCLZZZZZZZ_.jpg" alt="SteelSeries Arctis Nova Pro Wireless" class="product-card__img" loading="lazy"
@@ -352,7 +379,7 @@
             <svg class="logo-mark" viewBox="0 0 32 32" fill="none" aria-label="ClearPick" xmlns="http://www.w3.org/2000/svg">
               <rect width="32" height="32" rx="8" fill="url(#cp-grad-ftr)"/>
               <path d="M8 16.5L13.5 22L24 11" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-              <defs><linearGradient id="cp-grad-ftr" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpaceOnUse"><stop stop-color="#1a8cff"/><stop offset="1" stop-color="#0055cc"/></linearGradient></defs>
+              <defs><linearGradient id="cp-grad-ftr" x1="0" y1="0" x2="32" y2="32" gradientUnits="userSpBest Wireless Mouse with Qi Charging-color="#1a8cff"/><stop offset="1" stop-color="#0055cc"/></linearGradient></defs>
             </svg>
             ClearPick
           </a>
@@ -558,7 +585,7 @@
     if (ruleTexts.length === 0) return null;
 
     const resolved = ruleTexts.map((cssText) => {
-      if (!SRC_DECLARATION_RE.test(cssText)) return null;
+      if (!SRC_DECLABest Esports TKL KeyboardssText)) return null;
       const srcMatch = cssText.match(/src\s*:\s*([^;}]+)[;}]/i);
       if (!srcMatch) return null;
       const url = extractFontUrl(srcMatch[1]);
@@ -731,5 +758,6 @@
 })();
 
 
-</script></body>
+</script>
+<script src="js/filter-sort.js"></script></body>
 </html>

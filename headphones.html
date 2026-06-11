@@ -162,8 +162,35 @@
             <p class="gear-category__sub">Ranked by use case — find yours fast</p>
           </div>
         </div>
-        <div class="product-grid">
-          <a class="product-card" href="products/sony-wh-1000xm5.html">
+                <div class="sort-filter-bar">
+          <div class="sort-filter-bar__controls">
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="sort-select">Sort by</label>
+              <select class="sort-filter-bar__select" id="sort-select">
+                <option value="default">Default Order</option>
+                <option value="score-desc">ClearPick Score (High to Low)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+                <option value="name-asc">Name (A&#8211;Z)</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="brand-select">Brand</label>
+              <select class="sort-filter-bar__select" id="brand-select">
+                <option value="">All Brands</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="tag-select">Best For</label>
+              <select class="sort-filter-bar__select" id="tag-select">
+                <option value="">All</option>
+              </select>
+            </div>
+            <button class="sort-filter-bar__reset btn btn--ghost" id="filter-reset">Reset</button>
+          </div>
+          <div class="sort-filter-bar__count" id="filter-count"></div>
+        </div><div class="product-grid">
+          <a class="product-card" href="products/sony-wh-1000xm5.html" data-score="8.9" data-price="399" data-brand="Sony" data-tag="Best for Commuting">
             <div class="product-card__badge">Best for Commuting</div>
             <div class="product-card__img-wrap">
               <img src="https://www.bhphotovideo.com/images/fb/sony_6505727_sony_wh_1000xm5_wireless_noise_canceling_1706293.jpg" alt="Sony WH-1000XM5" class="product-card__img" loading="lazy"
@@ -179,7 +206,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/steelseries-arctis-nova-pro.html">
+          <a class="product-card" href="products/steelseries-arctis-nova-pro.html" data-score="8.7" data-price="349" data-brand="SteelSeries" data-tag="Best for Gaming">
             <div class="product-card__badge">Best for Gaming</div>
             <div class="product-card__img-wrap">
               <img src="https://pisces.bbystatic.com/image2/BestBuy_US/images/products/16562940-68e6-4156-891e-52ef7405473d.jpg" alt="SteelSeries Arctis Nova Pro Wireless" class="product-card__img" loading="lazy"
@@ -195,7 +222,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/jabra-evolve2-65.html">
+          <a class="product-card" href="products/jabra-evolve2-65.html" data-score="8.6" data-price="279" data-brand="Jabra" data-tag="Best for Remote Work Calls">
             <div class="product-card__badge">Best for Remote Work Calls</div>
             <div class="product-card__img-wrap">
               <img src="https://www.jabra.com/-/media/Images/Products/Jabra-Evolve2-65/V1/Product/Jabra-Evolve2-65-UC-Black-Stereo-Docked.png" alt="Jabra Evolve2 65" class="product-card__img" loading="lazy"
@@ -211,7 +238,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/anker-soundcore-space-q45.html">
+          <a class="product-card" href="products/anker-soundcore-space-q45.html" data-score="8.4" data-price="79" data-brand="Anker" data-tag="Best Budget ANC">
             <div class="product-card__badge">Best Budget ANC</div>
             <div class="product-card__img-wrap">
               <img src="https://i5.walmartimages.com/asr/80dd3b86-3366-45e9-8ca2-7ec32b98fdfa.e227e6c963e973ff9c200d67af442144.jpeg" alt="Anker Soundcore Space Q45" class="product-card__img" loading="lazy"
@@ -227,7 +254,7 @@
               
             </div>
           </a>
-          <a class="product-card" href="products/bose-quietcomfort.html">
+          <a class="product-card" href="products/bose-quietcomfort.html" data-score="8.7" data-price="349" data-brand="Bose" data-tag="Best Comfort ANC">
             <div class="product-card__badge">Best Comfort ANC</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0D4Z9C562.01._SCLZZZZZZZ_.jpg" alt="Bose QuietComfort Headphones" class="product-card__img" loading="lazy"
@@ -238,7 +265,7 @@
               <p class="product-card__desc">The Bose QuietComfort Headphones deliver the same legendary comfort and excellent ANC as Bose's flagship at a significantly lower price. If you don't need Immersive Audio but want Bose's signature plush earcup feel and reliable noise blocking for daily commutes or office work, the standard QC is the smarter buy in Canada.</p>
             </div>
           </a>
-          <a class="product-card" href="products/bose-quietcomfort-ultra.html">
+          <a class="product-card" href="products/bose-quietcomfort-ultra.html" data-score="8.8" data-price="499" data-brand="Bose" data-tag="Best for Travel">
             <div class="product-card__badge">Best for Travel</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CCZ26B5V.01._SCLZZZZZZZ_.jpg" alt="Bose QuietComfort Ultra Headphones" class="product-card__img" loading="lazy"
@@ -249,7 +276,7 @@
               <p class="product-card__desc">The Bose QuietComfort Ultra is Bose's current flagship and the best travel headphone you can buy in Canada. It pairs the company's best-ever ANC with new Immersive Audio spatial sound, a supremely comfortable lightweight design, and 24-hour battery life. Whether you're on a transatlantic flight or just need to block out an open-plan office, the QC Ultra sets the standard.</p>
             </div>
           </a>
-          <a class="product-card" href="products/sennheiser-momentum-4.html">
+          <a class="product-card" href="products/sennheiser-momentum-4.html" data-score="8.9" data-price="399" data-brand="Sennheiser" data-tag="Best Audio Quality">
             <div class="product-card__badge">Best Audio Quality</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CQ2TBSPV.01._SCLZZZZZZZ_.jpg" alt="Sennheiser Momentum 4 Wireless" class="product-card__img" loading="lazy"
@@ -260,7 +287,7 @@
               <p class="product-card__desc">The Sennheiser Momentum 4 Wireless is the audiophile choice in the over-ear ANC category — it delivers a wider, more natural sound stage than either Sony or Bose rivals, with 60-hour battery life that embarrasses the competition. If music quality is your top priority and you want headphones that disappear into your ears rather than process the sound aggressively, the Momentum 4 is the pick in Canada.</p>
             </div>
           </a>
-          <a class="product-card" href="products/sony-wh-1000xm4.html">
+          <a class="product-card" href="products/sony-wh-1000xm4.html" data-score="8.8" data-price="279" data-brand="Sony" data-tag="Best Value Premium ANC">
             <div class="product-card__badge">Best Value Premium ANC</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CLMH7FCV.01._SCLZZZZZZZ_.jpg" alt="Sony WH-1000XM4" class="product-card__img" loading="lazy"
@@ -271,7 +298,7 @@
               <p class="product-card__desc">The Sony WH-1000XM4 is the previous flagship — and at its current Canadian street price, it offers nearly identical noise cancellation and sound quality to the XM5 at $80–$120 CAD less. The smartest value buy in premium ANC headphones right now.</p>
             </div>
           </a>
-          <a class="product-card" href="products/sony-ult-wear.html">
+          <a class="product-card" href="products/sony-ult-wear.html" data-score="8.4" data-price="249" data-brand="Sony" data-tag="Best for Bass">
             <div class="product-card__badge">Best for Bass</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CWVX1GNX.01._SCLZZZZZZZ_.jpg" alt="Sony ULT WEAR" class="product-card__img" loading="lazy"
@@ -282,7 +309,7 @@
               <p class="product-card__desc">The Sony ULT WEAR is Sony's bass-first answer to headphone listeners who want deep, physical impact in their music — an ULT button adds extra low-end punch on demand, layered on top of Sony's already excellent ANC and 30-hour battery. If you love hip-hop, EDM, or any genre where the bass needs to be felt, the ULT WEAR is the Sony pick in Canada.</p>
             </div>
           </a>
-          <a class="product-card" href="products/jabra-evolve2-75.html">
+          <a class="product-card" href="products/jabra-evolve2-75.html" data-score="8.5" data-price="499" data-brand="Jabra" data-tag="Best Enterprise Call Headset">
             <div class="product-card__badge">Best Enterprise Call Headset</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B09MDQD4GL.01._SCLZZZZZZZ_.jpg" alt="Jabra Evolve2 75" class="product-card__img" loading="lazy"
@@ -293,7 +320,7 @@
               <p class="product-card__desc">The Jabra Evolve2 75 is the gold standard for hybrid workers who spend hours on calls and virtual meetings — its 8-mic array with advanced call technology makes your voice sound professional in any environment, while the ANC keeps you focused. UC-certified and compatible with every major conferencing platform, it's what serious remote workers in Canada reach for.</p>
             </div>
           </a>
-          <a class="product-card" href="products/jbl-live-780nc.html">
+          <a class="product-card" href="products/jbl-live-780nc.html" data-score="8.3" data-price="199" data-brand="JBL" data-tag="Best Battery Life">
             <div class="product-card__badge">Best Battery Life</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0GLLTQZKK.01._SCLZZZZZZZ_.jpg" alt="JBL Live 780NC" class="product-card__img" loading="lazy"
@@ -304,7 +331,7 @@
               <p class="product-card__desc">The JBL Live 780NC delivers JBL's signature bass-forward sound with adaptive noise cancellation and a 65-hour battery — the go-to pick for Canadians who want punchy audio for workouts and commutes without spending $400+.</p>
             </div>
           </a>
-          <a class="product-card" href="products/hyperx-cloud-iii-wireless.html">
+          <a class="product-card" href="products/hyperx-cloud-iii-wireless.html" data-score="8.3" data-price="199" data-brand="HyperX" data-tag="Best All-Around Gaming Headset">
             <div class="product-card__badge">Best All-Around Gaming Headset</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0F6NZWPTC.01._SCLZZZZZZZ_.jpg" alt="HyperX Cloud III Wireless" class="product-card__img" loading="lazy"
@@ -315,7 +342,7 @@
               <p class="product-card__desc">The HyperX Cloud III Wireless is the best all-around gaming headset under $200 CAD — it delivers clear, punchy gaming audio, a great detachable mic for squad comms, and 100 hours of battery life that makes charging feel like a once-a-week chore. Lightweight, comfortable, and compatible with PC and PlayStation, it's the default recommendation for most Canadian gamers.</p>
             </div>
           </a>
-          <a class="product-card" href="products/turtle-beach-stealth-pro-wireless.html">
+          <a class="product-card" href="products/turtle-beach-stealth-pro-wireless.html" data-score="8.3" data-price="329" data-brand="Turtle Beach" data-tag="Best Multi-Platform Gaming">
             <div class="product-card__badge">Best Multi-Platform Gaming</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0GQCNJCPR.01._SCLZZZZZZZ_.jpg" alt="Turtle Beach Stealth Pro Wireless" class="product-card__img" loading="lazy"
@@ -326,18 +353,18 @@
               <p class="product-card__desc">The Turtle Beach Stealth Pro Wireless is the premium multi-platform gaming headset — it works across Xbox, PlayStation, and PC with swappable batteries so you never run out mid-session. Turtle Beach packs in ANC, a SuperAmp controller, and Superhuman Hearing mode, making it ideal for competitive Canadian gamers who switch between platforms.</p>
             </div>
           </a>
-          <a class="product-card" href="products/sony-inzone-h9.html">
+          <a class="product-card" href="products/sony-inzone-h9.html" data-score="8.2" data-price="299" data-brand="Sony" data-tag="Best for PS5 Gaming">
             <div class="product-card__badge">Best for PS5 Gaming</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CJH3DJ36.01._SCLZZZZZZZ_.jpg" alt="Sony INZONE H9 Wireless" class="product-card__img" loading="lazy"
                 onerror="this.style.display='none';this.parentElement.classList.add('no-img')" />
             </div>
             <div class="product-card__body">
-              <h3 class="product-card__name">Sony INZONE H9 Wireless</h3>
+       Best for Remote Work Calls-card__name">Sony INZONE H9 Wireless</h3>
               <p class="product-card__desc">The Sony INZONE H9 Wireless is Sony's premium gaming headset built specifically for PlayStation 5 — it pairs seamlessly with PS5's 3D Audio Tempest engine, delivers active noise cancellation rare in gaming headsets, and connects via low-latency 2.4GHz alongside Bluetooth for simultaneous device use. If you're a PS5 owner who wants the best native integration, this is the headset.</p>
             </div>
           </a>
-          <a class="product-card" href="products/audeze-maxwell.html">
+          <a class="product-card" href="products/audeze-maxwell.html" data-score="8.2" data-price="479" data-brand="Audeze" data-tag="Best Sound Quality for Gaming">
             <div class="product-card__badge">Best Sound Quality for Gaming</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0BNGT66Y5.01._SCLZZZZZZZ_.jpg" alt="Audeze Maxwell Wireless" class="product-card__img" loading="lazy"
@@ -348,7 +375,7 @@
               <p class="product-card__desc">The Audeze Maxwell Wireless brings planar magnetic driver technology — typically reserved for $500+ audiophile headphones — to a gaming headset that also works flawlessly for music and calls. The result is a sound signature that makes every other gaming headset sound flat and boxy by comparison. If you want the best-sounding wireless headset available for gaming in Canada, this is it.</p>
             </div>
           </a>
-          <a class="product-card" href="products/poly-voyager-focus-2.html">
+          <a class="product-card" href="products/poly-voyager-focus-2.html" data-score="8.2" data-price="269" data-brand="Poly" data-tag="Best Business Headset">
             <div class="product-card__badge">Best Business Headset</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B092TGXDSW.01._SCLZZZZZZZ_.jpg" alt="Poly Voyager Focus 2" class="product-card__img" loading="lazy"
@@ -359,7 +386,7 @@
               <p class="product-card__desc">The Poly Voyager Focus 2 is the top-rated business headset in Canada, with a boom microphone that isolates voice from background noise using three mics and hybrid ANC. Built for Microsoft Teams and Zoom with a dedicated Teams button and 19-hour talk time.</p>
             </div>
           </a>
-          <a class="product-card" href="products/yealink-bh74.html">
+          <a class="product-card" href="products/yealink-bh74.html" data-score="8.3" data-price="179" data-brand="Yealink" data-tag="Best Budget Business Headset">
             <div class="product-card__badge">Best Budget Business Headset</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0D9PY5L5C.01._SCLZZZZZZZ_.jpg" alt="Yealink BH74" class="product-card__img" loading="lazy"
@@ -370,7 +397,7 @@
               <p class="product-card__desc">The Yealink BH74 delivers enterprise-grade call clarity at a mid-range price, with a retractable boom mic, active noise cancellation, and 45-hour battery life — the longest of any business headset in this price range.</p>
             </div>
           </a>
-          <a class="product-card" href="products/epos-impact-1000.html">
+          <a class="product-card" href="products/epos-impact-1000.html" data-score="8.3" data-price="349" data-brand="EPOS" data-tag="Best Enterprise Headset">
             <div class="product-card__badge">Best Enterprise Headset</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0C4ZLLPVY.01._SCLZZZZZZZ_.jpg" alt="EPOS IMPACT 1000" class="product-card__img" loading="lazy"
@@ -381,7 +408,7 @@
               <p class="product-card__desc">The EPOS IMPACT 1000 is built for enterprise environments where call quality and all-day comfort are non-negotiable. EPOS (formerly Sennheiser Communications) brings German audio engineering to a headset designed for long call days — its adaptive ANC, certified microphone, and 30-hour battery make it a reliable choice for Canadian professionals in demanding work environments.</p>
             </div>
           </a>
-          <a class="product-card" href="products/hyperx-cloud-flight.html">
+          <a class="product-card" href="products/hyperx-cloud-flight.html" data-score="8" data-price="149" data-brand="HyperX" data-tag="Best Lightweight Wireless Headset">
             <div class="product-card__badge">Best Lightweight Wireless Headset</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0FP1YT84W.01._SCLZZZZZZZ_.jpg" alt="HyperX Cloud Flight Wireless" class="product-card__img" loading="lazy"
@@ -441,8 +468,7 @@
         </div>
         <div class="footer-col">
           <div class="footer-col__heading">Site</div>
-          <ul class="footer-links">
-            <li><a href="blog/index.html">Blog</a></li>
+          <ul class="fBest Comfort ANC            <li><a href="blog/index.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
             <li><a href="privacy.html">Affiliate Disclosure</a></li>
@@ -542,7 +568,7 @@
       if (serialized) {
         clone.style.cssText = serialized;
       } else {
-        const parts = new Array(computedStyle.length);
+        const parts = new ABest Audio Qualitygth);
         for (let index = 0; index < computedStyle.length; index += 1) {
           const property = computedStyle[index];
           parts[index] = `${property}:${computedStyle.getPropertyValue(property)};`;
@@ -802,5 +828,6 @@
 })();
 
 
-</script></body>
+</script>
+<script src="js/filter-sort.js"></script></body>
 </html>

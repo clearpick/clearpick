@@ -2443,3 +2443,86 @@ a:hover { color: var(--color-primary-hover); }
     grid-template-columns: 1fr;
   }
 }
+
+/* ─── Sort / Filter Bar ─── */
+.sort-filter-bar {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-4) var(--space-6);
+  margin-bottom: var(--space-8);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+}
+
+.sort-filter-bar__controls {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  flex-wrap: wrap;
+}
+
+.sort-filter-bar__group {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.sort-filter-bar__label {
+  font-size: var(--text-sm);
+  font-weight: 600;
+  color: var(--color-text-muted);
+  white-space: nowrap;
+}
+
+.sort-filter-bar__select {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  padding: var(--space-2) var(--space-8) var(--space-2) var(--space-3);
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+  background-color: var(--color-surface-2);
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%238b8fa8' stroke-width='2.5'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right var(--space-3) center;
+  appearance: none;
+  -webkit-appearance: none;
+  color: var(--color-text);
+  cursor: pointer;
+  transition: border-color var(--transition);
+  max-width: 200px;
+}
+
+.sort-filter-bar__select:hover { border-color: var(--color-primary); }
+.sort-filter-bar__select:focus {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-color: var(--color-primary);
+}
+
+.sort-filter-bar__count {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.sort-filter-bar__reset {
+  padding: var(--space-2) var(--space-4);
+  font-size: var(--text-sm);
+}
+
+@media (max-width: 768px) {
+  .sort-filter-bar {
+    padding: var(--space-3) var(--space-4);
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .sort-filter-bar__controls { width: 100%; }
+  .sort-filter-bar__group { flex: 1 1 auto; flex-direction: column; align-items: flex-start; }
+  .sort-filter-bar__select { width: 100%; max-width: none; }
+  .sort-filter-bar__count { text-align: center; }
+}

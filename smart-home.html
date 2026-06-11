@@ -146,8 +146,35 @@
             <p class="gear-category__sub">From voice control to energy savings — ranked by what you actually need it for.</p>
           </div>
         </div>
-        <div class="product-grid">
-          <a class="product-card" href="products/amazon-echo-dot-5th-gen.html">
+                <div class="sort-filter-bar">
+          <div class="sort-filter-bar__controls">
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="sort-select">Sort by</label>
+              <select class="sort-filter-bar__select" id="sort-select">
+                <option value="default">Default Order</option>
+                <option value="score-desc">ClearPick Score (High to Low)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+                <option value="name-asc">Name (A&#8211;Z)</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="brand-select">Brand</label>
+              <select class="sort-filter-bar__select" id="brand-select">
+                <option value="">All Brands</option>
+              </select>
+            </div>
+            <div class="sort-filter-bar__group">
+              <label class="sort-filter-bar__label" for="tag-select">Best For</label>
+              <select class="sort-filter-bar__select" id="tag-select">
+                <option value="">All</option>
+              </select>
+            </div>
+            <button class="sort-filter-bar__reset btn btn--ghost" id="filter-reset">Reset</button>
+          </div>
+          <div class="sort-filter-bar__count" id="filter-count"></div>
+        </div><div class="product-grid">
+          <a class="product-card" href="products/amazon-echo-dot-5th-gen.html" data-score="9.1" data-price="70" data-brand="Amazon" data-tag="Best Smart Home Hub">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -162,7 +189,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/ring-battery-video-doorbell-2024.html">
+          <a class="product-card" href="products/ring-battery-video-doorbell-2024.html" data-score="8.7" data-price="130" data-brand="Ring" data-tag="Best All-Around Video Doorbell">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -177,7 +204,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/ecobee-smart-thermostat-premium.html">
+          <a class="product-card" href="products/ecobee-smart-thermostat-premium.html" data-score="9" data-price="299" data-brand="ecobee" data-tag="Best for Energy Savings">
             <div class="product-card__inner">
               
               <div class="product-card__body">
@@ -192,7 +219,7 @@
               </div>
             </div>
           </a>
-          <a class="product-card" href="products/amazon-echo-pop.html">
+          <a class="product-card" href="products/amazon-echo-pop.html" data-score="9" data-price="69" data-brand="Amazon" data-tag="Best Budget Smart Speaker">
             <div class="product-card__badge">Best Budget Smart Speaker</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B09WNK39JN.01._SCLZZZZZZZ_.jpg" alt="Amazon Echo Pop" class="product-card__img" loading="lazy"
@@ -203,7 +230,7 @@
               <p class="product-card__desc">The Amazon Echo Pop is the most affordable entry point into the Alexa ecosystem in Canada — its half-sphere design fits on shelves and nightstands, sound quality beats the Echo Dot for the same price, and it brings full Alexa smart home control to any room without spending Echo or Echo Plus money. The best starter smart speaker for Canadian Amazon households.</p>
             </div>
           </a>
-          <a class="product-card" href="products/google-nest-thermostat.html">
+          <a class="product-card" href="products/google-nest-thermostat.html" data-score="8.8" data-price="169" data-brand="Google" data-tag="Best Budget Smart Thermostat">
             <div class="product-card__badge">Best Budget Smart Thermostat</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0D1TPMN3K.01._SCLZZZZZZZ_.jpg" alt="Google Nest Thermostat" class="product-card__img" loading="lazy"
@@ -214,7 +241,7 @@
               <p class="product-card__desc">The Google Nest Thermostat is the most affordable way for Canadian homeowners to add smart thermostat functionality to their home — it learns your schedule, shows your energy history, and integrates with Google Home and Alexa. At under $170 CAD installed, it pays for itself in energy savings within a season for most homes.</p>
             </div>
           </a>
-          <a class="product-card" href="products/google-nest-doorbell-battery.html">
+          <a class="product-card" href="products/google-nest-doorbell-battery.html" data-score="8.8" data-price="179" data-brand="Google" data-tag="Best Doorbell for Nest/Google Homes">
             <div class="product-card__badge">Best Doorbell for Nest/Google Homes</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0B1PJQB17.01._SCLZZZZZZZ_.jpg" alt="Google Nest Doorbell (Battery)" class="product-card__img" loading="lazy"
@@ -225,7 +252,7 @@
               <p class="product-card__desc">The Google Nest Doorbell (Battery) is the best smart doorbell for households already using Google Home or Google Assistant — it delivers HDR video, familiar face alerts that learn who your household members are, and seamless integration with Nest cameras, Google Hub displays, and Chromecast devices. For Canadian Google ecosystem users, it's the most cohesive choice.</p>
             </div>
           </a>
-          <a class="product-card" href="products/blink-video-doorbell.html">
+          <a class="product-card" href="products/blink-video-doorbell.html" data-score="8.5" data-price="79" data-brand="Blink" data-tag="Best Budget Video Doorbell">
             <div class="product-card__badge">Best Budget Video Doorbell</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0DGQYWFC9.01._SCLZZZZZZZ_.jpg" alt="Blink Video Doorbell" class="product-card__img" loading="lazy"
@@ -233,10 +260,10 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Blink Video Doorbell</h3>
-              <p class="product-card__desc">The Blink Video Doorbell is Amazon's most affordable smart doorbell and the best budget video doorbell for Canadian homeowners — it works wired or on battery power, delivers 1080p HD live video with two-way audio, and integrates natively with Alexa. No monthly subscription is required if you use local storage, making the total cost of ownership the lowest in its category.</p>
+              <p class="product-card__desc">The Blink Video Doorbell is Amazon's most affordable smart doorbell and the best budget video doorbell for Canadian homeowners — it works wired or on battery poweBest Smart Home Hub video with two-way audio, and integrates natively with Alexa. No monthly subscription is required if you use local storage, making the total cost of ownership the lowest in its category.</p>
             </div>
           </a>
-          <a class="product-card" href="products/arlo-essential-video-doorbell-wire-free.html">
+          <a class="product-card" href="products/arlo-essential-video-doorbell-wire-free.html" data-score="8.6" data-price="199" data-brand="Arlo" data-tag="Best for Multiple Camera Systems">
             <div class="product-card__badge">Best for Multiple Camera Systems</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0DNTZN481.01._SCLZZZZZZZ_.jpg" alt="Arlo Essential Video Doorbell Wire-Free" class="product-card__img" loading="lazy"
@@ -247,7 +274,7 @@
               <p class="product-card__desc">The Arlo Essential Video Doorbell Wire-Free is the most flexible smart doorbell installation option for Canadian renters and homeowners who can't or don't want to run wiring — its rechargeable battery provides up to 6 months of runtime, the 180° field of view captures packages at your feet, and it integrates with Alexa, Google Assistant, and Apple HomeKit.</p>
             </div>
           </a>
-          <a class="product-card" href="products/eufy-security-video-doorbell-battery-powered.html">
+          <a class="product-card" href="products/eufy-security-video-doorbell-battery-powered.html" data-score="8.7" data-price="149" data-brand="eufy" data-tag="Best No-Subscription Doorbell">
             <div class="product-card__badge">Best No-Subscription Doorbell</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0CD7NT4Y9.01._SCLZZZZZZZ_.jpg" alt="eufy Security Video Doorbell Battery-Powered" class="product-card__img" loading="lazy"
@@ -258,7 +285,7 @@
               <p class="product-card__desc">The eufy Security Video Doorbell Battery-Powered is the best smart doorbell for Canadians who refuse to pay monthly subscription fees — all video is stored locally on the included homebase, motion detection is AI-powered to distinguish people from packages vs general motion, and image quality at 2K beats most competitors at the same price. No cloud fees, ever.</p>
             </div>
           </a>
-          <a class="product-card" href="products/honeywell-home-t9-wifi-smart-thermostat.html">
+          <a class="product-card" href="products/honeywell-home-t9-wifi-smart-thermostat.html" data-score="8.8" data-price="269" data-brand="Honeywell" data-tag="Best for Large Homes">
             <div class="product-card__badge">Best for Large Homes</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B07RBRG6DQ.01._SCLZZZZZZZ_.jpg" alt="Honeywell Home T9 WiFi Smart Thermostat" class="product-card__img" loading="lazy"
@@ -266,10 +293,9 @@
             </div>
             <div class="product-card__body">
               <h3 class="product-card__name">Honeywell Home T9 WiFi Smart Thermostat</h3>
-              <p class="product-card__desc">The Honeywell Home T9 is the best smart thermostat for larger Canadian homes with multiple rooms — its optional Smart Room Sensors detect which rooms are actually occupied and adjust heating/cooling accordingly, preventing the common problem of heating an empty basement while the living room gets ignored. Works with Alexa, Google, and Apple HomeKit.</p>
-            </div>
+              <p class="product-card__desc">The Honeywell Home T9 is the best smart thermostat for larger Canadian homes with multiple rooms — its optional Smart Room Sensors detect which rooms are actually occupied and adjust heating/cooling accordingly, preventing the common problem of heating an empty basement while the living room gets ignored. Works with Alexa, Google, and Apple HomeKit.</pBest All-Around Video Doorbell>
           </a>
-          <a class="product-card" href="products/sonos-era-100.html">
+          <a class="product-card" href="products/sonos-era-100.html" data-score="8.6" data-price="319" data-brand="Sonos" data-tag="Best Premium Smart Speaker">
             <div class="product-card__badge">Best Premium Smart Speaker</div>
             <div class="product-card__img-wrap">
               <img src="https://images-na.ssl-images-amazon.com/images/P/B0BW2LVJ4P.01._SCLZZZZZZZ_.jpg" alt="Sonos Era 100" class="product-card__img" loading="lazy"
@@ -324,7 +350,7 @@
             <li><a href="blog/index.html">Blog</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="privacy.html">Affiliate Disclosure</a></li>
+            <li><a href="privacyBest for Energy Savingslosure</a></li>
           </ul>
         </div>
       </div>
@@ -676,5 +702,6 @@
 })();
 
 
-</script></body>
+</script>
+<script src="js/filter-sort.js"></script></body>
 </html>
