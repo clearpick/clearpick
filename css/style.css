@@ -255,6 +255,7 @@ a:hover { color: var(--color-primary-hover); }
   justify-content: space-between;
   gap: var(--space-6);
   padding-block: var(--space-4);
+  flex-wrap: wrap;
 }
 
 .logo {
@@ -1450,6 +1451,54 @@ a:hover { color: var(--color-primary-hover); }
   .search-box__input {
     font-size: var(--text-sm);
   }
+}
+
+/* ─── Header Search ─── */
+.header-search-wrap {
+  position: relative;
+  flex: 1 1 auto;
+  max-width: 280px;
+  min-width: 0;
+  margin: 0;
+  width: auto;
+}
+
+.header-search-wrap .search-box {
+  padding: 6px var(--space-4);
+}
+
+.header-search-wrap .search-box__input {
+  font-size: var(--text-sm);
+}
+
+.header-search-btn {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  color: var(--color-text);
+  border-radius: var(--radius-md);
+  transition: background var(--transition);
+  flex-shrink: 0;
+}
+
+.header-search-btn:hover { background: var(--color-surface-offset); }
+
+@media (max-width: 768px) {
+  .header-search-wrap {
+    display: none;
+    order: 10;
+    flex: 1 1 100%;
+    max-width: none;
+    padding-bottom: var(--space-3);
+  }
+
+  .header-search-wrap.is-open {
+    display: block;
+  }
+
+  .header-search-btn { display: flex; }
 }
 
 /* ─── Enhanced Product Cards ─── */
