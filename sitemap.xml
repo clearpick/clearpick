@@ -1006,15 +1006,9 @@
     <loc>https://clearpick.ca/faq.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
-    <lastmod>2026-06-11</lastmod>
-  </url>
-  <url>
-    <loc>https://clearpick.ca/affiliate-links.html</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.5</priority>
     <lastmod>2026-06-10</lastmod>
   </url>
-  <url>
+<url>
     <loc>https://clearpick.ca/privacy.html</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
