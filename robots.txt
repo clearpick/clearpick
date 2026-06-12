@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://clearpick.pplx.app/sitemap.xml
+Sitemap: https://clearpick.ca/sitemap.xml
