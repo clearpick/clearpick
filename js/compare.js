@@ -218,12 +218,13 @@
 
   /* ─── Picker overlay ─── */
   let activePickerSlot = -1;
+  let pickerCandidates = [];
 
   function openPicker(slotIdx) {
     activePickerSlot = slotIdx;
 
     const usedIds = new Set(slots.filter(Boolean).map(p => p.id));
-    const candidates = PRODUCTS.filter(
+    pickerCandidates = PRODUCTS.filter(
       p => p.category === currentProduct.category && !usedIds.has(p.id)
     );
 
@@ -238,27 +239,76 @@
       document.body.appendChild(overlay);
     }
 
-    const gridItems = candidates.length
-      ? candidates.map(p =>
-          '<button class="compare-picker__item" type="button" data-id="' + esc(p.id) + '">' +
-          '<img class="compare-picker__item-img" src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy"/>' +
-          '<span class="compare-picker__item-score">' + esc(p.score) + '</span>' +
-          '<span class="compare-picker__item-name">' + esc(p.name) + '</span>' +
-          '</button>'
-        ).join('')
-      : '<p class="compare-picker__empty">No other ' + esc(currentProduct.category) + ' products to compare.</p>';
-
+    // Rebuild picker HTML fresh each open (resets search + sort)
     overlay.innerHTML =
       '<div class="compare-picker">' +
         '<div class="compare-picker__header">' +
           '<h3 class="compare-picker__title">Add a ' + esc(currentProduct.category) + ' product</h3>' +
           '<button class="compare-picker__close" type="button" aria-label="Close">×</button>' +
         '</div>' +
-        '<div class="compare-picker__grid">' + gridItems + '</div>' +
+        '<div class="compare-picker__controls">' +
+          '<input class="compare-picker__search" type="search" placeholder="Search ' + esc(currentProduct.category) + '..." autocomplete="off"/>' +
+          '<select class="compare-picker__sort">' +
+            '<option value="score">ClearPick Score (High to Low)</option>' +
+            '<option value="name">Name (A–Z)</option>' +
+            '<option value="price">Price (Low to High)</option>' +
+          '</select>' +
+        '</div>' +
+        '<div class="compare-picker__grid"></div>' +
       '</div>';
 
     overlay.querySelector('.compare-picker__close').addEventListener('click', closePicker);
-    overlay.querySelectorAll('.compare-picker__item').forEach(btn => {
+
+    const searchInput = overlay.querySelector('.compare-picker__search');
+    const sortSelect  = overlay.querySelector('.compare-picker__sort');
+
+    searchInput.addEventListener('keyup', function () {
+      renderPickerGrid(overlay, this.value, sortSelect.value);
+    });
+    sortSelect.addEventListener('change', function () {
+      renderPickerGrid(overlay, searchInput.value, this.value);
+    });
+
+    renderPickerGrid(overlay, '', 'score');
+
+    overlay.removeAttribute('hidden');
+    document.addEventListener('keydown', pickerEscHandler);
+    searchInput.focus();
+  }
+
+  function renderPickerGrid(overlay, query, sortKey) {
+    const grid = overlay.querySelector('.compare-picker__grid');
+    if (!grid) return;
+
+    let visible = pickerCandidates.slice();
+
+    if (query && query.length >= 1) {
+      const q = query.toLowerCase();
+      visible = visible.filter(p => p.name.toLowerCase().includes(q));
+    }
+
+    if (sortKey === 'score') {
+      visible.sort((a, b) => b.score - a.score);
+    } else if (sortKey === 'name') {
+      visible.sort((a, b) => a.name.localeCompare(b.name));
+    } else if (sortKey === 'price') {
+      visible.sort((a, b) => parsePrice(a.price) - parsePrice(b.price));
+    }
+
+    if (!visible.length) {
+      grid.innerHTML = '<p class="compare-picker__empty">No products found.</p>';
+      return;
+    }
+
+    grid.innerHTML = visible.map(p =>
+      '<button class="compare-picker__item" type="button" data-id="' + esc(p.id) + '">' +
+      '<img class="compare-picker__item-img" src="' + esc(p.image) + '" alt="' + esc(p.name) + '" loading="lazy"/>' +
+      '<span class="compare-picker__item-score">' + esc(p.score) + '</span>' +
+      '<span class="compare-picker__item-name">' + esc(p.name) + '</span>' +
+      '</button>'
+    ).join('');
+
+    grid.querySelectorAll('.compare-picker__item').forEach(btn => {
       btn.addEventListener('click', function () {
         const product = PRODUCTS.find(p => p.id === this.dataset.id);
         if (product) {
@@ -269,10 +319,11 @@
         closePicker();
       });
     });
+  }
 
-    overlay.removeAttribute('hidden');
-    document.addEventListener('keydown', pickerEscHandler);
-    overlay.querySelector('.compare-picker__close').focus();
+  function parsePrice(priceStr) {
+    const n = parseFloat(String(priceStr || '').replace(/[^0-9.]/g, ''));
+    return isNaN(n) ? 0 : n;
   }
 
   function closePicker() {
