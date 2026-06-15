@@ -8,11 +8,11 @@
     { slug: 'software',           icon: '💻', label: 'Software',                   count: 13 },
     { slug: 'smart-home',         icon: '🏠', label: 'Smart Home',                 count: 11 },
     { slug: 'robot-vacuums',      icon: '🤖', label: 'Robot Vacuums',              count: 12 },
-    { slug: 'fitness',            icon: '💪', label: 'Fitness Equipment',           count: 16 },
+    { slug: 'fitness',            icon: '💪', label: 'Fitness Equipment',           count: 18   },
     { slug: 'pet-supplies',       icon: '🐾', label: 'Pet Supplies',               count: 13 },
     { slug: 'gaming',             icon: '🎮', label: 'Gaming',                     count: 16 },
     { slug: 'lawn-garden',        icon: '🌿', label: 'Lawn & Garden',              count: 14 },
-    { slug: 'home-entertainment', icon: '📺', label: 'Home Entertainment',         count: 2  },
+    { slug: 'home-entertainment', icon: '📺', label: 'Home Entertainment',         count: 3   },
     { slug: 'outdoor-cooking',    icon: '🔥', label: 'Outdoor Cooking',            count: 3  },
     { slug: 'cameras',            icon: '📷', label: 'Cameras & Content Creation', count: 2  },
   ];

@@ -4314,5 +4314,92 @@
       "Weight (full kit)": "~0.9 lbs (trainer only)",
       "Ideal For": "Beginner to advanced, home or travel"
     }
+  },
+  {
+    "id": "concept2-rowerg",
+    "name": "Concept2 RowErg Model D Indoor Rowing Machine",
+    "category": "Fitness Equipment",
+    "score": 9.2,
+    "tag": "Best Home Rowing Machine for Serious Training",
+    "icon": "💪",
+    "image": "https://m.media-amazon.com/images/I/41kmOFvpQoS._AC_SX500_.jpg",
+    "price": "~$659 CAD",
+    "page": "products/concept2-rowerg.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00NH9WEUA/?tag=clearpick06-20",
+    "subscores": {
+      "Build & Durability": 10,
+      "Performance & Accuracy": 10,
+      "Ease of Use & Setup": 8.5,
+      "Storage & Footprint": 8.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Resistance Type": "Air (flywheel)",
+      "Monitor": "PM5 (LCD, Bluetooth/ANT+)",
+      "Weight Capacity": "500 lbs",
+      "Max User Height": "6'6\"",
+      "Machine Weight": "57 lbs",
+      "Footprint": "96\" L x 24\" W",
+      "Storage": "Separates into 2 pieces, stores vertically (24\" D x 56\" H)",
+      "Warranty": "5-year frame, 2-year parts"
+    }
+  },
+  {
+    "id": "bowflex-selecttech-840-kettlebell",
+    "name": "Bowflex SelectTech 840 Adjustable Kettlebell",
+    "category": "Fitness Equipment",
+    "score": 7.8,
+    "tag": "Best Adjustable Kettlebell for Beginners and Small Spaces",
+    "icon": "💪",
+    "image": "https://m.media-amazon.com/images/I/61GhgyYpcRL._AC_SX500_.jpg",
+    "price": "~$159 CAD",
+    "page": "products/bowflex-selecttech-840-kettlebell.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07X64MXBS/?tag=clearpick06-20",
+    "subscores": {
+      "Adjustability & Ease of Use": 9.5,
+      "Space Efficiency": 9,
+      "Weight Range": 7,
+      "Build & Durability": 6.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Weight Range": "8–40 lbs (6 settings: 8, 12, 20, 25, 35, 40)",
+      "Adjustment": "Twist-dial on top",
+      "Handle Material": "Welded steel",
+      "Shell Material": "Plastic",
+      "Dimensions": "12.5\" H x 8.8\" L x 7\" W",
+      "Warranty": "2 years (manufacturing defects)"
+    }
+  },
+  {
+    "id": "hisense-u88qg-65-mini-led-tv",
+    "name": "Hisense 65\" U88QG Mini-LED QLED 4K Smart TV",
+    "category": "Home Entertainment",
+    "score": 8.7,
+    "tag": "Best Bright-Room Mini-LED TV Under $1,500",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/71xcUpNGkGL._AC_SX500_.jpg",
+    "price": "~$1398 CAD",
+    "page": "products/hisense-u88qg-65-mini-led-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0F5QVK3TR/?tag=clearpick06-20",
+    "subscores": {
+      "Picture Quality": 9.5,
+      "Gaming Performance": 9,
+      "Smart TV & Features": 8,
+      "Build & Design": 8,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Screen Size": "65 inches",
+      "Resolution": "4K UHD (3840 x 2160)",
+      "Panel Type": "Mini-LED PRO QLED (VA)",
+      "Peak Brightness": "~5,000 nits (HDR)",
+      "Refresh Rate": "Native 165Hz",
+      "VRR": "Up to 288Hz (via FreeSync Premium Pro)",
+      "HDR Support": "Dolby Vision IQ, HDR10+, IMAX Enhanced",
+      "Gaming": "3x HDMI 2.1, USB-C DisplayPort, 4K 165Hz, Dolby Vision Gaming",
+      "Smart Platform": "Google TV",
+      "Audio": "4.1.2-channel, 75W, built-in subwoofer, Dolby Atmos"
+    }
   }
 ]
