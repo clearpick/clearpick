@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8" />
@@ -303,6 +303,7 @@ const themeBtn = document.querySelector('[data-theme-toggle]');
 if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
 document.addEventListener('click', e => { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
 </script>
+<script src="../js/nav-inject.js"></script>
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>

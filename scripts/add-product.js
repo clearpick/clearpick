@@ -361,6 +361,7 @@ const themeBtn = document.querySelector('[data-theme-toggle]');
 if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
 document.addEventListener('click', e => { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
 </script>
+<script src="../js/nav-inject.js"></script>
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
@@ -527,6 +528,7 @@ if (p.newCategoryPage) {
     document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
   </script>
   <script src="js/filter-sort.js"></script>
+  <script src="js/nav-inject.js"></script>
   <script src="js/search.js"></script>
   <script src="js/compare.js"></script>
 </body>
@@ -557,56 +559,15 @@ if (p.newCategoryPage) {
     fs.writeFileSync(path.join(ROOT, 'index.html'), idxHtml, 'utf8');
     console.log(`✓ index.html updated with new category nav + card + footer`);
 
-    // ── Add to all root category + info page navs ────────────────────────────
-    const rootPages2 = fs.readdirSync(ROOT)
-      .filter(f => f.endsWith('.html') && f !== catPage && f !== 'index.html')
-      .map(f => path.join(ROOT, f));
-
-    // Root pages use multi-line format; insert before closing </div> of dropdown__menu
-    const rootOldPat = new RegExp(
-      `(<a href="outdoor-cooking\\.html" class="dropdown__item">[\\s\\S]*?</a>)(\\s*\\n\\s*</div>\\s*\\n\\s*</details>)`,
-      'g'
+    // ── Update nav-inject.js CATEGORIES array (all pages pick this up via JS) ──
+    const navInjectPath2 = path.join(ROOT, 'js', 'nav-inject.js');
+    let navJs2 = fs.readFileSync(navInjectPath2, 'utf8');
+    navJs2 = navJs2.replace(
+      /(\n  \];)/,
+      `\n    { slug: '${catSlug}', icon: '${catIconHtml}', label: '${catDisplayName}', count: 1  },$1`
     );
-    const rootNewItem = `\n              <a href="${catPage}" class="dropdown__item">\n                <span class="dropdown__icon">${catIconHtml}</span>\n                <span class="dropdown__text">\n                  <span class="dropdown__label">${esc(catDisplayName)}</span>\n                  <span class="dropdown__count">1 products</span>\n                </span>\n              </a>`;
-
-    let rootUpdated = 0;
-    for (const f of rootPages2) {
-      let c = fs.readFileSync(f, 'utf8');
-      if (c.includes(`href="${catPage}"`)) continue; // already has it
-      const updated = c.replace(rootOldPat, (m, item, close) => item + rootNewItem + close);
-      if (updated !== c) {
-        fs.writeFileSync(f, updated, 'utf8');
-        rootUpdated++;
-      }
-    }
-    console.log(`✓ Root page navs updated: ${rootUpdated} files`);
-
-    // ── Add to all product page navs ─────────────────────────────────────────
-    const prodDir = path.join(ROOT, 'products');
-    const prodFiles = fs.readdirSync(prodDir)
-      .filter(f => f.endsWith('.html') && f !== `${p.slug}.html`)
-      .map(f => path.join(prodDir, f));
-
-    // Product pages use single-line format (original pages use &#x1F525;, script-generated pages use 🔥 directly)
-    const prodOldEmoji  = `<a class="dropdown__item" href="../outdoor-cooking.html"><span class="dropdown__icon">🔥</span><span class="dropdown__text"><span class="dropdown__label">Outdoor Cooking</span></span></a>`;
-    const prodOldEntity = `<a class="dropdown__item" href="../outdoor-cooking.html"><span class="dropdown__icon">&#x1F525;</span><span class="dropdown__text"><span class="dropdown__label">Outdoor Cooking</span></span></a>`;
-    const prodSuffix = `\n<a class="dropdown__item" href="../${catPage}"><span class="dropdown__icon">${catIconHtml}</span><span class="dropdown__text"><span class="dropdown__label">${esc(catDisplayName)}</span></span></a>`;
-    const prodOld = prodOldEmoji;  // used below — entity variant handled separately
-    const prodNew = `${prodOldEmoji}${prodSuffix}`;
-
-    let prodUpdated = 0;
-    for (const f of prodFiles) {
-      let c = fs.readFileSync(f, 'utf8');
-      if (c.includes(`href="../${catPage}"`)) continue;
-      if (c.includes(prodOldEmoji)) {
-        fs.writeFileSync(f, c.replace(prodOldEmoji, prodOldEmoji + prodSuffix), 'utf8');
-        prodUpdated++;
-      } else if (c.includes(prodOldEntity)) {
-        fs.writeFileSync(f, c.replace(prodOldEntity, prodOldEntity + prodSuffix), 'utf8');
-        prodUpdated++;
-      }
-    }
-    console.log(`✓ Product page navs updated: ${prodUpdated} files`);
+    fs.writeFileSync(navInjectPath2, navJs2, 'utf8');
+    console.log(`✓ nav-inject.js updated with new category: ${catDisplayName}`);
 
     // ── Sitemap entry for category page ──────────────────────────────────────
     let sm = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
@@ -710,5 +671,16 @@ indexHtml = indexHtml.replace(
 
 fs.writeFileSync(indexPath, indexHtml, 'utf8');
 console.log(`✓ index.html updated — ${p.category}: ${newCatCount}, total: ${products.length}`);
+
+// ── 6. nav-inject.js — keep category count in sync ───────────────────────────
+const navInjectPath = path.join(ROOT, 'js', 'nav-inject.js');
+const catSlugForNav = catPage.replace('.html', '');
+let navJs = fs.readFileSync(navInjectPath, 'utf8');
+navJs = navJs.replace(
+  new RegExp(`(slug: '${catSlugForNav}'[^}]*count: )\\d+`),
+  `$1${newCatCount} `
+);
+fs.writeFileSync(navInjectPath, navJs, 'utf8');
+console.log(`✓ nav-inject.js updated — ${p.category}: ${newCatCount}`);
 
 console.log(`\n✅ Done! ${p.name} added in ${products.length - 1} → ${products.length} products.`);

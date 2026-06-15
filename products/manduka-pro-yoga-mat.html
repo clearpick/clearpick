@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html data-theme="dark" lang="en">
 <head>
 <meta charset="utf-8"/>
@@ -285,6 +285,7 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
   if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
   document.addEventListener('click', e => { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
 </script>
+<script src="../js/nav-inject.js"></script>
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
