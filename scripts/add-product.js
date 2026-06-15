@@ -205,7 +205,7 @@ window.addEventListener('load', () => {
 .product-cta-trust__item { font-size:12px; color:var(--color-text-muted); display:flex; align-items:center; gap:var(--space-2); }
 .section--similar { padding:var(--space-12) 0; background:var(--color-surface-offset); border-top:1px solid var(--color-border); }
 .product-card--related { cursor:pointer; text-decoration:none; display:block; }
-.product-card__cta--inline { display:inline-block; margin-top:var(--space-3); font-size:var(--text-sm); font-weight:700; color:var(--color-accent); }
+.product-card__cta--inline { display:inline-block; margin-top:var(--space-3); font-size:var(--text-sm); font-weight:700; }
 .breadcrumb { padding:var(--space-3) 0; border-bottom:1px solid var(--color-border); font-size:var(--text-sm); color:var(--color-text-muted); }
 .breadcrumb a { color:var(--color-text-muted); text-decoration:none; }
 .breadcrumb a:hover { color:var(--color-accent); }

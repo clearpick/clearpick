@@ -1679,6 +1679,13 @@ a:hover { color: var(--color-primary-hover); }
   transform: translateY(-1px);
 }
 
+.product-card__cta--inline {
+  background: transparent;
+  color: var(--color-accent);
+  padding: 0;
+  text-align: left;
+}
+
 @media (max-width: 640px) {
   .product-grid {
     grid-template-columns: 1fr;
