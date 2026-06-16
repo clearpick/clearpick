@@ -3318,3 +3318,271 @@ a:hover { color: var(--color-primary-hover); }
     width: auto;
   }
 }
+
+/* ─── Comparison Pages (/compare/) ─── */
+.compare-hero {
+  padding: var(--space-10) 0 var(--space-8);
+}
+
+.compare-breadcrumb {
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-4);
+}
+
+.compare-breadcrumb a {
+  color: var(--color-text-muted);
+  text-decoration: none;
+}
+
+.compare-breadcrumb a:hover { color: var(--color-accent); }
+
+.compare-hero h1 {
+  font-size: clamp(1.6rem, 2.5vw + 1rem, 2.4rem);
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+}
+
+.compare-intro {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+  max-width: 70ch;
+  margin-bottom: 0;
+}
+
+.compare-page section {
+  padding: var(--space-10) 0;
+  border-top: 1px solid var(--color-border);
+}
+
+.compare-page section:first-of-type { border-top: none; }
+
+.compare-page h2 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-6);
+}
+
+.verdict-grid, .strengths-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-5);
+}
+
+.verdict-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+}
+
+.verdict-card--b { border-left-color: var(--color-secondary); }
+
+.verdict-choose {
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-2);
+}
+
+.verdict-card p:not(.verdict-choose) {
+  color: var(--color-text-muted);
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  margin-bottom: var(--space-4);
+}
+
+.compare-score-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  font-size: var(--text-sm);
+}
+
+.compare-score-table th, .compare-score-table td {
+  padding: var(--space-3) var(--space-4);
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.compare-score-table th {
+  background: var(--color-surface);
+  font-weight: 700;
+  color: var(--color-text);
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.compare-score-table td { color: var(--color-text-muted); }
+.compare-score-table tr:last-child td { border-bottom: none; }
+.compare-score-table tr:first-child td { color: var(--color-text); font-weight: 700; }
+
+.strengths-col h3 {
+  font-size: var(--text-base);
+  font-weight: 700;
+  color: var(--color-text);
+  margin-bottom: var(--space-3);
+}
+
+.strengths-col ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.strengths-col li {
+  font-size: var(--text-sm);
+  line-height: 1.6;
+  color: var(--color-text-muted);
+  padding-left: var(--space-4);
+  position: relative;
+}
+
+.strengths-col li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.6em;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--color-border);
+}
+
+.compare-strengths .strengths-col li::before { background: var(--color-success); }
+.compare-tradeoffs .strengths-col li::before { background: var(--color-danger); }
+
+.strengths-col li em {
+  display: block;
+  font-style: normal;
+  color: var(--color-text-faint);
+  font-size: var(--text-xs);
+  margin-top: var(--space-1);
+}
+
+.compare-recommendation p {
+  font-size: var(--text-base);
+  line-height: 1.75;
+  color: var(--color-text);
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-6);
+}
+
+.compare-product-links {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-5);
+}
+
+.compare-product-link {
+  display: block;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--space-5);
+  text-decoration: none;
+  transition: all var(--transition);
+}
+
+.compare-product-link:hover {
+  border-color: var(--color-accent);
+  transform: translateY(-1px);
+}
+
+.compare-product-link strong {
+  display: block;
+  color: var(--color-text);
+  font-size: var(--text-base);
+  margin-bottom: var(--space-2);
+}
+
+.compare-product-link span {
+  color: var(--color-accent);
+  font-size: var(--text-sm);
+  font-weight: 600;
+}
+
+.compare-link {
+  font-size: var(--text-sm);
+  margin-top: var(--space-3);
+}
+
+.compare-link a {
+  color: var(--color-accent);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.compare-link a:hover { text-decoration: underline; }
+
+/* ─── Compare Index Page ─── */
+.compare-index-hero {
+  padding: var(--space-12) 0 var(--space-8);
+  text-align: center;
+}
+
+.compare-index-hero h1 {
+  font-size: clamp(1.8rem, 2.5vw + 1rem, 2.8rem);
+  font-weight: 800;
+  margin-bottom: var(--space-4);
+}
+
+.compare-index-hero p {
+  color: var(--color-text-muted);
+  font-size: var(--text-base);
+  max-width: 60ch;
+  margin-inline: auto;
+  line-height: 1.7;
+}
+
+.compare-index-hero a { color: var(--color-accent); font-weight: 600; }
+
+.compare-index-list { padding: var(--space-4) 0 var(--space-16); }
+
+.compare-index-list h2 {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  color: var(--color-text);
+  margin: var(--space-8) 0 var(--space-3);
+}
+
+.compare-index-list h2:first-child { margin-top: 0; }
+
+.compare-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.compare-list a {
+  display: block;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  color: var(--color-text);
+  text-decoration: none;
+  font-size: var(--text-sm);
+  font-weight: 600;
+  transition: all var(--transition);
+}
+
+.compare-list a:hover {
+  border-color: var(--color-accent);
+  color: var(--color-accent);
+}
+
+@media (max-width: 600px) {
+  .verdict-grid, .strengths-grid, .compare-product-links { grid-template-columns: 1fr; }
+}
