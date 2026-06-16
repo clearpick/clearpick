@@ -77,7 +77,7 @@ This project spans TWO different working environments that don't share context o
 
 ---
 
-## 4. STANDING CHECKLIST FOR NEW PRODUCTS (currently 24 items)
+## 4. STANDING CHECKLIST FOR NEW PRODUCTS (currently 27 items)
 
 **⚠️ THIS CHECKLIST IS A LIVING DOCUMENT — KEEP IT CURRENT ⚠️**
 
@@ -107,6 +107,9 @@ Whenever a new standard, fix, or convention is established during work on this p
 22. Research JSON for new products must include both `whatBuyersLove` (2-3 paraphrased quotes) and `commonComplaints` (2-4 title+detail+source items), both with named sources.
 23. When two products in the same category have meaningful audience demand (e.g., both have ranked well, or both come up in "X vs Y" search queries), create a dedicated `/compare/` page using the comparison template. Every comparison must source real owner sentiment, not generic content.
 24. When a new top-level section is added to the site (e.g., /compare/, /methodology.html, future /guides/), it MUST appear in the main nav and footer at the same commit. New sections without nav placement are invisible to users and SEO.
+25. File renames or product deletions REQUIRE a full sweep: update products.json (id + page), sitemap.xml, all canonical tags in the affected files, AND grep for internal cross-links sitewide. The "details matter" rule applies — H1, affiliate link, image, price, slug, canonical, and sitemap are a package.
+26. Every product page must have BOTH `<meta name="description">` AND `<meta property="og:description">`. If only the meta description exists, OG must be added with identical content.
+27. All product page footers must use the standard `footer-bottom__copy` pattern. Legacy footer markup from earlier site eras should be replaced when encountered.
 
 ---
 

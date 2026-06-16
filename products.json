@@ -2777,7 +2777,7 @@
     ]
   },
   {
-    "id": "mammotion-luba-2-awd-1000",
+    "id": "mammotion-luba-3-awd-1500h",
     "name": "Mammotion LUBA 3 AWD 1500H Robot Lawn Mower",
     "category": "Lawn & Garden",
     "score": 8.7,
@@ -4505,40 +4505,6 @@
       "Reddit (r/CompetitiveCS)",
       "Reddit (r/GlobalOffensive)",
       "Reddit (r/MechanicalKeyboards)",
-      "Reddit (r/pcgaming)"
-    ]
-  },
-  {
-    "id": "steelseries-arctis-nova-pro",
-    "name": "SteelSeries Arctis Nova Pro Wireless",
-    "category": "Headphones",
-    "score": 8.7,
-    "tag": "Best for Gaming",
-    "icon": "🎧",
-    "image": "https://images-na.ssl-images-amazon.com/images/P/B09ZWKD9TF.01._SCLZZZZZZZ_.jpg",
-    "price": "~$349 CAD",
-    "page": "products/steelseries-arctis-nova-pro-wireless.html",
-    "amazonUrl": "https://amzn.to/3RQvDje",
-    "subscores": {
-      "Sound Quality": 9,
-      "Noise Cancellation": 8.5,
-      "Comfort": 9,
-      "Battery Life": 9.5,
-      "Value": 7.5
-    },
-    "specs": {
-      "ANC": "Active Noise Cancellation",
-      "Battery": "Infinite — dual hot-swap batteries",
-      "Connectivity": "2.4GHz USB + Bluetooth 5.0",
-      "Platforms": "PC, PS5, Nintendo Switch",
-      "Microphone": "Retractable + AI-powered noise reduction",
-      "DAC": "GameDAC Gen 2 included"
-    },
-    "sources_analyzed": [
-      "Amazon.ca",
-      "Reddit (r/SteelSeries)",
-      "Reddit (r/gaming)",
-      "Reddit (r/headphones)",
       "Reddit (r/pcgaming)"
     ]
   },
