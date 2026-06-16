@@ -77,7 +77,7 @@ This project spans TWO different working environments that don't share context o
 
 ---
 
-## 4. STANDING CHECKLIST FOR NEW PRODUCTS (currently 20 items)
+## 4. STANDING CHECKLIST FOR NEW PRODUCTS (currently 22 items)
 
 **⚠️ THIS CHECKLIST IS A LIVING DOCUMENT — KEEP IT CURRENT ⚠️**
 
@@ -103,6 +103,8 @@ Whenever a new standard, fix, or convention is established during work on this p
 18. "Sources & Further Reading" section — 2-3 real links to actual review articles used in research (1 is fine if that's all there is; omit entirely if coverage too thin — NEVER pad)
 19. Product page must include a "Sources analyzed" line near the score, populated from the product's `sources_analyzed` field in products.json, with a link to /methodology.html.
 20. Research JSON for new products must include a `sources_analyzed` array with the canonical source names used (see /methodology.html for the canonical list).
+21. Product page must use the unified "What Real Buyers Are Saying" structure: positive quotes (`.real-buyers-say__card--good`) + common complaints (`.real-buyers-say__card--bad`) in one section, separated by a divider. No standalone `<section class="common-complaints">` blocks.
+22. Research JSON for new products must include both `whatBuyersLove` (2-3 paraphrased quotes) and `commonComplaints` (2-4 title+detail+source items), both with named sources.
 
 ---
 
