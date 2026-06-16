@@ -24,7 +24,18 @@
       "AI": "AI Assistant for summaries and Q&A",
       "Security": "Password + permission protection",
       "Best For": "Office workers, legal, accounting, anyone handling PDFs daily"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/adobe)",
+      "Reddit (r/legaladvice)",
+      "Reddit (r/personalfinance)",
+      "Reddit (r/privacy)",
+      "Reddit (r/smallbusiness)",
+      "Reddit (r/software)",
+      "Reddit (r/techsupport)",
+      "FTC"
+    ]
   },
   {
     "id": "amazon-echo-dot-5th-gen",
@@ -51,7 +62,14 @@
       "Wi-Fi Extender": "Eero built-in",
       "Connectivity": "Bluetooth 5.0, Wi-Fi",
       "Best For": "Budget smart home entry, multi-room audio"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/amazonecho)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/privacy)",
+      "Tom's Guide"
+    ]
   },
   {
     "id": "amazon-echo-pop",
@@ -76,7 +94,13 @@
       "Sound": "Front-firing speaker",
       "Design": "Half-sphere",
       "Best For": "Bedrooms, kitchens, Alexa ecosystem entry"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/amazonecho)",
+      "Reddit (r/privacy)",
+      "Reddit (r/smarthome)"
+    ]
   },
   {
     "id": "anker-soundcore-space-q45",
@@ -103,7 +127,14 @@
       "Connectivity": "Bluetooth 5.3, multipoint",
       "Weight": "265g",
       "Best For": "Budget buyers, students, casual listeners"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Anker)",
+      "Reddit (r/headphones)",
+      "RTINGS",
+      "SoundGuys"
+    ]
   },
   {
     "id": "apple-airtag-dog-collar-holder",
@@ -128,7 +159,13 @@
       "Subscription": "None",
       "Compatibility": "iPhone only",
       "Best For": "iPhone owners, city use, no-subscription pet tracking"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/AppleWatch)",
+      "Reddit (r/apple)",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "arlo-essential-video-doorbell-wire-free",
@@ -154,7 +191,14 @@
       "Power": "Rechargeable battery",
       "Ecosystem": "Alexa, Google, Apple HomeKit",
       "Best For": "Renters, no-wire installations"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/arlo)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/smarthome)",
+      "CNET"
+    ]
   },
   {
     "id": "audeze-maxwell",
@@ -181,7 +225,15 @@
       "Microphone": "Detachable boom + built-in",
       "Weight": "490g",
       "Best For": "Audiophile gamers, single-player immersion"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Audiophile)",
+      "Reddit (r/HeadphoneAdvice)",
+      "Reddit (r/gaming)",
+      "Reddit (r/headphones)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "bedsure-orthopedic-dog-bed",
@@ -206,7 +258,11 @@
       "Liner": "Waterproof inner liner",
       "Cover": "Machine-washable",
       "Best For": "Budget orthopedic, aging dogs, large breeds"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "big-agnes-copper-spur-hv-ul2",
@@ -233,7 +289,14 @@
       "Floor Area": "29.6 sq ft + 8.5 sq ft vestibule each",
       "Seasons": "3-season",
       "Best For": "Thru-hiking, alpine backpacking, ultralight camping"
-    }
+    },
+    "sources_analyzed": [
+      "eBay",
+      "Slickdeals",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/backpacking)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "biolite-campstove-2",
@@ -259,7 +322,13 @@
       "Built-in Battery": "3200mAh",
       "Boil Time": "~4.5 min per litre",
       "Best For": "Off-grid camping, basecamp, long trips"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/camping)",
+      "Reddit (r/canadianbackpacking)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "bitdefender-total-security",
@@ -286,7 +355,14 @@
       "Ransomware": "Multi-layer protection",
       "VPN": "Included (200 MB/day free, unlimited with upgrade)",
       "Best For": "Power users, gamers, anyone who hates slow AV"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/antivirus)",
+      "Reddit (r/privacy)",
+      "Reddit (r/techsupport)",
+      "Tom's Guide",
+      "Cybernews"
+    ]
   },
   {
     "id": "black-decker-4-slice-toaster-oven",
@@ -312,7 +388,12 @@
       "Timer": "30-min + stay-on function",
       "Power": "1150W",
       "Best For": "Students, small kitchens, budget buyers, dorms"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BudgetKitchen)",
+      "Reddit (r/frugalcanada)"
+    ]
   },
   {
     "id": "blink-video-doorbell",
@@ -338,7 +419,13 @@
       "Storage": "Local (USB) or Blink cloud subscription",
       "Assistant": "Alexa",
       "Best For": "Budget-conscious homeowners, renters"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/blink)",
+      "Reddit (r/canadahousing)",
+      "Reddit (r/smarthome)"
+    ]
   },
   {
     "id": "bose-quietcomfort",
@@ -365,7 +452,14 @@
       "Weight": "238g",
       "Foldable": "Yes",
       "Best For": "Value-conscious buyers who want Bose comfort"
-    }
+    },
+    "sources_analyzed": [
+      "eBay",
+      "Adorama",
+      "Reddit (r/HeadphoneAdvice)",
+      "Reddit (r/bose)",
+      "Reddit (r/headphones)"
+    ]
   },
   {
     "id": "bose-quietcomfort-ultra",
@@ -392,7 +486,15 @@
       "Connectivity": "Bluetooth 5.3, multipoint",
       "Weight": "250g",
       "Best For": "Long-haul travel, comfort-first buyers"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Earbuds)",
+      "Reddit (r/Headphones)",
+      "Reddit (r/bose)",
+      "Reddit (r/headphones)",
+      "TechRadar"
+    ]
   },
   {
     "id": "bowflex-selecttech-552",
@@ -419,7 +521,13 @@
       "App": "Bowflex JRNY compatible",
       "Warranty": "2-year",
       "Best For": "Home gym beginners, space-limited setups"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/homegym)",
+      "Reddit (r/powerlifting)",
+      "Garage Gym Reviews"
+    ]
   },
   {
     "id": "breville-bambino-plus",
@@ -445,7 +553,13 @@
       "Pump": "15-bar Italian",
       "Footprint": "Compact — smallest in the Breville lineup",
       "Best For": "Compact kitchens, beginners, flat whites and lattes"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/Coffee)",
+      "Reddit (r/espresso)",
+      "Reddit (r/latteart)"
+    ]
   },
   {
     "id": "breville-barista-express",
@@ -472,7 +586,12 @@
       "Grind to Shot": "Under 60 seconds",
       "Steam Wand": "Yes — microfoam capable",
       "Best For": "Home baristas, fresh bean espresso lovers, latte/cappuccino"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/Coffee)",
+      "Reddit (r/espresso)"
+    ]
   },
   {
     "id": "breville-barista-pro",
@@ -498,7 +617,13 @@
       "Display": "Backlit LCD",
       "Pump": "15-bar Italian",
       "Best For": "Espresso enthusiasts who want speed + precision + integrated grinder"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Coffee)",
+      "Reddit (r/espresso)",
+      "Home-Barista.com"
+    ]
   },
   {
     "id": "breville-compact-smart-oven",
@@ -525,7 +650,13 @@
       "Functions": "8 presets (toast, bake, broil, roast, warm, pizza, cookies, reheat)",
       "Display": "LCD with preheat/done indicators",
       "Best For": "Everyday baking, pizza, roasting, small households"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/Cooking)",
+      "Wirecutter"
+    ]
   },
   {
     "id": "breville-fast-slow-pro",
@@ -552,7 +683,12 @@
       "Capacity": "6 Quart",
       "Display": "Large LCD",
       "Best For": "Precision cooking, serious home cooks, long-term investment"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/instantpot)",
+      "Reddit (r/slowcooking)"
+    ]
   },
   {
     "id": "breville-smart-oven-air-fryer-compact",
@@ -579,7 +715,14 @@
       "Power": "1800W",
       "Display": "LCD with precise time/temp control",
       "Best For": "Home cooks who want air fryer + oven in one"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/Cooking)",
+      "Reddit (r/airfryer)"
+    ]
   },
   {
     "id": "breville-smart-oven-pro",
@@ -606,7 +749,13 @@
       "Functions": "10 presets including slow cook",
       "Interior Light": "Yes",
       "Best For": "Serious home cooks, larger households, replacing a wall oven"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/Cooking)",
+      "Wirecutter"
+    ]
   },
   {
     "id": "brs-3000t-titanium-stove",
@@ -634,7 +783,13 @@
       "Fuel Type": "Isobutane/propane canister (standard threading)",
       "Packed Size": "Folds flat, fits in a shirt pocket",
       "Wind Resistance": "Moderate"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/backpacking)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "cat-mate-c500",
@@ -659,7 +814,13 @@
       "Ice Packs": "Included for wet food freshness",
       "Power": "Battery",
       "Best For": "Wet food feeding, simple scheduling"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CatAdvice)",
+      "Reddit (r/cats)",
+      "Reddit (r/feedyourcat)"
+    ]
   },
   {
     "id": "coleman-north-rim-mummy-bag",
@@ -688,7 +849,13 @@
       "Weight": "~1.5 kg",
       "Zipper": "Left-hand full-length, semi-flush draft tube",
       "Hood": "Yes — integrated, cinch-adjust"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/camping)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "coleman-skydome-2-person",
@@ -714,7 +881,13 @@
       "Seasons": "3-season",
       "Floor Area": "36.5 sq ft",
       "Best For": "Car camping, festivals, beginner campers"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/camping)",
+      "Reddit (r/canadacamping)"
+    ]
   },
   {
     "id": "coleman-skydome-4-person",
@@ -741,7 +914,12 @@
       "Walls": "Near-vertical for maximum floor space",
       "Rainfly": "Vented, welded seams",
       "Best For": "Family car camping, festival camping, beginners"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/camping)"
+    ]
   },
   {
     "id": "corsair-dark-core",
@@ -768,7 +946,15 @@
       "Buttons": "8 programmable",
       "Weight": "133g",
       "Unique": "Swappable side grips for hand size fit"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Corsair)",
+      "Reddit (r/GlobalOffensive)",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/buildapc)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "corsair-k70-pro-tkl",
@@ -795,7 +981,15 @@
       "Features": "Rapid Trigger, per-key RGB",
       "Software": "CORSAIR iCUE",
       "Connectivity": "USB-C (detachable)"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Corsair)",
+      "Reddit (r/MechanicalKeyboards)",
+      "Reddit (r/buildapc)",
+      "Reddit (r/pcgaming)",
+      "TechRadar"
+    ]
   },
   {
     "id": "corsair-mm350",
@@ -822,7 +1016,14 @@
       "Edge": "Double-stitched perimeter",
       "Best For": "Desk mat / XL setup users",
       "Feature": "Spill-resistant surface"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/GlobalOffensive)",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/battlestations)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "cosori-pro-le-5-8-qt",
@@ -847,7 +1048,13 @@
       "Functions": "12 presets",
       "App": "Cosori app with 100+ recipes",
       "Best For": "Everyday air frying, budget-conscious buyers"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Cooking)",
+      "Reddit (r/airfryer)",
+      "Health Canada"
+    ]
   },
   {
     "id": "cuisinart-toa-60",
@@ -872,7 +1079,13 @@
       "Capacity": "0.6 cu ft",
       "Power": "1800W",
       "Best For": "Air frying, baking, roasting on a budget"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/Cooking)",
+      "Reddit (r/airfryer)"
+    ]
   },
   {
     "id": "cuisinart-toa-70",
@@ -897,7 +1110,12 @@
       "Capacity": "0.95 cu ft",
       "Display": "Digital touchscreen",
       "Best For": "Families, frequent air frying, digital preference"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Cooking)",
+      "Reddit (r/airfryer)"
+    ]
   },
   {
     "id": "cuisinart-tob-40n",
@@ -922,7 +1140,12 @@
       "Capacity": "4-slice toaster oven",
       "Power": "1800W",
       "Best For": "Budget toasting and baking"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Cooking)",
+      "Reddit (r/frugalcanada)"
+    ]
   },
   {
     "id": "delonghi-la-specialista-maestro",
@@ -948,7 +1171,15 @@
       "Brew Recipes": "9 programmable profiles",
       "Pump": "19-bar",
       "Best For": "Premium home baristas, milk drink lovers, set-and-repeat simplicity"
-    }
+    },
+    "sources_analyzed": [
+      "eBay",
+      "Reddit (r/Coffee)",
+      "Reddit (r/espresso)",
+      "Reddit (r/latteart)",
+      "Coffeeness.de",
+      "T3"
+    ]
   },
   {
     "id": "dewalt-2100-psi-pressure-washer",
@@ -973,7 +1204,12 @@
       "Battery": "DEWALT FLEXVOLT 60V",
       "Detergent": "Onboard tank",
       "Best For": "Remote locations, boats, RVs, job sites"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/lawncare)",
+      "Reddit (r/powerwashing)"
+    ]
   },
   {
     "id": "dewalt-60v-flexvolt-leaf-blower",
@@ -998,7 +1234,11 @@
       "CFM": "600 CFM",
       "Battery": "DeWalt FLEXVOLT 60V",
       "Best For": "DEWALT platform users, large yards"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/lawncare)"
+    ]
   },
   {
     "id": "dreame-l10s-ultra",
@@ -1023,7 +1263,14 @@
       "Dock": "Hot-water mop wash + hot air dry + auto-empty + auto-refill",
       "Mopping": "Dual spinning mop pads",
       "Best For": "Hard floors, maximum automation, cleanliness-focused"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Dreame)",
+      "Reddit (r/PersonalFinanceCanada)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "echelon-ex5s",
@@ -1050,7 +1297,14 @@
       "Weight Capacity": "300 lbs",
       "Connectivity": "Bluetooth + Wi-Fi",
       "Pedals": "Dual-sided SPD / toe cage"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/EchelonBike)",
+      "Reddit (r/cycling)",
+      "Reddit (r/pelotoncycle)",
+      "Reddit (r/xxfitness)"
+    ]
   },
   {
     "id": "ecobee-smart-thermostat-premium",
@@ -1077,7 +1331,13 @@
       "Compatibility": "Alexa, Google, HomeKit, SmartThings",
       "Savings": "Up to 26% on HVAC bills",
       "Best For": "Multi-room comfort, smart home power users"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/HVAC)",
+      "Reddit (r/ecobee)",
+      "Reddit (r/smarthome)"
+    ]
   },
   {
     "id": "ego-power-lb6504",
@@ -1104,7 +1364,12 @@
       "Weight": "2.7 kg without battery",
       "Variable Speed": "Yes + turbo boost button",
       "Best For": "Large yards, fall leaves, driveways, gas replacement"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/homeowners)",
+      "Reddit (r/lawncare)"
+    ]
   },
   {
     "id": "epos-impact-1000",
@@ -1129,7 +1394,11 @@
       "Battery": "30 hours",
       "Connectivity": "Bluetooth 5.2 + USB dongle",
       "Best For": "Enterprise, call centers, remote work"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/sysadmin)",
+      "Reddit (r/wfh)"
+    ]
   },
   {
     "id": "eset-home-security-premium",
@@ -1155,7 +1424,14 @@
       "VPN": "Not included",
       "Password Manager": "Yes",
       "Best For": "Power users, IT professionals, performance-sensitive PCs"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/antivirus)",
+      "Reddit (r/personalfinance)",
+      "Reddit (r/privacy)",
+      "Reddit (r/techsupport)"
+    ]
   },
   {
     "id": "eset-internet-security",
@@ -1180,7 +1456,14 @@
       "Detection": "ESET LiveGrid cloud protection",
       "Extras": "Firewall, anti-phishing, webcam protection",
       "Best For": "Budget-conscious, performance-sensitive users"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/antivirus)",
+      "Reddit (r/privacy)",
+      "Reddit (r/techsupport)",
+      "SecureBlitz"
+    ]
   },
   {
     "id": "eufy-auto-empty-c10",
@@ -1205,7 +1488,14 @@
       "Self-Empty": "Yes — 30-45 day base capacity",
       "Navigation": "Smart Dynamic Navigation 2.0",
       "Best For": "Budget-conscious, hardwood floors, small homes"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/HomeImprovement)",
+      "Reddit (r/Minimalism)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/eufy)"
+    ]
   },
   {
     "id": "eufy-boostiq-robovac-11s",
@@ -1232,7 +1522,14 @@
       "Noise": "≤55 dB",
       "Filter": "Triple-layer including HEPA-style",
       "Best For": "Budget, low-furniture homes, daily maintenance"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CanadianHardwareSwap)",
+      "Reddit (r/Frugal)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/eufy)"
+    ]
   },
   {
     "id": "eufy-l60",
@@ -1258,7 +1555,15 @@
       "AI": "Obstacle avoidance (20+ object types)",
       "Battery": "180 min runtime",
       "Best For": "Pet owners, mixed flooring, efficient mapping"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CanadianHardwareSwap)",
+      "Reddit (r/HomeAutomation)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/eufy)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "eufy-security-video-doorbell-battery-powered",
@@ -1284,7 +1589,14 @@
       "Detection": "AI person, package, pet detection",
       "Power": "Rechargeable battery (~6 months)",
       "Best For": "Privacy-focused, no-subscription households"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/eufy)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/privacy)",
+      "Reddit (r/smarthome)"
+    ]
   },
   {
     "id": "eufy-x10-pro-omni",
@@ -1309,7 +1621,14 @@
       "Dock": "Auto-empty + auto-mop-wash + auto-refill",
       "Navigation": "AIVI 3D obstacle avoidance + LiDAR",
       "Best For": "Large homes, pet owners, maximum automation"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/eufy)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "fire-maple-fixed-star-x2",
@@ -1337,7 +1656,14 @@
       "Heat Output": "2,600W",
       "Material": "Hard-anodized aluminum with heat exchanger",
       "Packable": "Yes — stove nests inside pot"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/backpacking)",
+      "Reddit (r/canadians)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "fi-series-3-smart-dog-collar",
@@ -1363,7 +1689,13 @@
       "Waterproof": "Yes",
       "Subscription": "Required for LTE tracking",
       "Best For": "Active dogs, escape artists, rural/suburban use"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Pets)",
+      "Reddit (r/canadians)",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "furhaven-deluxe-chaise-dog-bed",
@@ -1388,7 +1720,11 @@
       "Style": "Chaise lounge with bolster",
       "Cover": "Machine-washable velvet",
       "Best For": "Dogs who like to rest their head, joint support"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "furhaven-ultra-plush-luxe-lounger",
@@ -1413,7 +1749,11 @@
       "Cover": "Machine-washable sherpa/plush",
       "Style": "Lounger (flat with raised edges)",
       "Best For": "Small/medium dogs, comfort seekers, budget buyers"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "gaggia-classic-pro",
@@ -1439,7 +1779,13 @@
       "Steam Wand": "Commercial panarello wand",
       "Boiler": "Single stainless steel",
       "Best For": "Espresso purists, home baristas who want full manual control, modders"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/Coffee)",
+      "Reddit (r/espresso)",
+      "Home-Barista.com"
+    ]
   },
   {
     "id": "garmin-alpha-tt-25",
@@ -1465,7 +1811,13 @@
       "Network": "Dedicated GPS — no cell required",
       "Training": "Yes — tones and stimulation",
       "Best For": "Hunters, field trials, working dogs in backcountry"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/dogs)",
+      "Reddit (r/hunting)",
+      "Reddit (r/huntingdogs)"
+    ]
   },
   {
     "id": "google-nest-doorbell-battery",
@@ -1491,7 +1843,14 @@
       "Recognition": "Familiar face alerts",
       "Assistant": "Google Assistant + Google Home",
       "Best For": "Google Home households"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Nest)",
+      "Reddit (r/googlehome)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/smarthome)"
+    ]
   },
   {
     "id": "google-nest-thermostat",
@@ -1516,7 +1875,13 @@
       "Learning": "Schedule learning + energy history",
       "Ecosystem": "Google Home, Alexa",
       "Best For": "Budget-conscious homeowners, first smart thermostat"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Nest)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/smarthome)"
+    ]
   },
   {
     "id": "greenworks-80v-leaf-blower",
@@ -1541,7 +1906,12 @@
       "Battery": "Greenworks 80V platform",
       "Variable Speed": "Yes",
       "Best For": "Large properties, heavy wet debris, gas replacement"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/canadians)",
+      "Reddit (r/lawncare)"
+    ]
   },
   {
     "id": "greenworks-pro-2700-psi",
@@ -1567,7 +1937,14 @@
       "Power": "Electric (15A)",
       "Hose": "35-foot high pressure",
       "Best For": "Decks, driveways, siding, vehicles"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/HomeImprovement)",
+      "Reddit (r/lawncare)",
+      "Reddit (r/powerwashing)",
+      "Reddit (r/pressurewashing)"
+    ]
   },
   {
     "id": "hamilton-beach-31127d",
@@ -1592,7 +1969,12 @@
       "Capacity": "6-slice / 12\" pizza",
       "Controls": "Manual dial",
       "Best For": "Budget buyers, basic toasting/baking"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BudgetKitchen)",
+      "Reddit (r/Cooking)"
+    ]
   },
   {
     "id": "honeywell-home-t9-wifi-smart-thermostat",
@@ -1617,7 +1999,13 @@
       "Ecosystem": "Alexa, Google, Apple HomeKit",
       "Control": "Touchscreen + app",
       "Best For": "Multi-room homes, heating efficiency"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Honeywell)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/smarthome)"
+    ]
   },
   {
     "id": "husqvarna-350ib",
@@ -1643,7 +2031,12 @@
       "Runtime": "~35-60 min (battery dependent)",
       "Weight": "2.6kg (without battery)",
       "Best For": "Large properties, professional-level clearing"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/canadians)",
+      "Reddit (r/lawncare)"
+    ]
   },
   {
     "id": "husqvarna-automower-415x",
@@ -1670,7 +2063,13 @@
       "Weather": "Operates in rain",
       "Security": "Alarm + PIN theft protection",
       "Best For": "Large lawns, steep slopes, hands-free yard maintenance"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/lawncare)",
+      "Reddit (r/roboticmowers)"
+    ]
   },
   {
     "id": "hyperx-cloud-flight",
@@ -1697,7 +2096,15 @@
       "Weight": "309g",
       "Drivers": "50mm",
       "Best For": "PC + PlayStation gamers, long sessions"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/HyperX)",
+      "Reddit (r/gaming)",
+      "Reddit (r/pcgaming)",
+      "Reddit (r/pcmasterrace)",
+      "Tom's Guide"
+    ]
   },
   {
     "id": "hyperx-cloud-iii-wireless",
@@ -1723,7 +2130,15 @@
       "Connectivity": "2.4GHz USB dongle",
       "Weight": "338g",
       "Best For": "PC gaming, PS5, everyday use"
-    }
+    },
+    "sources_analyzed": [
+      "eBay",
+      "Slickdeals",
+      "Reddit (r/HyperX)",
+      "Reddit (r/gaming)",
+      "Reddit (r/headphones)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "hyperx-pulsefire-mat",
@@ -1750,7 +2165,13 @@
       "Edge": "Stitched perimeter",
       "Best For": "Hybrid gaming + work setups",
       "Price": "~$20–$35 CAD"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/buildapc)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "instant-pot-duo-crisp-11-in-1",
@@ -1775,7 +2196,13 @@
       "Capacity": "8 Qt",
       "Lids": "Dual-lid (pressure + air fryer)",
       "Best For": "Combined pressure cooking and air frying"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Cooking)",
+      "Reddit (r/airfryer)",
+      "Reddit (r/instantpot)"
+    ]
   },
   {
     "id": "instant-pot-duo-plus-9-in-1",
@@ -1802,7 +2229,13 @@
       "Display": "Blue LCD with progress indicator",
       "Inner Pot": "Stainless steel, dishwasher safe",
       "Best For": "Value shoppers, everyday pressure cooking, beginners"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Cooking)",
+      "Reddit (r/beyondthebump)",
+      "Reddit (r/instantpot)"
+    ]
   },
   {
     "id": "instant-pot-pro-10-in-1",
@@ -1829,7 +2262,12 @@
       "Speed": "Up to 70% faster than stovetop",
       "Display": "Large LCD",
       "Best For": "Busy families, meal prep, one-pot cooking"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Cooking)",
+      "Reddit (r/instantpot)"
+    ]
   },
   {
     "id": "instant-vortex-plus-6-qt",
@@ -1854,7 +2292,12 @@
       "Functions": "Air Fry, Roast, Bake, Broil, Dehydrate, Reheat",
       "Technology": "EvenCrisp 360° air circulation",
       "Best For": "Families of 2-4, everyday air frying"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/AirFryer)",
+      "Reddit (r/instantpot)"
+    ]
   },
   {
     "id": "irobot-roomba-combo-j9",
@@ -1879,7 +2322,14 @@
       "Carpet Detect": "Auto mop retract off carpet",
       "Obstacle AI": "PrecisionVision (pet waste, cables)",
       "Best For": "Mixed flooring, pet owners wanting mop + obstacle avoidance"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/iRobot)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "irobot-roomba-j7",
@@ -1904,7 +2354,15 @@
       "Self-Empty": "Yes — Clean Base included",
       "Navigation": "Reactive Sensor Technology + camera",
       "Best For": "Pet owners worried about accidents, obstacle-heavy homes"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/dogs)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/iRobot)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "jabra-evolve2-65",
@@ -1931,7 +2389,14 @@
       "Certifications": "Microsoft Teams, Zoom, Google Meet",
       "Weight": "178g",
       "Best For": "WFH, hybrid office, frequent calls"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Walmart.ca",
+      "Adorama",
+      "Reddit (r/headphones)",
+      "Reddit (r/sysadmin)"
+    ]
   },
   {
     "id": "jabra-evolve2-75",
@@ -1957,7 +2422,15 @@
       "Connectivity": "Bluetooth 5.0 + USB-A/C dongle",
       "Weight": "282g",
       "Best For": "Remote workers, video calls, open offices"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Walmart.ca",
+      "eBay",
+      "Reddit (r/headphones)",
+      "Reddit (r/sysadmin)",
+      "Wirecutter"
+    ]
   },
   {
     "id": "jbl-live-780nc",
@@ -1984,7 +2457,15 @@
       "Connectivity": "Bluetooth 5.3, multipoint",
       "Weight": "238g",
       "Best For": "Bass lovers, workout listeners, commuters"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/HeadphoneAdvice)",
+      "Reddit (r/Headphones)",
+      "Reddit (r/headphones)",
+      "Tom's Guide",
+      "Engadget"
+    ]
   },
   {
     "id": "kaspersky-total-security",
@@ -2011,7 +2492,17 @@
       "Parental Controls": "Geofencing + content filter",
       "Password Manager": "Included",
       "Best For": "Families, online shoppers, banking security, feature maximalists"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/antivirus)",
+      "Reddit (r/canada)",
+      "Reddit (r/netsec)",
+      "Reddit (r/privacy)",
+      "Reddit (r/techsupport)",
+      "AV-Comparatives",
+      "AV-TEST",
+      "CSE Canada"
+    ]
   },
   {
     "id": "kelly-kettle-trekker",
@@ -2037,7 +2528,15 @@
       "Material": "Stainless steel",
       "Capacity": "0.6L",
       "Best For": "Backcountry water boiling, minimalist camping"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/bushcraft)",
+      "Reddit (r/camping)",
+      "Reddit (r/canadianbackpacking)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "kelty-cosmic-20-sleeping-bag",
@@ -2066,7 +2565,15 @@
       "Packed Size": "~18 × 36 cm (Nalgene-sized)",
       "Weight": "~1.1 kg (2 lbs 6 oz)",
       "Zipper": "Full-length left-hand"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/camping)",
+      "Reddit (r/canadacamping)",
+      "Reddit (r/ultralight)",
+      "Treeline Review"
+    ]
   },
   {
     "id": "keychron-q1-he",
@@ -2093,7 +2600,14 @@
       "Layout": "75% (F-row + arrow keys)",
       "Connectivity": "USB-C + Bluetooth 5.1 + 2.4GHz",
       "Compatible": "Mac + Windows, Canadian layout"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/Keychron)",
+      "Reddit (r/MechanicalKeyboards)",
+      "Reddit (r/keyboards)",
+      "Reddit (r/pcgaming)",
+      "RTINGS"
+    ]
   },
   {
     "id": "k-rcher-k5-premium",
@@ -2119,7 +2633,11 @@
       "Motor": "Water-cooled",
       "App": "Kärcher Home & Garden",
       "Best For": "Premium build quality seekers, European brand fans"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/lawncare)"
+    ]
   },
   {
     "id": "logitech-g502-x",
@@ -2146,7 +2664,15 @@
       "Polling Rate": "1000Hz (LIGHTSPEED)",
       "Weight": "89g",
       "Buttons": "13 programmable"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/GlobalOffensive)",
+      "Reddit (r/LogitechG)",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/buildapc)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "logitech-g640",
@@ -2173,7 +2699,13 @@
       "Edge": "Stitched perimeter",
       "Best For": "Low-DPI FPS players",
       "Washing": "Machine washable"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/GlobalOffensive)",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "logitech-g-pro-x-tkl",
@@ -2200,7 +2732,15 @@
       "Rapid Trigger": "Yes — 0.1mm resolution",
       "Build": "Aluminum top plate",
       "Connectivity": "Lightspeed USB (1ms wireless)"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/CompetitiveCS)",
+      "Reddit (r/GlobalOffensive)",
+      "Reddit (r/LogitechG)",
+      "Reddit (r/MechanicalKeyboards)",
+      "Reddit (r/ValorantCompetitive)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "malwarebytes-premium",
@@ -2227,7 +2767,14 @@
       "Browser Guard": "Extension for Chrome, Firefox, Edge",
       "Devices": "1 device (multi-device plans available)",
       "Best For": "Second-layer protection, adware removal, PUP cleanup"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/antivirus)",
+      "Reddit (r/privacy)",
+      "Reddit (r/techsupport)",
+      "TechRadar"
+    ]
   },
   {
     "id": "mammotion-luba-2-awd-1000",
@@ -2238,7 +2785,7 @@
     "icon": "🌱",
     "image": "https://m.media-amazon.com/images/I/61FPxhqzfxL._AC_SX500_.jpg",
     "price": "~$3,399 CAD",
-    "page": "products/mammotion-luba-2-awd-1000.html",
+    "page": "products/mammotion-luba-3-awd-1500h.html",
     "amazonUrl": "https://www.amazon.ca/dp/B0GKNYZPC3/?tag=clearpick06-20",
     "subscores": {
       "Power": 9.5,
@@ -2253,7 +2800,12 @@
       "Drive": "All-Wheel-Drive",
       "Slope": "Up to 80% grade",
       "Best For": "Large hilly properties, no-wire preference"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/lawncare)",
+      "Reddit (r/roboticmowers)"
+    ]
   },
   {
     "id": "marmot-trestles-15-sleeping-bag",
@@ -2282,7 +2834,14 @@
       "Packed Size": "~20 × 38 cm",
       "Zipper": "Full-length left-hand, anti-snag",
       "Collar": "Insulated neck baffle to seal warmth"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/camping)",
+      "Reddit (r/canadacamping)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "marmot-trestles-elite-eco-20",
@@ -2308,7 +2867,15 @@
       "Weight": "1.4kg",
       "Fill Power": "N/A (synthetic)",
       "Best For": "3-season camping, eco-conscious buyers"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/camping)",
+      "Reddit (r/canadianbackpacking)",
+      "Reddit (r/ultralight)",
+      "Treeline Review"
+    ]
   },
   {
     "id": "mcafee-premium",
@@ -2333,7 +2900,17 @@
       "VPN": "Unlimited data",
       "Identity Features": "Dark web, Social Privacy Manager, credit monitoring",
       "Best For": "Identity-protection-focused users"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/PersonalFinanceCanada)",
+      "Reddit (r/antivirus)",
+      "Reddit (r/personalfinance)",
+      "Reddit (r/privacy)",
+      "Reddit (r/techsupport)",
+      "AV-Comparatives",
+      "BBB Canada"
+    ]
   },
   {
     "id": "mcafee-total-protection",
@@ -2359,7 +2936,17 @@
       "Password Manager": "Yes",
       "Identity Monitoring": "Yes",
       "Best For": "Families, multi-device households"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/canada)",
+      "Reddit (r/personalfinance)",
+      "Reddit (r/privacy)",
+      "Reddit (r/techsupport)",
+      "TechRadar",
+      "AV-Comparatives",
+      "BBB Canada"
+    ]
   },
   {
     "id": "microsoft-365-family",
@@ -2386,7 +2973,15 @@
       "AI": "Copilot for all users",
       "Family Safety": "Parental controls included",
       "Best For": "Families, couples, small groups sharing a subscription"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/MicrosoftOffice)",
+      "Reddit (r/canada)",
+      "Reddit (r/canadianparents)",
+      "Reddit (r/personalfinance)",
+      "Reddit (r/techsupport)"
+    ]
   },
   {
     "id": "microsoft-365-personal",
@@ -2413,7 +3008,15 @@
       "AI": "Copilot built-in across apps",
       "Security": "Microsoft Defender included",
       "Best For": "Students, remote workers, freelancers, personal use"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/MicrosoftOffice)",
+      "Reddit (r/Office365)",
+      "Reddit (r/canada)",
+      "Reddit (r/personalfinance)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "msr-hubba-hubba-nx",
@@ -2443,7 +3046,13 @@
       "Poles": "DAC Featherlight NSL",
       "Seasons": "3-season",
       "Fly": "Full-coverage rain fly with seam tape"
-    }
+    },
+    "sources_analyzed": [
+      "eBay",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/backpacking)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "msr-pocketrocket-2",
@@ -2471,7 +3080,13 @@
       "Packed Size": "Fits in a cup",
       "Pot Support Diameter": "6–22 cm",
       "Simmer Control": "Yes — precision valve"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/backpacking)",
+      "Reddit (r/ultralight)",
+      "OutdoorGearLab"
+    ]
   },
   {
     "id": "nemo-disco-15-sleeping-bag",
@@ -2498,7 +3113,13 @@
       "Vent": "Blanket Fold foot vent",
       "Seasons": "3-season",
       "Best For": "Side sleepers, backpacking, Canadian spring/fall camping"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/camping)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "ninja-af161-max-xl-air-fryer",
@@ -2525,7 +3146,14 @@
       "Programs": "7 one-touch cooking modes",
       "Dishwasher Safe": "Basket + crisper plate",
       "Best For": "Crispy food fast, healthy cooking, families"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Walmart.ca",
+      "eBay",
+      "Reddit (r/Cooking)",
+      "Reddit (r/airfryer)"
+    ]
   },
   {
     "id": "ninja-foodi-2-basket-8qt",
@@ -2550,7 +3178,12 @@
       "Functions": "Air Fry, Roast, Reheat, Dehydrate",
       "DualZone": "Yes — independent temp/time per basket",
       "Best For": "Families, meal prep, cooking sides simultaneously"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/airfryer)"
+    ]
   },
   {
     "id": "ninja-foodi-dualzone-7-qt",
@@ -2575,7 +3208,12 @@
       "DualZone": "Yes — independent temp/time",
       "Functions": "Air Fry, Roast, Reheat, Dehydrate",
       "Best For": "Families needing dual cooking without full 8Qt size"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/airfryer)"
+    ]
   },
   {
     "id": "ninja-foodi-xl-pro-dt201",
@@ -2600,7 +3238,14 @@
       "Functions": "10 (Air Fry, Air Roast, Bake, Whole Roast, Broil, Toast, Bagel, Dehydrate, Reheat, Pizza)",
       "Flip-Up Design": "Yes",
       "Best For": "Large households, oven replacement"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/Cooking)",
+      "Reddit (r/airfryer)",
+      "Tom's Guide"
+    ]
   },
   {
     "id": "nordictrack-1750",
@@ -2627,7 +3272,14 @@
       "Deck": "22\"×60\" RunFlex cushioned",
       "Display": "16\" pivot HD touchscreen",
       "Weight Capacity": "400 lbs"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/Treadmill)",
+      "Reddit (r/iFIT)",
+      "Reddit (r/running)",
+      "Garage Gym Reviews"
+    ]
   },
   {
     "id": "norton-360-deluxe",
@@ -2654,7 +3306,14 @@
       "Backup": "50 GB encrypted cloud backup",
       "Guarantee": "100% Virus Protection Promise",
       "Best For": "Families, multi-device households, privacy-focused users"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/privacy)",
+      "Reddit (r/techsupport)",
+      "Reddit (r/windows)",
+      "SafetyDetectives"
+    ]
   },
   {
     "id": "peloton-bike",
@@ -2681,7 +3340,13 @@
       "Weight Capacity": "297 lbs",
       "Dimensions": "59\"×23\"",
       "Warranty": "5-year frame, 3-year parts"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/cycling)",
+      "Reddit (r/pelotoncycle)",
+      "Reddit (r/personalfinance)"
+    ]
   },
   {
     "id": "petfusion-ultimate-dog-bed",
@@ -2708,7 +3373,11 @@
       "Washable": "Removable, machine-washable cover",
       "Sizes": "Medium, Large, XL, XXL",
       "Best For": "Senior dogs, large breeds, joint pain relief"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "petkit-yumshare-solo",
@@ -2734,7 +3403,15 @@
       "Camera": "Built-in (optional models)",
       "Power": "AC adapter + battery backup",
       "Best For": "Diet-managed pets, premium smart home setups"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CatAdvice)",
+      "Reddit (r/Pets)",
+      "Reddit (r/cats)",
+      "Reddit (r/dogs)",
+      "Reddit (r/feedyourcat)"
+    ]
   },
   {
     "id": "petlibro-granary-wifi",
@@ -2760,7 +3437,13 @@
       "Meals/Day": "Up to 10",
       "Power": "AC adapter + battery backup",
       "Best For": "Single cats, busy owners, remote feeding control"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CatAdvice)",
+      "Reddit (r/Pets)",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "petlibro-one-rfid-cat-feeder",
@@ -2785,7 +3468,14 @@
       "Opening": "Cat-specific (closes for other pets)",
       "Capacity": "Small bowl (single meal)",
       "Best For": "Multi-cat homes, diet-controlled cats"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CatAdvice)",
+      "Reddit (r/cats)",
+      "Reddit (r/diabeticcats)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "petsafe-eatwell-5-meal",
@@ -2811,7 +3501,12 @@
       "Power": "4x D batteries",
       "WiFi": "None required",
       "Best For": "Simple scheduling, wet food, power-outage reliability"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CatAdvice)",
+      "Reddit (r/cats)"
+    ]
   },
   {
     "id": "philips-airfryer-xxl",
@@ -2838,7 +3533,12 @@
       "Programs": "7 digital presets",
       "Dishwasher Safe": "Yes — all removable parts",
       "Best For": "Families, health-conscious cooking, premium results"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/airfryer)"
+    ]
   },
   {
     "id": "pimsleur-premium-all-access",
@@ -2863,7 +3563,15 @@
       "Languages": "50+ languages",
       "Lesson Length": "30 minutes/day",
       "Best For": "Speaking fluency, travel prep, serious learners"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/French)",
+      "Reddit (r/LearnJapanese)",
+      "Reddit (r/languagelearning)",
+      "Reddit (r/learnfrench)",
+      "Reddit (r/personalfinance)"
+    ]
   },
   {
     "id": "poly-voyager-focus-2",
@@ -2890,7 +3598,12 @@
       "Certifications": "Microsoft Teams, Zoom",
       "Weight": "182g",
       "Best For": "WFH professionals, call-heavy workers"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/WorkFromHome)",
+      "Reddit (r/sysadmin)"
+    ]
   },
   {
     "id": "powerblockelite",
@@ -2917,7 +3630,13 @@
       "Dimensions": "12\"×6\"×6.5\"",
       "Warranty": "5-year",
       "Space Saved": "Replaces 16 pairs"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/HomeGym)",
+      "Reddit (r/homegym)",
+      "Reddit (r/powerlifting)"
+    ]
   },
   {
     "id": "proform-carbon-pro-9000",
@@ -2943,7 +3662,14 @@
       "Incline": "0% to 12%",
       "Screen": "10\" HD touchscreen",
       "Best For": "Budget-conscious iFIT users, new runners"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Treadmill)",
+      "Reddit (r/iFIT)",
+      "Reddit (r/running)",
+      "Garage Gym Reviews"
+    ]
   },
   {
     "id": "proform-pro-9000",
@@ -2970,7 +3696,14 @@
       "Deck": "22\"×60\"",
       "Display": "10\" Smart HD touchscreen",
       "App": "iFIT (subscription required)"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Treadmill)",
+      "Reddit (r/iFIT)",
+      "Reddit (r/running)",
+      "Garage Gym Reviews"
+    ]
   },
   {
     "id": "razer-basilisk-v3-pro",
@@ -2997,7 +3730,15 @@
       "Buttons": "11 programmable",
       "Weight": "112g",
       "Connectivity": "HyperSpeed + Bluetooth + USB-C"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/pcgaming)",
+      "Reddit (r/privacy)",
+      "Reddit (r/razer)"
+    ]
   },
   {
     "id": "razer-basilisk-v3-x",
@@ -3024,7 +3765,14 @@
       "Buttons": "6 programmable",
       "Weight": "83g",
       "Connectivity": "HyperSpeed USB dongle"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/pcgaming)",
+      "Reddit (r/privacy)",
+      "Reddit (r/razer)"
+    ]
   },
   {
     "id": "razer-gigantus-v2",
@@ -3051,7 +3799,14 @@
       "Edge": "Stitched edges",
       "Compatibility": "Laser + optical sensors",
       "Price": "~$25–$45 CAD"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/battlestations)",
+      "Reddit (r/pcgaming)",
+      "Reddit (r/razer)"
+    ]
   },
   {
     "id": "razer-huntsman-v3-pro",
@@ -3078,7 +3833,13 @@
       "Features": "Rapid Trigger, analog input, per-key RGB",
       "Connectivity": "USB-C (detachable)",
       "Best For": "Competitive FPS, Valorant, CS2"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/CompetitiveCS)",
+      "Reddit (r/MechanicalKeyboards)",
+      "Reddit (r/ValorantCompetitive)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "razer-naga-v2-pro",
@@ -3105,7 +3866,16 @@
       "Weight": "117g",
       "Connectivity": "HyperSpeed / Bluetooth / USB-C",
       "Best For": "MMO, MOBA, strategy games"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/ffxiv)",
+      "Reddit (r/pcgaming)",
+      "Reddit (r/privacy)",
+      "Reddit (r/razer)",
+      "Reddit (r/wow)"
+    ]
   },
   {
     "id": "ring-battery-video-doorbell-2024",
@@ -3132,7 +3902,16 @@
       "Two-Way Talk": "Yes",
       "Alexa": "Fully compatible",
       "Best For": "Renters, no-wire installs, package monitoring"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Ring)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/privacy)",
+      "Reddit (r/smarthome)",
+      "TechRadar",
+      "EFF"
+    ]
   },
   {
     "id": "roborock-q8-max",
@@ -3159,7 +3938,14 @@
       "Mop": "Vibrating mopping + auto carpet lift",
       "Obstacle Avoidance": "Reactive Tech",
       "Best For": "Whole-home automation, pet hair, mixed floors"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/PersonalFinanceCanada)",
+      "Reddit (r/Roborock)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "roborock-qrevo-s",
@@ -3184,7 +3970,14 @@
       "Mop Lift": "Automatic carpet detection + mop lift",
       "Dock": "Full auto (empty + mop clean + water)",
       "Best For": "Mixed hard floor/carpet homes, automatic mopping"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Roborock)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/homeautomation)",
+      "Reddit (r/privacy)"
+    ]
   },
   {
     "id": "rosetta-stone",
@@ -3211,7 +4004,15 @@
       "Access": "Lifetime license option",
       "Offline": "Download lessons for offline use",
       "Best For": "Language learners, travellers, newcomers, lifelong learners"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/French)",
+      "Reddit (r/LearnJapanese)",
+      "Reddit (r/Spanish)",
+      "Reddit (r/languagelearning)",
+      "Reddit (r/learnfrench)"
+    ]
   },
   {
     "id": "ryobi-40v-whisper",
@@ -3237,7 +4038,11 @@
       "CFM": "500 CFM",
       "Battery": "Ryobi 40V (compatible with 200+ Ryobi tools)",
       "Best For": "Noise-sensitive areas, early morning use, HOA neighbourhoods"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/lawncare)"
+    ]
   },
   {
     "id": "schwinn-ic3",
@@ -3264,7 +4069,12 @@
       "Dimensions": "46.9\"×22\"×49.5\"",
       "Pedals": "SPD-compatible clip pedals",
       "Display": "LCD monitor"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/cycling)",
+      "Reddit (r/fitness)"
+    ]
   },
   {
     "id": "schwinn-ic4",
@@ -3291,7 +4101,15 @@
       "Weight Capacity": "330 lbs",
       "Dimensions": "54.6\"×30.7\"×51.8\"",
       "Included": "Heart rate monitor, SPD pedals, 3 lb dumbbells"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/SchwinnBikes)",
+      "Reddit (r/cycling)",
+      "Reddit (r/pelotoncycle)",
+      "Reddit (r/xxfitness)"
+    ]
   },
   {
     "id": "segway-navimow-i110n",
@@ -3316,7 +4134,11 @@
       "Navigation": "EFLS (GPS + RTK + Vision — no wire)",
       "Setup": "App-based zone mapping",
       "Best For": "Homeowners avoiding boundary wire installation"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/lawncare)",
+      "Reddit (r/roboticmowers)"
+    ]
   },
   {
     "id": "sennheiser-momentum-4",
@@ -3343,7 +4165,15 @@
       "Connectivity": "Bluetooth 5.2, multipoint",
       "Weight": "293g",
       "Best For": "Audiophiles, music-first listeners"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/Headphones)",
+      "Reddit (r/headphones)",
+      "Reddit (r/sennheiser)",
+      "SoundGuys"
+    ]
   },
   {
     "id": "shark-ai-ultra-robot-vacuum",
@@ -3369,7 +4199,12 @@
       "Self-Empty": "Yes — 60-day base",
       "Filter": "HEPA",
       "Best For": "Pet owners, allergen-sensitive homes"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Allergies)",
+      "Reddit (r/RobotVacuums)"
+    ]
   },
   {
     "id": "shark-ai-ultra-xl-hepa",
@@ -3394,7 +4229,14 @@
       "Self-Empty": "Yes — 90-day XL base",
       "Brushroll": "Self-cleaning",
       "Best For": "Allergies, pet hair, large homes"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/RobotVacuums)",
+      "Reddit (r/SharkRobot)",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "shark-rv2610waca-ai-ultra-2-in-1",
@@ -3421,7 +4263,12 @@
       "Auto-Empty": "60-day base capacity",
       "Navigation": "Matrix Clean grid coverage",
       "Best For": "Whole-home cleaning, hard floors + carpet, busy households"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CanadianPetOwners)",
+      "Reddit (r/RobotVacuums)"
+    ]
   },
   {
     "id": "solo-stove-lite",
@@ -3449,7 +4296,14 @@
       "Fuel Type": "Wood — sticks, pinecones, twigs",
       "Boil Time": "~8–10 min (varies by wood)",
       "Compatible Pots": "Up to 1.8L"
-    }
+    },
+    "sources_analyzed": [
+      "Slickdeals",
+      "Reddit (r/camping)",
+      "Reddit (r/canadacamping)",
+      "Reddit (r/canadians)",
+      "Reddit (r/ultralight)"
+    ]
   },
   {
     "id": "sonos-era-100",
@@ -3474,7 +4328,13 @@
       "Connectivity": "Wi-Fi, Bluetooth, Apple AirPlay 2",
       "Ecosystem": "Sonos, Spotify Connect, AirPlay 2",
       "Best For": "Music listening, multi-room audio, audiophiles"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/audiophile)",
+      "Reddit (r/sonos)",
+      "Ars Technica"
+    ]
   },
   {
     "id": "sony-inzone-h9",
@@ -3501,7 +4361,17 @@
       "Connectivity": "2.4GHz USB + Bluetooth 5.0",
       "Weight": "325g",
       "Best For": "PS5 gamers, Sony ecosystem users"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CanadianHardwareSwap)",
+      "Reddit (r/CompetitiveApex)",
+      "Reddit (r/PS5)",
+      "Reddit (r/PlayStationCanada)",
+      "Reddit (r/SonyInzone)",
+      "Reddit (r/gaming)",
+      "Reddit (r/hardware)"
+    ]
   },
   {
     "id": "sony-ult-wear",
@@ -3526,7 +4396,15 @@
       "Battery": "30 hours (ANC on)",
       "Connectivity": "Bluetooth 5.2, multipoint",
       "Best For": "Bass music, hip-hop, EDM, casual listening"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BudgetAudiophile)",
+      "Reddit (r/Headphones)",
+      "Reddit (r/headphones)",
+      "TechRadar",
+      "SoundGuys"
+    ]
   },
   {
     "id": "sony-wh-1000xm4",
@@ -3553,7 +4431,15 @@
       "Features": "Speak-to-Chat, wear detection",
       "Weight": "254g",
       "Best For": "Value hunters, XM5 alternative"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Slickdeals",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/SonyXM4)",
+      "Reddit (r/headphones)",
+      "Reddit (r/sony)"
+    ]
   },
   {
     "id": "sony-wh-1000xm5",
@@ -3580,7 +4466,15 @@
       "Weight": "250g",
       "Foldable": "No (flat-fold)",
       "Best For": "Commuting, travel, focus work"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/ANC)",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/SonyXM5)",
+      "Reddit (r/headphones)",
+      "Reddit (r/sony)"
+    ]
   },
   {
     "id": "steelseries-apex-pro-tkl-gen-3",
@@ -3606,7 +4500,13 @@
       "Rapid Trigger": "Yes (best-in-class implementation)",
       "Display": "OLED",
       "Best For": "Min-max competitive gamers, CS2, Valorant"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/CompetitiveCS)",
+      "Reddit (r/GlobalOffensive)",
+      "Reddit (r/MechanicalKeyboards)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "steelseries-arctis-nova-pro",
@@ -3617,7 +4517,7 @@
     "icon": "🎧",
     "image": "https://images-na.ssl-images-amazon.com/images/P/B09ZWKD9TF.01._SCLZZZZZZZ_.jpg",
     "price": "~$349 CAD",
-    "page": "products/steelseries-arctis-nova-pro.html",
+    "page": "products/steelseries-arctis-nova-pro-wireless.html",
     "amazonUrl": "https://amzn.to/3RQvDje",
     "subscores": {
       "Sound Quality": 9,
@@ -3633,7 +4533,14 @@
       "Platforms": "PC, PS5, Nintendo Switch",
       "Microphone": "Retractable + AI-powered noise reduction",
       "DAC": "GameDAC Gen 2 included"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/SteelSeries)",
+      "Reddit (r/gaming)",
+      "Reddit (r/headphones)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "steelseries-arctis-nova-pro-wireless",
@@ -3658,7 +4565,14 @@
       "ANC": "Active Noise Cancellation",
       "Wireless": "2.4GHz + Bluetooth simultaneously",
       "Best For": "PC/PS5, serious gamers, long sessions"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/SteelSeries)",
+      "Reddit (r/gaming)",
+      "Reddit (r/headphones)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "steelseries-qck-heavy",
@@ -3685,7 +4599,13 @@
       "Sensor Compatibility": "All sensor types",
       "Edge": "Stitched perimeter",
       "Best For": "Low-DPI FPS, esports players"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/GlobalOffensive)",
+      "Reddit (r/MouseReview)",
+      "Reddit (r/pcgaming)"
+    ]
   },
   {
     "id": "sun-joe-spx3000",
@@ -3711,7 +4631,11 @@
       "Detergent Tanks": "Two built-in (0.9L each)",
       "Nozzles": "5 quick-connect nozzles",
       "Best For": "Budget buyers, cars, decks, driveways"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/lawncare)"
+    ]
   },
   {
     "id": "teton-sports-celsius-xxl",
@@ -3740,7 +4664,13 @@
       "Weight": "~2.2 kg (4 lbs 14 oz)",
       "Includes": "Compression sack",
       "Zipper": "Full-length with anti-snag"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/camping)",
+      "Reddit (r/canadacamping)",
+      "Reddit (r/canadianbackpacking)"
+    ]
   },
   {
     "id": "the-north-face-wawona-4-tent",
@@ -3769,7 +4699,12 @@
       "Doors": "2 × D-shaped doors",
       "Rain Fly": "Full-coverage fly included",
       "Seasons": "3-season"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/CampingandHiking)",
+      "Reddit (r/camping)"
+    ]
   },
   {
     "id": "tractive-gps-dog-6",
@@ -3796,7 +4731,12 @@
       "Health": "Activity, sleep, and calorie tracking",
       "Battery": "Up to 7 days",
       "Water": "IP68 waterproof"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Pets)",
+      "Reddit (r/dogs)"
+    ]
   },
   {
     "id": "turtle-beach-stealth-pro-wireless",
@@ -3822,7 +4762,14 @@
       "Platforms": "Xbox, PS5, PC, Mobile",
       "ANC": "Yes",
       "Best For": "Multi-platform gamers, competitive play"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/audiophile)",
+      "Reddit (r/gaming)",
+      "Reddit (r/turtlebeach)",
+      "Reddit (r/xboxone)"
+    ]
   },
   {
     "id": "westinghouse-epx3500",
@@ -3848,7 +4795,11 @@
       "Power": "Electric (requires 20A circuit)",
       "Hose": "25-foot high pressure hose",
       "Best For": "Heavy-duty cleaning, paint stripping, large surfaces"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/lawncare)"
+    ]
   },
   {
     "id": "worx-landroid-wr165",
@@ -3874,7 +4825,12 @@
       "Noise": "63 dB",
       "Charging": "Auto-return to base",
       "Best For": "Small lawns, budget robot mower entry"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/lawncare)",
+      "Reddit (r/roboticmowers)"
+    ]
   },
   {
     "id": "yealink-bh74",
@@ -3901,7 +4857,11 @@
       "UC Platforms": "Teams, Zoom, Google Meet, Cisco",
       "Weight": "175g",
       "Best For": "Value business buyers, hybrid workers"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/sysadmin)"
+    ]
   },
   {
     "id": "yosuda-bike",
@@ -3928,7 +4888,12 @@
       "Adjustability": "4-way seat + 2-way handlebar",
       "Display": "LCD",
       "Best For": "Budget buyers, apartment cyclists"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/cycling)",
+      "Reddit (r/xxfitness)"
+    ]
   },
   {
     "id": "theragun-mini",
@@ -3957,7 +4922,15 @@
       "Connectivity": "Bluetooth (Therabody app)",
       "Noise Level": "Up to 69 dB",
       "Attachments Included": "1 (standard ball)"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/frugalmalefashion)",
+      "Reddit (r/massage)",
+      "Reddit (r/running)",
+      "Reddit (r/weightlifting)"
+    ]
   },
   {
     "id": "bodylastics-pro-resistance-bands",
@@ -3981,7 +4954,13 @@
       "Resistance Range": "3-190 lbs (5 stackable bands)",
       "Band Design": "Snap-reduction tube construction",
       "Included Accessories": "2 handles, 2 ankle straps, 1 door anchor, 1 carry bag"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/bodyweightfitness)",
+      "Reddit (r/homegym)"
+    ]
   },
   {
     "id": "manduka-pro-yoga-mat",
@@ -4008,7 +4987,14 @@
       "Material": "PVC (OEKO-TEX Standard 100)",
       "Surface": "Closed-cell textured",
       "Warranty": "Lifetime"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BuyItForLife)",
+      "Reddit (r/ZeroWaste)",
+      "Reddit (r/flexibility)",
+      "Reddit (r/yoga)"
+    ]
   },
   {
     "id": "samsung-q80d-65-qled-tv",
@@ -4039,7 +5025,15 @@
       "Gaming": "4K 120Hz, VRR, ALLM, 2x HDMI 2.1",
       "Smart Platform": "Tizen OS, Alexa built-in",
       "Audio": "Dolby Atmos, Object Tracking Sound Lite"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Best Buy",
+      "Reddit (r/4kTV)",
+      "Reddit (r/Televisions)",
+      "Reddit (r/hometheater)",
+      "RTINGS"
+    ]
   },
   {
     "id": "lg-c5-oled-65-tv",
@@ -4070,7 +5064,13 @@
       "Processor": "Alpha 9 AI Gen 8",
       "Smart Platform": "webOS 25, Alexa built-in",
       "Viewing Angle": "180 degrees (no contrast shift)"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/4kTV)",
+      "Reddit (r/OLED)",
+      "Reddit (r/Televisions)",
+      "Reddit (r/hometheater)"
+    ]
   },
   {
     "id": "traeger-pro-575-pellet-grill",
@@ -4099,7 +5099,13 @@
       "Weight": "124 lbs",
       "Warranty": "1-3 years (component dependent)",
       "Fuel Type": "Wood pellets"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Traeger)",
+      "Reddit (r/pelletgrills)",
+      "Smoked BBQ Source"
+    ]
   },
   {
     "id": "weber-spirit-ii-e310-gas-grill",
@@ -4129,7 +5135,13 @@
       "Fuel Type": "Liquid propane",
       "Warranty": "10 years on burners, lid, and cook box",
       "Weight": "Approx. 145 lbs assembled"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/BBQ)",
+      "Reddit (r/grilling)",
+      "Bob Vila"
+    ]
   },
   {
     "id": "blackstone-36-inch-griddle",
@@ -4160,7 +5172,12 @@
       "Dimensions (assembled)": "62.5\" W x 22\" D x 36\" H",
       "Weight": "~120 lbs",
       "Lid": "Not included on base model (sold separately)"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/blackstonegriddle)",
+      "Reddit (r/grilling)"
+    ]
   },
   {
     "id": "sony-zv-e10-ii-mirrorless-camera",
@@ -4191,7 +5208,15 @@
       "Mount": "Sony E-mount",
       "Screen": "Vari-angle fully articulating touchscreen",
       "Kit Lens": "E PZ 16-50mm F3.5-5.6 OSS II"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/Cameras)",
+      "Reddit (r/SonyAlpha)",
+      "Reddit (r/videography)",
+      "Tom's Guide",
+      "DPReview"
+    ]
   },
   {
     "id": "gopro-hero-13-black",
@@ -4222,7 +5247,13 @@
       "Audio": "3-mic array + Bluetooth audio passthrough",
       "Connectivity": "Wi-Fi, Bluetooth, USB-C",
       "Weight": "154g"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/backpacking)",
+      "Reddit (r/gopro)",
+      "Reddit (r/videography)"
+    ]
   },
   {
     "id": "triggerpoint-grid-foam-roller",
@@ -4252,7 +5283,13 @@
       "Includes": "Free online instructional video library access",
       "Target Areas": "IT band, quads, hamstrings, calves, upper back, lats",
       "Sizes Available": "10-inch (travel), 13-inch (standard), 26-inch (full body)"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/homegym)",
+      "Reddit (r/running)",
+      "OutdoorGearLab"
+    ]
   },
   {
     "id": "iron-gym-pull-up-bar",
@@ -4282,7 +5319,12 @@
       "Grip Material": "Foam padding",
       "Exercises": "Pull-ups, chin-ups, push-ups, dips, sit-ups",
       "Finish": "Platinum/chrome"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/bodyweightfitness)",
+      "Reddit (r/homegym)"
+    ]
   },
   {
     "id": "trx-all-in-one-suspension-trainer",
@@ -4313,7 +5355,12 @@
       "Warranty": "10-year limited",
       "Weight (full kit)": "~0.9 lbs (trainer only)",
       "Ideal For": "Beginner to advanced, home or travel"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/bodyweightfitness)",
+      "Reddit (r/homegym)"
+    ]
   },
   {
     "id": "concept2-rowerg",
@@ -4342,7 +5389,14 @@
       "Footprint": "96\" L x 24\" W",
       "Storage": "Separates into 2 pieces, stores vertically (24\" D x 56\" H)",
       "Warranty": "5-year frame, 2-year parts"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Reddit (r/homegym)",
+      "Reddit (r/rowing)",
+      "Garage Gym Reviews",
+      "Concept2 Forum"
+    ]
   },
   {
     "id": "bowflex-selecttech-840-kettlebell",
@@ -4369,7 +5423,14 @@
       "Shell Material": "Plastic",
       "Dimensions": "12.5\" H x 8.8\" L x 7\" W",
       "Warranty": "2 years (manufacturing defects)"
-    }
+    },
+    "sources_analyzed": [
+      "Amazon.ca",
+      "Walmart.ca",
+      "Best Buy",
+      "Reddit (r/kettlebell)",
+      "BarBend"
+    ]
   },
   {
     "id": "hisense-u88qg-65-mini-led-tv",
@@ -4400,6 +5461,11 @@
       "Gaming": "3x HDMI 2.1, USB-C DisplayPort, 4K 165Hz, Dolby Vision Gaming",
       "Smart Platform": "Google TV",
       "Audio": "4.1.2-channel, 75W, built-in subwoofer, Dolby Atmos"
-    }
+    },
+    "sources_analyzed": [
+      "Reddit (r/4kTV)",
+      "Reddit (r/Televisions)",
+      "TechRadar"
+    ]
   }
 ]

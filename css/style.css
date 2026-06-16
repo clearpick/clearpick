@@ -3095,3 +3095,181 @@ a:hover { color: var(--color-primary-hover); }
     font-size: 12px;
   }
 }
+
+/* ─── Score Sources (product pages) ─── */
+.score-sources {
+  margin-top: var(--space-4);
+  font-size: var(--text-xs);
+  color: var(--color-text-muted);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+  line-height: 1.8;
+}
+
+.score-sources__label {
+  white-space: nowrap;
+  font-weight: 500;
+}
+
+.source-pill {
+  display: inline-block;
+  background: rgba(26, 140, 255, 0.1);
+  color: var(--color-accent);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+  border: 1px solid rgba(26, 140, 255, 0.2);
+}
+
+.score-sources__method-link {
+  white-space: nowrap;
+  color: var(--color-text-muted);
+  font-size: 11px;
+  margin-left: var(--space-1);
+  text-decoration: none;
+}
+.score-sources__method-link:hover { color: var(--color-accent); }
+
+/* ─── Methodology Page ─── */
+.methodology-hero {
+  padding: var(--space-16) 0 var(--space-10);
+  background: linear-gradient(160deg, var(--color-surface-offset) 0%, var(--color-bg) 100%);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.methodology-hero h1 {
+  font-size: clamp(1.8rem, 2vw + 1rem, 2.8rem);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: var(--space-4);
+}
+
+.methodology-intro {
+  font-size: var(--text-base);
+  color: var(--color-text-muted);
+  max-width: 60ch;
+  line-height: 1.75;
+}
+
+.methodology-section {
+  padding: var(--space-12) 0;
+  border-bottom: 1px solid var(--color-divider);
+}
+
+.methodology-section:last-of-type { border-bottom: none; }
+
+.methodology-section h2 {
+  font-size: var(--text-lg);
+  font-weight: 800;
+  color: var(--color-text);
+  margin-bottom: var(--space-5);
+}
+
+.methodology-section p {
+  color: var(--color-text-muted);
+  line-height: 1.75;
+  margin-bottom: var(--space-4);
+}
+
+.methodology-section p:last-child { margin-bottom: 0; }
+
+.methodology-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-6) 0;
+  font-size: var(--text-sm);
+}
+
+.methodology-table th {
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .06em;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.methodology-table td {
+  padding: var(--space-4);
+  border-bottom: 1px solid var(--color-divider);
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  vertical-align: top;
+}
+
+.methodology-table td:first-child {
+  color: var(--color-text);
+  white-space: nowrap;
+  width: 160px;
+}
+
+.methodology-table td strong { color: var(--color-text); }
+
+.methodology-table tr:last-child td { border-bottom: none; }
+
+.methodology-sources {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  margin: var(--space-4) 0;
+}
+
+.methodology-sources li {
+  color: var(--color-text-muted);
+  line-height: 1.65;
+  padding-left: var(--space-5);
+  position: relative;
+}
+
+.methodology-sources li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--color-accent);
+  font-weight: 700;
+}
+
+.methodology-sources li strong { color: var(--color-text); }
+
+.methodology-callout {
+  background: rgba(26, 140, 255, 0.06);
+  border-left: 3px solid var(--color-accent);
+  padding: var(--space-4) var(--space-5);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  margin: var(--space-6) 0 0;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  line-height: 1.7;
+}
+
+.methodology-cta {
+  padding: var(--space-12) 0;
+  text-align: center;
+}
+
+.methodology-cta p {
+  color: var(--color-text-muted);
+  font-size: var(--text-base);
+  margin: 0;
+}
+
+.methodology-cta a {
+  color: var(--color-accent);
+  font-weight: 600;
+}
+
+@media (max-width: 768px) {
+  .methodology-table td:first-child {
+    white-space: normal;
+    width: auto;
+  }
+}

@@ -77,7 +77,7 @@ This project spans TWO different working environments that don't share context o
 
 ---
 
-## 4. STANDING CHECKLIST FOR NEW PRODUCTS (currently 18 items)
+## 4. STANDING CHECKLIST FOR NEW PRODUCTS (currently 20 items)
 
 **⚠️ THIS CHECKLIST IS A LIVING DOCUMENT — KEEP IT CURRENT ⚠️**
 
@@ -101,6 +101,8 @@ Whenever a new standard, fix, or convention is established during work on this p
 16. Correct `<link rel="canonical">` pointing to `clearpick.ca/[path]` — verify domain is correct, NOT a placeholder/staging domain
 17. Full OG tags (og:title/description/url/type/image) — product image for og:image on product pages, shared `/og-image.png` for root/category pages
 18. "Sources & Further Reading" section — 2-3 real links to actual review articles used in research (1 is fine if that's all there is; omit entirely if coverage too thin — NEVER pad)
+19. Product page must include a "Sources analyzed" line near the score, populated from the product's `sources_analyzed` field in products.json, with a link to /methodology.html.
+20. Research JSON for new products must include a `sources_analyzed` array with the canonical source names used (see /methodology.html for the canonical list).
 
 ---
 
@@ -126,6 +128,20 @@ After that batch used noticeably more tokens than expected, Claude Code was aske
 - **Keep a running to-do list organized by category/theme**, and re-share the full list periodically when asked.
 - **Push back gently on scope/sequencing when warranted** (e.g., "validate with 2 products before the full batch"), but defer to the user's call once they've heard the tradeoff.
 - **Standardize image sizes** — use `_AC_SX500_` as the standard width suffix for all product images (500px), for consistency across cards/compare/thumbnails.
+
+---
+
+## 5A. WORKING WITH NATE — communication style & pacing
+
+This isn't a technical rule, but it matters a lot for how the collaboration actually feels day-to-day. Calibrate to this:
+
+- **Fast rhythm, short confirmations.** Nate tends to respond with brief acknowledgments ("yup", "both done", "okay good", "yes") and expects the next step to be ready immediately — not a recap of what was just said. Keep momentum; don't pad responses with re-explanation once a pattern is established.
+- **Periodic "status check-in" recaps are genuinely useful** — especially in long sessions, a short "✅ done / ⬜ pending" list helps Nate track where things stand without him having to ask. Do this naturally at good stopping points (after a big instruction completes, before pivoting to a new area) — but keep it tight, not a full report every message.
+- **Don't second-guess momentum or session length.** Nate has explicitly said things like "let's go until we hit limits, stop worrying about how much we've done in a session." Don't proactively suggest wrapping up or worry aloud about token/time usage — focus on the work itself. If something genuinely needs a natural pause (e.g., a big batch finished, decision point reached), that's fine to note, but don't frame it as "we've done so much, maybe we should stop."
+- **Log things to the to-do list immediately when they come up**, even mid-conversation and even if tangential to the current task (e.g., a "future idea" mentioned in passing should get a one-line to-do entry on the spot, not just acknowledged and forgotten).
+- **Nate is decisive once informed — give him the tradeoffs concisely, then let him choose quickly.** Don't over-deliberate on subjective calls (branding details, content framing, sequencing). Lay out 2-3 options with a brief honest take on each, and move on once he picks.
+- **Re-share the full to-do list (sorted/organized) whenever asked**, without complaint — this gets asked periodically and is a genuinely useful checkpoint for Nate, not busywork.
+- **When auditing or reporting back on a Claude Code run, make sure EVERY question that was asked gets an answer surfaced** — don't let "Claude Code's report" silently drop a question that was explicitly asked in the instruction (this happened with the >15% price-change question and the Mammotion label/dup-check confirmation — see Section 11, Open Questions).
 
 ---
 
