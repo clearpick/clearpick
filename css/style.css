@@ -3795,3 +3795,63 @@ a:hover { color: var(--color-primary-hover); }
 @media (max-width: 600px) {
   .verdict-grid, .strengths-grid, .compare-product-links { grid-template-columns: 1fr; }
 }
+
+/* ── Successor callout ───────────────────────────────────────────────────── */
+.successor-callout {
+  border-left: 3px solid;
+  border-radius: var(--radius-md);
+  padding: var(--space-3) var(--space-4);
+  margin: var(--space-4) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+.successor-callout__label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin: 0;
+}
+.successor-callout__body {
+  font-size: var(--text-sm);
+  line-height: 1.55;
+  margin: 0;
+  color: var(--color-text);
+}
+.successor-callout__body a {
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  color: inherit;
+}
+.successor-callout__body span[data-successor] {
+  font-weight: 600;
+}
+
+/* discontinued — red/danger accent */
+.successor-callout--discontinued {
+  background: rgba(220, 38, 38, 0.07);
+  border-color: var(--color-danger);
+}
+.successor-callout--discontinued .successor-callout__label {
+  color: var(--color-danger);
+}
+
+/* superseded — accent blue */
+.successor-callout--superseded {
+  background: rgba(26, 140, 255, 0.07);
+  border-color: var(--color-accent);
+}
+.successor-callout--superseded .successor-callout__label {
+  color: var(--color-accent);
+}
+
+/* alternative exists — neutral */
+.successor-callout--alternative {
+  background: var(--color-surface-offset);
+  border-color: var(--color-border);
+}
+.successor-callout--alternative .successor-callout__label {
+  color: var(--color-text-muted);
+}
