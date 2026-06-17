@@ -2669,11 +2669,11 @@ a:hover { color: var(--color-primary-hover); }
   font-size: var(--text-base);
   font-weight: 700;
   color: var(--color-text-primary);
-  margin: var(--space-5) 0 var(--space-3);
+  margin: 1.75rem 0 var(--space-3);
 }
 
 .real-buyers-say__half-label:first-of-type {
-  margin-top: 0;
+  margin-top: 1.5rem;
 }
 
 .real-buyers-say__grid {
