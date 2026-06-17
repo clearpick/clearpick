@@ -266,8 +266,8 @@ window.addEventListener('load', () => {
 ${scoreBarsHtml}
 </div>
 <p class="clearpick-score-source">Scores based on aggregated Amazon reviews, Reddit community consensus, and expert roundups (${sourcesAttr}). Updated June 2026.</p>
-</div>
 ${sourcesAnalyzedHtml}
+</div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
 <table class="spec-table"><tbody>${specsHtml}</tbody></table>
