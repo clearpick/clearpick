@@ -2,7 +2,8 @@
 /**
  * ClearPick — migrate-image.js
  * Updates a product's image URL from the dead images-na format to the current
- * m.media-amazon.com format, in both products.json and the product HTML file.
+ * m.media-amazon.com format, in products.json AND across ALL products/*.html
+ * files (catches Similar Products cross-references in addition to the own page).
  *
  * Usage:
  *   node scripts/migrate-image.js <slug> <image-id>
@@ -53,24 +54,28 @@ console.log(`✓ products.json updated`);
 console.log(`  Old: ${oldImageUrl}`);
 console.log(`  New: ${newImageUrl}`);
 
-// ── Update HTML file ──────────────────────────────────────────────────────────
-const htmlPath = path.join(ROOT, product.page || `products/${slug}.html`);
-if (!fs.existsSync(htmlPath)) {
-  console.error(`Error: HTML file not found at ${htmlPath}`);
-  process.exit(1);
+// ── Sweep ALL product HTML files (own page + Similar Products cross-refs) ─────
+const productsDir = path.join(ROOT, 'products');
+const htmlFiles   = fs.readdirSync(productsDir).filter(f => f.endsWith('.html'));
+const pagesUpdated = [];
+
+for (const file of htmlFiles) {
+  const filePath = path.join(productsDir, file);
+  const html     = fs.readFileSync(filePath, 'utf8');
+  if (!html.includes(oldImageUrl)) continue;
+  const count = html.split(oldImageUrl).length - 1;
+  fs.writeFileSync(filePath, html.split(oldImageUrl).join(newImageUrl), 'utf8');
+  pagesUpdated.push({ file, count });
 }
 
-let html = fs.readFileSync(htmlPath, 'utf8');
-const escapedOld = oldImageUrl.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-const updatedHtml = html.replace(new RegExp(escapedOld, 'g'), newImageUrl);
-const changeCount = (html.match(new RegExp(escapedOld, 'g')) || []).length;
-
-if (changeCount === 0) {
-  console.warn(`Warning: old image URL not found in ${htmlPath}`);
-  console.warn('The HTML may already be updated, or may use a different URL.');
+if (pagesUpdated.length === 0) {
+  console.warn(`Warning: old image URL not found in any products/*.html`);
+  console.warn('The HTML files may already be updated, or may use a different URL.');
 } else {
-  fs.writeFileSync(htmlPath, updatedHtml, 'utf8');
-  console.log(`✓ ${htmlPath} updated (${changeCount} occurrence${changeCount > 1 ? 's' : ''} replaced)`);
+  console.log(`✓ Swept ${pagesUpdated.length} product page(s):`);
+  pagesUpdated.forEach(({ file, count }) =>
+    console.log(`    ${file} (${count} occurrence${count > 1 ? 's' : ''})`)
+  );
 }
 
 console.log(`\nDone. Verify the image loads at: ${newImageUrl}`);
