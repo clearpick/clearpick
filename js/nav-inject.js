@@ -2,7 +2,7 @@
   /* Single source of truth for the categories dropdown.
      Counts kept in sync automatically by scripts/add-product.js. */
   var CATEGORIES = [
-    { slug: 'headphones',         icon: '🎧', label: 'Headphones',                count: 19 },
+    { slug: 'headphones',         icon: '🎧', label: 'Headphones',                count: 19  },
     { slug: 'kitchen',            icon: '🍳', label: 'Kitchen Appliances',         count: 24 },
     { slug: 'camping',            icon: '⛺', label: 'Outdoor & Camping',           count: 17 },
     { slug: 'software',           icon: '💻', label: 'Software',                   count: 13 },
