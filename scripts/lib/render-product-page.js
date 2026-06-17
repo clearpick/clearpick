@@ -80,6 +80,15 @@ function renderProductPage(p, products) {
   const sourcesAttr   = p.sources.map(s => s.title.split(':')[0].trim()).join(', ');
   const sourcesReview = p.sources.map(s => s.title.split(':')[0].trim()).join(', ');
 
+  // ── Sources analyzed pills ────────────────────────────────────────────────────
+  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
+    ? `<p class="score-sources">
+  <span class="score-sources__label">Sources analyzed:</span>
+    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
+    <a class="score-sources__method-link" href="../methodology.html">· How we score →</a>
+</p>`
+    : '';
+
   // ── Similar products section ──────────────────────────────────────────────────
   const similar = p.similarProducts.map(s => products.find(x => x.id === s));
   const similarSection = similar.length ? `<section class="section--similar">
@@ -258,6 +267,7 @@ ${scoreBarsHtml}
 </div>
 <p class="clearpick-score-source">Scores based on aggregated Amazon reviews, Reddit community consensus, and expert roundups (${sourcesAttr}). Updated June 2026.</p>
 </div>
+${sourcesAnalyzedHtml}
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
 <table class="spec-table"><tbody>${specsHtml}</tbody></table>

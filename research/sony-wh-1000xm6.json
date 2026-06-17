@@ -88,6 +88,15 @@
       "source": "SoundGuys"
     }
   ],
+  "sources_analyzed": [
+    "Amazon.ca",
+    "Reddit (r/headphones)",
+    "RTINGS",
+    "Tom's Guide",
+    "What Hi-Fi",
+    "SoundGuys",
+    "Head-Fi"
+  ],
   "sources": [
     { "title": "RTINGS — Sony WH-1000XM6 Review" },
     { "title": "Tom's Guide — Sony WH-1000XM6 Review" },
