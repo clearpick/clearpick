@@ -76,10 +76,6 @@ function renderProductPage(p, products) {
 </article>`
   ).join('\n');
 
-  // ── Sources line ──────────────────────────────────────────────────────────────
-  const sourcesAttr   = p.sources.map(s => s.title.split(':')[0].trim()).join(', ');
-  const sourcesReview = p.sources.map(s => s.title.split(':')[0].trim()).join(', ');
-
   // ── Sources analyzed pills ────────────────────────────────────────────────────
   const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
     ? `<p class="score-sources">
@@ -265,7 +261,6 @@ window.addEventListener('load', () => {
 <div class="clearpick-score-bars">
 ${scoreBarsHtml}
 </div>
-<p class="clearpick-score-source">Scores based on aggregated Amazon reviews, Reddit community consensus, and expert roundups (${sourcesAttr}). Updated June 2026.</p>
 ${sourcesAnalyzedHtml}
 </div>
 <details class="product-hero__specs">
@@ -330,7 +325,6 @@ ${badCardsHtml}
 <span class="product-review__verdict-label">ClearPick Verdict</span>
 <p class="product-review__verdict-text">${esc(p.verdict)}</p>
 </div>
-<p class="product-review__source">Review synthesis based on aggregated Amazon.ca customer reviews, Reddit community discussions, and expert evaluations from ${sourcesReview}. Updated June 2026.</p>
 </div>
 </section>
 ${similarSection}
