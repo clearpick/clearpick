@@ -32,6 +32,21 @@
         '<span class="dropdown__count">' + c.count + ' products</span>' +
         '</span></a>';
     }).join('');
+
+    // Inject Methodology link into nav if the page doesn't already have one
+    var nav = document.querySelector('nav.nav');
+    if (nav && !nav.querySelector('a[href*="methodology"]')) {
+      var compareLink = nav.querySelector('a[href="/compare/"]');
+      var methodLink = document.createElement('a');
+      methodLink.href = pre + 'methodology.html';
+      methodLink.className = 'nav__link';
+      methodLink.textContent = 'Methodology';
+      if (compareLink) {
+        nav.insertBefore(methodLink, compareLink);
+      } else {
+        nav.appendChild(methodLink);
+      }
+    }
   }
 
   if (document.readyState === 'loading') {
