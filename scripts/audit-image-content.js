@@ -32,7 +32,7 @@ const THRESHOLD = 1000; // bytes — 1×1 GIF/PNG placeholders are ~150–300B
 function headRequest(url) {
   return new Promise(resolve => {
     try {
-      const req = https.request(url, { method: 'HEAD' }, res => {
+      const req = https.request(url, { method: 'HEAD', headers: { 'Referer': 'https://clearpick.ca/' } }, res => {
         const cl = parseInt(res.headers['content-length'] || '0', 10);
         const has = 'content-length' in res.headers;
         res.resume();
@@ -56,7 +56,7 @@ function fetchSize(url) {
   return new Promise(resolve => {
     try {
       let size = 0;
-      const req = https.request(url, { method: 'GET' }, res => {
+      const req = https.request(url, { method: 'GET', headers: { 'Referer': 'https://clearpick.ca/' } }, res => {
         res.on('data', chunk => {
           size += chunk.length;
           if (size > THRESHOLD * 20) req.destroy(); // bail once clearly a real image
