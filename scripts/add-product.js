@@ -75,8 +75,30 @@ if (fs.existsSync(outPath)) {
   process.exit(1);
 }
 
-// ── Similar products (from existing list, same category, last 3) ──────────────
-const similar = products.filter(x => x.category === p.category).slice(-3);
+// ── Similar products — must be provided in input JSON (3 hand-picked slugs) ────
+if (!Array.isArray(p.similarProducts) || p.similarProducts.length !== 3) {
+  console.error('✗ "similarProducts" must be an array of exactly 3 product slugs.');
+  process.exit(1);
+}
+{
+  const errs = [];
+  for (const s of p.similarProducts) {
+    if (s === p.slug)               errs.push(`"${s}" is the same as the new product slug`);
+    else if (!products.find(x => x.id === s)) errs.push(`"${s}" not found in products.json`);
+  }
+  if (errs.length) {
+    console.error('✗ Invalid similarProducts:\n' + errs.map(e => '  · ' + e).join('\n'));
+    process.exit(1);
+  }
+  const crossCat = p.similarProducts.filter(s => {
+    const prod = products.find(x => x.id === s);
+    return prod && prod.category !== p.category;
+  });
+  if (crossCat.length) {
+    console.warn(`⚠ Cross-category similar products (intentional?): ${crossCat.join(', ')}`);
+  }
+}
+const similar = p.similarProducts.map(s => products.find(x => x.id === s));
 
 // ── Score bars ────────────────────────────────────────────────────────────────
 const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
@@ -570,7 +592,7 @@ if (p.newCategoryPage) {
     console.log(`✓ nav-inject.js updated with new category: ${catDisplayName}`);
 
     // ── Sitemap entry for category page ──────────────────────────────────────
-    let sm = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8');
+    let sm = fs.readFileSync(path.join(ROOT, 'sitemap.xml'), 'utf8').replace(/^﻿/, '');
     sm = sm.replace('</urlset>',
       `  <url>\n    <loc>https://clearpick.ca/${catPage}</loc>\n    <changefreq>weekly</changefreq>\n    <priority>0.8</priority>\n  </url>\n</urlset>`);
     fs.writeFileSync(path.join(ROOT, 'sitemap.xml'), sm, 'utf8');
@@ -631,7 +653,7 @@ console.log(`✓ Card inserted into ${catPage}`);
 
 // ── 4. Sitemap entry ──────────────────────────────────────────────────────────
 const sitemapPath = path.join(ROOT, 'sitemap.xml');
-let sitemap = fs.readFileSync(sitemapPath, 'utf8');
+let sitemap = fs.readFileSync(sitemapPath, 'utf8').replace(/^﻿/, '');
 const sitemapEntry =
 `  <url>
     <loc>https://clearpick.ca/products/${p.slug}.html</loc>
@@ -682,5 +704,15 @@ navJs = navJs.replace(
 );
 fs.writeFileSync(navInjectPath, navJs, 'utf8');
 console.log(`✓ nav-inject.js updated — ${p.category}: ${newCatCount}`);
+
+// ── 7. Upgrade any data-successor placeholders pointing at this new slug ──────
+const { upgradeSuccessorLinks } = require('./lib/successor-sweep');
+const upgraded = upgradeSuccessorLinks(p.slug, { root: ROOT });
+if (upgraded.length > 0) {
+  console.log(`✓ Upgraded ${upgraded.length} data-successor placeholder(s):`);
+  upgraded.forEach(f => console.log(`  · ${f}`));
+} else {
+  console.log(`  (no data-successor placeholders found for "${p.slug}")`);
+}
 
 console.log(`\n✅ Done! ${p.name} added in ${products.length - 1} → ${products.length} products.`);
