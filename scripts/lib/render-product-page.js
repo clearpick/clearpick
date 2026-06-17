@@ -1,33 +1,142 @@
-<!DOCTYPE html>
+'use strict';
+
+const CAT_ALIASES = {
+  'Fitness': 'Fitness Equipment',
+};
+
+const CAT_ICONS = {
+  'Headphones':                    '🎧',
+  'Kitchen Appliances':            '🍳',
+  'Outdoor & Camping':             '⛺',
+  'Software':                      '💻',
+  'Smart Home':                    '🏠',
+  'Robot Vacuums':                 '🤖',
+  'Fitness Equipment':             '💪',
+  'Pet Supplies':                  '🐾',
+  'Gaming':                        '🎮',
+  'Lawn & Garden':                 '🌿',
+  'Home Entertainment':            '📺',
+  'Outdoor Cooking':               '🔥',
+  'Cameras & Content Creation':    '📷',
+};
+
+const esc = s => String(s)
+  .replace(/&/g, '&amp;')
+  .replace(/</g, '&lt;')
+  .replace(/>/g, '&gt;')
+  .replace(/"/g, '&quot;');
+
+const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
+
+const truncate = (s, n) => {
+  if (s.length <= n) return s;
+  const cut = s.lastIndexOf(' ', n);
+  return s.slice(0, cut > 0 ? cut : n) + '…';
+};
+
+function renderProductPage(p, products) {
+  const category = CAT_ALIASES[p.category] || p.category;
+  const catIcon  = CAT_ICONS[category] || '📦';
+  const catPage  = p.categoryPage;
+
+  // ── Score bars ────────────────────────────────────────────────────────────────
+  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
+    `<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">${esc(label)}</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
+</div>
+<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
+</div>`
+  ).join('\n');
+
+  // ── Spec table ────────────────────────────────────────────────────────────────
+  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
+    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
+  ).join('');
+
+  // ── Pros / cons lists ─────────────────────────────────────────────────────────
+  const prosHtml = p.whatWorks.map(item => `<li>${esc(item)}</li>`).join('\n');
+  const consHtml = p.worthKnowing.map(item => `<li>${esc(item)}</li>`).join('\n');
+
+  // ── Real buyers — good cards ──────────────────────────────────────────────────
+  const goodCardsHtml = p.realBuyers.map(b =>
+    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
+<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
+</blockquote>`
+  ).join('\n');
+
+  // ── Common complaints — bad cards ─────────────────────────────────────────────
+  const badCardsHtml = p.commonComplaints.map(c =>
+    `<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">${esc(c.title)}</p>
+<p class="real-buyers-say__text">${esc(c.body)}</p>
+<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
+</article>`
+  ).join('\n');
+
+  // ── Sources line ──────────────────────────────────────────────────────────────
+  const sourcesAttr   = p.sources.map(s => s.title.split(':')[0].trim()).join(', ');
+  const sourcesReview = p.sources.map(s => s.title.split(':')[0].trim()).join(', ');
+
+  // ── Similar products section ──────────────────────────────────────────────────
+  const similar = p.similarProducts.map(s => products.find(x => x.id === s));
+  const similarSection = similar.length ? `<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+${similar.map(s => {
+  const itemSlug = s.page.replace('products/', '');
+  return `<a class="product-card product-card--related" href="${itemSlug}">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">${esc(s.tag)}</span>
+<h3 class="product-card__name">${esc(s.name)}</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>`;
+}).join('\n')}
+</div>
+</div>
+</section>` : '';
+
+  // ── Full page HTML ────────────────────────────────────────────────────────────
+  return `<!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>Sony WH-1000XM6 Review 2026 | ClearPick</title>
-<meta name="description" content="ClearPick's Sony WH-1000XM6 review. Best-in-class noise cancellation, 37+ hours real-world battery, and foldable design — with a comfort trade-off you should know about before buying." />
-<meta property="og:title" content="Sony WH-1000XM6 Review 2026 | ClearPick" />
-<meta property="og:description" content="ClearPick's Sony WH-1000XM6 review. Best-in-class noise cancellation, 37+ hours real-world battery, and foldable design — with a comfort trade-off you should know about before buying." />
+<title>${esc(p.name)} Review 2026 | ClearPick</title>
+<meta name="description" content="${esc(p.metaDescription)}" />
+<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
+<meta property="og:description" content="${esc(p.metaDescription)}" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/sony-wh-1000xm6.html" />
-<meta property="og:image" content="https://m.media-amazon.com/images/I/61ddahpESML._AC_SX500_.jpg" />
-<link rel="canonical" href="https://clearpick.ca/products/sony-wh-1000xm6.html" />
+<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:image" content="${esc(p.image)}" />
+<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "Sony WH-1000XM6",
+  "name": "${escJson(p.name)}",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "8.7", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "The best noise-cancelling headphone Sony has made. ANC sets the benchmark, battery holds past 37 hours tested, and the audio signature is noticeably cleaner than the XM5 — the harsh treble peaks are gone. The ear comfort issue is real and worth knowing before you buy, but it's fixable with third-party pads for around $22. At full price it's a harder sell than an XM5 on discount, but if you're buying new and ANC is the priority, this is the one to get."
+    "reviewBody": "${escJson(p.verdict)}"
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "8.7",
+    "ratingValue": "${p.score}",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -127,65 +236,31 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../headphones.html">Headphones</a> <span>›</span>
-<span>Sony WH-1000XM6</span>
+<a href="../${catPage}">${esc(category)}</a> <span>›</span>
+<span>${esc(p.name)}</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">Headphones</div>
-<h1 class="product-hero__title">Sony WH-1000XM6</h1>
-<div class="product-hero__tag">Best Noise Cancellation</div>
-<p class="product-hero__desc">The WH-1000XM6 is Sony's most refined noise-cancelling headphone. The new QN3 processor and 12-mic array push ANC to a new benchmark, real-world battery runs past 37 hours, and the foldable hinge design returns after the XM5's omission. The trade-off: shallow earcups that compress quickly on average ears, and a price that sits $150+ above a typical XM5 sale.</p>
+<div class="product-hero__category">${esc(category)}</div>
+<h1 class="product-hero__title">${esc(p.name)}</h1>
+<div class="product-hero__tag">${esc(p.tag)}</div>
+<p class="product-hero__desc">${esc(p.introText)}</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <span class="clearpick-score-title">ClearPick Score</span>
-<span class="clearpick-score-overall">8.7 <span>/ 10</span></span>
+<span class="clearpick-score-overall">${p.score} <span>/ 10</span></span>
 </div>
 <div class="clearpick-score-bars">
-<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">Sound Quality</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:90%"></div>
+${scoreBarsHtml}
 </div>
-<span class="clearpick-score-bar__value">9.0</span>
-</div>
-<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">Noise Cancellation</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:95%"></div>
-</div>
-<span class="clearpick-score-bar__value">9.5</span>
-</div>
-<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">Comfort</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:75%"></div>
-</div>
-<span class="clearpick-score-bar__value">7.5</span>
-</div>
-<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">Battery Life</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:90%"></div>
-</div>
-<span class="clearpick-score-bar__value">9.0</span>
-</div>
-<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">Value</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:80%"></div>
-</div>
-<span class="clearpick-score-bar__value">8.0</span>
-</div>
-</div>
-<p class="clearpick-score-source">Scores based on aggregated Amazon reviews, Reddit community consensus, and expert roundups (RTINGS — Sony WH-1000XM6 Review, Tom's Guide — Sony WH-1000XM6 Review, SoundGuys — Sony WH-1000XM6 vs XM5 Comparison, What Hi-Fi — Sony WH-1000XM6 Review). Updated June 2026.</p>
+<p class="clearpick-score-source">Scores based on aggregated Amazon reviews, Reddit community consensus, and expert roundups (${sourcesAttr}). Updated June 2026.</p>
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody><tr><td class="spec-table__label">Driver</td><td class="spec-table__value">30mm soft-edge dome, carbon fiber composite</td></tr><tr><td class="spec-table__label">Processor</td><td class="spec-table__value">HD Noise Cancelling Processor QN3</td></tr><tr><td class="spec-table__label">Battery Life</td><td class="spec-table__value">30 hours (ANC on) / 40 hours (ANC off)</td></tr><tr><td class="spec-table__label">Fast Charge</td><td class="spec-table__value">3 hours playback from 3 min charge</td></tr><tr><td class="spec-table__label">Weight</td><td class="spec-table__value">254g</td></tr><tr><td class="spec-table__label">Bluetooth</td><td class="spec-table__value">5.3 with LDAC, SBC, AAC, LC3 (LE Audio)</td></tr><tr><td class="spec-table__label">Microphones</td><td class="spec-table__value">12 (ANC) + 6-mic AI beamforming (calls)</td></tr><tr><td class="spec-table__label">Multi-point</td><td class="spec-table__value">Yes (Multi-Point + Auto Switch)</td></tr><tr><td class="spec-table__label">Foldable</td><td class="spec-table__value">Yes (hinges return from XM4)</td></tr><tr><td class="spec-table__label">Wired</td><td class="spec-table__value">3.5mm TRRS analog cable included</td></tr><tr><td class="spec-table__label">USB-C</td><td class="spec-table__value">Yes, can listen while charging</td></tr><tr><td class="spec-table__label">Colors</td><td class="spec-table__value">Black, Midnight Blue, Silver</td></tr></tbody></table>
+<table class="spec-table"><tbody>${specsHtml}</tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -193,11 +268,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="Sony WH-1000XM6 product photo" class="product-cta-box__img" loading="lazy" src="https://m.media-amazon.com/images/I/61ddahpESML._AC_SX500_.jpg" />
-<div class="product-cta-box__badge">🏆 Best Noise Cancellation</div>
-<div class="product-cta-box__name">Sony WH-1000XM6</div>
-<div class="product-cta-box__price">~$549 CAD <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="https://www.amazon.ca/dp/B0F3PQHWTZ/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc(p.image)}" />
+<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
+<div class="product-cta-box__name">${esc(p.name)}</div>
+<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -217,24 +292,13 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-<li>Best-in-class noise cancellation, especially low-frequency on planes and trains</li>
-<li>QN3 processor and 12-mic array deliver real call clarity upgrade over XM5</li>
-<li>Lightweight at 254g — far lighter than AirPods Max (386g) or Sennheiser Accentum Plus (311g)</li>
-<li>Foldable hinges return from XM4; the XM5 could only lay flat</li>
-<li>Battery measured at 37+ hours real-world with ANC enabled, beating Sony's 30-hour claim</li>
-<li>USB-C charging while listening; XM5 couldn't do this</li>
-<li>Best audio tuning from Sony's WH line — harsh treble peaks of the XM5 are smoothed out</li>
+${prosHtml}
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-<li>Comfort is the major weakness — ear pads compress quickly, leaving little space for average-sized ears</li>
-<li>Internal ANC microphone protrudes ~2mm and can press against the tragus if the seal isn't perfect</li>
-<li>Not a radical upgrade over the XM5; Tom's Guide called the changes 'minor refinements'</li>
-<li>Price is $150+ above XM5's typical sale price ($299–$319), so the value gap is real</li>
-<li>No aptX, aptX HD, or Snapdragon Sound support</li>
-<li>No IP rating — not for workouts or rainy days</li>
+${consHtml}
 </ul>
 </div>
 </div>
@@ -243,92 +307,23 @@ View on Amazon.ca →
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"Best noise cancellation I've tested yet. Quiet down to the finest detail on planes and trains."</p>
-<cite class="real-buyers-say__source">Source: RTINGS</cite>
-</blockquote>
-<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"The best-sounding Sony ANC headphone to date. The harsh treble peaks of the XM5 are smoothed out and the low-end is warmer."</p>
-<cite class="real-buyers-say__source">Source: SoundGuys</cite>
-</blockquote>
-<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"Battery held up at over 37 hours with ANC enabled in lab testing, beating Sony's 30-hour claim."</p>
-<cite class="real-buyers-say__source">Source: SoundGuys lab measurement</cite>
-</blockquote>
+${goodCardsHtml}
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">Ear pads compress quickly, ears press against inner mesh</p>
-<p class="real-buyers-say__text">Multiple reviewers report shallow earcup depth and stock padding that flattens within an hour. A third-party replacement pad market ($22+) exists specifically to fix this.</p>
-<cite class="real-buyers-say__source">Source: SoundGuys, Head-Fi community</cite>
-</article>
-<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">ANC microphone protrudes inside earcup, can rub against ear cartilage</p>
-<p class="real-buyers-say__text">The internal ANC mic sits about 2mm proud of the mesh and can press against the tragus if the seal isn't perfect, causing a sore spot during long sessions.</p>
-<cite class="real-buyers-say__source">Source: SoundGuys</cite>
-</article>
-<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">Not a radical upgrade over the XM5 for the price</p>
-<p class="real-buyers-say__text">Tom's Guide called the improvements 'minor refinements' rather than a generational leap. The XM5 still does most of what the XM6 does at $250 less on sale.</p>
-<cite class="real-buyers-say__source">Source: Tom's Guide</cite>
-</article>
-<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">No aptX, aptX HD, or Snapdragon Sound support</p>
-<p class="real-buyers-say__text">Sony continues to skip aptX codecs. LC3 over LE Audio is supported but device compatibility is still rolling out, limiting the future-proofing benefit for Android users.</p>
-<cite class="real-buyers-say__source">Source: SoundGuys</cite>
-</article>
+${badCardsHtml}
 </div>
 </div>
 </section>
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">The best noise-cancelling headphone Sony has made. ANC sets the benchmark, battery holds past 37 hours tested, and the audio signature is noticeably cleaner than the XM5 — the harsh treble peaks are gone. The ear comfort issue is real and worth knowing before you buy, but it's fixable with third-party pads for around $22. At full price it's a harder sell than an XM5 on discount, but if you're buying new and ANC is the priority, this is the one to get.</p>
+<p class="product-review__verdict-text">${esc(p.verdict)}</p>
 </div>
-<p class="product-review__source">Review synthesis based on aggregated Amazon.ca customer reviews, Reddit community discussions, and expert evaluations from RTINGS — Sony WH-1000XM6 Review, Tom's Guide — Sony WH-1000XM6 Review, SoundGuys — Sony WH-1000XM6 vs XM5 Comparison, What Hi-Fi — Sony WH-1000XM6 Review. Updated June 2026.</p>
-</div>
-</section>
-<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-<a class="product-card product-card--related" href="sony-wh-1000xm5.html">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="Sony WH-1000XM5" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B09Y2LL45F.01._SCLZZZZZZZ_.jpg"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">Best for Commuting</span>
-<h3 class="product-card__name">Sony WH-1000XM5</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>
-<a class="product-card product-card--related" href="bose-quietcomfort-ultra.html">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="Bose QuietComfort Ultra" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B0CCZ26B5V.01._SCLZZZZZZZ_.jpg"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">Best for Travel</span>
-<h3 class="product-card__name">Bose QuietComfort Ultra</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>
-<a class="product-card product-card--related" href="sennheiser-momentum-4.html">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="Sennheiser Momentum 4 Wireless" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B0CQ2TBSPV.01._SCLZZZZZZZ_.jpg"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">Best Audio Quality</span>
-<h3 class="product-card__name">Sennheiser Momentum 4 Wireless</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>
-</div>
+<p class="product-review__source">Review synthesis based on aggregated Amazon.ca customer reviews, Reddit community discussions, and expert evaluations from ${sourcesReview}. Updated June 2026.</p>
 </div>
 </section>
+${similarSection}
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -346,4 +341,7 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>
+</html>`;
+}
+
+module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };

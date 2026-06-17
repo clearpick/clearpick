@@ -1,0 +1,102 @@
+{
+  "slug": "sony-wh-1000xm6",
+  "name": "Sony WH-1000XM6",
+  "category": "Headphones",
+  "score": 8.7,
+  "tag": "Best Noise Cancellation",
+  "brand": "Sony",
+  "filterTag": "Noise Cancellation",
+  "image": "https://m.media-amazon.com/images/I/61ddahpESML._AC_SX500_.jpg",
+  "price": "549",
+  "priceDisplay": "$549 CAD",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0F3PQHWTZ/?tag=clearpick06-20",
+  "categoryPage": "headphones.html",
+  "metaDescription": "ClearPick's Sony WH-1000XM6 review. Best-in-class noise cancellation, 37+ hours real-world battery, and foldable design — with a comfort trade-off you should know about before buying.",
+  "introText": "The WH-1000XM6 is Sony's most refined noise-cancelling headphone. The new QN3 processor and 12-mic array push ANC to a new benchmark, real-world battery runs past 37 hours, and the foldable hinge design returns after the XM5's omission. The trade-off: shallow earcups that compress quickly on average ears, and a price that sits $150+ above a typical XM5 sale.",
+  "verdict": "The best noise-cancelling headphone Sony has made. ANC sets the benchmark, battery holds past 37 hours tested, and the audio signature is noticeably cleaner than the XM5 — the harsh treble peaks are gone. The ear comfort issue is real and worth knowing before you buy, but it's fixable with third-party pads for around $22. At full price it's a harder sell than an XM5 on discount, but if you're buying new and ANC is the priority, this is the one to get.",
+  "subscores": {
+    "Sound Quality": 9.0,
+    "Noise Cancellation": 9.5,
+    "Comfort": 7.5,
+    "Battery Life": 9.0,
+    "Value": 8.0
+  },
+  "specs": {
+    "Driver": "30mm soft-edge dome, carbon fiber composite",
+    "Processor": "HD Noise Cancelling Processor QN3",
+    "Battery Life": "30 hours (ANC on) / 40 hours (ANC off)",
+    "Fast Charge": "3 hours playback from 3 min charge",
+    "Weight": "254g",
+    "Bluetooth": "5.3 with LDAC, SBC, AAC, LC3 (LE Audio)",
+    "Microphones": "12 (ANC) + 6-mic AI beamforming (calls)",
+    "Multi-point": "Yes (Multi-Point + Auto Switch)",
+    "Foldable": "Yes (hinges return from XM4)",
+    "Wired": "3.5mm TRRS analog cable included",
+    "USB-C": "Yes, can listen while charging",
+    "Colors": "Black, Midnight Blue, Silver"
+  },
+  "whatWorks": [
+    "Best-in-class noise cancellation, especially low-frequency on planes and trains",
+    "QN3 processor and 12-mic array deliver real call clarity upgrade over XM5",
+    "Lightweight at 254g — far lighter than AirPods Max (386g) or Sennheiser Accentum Plus (311g)",
+    "Foldable hinges return from XM4; the XM5 could only lay flat",
+    "Battery measured at 37+ hours real-world with ANC enabled, beating Sony's 30-hour claim",
+    "USB-C charging while listening; XM5 couldn't do this",
+    "Best audio tuning from Sony's WH line — harsh treble peaks of the XM5 are smoothed out"
+  ],
+  "worthKnowing": [
+    "Comfort is the major weakness — ear pads compress quickly, leaving little space for average-sized ears",
+    "Internal ANC microphone protrudes ~2mm and can press against the tragus if the seal isn't perfect",
+    "Not a radical upgrade over the XM5; Tom's Guide called the changes 'minor refinements'",
+    "Price is $150+ above XM5's typical sale price ($299–$319), so the value gap is real",
+    "No aptX, aptX HD, or Snapdragon Sound support",
+    "No IP rating — not for workouts or rainy days"
+  ],
+  "realBuyers": [
+    {
+      "quote": "Best noise cancellation I've tested yet. Quiet down to the finest detail on planes and trains.",
+      "source": "RTINGS"
+    },
+    {
+      "quote": "The best-sounding Sony ANC headphone to date. The harsh treble peaks of the XM5 are smoothed out and the low-end is warmer.",
+      "source": "SoundGuys"
+    },
+    {
+      "quote": "Battery held up at over 37 hours with ANC enabled in lab testing, beating Sony's 30-hour claim.",
+      "source": "SoundGuys lab measurement"
+    }
+  ],
+  "commonComplaints": [
+    {
+      "title": "Ear pads compress quickly, ears press against inner mesh",
+      "body": "Multiple reviewers report shallow earcup depth and stock padding that flattens within an hour. A third-party replacement pad market ($22+) exists specifically to fix this.",
+      "source": "SoundGuys, Head-Fi community"
+    },
+    {
+      "title": "ANC microphone protrudes inside earcup, can rub against ear cartilage",
+      "body": "The internal ANC mic sits about 2mm proud of the mesh and can press against the tragus if the seal isn't perfect, causing a sore spot during long sessions.",
+      "source": "SoundGuys"
+    },
+    {
+      "title": "Not a radical upgrade over the XM5 for the price",
+      "body": "Tom's Guide called the improvements 'minor refinements' rather than a generational leap. The XM5 still does most of what the XM6 does at $250 less on sale.",
+      "source": "Tom's Guide"
+    },
+    {
+      "title": "No aptX, aptX HD, or Snapdragon Sound support",
+      "body": "Sony continues to skip aptX codecs. LC3 over LE Audio is supported but device compatibility is still rolling out, limiting the future-proofing benefit for Android users.",
+      "source": "SoundGuys"
+    }
+  ],
+  "sources": [
+    { "title": "RTINGS — Sony WH-1000XM6 Review" },
+    { "title": "Tom's Guide — Sony WH-1000XM6 Review" },
+    { "title": "SoundGuys — Sony WH-1000XM6 vs XM5 Comparison" },
+    { "title": "What Hi-Fi — Sony WH-1000XM6 Review" }
+  ],
+  "similarProducts": [
+    "sony-wh-1000xm5",
+    "bose-quietcomfort-ultra",
+    "sennheiser-momentum-4"
+  ]
+}
