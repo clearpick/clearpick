@@ -77,13 +77,17 @@ function renderProductPage(p, products) {
   ).join('\n');
 
   // ── Common complaints — bad cards ─────────────────────────────────────────────
-  const badCardsHtml = p.commonComplaints.map(c =>
-    `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(c.title)}</p>
-<p class="real-buyers-say__text">${esc(c.body)}</p>
+  // Supports both {title, body, source} and legacy {complaint, source} schemas
+  const badCardsHtml = p.commonComplaints.map(c => {
+    const words = (c.complaint || '').split(/\s+/);
+    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
+    const body  = c.body  || c.complaint || '';
+    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">${esc(title)}</p>
+<p class="real-buyers-say__text">${esc(body)}</p>
 <cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`
-  ).join('\n');
+</article>`;
+  }).join('\n');
 
   const verdictLabel = getVerdictLabel(p.score);
 
