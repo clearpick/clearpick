@@ -39,6 +39,26 @@ function getSlug(jsonPath) {
   return path.basename(jsonPath, '.json');
 }
 
+// Normalize commonComplaints: {complaint, source} → {title, body, source}
+function normalizeComplaints(jsonPath) {
+  const raw = fs.readFileSync(jsonPath, 'utf8').replace(/^﻿/, '');
+  const p = JSON.parse(raw);
+  if (!Array.isArray(p.commonComplaints)) return;
+
+  let changed = false;
+  p.commonComplaints = p.commonComplaints.map(c => {
+    if (typeof c.complaint === 'string' && !c.title) {
+      const words = c.complaint.split(/\s+/);
+      const title = words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : '');
+      changed = true;
+      return { title, body: c.complaint, source: c.source };
+    }
+    return c;
+  });
+
+  if (changed) fs.writeFileSync(jsonPath, JSON.stringify(p, null, 2), 'utf8');
+}
+
 function processProduct(jsonPath, existingSlugs) {
   const slug = getSlug(jsonPath);
 
@@ -47,6 +67,7 @@ function processProduct(jsonPath, existingSlugs) {
     return { status: 'skipped', slug };
   }
 
+  normalizeComplaints(jsonPath);
   console.log(`  Processing: ${slug}`);
 
   if (DRY_RUN) {
