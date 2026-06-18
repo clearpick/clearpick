@@ -3418,6 +3418,13 @@ a:hover { color: var(--color-primary-hover); }
 }
 .score-sources__method-link:hover { color: var(--color-accent); }
 
+.product-trust-line {
+  font-size: 0.75rem;
+  color: #888;
+  letter-spacing: 0.02em;
+  margin: 4px 0 12px;
+}
+
 /* ─── Sources & Further Reading (product pages) ─── */
 .sources-further-reading {
   padding: var(--space-8) 0 var(--space-6);
