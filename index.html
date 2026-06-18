@@ -5,10 +5,10 @@
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <link rel="apple-touch-icon" sizes="180x180" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ClearPick — Canadian Product Reviews Powered by Real Buyers</title>
-  <meta name="description" content="The internet's reviews, distilled. ClearPick aggregates Amazon, Reddit, and expert opinion so you can skip the research and decide with confidence." />
-  <meta property="og:title" content="ClearPick — Canadian Product Reviews Powered by Real Buyers" />
-  <meta property="og:description" content="The internet's reviews, distilled. ClearPick aggregates Amazon, Reddit, and expert opinion so you can skip the research and decide with confidence." />
+  <title>ClearPick — We Searched the Internet. Here's What Matters</title>
+  <meta name="description" content="ClearPick aggregates reviews from Reddit, Amazon, and owner forums to score Canadian products honestly — no sponsored picks, no fluff." />
+  <meta property="og:title" content="ClearPick — We Searched the Internet. Here's What Matters" />
+  <meta property="og:description" content="ClearPick aggregates reviews from Reddit, Amazon, and owner forums to score Canadian products honestly — no sponsored picks, no fluff." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://clearpick.ca/" />
   <meta property="og:image" content="https://clearpick.ca/og-image.png" />
@@ -268,7 +268,8 @@
         <h2 class="section__title">Every Category, Honestly Ranked</h2>
         <p class="section__subtitle">Pick a category to see every product ranked by use case — with specs, descriptions, and affiliate links.</p>
       </div>
-      <div class="categories-grid">
+      <button class="categories-toggle" id="categories-toggle" aria-expanded="false" aria-controls="categories-grid">Show All Categories ↓</button>
+      <div class="categories-grid" id="categories-grid">
         <a href="headphones.html" class="category-card">
           <div class="category-card__icon">🎧</div>
           <div><div class="category-card__name">Headphones</div><div class="category-card__count">19 products ranked</div></div>
@@ -467,6 +468,18 @@
       const dd = document.querySelector('.nav__dropdown');
       if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open');
     });
+  </script>
+  <script>
+    (function () {
+      var btn = document.getElementById('categories-toggle');
+      var grid = document.getElementById('categories-grid');
+      if (!btn || !grid) return;
+      btn.addEventListener('click', function () {
+        var open = grid.classList.toggle('is-open');
+        btn.setAttribute('aria-expanded', open);
+        btn.textContent = open ? 'Hide Categories ↑' : 'Show All Categories ↓';
+      });
+    }());
   </script>
   <script src="js/nav-inject.js"></script>
   <script src="js/search.js"></script>
