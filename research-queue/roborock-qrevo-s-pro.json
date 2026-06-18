@@ -1,0 +1,103 @@
+{
+  "slug": "roborock-qrevo-s-pro",
+  "name": "Roborock Qrevo S Pro Robot Vacuum and Mop",
+  "brand": "Roborock",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Robot Vacuums",
+  "subcategory": "robot-vacuums",
+  "asin": "B0GGRSMXKN",
+  "price": 749,
+  "priceDisplay": "$749.99 CAD",
+  "score": 8.7,
+  "tag": "Best Mid-Range Robot Vacuum Mop with Hot-Water Dock",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0GGRSMXKN.01._SCLZZZZZZZ_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0GGRSMXKN/?tag=clearpick06-20",
+  "subscores": {
+    "Suction & Cleaning": 8.5,
+    "Mopping Performance": 8.8,
+    "Navigation & Mapping": 8.7,
+    "Self-Maintenance": 9,
+    "Value for Money": 9.2
+  },
+  "specs": {
+    "Suction Power": "18,500Pa HyperForce",
+    "Mop System": "Dual spinning mops, 200 RPM, 10mm auto-lift",
+    "Main Brush": "All-rubber anti-tangle spiral brush (SGS-certified)",
+    "Navigation": "PreciSense LiDAR (360°)",
+    "Obstacle Avoidance": "Reactive Tech (structured light)",
+    "Dock Functions": "Auto dust empty (65-day bag), hot-water mop wash at 75°C, warm-air dry at 45°C, auto water refill",
+    "Bag Capacity": "2.7L self-empty bag (up to 65 days)",
+    "Fresh Water Tank": "4L",
+    "Dirty Water Tank": "3.5L",
+    "Connectivity": "Wi-Fi 2.4GHz",
+    "Works With": "Alexa, Google Assistant, Siri Shortcuts"
+  },
+  "whatWorks": [
+    "The 75°C hot-water mop wash is the most-cited upgrade over cheaper dock models — owners note grease, pet-oil residue, and kitchen-floor grime clear more effectively than with cold-water competitors. This is the feature that separates the S Pro tier from the QV 35A.",
+    "18,500Pa suction handles hard floors convincingly. Oatmeal, rice, coffee beans, and loose debris come up in reviews as single-pass cleanup without requiring multiple runs.",
+    "The all-rubber anti-tangle brush gets consistent credit in Reddit threads — long hair and pet fur are guided to brush ends rather than wrapping, eliminating the most common maintenance task on older robot vacuums.",
+    "Roborock's app is cited by nearly every reviewer as the most polished in the category — SmartPlan 2.0, per-room settings, and Thorough+ mode are practical differentiators owners actually use daily."
+  ],
+  "worthKnowing": [
+    "Side brush cannot extend past the robot body — a consistent note in detailed reviews — leaving a strip along baseboards and furniture legs that requires manual attention. The Qrevo Curv's FlexiArm extension solves this.",
+    "On higher-pile carpet, suction numbers don't fully translate to pickup depth. Debris residue on medium-to-high pile is a real-world limitation despite the 18,500Pa rating.",
+    "Price can fluctuate on Amazon.ca — verify current pricing before purchase. Confirmed at approximately $749.99 CAD from Roborock CA promotional pricing as of research date."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Corner and edge cleaning comes up…",
+      "body": "Corner and edge cleaning comes up repeatedly as a gap — neither the side brush nor the mop modules extend beyond the robot's footprint, and owners in detailed reviews note that baseboards and furniture edges require follow-up hand-cleaning.",
+      "source": "Reddit r/RobotVacuums"
+    },
+    {
+      "title": "Obstacle detection with Reactive Tech struggles…",
+      "body": "Obstacle detection with Reactive Tech struggles with flat or small obstacles — thin cables were run over in hands-on testing, and owners consistently note that dedicated no-go zones or pre-cleaning is needed to avoid this.",
+      "source": "basic-tutorials.com review"
+    },
+    {
+      "title": "High-pile carpet performance is a recurring…",
+      "body": "High-pile carpet performance is a recurring point of caution — reviewers who tested on taller pile found noticeably more residue than on hard surfaces, and some owners raise it as a reason the Qrevo Curv may be worth the step-up.",
+      "source": "Reddit r/RobotVacuums"
+    }
+  ],
+  "verdict": "Owners who run a hard-floor-heavy home and want a fully automated, hygienically clean dock without flagship pricing consistently land on the Qrevo S Pro as their recommendation. The 75°C mop wash, anti-tangle brush, and polished app are the three features that come up most in real owner write-ups. The step-up to the Qrevo Curv gets recommended when owners have significant carpet, high pet traffic, or want edge-cleaning coverage.",
+  "realBuyers": [
+    {
+      "quote": "The hot water cleaning on the dock is the reason I bought this over the cheaper one. You can actually smell the difference after a kitchen run.",
+      "source": "Reddit r/RobotVacuums"
+    },
+    {
+      "quote": "Navigation is precise — it went into spots I didn't expect and cleaned under furniture it barely fit under. Not once stuck in two months.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "App is genuinely the best I've used. Per-room settings, the Thorough+ mode, SmartPlan — it actually changes how I use it week to week.",
+      "source": "Reddit r/RobotVacuums"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Roborock Qrevo S Pro — Product Page (Canada)",
+      "url": "https://ca.roborock.com/pages/roborock-qrevo-s-pro"
+    },
+    {
+      "title": "basic-tutorials.com: Roborock Qrevo S Pro Review",
+      "url": "https://basic-tutorials.com/reviews/gadget-reviews/roborock-qrevo-s-pro/"
+    },
+    {
+      "title": "Amazon.ca: Roborock Qrevo S Pro",
+      "url": "https://www.amazon.ca/dp/B0GGRSMXKN/"
+    }
+  ],
+  "metaDescription": "Roborock Qrevo S Pro review for Canadian buyers: 18,500Pa suction, 75°C hot-water mop wash, anti-tangle brush, 65-day auto-empty dock. Real owner feedback and Canadian price.",
+  "introText": "The Roborock Qrevo S Pro is a 2025 upper-mid-range robot vacuum with 18,500Pa HyperForce suction and a dock that washes mop pads at 75°C — the feature that separates this tier from cheaper dock models. It sits above the QV 35A in Roborock's lineup, adding hot-water mop cleaning for hard-floor households that want hands-off daily maintenance without flagship pricing.",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0GGRSMXKN",
+  "similarProducts": [
+    "roborock-qrevo-curv",
+    "roborock-qrevo-s",
+    "dreame-l10s-ultra"
+  ]
+}

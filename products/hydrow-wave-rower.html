@@ -1,165 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = p.whatWorks.map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = p.worthKnowing.map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = p.realBuyers.map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = p.commonComplaints.map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = p.similarProducts.map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Hydrow Wave Rowing Machine with 16&quot; HD Touchscreen Review 2026 | ClearPick</title>
+<meta name="description" content="Hydrow Wave Rower review for Canadian buyers: 16&quot; HD touchscreen, electromagnetic resistance, $2,495 CAD on Amazon.ca. Real owner feedback on the subscription model, quiet operation, and how it compares to Concept2." />
+<meta property="og:title" content="Hydrow Wave Rowing Machine with 16&quot; HD Touchscreen Review 2026 | ClearPick" />
+<meta property="og:description" content="Hydrow Wave Rower review for Canadian buyers: 16&quot; HD touchscreen, electromagnetic resistance, $2,495 CAD on Amazon.ca. Real owner feedback on the subscription model, quiet operation, and how it compares to Concept2." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc(p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/hydrow-wave-rower.html" />
+<meta property="og:image" content="https://m.media-amazon.com/images/I/71rFnCqvL3L._AC_SX500_.jpg" />
+<link rel="canonical" href="https://clearpick.ca/products/hydrow-wave-rower.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Hydrow Wave Rowing Machine with 16\" HD Touchscreen",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.5", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "Owners who commit to the Hydrow ecosystem — machine plus membership — consistently describe the Wave as one of the most enjoyable pieces of cardio equipment they've owned, with the outdoor rowing content and near-silent operation frequently cited as making daily workouts sustainable. The honest caveat is that the Wave is not a standalone purchase: at $2,495 CAD plus ~$540/year in membership, it's a meaningful ongoing cost. For Canadian buyers with the budget and space, owner satisfaction is high; for those evaluating it as a one-time purchase, the Concept2 remains the more practical alternative."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.5",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -259,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../sports-fitness.html">Sports &amp; Fitness</a> <span>›</span>
+<span>Hydrow Wave Rowing Machine with 16&quot; HD Touchscreen</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Sports &amp; Fitness</div>
+<h1 class="product-hero__title">Hydrow Wave Rowing Machine with 16&quot; HD Touchscreen</h1>
+<div class="product-hero__tag">Best Connected Compact Rowing Machine</div>
+<p class="product-hero__desc">The Hydrow Wave is the compact entry point into the Hydrow connected rowing ecosystem — a 16&quot; HD touchscreen, 300-level electromagnetic resistance, and access to 4,000+ live and on-demand workouts filmed on real water. At $2,495 CAD on Amazon.ca plus a ~$44–50/month membership, it targets Canadians who want a Peloton-style connected experience on a rower. Owner feedback is consistently positive about the content and build quality, and consistently honest that the subscription is not optional.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -278,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.5 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Build Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Workout Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Technology &amp; App</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Compactness</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:75%"></div>
+</div>
+<span class="clearpick-score-bar__value">7.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Resistance Type</td><td class="spec-table__value">Electromagnetic (300 levels)</td></tr><tr><td class="spec-table__label">Display</td><td class="spec-table__value">16&quot; HD colour touchscreen</td></tr><tr><td class="spec-table__label">Dimensions (in use)</td><td class="spec-table__value">203 cm L x 48 cm W x 109 cm H</td></tr><tr><td class="spec-table__label">Weight</td><td class="spec-table__value">102 lbs (46 kg)</td></tr><tr><td class="spec-table__label">Weight Capacity</td><td class="spec-table__value">375 lbs (170 kg)</td></tr><tr><td class="spec-table__label">Connectivity</td><td class="spec-table__value">Wi-Fi, Bluetooth</td></tr><tr><td class="spec-table__label">Speakers</td><td class="spec-table__value">Front-facing stereo speakers</td></tr><tr><td class="spec-table__label">Membership</td><td class="spec-table__value">Required for full content library (~$44–50 CAD/month)</td></tr><tr><td class="spec-table__label">Warranty</td><td class="spec-table__value">6 years frame, 2 years parts</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -297,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc(p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Hydrow Wave Rowing Machine with 16&quot; HD Touchscreen product photo" class="product-cta-box__img" loading="lazy" src="https://m.media-amazon.com/images/I/71rFnCqvL3L._AC_SX500_.jpg" />
+<div class="product-cta-box__badge">🏆 Best Connected Compact Rowing Machine</div>
+<div class="product-cta-box__name">Hydrow Wave Rowing Machine with 16&quot; HD Touchscreen</div>
+<div class="product-cta-box__price">~$2,495 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B0BHLXDZ2N/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -321,13 +223,18 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>The electromagnetic resistance system is consistently described as near-silent in operation — owners report the only audible sounds during a session are the on-screen workout audio and their own breathing, a meaningful difference from air-resistance rowers.</li>
+<li>The content library — 4,000+ live and on-demand rows filmed on real water with actual athletes — is a recurring differentiator: owners describe it as genuinely motivating in a way pre-recorded generic footage is not, and consistently cite it as the reason they actually use the machine daily.</li>
+<li>Compactness versus the full Hydrow Origin is consistently praised — owners in apartments and smaller home gyms report the 30% smaller footprint makes the Wave the only Hydrow that physically fits their space.</li>
+<li>Build quality impresses owners who are accustomed to budget rowing machines — the frame and seat rail are described as solid and premium-feeling despite the lower weight compared to air rowers.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>Without an active membership (~$44–50 CAD/month), the Wave operates only in 'Just Row' mode with no resistance control via the display — owners and reviewers consistently describe the machine as impractical without the subscription. Budget the full cost.</li>
+<li>The seat rail uses a 2-roller system versus the 10-roller system on the Hydrow Origin — reviewers note the slide is smooth but slightly less refined, which matters for very experienced rowers but not for most users.</li>
+<li>The screen does not swivel, unlike the full Hydrow — owners who want to use the display for off-rower workouts (yoga, strength) note this as a limitation compared to Peloton and the Origin model.</li>
 </ul>
 </div>
 </div>
@@ -336,22 +243,86 @@ ${consHtml}
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"I've had it for eight months and I still look forward to rowing — the outdoor footage makes it feel like I'm actually somewhere, which sounds corny but genuinely makes me use it more."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Be prepared for the subscription — I didn't realize how limited the machine is without it. Once I signed up, it became an entirely different product."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Coming from a Concept2 I notice the feel is different — it's smoother and quieter but it doesn't have that air resistance pull I'm used to. Not worse, just different, and my wife prefers the Wave."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/rowing</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">The subscription model is consistently flagged…</p>
+<p class="real-buyers-say__text">The subscription model is consistently flagged as under-communicated at purchase — several Amazon.ca reviewers and Trustpilot entries describe discovering the mandatory $44–50/month cost only after the machine arrived. The full cost of ownership is the machine plus ongoing membership.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviews</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Owners coming from Concept2 air rowers…</p>
+<p class="real-buyers-say__text">Owners coming from Concept2 air rowers consistently report the electromagnetic resistance feels different — described as 'more uniform' and lacking the natural deceleration curve of air resistance, which competitive and experienced rowers find less satisfying.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/rowing</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">The vertical storage anchor kit is…</p>
+<p class="real-buyers-say__text">The vertical storage anchor kit is sold separately, which surprises owners who assumed uprightable storage was included at this price — a recurring complaint in unboxing and first-month ownership threads.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviews</cite>
+</article>
 </div>
 </div>
 </section>
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">Owners who commit to the Hydrow ecosystem — machine plus membership — consistently describe the Wave as one of the most enjoyable pieces of cardio equipment they've owned, with the outdoor rowing content and near-silent operation frequently cited as making daily workouts sustainable. The honest caveat is that the Wave is not a standalone purchase: at $2,495 CAD plus ~$540/year in membership, it's a meaningful ongoing cost. For Canadian buyers with the budget and space, owner satisfaction is high; for those evaluating it as a one-time purchase, the Concept2 remains the more practical alternative.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="concept2-rowerg.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Concept2 RowErg Model D Indoor Rowing Machine" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/41kmOFvpQoS._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Home Rowing Machine for Serious Training</span>
+<h3 class="product-card__name">Concept2 RowErg Model D Indoor Rowing Machine</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="nordictrack-1750.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="NordicTrack Commercial 1750 Treadmill" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B0D5YKF4SK.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Premium Treadmill</span>
+<h3 class="product-card__name">NordicTrack Commercial 1750 Treadmill</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="schwinn-ic4.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Schwinn IC4 Indoor Cycling Bike" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B07WZXSDKW.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best for Home Cycling</span>
+<h3 class="product-card__name">Schwinn IC4 Indoor Cycling Bike</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -370,7 +341,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

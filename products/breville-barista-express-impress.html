@@ -1,165 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = p.whatWorks.map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = p.worthKnowing.map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = p.realBuyers.map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = p.commonComplaints.map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = p.similarProducts.map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Breville Barista Express Impress Espresso Machine BES876BSS Review 2026 | ClearPick</title>
+<meta name="description" content="Breville Barista Express Impress BES876 review for Canadian buyers: integrated grinder, auto-tamp, $1,149.99 CAD on Amazon.ca. Real owner feedback on who this all-in-one espresso machine is actually for." />
+<meta property="og:title" content="Breville Barista Express Impress Espresso Machine BES876BSS Review 2026 | ClearPick" />
+<meta property="og:description" content="Breville Barista Express Impress BES876 review for Canadian buyers: integrated grinder, auto-tamp, $1,149.99 CAD on Amazon.ca. Real owner feedback on who this all-in-one espresso machine is actually for." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc(p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/breville-barista-express-impress.html" />
+<meta property="og:image" content="https://m.media-amazon.com/images/I/71BYFxMn1dL._AC_SX500_.jpg" />
+<link rel="canonical" href="https://clearpick.ca/products/breville-barista-express-impress.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Breville Barista Express Impress Espresso Machine BES876BSS",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.6", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "Owners consistently describe the Barista Express Impress as the machine that finally made home espresso stick — the auto-tamp removes the most common beginner failure point, and the all-in-one format keeps the workflow clean. The trade-offs (single boiler, 54mm portafilter, grinder ceiling) are real but understood: this machine is a capable daily driver for households where two or three people pull shots, not a prosumer workhorse for those chasing competition-level extraction."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.6",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -259,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../kitchen-dining.html">Kitchen &amp; Dining</a> <span>›</span>
+<span>Breville Barista Express Impress Espresso Machine BES876BSS</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Kitchen &amp; Dining</div>
+<h1 class="product-hero__title">Breville Barista Express Impress Espresso Machine BES876BSS</h1>
+<div class="product-hero__tag">Best All-In-One Espresso Machine for Beginners</div>
+<p class="product-hero__desc">The Breville Barista Express Impress (BES876) adds an auto-tamping Impress Puck System to the original Barista Express formula — bean hopper, integrated burr grinder, espresso machine, all in one unit. At $1,149.99 CAD, it targets households that want café-quality espresso without learning professional tamping technique. Available on Amazon.ca (ASIN B0BBYNPV33).</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -278,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.6 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Espresso Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Grind Consistency</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Ease of Use</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Build Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Boiler Type</td><td class="spec-table__value">Single boiler (thermocoil)</td></tr><tr><td class="spec-table__label">Pump Pressure</td><td class="spec-table__value">15 bar Italian pump, 9 bar extraction</td></tr><tr><td class="spec-table__label">Grinder</td><td class="spec-table__value">Integrated conical burr, 25 grind settings</td></tr><tr><td class="spec-table__label">Portafilter</td><td class="spec-table__value">54mm stainless steel</td></tr><tr><td class="spec-table__label">Dose Weight</td><td class="spec-table__value">Intelligent auto-adjust</td></tr><tr><td class="spec-table__label">Tamp Pressure</td><td class="spec-table__value">10 kg assisted tamp with 7° barista twist</td></tr><tr><td class="spec-table__label">Water Tank</td><td class="spec-table__value">2L</td></tr><tr><td class="spec-table__label">Temperature Control</td><td class="spec-table__value">PID thermocoil, 93°C</td></tr><tr><td class="spec-table__label">Steam Wand</td><td class="spec-table__value">Manual</td></tr><tr><td class="spec-table__label">Warranty</td><td class="spec-table__value">2 years</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -297,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc(p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Breville Barista Express Impress Espresso Machine BES876BSS product photo" class="product-cta-box__img" loading="lazy" src="https://m.media-amazon.com/images/I/71BYFxMn1dL._AC_SX500_.jpg" />
+<div class="product-cta-box__badge">🏆 Best All-In-One Espresso Machine for Beginners</div>
+<div class="product-cta-box__name">Breville Barista Express Impress Espresso Machine BES876BSS</div>
+<div class="product-cta-box__price">~$1,149.99 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B0BBYNPV33/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -321,13 +223,18 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>The Impress Puck System — intelligent dosing, auto-tamp with 7° twist — consistently praised for removing the guesswork that stalls beginners. Multiple family members can pull decent shots without individual calibration.</li>
+<li>Shot consistency across users is a recurring theme in owner reviews: the assisted tamping removes the most common beginner failure point, and the all-in-one workflow from bean to shot is frequently called the machine's defining strength.</li>
+<li>Built-in grinder with 25 settings is considered adequate for most home espresso work — owners who previously needed separate grinders note the integrated workflow keeps the counter clean.</li>
+<li>Steam wand performance surprises owners who expect entry-level frothing — microfoam for latte art is achievable with practice, and multiple reviewers note it outperforms what the price bracket typically delivers.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>The machine uses a single boiler, which means waiting between brewing and steaming — owners report a 20–30 second switching delay that can slow down multi-drink mornings.</li>
+<li>The 54mm portafilter is Breville-proprietary, limiting aftermarket basket and accessory options compared to the 58mm standard used by prosumer machines.</li>
+<li>Owners who pursue higher-quality coffee often hit a ceiling with the built-in grinder and eventually upgrade — this machine is a gateway, not a final destination for serious espresso hobbyists.</li>
 </ul>
 </div>
 </div>
@@ -336,22 +243,86 @@ ${consHtml}
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The assisted tamping was a game-changer for us — my partner was getting inconsistent shots until we got this, and now everyone in the house pulls decent espresso."</p>
+<cite class="real-buyers-say__source">Source: iDrinkCoffee.com reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Coming from a basic pod machine, this felt like a massive step up. The grinder is good enough to dial in most supermarket beans and the shots taste genuinely different."</p>
+<cite class="real-buyers-say__source">Source: Best Buy Canada reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"My only frustration is the wait between pulling a shot and steaming milk — for one drink it's fine, for four drinks in a row on a weekday morning it adds up."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Owners on home-barista.com and r/espresso consistently…</p>
+<p class="real-buyers-say__text">Owners on home-barista.com and r/espresso consistently report the OPV ships set above 9 bar from the factory, requiring manual adjustment for optimal extraction pressure — a tweak that beginners may not know to make.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/espresso</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Grind chute clogging when using oily…</p>
+<p class="real-buyers-say__text">Grind chute clogging when using oily or dark-roasted beans is a recurring topic in ownership threads — owners report needing more frequent cleaning than expected when using French roast or other high-oil beans.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/espresso</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">The single-boiler wait time between espresso…</p>
+<p class="real-buyers-say__text">The single-boiler wait time between espresso and steaming is noted by nearly every multi-shot household owner as friction when making back-to-back drinks — a trade-off for the all-in-one price point.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviews</cite>
+</article>
 </div>
 </div>
 </section>
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">Owners consistently describe the Barista Express Impress as the machine that finally made home espresso stick — the auto-tamp removes the most common beginner failure point, and the all-in-one format keeps the workflow clean. The trade-offs (single boiler, 54mm portafilter, grinder ceiling) are real but understood: this machine is a capable daily driver for households where two or three people pull shots, not a prosumer workhorse for those chasing competition-level extraction.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="breville-barista-pro.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Breville Barista Pro (BES878BSS)" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B07JH9CRBZ.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Mid-Range Espresso Machine</span>
+<h3 class="product-card__name">Breville Barista Pro (BES878BSS)</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="delonghi-la-specialista-maestro.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="De'Longhi La Specialista Maestro EC9665M" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B0DGRTWFKJ.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Premium Home Espresso Machine</span>
+<h3 class="product-card__name">De'Longhi La Specialista Maestro EC9665M</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="gaggia-classic-pro.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Gaggia Classic Pro (RI9380/46)" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B07RQ3NL76.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best for Manual Espresso Technique</span>
+<h3 class="product-card__name">Gaggia Classic Pro (RI9380/46)</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -370,7 +341,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

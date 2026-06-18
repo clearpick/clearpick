@@ -1,165 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = p.whatWorks.map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = p.worthKnowing.map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = p.realBuyers.map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = p.commonComplaints.map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = p.similarProducts.map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>LG 65&quot; G4 OLED evo 4K Smart TV (2024) Review 2026 | ClearPick</title>
+<meta name="description" content="LG G4 OLED 65&quot; review for Canada. MLA OLED, 4K 144Hz gaming, Dolby Vision IQ at $3,499 CAD. Honest look at burn-in risk, brightness limits, and who it's for." />
+<meta property="og:title" content="LG 65&quot; G4 OLED evo 4K Smart TV (2024) Review 2026 | ClearPick" />
+<meta property="og:description" content="LG G4 OLED 65&quot; review for Canada. MLA OLED, 4K 144Hz gaming, Dolby Vision IQ at $3,499 CAD. Honest look at burn-in risk, brightness limits, and who it's for." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc(p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/lg-g4-oled-65-tv.html" />
+<meta property="og:image" content="https://m.media-amazon.com/images/I/81FRbvKe6oL._AC_SX500_.jpg" />
+<link rel="canonical" href="https://clearpick.ca/products/lg-g4-oled-65-tv.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "LG 65\" G4 OLED evo 4K Smart TV (2024)",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "9.3", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "Owner sentiment on the LG G4 is as close to consensus as premium TVs get — picture quality, black levels, and gaming performance earn near-universal praise across forum threads and review aggregators. The most common caveat from experienced owners is the burn-in discussion, which the 5-year warranty partially addresses, and the brightness ceiling compared to mini-LED alternatives in very bright rooms. For dark-room viewing, home theatre use, or gaming where image fidelity matters more than raw brightness, nearly every owner review rates the G4 as the best TV available at its price."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "9.3",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -259,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../home-entertainment.html">Home Entertainment</a> <span>›</span>
+<span>LG 65&quot; G4 OLED evo 4K Smart TV (2024)</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Home Entertainment</div>
+<h1 class="product-hero__title">LG 65&quot; G4 OLED evo 4K Smart TV (2024)</h1>
+<div class="product-hero__tag">Best OLED TV Overall</div>
+<p class="product-hero__desc">The LG G4 is LG's flagship 4K OLED for 2024, stepping above the C4 with a second-generation Micro Lens Array panel that boosts peak brightness to around 1,650 nits in calibrated mode. It combines perfect OLED black levels with a complete gaming spec sheet — four HDMI 2.1 ports at 144Hz — and Dolby Vision IQ for the most accurate streaming HDR available. Available on Amazon.ca (ASIN B0D3WY2FHF).</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -278,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">9.3 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Excellent</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Picture Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:98%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.8</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Gaming Performance</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Sound Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Smart TV Features</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Screen Size</td><td class="spec-table__value">65 inches</td></tr><tr><td class="spec-table__label">Resolution</td><td class="spec-table__value">4K UHD (3840 x 2160)</td></tr><tr><td class="spec-table__label">Panel Type</td><td class="spec-table__value">OLED evo with Micro Lens Array (MLA), WRGB</td></tr><tr><td class="spec-table__label">Peak Brightness</td><td class="spec-table__value">~1,650 nits (calibrated HDR)</td></tr><tr><td class="spec-table__label">Refresh Rate</td><td class="spec-table__value">Native 120Hz (up to 144Hz in VRR mode)</td></tr><tr><td class="spec-table__label">Response Time</td><td class="spec-table__value">0.1ms</td></tr><tr><td class="spec-table__label">HDR Support</td><td class="spec-table__value">Dolby Vision IQ, HDR10, HLG, FILMMAKER MODE</td></tr><tr><td class="spec-table__label">HDMI 2.1 Ports</td><td class="spec-table__value">4 (48Gbps, 4K 144Hz, VRR, eARC on port 2)</td></tr><tr><td class="spec-table__label">Gaming</td><td class="spec-table__value">4K 144Hz VRR, G-Sync Compatible, FreeSync Premium, ALLM, 0.1ms</td></tr><tr><td class="spec-table__label">Smart Platform</td><td class="spec-table__value">webOS 24</td></tr><tr><td class="spec-table__label">Audio</td><td class="spec-table__value">Dolby Atmos, DTS:X, AI Sound Pro</td></tr><tr><td class="spec-table__label">Panel Warranty</td><td class="spec-table__value">5 years (burn-in coverage included)</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -297,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc(p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="LG 65&quot; G4 OLED evo 4K Smart TV (2024) product photo" class="product-cta-box__img" loading="lazy" src="https://m.media-amazon.com/images/I/81FRbvKe6oL._AC_SX500_.jpg" />
+<div class="product-cta-box__badge">🏆 Best OLED TV Overall</div>
+<div class="product-cta-box__name">LG 65&quot; G4 OLED evo 4K Smart TV (2024)</div>
+<div class="product-cta-box__price">~$3,499 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B0D3WY2FHF/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -321,13 +223,18 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>Second-generation Micro Lens Array delivers around 1,650 nits peak brightness in calibrated mode — roughly 15–18% brighter than the G3 — and the improvement is visible in HDR highlights during demanding content like outdoor sports and explosions.</li>
+<li>Perfect black levels remain the defining advantage: nearly every owner review and professional test singles out the G4's contrast as the reason they chose it over any mini-LED competitor — the ink-black letterboxing on widescreen films and dark-scene detail in games like Dead Space are consistently described as revelatory.</li>
+<li>Gaming spec sheet is among the most complete available: 4K at up to 144Hz in VRR, 0.1ms response time, G-Sync Compatible, FreeSync Premium, ALLM, and four full HDMI 2.1 ports — PS5, Xbox Series X, PC, and a fourth input simultaneously with no compromise.</li>
+<li>Colour accuracy out of the box is a recurring topic in positive reviews — the G4's Dolby Vision IQ implementation and webOS calibration tools are widely regarded as the most accurate factory settings in any 4K TV at this price.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>OLED burn-in risk remains an ownership consideration — LG's 5-year warranty includes burn-in coverage on the G4, but owners who display static content (news tickers, PC desktops, sports overlays) for extended periods should use the built-in pixel maintenance tools diligently.</li>
+<li>The G4 is noticeably dimmer than premium mini-LED TVs in very bright rooms — while 1,650 nits is strong for OLED, dedicated bright-room setups facing windows may prefer the Samsung QN90D for daytime HDR punch.</li>
+<li>webOS 24's interface is more cluttered than previous generations — a recurring topic in owner threads who note the recommendation algorithm has become more aggressive in surfacing sponsored content.</li>
 </ul>
 </div>
 </div>
@@ -336,22 +243,86 @@ ${consHtml}
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The black levels changed my understanding of what TV can look like. Games in dark environments look like a completely different format. My LG C2 before this was good. This is better."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/4kTV</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Four HDMI 2.1 with 4K 144Hz is the thing nobody talks about enough. My PS5, Xbox, PC, and soundbar all connected simultaneously. No switching, no compromises."</p>
+<cite class="real-buyers-say__source">Source: AVSForum LG G4 owners thread</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Coming from a Samsung QLED. Colours are more natural on the G4 — less saturated but more accurate. Dolby Vision on Netflix looks like a different stream than what I was watching before."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/Televisions</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Burn-in risk is a consistent topic…</p>
+<p class="real-buyers-say__text">Burn-in risk is a consistent topic in the LG 2024 OLED owners thread on AVSForum — while the G4 includes a 5-year warranty with burn-in coverage, owners of previous G-series models have reported accelerated retention from gaming with static HUDs.</p>
+<cite class="real-buyers-say__source">Source: AVSForum LG 2024 OLED owners thread</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Banding on grey-gradient test patterns is…</p>
+<p class="real-buyers-say__text">Banding on grey-gradient test patterns is a known characteristic of WRGB OLED panels — multiple owners in the G4 thread note visible horizontal banding in near-black and uniform grey scenes, which is inherent to the panel type but unexpected at this price.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/4kTV</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">The webOS smart platform has become…</p>
+<p class="real-buyers-say__text">The webOS smart platform has become slower and more ad-driven with each update — owners in r/4kTV consistently note that the home screen now surfaces LG Channels and sponsored content more aggressively than webOS 22/23.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/4kTV</cite>
+</article>
 </div>
 </div>
 </section>
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">Owner sentiment on the LG G4 is as close to consensus as premium TVs get — picture quality, black levels, and gaming performance earn near-universal praise across forum threads and review aggregators. The most common caveat from experienced owners is the burn-in discussion, which the 5-year warranty partially addresses, and the brightness ceiling compared to mini-LED alternatives in very bright rooms. For dark-room viewing, home theatre use, or gaming where image fidelity matters more than raw brightness, nearly every owner review rates the G4 as the best TV available at its price.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="lg-c5-oled-65-tv.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="LG 65&quot; C5 OLED evo 4K Smart TV" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/91sNJE-bPkL._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best OLED TV for Gaming and Movies</span>
+<h3 class="product-card__name">LG 65&quot; C5 OLED evo 4K Smart TV</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="sony-bravia-9-65-mini-led-tv.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Sony BRAVIA 9 65&quot; Mini LED QLED 4K Smart TV" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/815JlBJENqL._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Mini-LED TV for Dark Room Precision</span>
+<h3 class="product-card__name">Sony BRAVIA 9 65&quot; Mini LED QLED 4K Smart TV</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="samsung-q80d-65-qled-tv.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Samsung 65&quot; Q80D QLED 4K Smart TV" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/71CpBpf1Q+L._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Value 65-Inch QLED TV</span>
+<h3 class="product-card__name">Samsung 65&quot; Q80D QLED 4K Smart TV</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -370,7 +341,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

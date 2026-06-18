@@ -1,0 +1,103 @@
+{
+  "slug": "roborock-qv-35a",
+  "name": "Roborock QV 35A Robot Vacuum and Mop",
+  "brand": "Roborock",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Robot Vacuums",
+  "subcategory": "robot-vacuums",
+  "asin": "B0DQ82FJST",
+  "price": 799,
+  "priceDisplay": "$799.99 CAD",
+  "score": 8.3,
+  "tag": "Best Value All-In-One Robot Vacuum Mop",
+  "image": "https://m.media-amazon.com/images/I/41EeOg-wEcL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0DQ82FJST/?tag=clearpick06-20",
+  "subscores": {
+    "Suction & Cleaning": 7.8,
+    "Mopping Performance": 8,
+    "Navigation & Mapping": 8.5,
+    "Self-Maintenance": 8.8,
+    "Value for Money": 9
+  },
+  "specs": {
+    "Suction Power": "8,000Pa HyperForce",
+    "Mop System": "Dual spinning mops, 200 RPM, 10mm auto-lift",
+    "Main Brush": "All-rubber anti-tangle spiral brush (SGS-certified 0% tangle rate)",
+    "Navigation": "PreciSense LiDAR (360°)",
+    "Obstacle Avoidance": "Reactive Tech (structured light)",
+    "Dock Functions": "Auto dust empty, auto water refill, mop self-wash, cold air dry",
+    "Bag Capacity": "2.7L self-empty bag (~7 weeks)",
+    "Battery": "5,200mAh, ~180 min runtime",
+    "Noise Level": "45 dB (standard mode)",
+    "Connectivity": "Wi-Fi 2.4GHz",
+    "Works With": "Alexa, Google Assistant, Siri Shortcuts"
+  },
+  "whatWorks": [
+    "The all-rubber spiral main brush is SGS-certified for 0% hair tangling — owners with dogs and cats consistently report zero maintenance cutting hair out of the brush, the most common complaint about robot vacuums with traditional brushes.",
+    "45 dB in standard mode is among the quietest at this price tier. Owners working from home and those with noise-sensitive pets note it routinely as a reason they leave it running during the day.",
+    "Full dock automation at a mid-range price point — auto-empty, mop wash, auto-dry, auto-refill — is a recurring reason owners cite for choosing this over cheaper alternatives that require manual dock maintenance.",
+    "180-minute battery covers larger homes in a single pass without the recharge-and-resume interruptions that frustrate owners of shorter-runtime robots."
+  ],
+  "worthKnowing": [
+    "Dock uses cold-air drying rather than heated air — the Qrevo S Pro and Curv add hot-water mop washing. Owners with heavy kitchen grease note the difference when comparing cleaning effectiveness on greasy floors.",
+    "2.4GHz Wi-Fi only — a consistent friction point in Reddit threads for owners using mesh networks that default to 5GHz bands.",
+    "Mop arms are fixed and cannot extend past the robot body, leaving a 1–2cm strip along baseboards and table legs unmopped."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Obstacle detection struggles on dark hardwood…",
+      "body": "Obstacle detection struggles on dark hardwood and black tile — owners in r/RobotVacuums and on Amazon.ca consistently report the structured-light sensor loses contrast on dark surfaces and leaves zones unclean or cuts passes short.",
+      "source": "Reddit r/RobotVacuums"
+    },
+    {
+      "title": "Dock water leaks in early weeks…",
+      "body": "Dock water leaks in early weeks of use come up repeatedly in owner threads — the dirty-water tank has been known to overflow below the dock. Owners recommend placing a tray underneath for the first month.",
+      "source": "Amazon.ca reviews"
+    },
+    {
+      "title": "High-pile carpet cleaning is a recurring…",
+      "body": "High-pile carpet cleaning is a recurring limitation — the 8,000Pa suction and 10mm mop lift are insufficient for deep pile, and owners with thick area rugs report noticeably more residue than on hard floors.",
+      "source": "Reddit r/RobotVacuums"
+    }
+  ],
+  "verdict": "Owners who land in the QV 35A's sweet spot — hard floors, medium-pile carpet, pets, preference for hands-off operation — repeatedly describe it as the best value at this tier. The full-automation dock, anti-tangle brush, and quiet motor come up more often than any complaint. The limitations are specific: dark floors, high-pile carpet, and a desire for hot-water mop cleaning are the three conditions owners consistently name as reasons to step up.",
+  "realBuyers": [
+    {
+      "quote": "We only need to refill water every few days, wipe sensors occasionally, and swap the dustbin bag once a month. It's more like a cactus I forget about that thrives on neglect.",
+      "source": "Reddit r/RobotVacuums"
+    },
+    {
+      "quote": "Three dogs and I haven't touched scissors once — the anti-tangle brush is the real deal. They pick up so much dog hair the bags go weekly.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The mopping is better than expected for an active household with dogs and hard floors. It genuinely removes footprints and dried spills, not just dampens the floor.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Roborock QV 35A — Product Page (Canada)",
+      "url": "https://ca.roborock.com/products/roborock-qv-35a"
+    },
+    {
+      "title": "BestRoboVacuums: Roborock QV 35A Review",
+      "url": "https://www.bestrobovacuums.com/reviews/roborock-qv-35a-review"
+    },
+    {
+      "title": "RedditRecs: Roborock QV 35A — All Reddit Reviews",
+      "url": "https://redditrecs.com/robot-vacuum/model/roborock-qv-35a/"
+    }
+  ],
+  "metaDescription": "Roborock QV 35A review for Canadian buyers: 8,000Pa suction, full auto-wash dock, anti-tangle rubber brush, 45dB quiet operation. Real owner feedback and Canadian price.",
+  "introText": "The Roborock QV 35A is a 2025 mid-range robot vacuum that bundles full dock automation — auto-empty, mop wash, mop dry, and tank refill — with 8,000Pa HyperForce suction and a rubber anti-tangle brush rated 0% hair tangle. It sits below the Qrevo Curv and S Pro in the lineup but offers the same hands-off maintenance experience at a lower price, making it the entry point into Roborock's full-service ecosystem in Canada.",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0DQ82FJST",
+  "similarProducts": [
+    "roborock-qrevo-s-pro",
+    "roborock-qrevo-s",
+    "eufy-x10-pro-omni"
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "slug": "bose-quietcomfort-ultra-headphones",
+  "name": "Bose QuietComfort Ultra Wireless Noise Cancelling Headphones",
+  "brand": "Bose",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Headphones",
+  "subcategory": "headphones",
+  "asin": "B0CCZ1L489",
+  "price": 599,
+  "priceDisplay": "$599 CAD",
+  "score": 8.8,
+  "tag": "Best ANC Headphones for Commuters",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0CCZ1L489.01._SCLZZZZZZZ_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CCZ1L489/?tag=clearpick06-20",
+  "subscores": {
+    "Noise Cancellation": 9.5,
+    "Sound Quality": 8.5,
+    "Comfort": 9,
+    "Battery Life": 6.5,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Driver Size": "35mm angled dynamic drivers",
+    "Battery Life (ANC on)": "24 hours",
+    "Charging": "USB-C",
+    "Codecs": "aptX Adaptive, aptX Lossless, AAC, SBC",
+    "ANC Modes": "Quiet Mode, Aware Mode, Immersion Mode (Immersive Audio/Spatial Audio)",
+    "Weight": "253g",
+    "Colors": "Black, White Smoke, Sandstone",
+    "Foldable": "Yes",
+    "Bluetooth": "5.3",
+    "Microphones": "8 (beamforming array)"
+  },
+  "whatWorks": [
+    "ANC performance is the benchmark of the category — owners in r/headphones and across long-term review coverage consistently rank the QC Ultra's noise cancellation as the most effective available, blocking low-frequency rumble, air conditioning, and open-plan office noise more thoroughly than Sony or Sennheiser competitors.",
+    "Comfort is exceptional for extended sessions — nearly every owner review notes hours-long wear without fatigue, and long-term users flag it as better than Sony XM5 and AirPods Max for multi-hour flights or work-from-home use.",
+    "Immersive Audio (spatial sound mode) works as advertised for movies and spatial content — a recurring positive is the sense of being placed inside the soundstage, particularly on Apple Music and supported streaming platforms.",
+    "Sound quality is clean, balanced, and forgiving — even without EQ, owners consistently call the tuning enjoyable out of the box, with no harsh peaks or missing bass."
+  ],
+  "worthKnowing": [
+    "ANC cannot be fully disabled — it runs at all times in all modes. Owners who prefer to toggle ANC off to preserve battery consistently raise this as a frustration, and it directly shortens battery life compared to rivals that allow ANC off.",
+    "24-hour battery life is the weakest spec in the flagship ANC category. Owners coming from Sennheiser Momentum 4 (60h) or Sony XM5 (30h) regularly note that a transatlantic flight plus layover can exhaust the battery.",
+    "Immersive Audio divides opinion on music — while compelling for spatial content and film, a recurring topic is that it can reduce soundstage intimacy and instrument separation for stereo music. Some owners disable it entirely for daily listening."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Inability to turn ANC off is…",
+      "body": "Inability to turn ANC off is a recurring topic across SoundGuys, TechRadar, and r/headphones owner threads — buyers report feeling locked into ANC processing at all times, which they connect directly to the below-average 24-hour battery ceiling.",
+      "source": "SoundGuys review"
+    },
+    {
+      "title": "Battery life compared unfavourably with rivals…",
+      "body": "Battery life compared unfavourably with rivals is noted in nearly every owner comparison posted to r/headphones — the 24-hour ceiling sits below Sony XM5 (30h) and Sennheiser Momentum 4 (60h). At $599 CAD, owners expected more.",
+      "source": "Reddit r/headphones"
+    },
+    {
+      "title": "Immersive Audio is reported as polarizing…",
+      "body": "Immersive Audio is reported as polarizing on music — a consistent pattern in What Hi-Fi? and Tom's Guide reader impressions is that spatial processing makes stereo recordings sound wider but less coherent, with some owners switching it off permanently.",
+      "source": "What Hi-Fi?"
+    }
+  ],
+  "verdict": "Owners who commute daily or work in loud open offices put the QC Ultra's ANC above everything else they've tried — the consensus in long-term impressions is that it does what it promises at a level competitors haven't matched. The comfort-to-noise-cancellation combination earns consistent praise. What owners qualify is the battery: 24 hours runs out before the most demanding multi-leg travel days, and with no way to disable ANC to stretch it, this is a real ceiling. At $599 CAD, buyers are paying a premium for the best ANC on the market.",
+  "realBuyers": [
+    {
+      "quote": "I've gone through three pairs of headphones since 2019. The ANC on these is so far ahead of everything else I stopped comparing after a week. The battery just means I charge before every long trip.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Wore them for a seven-hour flight without them getting uncomfortable once. Previous headphones I'd be adjusting every hour. These just stayed.",
+      "source": "Reddit r/headphones"
+    },
+    {
+      "quote": "Sound quality out of the box is surprisingly balanced — no EQ needed. I expected the Bose house sound to be bass-heavy, but these are cleaner than I expected.",
+      "source": "SoundGuys review"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bose QuietComfort Ultra Headphones review | TechRadar",
+      "url": "https://www.techradar.com/audio/headphones/wireless-headphones/bose-quietcomfort-ultra-headphones-review"
+    },
+    {
+      "title": "Bose QuietComfort Ultra Headphones review | What Hi-Fi?",
+      "url": "https://www.whathifi.com/reviews/bose-quietcomfort-ultra-headphones-review"
+    },
+    {
+      "title": "Bose QuietComfort Ultra Headphones review | SoundGuys",
+      "url": "https://www.soundguys.com/bose-quietcomfort-ultra-headphones-review-103901/"
+    }
+  ],
+  "metaDescription": "Bose QuietComfort Ultra review for Canadian buyers: best-in-class ANC, Immersive Audio, exceptional comfort — but 24-hour battery and $599 CAD demand scrutiny.",
+  "introText": "The Bose QuietComfort Ultra Headphones are Bose's 2023 flagship ANC headphones, built around best-in-class noise cancellation and a new Immersive Audio spatial mode. They pair 35mm angled drivers with multi-mode ANC and 24-hour battery life at a $599 CAD price point on Amazon.ca (ASIN B0CCZ1L489).",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0CCZ1L489",
+  "verifiedPrice": "$599 CAD",
+  "similarProducts": [
+    "apple-airpods-max-usb-c",
+    "sennheiser-momentum-4",
+    "sony-wh-1000xm6"
+  ]
+}

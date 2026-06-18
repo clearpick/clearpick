@@ -1,165 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = p.whatWorks.map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = p.worthKnowing.map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = p.realBuyers.map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = p.commonComplaints.map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = p.similarProducts.map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones Review 2026 | ClearPick</title>
+<meta name="description" content="Sennheiser Momentum 4 Wireless review for Canadian buyers: 60-hour battery, audiophile sound quality, and aptX Adaptive at a price that undercuts Bose and Sony — but ANC trails the top tier." />
+<meta property="og:title" content="Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones Review 2026 | ClearPick" />
+<meta property="og:description" content="Sennheiser Momentum 4 Wireless review for Canadian buyers: 60-hour battery, audiophile sound quality, and aptX Adaptive at a price that undercuts Bose and Sony — but ANC trails the top tier." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc(p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/sennheiser-momentum-4-wireless.html" />
+<meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/P/B0B6GHW1SX.01._SCLZZZZZZZ_.jpg" />
+<link rel="canonical" href="https://clearpick.ca/products/sennheiser-momentum-4-wireless.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.6", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "Among long-term owners, the Momentum 4 earns consistent praise on sound quality and battery life — two dimensions where the consensus is it beats the Sony and Bose competition at the same or lower price. What owners qualify is the ANC: nearly every comparison thread on r/headphones arrives at the same finding — if you fly weekly and need silence, the Bose QC Ultra is worth the premium. If you work from home, commute by ground, and want the best sound and longest battery, the Momentum 4 is the choice most owners would make again."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.6",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -259,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../home-entertainment.html">Home Entertainment</a> <span>›</span>
+<span>Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Home Entertainment</div>
+<h1 class="product-hero__title">Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones</h1>
+<div class="product-hero__tag">Best Battery Life in ANC Headphones</div>
+<p class="product-hero__desc">The Sennheiser Momentum 4 Wireless are over-ear ANC headphones built around a 42mm driver, 60-hour battery life, and aptX Adaptive codec support. They offer the best battery life in the ANC headphone category with sound quality most owners rank above the competition at this price. Available on Amazon.ca under ASIN B0B6GHW1SX.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -278,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.6 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Noise Cancellation</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:75%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">7.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Sound Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Comfort</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Battery Life</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:100%"></div>
+</div>
+<span class="clearpick-score-bar__value">10.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Driver Size</td><td class="spec-table__value">42mm dynamic</td></tr><tr><td class="spec-table__label">Battery Life (ANC on)</td><td class="spec-table__value">60 hours (real-world tested: ~56 hours)</td></tr><tr><td class="spec-table__label">Fast Charging</td><td class="spec-table__value">10 minutes = 6 hours playback</td></tr><tr><td class="spec-table__label">Charging</td><td class="spec-table__value">USB-C</td></tr><tr><td class="spec-table__label">Codecs</td><td class="spec-table__value">aptX Adaptive, aptX, AAC, SBC</td></tr><tr><td class="spec-table__label">Bluetooth</td><td class="spec-table__value">5.2 (multi-point)</td></tr><tr><td class="spec-table__label">Microphones</td><td class="spec-table__value">4 digital beamforming</td></tr><tr><td class="spec-table__label">Weight</td><td class="spec-table__value">293g</td></tr><tr><td class="spec-table__label">Colors</td><td class="spec-table__value">Black, White, Graphite, Denim</td></tr><tr><td class="spec-table__label">Foldable</td><td class="spec-table__value">Yes</td></tr><tr><td class="spec-table__label">3.5mm Input</td><td class="spec-table__value">Yes (2.5mm to 3.5mm cable included)</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -297,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc(p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones product photo" class="product-cta-box__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B0B6GHW1SX.01._SCLZZZZZZZ_.jpg" />
+<div class="product-cta-box__badge">🏆 Best Battery Life in ANC Headphones</div>
+<div class="product-cta-box__name">Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones</div>
+<div class="product-cta-box__price">~$299 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B0B6GHW1SX/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -321,13 +223,18 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>60-hour battery life is unmatched in the ANC headphone category — nearly every owner review and professional test confirms the Momentum 4 lasts twice as long as the Sony XM5 and more than twice the Bose QC Ultra. Real-world measured battery in standardized testing came in at 56 hours with ANC engaged.</li>
+<li>Sound quality consistently outperforms rivals at the same price tier — SoundGuys and Headphones.com reviews note the 42mm drivers produce a more audiophile-tuned presentation than Sony or Bose competition, with better midrange detail and instrument separation.</li>
+<li>Comfort over extended sessions draws consistent praise — the lightweight 293g build and plush ear pads make all-day wear achievable. A recurring owner theme is wearing these through an entire workday without the pressure points that heavier flagships like AirPods Max (386g) cause.</li>
+<li>aptX Adaptive codec support and Bluetooth 5.2 multi-point make these an easy recommendation for Android users, audiophiles streaming lossless content, and anyone who switches between phone and laptop during the day.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>ANC performance is noticeably behind Bose QC Ultra and Sony XM5 — the consistent finding across RTINGS, SoundGuys, and owner comparisons. The Momentum 4 handles steady-state noise (airplane cabin, A/C) well but struggles with sudden mid-range sounds. If ANC is the primary purchase reason, this is not the top pick.</li>
+<li>Touch controls are reported as overly sensitive in a recurring pattern — accidental swipes that pause music or adjust volume are mentioned enough to plan for, particularly when adjusting fit during wear.</li>
+<li>With the Momentum 5 now available, pricing on the Momentum 4 has become inconsistent. Confirm current Amazon.ca stock and pricing before purchasing.</li>
 </ul>
 </div>
 </div>
@@ -336,22 +243,86 @@ ${consHtml}
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"I charged these on a Monday and still had 40% left by Friday. With three different devices connected. That doesn't happen with any other headphone I've owned."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Sound quality here beats my old XM4s and the Bose 700 I returned. Instruments have actual separation. For music listening these are the best I've owned under $500."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/headphones</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The ANC works fine for my commute on the subway and in the office. It's just not Bose-level. For me that's fine."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/headphones</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">ANC trailing Bose and Sony is…</p>
+<p class="real-buyers-say__text">ANC trailing Bose and Sony is a consistent finding across professional reviews and owner comparisons in r/headphones — RTINGS, SoundGuys, and headphones.com all measured the Momentum 4's noise cancellation as mid-tier for the category, handling low-frequency drone well but letting in more sudden or mid-frequency sounds than the QC Ultra or XM5.</p>
+<cite class="real-buyers-say__source">Source: RTINGS.com</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Touch control sensitivity causing accidental input…</p>
+<p class="real-buyers-say__text">Touch control sensitivity causing accidental input is a recurring owner report — multiple long-term users in r/headphones and Amazon.ca reviews mention pausing playback or changing volume by accident when adjusting the headphones, especially during transit.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/headphones</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Long-term reliability concerns including digital crackling…</p>
+<p class="real-buyers-say__text">Long-term reliability concerns including digital crackling and Bluetooth connectivity drops appear in a portion of extended-ownership reports — not widespread but documented enough in Headphones.com's long-term review to note.</p>
+<cite class="real-buyers-say__source">Source: Headphones.com long-term review</cite>
+</article>
 </div>
 </div>
 </section>
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">Among long-term owners, the Momentum 4 earns consistent praise on sound quality and battery life — two dimensions where the consensus is it beats the Sony and Bose competition at the same or lower price. What owners qualify is the ANC: nearly every comparison thread on r/headphones arrives at the same finding — if you fly weekly and need silence, the Bose QC Ultra is worth the premium. If you work from home, commute by ground, and want the best sound and longest battery, the Momentum 4 is the choice most owners would make again.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="bose-quietcomfort-ultra-headphones.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Bose QuietComfort Ultra Wireless Noise Cancelling Headphones" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B0CCZ1L489.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best ANC Headphones for Commuters</span>
+<h3 class="product-card__name">Bose QuietComfort Ultra Wireless Noise Cancelling Headphones</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="apple-airpods-max-usb-c.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Apple AirPods Max Wireless Over-Ear Headphones with USB-C Charging" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B0DGJC52FP.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Premium ANC Headphones for Apple Users</span>
+<h3 class="product-card__name">Apple AirPods Max Wireless Over-Ear Headphones with USB-C Charging</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="sony-wh-1000xm6.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Sony WH-1000XM6" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/61ddahpESML._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Noise Cancellation</span>
+<h3 class="product-card__name">Sony WH-1000XM6</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -370,7 +341,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

@@ -1,0 +1,99 @@
+{
+  "slug": "sony-bravia-8-oled-65-tv",
+  "name": "Sony Bravia 8 65\" OLED 4K Smart Google TV (2024)",
+  "brand": "Sony",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "TVs",
+  "subcategory": "televisions",
+  "asin": "B0CVQ6YLH7",
+  "price": 2499,
+  "priceDisplay": "$2,499 CAD",
+  "score": 8.8,
+  "tag": "Best OLED TV for Cinematic Picture Quality",
+  "image": "https://m.media-amazon.com/images/I/81r9mEBSPaL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CVQ6YLH7/?tag=clearpick06-20",
+  "subscores": {
+    "Picture Quality": 9.5,
+    "Gaming Performance": 7.5,
+    "Sound Quality": 9,
+    "Smart TV Features": 8,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Screen Size": "65 inches",
+    "Resolution": "4K UHD (3840 x 2160)",
+    "Panel Type": "WOLED (White OLED), XR OLED Contrast Pro",
+    "Peak Brightness": "~900–1,000 nits (HDR)",
+    "Refresh Rate": "120Hz native",
+    "HDR Support": "Dolby Vision, HDR10, HLG, IMAX Enhanced",
+    "HDMI 2.1 Ports": "2 (48Gbps), 2 HDMI 2.0",
+    "Gaming": "4K 120Hz VRR, ALLM, PS5 Auto HDR Tone Mapping, Auto Genre Picture Mode",
+    "Smart Platform": "Google TV",
+    "Audio": "Acoustic Surface Audio+ (screen-as-speaker), Dolby Atmos, DTS:X, IMAX Enhanced",
+    "Special Features": "Cognitive Processor XR, XR Triluminos Pro, XR Clear Image upscaling"
+  },
+  "whatWorks": [
+    "Sony's XR Processor delivers the most accurate motion handling and upscaling in its class — nearly every professional review singles out the Bravia 8's ability to make cable TV, Blu-ray, and streaming content look natural and film-like, rather than over-sharpened.",
+    "Acoustic Surface Audio+ is a genuine differentiator: the vibrating panel delivers sound that appears to come from the action on screen rather than from external speakers — a recurring topic in positive owner reviews, particularly for movie watching without a soundbar.",
+    "Dolby Vision implementation and factory colour calibration are routinely rated among the most accurate available — skin tones, shadow detail, and studio-calibrated modes for Netflix and Prime Video are consistently praised by home theatre owners.",
+    "PlayStation 5 integration is uniquely deep: Auto HDR Tone Mapping and Auto Genre Picture Mode switching are PS5-exclusive features on Sony Bravia TVs that automatically optimize picture settings for each game — console gamers report a noticeably more seamless experience."
+  ],
+  "worthKnowing": [
+    "Only two HDMI 2.1 ports is the most-cited hardware limitation — with one port also shared for eARC, users with a PS5, Xbox Series X, and a gaming PC cannot all run at full 4K 120Hz simultaneously without a switch.",
+    "Input lag at 4K/60Hz is around 12.6ms — higher than LG and Samsung competitors which regularly come in below 10ms. While 4K/120Hz input lag is competitive at ~4.5ms, the 60Hz figure affects PC users and some console titles.",
+    "WOLED peak brightness sits around 900–1,000 nits — noticeably dimmer than the LG G4's MLA panel or any mini-LED competitor. In rooms with direct sunlight, HDR highlights will appear less punchy."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Only two HDMI 2.1 ports is…",
+      "body": "Only two HDMI 2.1 ports is the most consistently raised hardware complaint in professional reviews and owner forums — the Bravia 8 is the only flagship-tier OLED from a major brand that limits full-bandwidth connections to two ports, which is constraining for multi-console households.",
+      "source": "Reddit r/hometheater"
+    },
+    {
+      "title": "Random audio sync loss is reported…",
+      "body": "Random audio sync loss is reported by multiple owners in the AVSForum Bravia 8 thread — audio progressively drifts behind video until a full second out of sync, with the only reliable fix being a TV power cycle. The issue appears intermittent.",
+      "source": "AVSForum Sony Bravia 8 review thread"
+    },
+    {
+      "title": "Google TV interface is considered bloated…",
+      "body": "Google TV interface is considered bloated and advertisement-heavy compared to LG's webOS — owners in r/hometheater consistently note Google TV's recommendation-driven home screen surfaces sponsored content prominently, and the interface feels slower and less TV-native than competitors.",
+      "source": "Reddit r/hometheater"
+    }
+  ],
+  "verdict": "The Bravia 8 occupies a specific position that owner reviews consistently validate: it's the best OLED for film lovers and PS5 owners who prioritize picture accuracy and immersive audio over raw brightness or gaming port count. Sony's XR Processor and Acoustic Surface Audio earn near-universal praise in movie-watching contexts. The hardware limitations — two HDMI 2.1 ports and moderate brightness — are real trade-offs that nearly every honest review surfaces. Buyers who game across multiple platforms or sit in very bright rooms consistently land on the LG G4 or Samsung QN90D instead.",
+  "realBuyers": [
+    {
+      "quote": "Watching films on this TV is what made me understand what the screen-as-speaker thing actually does. Sound comes from the characters' mouths on screen. I can't go back to external speakers for movies now.",
+      "source": "Best Buy Canada reviewer"
+    },
+    {
+      "quote": "PS5 integration is something else. It detects the game, switches the picture mode automatically, and the HDR tone mapping just works. No tweaking. First Sony TV I've owned and I get why people buy them now.",
+      "source": "Reddit r/PS5"
+    },
+    {
+      "quote": "Two HDMI 2.1 ports hurt when you have PS5, Xbox, and a PC. Had to buy an HDMI switch for the PC. Still love the TV but LG gives you four ports. Worth knowing before you buy.",
+      "source": "Reddit r/hometheater"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sony BRAVIA 8 OLED Review | RTINGS.com",
+      "url": "https://www.rtings.com/tv/reviews/sony/bravia-8-oled"
+    },
+    {
+      "title": "Sony BRAVIA 8 (K-65XR80) 4K OLED TV Review | AVForums",
+      "url": "https://www.avforums.com/reviews/sony-bravia-8-65xr80-4k-oled-tv-review.22511/"
+    }
+  ],
+  "metaDescription": "Sony Bravia 8 OLED 65\" review for Canada. XR Processor, Acoustic Surface Audio, Dolby Vision at $2,499 CAD. Honest take on HDMI 2.1 limits, brightness, and who it's for.",
+  "introText": "The Sony Bravia 8 is Sony's OLED offering for 2024, succeeding the A80L with a brighter WOLED panel and the XR Processor's signature motion and upscaling accuracy. It sits below the Bravia 9 (which uses mini-LED) and is Sony's pure OLED option. The XR Processor and Acoustic Surface Audio make it the strongest pick for film lovers; the two-HDMI-2.1-port limit and modest brightness make it less suited to multi-platform gaming or very bright rooms.",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0CVQ6YLH7",
+  "similarProducts": [
+    "lg-g4-oled-65-tv",
+    "samsung-qn90d-neo-qled-65-tv",
+    "sony-bravia-9-65-mini-led-tv"
+  ]
+}

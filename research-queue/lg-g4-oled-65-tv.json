@@ -1,0 +1,100 @@
+{
+  "slug": "lg-g4-oled-65-tv",
+  "name": "LG 65\" G4 OLED evo 4K Smart TV (2024)",
+  "brand": "LG",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "TVs",
+  "subcategory": "televisions",
+  "asin": "B0D3WY2FHF",
+  "price": 3499,
+  "priceDisplay": "$3,499 CAD",
+  "score": 9.3,
+  "tag": "Best OLED TV Overall",
+  "image": "https://m.media-amazon.com/images/I/81FRbvKe6oL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0D3WY2FHF/?tag=clearpick06-20",
+  "subscores": {
+    "Picture Quality": 9.8,
+    "Gaming Performance": 9.5,
+    "Sound Quality": 8,
+    "Smart TV Features": 8.5,
+    "Value for Money": 8
+  },
+  "specs": {
+    "Screen Size": "65 inches",
+    "Resolution": "4K UHD (3840 x 2160)",
+    "Panel Type": "OLED evo with Micro Lens Array (MLA), WRGB",
+    "Peak Brightness": "~1,650 nits (calibrated HDR)",
+    "Refresh Rate": "Native 120Hz (up to 144Hz in VRR mode)",
+    "Response Time": "0.1ms",
+    "HDR Support": "Dolby Vision IQ, HDR10, HLG, FILMMAKER MODE",
+    "HDMI 2.1 Ports": "4 (48Gbps, 4K 144Hz, VRR, eARC on port 2)",
+    "Gaming": "4K 144Hz VRR, G-Sync Compatible, FreeSync Premium, ALLM, 0.1ms",
+    "Smart Platform": "webOS 24",
+    "Audio": "Dolby Atmos, DTS:X, AI Sound Pro",
+    "Panel Warranty": "5 years (burn-in coverage included)"
+  },
+  "whatWorks": [
+    "Second-generation Micro Lens Array delivers around 1,650 nits peak brightness in calibrated mode — roughly 15–18% brighter than the G3 — and the improvement is visible in HDR highlights during demanding content like outdoor sports and explosions.",
+    "Perfect black levels remain the defining advantage: nearly every owner review and professional test singles out the G4's contrast as the reason they chose it over any mini-LED competitor — the ink-black letterboxing on widescreen films and dark-scene detail in games like Dead Space are consistently described as revelatory.",
+    "Gaming spec sheet is among the most complete available: 4K at up to 144Hz in VRR, 0.1ms response time, G-Sync Compatible, FreeSync Premium, ALLM, and four full HDMI 2.1 ports — PS5, Xbox Series X, PC, and a fourth input simultaneously with no compromise.",
+    "Colour accuracy out of the box is a recurring topic in positive reviews — the G4's Dolby Vision IQ implementation and webOS calibration tools are widely regarded as the most accurate factory settings in any 4K TV at this price."
+  ],
+  "worthKnowing": [
+    "OLED burn-in risk remains an ownership consideration — LG's 5-year warranty includes burn-in coverage on the G4, but owners who display static content (news tickers, PC desktops, sports overlays) for extended periods should use the built-in pixel maintenance tools diligently.",
+    "The G4 is noticeably dimmer than premium mini-LED TVs in very bright rooms — while 1,650 nits is strong for OLED, dedicated bright-room setups facing windows may prefer the Samsung QN90D for daytime HDR punch.",
+    "webOS 24's interface is more cluttered than previous generations — a recurring topic in owner threads who note the recommendation algorithm has become more aggressive in surfacing sponsored content."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Burn-in risk is a consistent topic…",
+      "body": "Burn-in risk is a consistent topic in the LG 2024 OLED owners thread on AVSForum — while the G4 includes a 5-year warranty with burn-in coverage, owners of previous G-series models have reported accelerated retention from gaming with static HUDs.",
+      "source": "AVSForum LG 2024 OLED owners thread"
+    },
+    {
+      "title": "Banding on grey-gradient test patterns is…",
+      "body": "Banding on grey-gradient test patterns is a known characteristic of WRGB OLED panels — multiple owners in the G4 thread note visible horizontal banding in near-black and uniform grey scenes, which is inherent to the panel type but unexpected at this price.",
+      "source": "Reddit r/4kTV"
+    },
+    {
+      "title": "The webOS smart platform has become…",
+      "body": "The webOS smart platform has become slower and more ad-driven with each update — owners in r/4kTV consistently note that the home screen now surfaces LG Channels and sponsored content more aggressively than webOS 22/23.",
+      "source": "Reddit r/4kTV"
+    }
+  ],
+  "verdict": "Owner sentiment on the LG G4 is as close to consensus as premium TVs get — picture quality, black levels, and gaming performance earn near-universal praise across forum threads and review aggregators. The most common caveat from experienced owners is the burn-in discussion, which the 5-year warranty partially addresses, and the brightness ceiling compared to mini-LED alternatives in very bright rooms. For dark-room viewing, home theatre use, or gaming where image fidelity matters more than raw brightness, nearly every owner review rates the G4 as the best TV available at its price.",
+  "realBuyers": [
+    {
+      "quote": "The black levels changed my understanding of what TV can look like. Games in dark environments look like a completely different format. My LG C2 before this was good. This is better.",
+      "source": "Reddit r/4kTV"
+    },
+    {
+      "quote": "Four HDMI 2.1 with 4K 144Hz is the thing nobody talks about enough. My PS5, Xbox, PC, and soundbar all connected simultaneously. No switching, no compromises.",
+      "source": "AVSForum LG G4 owners thread"
+    },
+    {
+      "quote": "Coming from a Samsung QLED. Colours are more natural on the G4 — less saturated but more accurate. Dolby Vision on Netflix looks like a different stream than what I was watching before.",
+      "source": "Reddit r/Televisions"
+    }
+  ],
+  "sources": [
+    {
+      "title": "LG G4 OLED Review | RTINGS.com",
+      "url": "https://www.rtings.com/tv/reviews/lg/g4-oled"
+    },
+    {
+      "title": "LG G4 OLED TV Review — OLED Goes Off the Charts in 2024 | Digital Trends",
+      "url": "https://www.digitaltrends.com/home-theater/lg-g4-review-2024/"
+    }
+  ],
+  "metaDescription": "LG G4 OLED 65\" review for Canada. MLA OLED, 4K 144Hz gaming, Dolby Vision IQ at $3,499 CAD. Honest look at burn-in risk, brightness limits, and who it's for.",
+  "introText": "The LG G4 is LG's flagship 4K OLED for 2024, stepping above the C4 with a second-generation Micro Lens Array panel that boosts peak brightness to around 1,650 nits in calibrated mode. It combines perfect OLED black levels with a complete gaming spec sheet — four HDMI 2.1 ports at 144Hz — and Dolby Vision IQ for the most accurate streaming HDR available. Available on Amazon.ca (ASIN B0D3WY2FHF).",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0D3WY2FHF",
+  "similarProducts": [
+    "lg-c5-oled-65-tv",
+    "sony-bravia-9-65-mini-led-tv",
+    "samsung-q80d-65-qled-tv"
+  ]
+}

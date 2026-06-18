@@ -1,0 +1,95 @@
+{
+  "slug": "weber-genesis-e-325s",
+  "name": "Weber Genesis E-325s 3-Burner Propane Gas BBQ in Black",
+  "brand": "Weber",
+  "category": "Outdoor & Garden",
+  "categoryPage": "outdoor-garden.html",
+  "filterTag": "Grills & BBQ",
+  "subcategory": "grills-bbq",
+  "asin": "B09MV26KZV",
+  "price": 1299,
+  "priceDisplay": "$1,299.99 CAD",
+  "score": 8.8,
+  "tag": "Best Premium Gas Grill",
+  "image": "https://m.media-amazon.com/images/I/71kLRFQ7o9L._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09MV26KZV/?tag=clearpick06-20",
+  "subscores": {
+    "Cooking Performance": 9,
+    "Build Quality": 9.5,
+    "Temperature Control": 9,
+    "Ease of Use": 9,
+    "Value for Money": 8
+  },
+  "specs": {
+    "Cooking Area": "513 sq in primary + 274 sq in expandable secondary + 156 sq in warming rack",
+    "Fuel Type": "Liquid propane (LP); natural gas version sold separately",
+    "BTU": "39,000 BTU/hr main (3 × 13,000 BTU PureBlu burners) + 13,000 BTU sear zone = 52,000 BTU total",
+    "Burners": "3 main + 1 dedicated sear zone",
+    "Temperature Range": "~225°F low (single burner low) to 650°F+ (sear zone peak)",
+    "Weight": "162 lb assembled",
+    "Connectivity": "None on E-325s"
+  },
+  "whatWorks": [
+    "The dedicated sear zone burner is consistently praised as the defining upgrade over Spirit-tier grills — nearly every owner review highlights achieving restaurant-quality sear marks on steaks without a separate cast iron pan or grill.",
+    "PureBlu tapered burner design earns recurring praise for even heat distribution edge-to-edge, with owners noting far fewer hot spots than competing mid-premium gas grills.",
+    "Build quality is a near-universal positive — the enclosed cart, cast-aluminum firebox, and porcelain-enameled grates are consistently described as premium and long-lasting across thousands of owner reviews.",
+    "Weber Crafted frame system is praised by owners who buy in for the long term: griddle inserts, pizza stone, and wok accessories drop in without modification and expand cooking versatility."
+  ],
+  "worthKnowing": [
+    "The E-325s does not include a side burner — owners who want one for simmering sauces or boiling need the Genesis E-335, which adds that feature for approximately $200–$300 more.",
+    "Assembly is full-assembly required and takes 2–3 hours solo. At 162 lb assembled the grill is not easily repositioned once built, so patio placement should be decided before setup.",
+    "The E vs S vs EX vs SX variants can cause confusion at purchase: cooking performance is identical across all variants, with S adding stainless aesthetics and EX/SX adding Weber Connect smart features."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Owners in r/grilling and Home Depot…",
+      "body": "Owners in r/grilling and Home Depot Canada reviews consistently report that the porcelain flavorizer bars on current production units show wear faster than expected, with some owners reporting visible deterioration within 2–3 seasons.",
+      "source": "Home Depot Canada reviews"
+    },
+    {
+      "title": "A recurring topic across Reddit r/BBQ…",
+      "body": "A recurring topic across Reddit r/BBQ discussions is the $450 premium over the Weber Spirit E-310 — owners who primarily cook for 2–4 people and grill casually report that the sear zone sees infrequent use and the premium feels hard to justify in hindsight.",
+      "source": "Reddit r/BBQ"
+    },
+    {
+      "title": "Several owner reviews at Home Depot…",
+      "body": "Several owner reviews at Home Depot Canada and Amazon.ca raise assembly difficulty and shipping damage — reports of slightly bent frames, damaged lids on arrival, and grill doors that do not align correctly are documented consistently enough to flag.",
+      "source": "Amazon.ca reviews"
+    }
+  ],
+  "verdict": "Owners who cook frequently for five or more people and grill steaks regularly come back to describe the E-325s as the best gas grill they have owned — the sear zone and PureBlu burners deliver results that match the price. The recurring note from owners who feel they over-bought is that they grill for two people twice a week and rarely fire the sear zone. Match the grill to actual cooking frequency: frequent weekend entertainers consistently rate it 5 stars; occasional grillers for small households less so.",
+  "realBuyers": [
+    {
+      "quote": "The sear zone changed how I cook steaks. I do a reverse sear every weekend now — smoke on the pellet grill, finish on the sear zone, perfect every time. Worth every dollar.",
+      "source": "Home Depot Canada reviewer"
+    },
+    {
+      "quote": "Build quality is seriously impressive. I had a Genesis II for 12 years and this feels even more solid. The PureBlu burners heat edge to edge — no cold spots at all.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Wish I'd gone for the E-335 for the side burner. The 325s cooks brilliantly but I find myself running inside to the stove for sauces every time.",
+      "source": "Reddit r/grilling"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Weber Genesis E-325s Review | Quality Grill Parts",
+      "url": "https://qualitygrillparts.com/weber-genesis-325s/"
+    },
+    {
+      "title": "Weber Genesis E-325s — Home Depot Canada",
+      "url": "https://www.homedepot.ca/product/weber-genesis-e-325s-3-burner-propane-gas-bbq-in-black/1001776377"
+    }
+  ],
+  "metaDescription": "Weber Genesis E-325s review for Canadian buyers: 3-burner propane gas grill with dedicated sear zone, 52,000 BTU total. What owners actually say about Canada's most-reviewed mid-premium gas grill.",
+  "introText": "The Weber Genesis E-325s sits at the sweet spot in Weber's Canadian lineup — above the Spirit in build quality, cooking area, and sear capability, but below the Summit in price. Its defining feature is a dedicated fourth sear zone burner that hits 650°F+, enabling direct high-heat searing on a grill that also handles low-and-slow indirect cooking down to 225°F. Available on Amazon.ca (ASIN B09MV26KZV).",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B09MV26KZV",
+  "similarProducts": [
+    "traeger-woodridge",
+    "camp-chef-woodwind-pro-24",
+    "weber-spirit-ii-e310-gas-grill"
+  ]
+}

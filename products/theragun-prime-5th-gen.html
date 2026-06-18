@@ -1,165 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = p.whatWorks.map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = p.worthKnowing.map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = p.realBuyers.map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = p.commonComplaints.map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = p.similarProducts.map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun Review 2026 | ClearPick</title>
+<meta name="description" content="Theragun Prime 5th Gen review for Canadian buyers: triangular multi-grip, 30 lb stall force, Therabody app, $399.99 CAD on Amazon.ca. Real owner feedback on value vs. budget alternatives." />
+<meta property="og:title" content="Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun Review 2026 | ClearPick" />
+<meta property="og:description" content="Theragun Prime 5th Gen review for Canadian buyers: triangular multi-grip, 30 lb stall force, Therabody app, $399.99 CAD on Amazon.ca. Real owner feedback on value vs. budget alternatives." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc(p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/theragun-prime-5th-gen.html" />
+<meta property="og:image" content="https://m.media-amazon.com/images/I/61WqTMRAVHL._AC_SX500_.jpg" />
+<link rel="canonical" href="https://clearpick.ca/products/theragun-prime-5th-gen.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.4", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "Owners who use the Theragun Prime 4–7 times per week consistently call it a justified purchase — the ergonomics, foam attachments, and app integration make it genuinely more usable than budget alternatives for regular recovery work. The price is the honest friction: Canadian buyers who catch it at the $279–$320 sale price report strong satisfaction; those who pay full retail are more likely to question the value. For serious recreational athletes who actually use it daily, the 5th gen delivers."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.4",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -259,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../sports-fitness.html">Sports &amp; Fitness</a> <span>›</span>
+<span>Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Sports &amp; Fitness</div>
+<h1 class="product-hero__title">Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun</h1>
+<div class="product-hero__tag">Best Percussion Massage Gun for Serious Athletes</div>
+<p class="product-hero__desc">The Theragun Prime (5th Generation) is Therabody's mid-tier percussion massager — five speeds, four foam attachments, a distinctive triangular multi-grip handle, and Bluetooth app integration. Available on Amazon.ca (ASIN B0C42NZ9FR), it regularly goes on sale between $279–$320 CAD. Owner satisfaction splits neatly on usage frequency: daily users call it the right tool, occasional users question the premium over budget alternatives.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -278,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.4 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Massage Effectiveness</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Battery Life</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Noise Level</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:75%"></div>
+</div>
+<span class="clearpick-score-bar__value">7.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Attachments</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:75%"></div>
+</div>
+<span class="clearpick-score-bar__value">7.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Generation</td><td class="spec-table__value">5th Generation</td></tr><tr><td class="spec-table__label">Speed Settings</td><td class="spec-table__value">5 (1750–2400 PPM)</td></tr><tr><td class="spec-table__label">Amplitude</td><td class="spec-table__value">16mm</td></tr><tr><td class="spec-table__label">Stall Force</td><td class="spec-table__value">30 lbs</td></tr><tr><td class="spec-table__label">Battery Life</td><td class="spec-table__value">Up to 120 minutes per charge</td></tr><tr><td class="spec-table__label">Charge Time</td><td class="spec-table__value">~90 minutes (proprietary 15V charger)</td></tr><tr><td class="spec-table__label">Attachments</td><td class="spec-table__value">4 (Standard Ball, Dampener, Thumb, Micro-Point — foam construction)</td></tr><tr><td class="spec-table__label">Connectivity</td><td class="spec-table__value">Bluetooth, Therabody app</td></tr><tr><td class="spec-table__label">Handle</td><td class="spec-table__value">Ergonomic triangular multi-grip</td></tr><tr><td class="spec-table__label">Weight</td><td class="spec-table__value">2.2 lbs (1 kg)</td></tr><tr><td class="spec-table__label">Warranty</td><td class="spec-table__value">1 year</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -297,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc(p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun product photo" class="product-cta-box__img" loading="lazy" src="https://m.media-amazon.com/images/I/61WqTMRAVHL._AC_SX500_.jpg" />
+<div class="product-cta-box__badge">🏆 Best Percussion Massage Gun for Serious Athletes</div>
+<div class="product-cta-box__name">Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun</div>
+<div class="product-cta-box__price">~$399.99 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B0C42NZ9FR/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -321,13 +223,18 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>The triangular ergonomic handle is consistently praised for making hard-to-reach areas — mid-back, hamstrings — accessible without a second person, with three distinct grip positions that owners describe as more practical than standard straight-handle competitors.</li>
+<li>Foam attachment construction is a recurring positive: owners report the softer materials work on sensitive areas near bones (neck, shins, wrists) where hard-plastic attachments on budget guns are uncomfortable.</li>
+<li>The Therabody app's guided routines are frequently mentioned as the feature that makes the gun genuinely useful rather than a novelty — activity-specific and injury-specific routines help owners actually use it correctly and consistently.</li>
+<li>Battery life of up to 2 hours is consistently described as sufficient for a week of daily sessions between charges.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>At $399.99 CAD, the Theragun Prime is significantly more expensive than capable massage guns in the $100–$200 CAD range — owners who buy it for occasional use frequently note the value case is weak at that frequency. It justifies itself for regular use (4–7x/week).</li>
+<li>The proprietary 15V charger is not USB-C — a consistent minor complaint from owners who travel or want a universal charging solution. A replacement charger costs $30–$40 if lost.</li>
+<li>The gun regularly goes on sale in the $279–$320 CAD range on Amazon.ca — Canadian buyers in review threads consistently recommend waiting for a deal before paying full retail.</li>
 </ul>
 </div>
 </div>
@@ -336,22 +243,86 @@ ${consHtml}
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"I've had cheaper massage guns and the difference is real — the ergonomic handle lets me hit my own mid-back without contorting, which is the whole reason I bought it."</p>
+<cite class="real-buyers-say__source">Source: BarBend.com review</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The app actually surprised me — I thought I'd never use it, but the routines for post-leg-day and lower back pain have become part of my weekly routine."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Got it for $279 during an Amazon sale and at that price it's an easy recommendation. At full price I'd probably look at a few competitors first."</p>
+<cite class="real-buyers-say__source">Source: RedFlagDeals.com forum</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Owners who use the Theragun Prime…</p>
+<p class="real-buyers-say__text">Owners who use the Theragun Prime infrequently — once a week or less — consistently report in review threads that the value case doesn't hold at the price compared to $100–$150 alternatives that perform comparably for light use.</p>
+<cite class="real-buyers-say__source">Source: BarBend review</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">The proprietary charger (non-USB-C) is a…</p>
+<p class="real-buyers-say__text">The proprietary charger (non-USB-C) is a recurring complaint among owners who travel — losing or forgetting it requires a $30–$40 replacement, and it cannot be substituted with standard cables.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviews</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Owners on RedFlagDeals.ca consistently note the…</p>
+<p class="real-buyers-say__text">Owners on RedFlagDeals.ca consistently note the regular retail price feels difficult to justify versus the $279 sale price — waiting for a deal is the common recommendation in Canadian buying advice threads.</p>
+<cite class="real-buyers-say__source">Source: RedFlagDeals.com forums</cite>
+</article>
 </div>
 </div>
 </section>
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">Owners who use the Theragun Prime 4–7 times per week consistently call it a justified purchase — the ergonomics, foam attachments, and app integration make it genuinely more usable than budget alternatives for regular recovery work. The price is the honest friction: Canadian buyers who catch it at the $279–$320 sale price report strong satisfaction; those who pay full retail are more likely to question the value. For serious recreational athletes who actually use it daily, the 5th gen delivers.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="theragun-mini.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Theragun Mini" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/51z+s7toytL._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Portable Recovery Tool</span>
+<h3 class="product-card__name">Theragun Mini</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="triggerpoint-grid-foam-roller.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="TriggerPoint GRID Foam Roller (13-Inch)" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/71WUESEiowL._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Foam Roller for Daily Recovery</span>
+<h3 class="product-card__name">TriggerPoint GRID Foam Roller (13-Inch)</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="hydrow-wave-rower.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Hydrow Wave Rowing Machine with 16&quot; HD Touchscreen" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/71rFnCqvL3L._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Connected Compact Rowing Machine</span>
+<h3 class="product-card__name">Hydrow Wave Rowing Machine with 16&quot; HD Touchscreen</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -370,7 +341,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

@@ -1,0 +1,98 @@
+{
+  "slug": "samsung-qn90d-neo-qled-65-tv",
+  "name": "Samsung 65\" QN90D NEO QLED 4K Smart TV (2024)",
+  "brand": "Samsung",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "TVs",
+  "subcategory": "televisions",
+  "asin": "B0CW27DXJX",
+  "price": 1498,
+  "priceDisplay": "$1,498 CAD",
+  "score": 8.6,
+  "tag": "Best Bright-Room TV for Sports & Gaming",
+  "image": "https://m.media-amazon.com/images/I/71xcUpNGkGL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CW27DXJX/?tag=clearpick06-20",
+  "subscores": {
+    "Picture Quality": 9,
+    "Gaming Performance": 9,
+    "Sound Quality": 7.5,
+    "Smart TV Features": 8,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Screen Size": "65 inches",
+    "Resolution": "4K UHD (3840 x 2160)",
+    "Panel Type": "Neo QLED (Mini-LED backlit VA)",
+    "Peak Brightness": "~2,000 nits (HDR)",
+    "Refresh Rate": "Native 120Hz, Motion Xcelerator 144Hz",
+    "HDR Support": "HDR10, HDR10+, HLG, Dolby Atmos (no Dolby Vision)",
+    "HDMI 2.1 Ports": "4 (4K 144Hz capable)",
+    "Gaming": "4K 144Hz, VRR, AMD FreeSync Premium Pro, G-Sync Compatible, Gaming Hub",
+    "Smart Platform": "Tizen OS",
+    "Audio": "60W, 4.2.2-channel, Q-Symphony, Dolby Atmos, Object Tracking Sound+"
+  },
+  "whatWorks": [
+    "Peak brightness around 2,000 nits makes this one of the brightest TVs in its class — HDR highlights in movies and live sports genuinely pop in rooms with windows, and the Anti-Glare coating handles direct sunlight better than most competitors at this price.",
+    "Gaming performance is nearly flawless: 4K at 144Hz, AMD FreeSync Premium Pro, auto low-latency mode, and input lag under 10ms at 120Hz — nearly every gaming review singles this out as one of the best gaming TVs of 2024 at any price.",
+    "Local dimming via Quantum Mini LEDs is substantially refined over the Q80D — fine brightness control per zone produces noticeably tighter halos and richer contrast in mixed dark-and-bright scenes like night cityscapes.",
+    "Color accuracy is a consistent highlight: the Quantum Dot layer maintains 100% colour volume, and colour grading on premium streaming content holds up accurately in both Cinema and Filmmaker picture modes."
+  ],
+  "worthKnowing": [
+    "No Dolby Vision support is a meaningful gap — Samsung continues to exclude Dolby Vision across its entire lineup, so Netflix, Disney+, and Apple TV+ streams play in HDR10+ rather than the premium Dolby Vision tier that LG and Sony support.",
+    "Tizen OS serves promoted content on the home screen between app icons — a recurring topic in owner threads who find it difficult to fully suppress on a TV at this price point.",
+    "The 60W built-in speaker system sounds thin in large rooms at higher volumes — a soundbar is a practical necessity for serious movie watching."
+  ],
+  "commonComplaints": [
+    {
+      "title": "The absence of Dolby Vision is…",
+      "body": "The absence of Dolby Vision is the most frustrating spec gap owners in r/4kTV consistently raise — with Netflix, Disney+, and Apple TV+ all prioritizing Dolby Vision delivery, Samsung's holdout position noticeably affects daily streaming quality.",
+      "source": "Reddit r/4kTV"
+    },
+    {
+      "title": "Dirty screen effect and banding on…",
+      "body": "Dirty screen effect and banding on grey-field test patterns is a recurring topic in the QN90D owners thread — some units show visible horizontal or vertical banding in low-contrast scenes like sports broadcasts with large uniform backgrounds.",
+      "source": "AVSForum QN90D owners thread"
+    },
+    {
+      "title": "Tizen OS home-screen ads are a…",
+      "body": "Tizen OS home-screen ads are a nearly universal complaint among Samsung TV owners — promotional content appears between app icons even at this price point, and multiple firmware updates have reportedly re-enabled sponsored content after users disable it.",
+      "source": "Reddit r/Televisions"
+    }
+  ],
+  "verdict": "Owner consensus on the QN90D places it as the best-value premium mini-LED TV Samsung has released — praise concentrates on exceptional brightness, complete gaming spec sheet, and the meaningful step up in local dimming quality over the Q80D. The complaints are the same ones Samsung buyers face across the lineup: no Dolby Vision, Tizen ads, and occasional panel uniformity issues on some units. For a bright living room paired with a PS5 or gaming PC, nearly every owner review rates the QN90D as worth it at this price.",
+  "realBuyers": [
+    {
+      "quote": "Had a Sony A80K before this. The brightness difference is insane — HDR content on the QN90D in my sun-facing living room actually looks like HDR. The Sony looked washed out by comparison.",
+      "source": "Reddit r/Televisions"
+    },
+    {
+      "quote": "Gaming at 4K 120Hz on PS5 is flawless. Zero noticeable input lag, colours are accurate, and it never tore once in 40 hours of play. Best gaming screen I've owned.",
+      "source": "AVSForum QN90D owners thread"
+    },
+    {
+      "quote": "No Dolby Vision is a real thing you'll notice. About 60% of what I watch on Netflix is DV. It's fine in HDR10+ but you do feel like you're leaving something on the table.",
+      "source": "Reddit r/4kTV"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Samsung QN90D Review | TechRadar",
+      "url": "https://www.techradar.com/televisions/samsung-qn90d-review"
+    },
+    {
+      "title": "2024 Samsung QN90D/QN95D QLED Owners Thread | AVSForum",
+      "url": "https://www.avsforum.com/threads/2024-samsung-4k-qn90d-qn95d-qled-owners-thread-no-price-talk.3305095/"
+    }
+  ],
+  "metaDescription": "Samsung QN90D NEO QLED 65\" review for Canada. Mini-LED, 144Hz gaming, $1,498 CAD. Honest take on no Dolby Vision, Tizen ads, and who it's best suited for.",
+  "introText": "The Samsung QN90D is the 2024 step above the Q80D — a mini-LED TV with a significantly upgraded local dimming system, 144Hz gaming, and peak brightness around 2,000 nits. It's built for bright living rooms and gamers who want a complete HDMI 2.1 setup. The two standing trade-offs are Samsung's ongoing exclusion of Dolby Vision and Tizen OS's home-screen advertising.",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0CW27DXJX",
+  "similarProducts": [
+    "lg-g4-oled-65-tv",
+    "samsung-q80d-65-qled-tv",
+    "hisense-u88qg-65-mini-led-tv"
+  ]
+}

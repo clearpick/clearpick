@@ -5621,5 +5621,530 @@
       "Audio": "2.2-channel, 60W, Acoustic Multi-Audio, Dolby Atmos",
       "Processor": "XR Cognitive Processor"
     }
+  },
+  {
+    "id": "apple-airpods-max-usb-c",
+    "name": "Apple AirPods Max Wireless Over-Ear Headphones with USB-C Charging",
+    "category": "Home Entertainment",
+    "score": 8,
+    "tag": "Best Premium ANC Headphones for Apple Users",
+    "icon": "📺",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0DGJC52FP.01._SCLZZZZZZZ_.jpg",
+    "price": "~$599 CAD",
+    "page": "products/apple-airpods-max-usb-c.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DGJC52FP/?tag=clearpick06-20",
+    "subscores": {
+      "Noise Cancellation": 8.5,
+      "Sound Quality": 9,
+      "Comfort": 7,
+      "Battery Life": 7.5,
+      "Value for Money": 6.5
+    },
+    "specs": {
+      "Chip": "Apple H1 (one per ear cup)",
+      "Driver": "Apple-designed 40mm dynamic driver",
+      "ANC": "Active Noise Cancellation with 8 microphones",
+      "Transparency Mode": "Yes",
+      "Personalized Spatial Audio": "Yes (with dynamic head tracking)",
+      "Battery Life (ANC on)": "20 hours",
+      "Fast Charging": "5 minutes = 1.5 hours playback",
+      "Charging": "USB-C",
+      "Bluetooth": "5.0",
+      "Microphones": "9 total (8 ANC + 3 voice pickup)",
+      "Weight": "386.2g",
+      "Colors": "Midnight, Starlight, Blue, Purple, Orange",
+      "Water Resistance": "None"
+    }
+  },
+  {
+    "id": "bose-quietcomfort-ultra-headphones",
+    "name": "Bose QuietComfort Ultra Wireless Noise Cancelling Headphones",
+    "category": "Home Entertainment",
+    "score": 8.8,
+    "tag": "Best ANC Headphones for Commuters",
+    "icon": "📺",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0CCZ1L489.01._SCLZZZZZZZ_.jpg",
+    "price": "~$599 CAD",
+    "page": "products/bose-quietcomfort-ultra-headphones.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CCZ1L489/?tag=clearpick06-20",
+    "subscores": {
+      "Noise Cancellation": 9.5,
+      "Sound Quality": 8.5,
+      "Comfort": 9,
+      "Battery Life": 6.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Driver Size": "35mm angled dynamic drivers",
+      "Battery Life (ANC on)": "24 hours",
+      "Charging": "USB-C",
+      "Codecs": "aptX Adaptive, aptX Lossless, AAC, SBC",
+      "ANC Modes": "Quiet Mode, Aware Mode, Immersion Mode (Immersive Audio/Spatial Audio)",
+      "Weight": "253g",
+      "Colors": "Black, White Smoke, Sandstone",
+      "Foldable": "Yes",
+      "Bluetooth": "5.3",
+      "Microphones": "8 (beamforming array)"
+    }
+  },
+  {
+    "id": "breville-barista-express-impress",
+    "name": "Breville Barista Express Impress Espresso Machine BES876BSS",
+    "category": "Kitchen & Dining",
+    "score": 8.6,
+    "tag": "Best All-In-One Espresso Machine for Beginners",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/71BYFxMn1dL._AC_SX500_.jpg",
+    "price": "~$1149 CAD",
+    "page": "products/breville-barista-express-impress.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BBYNPV33/?tag=clearpick06-20",
+    "subscores": {
+      "Espresso Quality": 8.5,
+      "Grind Consistency": 8,
+      "Ease of Use": 9,
+      "Build Quality": 8.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Boiler Type": "Single boiler (thermocoil)",
+      "Pump Pressure": "15 bar Italian pump, 9 bar extraction",
+      "Grinder": "Integrated conical burr, 25 grind settings",
+      "Portafilter": "54mm stainless steel",
+      "Dose Weight": "Intelligent auto-adjust",
+      "Tamp Pressure": "10 kg assisted tamp with 7° barista twist",
+      "Water Tank": "2L",
+      "Temperature Control": "PID thermocoil, 93°C",
+      "Steam Wand": "Manual",
+      "Warranty": "2 years"
+    }
+  },
+  {
+    "id": "camp-chef-woodwind-pro-24",
+    "name": "Camp Chef Woodwind Pro 24 WiFi Pellet Grill with Sidekick",
+    "category": "Outdoor & Garden",
+    "score": 8.6,
+    "tag": "Best Pellet Grill with Sidekick & Smoke Box",
+    "icon": "🌳",
+    "image": "https://m.media-amazon.com/images/I/81g7LFMHKOL._AC_SX500_.jpg",
+    "price": "~$1799 CAD",
+    "page": "products/camp-chef-woodwind-pro-24.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BL1WT3MK/?tag=clearpick06-20",
+    "subscores": {
+      "Cooking Performance": 9,
+      "Build Quality": 8.5,
+      "Temperature Control": 9,
+      "Ease of Use": 8,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Cooking Area": "811 sq in total (429 sq in lower rack + 382 sq in upper rack)",
+      "Fuel Type": "Wood pellets (main grill) + propane (Sidekick)",
+      "Temperature Range": "160°F – 500°F (pellet grill); Sidekick propane reaches 700°F+",
+      "Hopper Capacity": "22 lb",
+      "Connectivity": "WiFi, Camp Chef Connect app (4 temperature probe ports)",
+      "Probes": "4 probe ports; 1 meat probe included",
+      "Sidekick": "Propane Sidekick with 14 in griddle plate included; swappable with Sear Box",
+      "Smoke Box": "Built-in — burns wood chunks, chips, or charcoal alongside pellets"
+    }
+  },
+  {
+    "id": "hydrow-wave-rower",
+    "name": "Hydrow Wave Rowing Machine with 16\" HD Touchscreen",
+    "category": "Sports & Fitness",
+    "score": 8.5,
+    "tag": "Best Connected Compact Rowing Machine",
+    "icon": "🏃",
+    "image": "https://m.media-amazon.com/images/I/71rFnCqvL3L._AC_SX500_.jpg",
+    "price": "~$2495 CAD",
+    "page": "products/hydrow-wave-rower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BHLXDZ2N/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 8.5,
+      "Workout Quality": 9,
+      "Technology & App": 9,
+      "Compactness": 8.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Resistance Type": "Electromagnetic (300 levels)",
+      "Display": "16\" HD colour touchscreen",
+      "Dimensions (in use)": "203 cm L x 48 cm W x 109 cm H",
+      "Weight": "102 lbs (46 kg)",
+      "Weight Capacity": "375 lbs (170 kg)",
+      "Connectivity": "Wi-Fi, Bluetooth",
+      "Speakers": "Front-facing stereo speakers",
+      "Membership": "Required for full content library (~$44–50 CAD/month)",
+      "Warranty": "6 years frame, 2 years parts"
+    }
+  },
+  {
+    "id": "lg-g4-oled-65-tv",
+    "name": "LG 65\" G4 OLED evo 4K Smart TV (2024)",
+    "category": "Home Entertainment",
+    "score": 9.3,
+    "tag": "Best OLED TV Overall",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/81FRbvKe6oL._AC_SX500_.jpg",
+    "price": "~$3499 CAD",
+    "page": "products/lg-g4-oled-65-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0D3WY2FHF/?tag=clearpick06-20",
+    "subscores": {
+      "Picture Quality": 9.8,
+      "Gaming Performance": 9.5,
+      "Sound Quality": 8,
+      "Smart TV Features": 8.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Screen Size": "65 inches",
+      "Resolution": "4K UHD (3840 x 2160)",
+      "Panel Type": "OLED evo with Micro Lens Array (MLA), WRGB",
+      "Peak Brightness": "~1,650 nits (calibrated HDR)",
+      "Refresh Rate": "Native 120Hz (up to 144Hz in VRR mode)",
+      "Response Time": "0.1ms",
+      "HDR Support": "Dolby Vision IQ, HDR10, HLG, FILMMAKER MODE",
+      "HDMI 2.1 Ports": "4 (48Gbps, 4K 144Hz, VRR, eARC on port 2)",
+      "Gaming": "4K 144Hz VRR, G-Sync Compatible, FreeSync Premium, ALLM, 0.1ms",
+      "Smart Platform": "webOS 24",
+      "Audio": "Dolby Atmos, DTS:X, AI Sound Pro",
+      "Panel Warranty": "5 years (burn-in coverage included)"
+    }
+  },
+  {
+    "id": "ninja-creami-deluxe",
+    "name": "Ninja CREAMi Deluxe 11-in-1 Ice Cream and Frozen Treat Maker NC501C",
+    "category": "Kitchen & Dining",
+    "score": 8.3,
+    "tag": "Best Ingredient-Control Ice Cream Maker",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/71v9nWPEpjL._AC_SX500_.jpg",
+    "price": "~$329 CAD",
+    "page": "products/ninja-creami-deluxe.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CHBNXJ24/?tag=clearpick06-20",
+    "subscores": {
+      "Ice Cream Quality": 9,
+      "Ease of Use": 8,
+      "Noise Level": 5.5,
+      "Versatility": 9,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Model": "NC501C (Canadian Version)",
+      "Programs": "11 one-touch: Ice Cream, Sorbet, Gelato, Italian Ice, Frozen Yogurt, Milkshake, Lite Ice Cream, Slushi, Creamiccino, Mix-In, Re-Spin",
+      "Container Capacity": "2 x 24 oz (710 mL) XL tubs — 50% larger than original CREAMi",
+      "Freeze Time Required": "24 hours minimum before processing",
+      "Dimensions": "47.7 cm L x 25.5 cm W x 50.5 cm H",
+      "Weight": "7.1 kg",
+      "Warranty": "1 year"
+    }
+  },
+  {
+    "id": "roborock-qrevo-curv",
+    "name": "Roborock Qrevo Curv Robot Vacuum and Mop",
+    "category": "Smart Home",
+    "score": 9,
+    "tag": "Best Premium Robot Vacuum Mop",
+    "icon": "🏠",
+    "image": "https://m.media-amazon.com/images/I/31fGKCPEyIL._AC_SX500_.jpg",
+    "price": "~$849 CAD",
+    "page": "products/roborock-qrevo-curv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0D81675BQ/?tag=clearpick06-20",
+    "subscores": {
+      "Suction & Cleaning": 9,
+      "Mopping Performance": 9.4,
+      "Navigation & Mapping": 8.8,
+      "Self-Maintenance": 9.2,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Suction Power": "18,500Pa HyperForce",
+      "Mop System": "DuoDivide dual parallel short-bristle rollers (Curv-exclusive), 200 RPM, 10mm auto-lift",
+      "Main Brush": "All-rubber anti-tangle spiral brush (0% SGS-certified tangle rate)",
+      "Side Brush": "FlexiArm extending side brush (reaches beyond robot body for edge cleaning)",
+      "Navigation": "PreciSense LiDAR (360°)",
+      "Obstacle Avoidance": "Reactive AI obstacle avoidance (structured light)",
+      "Dock Functions": "Multifunctional Dock 3.0: auto dust empty, hot-water mop wash at 75°C, warm-air dry at 45°C, auto water refill",
+      "Carpet Deep Clean Score": "86/100 (Vacuum Wars tested, tied 6th of 100+ models)",
+      "Hair Tangle Rate": "0% (Vacuum Wars tested, tied 1st)",
+      "Works With": "Alexa, Google Assistant, Siri Shortcuts"
+    }
+  },
+  {
+    "id": "roborock-qrevo-s-pro",
+    "name": "Roborock Qrevo S Pro Robot Vacuum and Mop",
+    "category": "Smart Home",
+    "score": 8.7,
+    "tag": "Best Mid-Range Robot Vacuum Mop with Hot-Water Dock",
+    "icon": "🏠",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0GGRSMXKN.01._SCLZZZZZZZ_.jpg",
+    "price": "~$749 CAD",
+    "page": "products/roborock-qrevo-s-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0GGRSMXKN/?tag=clearpick06-20",
+    "subscores": {
+      "Suction & Cleaning": 8.5,
+      "Mopping Performance": 8.8,
+      "Navigation & Mapping": 8.7,
+      "Self-Maintenance": 9,
+      "Value for Money": 9.2
+    },
+    "specs": {
+      "Suction Power": "18,500Pa HyperForce",
+      "Mop System": "Dual spinning mops, 200 RPM, 10mm auto-lift",
+      "Main Brush": "All-rubber anti-tangle spiral brush (SGS-certified)",
+      "Navigation": "PreciSense LiDAR (360°)",
+      "Obstacle Avoidance": "Reactive Tech (structured light)",
+      "Dock Functions": "Auto dust empty (65-day bag), hot-water mop wash at 75°C, warm-air dry at 45°C, auto water refill",
+      "Bag Capacity": "2.7L self-empty bag (up to 65 days)",
+      "Fresh Water Tank": "4L",
+      "Dirty Water Tank": "3.5L",
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "Works With": "Alexa, Google Assistant, Siri Shortcuts"
+    }
+  },
+  {
+    "id": "roborock-qv-35a",
+    "name": "Roborock QV 35A Robot Vacuum and Mop",
+    "category": "Smart Home",
+    "score": 8.3,
+    "tag": "Best Value All-In-One Robot Vacuum Mop",
+    "icon": "🏠",
+    "image": "https://m.media-amazon.com/images/I/41EeOg-wEcL._AC_SX500_.jpg",
+    "price": "~$799 CAD",
+    "page": "products/roborock-qv-35a.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DQ82FJST/?tag=clearpick06-20",
+    "subscores": {
+      "Suction & Cleaning": 7.8,
+      "Mopping Performance": 8,
+      "Navigation & Mapping": 8.5,
+      "Self-Maintenance": 8.8,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Suction Power": "8,000Pa HyperForce",
+      "Mop System": "Dual spinning mops, 200 RPM, 10mm auto-lift",
+      "Main Brush": "All-rubber anti-tangle spiral brush (SGS-certified 0% tangle rate)",
+      "Navigation": "PreciSense LiDAR (360°)",
+      "Obstacle Avoidance": "Reactive Tech (structured light)",
+      "Dock Functions": "Auto dust empty, auto water refill, mop self-wash, cold air dry",
+      "Bag Capacity": "2.7L self-empty bag (~7 weeks)",
+      "Battery": "5,200mAh, ~180 min runtime",
+      "Noise Level": "45 dB (standard mode)",
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "Works With": "Alexa, Google Assistant, Siri Shortcuts"
+    }
+  },
+  {
+    "id": "samsung-qn90d-neo-qled-65-tv",
+    "name": "Samsung 65\" QN90D NEO QLED 4K Smart TV (2024)",
+    "category": "Home Entertainment",
+    "score": 8.6,
+    "tag": "Best Bright-Room TV for Sports & Gaming",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/71xcUpNGkGL._AC_SX500_.jpg",
+    "price": "~$1498 CAD",
+    "page": "products/samsung-qn90d-neo-qled-65-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CW27DXJX/?tag=clearpick06-20",
+    "subscores": {
+      "Picture Quality": 9,
+      "Gaming Performance": 9,
+      "Sound Quality": 7.5,
+      "Smart TV Features": 8,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Screen Size": "65 inches",
+      "Resolution": "4K UHD (3840 x 2160)",
+      "Panel Type": "Neo QLED (Mini-LED backlit VA)",
+      "Peak Brightness": "~2,000 nits (HDR)",
+      "Refresh Rate": "Native 120Hz, Motion Xcelerator 144Hz",
+      "HDR Support": "HDR10, HDR10+, HLG, Dolby Atmos (no Dolby Vision)",
+      "HDMI 2.1 Ports": "4 (4K 144Hz capable)",
+      "Gaming": "4K 144Hz, VRR, AMD FreeSync Premium Pro, G-Sync Compatible, Gaming Hub",
+      "Smart Platform": "Tizen OS",
+      "Audio": "60W, 4.2.2-channel, Q-Symphony, Dolby Atmos, Object Tracking Sound+"
+    }
+  },
+  {
+    "id": "sennheiser-momentum-4-wireless",
+    "name": "Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones",
+    "category": "Home Entertainment",
+    "score": 8.6,
+    "tag": "Best Battery Life in ANC Headphones",
+    "icon": "📺",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0B6GHW1SX.01._SCLZZZZZZZ_.jpg",
+    "price": "~$299 CAD",
+    "page": "products/sennheiser-momentum-4-wireless.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0B6GHW1SX/?tag=clearpick06-20",
+    "subscores": {
+      "Noise Cancellation": 7.5,
+      "Sound Quality": 9,
+      "Comfort": 8.5,
+      "Battery Life": 10,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Driver Size": "42mm dynamic",
+      "Battery Life (ANC on)": "60 hours (real-world tested: ~56 hours)",
+      "Fast Charging": "10 minutes = 6 hours playback",
+      "Charging": "USB-C",
+      "Codecs": "aptX Adaptive, aptX, AAC, SBC",
+      "Bluetooth": "5.2 (multi-point)",
+      "Microphones": "4 digital beamforming",
+      "Weight": "293g",
+      "Colors": "Black, White, Graphite, Denim",
+      "Foldable": "Yes",
+      "3.5mm Input": "Yes (2.5mm to 3.5mm cable included)"
+    }
+  },
+  {
+    "id": "sony-bravia-8-oled-65-tv",
+    "name": "Sony Bravia 8 65\" OLED 4K Smart Google TV (2024)",
+    "category": "Home Entertainment",
+    "score": 8.8,
+    "tag": "Best OLED TV for Cinematic Picture Quality",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/81r9mEBSPaL._AC_SX500_.jpg",
+    "price": "~$2499 CAD",
+    "page": "products/sony-bravia-8-oled-65-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CVQ6YLH7/?tag=clearpick06-20",
+    "subscores": {
+      "Picture Quality": 9.5,
+      "Gaming Performance": 7.5,
+      "Sound Quality": 9,
+      "Smart TV Features": 8,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Screen Size": "65 inches",
+      "Resolution": "4K UHD (3840 x 2160)",
+      "Panel Type": "WOLED (White OLED), XR OLED Contrast Pro",
+      "Peak Brightness": "~900–1,000 nits (HDR)",
+      "Refresh Rate": "120Hz native",
+      "HDR Support": "Dolby Vision, HDR10, HLG, IMAX Enhanced",
+      "HDMI 2.1 Ports": "2 (48Gbps), 2 HDMI 2.0",
+      "Gaming": "4K 120Hz VRR, ALLM, PS5 Auto HDR Tone Mapping, Auto Genre Picture Mode",
+      "Smart Platform": "Google TV",
+      "Audio": "Acoustic Surface Audio+ (screen-as-speaker), Dolby Atmos, DTS:X, IMAX Enhanced",
+      "Special Features": "Cognitive Processor XR, XR Triluminos Pro, XR Clear Image upscaling"
+    }
+  },
+  {
+    "id": "theragun-prime-5th-gen",
+    "name": "Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun",
+    "category": "Sports & Fitness",
+    "score": 8.4,
+    "tag": "Best Percussion Massage Gun for Serious Athletes",
+    "icon": "🏃",
+    "image": "https://m.media-amazon.com/images/I/61WqTMRAVHL._AC_SX500_.jpg",
+    "price": "~$399 CAD",
+    "page": "products/theragun-prime-5th-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C42NZ9FR/?tag=clearpick06-20",
+    "subscores": {
+      "Massage Effectiveness": 9,
+      "Battery Life": 8.5,
+      "Noise Level": 7.5,
+      "Attachments": 8,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Generation": "5th Generation",
+      "Speed Settings": "5 (1750–2400 PPM)",
+      "Amplitude": "16mm",
+      "Stall Force": "30 lbs",
+      "Battery Life": "Up to 120 minutes per charge",
+      "Charge Time": "~90 minutes (proprietary 15V charger)",
+      "Attachments": "4 (Standard Ball, Dampener, Thumb, Micro-Point — foam construction)",
+      "Connectivity": "Bluetooth, Therabody app",
+      "Handle": "Ergonomic triangular multi-grip",
+      "Weight": "2.2 lbs (1 kg)",
+      "Warranty": "1 year"
+    }
+  },
+  {
+    "id": "traeger-woodridge",
+    "name": "Traeger Woodridge Wood Pellet Grill and Smoker, 860 Sq. In.",
+    "category": "Outdoor & Garden",
+    "score": 8.2,
+    "tag": "Best Entry Pellet Grill",
+    "icon": "🌳",
+    "image": "https://m.media-amazon.com/images/I/813H-npINjL._AC_SX500_.jpg",
+    "price": "~$1299 CAD",
+    "page": "products/traeger-woodridge.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DQTBRS3M/?tag=clearpick06-20",
+    "subscores": {
+      "Cooking Performance": 8.5,
+      "Build Quality": 8.5,
+      "Temperature Control": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Cooking Area": "860 sq in (two-level grates)",
+      "Fuel Type": "Wood pellets",
+      "Temperature Range": "180°F – 500°F",
+      "Hopper Capacity": "24 lb",
+      "Weight": "137.7 lb (assembled)",
+      "Connectivity": "WiFi (WiFIRE), Traeger App",
+      "Probes": "1 meat probe included",
+      "Dimensions": "50 in W x 27 in D x 46 in H"
+    }
+  },
+  {
+    "id": "vitamix-e310-explorian",
+    "name": "Vitamix Explorian E310 Blender, Professional-Grade, 48 oz Container, Black",
+    "category": "Kitchen & Dining",
+    "score": 8.7,
+    "tag": "Best Entry-Level Vitamix Blender",
+    "icon": "🍽️",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0758JHZM3.01._SCLZZZZZZZ_.jpg",
+    "price": "~$449 CAD",
+    "page": "products/vitamix-e310-explorian.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0758JHZM3/?tag=clearpick06-20",
+    "subscores": {
+      "Blending Power": 9.5,
+      "Noise Level": 5,
+      "Ease of Cleaning": 8.5,
+      "Durability": 9.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Motor": "2.0 peak HP (1380W)",
+      "Container": "48 oz (1.4L) BPA-free Tritan copolyester",
+      "Speeds": "10 variable speeds + pulse",
+      "Blades": "Stainless steel laser-cut, hardened",
+      "Drive System": "Metal drive",
+      "Self-Cleaning": "Yes (warm water + drop of soap, 30–60 seconds)",
+      "Tamper": "Mini tamper included",
+      "Noise Level": "~100–104 dB at high speed",
+      "Warranty": "5 years"
+    }
+  },
+  {
+    "id": "weber-genesis-e-325s",
+    "name": "Weber Genesis E-325s 3-Burner Propane Gas BBQ in Black",
+    "category": "Outdoor & Garden",
+    "score": 8.8,
+    "tag": "Best Premium Gas Grill",
+    "icon": "🌳",
+    "image": "https://m.media-amazon.com/images/I/71kLRFQ7o9L._AC_SX500_.jpg",
+    "price": "~$1299 CAD",
+    "page": "products/weber-genesis-e-325s.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09MV26KZV/?tag=clearpick06-20",
+    "subscores": {
+      "Cooking Performance": 9,
+      "Build Quality": 9.5,
+      "Temperature Control": 9,
+      "Ease of Use": 9,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Cooking Area": "513 sq in primary + 274 sq in expandable secondary + 156 sq in warming rack",
+      "Fuel Type": "Liquid propane (LP); natural gas version sold separately",
+      "BTU": "39,000 BTU/hr main (3 × 13,000 BTU PureBlu burners) + 13,000 BTU sear zone = 52,000 BTU total",
+      "Burners": "3 main + 1 dedicated sear zone",
+      "Temperature Range": "~225°F low (single burner low) to 650°F+ (sear zone peak)",
+      "Weight": "162 lb assembled",
+      "Connectivity": "None on E-325s"
+    }
   }
 ]

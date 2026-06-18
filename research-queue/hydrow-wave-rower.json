@@ -1,0 +1,98 @@
+{
+  "slug": "hydrow-wave-rower",
+  "name": "Hydrow Wave Rowing Machine with 16\" HD Touchscreen",
+  "brand": "Hydrow",
+  "category": "Sports & Fitness",
+  "categoryPage": "sports-fitness.html",
+  "filterTag": "Cardio Equipment",
+  "subcategory": "cardio-equipment",
+  "asin": "B0BHLXDZ2N",
+  "price": 2495,
+  "priceDisplay": "$2,495 CAD",
+  "score": 8.5,
+  "tag": "Best Connected Compact Rowing Machine",
+  "image": "https://m.media-amazon.com/images/I/71rFnCqvL3L._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BHLXDZ2N/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 8.5,
+    "Workout Quality": 9,
+    "Technology & App": 9,
+    "Compactness": 8.5,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Resistance Type": "Electromagnetic (300 levels)",
+    "Display": "16\" HD colour touchscreen",
+    "Dimensions (in use)": "203 cm L x 48 cm W x 109 cm H",
+    "Weight": "102 lbs (46 kg)",
+    "Weight Capacity": "375 lbs (170 kg)",
+    "Connectivity": "Wi-Fi, Bluetooth",
+    "Speakers": "Front-facing stereo speakers",
+    "Membership": "Required for full content library (~$44–50 CAD/month)",
+    "Warranty": "6 years frame, 2 years parts"
+  },
+  "whatWorks": [
+    "The electromagnetic resistance system is consistently described as near-silent in operation — owners report the only audible sounds during a session are the on-screen workout audio and their own breathing, a meaningful difference from air-resistance rowers.",
+    "The content library — 4,000+ live and on-demand rows filmed on real water with actual athletes — is a recurring differentiator: owners describe it as genuinely motivating in a way pre-recorded generic footage is not, and consistently cite it as the reason they actually use the machine daily.",
+    "Compactness versus the full Hydrow Origin is consistently praised — owners in apartments and smaller home gyms report the 30% smaller footprint makes the Wave the only Hydrow that physically fits their space.",
+    "Build quality impresses owners who are accustomed to budget rowing machines — the frame and seat rail are described as solid and premium-feeling despite the lower weight compared to air rowers."
+  ],
+  "worthKnowing": [
+    "Without an active membership (~$44–50 CAD/month), the Wave operates only in 'Just Row' mode with no resistance control via the display — owners and reviewers consistently describe the machine as impractical without the subscription. Budget the full cost.",
+    "The seat rail uses a 2-roller system versus the 10-roller system on the Hydrow Origin — reviewers note the slide is smooth but slightly less refined, which matters for very experienced rowers but not for most users.",
+    "The screen does not swivel, unlike the full Hydrow — owners who want to use the display for off-rower workouts (yoga, strength) note this as a limitation compared to Peloton and the Origin model."
+  ],
+  "commonComplaints": [
+    {
+      "title": "The subscription model is consistently flagged…",
+      "body": "The subscription model is consistently flagged as under-communicated at purchase — several Amazon.ca reviewers and Trustpilot entries describe discovering the mandatory $44–50/month cost only after the machine arrived. The full cost of ownership is the machine plus ongoing membership.",
+      "source": "Amazon.ca reviews"
+    },
+    {
+      "title": "Owners coming from Concept2 air rowers…",
+      "body": "Owners coming from Concept2 air rowers consistently report the electromagnetic resistance feels different — described as 'more uniform' and lacking the natural deceleration curve of air resistance, which competitive and experienced rowers find less satisfying.",
+      "source": "Reddit r/rowing"
+    },
+    {
+      "title": "The vertical storage anchor kit is…",
+      "body": "The vertical storage anchor kit is sold separately, which surprises owners who assumed uprightable storage was included at this price — a recurring complaint in unboxing and first-month ownership threads.",
+      "source": "Amazon.ca reviews"
+    }
+  ],
+  "verdict": "Owners who commit to the Hydrow ecosystem — machine plus membership — consistently describe the Wave as one of the most enjoyable pieces of cardio equipment they've owned, with the outdoor rowing content and near-silent operation frequently cited as making daily workouts sustainable. The honest caveat is that the Wave is not a standalone purchase: at $2,495 CAD plus ~$540/year in membership, it's a meaningful ongoing cost. For Canadian buyers with the budget and space, owner satisfaction is high; for those evaluating it as a one-time purchase, the Concept2 remains the more practical alternative.",
+  "realBuyers": [
+    {
+      "quote": "I've had it for eight months and I still look forward to rowing — the outdoor footage makes it feel like I'm actually somewhere, which sounds corny but genuinely makes me use it more.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Be prepared for the subscription — I didn't realize how limited the machine is without it. Once I signed up, it became an entirely different product.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Coming from a Concept2 I notice the feel is different — it's smoother and quieter but it doesn't have that air resistance pull I'm used to. Not worse, just different, and my wife prefers the Wave.",
+      "source": "Reddit r/rowing"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hydrow Wave Rower Review | RowingMachine-Guide",
+      "url": "https://www.rowingmachine-guide.com/hydrow-wave-rower.html"
+    },
+    {
+      "title": "Hydrow Wave Rowing Machine | Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BHLXDZ2N/"
+    }
+  ],
+  "metaDescription": "Hydrow Wave Rower review for Canadian buyers: 16\" HD touchscreen, electromagnetic resistance, $2,495 CAD on Amazon.ca. Real owner feedback on the subscription model, quiet operation, and how it compares to Concept2.",
+  "introText": "The Hydrow Wave is the compact entry point into the Hydrow connected rowing ecosystem — a 16\" HD touchscreen, 300-level electromagnetic resistance, and access to 4,000+ live and on-demand workouts filmed on real water. At $2,495 CAD on Amazon.ca plus a ~$44–50/month membership, it targets Canadians who want a Peloton-style connected experience on a rower. Owner feedback is consistently positive about the content and build quality, and consistently honest that the subscription is not optional.",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0BHLXDZ2N",
+  "similarProducts": [
+    "concept2-rowerg",
+    "nordictrack-1750",
+    "schwinn-ic4"
+  ],
+  "newCategoryPage": true
+}

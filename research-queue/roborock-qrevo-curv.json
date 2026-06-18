@@ -1,0 +1,102 @@
+{
+  "slug": "roborock-qrevo-curv",
+  "name": "Roborock Qrevo Curv Robot Vacuum and Mop",
+  "brand": "Roborock",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Robot Vacuums",
+  "subcategory": "robot-vacuums",
+  "asin": "B0D81675BQ",
+  "price": 849,
+  "priceDisplay": "$849.99 CAD",
+  "score": 9,
+  "tag": "Best Premium Robot Vacuum Mop",
+  "image": "https://m.media-amazon.com/images/I/31fGKCPEyIL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0D81675BQ/?tag=clearpick06-20",
+  "subscores": {
+    "Suction & Cleaning": 9,
+    "Mopping Performance": 9.4,
+    "Navigation & Mapping": 8.8,
+    "Self-Maintenance": 9.2,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Suction Power": "18,500Pa HyperForce",
+    "Mop System": "DuoDivide dual parallel short-bristle rollers (Curv-exclusive), 200 RPM, 10mm auto-lift",
+    "Main Brush": "All-rubber anti-tangle spiral brush (0% SGS-certified tangle rate)",
+    "Side Brush": "FlexiArm extending side brush (reaches beyond robot body for edge cleaning)",
+    "Navigation": "PreciSense LiDAR (360°)",
+    "Obstacle Avoidance": "Reactive AI obstacle avoidance (structured light)",
+    "Dock Functions": "Multifunctional Dock 3.0: auto dust empty, hot-water mop wash at 75°C, warm-air dry at 45°C, auto water refill",
+    "Carpet Deep Clean Score": "86/100 (Vacuum Wars tested, tied 6th of 100+ models)",
+    "Hair Tangle Rate": "0% (Vacuum Wars tested, tied 1st)",
+    "Works With": "Alexa, Google Assistant, Siri Shortcuts"
+  },
+  "whatWorks": [
+    "0% pet hair tangle on the main brush is the most consistently cited reason owners choose the Curv over competing models — nearly every owner review with pets mentions this, and it held up to Vacuum Wars lab testing as tied best in class across 100+ models.",
+    "The FlexiArm extending side brush reaches past the robot's body to clean along baseboards and furniture edges — owners who previously used fixed-arm robots call this out as the single biggest day-to-day difference.",
+    "Carpet deep clean score of 86/100 in Vacuum Wars testing (tied 6th of 100+ models) combined with AdaptiLift Chassis handling for high thresholds are recurring notes from owners with mixed hard floor and carpet homes.",
+    "The Multifunctional Dock 3.0's hot-water mop wash and warm-air drying cycle come up in nearly every owner review as the feature that justifies the premium — mop hygiene and kitchen-floor cleanliness are the specific examples cited."
+  ],
+  "worthKnowing": [
+    "Obstacle avoidance uses Reactive Tech structured light rather than a full AI camera system — a step up from the QV 35A but owners note it still struggles with flat cables and very small objects on the floor.",
+    "Vacuum Wars placed the Curv as their previous #1 robot vacuum before newer 2026 models arrived — as of May 2026 it remains a top-5 pick, competitive but no longer the outright leader.",
+    "The DuoDivide dual parallel brush system is Curv-exclusive and works differently from single-roller designs — owners switching from older Roborocks note the carpet cleaning pattern is noticeably more thorough."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Poor obstacle avoidance is the top…",
+      "body": "Poor obstacle avoidance is the top negative raised in Reddit discussions — owners in r/RobotVacuums specifically note that smaller items (cables, small toys, socks) are not reliably detected and the robot runs over or pushes them.",
+      "source": "Reddit r/RobotVacuums"
+    },
+    {
+      "title": "Airflow performance is flagged in Vacuum…",
+      "body": "Airflow performance is flagged in Vacuum Wars testing as average for the premium tier — they note this does not impact daily cleaning noticeably but matters in direct suction-only comparisons against models with optimized airflow.",
+      "source": "Vacuum Wars"
+    },
+    {
+      "title": "Reddit sentiment tracked on RedditRecs shows…",
+      "body": "Reddit sentiment tracked on RedditRecs shows the side brush spreading debris in extreme corner conditions during testing — owners rarely raise this in regular use, but it appears in controlled lab scenarios.",
+      "source": "Vacuum Wars review"
+    }
+  ],
+  "verdict": "Owners who have used the Qrevo Curv for more than a few weeks consistently describe it as the point where robot vacuuming becomes genuinely low-maintenance rather than just convenient. The 0% hair tangle, FlexiArm edge reach, and hot-water mop dock are the three things cited in real owner write-ups as reasons they stopped considering other models. The obstacle avoidance gap is real and comes up in Reddit threads, but for owners who declutter before runs or set no-go zones, it does not override overall satisfaction.",
+  "realBuyers": [
+    {
+      "quote": "The FlexiArm side brush actually gets into corners. Every other robot I've had leaves a strip along the wall. This one doesn't.",
+      "source": "Reddit r/RobotVacuums"
+    },
+    {
+      "quote": "Dog hair is picked up completely every run. I have two golden retrievers and I have not once had to cut hair off the brush. That alone justifies the price.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The mopping is better than I expected. It actually cleans my kitchen floor, not just makes it wet. The dock washes the pads in hot water and they smell clean after.",
+      "source": "Reddit r/RobotVacuums"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Roborock Qrevo Curv — Product Page (Canada)",
+      "url": "https://ca.roborock.com/products/roborock-qrevo-curv"
+    },
+    {
+      "title": "Vacuum Wars: Roborock Qrevo Curv Review",
+      "url": "https://vacuumwars.com/roborock-qrevo-curv-review/"
+    },
+    {
+      "title": "RedditRecs: Roborock Qrevo Curv — All Reddit Reviews",
+      "url": "https://redditrecs.com/robot-vacuum/model/roborock-qrevo-curv/"
+    }
+  ],
+  "metaDescription": "Roborock Qrevo Curv review for Canadian buyers: 18,500Pa suction, FlexiArm edge mopping, DuoDivide brush, 0% pet hair tangle. Real owner feedback and Canadian price ($849.99).",
+  "introText": "The Roborock Qrevo Curv is a 2024 premium robot vacuum with 18,500Pa HyperForce suction, a Curv-exclusive DuoDivide dual-roller brush system, FlexiArm extending side brush for edge mopping, and Multifunctional Dock 3.0 with hot-water mop washing at 75°C. In Vacuum Wars lab testing it tied 1st for 0% pet hair tangle across 100+ models. Available on Amazon.ca (ASIN B0D81675BQ).",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0D81675BQ",
+  "similarProducts": [
+    "roborock-qrevo-s",
+    "dreame-l10s-ultra",
+    "eufy-x10-pro-omni"
+  ]
+}

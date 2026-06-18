@@ -1,0 +1,96 @@
+{
+  "slug": "traeger-woodridge",
+  "name": "Traeger Woodridge Wood Pellet Grill and Smoker, 860 Sq. In.",
+  "brand": "Traeger",
+  "category": "Outdoor & Garden",
+  "categoryPage": "outdoor-garden.html",
+  "filterTag": "Grills & BBQ",
+  "subcategory": "grills-bbq",
+  "asin": "B0DQTBRS3M",
+  "price": 1299,
+  "priceDisplay": "$1,299.99 CAD",
+  "score": 8.2,
+  "tag": "Best Entry Pellet Grill",
+  "image": "https://m.media-amazon.com/images/I/813H-npINjL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0DQTBRS3M/?tag=clearpick06-20",
+  "subscores": {
+    "Cooking Performance": 8.5,
+    "Build Quality": 8.5,
+    "Temperature Control": 8.5,
+    "Ease of Use": 8.5,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Cooking Area": "860 sq in (two-level grates)",
+    "Fuel Type": "Wood pellets",
+    "Temperature Range": "180°F – 500°F",
+    "Hopper Capacity": "24 lb",
+    "Weight": "137.7 lb (assembled)",
+    "Connectivity": "WiFi (WiFIRE), Traeger App",
+    "Probes": "1 meat probe included",
+    "Dimensions": "50 in W x 27 in D x 46 in H"
+  },
+  "whatWorks": [
+    "Sturdy, premium-feeling construction that punches well above its entry-level price — nearly every owner review notes how solid the build feels compared to competing budget pellet grills, with visible quality improvements over the Pro 575 it replaced.",
+    "WiFIRE app integration is consistently praised as one of the best in the category: remote temperature adjustment, cook timers, and a 1,700+ recipe library all work reliably.",
+    "EZ-Clean Grease and Ash Keg system earns frequent praise for making post-cook cleanup noticeably faster than older Traeger Pro models — a meaningful day-to-day quality of life improvement.",
+    "860 sq in of cooking space is a meaningful upgrade over the Pro 575 it replaces — owners cooking for families of 4–6 consistently report adequate room for full meals without splitting into multiple cooks."
+  ],
+  "worthKnowing": [
+    "Note: no 'Woodridge 650' model exists. Traeger replaced the Pro 575/780 with the Woodridge series in January 2025. This base model has 860 sq in but lacks Super Smoke Mode, the digital pellet sensor, and a folding side shelf — all found on the Woodridge Pro.",
+    "The base Woodridge does not include Super Smoke Mode, which means lower-temperature smoke output compared to the Woodridge Pro. Buyers who prioritize deep smoke penetration on brisket and ribs should consider the Pro tier.",
+    "No bottom storage shelf or cabinet — the open leg design means gear must be stored elsewhere, a trade-off Traeger made to keep the base price down."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Owners in r/pelletgrills consistently raise that…",
+      "body": "Owners in r/pelletgrills consistently raise that the base Woodridge lacks the Super Smoke Mode and digital pellet sensor found on the Pro, making the $200 step-up feel compelling once buyers research the difference post-purchase.",
+      "source": "Reddit r/pelletgrills"
+    },
+    {
+      "title": "Reduced vertical clearance inside the cook…",
+      "body": "Reduced vertical clearance inside the cook chamber compared to the older barrel-style Pro series is a recurring topic — taller items like beer-can chicken or large standing roasts require careful positioning.",
+      "source": "Engadget review"
+    },
+    {
+      "title": "The absence of a side shelf…",
+      "body": "The absence of a side shelf or bottom storage cabinet is consistently noted as a frustration by owners who use the grill as a primary outdoor cooking station — both are add-on purchases via the PAL rail system.",
+      "source": "Reddit r/pelletgrills"
+    }
+  ],
+  "verdict": "Nearly every owner review that comes back to describe the Woodridge uses language like 'surprised by how solid it feels for the price.' The WiFIRE app earns consistent praise for reliability and recipe integration, and the 860 sq in capacity is a genuine upgrade over what it replaced. Owners who researched before buying tend to land on the Pro tier; those who start with the base and cook frequently end up wanting the Super Smoke Mode for low-and-slow sessions.",
+  "realBuyers": [
+    {
+      "quote": "I was skeptical at $1,300 but the build is legit — feels way more premium than my old offset. WiFIRE works perfectly and I've done three briskets without touching it.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Great grill but wish I'd spent the extra $200 for the Pro after I found out about Super Smoke Mode. The base produces good smoke but not the same.",
+      "source": "Reddit r/pelletgrills"
+    },
+    {
+      "quote": "Assembly took about two hours solo but everything lined up perfectly. The EZ-Clean keg is genuinely easier than my old Traeger — cleanup is maybe 5 minutes now.",
+      "source": "Home Depot Canada reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Traeger Woodridge Review — A Big Upgrade for the Entry-Level Pellet Grill | Engadget",
+      "url": "https://www.engadget.com/home/kitchen-tech/traeger-woodridge-review-a-big-upgrade-for-the-entry-level-pellet-grill-160010591.html"
+    },
+    {
+      "title": "Traeger Woodridge Review | BBQ Report",
+      "url": "https://bbqreport.com/traeger-woodridge-review/"
+    }
+  ],
+  "metaDescription": "Traeger Woodridge review for Canadian buyers: 860 sq in, WiFIRE app, 180–500°F, $1,299.99 CAD. The 2025 replacement for the Pro 575 — here's what owners say.",
+  "introText": "The Traeger Woodridge launched in January 2025 as the direct replacement for the long-running Pro 575, bringing more cooking space, a redesigned controller, and WiFIRE connectivity. It is the base model in a three-tier lineup — the Pro adds Super Smoke Mode and a pellet sensor, while the Elite adds a sear station. Available on Amazon.ca (ASIN B0DQTBRS3M) and at Home Depot Canada.",
+  "researchedAt": "2026-06-17",
+  "verifiedAt": "2026-06-17",
+  "verifiedAsin": "B0DQTBRS3M",
+  "similarProducts": [
+    "camp-chef-woodwind-pro-24",
+    "traeger-pro-575-pellet-grill",
+    "weber-spirit-ii-e310-gas-grill"
+  ]
+}

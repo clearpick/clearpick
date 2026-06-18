@@ -6,15 +6,18 @@
     { slug: 'kitchen',            icon: '🍳', label: 'Kitchen Appliances',         count: 24 },
     { slug: 'camping',            icon: '⛺', label: 'Outdoor & Camping',           count: 17 },
     { slug: 'software',           icon: '💻', label: 'Software',                   count: 13 },
-    { slug: 'smart-home',         icon: '🏠', label: 'Smart Home',                 count: 11 },
+    { slug: 'smart-home',         icon: '🏠', label: 'Smart Home',                 count: 14    },
     { slug: 'robot-vacuums',      icon: '🤖', label: 'Robot Vacuums',              count: 12 },
     { slug: 'fitness',            icon: '💪', label: 'Fitness Equipment',           count: 18   },
     { slug: 'pet-supplies',       icon: '🐾', label: 'Pet Supplies',               count: 13 },
     { slug: 'gaming',             icon: '🎮', label: 'Gaming',                     count: 16 },
     { slug: 'lawn-garden',        icon: '🌿', label: 'Lawn & Garden',              count: 14 },
-    { slug: 'home-entertainment', icon: '📺', label: 'Home Entertainment',         count: 8        },
+    { slug: 'home-entertainment', icon: '📺', label: 'Home Entertainment',         count: 14              },
     { slug: 'outdoor-cooking',    icon: '🔥', label: 'Outdoor Cooking',            count: 3  },
     { slug: 'cameras',            icon: '📷', label: 'Cameras & Content Creation', count: 2  },
+    { slug: 'kitchen-dining', icon: '🍽️', label: 'Kitchen & Dining', count: 3     },
+    { slug: 'outdoor-garden', icon: '🌳', label: 'Outdoor & Garden', count: 3     },
+    { slug: 'sports-fitness', icon: '🏃', label: 'Sports & Fitness', count: 2    },
   ];
 
   function inject() {
