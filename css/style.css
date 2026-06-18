@@ -3950,7 +3950,7 @@ a:hover { color: var(--color-primary-hover); }
 }
 
 .hero-method-inner {
-  max-width: 620px;
+  max-width: 900px;
   margin: 0 auto;
 }
 
@@ -3980,7 +3980,7 @@ a:hover { color: var(--color-primary-hover); }
 }
 
 .hero-pipeline-wrap {
-  max-width: 560px;
+  max-width: 840px;
   margin: 0 auto 32px;
 }
 
