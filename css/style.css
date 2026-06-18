@@ -2594,13 +2594,6 @@ a:hover { color: var(--color-primary-hover); }
   height: 100%;
   background: linear-gradient(90deg, #1a8cff, #38b6ff);
   border-radius: var(--radius-full);
-  transform-origin: left;
-  animation: score-bar-grow 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
-}
-
-@keyframes score-bar-grow {
-  from { transform: scaleX(0); }
-  to   { transform: scaleX(1); }
 }
 
 .clearpick-score-bar__value {
