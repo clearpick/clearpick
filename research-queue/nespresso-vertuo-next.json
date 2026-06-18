@@ -1,0 +1,115 @@
+{
+  "slug": "nespresso-vertuo-next",
+  "name": "Nespresso Vertuo Next Coffee and Espresso Machine",
+  "brand": "Nespresso",
+  "category": "Kitchen & Dining",
+  "categoryPage": "kitchen-dining.html",
+  "filterTag": "Coffee Makers",
+  "subcategory": "coffee-makers",
+  "asin": "B08XZS8G7K",
+  "price": 229,
+  "priceDisplay": "$229 CAD",
+  "score": 7.6,
+  "tag": "Best One-Button Espresso Machine",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B08XZS8G7K.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08XZS8G7K/?tag=clearpick06-20",
+  "subscores": {
+    "Brew Quality": 8,
+    "Ease of Use": 9,
+    "Speed": 8.5,
+    "Machine Build": 6.5,
+    "Value for Money": 7
+  },
+  "specs": {
+    "Capsule Type": "Nespresso Vertuo pods only (barcode-encoded, not compatible with Original line)",
+    "Cup Sizes": "5 — Espresso 40ml, Double Espresso 80ml, Gran Lungo 150ml, Mug 230ml, Carafe 535ml",
+    "Water Tank": "37 oz (1.1L) removable",
+    "Wattage": "1,260W",
+    "Extraction": "Centrifusion — barcode read spins capsule up to 7,000 RPM, adjusts water per pod",
+    "Warmup Time": "~20–25 seconds",
+    "Connectivity": "Wi-Fi + Bluetooth via Nespresso app",
+    "Body": "~54% recycled plastic, 5.5\" wide"
+  },
+  "whatWorks": [
+    "One-button simplicity with zero configuration — drop a pod, lock the lid, press. The Centrifusion barcode reading adjusts all variables automatically.",
+    "Thick, consistent crema on espresso pods — owners regularly describe cafe-quality results at home, particularly on smaller espresso and double espresso sizes.",
+    "Compact 5.5-inch wide footprint fits easily in smaller kitchens without dominating the counter.",
+    "Fast warmup — ready to brew in under 30 seconds, which owners call a genuine time-saver on busy mornings."
+  ],
+  "worthKnowing": [
+    "Reliability is a documented problem — complaint analysis across tens of thousands of reviews puts leaking and early failure as the #1 and #2 issues. 42% of 1-star reviews cite leaking; 38% cite premature failure within 6–12 months. Replacement units show the same defects.",
+    "Vertuo pods cost $1.00–$1.50 CAD each with no third-party alternatives — locked into Nespresso's ecosystem. Running cost is $30–$45/month for one daily cup.",
+    "Mug-size coffee brews slightly cool and foamy rather than like proper drip — the Centrifusion extraction doesn't scale as well to larger cup sizes as it does for espresso.",
+    "No built-in milk frother — lattes and cappuccinos require a separate Aeroccino, adding $40–$60 unless you buy a bundle."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Machine leaks from the base or…",
+      "body": "Machine leaks from the base or brew head after a few months of use — cleaning and descaling don't resolve it",
+      "source": "Amazon reviewer / r/nespresso"
+    },
+    {
+      "title": "Error lights blink red or orange…",
+      "body": "Error lights blink red or orange with no clear cause — require unplugging and full reset; sometimes indicate permanent failure",
+      "source": "Nespresso.com reviewer"
+    },
+    {
+      "title": "Machines fail within 6–12 months of…",
+      "body": "Machines fail within 6–12 months of regular use; replacement units show the same defects — this feels like a manufacturing issue across the line",
+      "source": "r/nespresso"
+    },
+    {
+      "title": "Mug-size coffee tastes too foamy and…",
+      "body": "Mug-size coffee tastes too foamy and watery — the extraction doesn't work as well at the larger cup sizes",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Vertuo Next makes genuinely good espresso and is dead-simple to use, but its reliability record is hard to overlook — documented complaint analysis puts leaking and early failure as the top two owner issues, with replacement units showing the same defects. Buy it on sale with a clear return window, register the warranty immediately, and know that the Vertuo Plus is the more reliable choice if long-term durability matters more than counter space.",
+  "realBuyers": [
+    {
+      "quote": "I get blinking red lights, solid orange or red lights. Things that should spin don't always. It's not worth the headache.",
+      "source": "Nespresso.com reviewer"
+    },
+    {
+      "quote": "Hopefully the fifth machine will do its job.",
+      "source": "r/nespresso after multiple warranty replacements within two years"
+    },
+    {
+      "quote": "Do not gift a Nespresso Vertuo Next — the intended recipient may no longer be your friend.",
+      "source": "r/nespresso"
+    },
+    {
+      "quote": "It works well, makes good coffee, and feels worth it bought on sale. Used mine for more than a year without major issues.",
+      "source": "r/nespresso"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nespresso Vertuo Next Review: Good Coffee, Real Risks — Boomset",
+      "url": "https://boomset.com/nespresso-vertuo-next-review/"
+    },
+    {
+      "title": "Nespresso Customers Dislike Vertuo Next Machine — Tasting Table",
+      "url": "https://www.tastingtable.com/1674091/nespresso-customers-dislike-vertuo-next-machine/"
+    },
+    {
+      "title": "Nespresso Vertuo Next — Amazon.ca",
+      "url": "https://www.amazon.ca/Nespresso-DeLonghi-Vertuo-Espresso-Machine/dp/B08XZS8G7K"
+    },
+    {
+      "title": "Nespresso Vertuo Plus vs Next — Coffee Brew Hub",
+      "url": "https://coffeebrewshub.com/reviews/nespresso-vertuo-plus-vs-next"
+    }
+  ],
+  "metaDescription": "Nespresso Vertuo Next review for Canada. One-button brewing, 5 cup sizes, great crema — but real reliability concerns documented across thousands of reviews. ~$229 CAD.",
+  "introText": "The Nespresso Vertuo Next is Nespresso's entry-level Vertuo machine, built for convenience-first coffee drinkers who want cafe-style crema at home with zero setup. Available on Amazon.ca (ASIN B08XZS8G7K) at around $229 CAD — though it regularly goes on sale below $200.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B08XZS8G7K",
+  "verifiedPrice": "$229 CAD",
+  "similarProducts": [
+    "keurig-k-elite",
+    "breville-bambino-plus",
+    "delonghi-la-specialista-maestro"
+  ]
+}

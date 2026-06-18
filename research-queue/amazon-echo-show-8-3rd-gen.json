@@ -1,0 +1,115 @@
+{
+  "slug": "amazon-echo-show-8-3rd-gen",
+  "name": "Amazon Echo Show 8 (3rd Gen, 2023)",
+  "brand": "Amazon",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Smart Displays",
+  "subcategory": "smart-displays",
+  "asin": "B0BLS3Y632",
+  "price": 169,
+  "priceDisplay": "$169 CAD",
+  "score": 8,
+  "tag": "Best Midsize Smart Display",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0BLS3Y632.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BLS3Y632/?tag=clearpick06-20",
+  "subscores": {
+    "Smart Home Hub": 9,
+    "Sound Quality": 8,
+    "Display Quality": 7.5,
+    "Privacy Controls": 7,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Screen": "8-inch, 1280 × 800 resolution, edge-to-edge glass",
+    "Speakers": "Dual 2-inch full-range neodymium drivers + passive bass radiator, spatial audio",
+    "Camera": "13 MP, center-aligned, auto-framing, digital pan and zoom",
+    "Smart Home Hub": "Zigbee 3.0, Matter 1.2 controller, Thread border router, Amazon Sidewalk",
+    "Processor": "MediaTek MT8188J + Amazon AZ2 Neural Processing Unit",
+    "Content": "420+ live and ad-supported Fire TV channels, Prime Video, Netflix, Spotify",
+    "Privacy": "Physical camera shutter, hardware mic mute button",
+    "Wi-Fi": "802.11a/b/g/n/ac dual-band"
+  },
+  "whatWorks": [
+    "Built-in Zigbee, Matter, and Thread hub makes this a genuine smart home controller — Zigbee devices pair without a separate hub, and Matter devices from any brand connect natively. The strongest hub-per-dollar in this size class.",
+    "Centered 13MP camera makes video calls feel natural — looking at the screen now means looking near the camera lens, a meaningful improvement over the offset 2nd-gen camera.",
+    "Room-filling audio for an 8-inch display — dual neodymium drivers with passive bass radiator punch noticeably above expectations for the size and price.",
+    "40% faster on-device Alexa processing via AZ2 NPU — smart home light and plug commands respond nearly instantly without waiting for cloud round-trip lag."
+  ],
+  "worthKnowing": [
+    "Full-screen sponsored ads have grown increasingly intrusive via OTA updates — they appear as interstitial ads in Photo Frame mode and between content cards, and Amazon has not provided a way to disable them entirely. Multiple owners and outlets flagged this as a growing pain point since 2024.",
+    "Display resolution (1280 × 800) and visible bezels lag behind tablet-class screens at the same price — functional but not premium when used purely as a picture frame.",
+    "Alexa voice recordings may be reviewed by Amazon contractors for quality improvement. Users concerned about audio privacy should review the Alexa privacy dashboard and set recordings to auto-delete. Physical mic mute is available.",
+    "No eero built-in (unlike Echo Show 15) — still requires a separate Wi-Fi router."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Full-screen sponsored ads interrupt Photo Frame…",
+      "body": "Full-screen sponsored ads interrupt Photo Frame mode and content browsing — it's gotten noticeably worse since 2024 and feels like a billboard I paid for",
+      "source": "Amazon reviewer / r/alexa"
+    },
+    {
+      "title": "Display resolution is adequate but not…",
+      "body": "Display resolution is adequate but not impressive — text and images look slightly soft compared to tablet-class screens at this price",
+      "source": "TechRadar reviewer"
+    },
+    {
+      "title": "Alexa still makes comprehension errors on…",
+      "body": "Alexa still makes comprehension errors on complex or multi-part commands — smart home reliability is strong but natural language stumbles",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No eero built-in like the Echo…",
+      "body": "No eero built-in like the Echo Show 15 — missed integration opportunity at this price",
+      "source": "Tom's Guide reviewer"
+    }
+  ],
+  "verdict": "The Echo Show 8 (3rd Gen) is the right size and price for most households — the centered camera, built-in Zigbee/Matter/Thread hub, and faster processor are genuine upgrades that make it the best Amazon smart display for the money. The growing intrusion of full-screen sponsored ads is a real and worsening nuisance Amazon controls via OTA updates. Buy it knowing you're getting a capable smart home hub that also serves as an ad surface.",
+  "realBuyers": [
+    {
+      "quote": "The Echo Show 8 (3rd Gen) is the Alexa-powered smart display to get if you want a larger display but not one that's too large for your kitchen or bedroom.",
+      "source": "Tom's Guide reviewer"
+    },
+    {
+      "quote": "The centered camera means you look right at the screen during video calls instead of slightly off to the right. Sounds minor but makes a real difference.",
+      "source": "Tom's Guide reviewer"
+    },
+    {
+      "quote": "Full-screen ads with the 'sponsored' tag are now appearing between my photos in Frame mode. I didn't buy this to watch ads.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Even 15 feet away, the auto-framing camera kept me in the shot and followed me around the room.",
+      "source": "Tom's Guide reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Amazon Echo Show 8 (3rd Gen) review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/amazon-echo-show-8-3rd-gen"
+    },
+    {
+      "title": "Amazon Echo Show 8 (3rd gen) review — TechRadar",
+      "url": "https://www.techradar.com/home/smart-home-hubs/amazon-echo-show-8-3rd-gen-review-the-near-perfect-smart-display-for-most-households"
+    },
+    {
+      "title": "Obnoxious full-screen ads are making Echo Show useless — Tom's Guide",
+      "url": "https://www.tomsguide.com/audio/smart-speakers/obnoxious-full-screen-ads-are-making-the-amazon-echo-show-useless-heres-how-to-fix-it"
+    },
+    {
+      "title": "Amazon Echo Show 8 (3rd Gen) — Amazon.ca",
+      "url": "https://www.amazon.ca/Echo-Show-8-Charcoal/dp/B0BLS3Y632"
+    }
+  ],
+  "metaDescription": "Amazon Echo Show 8 3rd Gen review for Canada: Zigbee/Matter hub, 13MP centered camera, spatial audio, faster Alexa. Ad complaints, privacy notes, and Canadian pricing.",
+  "introText": "The Amazon Echo Show 8 (3rd Gen) is the mid-size smart display in Amazon's lineup, featuring a 13MP centered camera, built-in Zigbee/Matter/Thread hub, and 40% faster Alexa processing — making it the best smart home controller in the 8-inch display class. Available on Amazon.ca (ASIN B0BLS3Y632) at around $169 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0BLS3Y632",
+  "verifiedPrice": "$169 CAD",
+  "similarProducts": [
+    "amazon-echo-dot-5th-gen",
+    "amazon-echo-pop",
+    "google-nest-thermostat"
+  ]
+}

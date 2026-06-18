@@ -1,0 +1,117 @@
+{
+  "slug": "ecobee-smartthermostat-premium",
+  "name": "Ecobee SmartThermostat Premium",
+  "brand": "Ecobee",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Smart Thermostats",
+  "subcategory": "smart-thermostats",
+  "asin": "B09YHX4MCL",
+  "price": 329,
+  "priceDisplay": "$329 CAD",
+  "score": 8.6,
+  "tag": "Best Smart Thermostat Without a Subscription",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B09YHX4MCL.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09YHX4MCL/?tag=clearpick06-20",
+  "subscores": {
+    "Temperature Accuracy": 8.5,
+    "App & Scheduling": 8.5,
+    "Energy Savings": 9,
+    "Smart Home Integration": 9,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Display": "2.9 × 2.9-inch touchscreen, 540 × 540 resolution",
+    "Body": "Zinc finish",
+    "Included Sensor": "1 SmartSensor for Rooms (temperature + occupancy)",
+    "Voice Assistants": "Alexa built-in, Google Assistant, Siri/HomeKit",
+    "Other Integrations": "SmartThings, IFTTT",
+    "Air Quality Monitor": "VOC + CO2 sensor (Clean to High scale, can trigger ventilation)",
+    "Smoke Detection": "Yes (via built-in microphone)",
+    "C-Wire": "Recommended; Power Extender Kit included for homes without C-wire",
+    "Compatibility": "Most 24VAC systems — furnaces, ACs, heat pumps up to 4H/2C, boilers, PTACs, fan coil units",
+    "Wi-Fi": "Dual-band 2.4/5 GHz"
+  },
+  "whatWorks": [
+    "SmartSensor's room-level occupancy detection is the strongest differentiator — the thermostat only conditions rooms with people in them, and owners consistently cite this as meaningfully reducing their energy bills compared to a traditional programmable thermostat.",
+    "Broadest multi-platform compatibility of any smart thermostat — works with Alexa, Google Assistant, Siri/HomeKit, SmartThings, and IFTTT simultaneously. Unlike Nest, it doesn't lock out any major platform.",
+    "No mandatory subscription — all core features including scheduling, SmartSensor, geofencing, energy reports, and all voice assistant integrations work without any monthly fee.",
+    "Clean installation with included C-wire adapter and step-by-step app wiring guide. The base plate has a built-in level. Most owners report completing installation without an electrician."
+  ],
+  "worthKnowing": [
+    "Eco+ feature can override your temperature setpoint based on utility grid demand and off-peak pricing. It's opt-in and free, but many owners are surprised to find it enabled by default and come home to an unexpected temperature. Review settings carefully after setup.",
+    "Built-in speaker is weak — roughly equivalent to a first-generation Echo Dot. It works for voice commands but is not suitable for music or as an Alexa speaker replacement.",
+    "Air quality monitor shows VOC and CO2 on a coarse Clean-to-High scale with no fine particulate (PM2.5) data, and cannot yet trigger smart home automations like air purifiers through Alexa or HomeKit.",
+    "Additional SmartSensors are sold only in 2-packs at $99+ — you can't buy a single sensor if you only need one more room covered."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Eco+ overrides temperature preferences without clear…",
+      "body": "Eco+ overrides temperature preferences without clear warning — came home to an uncomfortable house because it adjusted the setpoint to save grid energy during peak hours",
+      "source": "Ecobee community forums"
+    },
+    {
+      "title": "Built-in speaker sounds terrible for music…",
+      "body": "Built-in speaker sounds terrible for music — thin and tinny, not a real Alexa speaker replacement",
+      "source": "Tom's Guide reviewer"
+    },
+    {
+      "title": "Air quality monitor is too limited…",
+      "body": "Air quality monitor is too limited — no PM2.5 data and can't trigger automations like turning on an air purifier",
+      "source": "Tom's Guide review"
+    },
+    {
+      "title": "Additional SmartSensors only come in 2-packs…",
+      "body": "Additional SmartSensors only come in 2-packs at $99+ — can't buy a single sensor if I only need one more room",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Ecobee SmartThermostat Premium is the most platform-agnostic smart thermostat available — it works simultaneously with Alexa, Google, Siri, and SmartThings without choosing sides, and the included SmartSensor's room-level occupancy detection can noticeably reduce heating and cooling bills. No mandatory subscription. The Eco+ override complaints are worth reading before you enable it, and the built-in speaker is no substitute for a real smart speaker.",
+  "realBuyers": [
+    {
+      "quote": "The best reason to get any Ecobee is the Smart Sensors — they detect both temperature and occupancy, so the heat only runs in rooms where people actually are.",
+      "source": "Tom's Guide reviewer"
+    },
+    {
+      "quote": "It worked flawlessly. Display was responsive, menus easy to navigate. When temperatures dipped low it reliably turned on my heating.",
+      "source": "Tom's Guide reviewer"
+    },
+    {
+      "quote": "I turned off Eco+ after it set my house to 18°C in December while I was at work. Once it's off, the thermostat is excellent.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Installation took me 30 minutes with no HVAC experience. The app walks you through every wire.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ecobee Smart Thermostat Premium review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/ecobee-smart-thermostat-premium"
+    },
+    {
+      "title": "Ecobee SmartThermostat Premium — Amazon.ca",
+      "url": "https://www.amazon.ca/ecobee-Thermostat-Premium-Quality-Monitor/dp/B09YHX4MCL"
+    },
+    {
+      "title": "Ecobee SmartThermostat Premium Review — SmartHomeWizards",
+      "url": "https://smarthomewizards.com/ecobee-smartthermostat-premium-review/"
+    },
+    {
+      "title": "Smart Thermostat Premium — Ecobee Canada",
+      "url": "https://www.ecobee.com/en-ca/smart-thermostats/smart-thermostat-premium/"
+    }
+  ],
+  "metaDescription": "Ecobee SmartThermostat Premium review for Canada: SmartSensor, Alexa/Siri/Google built-in, no subscription, air quality monitor. Canadian ASIN and owner complaints. ~$329 CAD.",
+  "introText": "The Ecobee SmartThermostat Premium is Ecobee's flagship thermostat, built for homeowners who want platform-agnostic smart home control, real room-by-room temperature management via an included SmartSensor, and no ongoing subscription fees. Available on Amazon.ca (ASIN B09YHX4MCL) at around $329 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09YHX4MCL",
+  "verifiedPrice": "$329 CAD",
+  "similarProducts": [
+    "google-nest-thermostat",
+    "honeywell-home-t9-wifi-smart-thermostat",
+    "ecobee-smart-thermostat-premium"
+  ]
+}

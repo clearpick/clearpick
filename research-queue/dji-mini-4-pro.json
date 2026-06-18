@@ -1,0 +1,120 @@
+{
+  "slug": "dji-mini-4-pro",
+  "name": "DJI Mini 4 Pro Drone",
+  "brand": "DJI",
+  "category": "Photography & Video",
+  "categoryPage": "photography-video.html",
+  "filterTag": "Drones",
+  "subcategory": "drones",
+  "asin": "B0CFF1SJ3P",
+  "price": 1089,
+  "priceDisplay": "$1,089 CAD",
+  "score": 9,
+  "tag": "Best Sub-250g Drone for Canadians",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0CFF1SJ3P.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CFF1SJ3P/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality": 9,
+    "Obstacle Avoidance": 9.5,
+    "Flight Time": 8.5,
+    "Portability": 9.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Weight": "249g (sub-250g — Transport Canada micro RPAS, no registration required)",
+    "Sensor": "1/1.3-inch CMOS",
+    "Max Video": "4K/100fps; 4K/60fps HDR; 10-bit D-Log M",
+    "Max Photo": "48MP RAW",
+    "Flight Time": "34 min (standard) / 45 min (Intelligent Flight Battery Plus)",
+    "Obstacle Avoidance": "Omnidirectional — front, back, left, right, up, down sensing",
+    "Transmission": "DJI O4, 20km range",
+    "Wind Resistance": "10.7 m/s (Beaufort Scale Level 5, ~24 mph / ~39 km/h)",
+    "Vertical Shooting": "Native true vertical at full 4K (gimbal rotates 90°)"
+  },
+  "whatWorks": [
+    "Omnidirectional obstacle sensing dramatically reduces crash risk — sensors cover all six directions, catching trees, power lines, and structures in real time. Owners who switched from non-sensing drones report a completely different confidence level.",
+    "Genuinely cinematic 4K footage with 10-bit D-Log M at this weight — testers who flew across seven countries called it as capable as any travel documentary setup and stopped comparing it to anything more expensive.",
+    "Native true vertical shooting at full 4K resolution is a practical differentiator for TikTok and Reels creators — no horizontal-to-vertical crop required.",
+    "DJI O4 transmission holds signal reliably at 3+ km in open conditions, and one tester flew over 4 miles without losing a single bar."
+  ],
+  "worthKnowing": [
+    "Canadian drone regulations: at 249g the Mini 4 Pro qualifies as a micro RPAS under Transport Canada's CARS, meaning no drone registration and no pilot certificate required for recreational flying. Standard rules still apply — VLOS, below 122m AGL, no restricted airspace, no endangering aviation. No paperwork, but not unregulated.",
+    "Real-world flight time runs 28–31 minutes under active 4K recording — not the 34-minute spec. Plan battery count accordingly; the Fly More Combo is worth it.",
+    "Wind resistance is the honest limitation — at 249g the Mini 4 Pro handles Level 5 winds (24 mph) but is noticeably affected by gusts that heavier drones like the Air 3S absorb without drifting.",
+    "Night mode requires ambient light — true darkness still produces noisy footage. The 1/1.3-inch sensor is excellent for a drone but not magic."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Real flight time is 28–31 minutes…",
+      "body": "Real flight time is 28–31 minutes with 4K recording, not 34 minutes as advertised — the spec only holds under ideal conditions",
+      "source": "Dronerater.com long-term review"
+    },
+    {
+      "title": "The Fly More Combo bag can't…",
+      "body": "The Fly More Combo bag can't fit the RC 2 controller with the visor and neck strap attached — you have to remove the sticks every time",
+      "source": "Dronerater.com reviewer"
+    },
+    {
+      "title": "Lightweight design makes it noticeably susceptible…",
+      "body": "Lightweight design makes it noticeably susceptible to wind — any gusts above 20 mph and the footage shows drift that a heavier drone wouldn't show",
+      "source": "Amazon reviewer / DJI community"
+    },
+    {
+      "title": "DJI-supplied prop keeper is harder to…",
+      "body": "DJI-supplied prop keeper is harder to install than aftermarket options and puts more stress on the blades",
+      "source": "Dronerater.com hands-on"
+    }
+  ],
+  "verdict": "The Mini 4 Pro remains the benchmark sub-250g drone — omnidirectional sensing, 4K/100fps with 10-bit D-Log M, and O4 transmission range in a 249g body that skips Transport Canada registration requirements entirely. Real-world flight time runs short of spec, and wind resistance is the honest ceiling. For travel photographers and content creators, nothing at this weight class competes.",
+  "realBuyers": [
+    {
+      "quote": "The obstacle avoidance gave me confidence I'd never had with drones before. Flew it through a forest without a single collision.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "After logging over 6 hours of airtime across seven countries, if you don't need thermal imaging or rain protection, you don't need anything more expensive than this.",
+      "source": "Dronerater.com long-term review"
+    },
+    {
+      "quote": "The 4K footage looks incredible. I edited a travel film and people kept asking what camera I used — they were shocked it was a 249g drone.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Night mode takes very good video as long as there's at least a little ambient light. Not magic, but genuinely impressive for a mini drone.",
+      "source": "Dronerater.com review"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DJI Mini 4 Pro Review 2026: Still The Best Sub-250g Drone? — Dronerater",
+      "url": "https://dronerater.com/dji-mini-4-pro-review/"
+    },
+    {
+      "title": "DJI Mini 4 Pro Review: Ultra-Light Without Compromises — PetaPixel",
+      "url": "https://petapixel.com/2023/11/29/dji-mini-4-pro-review-ultra-light-without-compromises/"
+    },
+    {
+      "title": "DJI Mini 4 Pro Specs — DJI",
+      "url": "https://www.dji.com/mini-4-pro/specs"
+    },
+    {
+      "title": "Find Your Category of Drone Operation — Transport Canada",
+      "url": "https://tc.canada.ca/en/aviation/drone-safety/learn-rules-you-fly-your-drone/find-your-category-drone-operation"
+    },
+    {
+      "title": "Drone Laws in Canada (2026) — PropelRC",
+      "url": "https://www.propelrc.com/drone-laws-in-canada/"
+    }
+  ],
+  "metaDescription": "DJI Mini 4 Pro review for Canada: omnidirectional obstacle sensing, 4K/100fps, 20km range, 249g — no Transport Canada RPAS registration required. ~$1,089 CAD.",
+  "introText": "The DJI Mini 4 Pro is DJI's flagship sub-250g drone, combining omnidirectional obstacle sensing, 4K/100fps with 10-bit D-Log M, and DJI O4 transmission range — in a 249g body that sits below Transport Canada's micro RPAS registration threshold. Available on Amazon.ca (ASIN B0CFF1SJ3P) at around $1,089 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0CFF1SJ3P",
+  "verifiedPrice": "$1,089 CAD",
+  "similarProducts": [
+    "canon-eos-r50",
+    "gopro-hero-13-black",
+    "sony-zv-e10-ii-mirrorless-camera"
+  ]
+}

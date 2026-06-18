@@ -6111,5 +6111,448 @@
       "Weight": "162 lb assembled",
       "Connectivity": "None on E-325s"
     }
+  },
+  {
+    "id": "amazon-echo-show-8-3rd-gen",
+    "name": "Amazon Echo Show 8 (3rd Gen, 2023)",
+    "category": "Smart Home",
+    "score": 8,
+    "tag": "Best Midsize Smart Display",
+    "icon": "🏠",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0BLS3Y632.01._AC_SX500_.jpg",
+    "price": "~$169 CAD",
+    "page": "products/amazon-echo-show-8-3rd-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BLS3Y632/?tag=clearpick06-20",
+    "subscores": {
+      "Smart Home Hub": 9,
+      "Sound Quality": 8,
+      "Display Quality": 7.5,
+      "Privacy Controls": 7,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Screen": "8-inch, 1280 × 800 resolution, edge-to-edge glass",
+      "Speakers": "Dual 2-inch full-range neodymium drivers + passive bass radiator, spatial audio",
+      "Camera": "13 MP, center-aligned, auto-framing, digital pan and zoom",
+      "Smart Home Hub": "Zigbee 3.0, Matter 1.2 controller, Thread border router, Amazon Sidewalk",
+      "Processor": "MediaTek MT8188J + Amazon AZ2 Neural Processing Unit",
+      "Content": "420+ live and ad-supported Fire TV channels, Prime Video, Netflix, Spotify",
+      "Privacy": "Physical camera shutter, hardware mic mute button",
+      "Wi-Fi": "802.11a/b/g/n/ac dual-band"
+    }
+  },
+  {
+    "id": "apple-airpods-pro-2nd-gen",
+    "name": "Apple AirPods Pro (2nd Generation) with USB-C",
+    "category": "Home Entertainment",
+    "score": 8.5,
+    "tag": "Best Earbuds for iPhone Users",
+    "icon": "📺",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0CHWRXH8B.01._AC_SX500_.jpg",
+    "price": "~$329 CAD",
+    "page": "products/apple-airpods-pro-2nd-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CHWRXH8B/?tag=clearpick06-20",
+    "subscores": {
+      "ANC Performance": 8.7,
+      "Sound Quality": 8.8,
+      "Comfort & Fit": 8.8,
+      "Battery Life": 7.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Driver": "Custom high-excursion dynamic driver (Apple-designed)",
+      "ANC Attenuation": "20–30dB across frequencies",
+      "Battery Life": "6 hrs ANC on / 30 hrs total with case",
+      "Charging": "USB-C, MagSafe, Qi wireless, Apple Watch charger",
+      "Water Resistance": "IP54 (earbuds and case)",
+      "Codecs": "SBC, AAC",
+      "Weight": "5.3g per earbud",
+      "Chip": "Apple H2"
+    }
+  },
+  {
+    "id": "canon-eos-r50",
+    "name": "Canon EOS R50 Mirrorless Camera with RF-S 18-45mm Lens",
+    "category": "Photography & Video",
+    "score": 8.3,
+    "tag": "Best Beginner Mirrorless Camera",
+    "icon": "📷",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0BTTV6CT1.01._AC_SX500_.jpg",
+    "price": "~$949 CAD",
+    "page": "products/canon-eos-r50.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BTTV6CT1/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 8.5,
+      "Autofocus": 9,
+      "Video Quality": 8,
+      "Ease of Use": 9.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensor": "24.2MP APS-C CMOS, DIGIC X processor",
+      "Kit Lens": "RF-S 18-45mm F4.5-6.3 IS STM (28–72mm equivalent)",
+      "Autofocus": "Dual Pixel CMOS AF II (DPAF2) with AI subject detection",
+      "4K Video": "4K/30fps oversampled from 6K (full sensor width, no crop); 4K/24fps",
+      "Slow Motion": "1080/120fps",
+      "Max Continuous Shooting": "15 fps (electronic shutter)",
+      "Weight": "375g body only (with battery and card)",
+      "Mount": "Canon RF (RF-S lens ecosystem)",
+      "Ports": "USB-C, micro HDMI",
+      "Weather Sealing": "None",
+      "Built-in Flash": "Yes"
+    }
+  },
+  {
+    "id": "cosori-turbo-blaze-6qt",
+    "name": "Cosori TurboBlaze 6-Qt Air Fryer",
+    "category": "Kitchen & Dining",
+    "score": 8.2,
+    "tag": "Best Quiet Air Fryer Under $120",
+    "icon": "🍽️",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0D1KQKZM2.01._AC_SX500_.jpg",
+    "price": "~$119 CAD",
+    "page": "products/cosori-turbo-blaze-6qt.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0D1KQKZM2/?tag=clearpick06-20",
+    "subscores": {
+      "Cook Quality": 8,
+      "Ease of Use": 8.5,
+      "Capacity": 8.5,
+      "Cleaning": 9,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Capacity": "6 Qt (5.7L) — serves 3–5",
+      "Wattage": "1725W",
+      "Temperature Range": "90°F–450°F (30°C–230°C)",
+      "Fan": "DC motor with 5-speed airflow system",
+      "Preset Programs": "9 — Air Fry, Roast, Bake, Broil, Dehydrate, Frozen, Proof, Reheat, Keep Warm",
+      "Dimensions": "11.8\" W × 14.4\" D × 11.9\" H",
+      "Weight": "13.2 lb (6kg)",
+      "Basket Coating": "PFAS-free ceramic nonstick"
+    }
+  },
+  {
+    "id": "dji-mini-4-pro",
+    "name": "DJI Mini 4 Pro Drone",
+    "category": "Photography & Video",
+    "score": 9,
+    "tag": "Best Sub-250g Drone for Canadians",
+    "icon": "📷",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0CFF1SJ3P.01._AC_SX500_.jpg",
+    "price": "~$1089 CAD",
+    "page": "products/dji-mini-4-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CFF1SJ3P/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 9,
+      "Obstacle Avoidance": 9.5,
+      "Flight Time": 8.5,
+      "Portability": 9.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Weight": "249g (sub-250g — Transport Canada micro RPAS, no registration required)",
+      "Sensor": "1/1.3-inch CMOS",
+      "Max Video": "4K/100fps; 4K/60fps HDR; 10-bit D-Log M",
+      "Max Photo": "48MP RAW",
+      "Flight Time": "34 min (standard) / 45 min (Intelligent Flight Battery Plus)",
+      "Obstacle Avoidance": "Omnidirectional — front, back, left, right, up, down sensing",
+      "Transmission": "DJI O4, 20km range",
+      "Wind Resistance": "10.7 m/s (Beaufort Scale Level 5, ~24 mph / ~39 km/h)",
+      "Vertical Shooting": "Native true vertical at full 4K (gimbal rotates 90°)"
+    }
+  },
+  {
+    "id": "ecobee-smartthermostat-premium",
+    "name": "Ecobee SmartThermostat Premium",
+    "category": "Smart Home",
+    "score": 8.6,
+    "tag": "Best Smart Thermostat Without a Subscription",
+    "icon": "🏠",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B09YHX4MCL.01._AC_SX500_.jpg",
+    "price": "~$329 CAD",
+    "page": "products/ecobee-smartthermostat-premium.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09YHX4MCL/?tag=clearpick06-20",
+    "subscores": {
+      "Temperature Accuracy": 8.5,
+      "App & Scheduling": 8.5,
+      "Energy Savings": 9,
+      "Smart Home Integration": 9,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Display": "2.9 × 2.9-inch touchscreen, 540 × 540 resolution",
+      "Body": "Zinc finish",
+      "Included Sensor": "1 SmartSensor for Rooms (temperature + occupancy)",
+      "Voice Assistants": "Alexa built-in, Google Assistant, Siri/HomeKit",
+      "Other Integrations": "SmartThings, IFTTT",
+      "Air Quality Monitor": "VOC + CO2 sensor (Clean to High scale, can trigger ventilation)",
+      "Smoke Detection": "Yes (via built-in microphone)",
+      "C-Wire": "Recommended; Power Extender Kit included for homes without C-wire",
+      "Compatibility": "Most 24VAC systems — furnaces, ACs, heat pumps up to 4H/2C, boilers, PTACs, fan coil units",
+      "Wi-Fi": "Dual-band 2.4/5 GHz"
+    }
+  },
+  {
+    "id": "fujifilm-x100vi",
+    "name": "Fujifilm X100VI Compact Digital Camera",
+    "category": "Photography & Video",
+    "score": 9,
+    "tag": "Best Compact Camera for Street Photography",
+    "icon": "📷",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0CW1KVSVF.01._AC_SX500_.jpg",
+    "price": "~$2159 CAD",
+    "page": "products/fujifilm-x100vi.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CW1KVSVF/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9.5,
+      "Film Simulations": 9.5,
+      "IBIS Performance": 9,
+      "Autofocus": 7.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Sensor": "40.2MP X-Trans BSI-CMOS 5 HR",
+      "Lens": "Fixed Fujinon 23mm f/2 (35mm equivalent), leaf shutter",
+      "IBIS": "5-axis, up to 6 stops compensation (first X100 series with IBIS)",
+      "Autofocus": "AI subject detection — people, animals, birds, vehicles (X-Processor 5)",
+      "Built-in ND Filter": "4-stop",
+      "Weather Sealing": "Body sealed; lens requires optional adapter + filter for full protection",
+      "Video": "6.2K/30p internal, 4K/60p, 1080/240p; 4:2:2 10-bit F-Log2",
+      "Weight": "521g with battery and card",
+      "Viewfinder": "Hybrid optical/electronic viewfinder",
+      "Memory": "UHS-I (no UHS-II)"
+    }
+  },
+  {
+    "id": "instant-pot-pro-6qt",
+    "name": "Instant Pot Pro 10-in-1 6-Qt Electric Pressure Cooker",
+    "category": "Kitchen & Dining",
+    "score": 8.6,
+    "tag": "Best Multi-Cooker for Home Cooks",
+    "icon": "🍽️",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B08PQ2KWHS.01._AC_SX500_.jpg",
+    "price": "~$215 CAD",
+    "page": "products/instant-pot-pro-6qt.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08PQ2KWHS/?tag=clearpick06-20",
+    "subscores": {
+      "Versatility": 9.5,
+      "Cook Quality": 8.5,
+      "Ease of Use": 7.5,
+      "Safety Features": 9,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Capacity": "6 Qt — serves 3–5",
+      "Wattage": "1200W",
+      "Cooking Functions": "10 — Pressure Cook, Slow Cook, Sous Vide, Sauté, Sterilize, Yogurt, Bake, Steam, Rice/Grain, Keep Warm",
+      "Smart Programs": "28 customizable presets + 5 saveable favourites",
+      "Dimensions": "13\" L × 12.7\" W × 12.8\" H",
+      "Weight": "13.2 lb (6kg)",
+      "Included Accessories": "Stainless steel steamer rack with handles, extra sealing ring, condensation cup",
+      "Steam Release": "Quiet steam release switch (gradual, not sudden hiss)"
+    }
+  },
+  {
+    "id": "keurig-k-elite",
+    "name": "Keurig K-Elite Single Serve Coffee Maker",
+    "category": "Kitchen & Dining",
+    "score": 7.8,
+    "tag": "Best Feature-Rich Pod Coffee Maker",
+    "icon": "🍽️",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0788F3R8X.01._AC_SX500_.jpg",
+    "price": "~$249 CAD",
+    "page": "products/keurig-k-elite.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0788F3R8X/?tag=clearpick06-20",
+    "subscores": {
+      "Brew Quality": 7.5,
+      "Ease of Use": 8.5,
+      "Speed": 9,
+      "Capsule Variety": 9,
+      "Value for Money": 7
+    },
+    "specs": {
+      "Brew Sizes": "4 oz, 6 oz, 8 oz, 10 oz, 12 oz",
+      "Water Reservoir": "75 oz removable rear tank",
+      "Brew Speed": "Under 1 minute per cup",
+      "Compatible Pods": "All standard K-Cup pods; reusable My K-Cup filter (sold separately)",
+      "Temperature Range": "187°F–192°F (86°C–89°C) adjustable",
+      "Special Modes": "Strong Brew, Iced Coffee, High Altitude, Hot Water on Demand",
+      "Programmable": "Auto-on, auto-off, adjustable brew temperature",
+      "Dimensions": "13.1\" × 9.9\" × 12.7\""
+    }
+  },
+  {
+    "id": "kitchenaid-artisan-5qt-stand-mixer",
+    "name": "KitchenAid Artisan 5-Qt Tilt-Head Stand Mixer",
+    "category": "Kitchen & Dining",
+    "score": 9,
+    "tag": "Best Stand Mixer for Home Bakers",
+    "icon": "🍽️",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B00005UP2P.01._AC_SX500_.jpg",
+    "price": "~$469 CAD",
+    "page": "products/kitchenaid-artisan-5qt-stand-mixer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00005UP2P/?tag=clearpick06-20",
+    "subscores": {
+      "Mixing Power": 8.5,
+      "Capacity": 8.5,
+      "Ease of Use": 9.5,
+      "Durability": 9,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Bowl Size": "5 quarts / 4.73L stainless steel with handle",
+      "Motor": "325W",
+      "Speeds": "10 speeds (with slow-start at Speed 1)",
+      "Mixing Action": "Planetary — 59 contact points per rotation",
+      "Included Attachments": "Coated flat beater, coated dough hook, 6-wire whip, 1-piece pouring shield",
+      "Weight": "26 lbs (11.8kg)",
+      "Hub Compatibility": "Universal power hub — 15+ optional attachments (pasta roller, meat grinder, spiralizer, etc.)",
+      "Warranty": "1-year limited"
+    }
+  },
+  {
+    "id": "nespresso-vertuo-next",
+    "name": "Nespresso Vertuo Next Coffee and Espresso Machine",
+    "category": "Kitchen & Dining",
+    "score": 7.6,
+    "tag": "Best One-Button Espresso Machine",
+    "icon": "🍽️",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B08XZS8G7K.01._AC_SX500_.jpg",
+    "price": "~$229 CAD",
+    "page": "products/nespresso-vertuo-next.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08XZS8G7K/?tag=clearpick06-20",
+    "subscores": {
+      "Brew Quality": 8,
+      "Ease of Use": 9,
+      "Speed": 8.5,
+      "Machine Build": 6.5,
+      "Value for Money": 7
+    },
+    "specs": {
+      "Capsule Type": "Nespresso Vertuo pods only (barcode-encoded, not compatible with Original line)",
+      "Cup Sizes": "5 — Espresso 40ml, Double Espresso 80ml, Gran Lungo 150ml, Mug 230ml, Carafe 535ml",
+      "Water Tank": "37 oz (1.1L) removable",
+      "Wattage": "1,260W",
+      "Extraction": "Centrifusion — barcode read spins capsule up to 7,000 RPM, adjusts water per pod",
+      "Warmup Time": "~20–25 seconds",
+      "Connectivity": "Wi-Fi + Bluetooth via Nespresso app",
+      "Body": "~54% recycled plastic, 5.5\" wide"
+    }
+  },
+  {
+    "id": "ninja-air-fryer-max-xl",
+    "name": "Ninja Air Fryer Max XL AF161",
+    "category": "Kitchen & Dining",
+    "score": 8.4,
+    "tag": "Best Air Fryer for Crispy Results",
+    "icon": "🍽️",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B07S6529ZZ.01._AC_SX500_.jpg",
+    "price": "~$159 CAD",
+    "page": "products/ninja-air-fryer-max-xl.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07S6529ZZ/?tag=clearpick06-20",
+    "subscores": {
+      "Cook Quality": 9,
+      "Ease of Use": 8.5,
+      "Capacity": 8.5,
+      "Cleaning": 8.5,
+      "Value for Money": 8.2
+    },
+    "specs": {
+      "Capacity": "5.5 Qt (5.2L)",
+      "Wattage": "1750W",
+      "Temperature Range": "105°F–450°F (40°C–232°C)",
+      "Preset Programs": "7 — Max Crisp, Air Fry, Air Roast, Air Broil, Bake, Reheat, Dehydrate",
+      "Dimensions": "14.75\" H × 11\" W × 14\" D",
+      "Weight": "11.7 lb (5.3kg)",
+      "Included Accessories": "5.5Qt ceramic nonstick basket, crisper plate"
+    }
+  },
+  {
+    "id": "ring-video-doorbell-pro-2",
+    "name": "Ring Wired Video Doorbell Pro (2nd Gen)",
+    "category": "Smart Home",
+    "score": 8.2,
+    "tag": "Best Wired Smart Doorbell",
+    "icon": "🏠",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B086QMNXFQ.01._AC_SX500_.jpg",
+    "price": "~$329 CAD",
+    "page": "products/ring-video-doorbell-pro-2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B086QMNXFQ/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 9,
+      "Motion Detection": 8.5,
+      "App Experience": 8,
+      "Installation": 6.5,
+      "Value for Money": 7
+    },
+    "specs": {
+      "Resolution": "1536p HD+ (Head-to-Toe)",
+      "Field of View": "150° horizontal × 150° vertical (1:1 square aspect ratio)",
+      "HDR": "Yes",
+      "Motion Detection": "Radar-based 3D motion (up to 30 feet)",
+      "Bird's Eye View": "Yes — overhead map tracking visitor path",
+      "Power": "Wired only — 16–24 VAC / 24 VDC, 10–40 VA transformer required",
+      "Night Vision": "Color night vision (ambient light) + infrared (~15 ft range in darkness)",
+      "Pre-Roll": "6 seconds colour pre-roll before motion event",
+      "Wi-Fi": "Dual-band 2.4 GHz + 5 GHz"
+    }
+  },
+  {
+    "id": "samsung-galaxy-buds-3-pro",
+    "name": "Samsung Galaxy Buds 3 Pro True Wireless Earbuds",
+    "category": "Home Entertainment",
+    "score": 7.8,
+    "tag": "Best Earbuds for Samsung Galaxy Users",
+    "icon": "📺",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0D6T9CRLT.01._AC_SX500_.jpg",
+    "price": "~$329 CAD",
+    "page": "products/samsung-galaxy-buds-3-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0D6T9CRLT/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8.5,
+      "ANC Performance": 7.5,
+      "Comfort & Fit": 7.8,
+      "Battery Life": 7,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Drivers": "10.5mm dynamic + 6.1mm planar tweeter (dual-driver per earbud)",
+      "ANC": "~76% total noise reduction (SoundGuys measurement)",
+      "Battery Life": "6 hrs stated ANC on / 26 hrs with case (real-world ~4.5 hrs)",
+      "Charging": "USB-C + wireless charging",
+      "Water Resistance": "IP57",
+      "Codecs": "SBC, AAC, Samsung Scalable Codec (SSC Hi-Fi requires Samsung Galaxy flagship)",
+      "Weight": "5.4g per earbud",
+      "Bluetooth": "5.4"
+    }
+  },
+  {
+    "id": "sony-wf-1000xm5",
+    "name": "Sony WF-1000XM5 True Wireless Noise Cancelling Earbuds",
+    "category": "Home Entertainment",
+    "score": 8.7,
+    "tag": "Best ANC Earbuds for Commuters",
+    "icon": "📺",
+    "image": "https://images-na.ssl-images-amazon.com/images/P/B0C33XXS56.01._AC_SX500_.jpg",
+    "price": "~$299 CAD",
+    "page": "products/sony-wf-1000xm5.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C33XXS56/?tag=clearpick06-20",
+    "subscores": {
+      "ANC Performance": 9.2,
+      "Sound Quality": 8.8,
+      "Comfort & Fit": 8.5,
+      "Battery Life": 8.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Driver Size": "8.4mm Dynamic Driver X",
+      "ANC Attenuation": "30dB+ (low freq), up to 50dB above 1kHz",
+      "Battery Life": "8 hrs ANC on / 12 hrs ANC off / 24 hrs with case",
+      "Charging": "USB-C + Qi wireless",
+      "Water Resistance": "IPX4",
+      "Codecs": "SBC, AAC, LDAC (Bluetooth 5.3)",
+      "Weight": "5.9g per earbud",
+      "Microphones": "6 total (3 per bud), bone conduction sensor"
+    }
   }
 ]

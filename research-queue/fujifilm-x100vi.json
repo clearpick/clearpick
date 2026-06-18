@@ -1,0 +1,122 @@
+{
+  "slug": "fujifilm-x100vi",
+  "name": "Fujifilm X100VI Compact Digital Camera",
+  "brand": "Fujifilm",
+  "category": "Photography & Video",
+  "categoryPage": "photography-video.html",
+  "filterTag": "Compact Cameras",
+  "subcategory": "compact-cameras",
+  "asin": "B0CW1KVSVF",
+  "price": 2159,
+  "priceDisplay": "$2,159 CAD",
+  "score": 9,
+  "tag": "Best Compact Camera for Street Photography",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0CW1KVSVF.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CW1KVSVF/?tag=clearpick06-20",
+  "subscores": {
+    "Image Quality": 9.5,
+    "Film Simulations": 9.5,
+    "IBIS Performance": 9,
+    "Autofocus": 7.5,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Sensor": "40.2MP X-Trans BSI-CMOS 5 HR",
+    "Lens": "Fixed Fujinon 23mm f/2 (35mm equivalent), leaf shutter",
+    "IBIS": "5-axis, up to 6 stops compensation (first X100 series with IBIS)",
+    "Autofocus": "AI subject detection — people, animals, birds, vehicles (X-Processor 5)",
+    "Built-in ND Filter": "4-stop",
+    "Weather Sealing": "Body sealed; lens requires optional adapter + filter for full protection",
+    "Video": "6.2K/30p internal, 4K/60p, 1080/240p; 4:2:2 10-bit F-Log2",
+    "Weight": "521g with battery and card",
+    "Viewfinder": "Hybrid optical/electronic viewfinder",
+    "Memory": "UHS-I (no UHS-II)"
+  },
+  "whatWorks": [
+    "40MP sensor with Fujifilm's colour science produces JPEG files so well-rendered that many owners skip editing entirely — 20 film simulations including Reala Ace and Classic Negative are the main reason photographers buy this camera over technically superior alternatives.",
+    "IBIS is the transformative upgrade over the X100V — owners report sharp handheld shots at 1/4s to 1/8s. Low-light street photography without a tripod or flash is now realistic.",
+    "Leaf shutter produces near-silent operation — discreet for street photography and documentary work where a loud mechanical shutter would change subject behaviour.",
+    "Fixed 35mm f/2 lens forces deliberate composition that many owners say improves their photography — the camera does one thing and does it exceptionally."
+  ],
+  "worthKnowing": [
+    "Availability is the biggest real-world problem — this camera launched February 2024 and has remained chronically backordered at Canadian dealers (Henry's, Vistek, Best Buy Canada, Visions Electronics) more than two years later. Used prices run inflated. The page is worth building; check stock before linking.",
+    "Lens is the weakness in the weather sealing claim — the body is sealed but the lens is not. Full dust and moisture protection requires the optional adapter and filter, which adds bulk and a step before shooting in rain.",
+    "IBIS added approximately 48g over the X100V — the camera weighs 521g and is no longer pocketable in jeans. A coat pocket or small bag is required.",
+    "UHS-I memory card slot is a spec disappointment at 40MP — high-speed burst shooting and 6.2K video will buffer noticeably on slower cards."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Autofocus is loud, mechanical, and you…",
+      "body": "Autofocus is loud, mechanical, and you can feel it through the body — genuinely outdated for a camera at this price point",
+      "source": "Roman Fox long-term review"
+    },
+    {
+      "title": "Camera overheats during 4K/60p video —…",
+      "body": "Camera overheats during 4K/60p video — first shutdown around 25 minutes, then recurring at 10–15 minute intervals in warm conditions",
+      "source": "Tom's Guide / Roman Fox"
+    },
+    {
+      "title": "Weather sealing is misleading — body…",
+      "body": "Weather sealing is misleading — body is sealed but the lens isn't. You need to buy the optional adapter and filter to get the full protection the marketing implies.",
+      "source": "Roman Fox long-term review"
+    },
+    {
+      "title": "Still frequently unavailable at MSRP more…",
+      "body": "Still frequently unavailable at MSRP more than two years after launch — waitlists and grey market markups are the only options when it sells out",
+      "source": "TrackALacker Canada / Fujifilm forums"
+    }
+  ],
+  "verdict": "The X100VI is the compact camera that other compact cameras are judged against — 40MP, IBIS, 20 film simulations, and a 35mm f/2 lens in a body that still fits a coat pocket. Autofocus is the one area where it genuinely shows its age, and the supply situation in Canada remains frustrating two years in. If you can find one at MSRP, buy it without hesitation.",
+  "realBuyers": [
+    {
+      "quote": "The IBIS is huge. I'm getting sharp photos handheld at 1/4 second that I never could have gotten with the X100V.",
+      "source": "DPReview community"
+    },
+    {
+      "quote": "I haven't edited a single photo in Lightroom since I got this camera. The film simulations do everything I need right in-camera.",
+      "source": "Roman Fox long-term review"
+    },
+    {
+      "quote": "The autofocus is loud, slow, and you can feel it through the body. For still subjects it's fine, but if you want to track fast action, this isn't your camera.",
+      "source": "Roman Fox long-term review"
+    },
+    {
+      "quote": "Took me three months of checking stock alerts before I could buy one at MSRP. Worth it, but be patient.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fujifilm X100VI Long Term Review — Roman Fox (snapsbyfox.com)",
+      "url": "https://www.snapsbyfox.com/blog/fujifilm-x100vi-long-term-review"
+    },
+    {
+      "title": "Fujifilm X100VI Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/cameras-photography/fujifilm-x100vi-review"
+    },
+    {
+      "title": "Fujifilm X100VI — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CW1KVSVF"
+    },
+    {
+      "title": "Fujifilm X100VI In-Stock Tracker Canada — TrackALacker",
+      "url": "https://www.trackalacker.com/ca/products/showcase/fujifilm-x100vi"
+    },
+    {
+      "title": "Fujifilm X100VI Review — AltBuzz",
+      "url": "https://altbuzzmedia.com/fujifilm-x100vi-review-specs-image-quality-verdict/"
+    }
+  ],
+  "metaDescription": "Fujifilm X100VI review for Canada: 40MP, 6-stop IBIS, 20 film simulations, fixed 35mm f/2 lens. ~$2,159 CAD — often backordered. Worth the wait for compact camera enthusiasts.",
+  "introText": "The Fujifilm X100VI is the sixth generation of Fujifilm's iconic fixed-lens compact, finally adding 5-axis IBIS to 40MP X-Trans sensor and 20 film simulations in a body that fits a coat pocket. Available on Amazon.ca (ASIN B0CW1KVSVF) at $2,159 CAD — though stock availability at Canadian dealers has been inconsistent since its February 2024 launch.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0CW1KVSVF",
+  "verifiedPrice": "$2,159 CAD",
+  "_stockNote": "Chronically backordered at Canadian dealers since Feb 2024 launch — build the page; affiliate link still works and shows price when back in stock",
+  "similarProducts": [
+    "canon-eos-r50",
+    "dji-mini-4-pro",
+    "sony-zv-e10-ii-mirrorless-camera"
+  ]
+}

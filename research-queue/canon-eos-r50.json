@@ -1,0 +1,119 @@
+{
+  "slug": "canon-eos-r50",
+  "name": "Canon EOS R50 Mirrorless Camera with RF-S 18-45mm Lens",
+  "brand": "Canon",
+  "category": "Photography & Video",
+  "categoryPage": "photography-video.html",
+  "filterTag": "Mirrorless Cameras",
+  "subcategory": "mirrorless-cameras",
+  "asin": "B0BTTV6CT1",
+  "price": 949,
+  "priceDisplay": "$949 CAD",
+  "score": 8.3,
+  "tag": "Best Beginner Mirrorless Camera",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0BTTV6CT1.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BTTV6CT1/?tag=clearpick06-20",
+  "subscores": {
+    "Image Quality": 8.5,
+    "Autofocus": 9,
+    "Video Quality": 8,
+    "Ease of Use": 9.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Sensor": "24.2MP APS-C CMOS, DIGIC X processor",
+    "Kit Lens": "RF-S 18-45mm F4.5-6.3 IS STM (28–72mm equivalent)",
+    "Autofocus": "Dual Pixel CMOS AF II (DPAF2) with AI subject detection",
+    "4K Video": "4K/30fps oversampled from 6K (full sensor width, no crop); 4K/24fps",
+    "Slow Motion": "1080/120fps",
+    "Max Continuous Shooting": "15 fps (electronic shutter)",
+    "Weight": "375g body only (with battery and card)",
+    "Mount": "Canon RF (RF-S lens ecosystem)",
+    "Ports": "USB-C, micro HDMI",
+    "Weather Sealing": "None",
+    "Built-in Flash": "Yes"
+  },
+  "whatWorks": [
+    "Dual Pixel CMOS AF II subject tracking is the standout feature — fast, accurate tracking for people, animals, and vehicles at a sub-$1,000 price. Reviewers consistently call it 'impressively robust for a camera at this price,' comparable to systems costing twice as much.",
+    "4K oversampled from 6K with no crop is a genuine differentiator at this price tier — most budget mirrorless cameras apply a significant crop in 4K, making lenses effectively longer. The R50 uses the full sensor width.",
+    "Compact and lightweight at 375g body — fits in a large coat pocket, ideal for travel and content creation without a dedicated camera bag.",
+    "Beginner-friendly guided menu and automated modes lower the barrier to entry without hiding advanced controls — reviewers note first-time camera owners can shoot well immediately while growing into manual settings."
+  ],
+  "worthKnowing": [
+    "No 4K/60fps — the R50 caps at 4K/30fps, limiting slow-motion options to 1080/120fps. Competing Sony and OM System cameras at similar prices now offer 4K/60fps.",
+    "Canon RF mount licensing blocks third-party autofocus lenses — as of 2026, Sigma and Tamron have no Canon RF AF support. The native RF-S lens selection is limited, making long-term lens growth more expensive than Sony E-mount or Fuji X-mount alternatives.",
+    "4K overheating is documented — continuous recording typically cuts at 35–40 minutes before thermal shutdown in normal indoor conditions; some users report warnings as early as 30 minutes at 4K/30fps.",
+    "Kit lens (RF-S 18-45mm F4.5-6.3) is optically competent but slow — the f/4.5–6.3 aperture limits low-light performance and background separation. Upgrading the lens is the highest-impact purchase after buying the body."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No 4K/60fps — a noticeable omission…",
+      "body": "No 4K/60fps — a noticeable omission at this price when Sony and OM System have it at similar price points",
+      "source": "DPReview / tech review sites"
+    },
+    {
+      "title": "Canon's RF mount licensing blocks third-party…",
+      "body": "Canon's RF mount licensing blocks third-party AF lenses — the native lens selection is small and expensive compared to Sony E-mount",
+      "source": "DustinAbbott.net review"
+    },
+    {
+      "title": "4K overheating cuts recording at 35–40…",
+      "body": "4K overheating cuts recording at 35–40 minutes in normal conditions — the theoretical 1-hour limit is rarely achievable in practice",
+      "source": "Canon Community forum / DittoDub.com"
+    },
+    {
+      "title": "USB and HDMI ports are on…",
+      "body": "USB and HDMI ports are on the grip side — cables interfere when the camera is mounted on a tripod or gimbal",
+      "source": "Amazon reviewer / vlogger reviews"
+    }
+  ],
+  "verdict": "The R50 is the easiest recommendation for Canadian beginners entering mirrorless — Canon's DPAF2 subject tracking punches well above its price, 6K-oversampled 4K is genuinely impressive for a budget body, and the compact build means it gets carried. The RF mount ecosystem lock-in and no 4K/60fps are real trade-offs to understand going in, but at ~$950 CAD with a kit lens, neither is a dealbreaker for the target buyer.",
+  "realBuyers": [
+    {
+      "quote": "Canon has nailed the autofocus in these budget cameras. The subject tracking on the R50 is as robust as cameras costing twice as much.",
+      "source": "DustinAbbott.net review"
+    },
+    {
+      "quote": "The best camera is the one always in your hand. The R50 travels with me everywhere because of how light it is.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Great little camera — pair it with a decent lens and you're set for most of what you'd need.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "This camera is really underappreciated because of the so-called lack of third party lenses. For what it does out of the box, it's outstanding.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Canon EOS R50 Mirrorless Camera Kit — Amazon.ca",
+      "url": "https://www.amazon.ca/Canon-Mirrorless-RF-S18-45mm-Smartphone-Connection/dp/B0BTTV6CT1"
+    },
+    {
+      "title": "Canon EOS R50 Review — DustinAbbott.net",
+      "url": "https://dustinabbott.net/2024/04/canon-eos-r50-review/"
+    },
+    {
+      "title": "Canon EOS R50 4K Recording Limitations — DittoDub.com",
+      "url": "https://dittodub.com/articles/understanding_canon_r50s_4k_recording_limitations_overheating_risks"
+    },
+    {
+      "title": "Canon EOS R50 Review — DPReview",
+      "url": "https://www.dpreview.com/reviews/canon-eos-r50-review-compact-capable-but-lacking-for-lenses"
+    }
+  ],
+  "metaDescription": "Canon EOS R50 review for Canada: 24.2MP APS-C, 6K-oversampled 4K, DPAF2 subject tracking. Kit with 18-45mm ~$950 CAD on Amazon.ca. Best beginner mirrorless pick.",
+  "introText": "The Canon EOS R50 is Canon's entry-level mirrorless camera, combining the company's DPAF2 subject tracking with 6K-oversampled 4K video in a 375g compact body built for beginners, travellers, and content creators. Available on Amazon.ca (ASIN B0BTTV6CT1) in a kit with the RF-S 18-45mm lens at around $949 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0BTTV6CT1",
+  "verifiedPrice": "$949 CAD",
+  "similarProducts": [
+    "sony-zv-e10-ii-mirrorless-camera",
+    "gopro-hero-13-black",
+    "apple-tv-4k-3rd-gen"
+  ],
+  "newCategoryPage": true
+}

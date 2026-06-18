@@ -1,0 +1,116 @@
+{
+  "slug": "ring-video-doorbell-pro-2",
+  "name": "Ring Wired Video Doorbell Pro (2nd Gen)",
+  "brand": "Ring",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Smart Doorbells",
+  "subcategory": "smart-doorbells",
+  "asin": "B086QMNXFQ",
+  "price": 329,
+  "priceDisplay": "$329 CAD",
+  "score": 8.2,
+  "tag": "Best Wired Smart Doorbell",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B086QMNXFQ.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B086QMNXFQ/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality": 9,
+    "Motion Detection": 8.5,
+    "App Experience": 8,
+    "Installation": 6.5,
+    "Value for Money": 7
+  },
+  "specs": {
+    "Resolution": "1536p HD+ (Head-to-Toe)",
+    "Field of View": "150° horizontal × 150° vertical (1:1 square aspect ratio)",
+    "HDR": "Yes",
+    "Motion Detection": "Radar-based 3D motion (up to 30 feet)",
+    "Bird's Eye View": "Yes — overhead map tracking visitor path",
+    "Power": "Wired only — 16–24 VAC / 24 VDC, 10–40 VA transformer required",
+    "Night Vision": "Color night vision (ambient light) + infrared (~15 ft range in darkness)",
+    "Pre-Roll": "6 seconds colour pre-roll before motion event",
+    "Wi-Fi": "Dual-band 2.4 GHz + 5 GHz"
+  },
+  "whatWorks": [
+    "1536p Head-to-Toe HD+ video with 1:1 square ratio — packages on the ground and full-body views are visible where other doorbells cut them off. A practical improvement over standard 16:9 doorbell cameras.",
+    "Radar-based 3D motion detection significantly reduces false alerts compared to older PIR-based models — reviewers report near-zero false triggers for cars and pedestrians after tuning motion zones.",
+    "Color night vision using ambient porch or street light delivers noticeably better night footage than infrared-only competitors, though performance degrades in complete darkness.",
+    "Tight Alexa ecosystem integration — Echo speakers announce visitors aloud, Echo Show displays live feed automatically."
+  ],
+  "worthKnowing": [
+    "Recording requires a Ring Protect subscription — without it, you get live view only. No saved clips, no person or package alerts. In Canada: Ring Solo $5.99/mo or $59.99/yr (one device); Ring Multi $14.99/mo or $149.99/yr (all devices). There is no local storage option.",
+    "Wired installation only — requires a 16–24V transformer with at least 40 VA. Many older Canadian homes have underpowered 16V/10VA transformers that cause connectivity and feature failures. Budget for potential transformer replacement.",
+    "People-only detection is unreliable — reviewers found it unable to consistently distinguish between humans and pets, triggering false alerts despite the advanced radar setup.",
+    "Night vision in complete darkness is limited to approximately 15 feet of usable range — fine detail beyond that goes soft. The color vision advantage applies only when ambient light is present."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Night vision in complete darkness only…",
+      "body": "Night vision in complete darkness only reaches about 15 feet — fine detail beyond that goes muddy",
+      "source": "TechRadar review"
+    },
+    {
+      "title": "Old doorbell wiring compatibility is a…",
+      "body": "Old doorbell wiring compatibility is a real issue — underpowered transformers cause connectivity drops and missing alerts. Had to replace my transformer before it worked properly.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Recording requires a paid subscription with…",
+      "body": "Recording requires a paid subscription with no local storage option — I feel held hostage by monthly fees just to access clips I've already captured",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "People-only detection is unreliable — still…",
+      "body": "People-only detection is unreliable — still sends false alerts for my dog and even passing tree shadows",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Ring Wired Doorbell Pro 2 delivers the best video resolution and most accurate motion detection Ring has made — the 1:1 square FOV genuinely solves the 'where's my package' problem, and radar-based motion cuts false alerts meaningfully. The mandatory Ring Protect subscription ($5.99–$14.99/mo CAD) means your true cost climbs fast — factor that in before comparing it to the sticker price. Best suited for wired homes with adequate transformer output and existing Ring or Alexa ecosystems.",
+  "realBuyers": [
+    {
+      "quote": "This is a home security system, a personal front door concierge, and a delivering aide all in one.",
+      "source": "TechRadar reviewer"
+    },
+    {
+      "quote": "After adjusting motion zones and sensitivity, I basically stopped getting false alerts from cars or street-level pedestrians entirely.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The 1:1 square view is a genuine improvement — I can actually see packages left on the step, which I couldn't with my old 16:9 doorbell.",
+      "source": "TechRadar reviewer"
+    },
+    {
+      "quote": "Had to replace my doorbell transformer to get it working properly — the old 10VA one wasn't enough. Wish that was clearer in the listing.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ring Video Doorbell Pro 2 review — TechRadar",
+      "url": "https://www.techradar.com/reviews/ring-video-doorbell-pro-2-review"
+    },
+    {
+      "title": "Ring Wired Video Doorbell Pro review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/ring-video-doorbell-pro-2"
+    },
+    {
+      "title": "Ring Protect Plans Canada",
+      "url": "https://ring.com/ca/en/plans"
+    },
+    {
+      "title": "Ring Wired Doorbell Pro — Amazon.ca",
+      "url": "https://www.amazon.ca/Ring-Video-Doorbell-Pro-2/dp/B086QMNXFQ"
+    }
+  ],
+  "metaDescription": "Ring Wired Doorbell Pro 2 review for Canada: 1536p video, radar motion detection, Bird's Eye View. Subscription required. Wiring requirements, pricing, and owner complaints.",
+  "introText": "The Ring Wired Video Doorbell Pro (2nd Gen) is Ring's flagship wired doorbell, featuring 1536p Head-to-Toe video, radar-based 3D motion detection, and Bird's Eye View — with a mandatory Ring Protect subscription for video recording. Available on Amazon.ca (ASIN B086QMNXFQ) at $329 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B086QMNXFQ",
+  "verifiedPrice": "$329 CAD",
+  "similarProducts": [
+    "ring-battery-video-doorbell-2024",
+    "google-nest-doorbell-battery",
+    "eufy-security-video-doorbell-battery-powered"
+  ]
+}

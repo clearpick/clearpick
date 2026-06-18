@@ -1,0 +1,115 @@
+{
+  "slug": "apple-airpods-pro-2nd-gen",
+  "name": "Apple AirPods Pro (2nd Generation) with USB-C",
+  "brand": "Apple",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Headphones",
+  "subcategory": "headphones",
+  "asin": "B0CHWRXH8B",
+  "price": 329,
+  "priceDisplay": "$329 CAD",
+  "score": 8.5,
+  "tag": "Best Earbuds for iPhone Users",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0CHWRXH8B.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CHWRXH8B/?tag=clearpick06-20",
+  "subscores": {
+    "ANC Performance": 8.7,
+    "Sound Quality": 8.8,
+    "Comfort & Fit": 8.8,
+    "Battery Life": 7.5,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Driver": "Custom high-excursion dynamic driver (Apple-designed)",
+    "ANC Attenuation": "20–30dB across frequencies",
+    "Battery Life": "6 hrs ANC on / 30 hrs total with case",
+    "Charging": "USB-C, MagSafe, Qi wireless, Apple Watch charger",
+    "Water Resistance": "IP54 (earbuds and case)",
+    "Codecs": "SBC, AAC",
+    "Weight": "5.3g per earbud",
+    "Chip": "Apple H2"
+  },
+  "whatWorks": [
+    "Seamless Apple ecosystem integration — instant popup pairing on any iCloud-linked device, automatic switching between iPhone, iPad, and Mac, and Find My coverage on both earbuds and case. No setup friction for iPhone owners.",
+    "Adaptive Transparency mode is best-in-class — it attenuates sudden loud sounds (sirens, construction noise) while keeping ambient awareness intact and natural. Reviewers consistently call it the most natural-sounding passthrough of any TWS earbud.",
+    "Sound quality with Adaptive EQ is strong across genres — the H2 chip adapts in real time to ear canal shape, and objective scores (Timbre, Distortion) place them near the top of the category.",
+    "Hearing aid functionality (iOS 18+) is FDA-authorized and unique at this price — built-in hearing test plus clinical-grade amplification makes these the only earbuds that double as a medical device."
+  ],
+  "worthKnowing": [
+    "Android users get basic audio only — Spatial Audio personalization, Find My, hearing aid, automatic device switching, head gesture controls, and the Ear Tip Fit Test are all iPhone-only. Most of what makes these worth $329 is inaccessible on Android.",
+    "Call quality degrades sharply in wind and background noise — SoundGuys testing showed voice dropping out in office environments; windy conditions render calls nearly unusable. Mic poll: 34% 'Okay,' 9% 'Awful.'",
+    "No native EQ — iOS Settings offers only presets. Meaningful sound customization requires a third-party app, unlike Sony's companion app.",
+    "6-hour battery is the shortest in the premium TWS category — shorter than Sony XM5 (8–12 hrs) and meaningful for full workday use. The case extends total to 30 hours but earbuds alone may not last a long-haul flight."
+  ],
+  "commonComplaints": [
+    {
+      "title": "People can't hear me on calls…",
+      "body": "People can't hear me on calls when there's any background noise — the mic processing cuts my voice along with the ambient sound",
+      "source": "Apple Community / MacRumors Forums"
+    },
+    {
+      "title": "Wind noise on calls is basically…",
+      "body": "Wind noise on calls is basically unusable — the stems catch air and everything turns into muffled static",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Six hour battery with ANC on…",
+      "body": "Six hour battery with ANC on isn't enough for a full workday — I'm reaching for the case twice a day",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No real EQ built in —…",
+      "body": "No real EQ built in — you need a third-party app to do anything beyond Apple's handful of presets",
+      "source": "r/apple / r/headphones"
+    }
+  ],
+  "verdict": "For iPhone owners, the AirPods Pro 2 are the obvious choice — ecosystem integration is frictionless, Adaptive Transparency is the best in the category, and the hearing aid feature is genuinely unique. ANC is strong, though Sony's WF-1000XM5 edges it in raw noise killing. Battery is the shortest in the premium tier, call quality crumbles in wind and noise, and Android users get a fraction of the value. Deep Apple ecosystem users should buy confidently; everyone else should look elsewhere.",
+  "realBuyers": [
+    {
+      "quote": "These are the best earbuds I've ever owned as an iPhone user. The way they just work with everything Apple is unmatched.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The transparency mode is insane — I can walk in traffic and hear everything naturally. It doesn't sound like a microphone at all.",
+      "source": "r/headphones"
+    },
+    {
+      "quote": "The hearing aid feature changed things for my dad. He wears these full-time now.",
+      "source": "r/apple"
+    },
+    {
+      "quote": "My only real complaint is the battery. Six hours isn't enough. I recharge mid-day every day.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple AirPods Pro 2 Review — SoundGuys",
+      "url": "https://www.soundguys.com/apple-airpods-pro-2nd-generation-review-78938/"
+    },
+    {
+      "title": "Apple AirPods Pro 2 Review — RTINGS.com",
+      "url": "https://www.rtings.com/headphones/reviews/apple/airpods-pro-2nd-generation-truly-wireless"
+    },
+    {
+      "title": "Apple AirPods Pro 2 — Amazon.ca",
+      "url": "https://www.amazon.ca/Apple-Cancellation-Transparency-Personalized-High-Fidelity/dp/B0CHWRXH8B"
+    },
+    {
+      "title": "Apple AirPods Pro 2 vs AirPods 4 ANC — SoundGuys",
+      "url": "https://www.soundguys.com/apple-airpods-4-with-active-noise-cancellation-vs-airpods-pro-2-124625/"
+    }
+  ],
+  "metaDescription": "Apple AirPods Pro 2 review for Canada: best Transparency mode, hearing aid features, and Apple integration. Honest on battery and call quality. $329 CAD.",
+  "introText": "The Apple AirPods Pro (2nd Generation) with USB-C are Apple's flagship true wireless earbuds, built for iPhone users who want seamless ecosystem integration and the best Adaptive Transparency mode on the market. They're available on Amazon.ca (ASIN B0CHWRXH8B) at $329 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0CHWRXH8B",
+  "verifiedPrice": "$329 CAD",
+  "similarProducts": [
+    "apple-airpods-max-usb-c",
+    "bose-quietcomfort-ultra-headphones",
+    "sony-wh-1000xm6"
+  ]
+}

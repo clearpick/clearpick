@@ -1,0 +1,115 @@
+{
+  "slug": "sony-wf-1000xm5",
+  "name": "Sony WF-1000XM5 True Wireless Noise Cancelling Earbuds",
+  "brand": "Sony",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Headphones",
+  "subcategory": "headphones",
+  "asin": "B0C33XXS56",
+  "price": 299,
+  "priceDisplay": "$299 CAD",
+  "score": 8.7,
+  "tag": "Best ANC Earbuds for Commuters",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0C33XXS56.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0C33XXS56/?tag=clearpick06-20",
+  "subscores": {
+    "ANC Performance": 9.2,
+    "Sound Quality": 8.8,
+    "Comfort & Fit": 8.5,
+    "Battery Life": 8.5,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Driver Size": "8.4mm Dynamic Driver X",
+    "ANC Attenuation": "30dB+ (low freq), up to 50dB above 1kHz",
+    "Battery Life": "8 hrs ANC on / 12 hrs ANC off / 24 hrs with case",
+    "Charging": "USB-C + Qi wireless",
+    "Water Resistance": "IPX4",
+    "Codecs": "SBC, AAC, LDAC (Bluetooth 5.3)",
+    "Weight": "5.9g per earbud",
+    "Microphones": "6 total (3 per bud), bone conduction sensor"
+  },
+  "whatWorks": [
+    "Best-in-class ANC in the true wireless category — lab measurements confirm 30dB+ low-frequency attenuation, outperforming AirPods Pro 2 in mid and high frequency noise cancellation. Owners who commute by subway or fly frequently consistently rank it above everything else they've tried.",
+    "Significantly smaller and lighter than the predecessor — 25% smaller body and 20% lighter than the XM4, with new flexible foam ear tips that expand and seal better. Long-term wear comfort is consistently praised in owner reviews.",
+    "LDAC support delivers near-lossless audio quality on Android devices — wide soundstage and strong instrument separation make these the best-sounding earbuds in the category for Android users with hi-res audio sources.",
+    "Sony's Headphones Connect app offers full EQ customization, Adaptive Sound Control, and extensive feature access on both iOS and Android — more configurable than AirPods or Galaxy Buds out of the box."
+  ],
+  "worthKnowing": [
+    "Call quality is mediocre in noisy environments — SoundGuys microphone testing shows 37% rated it 'Okay,' and it struggles in reverberant or windy spaces. Bone conduction sensor and AI processing do not compensate well for real-world background noise.",
+    "Default sound tuning is bass-heavy — 30–300Hz is noticeably overemphasized out of the box. App EQ adjustment is needed for balanced listening.",
+    "LDAC mode drops battery to 5 hrs with ANC on, and iOS users are locked to AAC. LDAC requires a compatible Android device and meaningful battery sacrifice.",
+    "This is a 2023 product — a successor is expected and reviewers have begun flagging it as aging. Buy at a discount; full-list purchases near a likely refresh cycle are hard to recommend."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Call quality falls apart in noisy…",
+      "body": "Call quality falls apart in noisy environments — people on the other end can't hear me even in mild background noise despite the bone conduction sensor",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Default bass is too heavy for…",
+      "body": "Default bass is too heavy for office listening — had to dig into the EQ app to make these usable for anything other than the gym",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Battery drops to 5 hours with…",
+      "body": "Battery drops to 5 hours with LDAC on — not practical for a full workday of listening if you want hi-res audio",
+      "source": "SoundGuys lab testing"
+    },
+    {
+      "title": "The glossy finish is slippery and…",
+      "body": "The glossy finish is slippery and shows fingerprints immediately — feels less premium than the matte XM4",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The WF-1000XM5 delivers the strongest ANC in the true wireless category — reviewers and lab tests consistently rank it above the AirPods Pro 2 in noise killing, especially in mid and high frequencies. The comfort upgrade over the XM4 is real, and LDAC makes it the best-sounding option for Android users. Where it falls short: calls crumble in background noise, the default bass needs EQ, and at nearly three years old the product is showing its age. At a discount it's the top commuter earbud pick; at full list, wait for the XM6.",
+  "realBuyers": [
+    {
+      "quote": "The ANC on these is genuinely life-changing on the subway. I can't hear a single screech or announcement.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Switched from AirPods Pro 2 and the noise cancelling is noticeably stronger on planes. Sony wins on ANC.",
+      "source": "r/headphones"
+    },
+    {
+      "quote": "The bass out of the box was too much for me. Once I turned it down in the app they became my favourite earbuds.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Microphone quality is just okay. My colleagues always ask me to repeat myself when there's any background noise.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sony WF-1000XM5 Review — SoundGuys",
+      "url": "https://www.soundguys.com/sony-wf-1000xm5-review-95465/"
+    },
+    {
+      "title": "Sony WF-1000XM5 Review — RTINGS.com",
+      "url": "https://www.rtings.com/headphones/reviews/sony/wf-1000xm5-truly-wireless"
+    },
+    {
+      "title": "Sony WF-1000XM5 — Amazon.ca",
+      "url": "https://www.amazon.ca/Sony-WF-1000XM5-Bluetooth-Cancelling-Headphones/dp/B0C33XXS56"
+    },
+    {
+      "title": "Sony WF-1000XM5 — Sony Canada",
+      "url": "https://www.sony.ca/en/headphones/products/wf-1000xm5"
+    }
+  ],
+  "metaDescription": "Sony WF-1000XM5 review for Canada: best-in-class ANC, LDAC support, 8+ hr battery. Honest look at sound, call quality, and value. Current Canadian price.",
+  "introText": "The Sony WF-1000XM5 are Sony's flagship true wireless earbuds, built around the strongest active noise cancellation in the TWS category and LDAC hi-res audio support for Android users. They're available on Amazon.ca (ASIN B0C33XXS56) at around $299 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0C33XXS56",
+  "verifiedPrice": "$299 CAD",
+  "similarProducts": [
+    "apple-airpods-pro-2nd-gen",
+    "samsung-galaxy-buds-3-pro",
+    "apple-airpods-max-usb-c"
+  ]
+}

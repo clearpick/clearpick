@@ -1,166 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = p.whatWorks.map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = p.worthKnowing.map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = p.realBuyers.map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = p.commonComplaints.map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = p.similarProducts.map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Ecobee SmartThermostat Premium Review 2026 | ClearPick</title>
+<meta name="description" content="Ecobee SmartThermostat Premium review for Canada: SmartSensor, Alexa/Siri/Google built-in, no subscription, air quality monitor. Canadian ASIN and owner complaints. ~$329 CAD." />
+<meta property="og:title" content="Ecobee SmartThermostat Premium Review 2026 | ClearPick" />
+<meta property="og:description" content="Ecobee SmartThermostat Premium review for Canada: SmartSensor, Alexa/Siri/Google built-in, no subscription, air quality monitor. Canadian ASIN and owner complaints. ~$329 CAD." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc(p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/ecobee-smartthermostat-premium.html" />
+<meta property="og:image" content="https://images-na.ssl-images-amazon.com/images/P/B09YHX4MCL.01._AC_SX500_.jpg" />
+<link rel="canonical" href="https://clearpick.ca/products/ecobee-smartthermostat-premium.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Ecobee SmartThermostat Premium",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.6", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The Ecobee SmartThermostat Premium is the most platform-agnostic smart thermostat available — it works simultaneously with Alexa, Google, Siri, and SmartThings without choosing sides, and the included SmartSensor's room-level occupancy detection can noticeably reduce heating and cooling bills. No mandatory subscription. The Eco+ override complaints are worth reading before you enable it, and the built-in speaker is no substitute for a real smart speaker."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.6",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -260,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../smart-home.html">Smart Home</a> <span>›</span>
+<span>Ecobee SmartThermostat Premium</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Smart Home</div>
+<h1 class="product-hero__title">Ecobee SmartThermostat Premium</h1>
+<div class="product-hero__tag">Best Smart Thermostat Without a Subscription</div>
+<p class="product-hero__desc">The Ecobee SmartThermostat Premium is Ecobee's flagship thermostat, built for homeowners who want platform-agnostic smart home control, real room-by-room temperature management via an included SmartSensor, and no ongoing subscription fees. Available on Amazon.ca (ASIN B09YHX4MCL) at around $329 CAD.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -279,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.6 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Temperature Accuracy</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">App &amp; Scheduling</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Energy Savings</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Smart Home Integration</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:75%"></div>
+</div>
+<span class="clearpick-score-bar__value">7.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Display</td><td class="spec-table__value">2.9 × 2.9-inch touchscreen, 540 × 540 resolution</td></tr><tr><td class="spec-table__label">Body</td><td class="spec-table__value">Zinc finish</td></tr><tr><td class="spec-table__label">Included Sensor</td><td class="spec-table__value">1 SmartSensor for Rooms (temperature + occupancy)</td></tr><tr><td class="spec-table__label">Voice Assistants</td><td class="spec-table__value">Alexa built-in, Google Assistant, Siri/HomeKit</td></tr><tr><td class="spec-table__label">Other Integrations</td><td class="spec-table__value">SmartThings, IFTTT</td></tr><tr><td class="spec-table__label">Air Quality Monitor</td><td class="spec-table__value">VOC + CO2 sensor (Clean to High scale, can trigger ventilation)</td></tr><tr><td class="spec-table__label">Smoke Detection</td><td class="spec-table__value">Yes (via built-in microphone)</td></tr><tr><td class="spec-table__label">C-Wire</td><td class="spec-table__value">Recommended; Power Extender Kit included for homes without C-wire</td></tr><tr><td class="spec-table__label">Compatibility</td><td class="spec-table__value">Most 24VAC systems — furnaces, ACs, heat pumps up to 4H/2C, boilers, PTACs, fan coil units</td></tr><tr><td class="spec-table__label">Wi-Fi</td><td class="spec-table__value">Dual-band 2.4/5 GHz</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -298,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc(p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Ecobee SmartThermostat Premium product photo" class="product-cta-box__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B09YHX4MCL.01._AC_SX500_.jpg" />
+<div class="product-cta-box__badge">🏆 Best Smart Thermostat Without a Subscription</div>
+<div class="product-cta-box__name">Ecobee SmartThermostat Premium</div>
+<div class="product-cta-box__price">~$329 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B09YHX4MCL/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -322,13 +223,19 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>SmartSensor's room-level occupancy detection is the strongest differentiator — the thermostat only conditions rooms with people in them, and owners consistently cite this as meaningfully reducing their energy bills compared to a traditional programmable thermostat.</li>
+<li>Broadest multi-platform compatibility of any smart thermostat — works with Alexa, Google Assistant, Siri/HomeKit, SmartThings, and IFTTT simultaneously. Unlike Nest, it doesn't lock out any major platform.</li>
+<li>No mandatory subscription — all core features including scheduling, SmartSensor, geofencing, energy reports, and all voice assistant integrations work without any monthly fee.</li>
+<li>Clean installation with included C-wire adapter and step-by-step app wiring guide. The base plate has a built-in level. Most owners report completing installation without an electrician.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>Eco+ feature can override your temperature setpoint based on utility grid demand and off-peak pricing. It's opt-in and free, but many owners are surprised to find it enabled by default and come home to an unexpected temperature. Review settings carefully after setup.</li>
+<li>Built-in speaker is weak — roughly equivalent to a first-generation Echo Dot. It works for voice commands but is not suitable for music or as an Alexa speaker replacement.</li>
+<li>Air quality monitor shows VOC and CO2 on a coarse Clean-to-High scale with no fine particulate (PM2.5) data, and cannot yet trigger smart home automations like air purifiers through Alexa or HomeKit.</li>
+<li>Additional SmartSensors are sold only in 2-packs at $99+ — you can't buy a single sensor if you only need one more room covered.</li>
 </ul>
 </div>
 </div>
@@ -337,22 +244,95 @@ ${consHtml}
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The best reason to get any Ecobee is the Smart Sensors — they detect both temperature and occupancy, so the heat only runs in rooms where people actually are."</p>
+<cite class="real-buyers-say__source">Source: Tom's Guide reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"It worked flawlessly. Display was responsive, menus easy to navigate. When temperatures dipped low it reliably turned on my heating."</p>
+<cite class="real-buyers-say__source">Source: Tom's Guide reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"I turned off Eco+ after it set my house to 18°C in December while I was at work. Once it's off, the thermostat is excellent."</p>
+<cite class="real-buyers-say__source">Source: Amazon reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Installation took me 30 minutes with no HVAC experience. The app walks you through every wire."</p>
+<cite class="real-buyers-say__source">Source: Amazon reviewer</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Eco+ overrides temperature preferences without clear…</p>
+<p class="real-buyers-say__text">Eco+ overrides temperature preferences without clear warning — came home to an uncomfortable house because it adjusted the setpoint to save grid energy during peak hours</p>
+<cite class="real-buyers-say__source">Source: Ecobee community forums</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Built-in speaker sounds terrible for music…</p>
+<p class="real-buyers-say__text">Built-in speaker sounds terrible for music — thin and tinny, not a real Alexa speaker replacement</p>
+<cite class="real-buyers-say__source">Source: Tom's Guide reviewer</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Air quality monitor is too limited…</p>
+<p class="real-buyers-say__text">Air quality monitor is too limited — no PM2.5 data and can't trigger automations like turning on an air purifier</p>
+<cite class="real-buyers-say__source">Source: Tom's Guide review</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Additional SmartSensors only come in 2-packs…</p>
+<p class="real-buyers-say__text">Additional SmartSensors only come in 2-packs at $99+ — can't buy a single sensor if I only need one more room</p>
+<cite class="real-buyers-say__source">Source: Amazon reviewer</cite>
+</article>
 </div>
 </div>
 </section>
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The Ecobee SmartThermostat Premium is the most platform-agnostic smart thermostat available — it works simultaneously with Alexa, Google, Siri, and SmartThings without choosing sides, and the included SmartSensor's room-level occupancy detection can noticeably reduce heating and cooling bills. No mandatory subscription. The Eco+ override complaints are worth reading before you enable it, and the built-in speaker is no substitute for a real smart speaker.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="google-nest-thermostat.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Google Nest Thermostat" class="product-card__img" loading="lazy" src="https://m.media-amazon.com/images/I/31NI+obldKL._AC_SX500_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Budget Smart Thermostat</span>
+<h3 class="product-card__name">Google Nest Thermostat</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="honeywell-home-t9-wifi-smart-thermostat.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Honeywell Home T9 WiFi Smart Thermostat" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B07RBRG6DQ.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best for Large Homes</span>
+<h3 class="product-card__name">Honeywell Home T9 WiFi Smart Thermostat</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="ecobee-smart-thermostat-premium.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="ecobee Smart Thermostat Premium" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B09XXS48P8.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best for Energy Savings</span>
+<h3 class="product-card__name">ecobee Smart Thermostat Premium</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -371,7 +351,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

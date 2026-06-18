@@ -1,0 +1,115 @@
+{
+  "slug": "samsung-galaxy-buds-3-pro",
+  "name": "Samsung Galaxy Buds 3 Pro True Wireless Earbuds",
+  "brand": "Samsung",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Headphones",
+  "subcategory": "headphones",
+  "asin": "B0D6T9CRLT",
+  "price": 329,
+  "priceDisplay": "$329 CAD",
+  "score": 7.8,
+  "tag": "Best Earbuds for Samsung Galaxy Users",
+  "image": "https://images-na.ssl-images-amazon.com/images/P/B0D6T9CRLT.01._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0D6T9CRLT/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 8.5,
+    "ANC Performance": 7.5,
+    "Comfort & Fit": 7.8,
+    "Battery Life": 7,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Drivers": "10.5mm dynamic + 6.1mm planar tweeter (dual-driver per earbud)",
+    "ANC": "~76% total noise reduction (SoundGuys measurement)",
+    "Battery Life": "6 hrs stated ANC on / 26 hrs with case (real-world ~4.5 hrs)",
+    "Charging": "USB-C + wireless charging",
+    "Water Resistance": "IP57",
+    "Codecs": "SBC, AAC, Samsung Scalable Codec (SSC Hi-Fi requires Samsung Galaxy flagship)",
+    "Weight": "5.4g per earbud",
+    "Bluetooth": "5.4"
+  },
+  "whatWorks": [
+    "IP57 water resistance is the strongest in the premium TWS tier — the buds can survive brief submersion, not just sweat. A genuine advantage for outdoor workouts and wet conditions.",
+    "Dual-driver design (planar tweeter + dynamic woofer) delivers impressive treble extension and wide soundstage. Objective scores put sound quality on par with the AirPods Pro 2 and Sony XM5.",
+    "Galaxy AI features are legitimately useful for Samsung phone owners — real-time live interpreter, super-wideband calls, 360 Audio on Samsung TVs, and seamless auto-switching between Galaxy phone and Galaxy PC.",
+    "9-band EQ in the companion app with Adaptive Noise Control, Find My Buds, and full Galaxy AI feature access for compatible Samsung devices."
+  ],
+  "worthKnowing": [
+    "ANC is measurably weaker than both the Sony XM5 and AirPods Pro 2 — SoundGuys measured only 76% noise reduction, and reviewers note you can still hear conversations clearly with ANC on. This is a regression from the Buds2 Pro, not an improvement.",
+    "Real-world battery falls well short of spec — SoundGuys tested 4h 31min with ANC on vs. Samsung's claimed 6 hours. Meaningful for full-day users.",
+    "Advanced features are Samsung-only — SSC Hi-Fi codec, Galaxy AI interpreter, 360 Audio, and auto-switching require a recent Samsung flagship. iPhone and non-Samsung Android users pay $329 for a stripped-down experience.",
+    "Samsung halted shipments shortly after launch due to production quality control issues. Shipments have since resumed but the launch stumble is worth noting."
+  ],
+  "commonComplaints": [
+    {
+      "title": "ANC is noticeably worse than my…",
+      "body": "ANC is noticeably worse than my old Galaxy Buds2 Pro — I can still hear conversations clearly around me with ANC on at maximum",
+      "source": "Samsung Members Community"
+    },
+    {
+      "title": "Real-world battery is 4–5 hours with…",
+      "body": "Real-world battery is 4–5 hours with ANC, not 6. One earbud drains faster than the other too",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Hissing and wind noise come through…",
+      "body": "Hissing and wind noise come through with ANC on in certain environments — more noticeable than with the previous generation",
+      "source": "Samsung Community / r/galaxybuds"
+    },
+    {
+      "title": "If you don't have a Samsung…",
+      "body": "If you don't have a Samsung phone you're paying full price for half a product — none of the AI or codec features work",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Galaxy Buds 3 Pro are a solid pair of earbuds built almost entirely for Samsung Galaxy phone owners. The dual-driver sound quality is genuinely impressive, IP57 rating beats everything else in the TWS tier, and Galaxy AI features are useful if you travel internationally. The problem: ANC is a step backward from the Buds2 Pro, real-world battery falls well short of Samsung's claim, and the best features are locked behind Samsung hardware. On iPhone or non-Samsung Android, you're paying $329 for about half a product.",
+  "realBuyers": [
+    {
+      "quote": "Coming from a Galaxy phone these are incredible. The AI translator actually works and the sound is excellent.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Best earbuds I've used with my Galaxy S24. Auto-switching between my phone and laptop is seamless.",
+      "source": "Best Buy Canada reviewer"
+    },
+    {
+      "quote": "The ANC just isn't what I expected. I can still hear most conversations around me with it maxed out.",
+      "source": "Samsung Members Community"
+    },
+    {
+      "quote": "Samsung stopped shipments right after I ordered — I waited weeks for delivery. Frustrating launch.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Samsung Galaxy Buds3 Pro Review — SoundGuys",
+      "url": "https://www.soundguys.com/samsung-galaxy-buds3-pro-review-119540/"
+    },
+    {
+      "title": "Samsung Galaxy Buds3 Pro Review — RTINGS.com",
+      "url": "https://www.rtings.com/headphones/reviews/samsung/galaxy-buds3-pro-truly-wireless"
+    },
+    {
+      "title": "Samsung Galaxy Buds3 Pro — Amazon.ca",
+      "url": "https://www.amazon.ca/Samsung-Buds3Pro-Bluetooth-Resistance-Translator/dp/B0D6T9CRLT"
+    },
+    {
+      "title": "Samsung Galaxy Buds3 Pro — Best Buy Canada",
+      "url": "https://www.bestbuy.ca/en-ca/product/samsung-galaxy-buds3-pro-in-ear-noise-cancelling-true-wireless-earbuds-silver/17984587"
+    }
+  ],
+  "metaDescription": "Samsung Galaxy Buds 3 Pro review for Canadians: dual-driver sound, IP57 waterproofing, Galaxy AI features. Honest on ANC regression and real battery life. $329 CAD.",
+  "introText": "The Samsung Galaxy Buds 3 Pro are Samsung's flagship true wireless earbuds, featuring a dual-driver design and deep Galaxy ecosystem integration including AI interpreter and 360 Audio. Available on Amazon.ca (ASIN B0D6T9CRLT) at $329 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0D6T9CRLT",
+  "verifiedPrice": "$329 CAD",
+  "similarProducts": [
+    "apple-airpods-pro-2nd-gen",
+    "apple-airpods-max-usb-c",
+    "sony-wh-1000xm6"
+  ]
+}
