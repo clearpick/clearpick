@@ -1,0 +1,62 @@
+{
+  "slug": "gopro-hero-13-black",
+  "name": "GoPro HERO13 Black",
+  "category": "Cameras & Content Creation",
+  "categoryPage": "cameras.html",
+  "brand": "GoPro",
+  "filterTag": "Action Cameras",
+  "asin": "B0DCM34GXX",
+  "price": 440,
+  "priceDisplay": "$440 CAD",
+  "score": 8.6,
+  "tag": "Best Action Camera for Adventure Sports",
+  "image": "https://m.media-amazon.com/images/I/71+pD0anNuL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0DCM34GXX/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality & Stabilization": 9.0,
+    "Battery Life": 7.5,
+    "Waterproofing & Durability": 9.5,
+    "Ease of Use": 8.0,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Max Video Resolution": "5.3K at 60fps",
+    "Photo Resolution": "27MP",
+    "Stabilization": "HyperSmooth 6.0",
+    "Waterproofing": "33ft (10m) without housing",
+    "Battery": "Enduro 1900mAh (~2.5hrs at 1080p, ~1.5hrs at 5.3K)",
+    "Slow Motion": "Up to 4x (240fps at 1080p)",
+    "Lens Compatibility": "HB-Series (Max Lens Mod 2.0, Ultra Wide Mod)",
+    "Audio": "3-mic array + Bluetooth audio passthrough",
+    "Connectivity": "Wi-Fi, Bluetooth, USB-C",
+    "Weight": "154g"
+  },
+  "whatWorks": [
+    "HyperSmooth 6.0 stabilization is class-leading for high-intensity use — footage from mountain biking, skiing, and motocross holds up without the warping artifacts that plagued earlier versions",
+    "33ft waterproofing without a housing is genuinely useful: no separate case needed for surfing, kayaking, or rain, and the camera goes straight into a pocket at the end of a run",
+    "5.3K60 and 240fps slow-motion in a single palm-sized body puts it in a different league than most compact cameras at this price point",
+    "The mounting ecosystem built up over 13 generations is unmatched — adhesive mounts, chest harnesses, poles, and clamps all work with every GoPro accessory ever made"
+  ],
+  "worthKnowing": [
+    "Battery life is the main complaint: roughly 1.5 hours at 5.3K60 in cold Canadian conditions can drop further — pack a spare Enduro battery ($50 CAD) for a full day of shooting",
+    "Sustained recording at 5.3K generates significant heat with no cooling vents (waterproof design means no airflow); prolonged static 5.3K sessions can trigger thermal shutdown in under 20 minutes",
+    "DJI Osmo Action 5 Pro outperforms in low-light with its larger sensor and SuperNight mode, and doubles the battery life — if low-light or long-recording are priorities, DJI is worth considering",
+    "GoPro's subscription ($69 CAD/yr) adds cloud backup, unlimited cloud storage, and discounted camera pricing — useful if you shoot a lot, but not necessary to get full camera functionality"
+  ],
+  "verdict": "The GoPro Hero 13 Black remains the go-to action camera for high-intensity sports where stabilization, waterproofing, and mounting flexibility matter most. HyperSmooth 6.0 is still the best-in-class stabilization for fast-motion activities, and 5.3K60 is more than enough resolution for any use case. The battery limitation is real and Canadian winter users should carry a spare. Those who shoot mainly in low-light or need all-day continuous recording may find the DJI Osmo Action 5 Pro a better fit — but for daylight adventure footage, GoPro leads.",
+  "realBuyers": [
+    {"quote": "Coming from a Hero 10, the battery improvement is noticeable but still short. I just carry two batteries now — it's become second nature.", "source": "r/gopro"},
+    {"quote": "The stabilization is genuinely insane on a mountain bike. Footage looks smoother than helmet cam footage twice the price.", "source": "Amazon.ca reviewer"},
+    {"quote": "Low light is where GoPro still loses to DJI. But for sunny day skiing and hiking, the colors and stabilization are hard to beat.", "source": "r/videography"}
+  ],
+  "sources": [
+    {"title": "TechRadar: GoPro Hero 13 Black vs DJI Osmo Action 5 Pro", "url": "https://www.techradar.com/cameras/action-cameras/gopro-hero-13-black-vs-dji-osmo-action-5-pro-has-dji-dethroned-gopro"},
+    {"title": "Videomaker: GoPro HERO13 Black Review", "url": "https://www.videomaker.com/reviews/cameras/gopro-hero13-black-the-best-action-camera-ever/"},
+    {"title": "DroneXL: GoPro Hero 13 Black vs DJI Osmo Action 5 Pro Full Comparison", "url": "https://dronexl.co/2024/09/21/gopro-hero-13-black-vs-dji-action-5-pro-full-comparison/"}
+  ],
+  "metaDescription": "GoPro Hero 13 Black review for Canadian buyers: $440 CAD, HyperSmooth 6.0, 33ft waterproof, 5.3K60. Honest look at battery life, overheating, and DJI comparison.",
+  "introText": "The GoPro HERO13 Black is the 13th iteration of the camera that invented the action camera category — and it's still the benchmark for high-intensity sports footage. With HyperSmooth 6.0 stabilization, 5.3K60 video, and 33-foot waterproofing without a housing, it's as capable as it has ever been. The main debates in 2024 are about battery life (real-world ~1.5–2 hours) and whether DJI's Osmo Action 5 Pro has finally caught up. For daylight adventure sports, GoPro still edges ahead.",
+  "researchedAt": "2026-06-14",
+  "currentProductCount": 1,
+  "newProductCount": 2
+}

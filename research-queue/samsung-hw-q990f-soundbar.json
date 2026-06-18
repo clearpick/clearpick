@@ -1,0 +1,103 @@
+{
+  "slug": "samsung-hw-q990f-soundbar",
+  "name": "Samsung HW-Q990F 11.1.4ch Dolby Atmos Soundbar",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "brand": "Samsung",
+  "filterTag": "Soundbars",
+  "subcategory": "soundbars",
+  "asin": "B0DXRNX94G",
+  "price": 1298,
+  "priceDisplay": "$1,298 CAD",
+  "score": 8.9,
+  "tag": "Best Full Surround Dolby Atmos Soundbar System",
+  "image": "https://m.media-amazon.com/images/I/517-VfV1CVL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0DXRNX94G/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 9.5,
+    "Surround Performance": 9.5,
+    "Features & Connectivity": 9,
+    "Build & Design": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Configuration": "11.1.4-channel (bar + wireless sub + 2 wireless rear speakers)",
+    "Total Power": "656W",
+    "HDR Audio": "Dolby Atmos, DTS:X, Auro-3D",
+    "HDMI": "1x HDMI 2.1 input + 1x eARC output (HDMI passthrough)",
+    "DTS Support": "Yes — DTS:X, DTS-HD",
+    "Connectivity": "Wi-Fi, Bluetooth, AirPlay 2, Spotify Connect",
+    "Q-Symphony": "Syncs with compatible Samsung TVs to use TV speakers as additional channels",
+    "Eclipsa Audio": "Supported (new open-source spatial audio format)",
+    "Wireless Rears": "Included — wireless surround speakers with upfiring drivers",
+    "App": "SmartThings"
+  },
+  "whatWorks": [
+    "True 11.1.4 surround with wireless rears included in the box — this is a full home theater audio system that competes with dedicated AV receivers at a fraction of the complexity. The wireless rear speakers with upfiring drivers create genuinely immersive overhead surround",
+    "HDMI 2.1 passthrough means you can run your devices through the soundbar without losing video quality or HDR — a feature the Sonos Arc Ultra lacks entirely at a similar price",
+    "DTS:X and Dolby Atmos both supported — physical Blu-ray collections with DTS-HD tracks work at full quality, something Sonos can't offer",
+    "Q-Symphony integration with Samsung TVs turns your TV speakers into additional channels — if you own a compatible Samsung TV, the combined system is genuinely more immersive than the soundbar alone"
+  ],
+  "worthKnowing": [
+    "The 2024 Q990D was bricked by a firmware update — Samsung issued free repairs, but the incident raised reliability concerns about auto-updates on premium hardware. The Q990F addresses this with improved update protocols, but it's in the product's recent history",
+    "Setup complexity is real — 11 channels with wireless rears, a subwoofer, and SmartThings integration is more involved than a single-bar system. The payoff is worth it for home theater enthusiasts, but casual users may find it overwhelming",
+    "Rear speaker placement matters significantly — the wireless rears need to be within 4-5 feet of the listening position and have a clear line of sight to the main bar to maintain wireless connection. Not all room layouts accommodate this cleanly",
+    "Physical footprint is substantial — the subwoofer cube (redesigned for Q990F to be more compact) still requires floor space near your TV setup"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Firmware OTA bricking incident (Q990D) left hundreds of units inoperable",
+      "body": "The Q990D firmware bricking incident (an OTA update rendered hundreds of units inoperable, requiring factory service) is the most significant complaint in r/soundbars — Samsung offered free repairs but the trust damage lingers. The Q990F is the follow-up model with improved update safeguards.",
+      "source": "r/soundbars, Digital Trends, TechRadar reporting on Q990D firmware incident"
+    },
+    {
+      "title": "Wireless rear speaker connectivity drops under interference conditions",
+      "body": "Wireless rear speaker connectivity drops under certain interference conditions — multiple owners in r/hometheater report occasional stuttering or dropout in the rear channels, particularly in apartments with dense Wi-Fi environments.",
+      "source": "r/hometheater, r/soundbars"
+    },
+    {
+      "title": "Dialogue clarity inconsistent at low night-listening volumes",
+      "body": "Dialogue clarity at low volumes is inconsistent — a recurring complaint from owners who watch TV late at night at low levels, where the center channel can sound slightly muddy compared to dedicated center-channel speaker setups.",
+      "source": "r/hometheater, WhatHiFi Q990F review"
+    }
+  ],
+  "verdict": "The Samsung HW-Q990F is the most complete soundbar system available in Canada — 11.1.4 channels, wireless rears, HDMI passthrough, and full DTS:X + Dolby Atmos support in one box at $1,298 CAD. It outperforms the Sonos Arc Ultra in surround immersion and connectivity, and it's the right pick for anyone who wants a full home theater audio system without running wires. The Q990D firmware incident is worth knowing, and the wireless rear connectivity can be finicky in crowded Wi-Fi environments.",
+  "realBuyers": [
+    {
+      "quote": "The wireless rears genuinely changed how I watch movies. I've had dedicated AV setups and this is easier to live with and sounds nearly as good.",
+      "source": "r/hometheater"
+    },
+    {
+      "quote": "Upgraded from the Arc and I can hear the difference immediately. The DTS tracks on my Blu-rays finally sound like they're supposed to.",
+      "source": "r/soundbars"
+    },
+    {
+      "quote": "Q-Symphony with my Samsung TV is a cool feature but I honestly can't tell much difference with it enabled. The soundbar alone is already great.",
+      "source": "r/hometheater"
+    }
+  ],
+  "sources": [
+    {
+      "title": "RedditRecs: Samsung HW-Q990F — All Reddit Reviews in One Place",
+      "url": "https://redditrecs.com/soundbar/model/samsung-hw-q990f-2025/"
+    },
+    {
+      "title": "WhatHiFi: Samsung HW-Q990F Review",
+      "url": "https://www.whathifi.com/tv-home-cinema/soundbars/samsung-hw-q990f"
+    },
+    {
+      "title": "Digital Trends: Samsung Responds About Firmware That Bricked Q990D",
+      "url": "https://www.digitaltrends.com/home-theater/samsung-responds-about-soundbar-firmware-that-bricked-the-q990d/"
+    }
+  ],
+  "metaDescription": "Samsung HW-Q990F soundbar review for Canada. 11.1.4ch with wireless rears, HDMI passthrough, DTS:X, $1,298 CAD. Honest take on the Q990D firmware incident and who this is for.",
+  "introText": "The Samsung HW-Q990F is a complete home theater audio system in one box: 11.1.4 channels, a redesigned wireless subwoofer, wireless rear speakers with upfiring drivers, HDMI 2.1 passthrough, and support for both Dolby Atmos and DTS:X. It addresses the Sonos Arc Ultra's biggest gaps (passthrough, DTS, surrounds) and undercuts it by $100 CAD. The predecessor Q990D had a significant firmware bricking incident — the Q990F is the fixed follow-up.",
+  "researchedAt": "2026-06-15",
+  "currentProductCount": 7,
+  "newProductCount": 8,
+  "similarProducts": [
+    "sonos-era-100",
+    "samsung-q80d-65-qled-tv",
+    "lg-c5-oled-65-tv"
+  ]
+}

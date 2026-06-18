@@ -1,0 +1,103 @@
+{
+  "slug": "sonos-arc-ultra-soundbar",
+  "name": "Sonos Arc Ultra Soundbar",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "brand": "Sonos",
+  "filterTag": "Soundbars",
+  "subcategory": "soundbars",
+  "asin": "B0DFK28LBB",
+  "price": 1189,
+  "priceDisplay": "$1,189 CAD",
+  "score": 8.8,
+  "tag": "Best Single-Bar Dolby Atmos Soundbar",
+  "image": "https://m.media-amazon.com/images/I/61WbdzYBy8L._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0DFK28LBB/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 9.5,
+    "Atmos Performance": 9,
+    "Features & App": 7.5,
+    "Build & Design": 9.5,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Configuration": "9.1.4-channel (single bar)",
+    "Driver Tech": "Sound Motion technology (first gen), 14 drivers",
+    "HDR Audio": "Dolby Atmos, Dolby TrueHD",
+    "HDMI": "1x eARC (no passthrough)",
+    "DTS Support": "No DTS-HD or DTS:X (PCM passthrough only)",
+    "Connectivity": "Wi-Fi, Bluetooth, Apple AirPlay 2, Ethernet",
+    "Voice Assistants": "Amazon Alexa, Google Assistant built-in",
+    "Dimensions": "45.5\" W x 3.4\" H x 4.5\" D",
+    "Expandable": "Yes — Sonos Sub, Era 100/300 for surround",
+    "App": "Sonos app (required for setup and control)"
+  },
+  "whatWorks": [
+    "The best bass of any single-bar soundbar — Sound Motion technology delivers low-frequency performance that previously required a separate subwoofer, making the Arc Ultra the first single-box Atmos soundbar that genuinely doesn't need a sub for most content",
+    "Dolby Atmos height effects are remarkably convincing for a single bar — rain, helicopters, and overhead effects have real sense of vertical placement without ceiling speakers",
+    "Build quality and industrial design are class-leading — the Arc Ultra looks and feels like premium furniture, not consumer electronics, and the understated design complements high-end TVs",
+    "Trueplay automatic room calibration works — the app measures your room acoustics and adjusts EQ accordingly, and the difference is audible vs. manual setup"
+  ],
+  "worthKnowing": [
+    "No HDMI passthrough — you get one eARC port and nothing else. Every device must connect to your TV first, then audio passes back through eARC. Buyers with Apple TV, gaming consoles, and a Blu-ray player all connected simultaneously hit this limitation immediately",
+    "No DTS-HD or DTS:X decoding — physical Blu-ray discs with DTS audio tracks play in PCM stereo instead of surround. This is a significant gap for physical media collectors",
+    "Sonos app required for everything — setup, EQ, software updates, multiroom control. The app had a major redesign in 2024 that removed features; while mostly recovered, it remains a dependency that owners don't love",
+    "Price without a sub or surrounds is $1,189 CAD, but reaching its full potential means adding the Sub 4 ($999) and rear speakers ($349-499 each) — the full system approaches $3,000 CAD"
+  ],
+  "commonComplaints": [
+    {
+      "title": "No HDMI passthrough at $1,200 CAD — every competitor has it",
+      "body": "No HDMI passthrough at $1,200 CAD is the top complaint in r/sonos — every competing soundbar at this price (Samsung Q990F, LG S95QR) includes HDMI passthrough. Sonos has never addressed this despite it being a longstanding request.",
+      "source": "r/sonos, TechRadar Sonos Arc Ultra review"
+    },
+    {
+      "title": "No DTS-HD/DTS:X support — Blu-ray owners get stereo on DTS tracks",
+      "body": "No DTS-HD/DTS:X support means physical Blu-ray owners get stereo audio on DTS tracks — a meaningful limitation for home theater enthusiasts who buy discs for audio quality.",
+      "source": "Sonos Community forum, r/hometheater"
+    },
+    {
+      "title": "2024 Sonos app redesign removed features and broke reliability",
+      "body": "The 2024 Sonos app redesign removed features (alarm management, queue editing, accessibility options) and was widely panned by existing Sonos owners as a step backward — the Arc Ultra launched into this backlash and inherits the dependency.",
+      "source": "r/sonos, TechRadar reporting on Sonos app fallout"
+    }
+  ],
+  "verdict": "The Sonos Arc Ultra is the best single-bar Dolby Atmos soundbar you can buy — the bass is genuinely impressive without a subwoofer, and the Atmos height performance outclasses everything at this price. The trade-offs are real and Sonos-specific: no HDMI passthrough, no DTS support, and a required app that has a rough history. If you stream exclusively and want a beautiful one-box solution that pairs well with a premium TV, the Arc Ultra is the pick. If you have a Blu-ray player or want pass-through flexibility, the Samsung HW-Q990F is a more versatile choice.",
+  "realBuyers": [
+    {
+      "quote": "I was ready to buy the sub too. Hooked up the Arc Ultra first and honestly don't feel like I need it for TV and streaming. The bass is real.",
+      "source": "r/sonos"
+    },
+    {
+      "quote": "The no-DTS thing finally got me. Most of my Blu-rays are DTS-MA and they just play in 2-channel. Returned it for the Samsung Q990F.",
+      "source": "r/hometheater"
+    },
+    {
+      "quote": "It's a premium product that Sonos refuses to make fully premium. No HDMI passthrough in 2024 is embarrassing. The sound though? Best bar I've heard.",
+      "source": "r/sonos"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TechRadar: Sonos Arc Ultra Review",
+      "url": "https://www.techradar.com/televisions/soundbars/sonos-arc-ultra-review"
+    },
+    {
+      "title": "RedditRecs: Sonos Arc Ultra — All Reddit Reviews in One Place",
+      "url": "https://redditrecs.com/soundbar/model/sonos-arc-ultra/"
+    },
+    {
+      "title": "Amazon.ca: Sonos Arc Ultra Soundbar Customer Reviews",
+      "url": "https://www.amazon.ca/dp/B0DFK28LBB"
+    }
+  ],
+  "metaDescription": "Sonos Arc Ultra soundbar review for Canada. Best Dolby Atmos single bar, $1,189 CAD. Honest take on no HDMI passthrough, no DTS, and whether the bass really replaces a sub.",
+  "introText": "The Sonos Arc Ultra is the best-sounding single-bar soundbar available, period. Its Sound Motion technology delivers subwoofer-class bass from a single enclosure, and Dolby Atmos height effects are genuinely convincing. The frustrations are Sonos staples: no HDMI passthrough, no DTS support, and a required app. At $1,189 CAD before any expansion, it's a premium one-box solution — if you can live within Sonos' ecosystem.",
+  "researchedAt": "2026-06-15",
+  "currentProductCount": 6,
+  "newProductCount": 7,
+  "similarProducts": [
+    "samsung-hw-q990f-soundbar",
+    "sonos-era-100",
+    "samsung-q80d-65-qled-tv"
+  ]
+}

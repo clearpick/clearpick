@@ -1,0 +1,67 @@
+{
+  "slug": "hisense-u88qg-65-mini-led-tv",
+  "name": "Hisense 65\" U88QG Mini-LED QLED 4K Smart TV",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "brand": "Hisense",
+  "filterTag": "Mini-LED TVs",
+  "asin": "B0F5QVK3TR",
+  "price": 1398,
+  "priceDisplay": "$1,398 CAD",
+  "score": 8.7,
+  "tag": "Best Bright-Room Mini-LED TV Under $1,500",
+  "image": "https://m.media-amazon.com/images/I/71xcUpNGkGL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0F5QVK3TR/?tag=clearpick06-20",
+  "subscores": {
+    "Picture Quality": 9.5,
+    "Gaming Performance": 9.0,
+    "Smart TV & Features": 8.0,
+    "Build & Design": 8.0,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Screen Size": "65 inches",
+    "Resolution": "4K UHD (3840 x 2160)",
+    "Panel Type": "Mini-LED PRO QLED (VA)",
+    "Peak Brightness": "~5,000 nits (HDR)",
+    "Refresh Rate": "Native 165Hz",
+    "VRR": "Up to 288Hz (via FreeSync Premium Pro)",
+    "HDR Support": "Dolby Vision IQ, HDR10+, IMAX Enhanced",
+    "Gaming": "3x HDMI 2.1, USB-C DisplayPort, 4K 165Hz, Dolby Vision Gaming",
+    "Smart Platform": "Google TV",
+    "Audio": "4.1.2-channel, 75W, built-in subwoofer, Dolby Atmos"
+  },
+  "whatWorks": [
+    "5,000 nits peak brightness makes this one of the most powerful Mini-LED TVs available at any price — HDR highlights in movies and sports are genuinely striking, and it holds up better in direct sunlight than nearly anything else at this price",
+    "Gaming spec sheet rivals TVs at twice the price: 4K native 165Hz, FreeSync Premium Pro, Dolby Vision Gaming, HDR10+ gaming, and VRR up to 288Hz — the most complete gaming TV in its price class",
+    "Refined local dimming eliminates the blooming issues that plagued earlier Hisense Mini-LED models — dark scenes in demanding content like The Last of Us hold up without visible halos",
+    "At $1,398 CAD, it undercuts the LG C5 OLED by $600 while delivering a brighter, more vivid picture in lit rooms — a genuinely compelling value proposition for living room viewing"
+  ],
+  "worthKnowing": [
+    "Off-axis picture quality degrades noticeably — colors and contrast fade when viewed from far off-center seats, making it a poor choice for wide seating arrangements with seats at sharp angles to the screen",
+    "Built-in subwoofer distorts audibly on movies with heavy low-frequency effects (explosions, deep bass scores) — despite the impressive 4.1.2-channel array, a soundbar is effectively required for serious movie watching",
+    "Only 3 HDMI 2.1 ports instead of the standard 4 — users with PS5, Xbox Series X, and a PC connected simultaneously will run out of ports",
+    "Hisense's quality control reputation is a real consideration: some owners of previous U-series models report heat spots, backlight uniformity issues, and panel defects — buying with a retailer that offers easy returns is important"
+  ],
+  "commonComplaints": [
+    {"complaint": "Subwoofer distortion on bass-heavy content is a consistent complaint — reviewers and owners alike note it ruins otherwise great movie audio; the fix is turning off the built-in sub and using a soundbar instead.", "source": "TechRadar hands-on review + AVSForum U88QG thread"},
+    {"complaint": "QC panel lottery is a real concern: multiple owners of Hisense U-series TVs (U8N, U8K) report receiving panels with heat spots, clouding, or backlight uniformity issues — Hisense's warranty service has mixed reviews.", "source": "r/Televisions + r/4kTV Hisense U-series threads"},
+    {"complaint": "Forced firmware updates have reportedly changed picture settings and degraded HDR performance on earlier U-series models — some owners recommend delaying updates or disabling auto-update.", "source": "r/Televisions Hisense complaints thread"}
+  ],
+  "verdict": "The Hisense U88QG is the best-value Mini-LED TV available in Canada right now. At $1,398 CAD, it delivers 5,000 nits of brightness, native 165Hz gaming, and Dolby Vision that beats everything at its price and challenges TVs at $2,000+. The trade-offs are real: the built-in subwoofer needs to be replaced with a soundbar for movie watching, off-axis seating is a problem, and Hisense's QC track record means buying from a retailer with a good return policy matters. For a single-seat bright living room setup with gaming, it's the value pick of the year.",
+  "realBuyers": [
+    {"quote": "Coming from a 2021 Sony, the brightness difference is absurd. HDR content looks like a completely different format — things literally glow. Sports is unreal.", "source": "r/Televisions"},
+    {"quote": "The subwoofer rattles on any movie with real bass. Turned it off in settings and paired with my Sonos Arc — now it's perfect. Don't judge the audio until you do that.", "source": "AVSForum U8QG review thread"},
+    {"quote": "Second unit. First one had hot spots in the corners after 3 weeks. Hisense sent a replacement no questions asked but still — check yours carefully in the first 30 days.", "source": "r/4kTV"}
+  ],
+  "sources": [
+    {"title": "TechRadar: Hisense U8QG Review — Brighter and Better", "url": "https://www.techradar.com/televisions/hisense-u8qg-review"},
+    {"title": "AVSForum: Hisense 65\" U8QG Mini-LED ULED Review", "url": "https://www.avsforum.com/threads/hisense-65%E2%80%9D-u8qg-miniled-uled-review-%E2%80%93-this-tv-doesn%E2%80%99t-hold-back.3327272/"},
+    {"title": "Amazon.ca: Hisense 65U88QG Customer Reviews", "url": "https://www.amazon.ca/dp/B0F5QVK3TR"}
+  ],
+  "metaDescription": "Hisense U88QG 65-inch Mini-LED review for Canada. 5,000 nits, 165Hz gaming, Dolby Vision at $1,398 CAD. Honest take on subwoofer issues, QC concerns, and who it's for.",
+  "introText": "The Hisense U88QG is the 2025 follow-up to the U8N — and it raises the bar significantly. With 5,000 nits of peak brightness, native 165Hz, and a full gaming spec sheet including Dolby Vision Gaming and FreeSync Premium Pro, it competes with TVs at $2,000+ for a fraction of the price. The caveats are the same ones Hisense buyers have always faced: off-axis viewing and QC consistency. But for a single primary viewing seat in a bright living room, nothing comes close at this price.",
+  "researchedAt": "2026-06-14",
+  "currentProductCount": 3,
+  "newProductCount": 4
+}

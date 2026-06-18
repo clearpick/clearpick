@@ -5466,5 +5466,160 @@
       "USB-C": "Yes, can listen while charging",
       "Colors": "Black, Midnight Blue, Silver"
     }
+  },
+  {
+    "id": "apple-tv-4k-3rd-gen",
+    "name": "Apple TV 4K (3rd Generation, 2022)",
+    "category": "Home Entertainment",
+    "score": 8.5,
+    "tag": "Best Streaming Device for Apple Households",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/61HGvrbamzL._AC_SX500_.jpg",
+    "price": "~$174 CAD",
+    "page": "products/apple-tv-4k-3rd-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BJMMFNF7/?tag=clearpick06-20",
+    "subscores": {
+      "Performance & Speed": 9.5,
+      "Ecosystem Integration": 9.5,
+      "Picture & Audio Quality": 9,
+      "Interface & Ease of Use": 9,
+      "Value for Money": 7
+    },
+    "specs": {
+      "Chip": "Apple A15 Bionic",
+      "Storage": "64GB",
+      "Resolution": "4K at 60fps, HDR10, Dolby Vision, HLG",
+      "Audio": "Dolby Atmos, Dolby TrueHD 7.1",
+      "Connectivity": "Wi-Fi 6 (802.11ax), Bluetooth 5.0",
+      "Ports": "HDMI 2.1, USB-C (power)",
+      "Remote": "Siri Remote (clickpad + touch surface)",
+      "Operating System": "tvOS",
+      "Smart Home": "HomeKit hub, Thread controller",
+      "Price (CAD)": "$174 (Wi-Fi, 64GB)"
+    }
+  },
+  {
+    "id": "samsung-hw-q990f-soundbar",
+    "name": "Samsung HW-Q990F 11.1.4ch Dolby Atmos Soundbar",
+    "category": "Home Entertainment",
+    "score": 8.9,
+    "tag": "Best Full Surround Dolby Atmos Soundbar System",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/517-VfV1CVL._AC_SX500_.jpg",
+    "price": "~$1298 CAD",
+    "page": "products/samsung-hw-q990f-soundbar.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DXRNX94G/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9.5,
+      "Surround Performance": 9.5,
+      "Features & Connectivity": 9,
+      "Build & Design": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Configuration": "11.1.4-channel (bar + wireless sub + 2 wireless rear speakers)",
+      "Total Power": "656W",
+      "HDR Audio": "Dolby Atmos, DTS:X, Auro-3D",
+      "HDMI": "1x HDMI 2.1 input + 1x eARC output (HDMI passthrough)",
+      "DTS Support": "Yes — DTS:X, DTS-HD",
+      "Connectivity": "Wi-Fi, Bluetooth, AirPlay 2, Spotify Connect",
+      "Q-Symphony": "Syncs with compatible Samsung TVs to use TV speakers as additional channels",
+      "Eclipsa Audio": "Supported (new open-source spatial audio format)",
+      "Wireless Rears": "Included — wireless surround speakers with upfiring drivers",
+      "App": "SmartThings"
+    }
+  },
+  {
+    "id": "samsung-s95d-65-qd-oled-tv",
+    "name": "Samsung 65\" S95D QD-OLED 4K Smart TV",
+    "category": "Home Entertainment",
+    "score": 9.2,
+    "tag": "Best OLED TV for Bright Rooms",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/71xWQcSOvsL._AC_SX500_.jpg",
+    "price": "~$2498 CAD",
+    "page": "products/samsung-s95d-65-qd-oled-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CV9BPF93/?tag=clearpick06-20",
+    "subscores": {
+      "Picture Quality": 9.5,
+      "Gaming Performance": 9.5,
+      "Smart TV & Features": 8.5,
+      "Bright Room Performance": 9.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Screen Size": "65 inches",
+      "Resolution": "4K UHD (3840 x 2160)",
+      "Panel Type": "QD-OLED (Quantum Dot OLED)",
+      "Peak Brightness": "~2,000 nits (HDR)",
+      "Refresh Rate": "Native 144Hz",
+      "HDR Support": "HDR10, HDR10+, HLG (no Dolby Vision)",
+      "Gaming": "4x HDMI 2.1, 4K 144Hz, VRR, FreeSync Premium Pro, G-Sync Compatible",
+      "Smart Platform": "Tizen OS",
+      "Audio": "Object Tracking Sound+, Q-Symphony, Dolby Atmos",
+      "Anti-Glare": "Glare Free OLED panel coating (industry-first)"
+    }
+  },
+  {
+    "id": "sonos-arc-ultra-soundbar",
+    "name": "Sonos Arc Ultra Soundbar",
+    "category": "Home Entertainment",
+    "score": 8.8,
+    "tag": "Best Single-Bar Dolby Atmos Soundbar",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/61WbdzYBy8L._AC_SX500_.jpg",
+    "price": "~$1189 CAD",
+    "page": "products/sonos-arc-ultra-soundbar.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DFK28LBB/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9.5,
+      "Atmos Performance": 9,
+      "Features & App": 7.5,
+      "Build & Design": 9.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Configuration": "9.1.4-channel (single bar)",
+      "Driver Tech": "Sound Motion technology (first gen), 14 drivers",
+      "HDR Audio": "Dolby Atmos, Dolby TrueHD",
+      "HDMI": "1x eARC (no passthrough)",
+      "DTS Support": "No DTS-HD or DTS:X (PCM passthrough only)",
+      "Connectivity": "Wi-Fi, Bluetooth, Apple AirPlay 2, Ethernet",
+      "Voice Assistants": "Amazon Alexa, Google Assistant built-in",
+      "Dimensions": "45.5\" W x 3.4\" H x 4.5\" D",
+      "Expandable": "Yes — Sonos Sub, Era 100/300 for surround",
+      "App": "Sonos app (required for setup and control)"
+    }
+  },
+  {
+    "id": "sony-bravia-9-65-mini-led-tv",
+    "name": "Sony BRAVIA 9 65\" Mini LED QLED 4K Smart TV",
+    "category": "Home Entertainment",
+    "score": 9,
+    "tag": "Best Mini-LED TV for Dark Room Precision",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/815JlBJENqL._AC_SX500_.jpg",
+    "price": "~$3198 CAD",
+    "page": "products/sony-bravia-9-65-mini-led-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CVQB2D6C/?tag=clearpick06-20",
+    "subscores": {
+      "Picture Quality": 9.5,
+      "Gaming Performance": 8,
+      "Smart TV & Features": 9,
+      "Build & Design": 9.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Screen Size": "65 inches",
+      "Resolution": "4K UHD (3840 x 2160)",
+      "Panel Type": "Mini-LED QLED (XR Backlight Master Drive)",
+      "Peak Brightness": "~3,000+ nits (HDR)",
+      "Refresh Rate": "Native 120Hz (XR Motion Clarity Pro)",
+      "HDR Support": "Dolby Vision, HDR10, HLG (no HDR10+)",
+      "Gaming": "2x HDMI 2.1 (4K/120Hz), VRR, Auto Low Latency Mode",
+      "Smart Platform": "Google TV (Bravia Core, PlayStation content hub)",
+      "Audio": "2.2-channel, 60W, Acoustic Multi-Audio, Dolby Atmos",
+      "Processor": "XR Cognitive Processor"
+    }
   }
 ]

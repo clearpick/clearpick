@@ -1,0 +1,63 @@
+{
+  "slug": "traeger-pro-575-pellet-grill",
+  "name": "Traeger Pro 575 Wi-Fi Pellet Grill",
+  "category": "Outdoor Cooking",
+  "categoryPage": "outdoor-cooking.html",
+  "brand": "Traeger",
+  "filterTag": "Pellet Grills",
+  "asin": "B07NNV6F2S",
+  "price": 600,
+  "priceDisplay": "$600 CAD",
+  "score": 8.0,
+  "tag": "Best Set-and-Forget Smoker for Beginners",
+  "image": "https://m.media-amazon.com/images/I/617P84KmxhL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07NNV6F2S/?tag=clearpick06-20",
+  "subscores": {
+    "Cook Performance": 7.5,
+    "Durability & Build Quality": 7.5,
+    "Ease of Use": 9.0,
+    "Features & Versatility": 7.0,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Cooking Area": "572 sq in (418 main + 154 rack)",
+    "Pellet Hopper Capacity": "18 lb",
+    "Temperature Range": "165°F – 500°F",
+    "Controller": "D2 Direct Drive with TurboTemp",
+    "Connectivity": "WiFIRE Wi-Fi + Traeger App (iOS/Android)",
+    "Meat Probes": "1 port, 1 probe included",
+    "Weight": "124 lbs",
+    "Exterior Material": "Painted steel",
+    "Warranty": "1–3 years (component dependent)",
+    "Fuel Type": "Wood pellets"
+  },
+  "whatWorks": [
+    "Industry-leading WiFIRE app is genuinely reliable — monitors temps, sends alerts, and lets you adjust or shut down the grill from your phone without the connection drops common on competitor apps.",
+    "D2 PID controller holds temperature within ~5°F at low-and-slow settings (225–250°F), producing consistently tender ribs, brisket, and pulled pork with a clean smoke ring.",
+    "TurboTemp helps the grill recover quickly after lid lifts and keeps temps stable during cold Canadian winters — no insulated blanket needed for most fall/winter cooks.",
+    "Porcelain-coated grates show no rust after years of use and are easy to clean — a practical advantage over bare cast iron in Canada's wet shoulder seasons."
+  ],
+  "worthKnowing": [
+    "The Pro 575 was discontinued by Traeger in early 2025 and replaced by the Traeger Woodridge, which offers more cooking space, better ash cleanup, and a 10-year warranty for roughly the same price — only worth buying the Pro 575 if found at a notable discount.",
+    "Smoke flavor is noticeably subtler than charcoal or offset smokers; even at 225°F, pellet smoke is mild. Running overnight at 180°F before bumping to 250°F is the common workaround for deeper flavor.",
+    "No direct flame searing option — the 500°F max through indirect heat can't match a gas grill for steaks. If you want one outdoor cooker to do both smoking and searing, this isn't it.",
+    "The 18 lb hopper holds less than a standard 20 lb pellet bag, meaning you'll have 2 lb of leftovers every refill. The side-mounted grease tin can also tip over — worth lining with foil and checking before each cook."
+  ],
+  "verdict": "The Traeger Pro 575 is a genuinely great beginner smoker that makes low-and-slow BBQ approachable: reliable app, accurate temps, and tender results without babysitting. However, Traeger discontinued it in 2025 and its replacement (the Woodridge) offers meaningfully more at the same price — so the Pro 575 is only a smart buy at clearance. If you find it under $500 CAD, it's excellent value for someone who wants set-and-forget smoking without complexity.",
+  "realBuyers": [
+    {"quote": "I've had mine since 2020 and use it almost every week — the app is legitimately the best part, being able to bump the temp from bed at midnight without going outside is a game changer.", "source": "Smoked BBQ Source reviewer"},
+    {"quote": "The smoke flavor is subtle compared to my old Weber Smokey Mountain, but honestly my family prefers it — not everything needs to taste like a campfire.", "source": "Smoked BBQ Source / r/pelletgrills"},
+    {"quote": "Great grill but just know it can't replace your propane grill for steaks — it's a smoker first and a grill second.", "source": "Amazon.ca reviewer"}
+  ],
+  "sources": [
+    {"title": "Smoked BBQ Source: Traeger Pro Pellet Grill Review — Still Worth It in 2026?", "url": "https://www.smokedbbqsource.com/traeger-pro-pellet-grill-review/"},
+    {"title": "AmazingRibs.com: Traeger Pro 575 Pellet Grill Review (Gold Medal)", "url": "https://amazingribs.com/smoker/traeger-pro-575-pellet-grill-review/"},
+    {"title": "Amazon.ca: Traeger Pro 575 Black — Product Listing", "url": "https://www.amazon.ca/dp/B07NNV6F2S"}
+  ],
+  "metaDescription": "Traeger Pro 575 review for Canadian buyers: excellent WiFIRE app, consistent low-and-slow temps, and beginner-friendly operation. Best value at clearance prices.",
+  "introText": "The Traeger Pro 575 is the entry-level model in Traeger's WiFi-enabled pellet grill lineup, featuring a PID D2 controller, 572 sq in of cooking space, and the well-regarded WiFIRE app for remote monitoring. It was Traeger's most popular smoker until the Woodridge replaced it in early 2025, but it remains available at $600 CAD on Amazon.ca and offers solid set-and-forget performance for anyone new to pellet smoking.",
+  "researchedAt": "2026-06-12",
+  "newCategoryPage": true,
+  "currentProductCount": 0,
+  "newProductCount": 1
+}

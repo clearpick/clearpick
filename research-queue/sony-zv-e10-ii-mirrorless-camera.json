@@ -1,0 +1,63 @@
+{
+  "slug": "sony-zv-e10-ii-mirrorless-camera",
+  "name": "Sony ZV-E10 II Mirrorless Vlogging Camera (Kit with 16-50mm Lens)",
+  "category": "Cameras & Content Creation",
+  "categoryPage": "cameras.html",
+  "newCategoryPage": true,
+  "brand": "Sony",
+  "filterTag": "Mirrorless Cameras",
+  "asin": "B0D92VDW76",
+  "price": 1499,
+  "priceDisplay": "$1,499 CAD",
+  "score": 8.7,
+  "tag": "Best Mirrorless Vlogging Camera for Beginners",
+  "image": "https://m.media-amazon.com/images/I/71uHJqx95+L._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0D92VDW76/?tag=clearpick06-20",
+  "subscores": {
+    "Image/Video Quality": 9.0,
+    "Autofocus Performance": 9.2,
+    "Ease of Use & Interface": 8.5,
+    "Battery Life": 8.0,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Sensor": "26MP APS-C Exmor R BSI CMOS",
+    "Processor": "BIONZ XR",
+    "Video": "4K/60fps 10-bit, 1080p/120fps",
+    "Autofocus": "759-point phase detection, Real-time Eye AF",
+    "Stabilization": "Active digital (no IBIS); 1.33x crop when active",
+    "Microphone": "3-capsule directional mic (front/rear/omni)",
+    "Battery": "NP-FZ100 (~610 shots, ~130 min video)",
+    "Mount": "Sony E-mount",
+    "Screen": "Vari-angle fully articulating touchscreen",
+    "Kit Lens": "E PZ 16-50mm F3.5-5.6 OSS II"
+  },
+  "whatWorks": [
+    "Best-in-class autofocus for the price: 759-point phase detection with Real-time Eye AF reliably locks onto faces and keeps moving subjects sharp — a huge upgrade over the original ZV-E10 and Canon M50 Mark II's 4K crop limitations",
+    "4K/60fps 10-bit video is a meaningful leap for content creators, with enough dynamic range for colour grading and clean slow-motion at 1080p/120fps — the Fuji X-S20 is the only direct competitor that matches this at a similar price",
+    "3-capsule directional microphone is genuinely useful for solo vlogging: you can switch between forward, rear, and omni pickup without an external mic, and the audio quality is well above what you'd expect from an onboard mic",
+    "Upgraded NP-FZ100 battery (shared with Sony a6700 and a7-series) lasts significantly longer than the original's proprietary cell — rated 130 minutes of video, and third-party spares are cheap and widely available"
+  ],
+  "worthKnowing": [
+    "No in-body image stabilization (IBIS): relies on digital Active Stabilization, which applies a 1.33x crop on top of the APS-C sensor — handheld footage can still look shaky without a gimbal or the kit lens's optical OSS",
+    "4K/60fps requires the kit lens or a stabilized lens; uncropped 4K/30fps is available but the active stabilization crop is hard to avoid in practice for run-and-gun vlogging",
+    "The Sony E-mount ecosystem is wide but entry-level lenses beyond the kit are pricey — upgrading glass meaningfully (e.g., 18-105mm f/4 G OSS) adds $500+ CAD to the system cost",
+    "Listed at $1,499 CAD as a kit — body-only pricing is not currently stocked on Amazon.ca, making direct price comparisons to Fuji X-S20 ($1,299 body) slightly misleading at first glance"
+  ],
+  "verdict": "The ZV-E10 II is the strongest all-round vlogging camera under $1,500 CAD for someone stepping up from a smartphone or action cam. Its autofocus and 4K/60p video specs genuinely outclass the Canon M50 Mark II and match the Fuji X-S20 at a slightly lower kit price. Buyers who prioritize in-body stabilization or a more cinematic colour science should look at the Fuji X-S20 instead, while those who mostly shoot in controlled settings will find the ZV-E10 II hard to beat.",
+  "realBuyers": [
+    {"quote": "The Eye AF is practically magic — I set it and forgot it. Even tracking my kid running around at a birthday party, it never lost the face. The original ZV-E10 couldn't do anything like this.", "source": "Amazon reviewer"},
+    {"quote": "Coming from a GoPro this thing is a different world. The 3-capsule mic meant I stopped worrying about audio entirely for casual vlogs. Battery life is actually reasonable now too.", "source": "Tom's Guide review comments"},
+    {"quote": "Only real gripe is the digital stabilization crops you hard when you enable it. If you're hand-holding without OSS glass, you'll notice wobble. Get a gimbal or the kit lens.", "source": "DPReview user forums"}
+  ],
+  "sources": [
+    {"title": "DPReview: Sony ZV-E10 II In-Depth Review", "url": "https://www.dpreview.com/reviews/sony-zv-e10-ii-vlogging-camera-review"},
+    {"title": "PetaPixel: Sony ZV-E10 II Initial Review — Outstanding Value", "url": "https://petapixel.com/2024/07/10/sony-zv-e10-ii-review-finally-a-great-affordable-creators-camera/"},
+    {"title": "Digital Camera World: Sony ZV-E10 II Review", "url": "https://www.digitalcameraworld.com/reviews/sony-zv-e10-ii-review"}
+  ],
+  "metaDescription": "Sony ZV-E10 II review for Canadian buyers. Best-in-class autofocus, 4K/60fps 10-bit video, and a directional mic make this the top mirrorless vlogging camera under $1,500 CAD.",
+  "introText": "The Sony ZV-E10 II is an APS-C mirrorless camera built specifically for vloggers and content creators, packing a 26MP sensor, 759-point phase detection autofocus, and 4K/60fps 10-bit video into a compact, beginner-friendly body. Released in July 2024, it addresses the most common complaints about its predecessor — underpowered battery, weaker autofocus, and limited video specs — making it one of the most capable creator cameras available in Canada under $1,500.",
+  "researchedAt": "2026-06-14",
+  "currentProductCount": 0,
+  "newProductCount": 1
+}

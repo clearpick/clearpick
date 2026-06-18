@@ -1,0 +1,63 @@
+{
+  "slug": "bowflex-selecttech-840-kettlebell",
+  "name": "Bowflex SelectTech 840 Adjustable Kettlebell",
+  "category": "Fitness",
+  "categoryPage": "fitness.html",
+  "brand": "Bowflex",
+  "filterTag": "Kettlebells",
+  "asin": "B07X64MXBS",
+  "price": 159,
+  "priceDisplay": "$159 CAD",
+  "score": 7.8,
+  "tag": "Best Adjustable Kettlebell for Beginners and Small Spaces",
+  "image": "https://m.media-amazon.com/images/I/61GhgyYpcRL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07X64MXBS/?tag=clearpick06-20",
+  "subscores": {
+    "Adjustability & Ease of Use": 9.5,
+    "Space Efficiency": 9.0,
+    "Weight Range": 7.0,
+    "Build & Durability": 6.5,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Weight Range": "8–40 lbs (6 settings: 8, 12, 20, 25, 35, 40)",
+    "Adjustment": "Twist-dial on top",
+    "Handle Material": "Welded steel",
+    "Shell Material": "Plastic",
+    "Dimensions": "12.5\" H x 8.8\" L x 7\" W",
+    "Warranty": "2 years (manufacturing defects)"
+  },
+  "whatWorks": [
+    "Replaces six individual kettlebells with a single twist of the dial — the adjustment mechanism is genuinely fast and doesn't require tools or disassembly between sets",
+    "Compact enough to store under a desk or in a closet — the cradle footprint is smaller than a shoebox, making it the most space-efficient kettlebell option available",
+    "At $159 CAD, it costs less than buying two quality cast iron kettlebells — the savings are real for beginners who don't yet know which weights they'll use most",
+    "Plastic shell is softer on the skin than bare cast iron during racked positions and overhead holds — actually more comfortable for goblet squats and cleans"
+  ],
+  "worthKnowing": [
+    "Caps out at 40 lbs — anyone progressing beyond beginner level will outgrow the top weight within 6–12 months and need to buy additional equipment anyway",
+    "Plastic construction means it cannot be dropped on hard floors without risk of cracking — Bowflex explicitly states not to drop it, which rules out ballistic movements on concrete or outdoor use",
+    "The shape is bulkier and less balanced than traditional cast iron kettlebells — some users find the awkward proportions interfere with proper swing mechanics, particularly at higher weights",
+    "Only a 2-year warranty on a plastic product — competitors like REP Fitness offer lifetime warranties on cast iron options at a similar price point"
+  ],
+  "commonComplaints": [
+    {"complaint": "Handle is thin and slick — multiple reviewers note it feels like hands are sweating even when dry, causing grip insecurity during swings and snatches.", "source": "BarBend review + Amazon 3-star reviews"},
+    {"complaint": "Weight jumps are inconsistent and large — goes from 12 to 20 lbs in one step, which is too much for beginners learning new movements and forces awkward pacing.", "source": "Best Buy customer reviews + r/kettlebell"},
+    {"complaint": "Wobble in the adjustment stem is noticeable during use — not a safety issue but consistently mentioned as an annoyance that makes the product feel cheaper than its price.", "source": "BarBend hands-on review + Walmart reviewers"}
+  ],
+  "verdict": "The Bowflex SelectTech 840 is the right kettlebell for someone with zero storage space who wants to try kettlebell training without buying multiple weights. For that specific use case it delivers. The problems start if you progress — 40 lbs is a ceiling most intermediate lifters hit quickly, and the plastic construction means you need to treat it carefully. Serious kettlebell athletes should buy cast iron from the start; this is a beginner's tool.",
+  "realBuyers": [
+    {"quote": "Perfect for my apartment where I have zero room. Sits on a shelf and does the job of six kettlebells. I know I'll outgrow the 40lb limit eventually but for now it's exactly what I needed.", "source": "Amazon.ca reviewer"},
+    {"quote": "The dial adjustment is so smooth — takes two seconds to change the weight between exercises. That alone is worth it for circuit training.", "source": "Best Buy customer review"},
+    {"quote": "Dropped it once from waist height onto a rubber mat and a small crack appeared in the shell. Not broken, but now I'm nervous every time I use it.", "source": "Walmart reviewer"}
+  ],
+  "sources": [
+    {"title": "BarBend: Bowflex SelectTech 840 Adjustable Kettlebell Review (2026)", "url": "https://barbend.com/bowflex-selecttech-840-adjustable-kettlebell-review/"},
+    {"title": "Men's Fitness: Bowflex SelectTech 840 Review", "url": "https://mensfitness.co.uk/review/bowflex-selecttech-840-review/"},
+    {"title": "Amazon.ca: Bowflex 840 SelectTech Kettlebell Customer Reviews", "url": "https://www.amazon.ca/dp/B07X64MXBS"}
+  ],
+  "metaDescription": "Bowflex SelectTech 840 adjustable kettlebell review for Canada. Six weights in one at $159 CAD — honest take on the plastic build, 40lb cap, and who should buy it.",
+  "introText": "The Bowflex SelectTech 840 solves one specific problem: having six kettlebells worth of functionality in the footprint of one. The twist-dial adjustment is genuinely fast, the storage is unmatched, and at $159 CAD it costs less than two quality cast iron kettlebells. The trade-off is a plastic shell that can't handle drops, a 40-pound ceiling that intermediate lifters will outgrow, and handle proportions that feel different from traditional bells.",
+  "researchedAt": "2026-06-14",
+  "currentProductCount": 14,
+  "newProductCount": 15
+}

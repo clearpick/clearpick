@@ -1,0 +1,103 @@
+{
+  "slug": "samsung-s95d-65-qd-oled-tv",
+  "name": "Samsung 65\" S95D QD-OLED 4K Smart TV",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "brand": "Samsung",
+  "filterTag": "OLED TVs",
+  "subcategory": "oled-tvs",
+  "asin": "B0CV9BPF93",
+  "price": 2498,
+  "priceDisplay": "$2,498 CAD",
+  "score": 9.2,
+  "tag": "Best OLED TV for Bright Rooms",
+  "image": "https://m.media-amazon.com/images/I/71xWQcSOvsL._AC_SX500_.jpg",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CV9BPF93/?tag=clearpick06-20",
+  "subscores": {
+    "Picture Quality": 9.5,
+    "Gaming Performance": 9.5,
+    "Smart TV & Features": 8.5,
+    "Bright Room Performance": 9.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Screen Size": "65 inches",
+    "Resolution": "4K UHD (3840 x 2160)",
+    "Panel Type": "QD-OLED (Quantum Dot OLED)",
+    "Peak Brightness": "~2,000 nits (HDR)",
+    "Refresh Rate": "Native 144Hz",
+    "HDR Support": "HDR10, HDR10+, HLG (no Dolby Vision)",
+    "Gaming": "4x HDMI 2.1, 4K 144Hz, VRR, FreeSync Premium Pro, G-Sync Compatible",
+    "Smart Platform": "Tizen OS",
+    "Audio": "Object Tracking Sound+, Q-Symphony, Dolby Atmos",
+    "Anti-Glare": "Glare Free OLED panel coating (industry-first)"
+  },
+  "whatWorks": [
+    "Glare-Free OLED coating is a genuine breakthrough — this is the first OLED TV that's actually usable in a bright living room. The anti-reflective treatment reduces reflections without sacrificing the perfect black levels OLED is known for",
+    "QD-OLED hits ~2,000 nits peak brightness — roughly twice what traditional OLED can achieve — making HDR highlights genuinely impactful even in lit environments",
+    "Four full HDMI 2.1 ports at 144Hz make this the most fully-equipped gaming TV in its class — PS5, Xbox Series X, PC, and a fourth device all connected simultaneously with no compromise",
+    "Motion handling is exceptional at 144Hz native — sports, gaming, and action movies look cleaner than any 120Hz OLED"
+  ],
+  "worthKnowing": [
+    "No Dolby Vision support — Samsung's refusal to license Dolby Vision means Netflix, Disney+, and Apple TV+ streams cap at HDR10+ rather than Dolby Vision. This is a real limitation for streaming-heavy households",
+    "OLED burn-in risk is real and not covered by Samsung's warranty — heavy gamers or people who watch content with persistent static elements (news tickers, sports scores) should plan to use Samsung's built-in pixel refresh features diligently",
+    "Tizen OS serves ads in the home screen between apps — even on a $2,500 TV, Samsung's smart platform shows sponsored content that you can't fully disable",
+    "Sound quality is thin at higher volumes — the built-in speakers can't fill a large room, making a soundbar a practical requirement for movie watching"
+  ],
+  "commonComplaints": [
+    {
+      "title": "No Dolby Vision — Samsung is the only major brand without it",
+      "body": "No Dolby Vision is the most-repeated complaint in r/hometheater — Samsung is the only major TV brand that doesn't support it, and with Netflix, Disney+, and Apple TV+ all using Dolby Vision as their premium HDR tier, it's a meaningful gap that affects daily streaming quality.",
+      "source": "r/hometheater, r/Televisions"
+    },
+    {
+      "title": "Burn-in risk on QD-OLED panel documented in previous S90C/S95C models",
+      "body": "Burn-in on previous QD-OLED Samsung models (S90C, S95C) is well-documented in owner threads — while the S95D's improved brightness may slow the process, Samsung's warranty explicitly excludes burn-in. The AVSForum S95D owners thread has multiple burn-in reports within 18 months of purchase.",
+      "source": "AVSForum 2024 Samsung S95D owners thread, r/OLED"
+    },
+    {
+      "title": "Tizen OS injects ads and promoted apps on a $2,500 TV",
+      "body": "Tizen OS home screen ads frustrate owners of a $2,500 TV — Samsung injects promoted apps and streaming content between icons, and multiple firmware updates have re-enabled ads after users disabled them in settings.",
+      "source": "r/Televisions, r/4kTV"
+    }
+  ],
+  "verdict": "The Samsung S95D is the best OLED TV for bright rooms and the top gaming display at its price. The Glare-Free coating solves a long-standing OLED weakness, and QD-OLED's 2,000-nit HDR punch is something traditional OLED can't match. The catches: no Dolby Vision (a real daily annoyance for streamers), burn-in risk that Samsung won't warranty, and Tizen ads you can't fully escape. If you watch mostly in a bright room and game seriously, this is the pick. If you stream heavily on Netflix or want Dolby Vision, look at the LG C5.",
+  "realBuyers": [
+    {
+      "quote": "Had an LG C2 before this. The S95D in my living room looks better — the glare coating actually works. In my dark home theater the LG looked better, but that's not where I watch TV.",
+      "source": "r/hometheater"
+    },
+    {
+      "quote": "No Dolby Vision killed it for me when I realized how much content I watch on Netflix and Apple TV+. Returned it and got the LG C5.",
+      "source": "r/Televisions"
+    },
+    {
+      "quote": "Gaming on this thing at 144Hz is absurd. PC and PS5 both connected, zero compromise, input lag is practically zero. Best gaming TV I've owned.",
+      "source": "r/4kTV"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FlatpanelsHD: Samsung S95D QD-OLED Review",
+      "url": "https://www.flatpanelshd.com/review.php?subaction=showfull&id=1726124369"
+    },
+    {
+      "title": "Tom's Guide: Samsung S95D OLED Review — Glare-Free is Legit",
+      "url": "https://tomsguide.com/reviews/samsung-s95d-oled-tv"
+    },
+    {
+      "title": "AVSForum: 2024 Samsung S95D & S90D Owners Thread",
+      "url": "https://www.avsforum.com/threads/2024-samsung-s95d-s90d-4k-qd-oled-owners-thread-no-price-talk.3298006/"
+    }
+  ],
+  "metaDescription": "Samsung S95D 65\" QD-OLED review for Canada. Glare-free OLED, 144Hz gaming, $2,498 CAD. Honest take on no Dolby Vision, burn-in risk, and who it's really for.",
+  "introText": "The Samsung S95D is the first OLED TV designed to work in a bright room. Its Glare-Free OLED coating reduces reflections without compromising the perfect black levels that make OLED special. Add 2,000-nit QD-OLED brightness, native 144Hz, and 4 HDMI 2.1 ports, and it's the strongest case for non-LG OLED in years. The trade-offs: no Dolby Vision support and burn-in risk Samsung won't warranty.",
+  "researchedAt": "2026-06-15",
+  "currentProductCount": 5,
+  "newProductCount": 6,
+  "similarProducts": [
+    "lg-c5-oled-65-tv",
+    "samsung-q80d-65-qled-tv",
+    "hisense-u88qg-65-mini-led-tv"
+  ]
+}
