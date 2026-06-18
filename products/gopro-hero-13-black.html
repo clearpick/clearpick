@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
@@ -142,8 +142,14 @@ window.addEventListener('load', () => {
 <p class="product-hero__desc">The GoPro HERO13 Black is the 13th iteration of the camera that invented the action camera category — and it's still the benchmark for high-intensity sports footage. With HyperSmooth 6.0 stabilization, 5.3K60 video, and 33-foot waterproofing without a housing, it's as capable as it has ever been. The main debates in 2024 are about battery life (real-world ~1.5–2 hours) and whether DJI's Osmo Action 5 Pro has finally caught up. For daylight adventure sports, GoPro still edges ahead.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
-<span class="clearpick-score-title">ClearPick Score</span>
-<span class="clearpick-score-overall">8.6 <span>/ 10</span></span>
+<div class="clearpick-score-lockup">
+<svg class="clearpick-score-lockup__mark" width="28" height="28" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+<span class="clearpick-score-lockup__label">Score</span>
+</div>
+<div class="clearpick-score-right">
+<span class="clearpick-score-number">8.6 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
+</div>
 </div>
 <div class="clearpick-score-bars">
 <div class="clearpick-score-bar">
@@ -188,7 +194,7 @@ window.addEventListener('load', () => {
     <span class="source-pill">Reddit (r/backpacking)</span>
     <span class="source-pill">Reddit (r/gopro)</span>
     <span class="source-pill">Reddit (r/videography)</span>
-    <a class="score-sources__method-link" href="../methodology.html">· How we score →</a>
+    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
 </p>
 </div>
 <section class="successor-callout successor-callout--superseded" role="note">
@@ -331,8 +337,9 @@ View on Amazon.ca →
 </div>
 </footer>
 <script>
+(function(){var s=localStorage.getItem('cp-theme');if(s==='dark')document.documentElement.classList.add('theme-dark');else if(s==='light')document.documentElement.classList.add('theme-light');}());
 const themeBtn = document.querySelector('[data-theme-toggle]');
-if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+if (themeBtn) { const root = document.documentElement; themeBtn.addEventListener('click', () => { const dark = root.classList.contains('theme-dark') || (!root.classList.contains('theme-light') && window.matchMedia('(prefers-color-scheme: dark)').matches); if (dark) { root.classList.remove('theme-dark'); root.classList.add('theme-light'); localStorage.setItem('cp-theme', 'light'); } else { root.classList.remove('theme-light'); root.classList.add('theme-dark'); localStorage.setItem('cp-theme', 'dark'); } }); }
 document.addEventListener('click', e => { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
 </script>
 <script src="../js/nav-inject.js"></script>

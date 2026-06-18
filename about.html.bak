@@ -1,18 +1,18 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy | ClearPick</title>
-  <meta name="description" content="ClearPick's privacy policy — how we collect, use, and protect your information." />
-  <meta property="og:title" content="Privacy Policy | ClearPick" />
-  <meta property="og:description" content="ClearPick's privacy policy — how we collect, use, and protect your information." />
+  <title>About ClearPick | Canada's Clearest Product Reviews</title>
+  <meta name="description" content="ClearPick aggregates real scores from Amazon, Reddit, Wirecutter and more — no paid placements, no sponsored picks. One honest verdict per product." />
+  <meta property="og:title" content="About ClearPick | Canada's Clearest Product Reviews" />
+  <meta property="og:description" content="ClearPick aggregates real scores from Amazon, Reddit, Wirecutter and more — no paid placements, no sponsored picks. One honest verdict per product." />
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://clearpick.ca/privacy.html" />
+  <meta property="og:url" content="https://clearpick.ca/about.html" />
   <meta property="og:image" content="https://clearpick.ca/og-image.png" />
   <link rel="stylesheet" href="css/style.css" />
-  <link rel="canonical" href="https://clearpick.ca/privacy.html" />
+  <link rel="canonical" href="https://clearpick.ca/about.html" />
 </head>
 <body>
 
@@ -148,82 +148,66 @@
 
   <section class="page-hero">
     <div class="container">
-      <div class="page-hero__icon">🔒</div>
-      <h1 class="page-hero__title">Privacy Policy</h1>
-      <p class="page-hero__subtitle">Last updated: June 2026</p>
+      <div class="page-hero__icon">👋</div>
+      <h1 class="page-hero__title">About ClearPick</h1>
+      <p class="page-hero__subtitle">An independent review site built by someone who got tired of AI tool recommendations that were clearly just paid placements.</p>
     </div>
   </section>
 
   <section class="section">
     <div class="container" style="max-width: 740px;">
-      <div style="display: flex; flex-direction: column; gap: var(--space-10); color: var(--color-text-muted); line-height: 1.75;">
+
+      <div style="display: flex; flex-direction: column; gap: var(--space-10);">
 
         <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">1. Overview</h2>
-          <p>ClearPick ("we", "us", or "our") operates the website clearpick.ca. This Privacy Policy explains what information we collect, how we use it, and your rights regarding your data. We are committed to protecting your privacy and being transparent about our practices.</p>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">Why ClearPick Exists</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">The AI tools space moves fast — new tools launch every week, pricing changes constantly, and most "best of" lists online are written by people who never actually used the tools they're recommending.</p>
+          <p style="color: var(--color-text-muted); line-height: 1.75;">ClearPick exists to cut through that noise. Every tool on this site gets real, hands-on testing. We use them for actual work — writing articles, generating images, coding projects, editing videos — before we rank them. If a tool doesn't hold up in practice, it doesn't rank highly here, regardless of how much commission it pays.</p>
         </div>
 
         <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">2. Information We Collect</h2>
-          <p style="margin-bottom: var(--space-3);"><strong style="color: var(--color-text);">Information you provide:</strong> If you subscribe to our newsletter, we collect your email address. We do not sell, rent, or share your email with third parties for marketing purposes.</p>
-          <p style="margin-bottom: var(--space-3);"><strong style="color: var(--color-text);">Automatically collected information:</strong> Like most websites, we may collect basic usage data such as pages visited, time spent on pages, browser type, and general geographic location (country/region level). This data is aggregated and anonymous.</p>
-          <p><strong style="color: var(--color-text);">Information we do NOT collect:</strong> We do not collect payment information, government IDs, or any sensitive personal data. We do not require account creation to use this site.</p>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">How We Test Tools</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">Every tool is scored across five dimensions:</p>
+          <div style="display: grid; gap: var(--space-3);">
+            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5);">
+              <strong style="color: var(--color-text);">Output Quality</strong>
+              <p style="color: var(--color-text-muted); font-size: var(--text-sm); margin-top: var(--space-1);">Does it actually produce good results in real-world use cases?</p>
+            </div>
+            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5);">
+              <strong style="color: var(--color-text);">Ease of Use</strong>
+              <p style="color: var(--color-text-muted); font-size: var(--text-sm); margin-top: var(--space-1);">Can a non-technical person get value from it quickly?</p>
+            </div>
+            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5);">
+              <strong style="color: var(--color-text);">Value for Money</strong>
+              <p style="color: var(--color-text-muted); font-size: var(--text-sm); margin-top: var(--space-1);">Is the pricing fair relative to what you get?</p>
+            </div>
+            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5);">
+              <strong style="color: var(--color-text);">Feature Depth</strong>
+              <p style="color: var(--color-text-muted); font-size: var(--text-sm); margin-top: var(--space-1);">Does it do one thing well or offer a genuinely useful range of capabilities?</p>
+            </div>
+            <div style="background: var(--color-surface); border: 1px solid var(--color-border); border-radius: var(--radius-lg); padding: var(--space-4) var(--space-5);">
+              <strong style="color: var(--color-text);">Reliability</strong>
+              <p style="color: var(--color-text-muted); font-size: var(--text-sm); margin-top: var(--space-1);">Does it consistently deliver, or does it break down under real workloads?</p>
+            </div>
+          </div>
         </div>
 
         <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">3. Affiliate Links & Third-Party Sites</h2>
-          <p style="margin-bottom: var(--space-3);">ClearPick participates in affiliate marketing programs. This means some links on our site are affiliate links — if you click one and make a purchase, we may earn a commission at no extra cost to you.</p>
-          <p style="margin-bottom: var(--space-3);">Our affiliate partners include programs managed through Impact, PartnerStack, Amazon Associates, and direct affiliate programs. When you click an affiliate link, you are subject to the privacy policy of the destination website, not ours.</p>
-          <p>Affiliate links on this site are labeled with <code style="background: var(--color-surface-offset); padding: 2px 6px; border-radius: var(--radius-sm); font-size: var(--text-xs);">rel="sponsored"</code> attributes and disclosed in our footer. Our rankings are never influenced by commission rates.</p>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">Our Affiliate Policy</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">ClearPick earns commissions through affiliate links — when you click a link on this site and purchase a tool, we may earn a percentage at no extra cost to you. This is how we keep the site running.</p>
+          <p style="color: var(--color-text-muted); line-height: 1.75; margin-bottom: var(--space-4);">However, commission rates <strong style="color: var(--color-text);">never influence rankings</strong>. A tool that pays us 5% but is genuinely the best option will always rank above a tool that pays 30% but underdelivers. We'd rather recommend something great and earn less than recommend something mediocre and earn more — that's the only way to build a site people trust.</p>
+          <p style="color: var(--color-text-muted); line-height: 1.75;">All affiliate links on ClearPick are clearly marked with <code style="background: var(--color-surface-offset); padding: 2px 6px; border-radius: var(--radius-sm); font-size: var(--text-xs);">rel="sponsored"</code> in the HTML and disclosed in our footer.</p>
         </div>
 
         <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">4. Cookies</h2>
-          <p style="margin-bottom: var(--space-3);">ClearPick itself does not use tracking cookies or advertising cookies. We store only your theme preference (dark/light mode) in your browser session — this contains no personal information and is never sent to our servers.</p>
-          <p>Third-party affiliate networks (Impact, PartnerStack, Amazon Associates) may set their own cookies when you click affiliate links to track referrals. These cookies are governed by the respective network's privacy policy.</p>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">Updates & Accuracy</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75;">Rankings are reviewed and updated monthly. AI tools change rapidly — pricing updates, new features ship, quality shifts — so we re-test regularly to make sure our recommendations stay accurate. The last review date is shown on every category page.</p>
         </div>
 
         <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">5. Amazon Associates Disclosure</h2>
-          <p>ClearPick is a participant in the Amazon Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com and Amazon.ca. As an Amazon Associate, we earn from qualifying purchases.</p>
-        </div>
-
-        <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">6. How We Use Your Information</h2>
-          <p>Any information collected is used solely to:</p>
-          <ul style="margin-top: var(--space-3); padding-left: var(--space-6); display: flex; flex-direction: column; gap: var(--space-2);">
-            <li>Deliver newsletter emails if you subscribed</li>
-            <li>Improve site content and user experience</li>
-            <li>Understand which content is most useful to visitors</li>
-          </ul>
-          <p style="margin-top: var(--space-3);">We do not sell your data to third parties. We do not use your data for advertising targeting.</p>
-        </div>
-
-        <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">7. Your Rights</h2>
-          <p style="margin-bottom: var(--space-3);">Depending on your location, you may have rights under applicable privacy laws (including GDPR, PIPEDA, and CCPA) to:</p>
-          <ul style="margin-top: var(--space-3); padding-left: var(--space-6); display: flex; flex-direction: column; gap: var(--space-2);">
-            <li>Access the personal data we hold about you</li>
-            <li>Request correction of inaccurate data</li>
-            <li>Request deletion of your data</li>
-            <li>Unsubscribe from our newsletter at any time</li>
-          </ul>
-          <p style="margin-top: var(--space-3);">To exercise any of these rights, contact us at the email below.</p>
-        </div>
-
-        <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">8. Children's Privacy</h2>
-          <p>ClearPick is not directed at children under 13. We do not knowingly collect personal information from children. If you believe a child has provided us with personal information, please contact us and we will delete it promptly.</p>
-        </div>
-
-        <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">9. Changes to This Policy</h2>
-          <p>We may update this Privacy Policy from time to time. Changes will be posted on this page with an updated date. Continued use of the site after changes constitutes acceptance of the updated policy.</p>
-        </div>
-
-        <div>
-          <h2 style="font-size: var(--text-lg); font-weight: 700; color: var(--color-text); margin-bottom: var(--space-3);">10. Contact</h2>
-          <p>For any privacy-related questions or requests, contact us at: <a href="mailto:hello@clearpick.io" style="color: var(--color-primary);">hello@clearpick.io</a></p>
+          <h2 style="font-size: var(--text-xl); font-weight: 700; margin-bottom: var(--space-4); color: var(--color-text);">Get in Touch</h2>
+          <p style="color: var(--color-text-muted); line-height: 1.75;">Have a tool you think we should review? Found an error in our rankings? We'd love to hear from you.</p>
+          <a href="mailto:hello@clearpick.io" class="btn btn--primary" style="margin-top: var(--space-4); display: inline-flex;">Contact Us</a>
         </div>
 
       </div>
@@ -233,7 +217,7 @@
   <footer class="site-footer">
     <div class="container">
       <div class="footer-bottom" style="border-top: none; padding-top: 0; margin-top: 0;">
-        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="index.html">Home</a> · <a href="about.html">About</a> · <a href="faq.html">How It Works</a> · <a href="/compare/">Compare</a></p>
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="index.html">Home</a> · <a href="faq.html">How It Works</a> · <a href="/compare/">Compare</a> · <a href="privacy.html">Privacy Policy</a></p>
         <p class="footer-bottom__disclaimer">Some links are affiliate links. Rankings based solely on tool quality, never commission rates.</p>
       </div>
     </div>
@@ -578,13 +562,7 @@
 })();
 
 
-</script>  <script>
-(function(){var s=localStorage.getItem('cp-theme');if(s==='dark')document.documentElement.classList.add('theme-dark');else if(s==='light')document.documentElement.classList.add('theme-light');}());
-const themeBtn = document.querySelector('[data-theme-toggle]');
-if (themeBtn) { const root = document.documentElement; themeBtn.addEventListener('click', () => { const dark = root.classList.contains('theme-dark') || (!root.classList.contains('theme-light') && window.matchMedia('(prefers-color-scheme: dark)').matches); if (dark) { root.classList.remove('theme-dark'); root.classList.add('theme-light'); localStorage.setItem('cp-theme', 'light'); } else { root.classList.remove('theme-light'); root.classList.add('theme-dark'); localStorage.setItem('cp-theme', 'dark'); } }); }
-document.addEventListener('click', e => { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
-</script>
-<script src="js/nav-inject.js"></script>
+</script>  <script src="js/nav-inject.js"></script>
   <script src="js/search.js"></script>
 </body>
 </html>

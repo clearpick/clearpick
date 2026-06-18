@@ -1,5 +1,5 @@
 ﻿<!DOCTYPE html>
-<html lang="en" data-theme="dark">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
@@ -462,15 +462,23 @@
 
   <script>
     // Theme toggle
+    (function(){var s=localStorage.getItem('cp-theme');if(s==='dark')document.documentElement.classList.add('theme-dark');else if(s==='light')document.documentElement.classList.add('theme-light');}());
     const themeBtn = document.querySelector('[data-theme-toggle]');
     if (themeBtn) {
-      const html = document.documentElement;
+      const root = document.documentElement;
       themeBtn.addEventListener('click', () => {
-        const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-        html.setAttribute('data-theme', next);
-        // theme stored in memory
+        const dark = root.classList.contains('theme-dark') ||
+          (!root.classList.contains('theme-light') && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) {
+          root.classList.remove('theme-dark');
+          root.classList.add('theme-light');
+          localStorage.setItem('cp-theme', 'light');
+        } else {
+          root.classList.remove('theme-light');
+          root.classList.add('theme-dark');
+          localStorage.setItem('cp-theme', 'dark');
+        }
       });
-      // theme preference stored in memory
     }
     // Close dropdown on outside click
     document.addEventListener('click', function(e) {
