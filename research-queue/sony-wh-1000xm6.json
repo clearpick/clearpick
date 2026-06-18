@@ -43,22 +43,56 @@
     "Multi-point Bluetooth connects to two devices simultaneously, but audio handoff between devices still requires a manual tap in the Sony app — not as seamless as some competitors."
   ],
   "commonComplaints": [
-    {"title": "Ear pad comfort has been a recurring topic in r/headphones since launch", "body": "Ear pad comfort has been a recurring topic in r/headphones since launch — owners with larger ears specifically report that the ANC mic inside the cup protrudes and causes rubbing during long sessions. The pads also feel noticeably thinner than the XM5 out of the box. Not universal, but consistent enough to plan for.", "source": "SoundGuys review"},
-    {"title": "Multi-device switching still requires a manual tap in the Sony app", "body": "Multi-device switching still requires a manual tap in the Sony app — owners coming from AirPods or recent Jabra headphones call this out repeatedly. At $600, automatic handoff is the expectation.", "source": "Reddit r/headphones"},
-    {"title": "Sony dropped the 3.5mm cable from the box", "body": "Sony dropped the 3.5mm cable from the box — this shows up in a large share of Amazon.ca reviews, specifically from frequent flyers who relied on it for airline audio jacks. Small omission, widely noticed.", "source": "Amazon.ca reviewer"}
+    {
+      "title": "Ear pad comfort has been a recurring topic in r/headphones since launch",
+      "body": "Ear pad comfort has been a recurring topic in r/headphones since launch — owners with larger ears specifically report that the ANC mic inside the cup protrudes and causes rubbing during long sessions. The pads also feel noticeably thinner than the XM5 out of the box. Not universal, but consistent enough to plan for.",
+      "source": "SoundGuys review"
+    },
+    {
+      "title": "Multi-device switching still requires a manual tap in the Sony app",
+      "body": "Multi-device switching still requires a manual tap in the Sony app — owners coming from AirPods or recent Jabra headphones call this out repeatedly. At $600, automatic handoff is the expectation.",
+      "source": "Reddit r/headphones"
+    },
+    {
+      "title": "Sony dropped the 3.5mm cable from the box",
+      "body": "Sony dropped the 3.5mm cable from the box — this shows up in a large share of Amazon.ca reviews, specifically from frequent flyers who relied on it for airline audio jacks. Small omission, widely noticed.",
+      "source": "Amazon.ca reviewer"
+    }
   ],
   "verdict": "Owners who switched from cracked or damaged XM5s say the XM6 is a clear upgrade — the metal-reinforced hinge is the first thing they mention, followed by the ANC improvement. Sound reviews land the same way: the harsh treble that XM5 owners learned to EQ around is noticeably smoother here. The main regression owners flag is ear pad comfort — specifically the ANC mic inside the cup rubbing against larger ears during multi-hour sessions. If your XM5s are intact and the hinge hasn't failed, this is a lateral move. If you're buying new in the category, or your XM5 hinge cracked, this is the one.",
   "realBuyers": [
-    {"quote": "The XM5 hinge cracked on mine within a year. The XM6 feels completely different — the metal reinforcement is real and the fold is so much more confidence-inspiring for travel.", "source": "Reddit r/headphones"},
-    {"quote": "Sound is noticeably smoother than the XM5. The harsh treble is gone. These are the first Sonys I've used without immediately going into EQ settings to fix something.", "source": "SoundGuys reviewer"},
-    {"quote": "ANC is on another level compared to anything I've used. Put them on in the airport and it's just silence. Worth the price for that alone.", "source": "Amazon.ca reviewer"}
+    {
+      "quote": "The XM5 hinge cracked on mine within a year. The XM6 feels completely different — the metal reinforcement is real and the fold is so much more confidence-inspiring for travel.",
+      "source": "Reddit r/headphones"
+    },
+    {
+      "quote": "Sound is noticeably smoother than the XM5. The harsh treble is gone. These are the first Sonys I've used without immediately going into EQ settings to fix something.",
+      "source": "SoundGuys reviewer"
+    },
+    {
+      "quote": "ANC is on another level compared to anything I've used. Put them on in the airport and it's just silence. Worth the price for that alone.",
+      "source": "Amazon.ca reviewer"
+    }
   ],
   "sources": [
-    {"title": "SoundGuys: Sony WH-1000XM6 Review — It (mostly) delivers", "url": "https://www.soundguys.com/sony-wh-1000xm6-review-read-before-buying-137397/"},
-    {"title": "RTINGS.com: Sony WH-1000XM6 Review", "url": "https://www.rtings.com/headphones/reviews/sony/wh-1000xm6"},
-    {"title": "What Hi-Fi?: Sony WH-1000XM6 review — a sensational performance upgrade", "url": "https://www.whathifi.com/headphones/sony-wh-1000xm6"}
+    {
+      "title": "SoundGuys: Sony WH-1000XM6 Review — It (mostly) delivers",
+      "url": "https://www.soundguys.com/sony-wh-1000xm6-review-read-before-buying-137397/"
+    },
+    {
+      "title": "RTINGS.com: Sony WH-1000XM6 Review",
+      "url": "https://www.rtings.com/headphones/reviews/sony/wh-1000xm6"
+    },
+    {
+      "title": "What Hi-Fi?: Sony WH-1000XM6 review — a sensational performance upgrade",
+      "url": "https://www.whathifi.com/headphones/sony-wh-1000xm6"
+    }
   ],
-  "similarProducts": ["bose-quietcomfort-ultra", "sennheiser-momentum-4", "sony-wh-1000xm5"],
+  "similarProducts": [
+    "bose-quietcomfort-ultra-headphones",
+    "sennheiser-momentum-4",
+    "sony-wh-1000xm5"
+  ],
   "metaDescription": "Sony WH-1000XM6 review for Canadian buyers: best-in-class ANC, fixed folding hinge, 37-hour battery, and smoother sound than the XM5. Is it worth $600 CAD?",
   "introText": "The Sony WH-1000XM6 are Sony's 2025 flagship noise-cancelling headphones, built around the new HD NC Processor QN3 with 12 microphones and Adaptive NC Optimizer. They address the two biggest complaints about the XM5 — the fragile hinge and the harsh treble — while extending battery life to 37+ hours and adding Bluetooth LE Audio support. Available on Amazon.ca with ASIN B0F3PQHWTZ.",
   "researchedAt": "2026-06-17",
