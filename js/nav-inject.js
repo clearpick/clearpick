@@ -57,6 +57,18 @@
   var chevronSvg = '<svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="dropdown-chevron" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
   var mobChevronSvg = '<svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="mob-chevron" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>';
 
+  function injectGroupStyles() {
+    if (document.getElementById('nav-group-styles')) return;
+    var s = document.createElement('style');
+    s.id = 'nav-group-styles';
+    s.textContent =
+      '.dropdown__menu{min-width:260px;max-height:80vh;overflow-y:auto}' +
+      '.dropdown__group{padding:4px 0}' +
+      '.dropdown__group+.dropdown__group{border-top:1px solid rgba(255,255,255,.07);margin-top:2px;padding-top:6px}' +
+      '.dropdown__group-label{padding:4px 16px 2px;font-size:10px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;opacity:.45;pointer-events:none}';
+    document.head.appendChild(s);
+  }
+
   function inject() {
     var details = document.querySelector('details.nav__dropdown');
     if (!details) return;
@@ -65,35 +77,31 @@
     var pre = isProduct ? '../' : '';
     var page = window.location.pathname.split('/').pop() || 'index.html';
 
-    /* ── Desktop mega groups (replace <details>) ── */
-    var groupsHtml = GROUPS.map(function (g) {
-      var items = g.slugs.map(function (slug) {
-        var cat = catMap[slug];
-        if (!cat) return '';
-        var isActive = (page === slug + '.html');
-        var countLabel = cat.count > 0 ? cat.count + ' products' : 'Coming soon';
-        return '<a href="' + pre + slug + '.html"' +
-          ' class="nav__mega-item' + (isActive ? ' nav__mega-item--active' : '') + '">' +
-          '<span class="nav__mega-icon">' + cat.icon + '</span>' +
-          '<span class="nav__mega-text">' +
-          '<span class="nav__mega-label">' + cat.label + '</span>' +
-          '<span class="nav__mega-sub">' + countLabel + '</span>' +
-          '</span></a>';
+    /* ── Desktop: populate the single Categories dropdown with grouped sections ── */
+    injectGroupStyles();
+    var menu = details.querySelector('[role="menu"]');
+    if (menu) {
+      menu.innerHTML = GROUPS.map(function (g) {
+        var items = g.slugs.map(function (slug) {
+          var cat = catMap[slug];
+          if (!cat) return '';
+          var isActive = (page === slug + '.html');
+          var countLabel = cat.count > 0 ? cat.count + ' products' : 'Coming soon';
+          return '<a href="' + pre + slug + '.html"' +
+            ' class="dropdown__item' + (isActive ? ' dropdown__item--active' : '') + '"' +
+            ' role="menuitem">' +
+            '<span class="dropdown__icon">' + cat.icon + '</span>' +
+            '<span class="dropdown__text">' +
+            '<span class="dropdown__label">' + cat.label + '</span>' +
+            '<span class="dropdown__count">' + countLabel + '</span>' +
+            '</span></a>';
+        }).join('');
+        return '<div class="dropdown__group">' +
+          '<div class="dropdown__group-label">' + g.label + '</div>' +
+          items +
+          '</div>';
       }).join('');
-      return '<div class="nav__mega-group">' +
-        '<button class="nav__link nav__mega-trigger" type="button" aria-expanded="false" aria-haspopup="true">' +
-        g.label + ' ' + chevronSvg +
-        '</button>' +
-        '<div class="nav__mega-panel" role="menu">' +
-        items +
-        '<a href="' + pre + 'index.html" class="nav__mega-view-all">View all categories →</a>' +
-        '</div></div>';
-    }).join('');
-
-    var megaEl = document.createElement('div');
-    megaEl.className = 'nav__mega-groups';
-    megaEl.innerHTML = groupsHtml;
-    details.parentNode.replaceChild(megaEl, details);
+    }
 
     /* ── Mobile drawer (append to body) ── */
     if (!document.getElementById('mob-nav')) {
@@ -155,46 +163,7 @@
       headerActions.appendChild(btn);
     }
 
-    initMega();
     initMobNav();
-  }
-
-  function closeAllMega() {
-    [].forEach.call(document.querySelectorAll('.nav__mega-group.is-open'), function (g) {
-      g.classList.remove('is-open');
-      var t = g.querySelector('.nav__mega-trigger');
-      if (t) t.setAttribute('aria-expanded', 'false');
-    });
-  }
-
-  function initMega() {
-    [].forEach.call(document.querySelectorAll('.nav__mega-group'), function (group) {
-      var trigger = group.querySelector('.nav__mega-trigger');
-
-      group.addEventListener('mouseenter', function () {
-        closeAllMega();
-        group.classList.add('is-open');
-        trigger.setAttribute('aria-expanded', 'true');
-      });
-      group.addEventListener('mouseleave', function () {
-        group.classList.remove('is-open');
-        trigger.setAttribute('aria-expanded', 'false');
-      });
-      trigger.addEventListener('click', function (e) {
-        e.stopPropagation();
-        var wasOpen = group.classList.contains('is-open');
-        closeAllMega();
-        if (!wasOpen) {
-          group.classList.add('is-open');
-          trigger.setAttribute('aria-expanded', 'true');
-        }
-      });
-    });
-
-    document.addEventListener('click', closeAllMega);
-    document.addEventListener('keydown', function (e) {
-      if (e.key === 'Escape') closeAllMega();
-    });
   }
 
   function initMobNav() {
