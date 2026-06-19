@@ -19,6 +19,9 @@
     { slug: 'outdoor-garden', icon: '🌳', label: 'Outdoor & Garden', count: 3     },
     { slug: 'sports-fitness', icon: '🏃', label: 'Sports & Fitness', count: 2    },
     { slug: 'photography-video', icon: '📷', label: 'Photography & Video', count: 3     },
+    { slug: 'health-beauty',           icon: '💄', label: 'Health & Beauty',            count: 20                     },
+    { slug: 'office-work',             icon: '💼', label: 'Office & Work',              count: 20                     },
+    { slug: 'tools-home-improvement',  icon: '🔧', label: 'Tools & Home Improvement',   count: 20                     },
   ];
 
   function inject() {

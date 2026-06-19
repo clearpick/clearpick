@@ -9825,5 +9825,1667 @@
       "Strong Mode": "Strong Brew button for bolder, more concentrated taste",
       "Auto Off": "Auto On/Off button"
     }
+  },
+  {
+    "id": "anker-575-usb-c-dock",
+    "name": "Anker 575 USB-C Docking Station (13-in-1)",
+    "category": "Office & Work",
+    "score": 8.8,
+    "tag": "Docking Stations",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/anker-575-usb-c-dock.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08DF82Y7C/?tag=clearpick06-20",
+    "subscores": {
+      "Port Selection": 9.5,
+      "Power Delivery": 9,
+      "Build Quality": 8.5,
+      "Compatibility": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Ports": "13 ports — 2× USB-C (incl. 85W PD), 3× USB-A 3.0, HDMI 2.0, DisplayPort, SD, microSD, 3.5mm, RJ45 Ethernet, DC-in",
+      "Power Delivery": "85W Power Delivery to host laptop",
+      "Video": "Up to 4K@60Hz single display or dual 4K@30Hz",
+      "Data": "USB 3.0 up to 5 Gbps",
+      "Ethernet": "Gigabit Ethernet RJ45",
+      "Compatibility": "Works with MacBook, Windows, Chromebook via USB-C"
+    }
+  },
+  {
+    "id": "asus-proart-pa278cv-monitor",
+    "name": "ASUS ProArt Display PA278CV 27-Inch WQHD Monitor",
+    "category": "Office & Work",
+    "score": 8.9,
+    "tag": "Monitors",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$599 CAD",
+    "page": "products/asus-proart-pa278cv-monitor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0989KHX8W/?tag=clearpick06-20",
+    "subscores": {
+      "Color Accuracy": 9.5,
+      "Factory Calibration": 9.5,
+      "USB-C": 9,
+      "Build Quality": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Resolution": "2560×1440 WQHD (QHD)",
+      "Panel": "IPS",
+      "Color": "100% sRGB, 100% Rec.709 — factory calibrated to Delta E < 2",
+      "Refresh Rate": "75Hz",
+      "USB-C": "USB-C 3.2 with 65W Power Delivery (charges laptop)",
+      "Ports": "2× HDMI, DisplayPort, USB-C, 4× USB-A hub",
+      "Ergonomics": "Full stand with height, swivel, tilt, pivot"
+    }
+  },
+  {
+    "id": "babylisspro-nano-titanium-flat-iron",
+    "name": "BaBylissPRO Nano Titanium 1-1/4 Inch Flat Iron",
+    "category": "Health & Beauty",
+    "score": 8.8,
+    "tag": "Flat Irons",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/babylisspro-nano-titanium-flat-iron.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B000HCPFUI/?tag=clearpick06-20",
+    "subscores": {
+      "Heat-Up Speed": 9,
+      "Plate Quality": 9,
+      "Temperature Range": 9.5,
+      "Glide": 8.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Plate Width": "1.25 inches",
+      "Material": "Nano Titanium plates",
+      "Temp Range": "250°F–450°F",
+      "Temp Settings": "50 adjustable heat settings",
+      "Heat-Up": "Under 30 seconds",
+      "Cord": "9-ft swivel cord",
+      "Plates": "Floating plates adjust to hair thickness"
+    }
+  },
+  {
+    "id": "benq-pd2700u-monitor",
+    "name": "BenQ PD2700U DesignVue 27-Inch 4K UHD Designer Monitor",
+    "category": "Office & Work",
+    "score": 8.7,
+    "tag": "Monitors",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/benq-pd2700u-monitor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07814XPR2/?tag=clearpick06-20",
+    "subscores": {
+      "4K Accuracy": 9,
+      "sRGB/P3": 9,
+      "CAD/CAM Mode": 9.5,
+      "Build Quality": 9,
+      "Value": 7.5
+    },
+    "specs": {
+      "Resolution": "3840×2160 4K UHD",
+      "Panel": "IPS",
+      "Color": "100% sRGB, 95% P3, AQCOLOR factory calibration",
+      "Specialized Modes": "CAD/CAM, Animation, Darkroom, Low Blue Light",
+      "Display Pilot": "Software for profile switching, Picture-in-Picture, multi-task",
+      "Ports": "HDMI 2.0, DisplayPort 1.4, USB-C, USB-A hub",
+      "Stand": "Height, tilt, swivel, pivot"
+    }
+  },
+  {
+    "id": "benq-screenbar-plus",
+    "name": "BenQ ScreenBar Plus Monitor Light Bar with Wireless Dial",
+    "category": "Office & Work",
+    "score": 9.2,
+    "tag": "Monitor Lights",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/benq-screenbar-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07S769R5L/?tag=clearpick06-20",
+    "subscores": {
+      "Eye Comfort": 9.5,
+      "Wireless Control": 9.5,
+      "Screen Glare": 9.5,
+      "Setup Ease": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Mounting": "Clips on top of monitor — no tools, no desk space used",
+      "Light Design": "Non-glare asymmetric optical design — lights desk, not screen",
+      "Auto Dimming": "Built-in ambient light sensor adjusts brightness and color temperature",
+      "Control": "Wireless USB dial controller sits on desk — no need to reach the bar",
+      "Color Temp": "2700K–6500K adjustable",
+      "Brightness": "500 lux at peak (50cm from surface)",
+      "Power": "USB-A from monitor or PC — no wall outlet needed"
+    }
+  },
+  {
+    "id": "blue-yeti-usb-microphone",
+    "name": "Blue Yeti USB Microphone with Multi-Pattern Recording",
+    "category": "Office & Work",
+    "score": 8.8,
+    "tag": "Microphones",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$179 CAD",
+    "page": "products/blue-yeti-usb-microphone.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00N1YPXW2/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9,
+      "Pattern Versatility": 9.5,
+      "Plug-and-Play": 9.5,
+      "Build Quality": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Capsules": "3 custom condenser capsule array",
+      "Polar Patterns": "Cardioid, Bidirectional, Omnidirectional, Stereo",
+      "Connection": "USB-A — plug-and-play, no audio interface needed",
+      "Frequency": "20Hz–20kHz",
+      "Bit Depth": "16-bit at 48kHz",
+      "Gain Control": "Gain knob and mute button on the body",
+      "Headphone": "Zero-latency headphone monitoring via 3.5mm jack"
+    }
+  },
+  {
+    "id": "bosch-gll-50g-laser-level",
+    "name": "Bosch GLL 50 G Self-Leveling Cross-Line Green Laser Level",
+    "category": "Tools & Home Improvement",
+    "score": 8.8,
+    "tag": "Laser Levels",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/bosch-gll-50g-laser-level.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00O8HKXSY/?tag=clearpick06-20",
+    "subscores": {
+      "Visibility": 9.5,
+      "Self-Leveling": 9,
+      "Range": 8.5,
+      "Value": 8.5,
+      "Build Quality": 8.5
+    },
+    "specs": {
+      "Laser Color": "Green — 4× more visible than red laser",
+      "Lines": "Horizontal and vertical cross line",
+      "Self-Leveling": "Auto levels within ±4°",
+      "Range": "50 ft (15m) in normal light, up to 165 ft with Bosch LR1G receiver",
+      "Accuracy": "±3/16\" at 33 ft",
+      "Power": "2× AA batteries",
+      "IP": "IP54 dust and water resistant"
+    }
+  },
+  {
+    "id": "bosch-glm-50c-laser-measure",
+    "name": "Bosch GLM 50 C Laser Measure with Bluetooth and App",
+    "category": "Tools & Home Improvement",
+    "score": 9,
+    "tag": "Laser Measures",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/bosch-glm-50c-laser-measure.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01D6ZCUKY/?tag=clearpick06-20",
+    "subscores": {
+      "Accuracy": 9.5,
+      "Bluetooth App": 9.5,
+      "Range": 9,
+      "Ease of Use": 9.5,
+      "Value": 9
+    },
+    "specs": {
+      "Range": "165 ft (50m)",
+      "Accuracy": "±1/16\" (1.5mm)",
+      "Display": "Backlit 2-line display",
+      "Bluetooth": "Bluetooth 4.0 — exports to MeasureOn app for floor plans, area calculations",
+      "Modes": "11 measuring modes including area, volume, Pythagorean",
+      "Indirect Measurement": "Indirect measurement via Pythagorean theorem",
+      "Battery": "2× AAA batteries, 5,000 measurements"
+    }
+  },
+  {
+    "id": "braun-series-7-shaver",
+    "name": "Braun Series 7 7085cc Wet & Dry Electric Shaver with Clean & Charge Station",
+    "category": "Health & Beauty",
+    "score": 8.6,
+    "tag": "Electric Shavers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/braun-series-7-shaver.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0B5TG2WZ4/?tag=clearpick06-20",
+    "subscores": {
+      "Shave Closeness": 9,
+      "Flexibility": 8.5,
+      "Battery Life": 8.5,
+      "Cleaning Station": 9,
+      "Value": 8
+    },
+    "specs": {
+      "Foil System": "3 active elements, 4-directional flexing",
+      "AutoSense": "Reads beard density and adjusts power",
+      "Wet/Dry": "100% waterproof — shower or sink",
+      "Battery": "60-minute charge, 3-week use",
+      "Clean": "SmartCare Center — auto clean, dry, charge, lubricate",
+      "Modes": "3 shaving modes (Sensitive/Normal/Intense)"
+    }
+  },
+  {
+    "id": "braun-series-9-pro-shaver",
+    "name": "Braun Series 9 Pro 9477cc Wet & Dry Electric Shaver with 5 Sync Elements",
+    "category": "Health & Beauty",
+    "score": 8.9,
+    "tag": "Electric Shavers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/braun-series-9-pro-shaver.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B099TK24M5/?tag=clearpick06-20",
+    "subscores": {
+      "Shave Closeness": 9.5,
+      "5-Sync Elements": 9.5,
+      "Wet/Dry": 9,
+      "Cleaning Station": 9,
+      "Value": 7.5
+    },
+    "specs": {
+      "Foil System": "5-sync shaving elements including ProLift Trimmer",
+      "HyperLift": "Lifts flat-lying hairs before cutting",
+      "Wet/Dry": "100% waterproof",
+      "Battery": "60-minute charge, 4 weeks of use",
+      "Clean": "Pro Cleaning & Charge Station — 5 actions",
+      "Pressure Sensor": "SkinGuard prevents cuts from pressure"
+    }
+  },
+  {
+    "id": "conair-infinitipro-1875w-dryer",
+    "name": "Conair InfinitiPRO 1875W AC Motor Salon Performance Hair Dryer",
+    "category": "Health & Beauty",
+    "score": 8.3,
+    "tag": "Hair Dryers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$49 CAD",
+    "page": "products/conair-infinitipro-1875w-dryer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07GQ8RTWB/?tag=clearpick06-20",
+    "subscores": {
+      "Power": 8.5,
+      "Value": 9.5,
+      "Attachments": 8.5,
+      "Weight": 8,
+      "Durability": 8
+    },
+    "specs": {
+      "Motor": "1875W AC motor (professional grade, longer lifespan than DC)",
+      "Ion Technology": "Ionic conditioning reduces frizz",
+      "Heat Settings": "3 heat + 2 speed settings",
+      "Cold Shot": "Cold shot button for setting style",
+      "Attachments": "Diffuser + concentrator nozzle included",
+      "Cord": "9-ft salon-length cord"
+    }
+  },
+  {
+    "id": "dell-s2722qc-monitor",
+    "name": "Dell S2722QC 27-Inch 4K USB-C Monitor",
+    "category": "Office & Work",
+    "score": 8.7,
+    "tag": "Monitors",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/dell-s2722qc-monitor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B094BJNWNV/?tag=clearpick06-20",
+    "subscores": {
+      "4K Value": 9.5,
+      "USB-C": 9,
+      "Color Accuracy": 8.5,
+      "Build Quality": 8.5,
+      "Ports": 8.5
+    },
+    "specs": {
+      "Resolution": "3840×2160 4K UHD",
+      "Panel": "IPS",
+      "Refresh Rate": "60Hz",
+      "USB-C": "USB-C 3.2 Gen 2 with 65W Power Delivery",
+      "Ports": "2× HDMI 2.0, DisplayPort 1.2, USB-C, 2× USB-A",
+      "sRGB": "99% sRGB",
+      "HDR": "VESA DisplayHDR 400"
+    }
+  },
+  {
+    "id": "dewalt-dcf787c1-impact-driver",
+    "name": "DEWALT 20V MAX Cordless Impact Driver Kit, 1/4-Inch (DCF787C1)",
+    "category": "Tools & Home Improvement",
+    "score": 8.7,
+    "tag": "Drills & Drivers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$179 CAD",
+    "page": "products/dewalt-dcf787c1-impact-driver.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0153QC37C/?tag=clearpick06-20",
+    "subscores": {
+      "Compact Size": 9.5,
+      "Torque": 9,
+      "Speed Control": 9,
+      "Battery": 8.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Chuck": "1/4-inch hex",
+      "Torque": "1,650 in-lbs max torque",
+      "Speed": "0-2,800 RPM, 0-3,400 IPM",
+      "Modes": "3 LED light settings (off, low, medium)",
+      "Size": "5.3-inch front-to-back — most compact 20V MAX impact driver",
+      "Battery": "20V MAX 1.3Ah battery + charger included",
+      "Weight": "2.0 lbs with battery"
+    }
+  },
+  {
+    "id": "dewalt-dck240c2-drill-combo-kit",
+    "name": "DEWALT 20V MAX Cordless Drill Combo Kit, 2-Tool (DCK240C2)",
+    "category": "Tools & Home Improvement",
+    "score": 8.5,
+    "tag": "Drills & Drivers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/dewalt-dck240c2-drill-combo-kit.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00IJ0ALYS/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Battery System": 9,
+      "Versatility": 8.5,
+      "Build Quality": 8.5,
+      "Torque": 8
+    },
+    "specs": {
+      "Includes": "DCD771 drill/driver + DCF885 impact driver + 2× 1.5Ah batteries + charger + bag",
+      "Drill Torque": "300 UWO, 2 speeds (0-450 / 0-1500 RPM)",
+      "Impact Driver": "1/4-inch hex, 1400 in-lbs torque",
+      "Clutch": "24-position clutch on drill",
+      "Chuck": "3/8-inch single-sleeve chuck",
+      "Platform": "20V MAX — compatible with 150+ tools"
+    }
+  },
+  {
+    "id": "dewalt-dcn680d1-brad-nailer",
+    "name": "DEWALT 20V MAX Cordless Brad Nailer, 18GA (DCN680D1)",
+    "category": "Tools & Home Improvement",
+    "score": 8.9,
+    "tag": "Nailers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/dewalt-dcn680d1-brad-nailer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B077P1V7H1/?tag=clearpick06-20",
+    "subscores": {
+      "No Hose Freedom": 9.5,
+      "Jam Clearing": 9,
+      "Depth Adjustment": 9,
+      "Magazine": 8.5,
+      "Value": 8
+    },
+    "specs": {
+      "Gauge": "18-gauge brad nails, 5/8\" to 2-1/8\" length",
+      "Operation": "Cordless brushless motor — no compressor or hose needed",
+      "Magazine": "110-nail magazine capacity",
+      "Jam Clearing": "Tool-free jam release via rear access panel",
+      "Depth": "Tool-free depth adjustment",
+      "Drive Mode": "Sequential fire only",
+      "LED": "2-LED lights illuminate work area"
+    }
+  },
+  {
+    "id": "dewalt-dcs331b-cordless-jigsaw",
+    "name": "DEWALT 20V MAX Cordless Jigsaw, Tool Only (DCS331B)",
+    "category": "Tools & Home Improvement",
+    "score": 8.6,
+    "tag": "Jigsaws",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/dewalt-dcs331b-cordless-jigsaw.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00IJ0ALNK/?tag=clearpick06-20",
+    "subscores": {
+      "Cut Quality": 9,
+      "Orbital Action": 9,
+      "Keyless Blade": 9.5,
+      "Bevel": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Speed": "0-3,000 SPM variable",
+      "Orbital": "4-position orbital action for aggressive or fine cutting",
+      "Bevel": "0°–45° bevel cuts",
+      "Blade Change": "Tool-free blade change",
+      "Stroke": "1-inch stroke length",
+      "Base": "Cast aluminum shoe for durability",
+      "Application": "Cuts wood up to 5.5\", aluminum up to 1\""
+    }
+  },
+  {
+    "id": "dewalt-dcs356d1-oscillating-multi-tool",
+    "name": "DEWALT 20V MAX Oscillating Multi-Tool Kit (DCS356D1)",
+    "category": "Tools & Home Improvement",
+    "score": 8.8,
+    "tag": "Multi-Tools",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/dewalt-dcs356d1-oscillating-multi-tool.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01M9FAEH7/?tag=clearpick06-20",
+    "subscores": {
+      "Variable Speed": 9.5,
+      "OIS Compatibility": 9.5,
+      "Power": 9,
+      "Ergonomics": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Speed": "Variable 8,000–20,000 OPM",
+      "Compatibility": "DEWALT Accessory Interface (DAI) accepts all OIS and Universal accessories (over 80+ blades)",
+      "Grip": "3-zone grip design — 3 different hand positions",
+      "Accessory Lock": "Tool-free accessory changes via Quick-Change",
+      "Battery": "20V MAX 2.0Ah battery + charger",
+      "Angle": "3.0° oscillating angle"
+    }
+  },
+  {
+    "id": "dewalt-dw088lg-cross-line-laser",
+    "name": "DEWALT Green Cross Line Laser Level Self-Leveling (DW088LG)",
+    "category": "Tools & Home Improvement",
+    "score": 8.7,
+    "tag": "Laser Levels",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/dewalt-dw088lg-cross-line-laser.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B003HTYVQW/?tag=clearpick06-20",
+    "subscores": {
+      "Green Laser Brightness": 9.5,
+      "Self-Leveling": 9,
+      "Range": 8.5,
+      "Value": 9,
+      "Accuracy": 9
+    },
+    "specs": {
+      "Laser Color": "Green — brighter than red in well-lit rooms",
+      "Lines": "Full 180° horizontal + full 180° vertical cross line",
+      "Self-Leveling": "Auto levels within ±4°",
+      "Range": "50 ft standard, up to 100 ft with detector",
+      "Accuracy": "±1/8\" at 30 ft",
+      "Power": "3× AA batteries — up to 20 hours",
+      "Out-of-Level": "Alert flashes when outside level range"
+    }
+  },
+  {
+    "id": "dewalt-dwe402-angle-grinder",
+    "name": "DEWALT 4-1/2-Inch Small Angle Grinder, 11-Amp (DWE402)",
+    "category": "Tools & Home Improvement",
+    "score": 8.7,
+    "tag": "Angle Grinders",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/dewalt-dwe402-angle-grinder.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0197DXPCK/?tag=clearpick06-20",
+    "subscores": {
+      "Motor Power": 9.5,
+      "Guard Design": 9,
+      "Spindle Lock": 9,
+      "Value": 9,
+      "Control": 8.5
+    },
+    "specs": {
+      "Motor": "11 AMP, 11,000 RPM",
+      "Disc Size": "4.5 inch / 115mm",
+      "Guard": "Tool-free adjustable guard — 90° adjustment positions",
+      "Spindle": "One-touch guard release + spindle lock for quick disc changes",
+      "Anti-Vibration": "Anti-vibration side handle (3 positions)",
+      "Kickback Brake": "No (basic model) — corded",
+      "Cord": "6-ft power cord"
+    }
+  },
+  {
+    "id": "dewalt-dwe575sb-circular-saw",
+    "name": "DEWALT 7-1/4-Inch Circular Saw with Electric Brake (DWE575SB)",
+    "category": "Tools & Home Improvement",
+    "score": 9,
+    "tag": "Circular Saws",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/dewalt-dwe575sb-circular-saw.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00IXBNHPK/?tag=clearpick06-20",
+    "subscores": {
+      "Motor Power": 9.5,
+      "Electric Brake": 9.5,
+      "Cut Capacity": 9.5,
+      "Bevel": 9.5,
+      "Value": 9
+    },
+    "specs": {
+      "Motor": "15-AMP, 5,200 RPM",
+      "Blade": "7-1/4\" blade",
+      "Electric Brake": "Stops blade in under 2 seconds",
+      "Bevel": "0°–57° bevel with positive stops at 22.5° and 45°",
+      "Cut Depth": "2-9/16\" at 90°, 1-7/8\" at 45°",
+      "Sight Line": "Front bevel scale for easy bevel setting",
+      "Cord": "6-ft cord"
+    }
+  },
+  {
+    "id": "dewalt-dwe6423k-random-orbit-sander",
+    "name": "DEWALT Random Orbit Sander, 5-Inch with Dust Bag (DWE6423K)",
+    "category": "Tools & Home Improvement",
+    "score": 8.9,
+    "tag": "Sanders",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/dewalt-dwe6423k-random-orbit-sander.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01M9HLYWV/?tag=clearpick06-20",
+    "subscores": {
+      "Dust Collection": 9.5,
+      "Finish Quality": 9.5,
+      "Motor": 9,
+      "Comfort": 9,
+      "Value": 9
+    },
+    "specs": {
+      "Motor": "3-AMP, 8,000-12,000 OPM variable speed",
+      "Pad": "5-inch hook-and-loop pad",
+      "Dust": "Dust-sealed power switch + 8-hole dust bag (included) — optional DWV010 vac connection",
+      "Counterbalance": "Counterbalance mechanism reduces vibration",
+      "Grip": "Rubber grip for better comfort and control",
+      "Weight": "3.2 lbs"
+    }
+  },
+  {
+    "id": "dewalt-tstak-tool-storage",
+    "name": "DEWALT TSTAK II Flat Tote Tool Storage Box with Deep Lid",
+    "category": "Tools & Home Improvement",
+    "score": 8.6,
+    "tag": "Tool Storage",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/dewalt-tstak-tool-storage.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B073CMPGRB/?tag=clearpick06-20",
+    "subscores": {
+      "Stackability": 9.5,
+      "Build Quality": 9,
+      "Organization": 9,
+      "Value": 9,
+      "Locking": 9
+    },
+    "specs": {
+      "System": "TSTAK stackable system — all TSTAK boxes lock together",
+      "Interior": "15.2L flat tote with wide opening for bulky tools",
+      "Lid": "Deep lid adds extra storage space",
+      "Locking": "Single metal latch + compatible with TSTAK lock (sold separately)",
+      "Handle": "Telescoping handle for rolling when stacked",
+      "Compatibility": "Connects with all TSTAK boxes and DWST17807 tower"
+    }
+  },
+  {
+    "id": "dyson-airwrap-multi-styler",
+    "name": "Dyson Airwrap Multi-Styler Complete Long (Vinca Blue/Rosé)",
+    "category": "Health & Beauty",
+    "score": 9.1,
+    "tag": "Hair Stylers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/dyson-airwrap-multi-styler.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CLQPN1DL/?tag=clearpick06-20",
+    "subscores": {
+      "Curl Quality": 9.5,
+      "Versatility": 9.5,
+      "Heat Protection": 9.5,
+      "Ease of Use": 8,
+      "Value": 7
+    },
+    "specs": {
+      "Attachments": "6 attachments — barrels (1 in, 1.2 in × 2 for both curl directions), smoothing brushes (oval, paddle), pre-styling dryer",
+      "Technology": "Coanda effect uses air to attract and wrap hair around barrel — no extreme heat",
+      "Heat Setting": "Max 150°C — significantly lower than conventional tools",
+      "Hair Types": "Damp and dry hair — works on fine, medium, and thick hair",
+      "Power": "1300W",
+      "Cord": "9-ft professional cable + filter cage"
+    }
+  },
+  {
+    "id": "dyson-supersonic-hair-dryer",
+    "name": "Dyson Supersonic Hair Dryer HD15 (Vinca Blue/Rosé)",
+    "category": "Health & Beauty",
+    "score": 9,
+    "tag": "Hair Dryers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/dyson-supersonic-hair-dryer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CLQMJ2YH/?tag=clearpick06-20",
+    "subscores": {
+      "Drying Speed": 9.5,
+      "Heat Protection": 9.5,
+      "Noise": 8.5,
+      "Weight Balance": 9,
+      "Value": 7
+    },
+    "specs": {
+      "Motor": "V9 digital motor in handle — 110,000 RPM",
+      "Temperature": "13 precise air temperature settings — measures 40× per second",
+      "Attachments": "Flyaway smoother, smoothing nozzle, diffuser, styling concentrator, gentle air attachment",
+      "Ions": "Negative ion generator controls static",
+      "Weight": "690g — motor in handle shifts balance point"
+    }
+  },
+  {
+    "id": "elgato-stream-deck-mk2",
+    "name": "Elgato Stream Deck MK.2 Studio Controller, 15 Customizable LCD Keys",
+    "category": "Office & Work",
+    "score": 9,
+    "tag": "Stream Decks",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$229 CAD",
+    "page": "products/elgato-stream-deck-mk2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09738CV2G/?tag=clearpick06-20",
+    "subscores": {
+      "Versatility": 9.5,
+      "Software Quality": 9.5,
+      "Build Quality": 9,
+      "Setup Ease": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Keys": "15 customizable LCD keys — each key displays a custom icon or image",
+      "Software": "Stream Deck app — assign any action, macro, app shortcut, or OBS scene switch",
+      "Cable": "Detachable USB-C cable",
+      "Faceplate": "Customizable faceplate (sold separately in different colors)",
+      "Profiles": "Unlimited profiles, nested pages per key for hundreds of actions",
+      "Compatible": "Windows, Mac — Twitch, YouTube, Zoom, OBS, Spotify, Premiere, and 200+ plugins",
+      "Size": "11.8×7.3×2.1cm"
+    }
+  },
+  {
+    "id": "ergotron-lx-monitor-arm",
+    "name": "Ergotron LX Desk Monitor Arm, Single Monitor up to 34 Inches",
+    "category": "Office & Work",
+    "score": 9.3,
+    "tag": "Monitor Lights",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/ergotron-lx-monitor-arm.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00358RIRC/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Range of Motion": 9.5,
+      "Cable Management": 9,
+      "Stability": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Compatibility": "Monitors 7–25 lbs, up to 34 inches wide, VESA 75×75 or 100×100",
+      "Reach": "Extends 25 inches forward from mount point",
+      "Height": "Lifts 13 inches above desk surface",
+      "Rotation": "360° rotation, 75° tilt forward/back, pan left/right",
+      "Cable Management": "Integrated cable channels run through the entire arm",
+      "Mount Options": "C-clamp (up to 3.4\" thick) or desk grommet",
+      "Adjustment": "Constant force mechanism — holds any position without drift"
+    }
+  },
+  {
+    "id": "flexispot-e2-standing-desk",
+    "name": "FlexiSpot E2 Height Adjustable Electric Standing Desk, 48x24 Inch",
+    "category": "Office & Work",
+    "score": 8.5,
+    "tag": "Standing Desks",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/flexispot-e2-standing-desk.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08G5WLXFD/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Height Range": 8.5,
+      "Motor": 8.5,
+      "Build Quality": 8.5,
+      "Setup": 8
+    },
+    "specs": {
+      "Height Range": "28\"–47.6\" (covers sitting and standing for most users)",
+      "Motor": "Dual motor — quieter and more stable than single-motor designs",
+      "Frame": "Steel frame with 4 programmable height memory presets",
+      "Tabletop Size": "48\"×24\" — also available in other sizes",
+      "Load Capacity": "154 lbs (70 kg)",
+      "Motor Noise": "Under 50dB during adjustment",
+      "Assembly": "Estimated 30–45 minutes with standard tools"
+    }
+  },
+  {
+    "id": "flexispot-e7-standing-desk",
+    "name": "FlexiSpot E7 Pro Height Adjustable Electric Standing Desk, 55x28 Inch",
+    "category": "Office & Work",
+    "score": 8.9,
+    "tag": "Standing Desks",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$649 CAD",
+    "page": "products/flexispot-e7-standing-desk.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08BKBQK5X/?tag=clearpick06-20",
+    "subscores": {
+      "Stability": 9.5,
+      "Height Range": 9.5,
+      "Motor": 9,
+      "Weight Capacity": 9.5,
+      "Build Quality": 9
+    },
+    "specs": {
+      "Height Range": "22.8\"–48.4\" — widest range available in class",
+      "Motor": "Dual motor 2-stage legs — strongest and most stable in FlexiSpot lineup",
+      "Frame": "All-steel H-frame for minimal wobble at standing height",
+      "Tabletop": "55\"×28\" — also available in other sizes and materials",
+      "Load Capacity": "355 lbs (160 kg) — heaviest in class",
+      "Anti-Collision": "Built-in obstacle detection auto-stops if blocked",
+      "Presets": "4 memory presets + child lock"
+    }
+  },
+  {
+    "id": "foreo-luna-4",
+    "name": "FOREO LUNA 4 Facial Cleansing & Firming Massager",
+    "category": "Health & Beauty",
+    "score": 8.7,
+    "tag": "Facial Cleansing Devices",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$279 CAD",
+    "page": "products/foreo-luna-4.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09XVBQZDL/?tag=clearpick06-20",
+    "subscores": {
+      "Cleansing Effectiveness": 9,
+      "Skin Feel": 9,
+      "App Integration": 8.5,
+      "Durability": 9.5,
+      "Value": 7.5
+    },
+    "specs": {
+      "Material": "Ultra-hygienic silicone — non-porous, bacteria-resistant",
+      "Pulsations": "8,000 T-Sonic pulsations/min on front, 6,000/min firming mode on back",
+      "Battery": "Up to 650 uses per charge (USB-C)",
+      "Waterproof": "100% waterproof — use in shower",
+      "App": "FOREO For You app — personalized routines",
+      "Skin Types": "4 variants for different skin types"
+    }
+  },
+  {
+    "id": "ghd-platinum-plus-styler",
+    "name": "ghd Platinum+ Professional Smart Styler 1-Inch Flat Iron",
+    "category": "Health & Beauty",
+    "score": 8.9,
+    "tag": "Flat Irons",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/ghd-platinum-plus-styler.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07C7MJHFR/?tag=clearpick06-20",
+    "subscores": {
+      "Temperature Precision": 9.5,
+      "Predictive Technology": 9.5,
+      "Results": 9.5,
+      "Value": 7.5,
+      "Build Quality": 9
+    },
+    "specs": {
+      "Temperature": "Fixed 185°C (365°F) — ghd's optimum styling temp for minimal damage",
+      "Predictive Technology": "Ultra-zone tech predicts needs 250× per second, adjusts temp 100× per second",
+      "Plates": "Floating ceramic plates",
+      "Cord": "2.7m universal voltage cord",
+      "Auto Sleep": "Auto sleep mode — powers off after 30 min",
+      "Weight": "310g"
+    }
+  },
+  {
+    "id": "jabra-evolve2-65-headset",
+    "name": "Jabra Evolve2 65 Wireless Headset with USB-A Dongle",
+    "category": "Office & Work",
+    "score": 8.8,
+    "tag": "Business Headsets",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/jabra-evolve2-65-headset.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08TPBK6RQ/?tag=clearpick06-20",
+    "subscores": {
+      "Call Clarity": 9.5,
+      "ANC": 9,
+      "Battery Life": 9,
+      "Microsoft Teams": 9,
+      "Comfort": 8.5
+    },
+    "specs": {
+      "Microphone": "6-mic array with beamforming technology for professional call quality",
+      "ANC": "Advanced ANC with multiple levels — light, medium, full",
+      "Battery": "37 hours total (35 hours with ANC on)",
+      "Wireless Range": "Up to 30m from USB-A dongle",
+      "Connectivity": "USB-A dongle (primary) + Bluetooth 5.0 (simultaneous dual-device)",
+      "Certification": "Microsoft Teams and Google Meet certified",
+      "Microphone Arm": "Flexible ear-mounted boom mic arm"
+    }
+  },
+  {
+    "id": "keychron-k2-pro-keyboard",
+    "name": "Keychron K2 Pro QMK/VIA Wireless Mechanical Keyboard (Gateron G Pro Red)",
+    "category": "Office & Work",
+    "score": 8.9,
+    "tag": "Keyboards",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/keychron-k2-pro-keyboard.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BJNCM8HF/?tag=clearpick06-20",
+    "subscores": {
+      "QMK/VIA Customization": 9.5,
+      "Wireless Range": 9,
+      "Switch Options": 9,
+      "Build Quality": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Layout": "75% compact (84 keys) with dedicated function row",
+      "Connectivity": "Bluetooth 5.1 (up to 3 devices) + USB-C wired mode",
+      "QMK/VIA": "Full QMK/VIA support — remap any key, create macros, set layers",
+      "Switches": "Hot-swappable — change switches without soldering",
+      "Backlight": "RGB per-key lighting",
+      "Battery": "4000mAh — up to 300 hours without backlight, ~30 hours with RGB",
+      "Compatibility": "Dual-system keycap set included for Mac and Windows"
+    }
+  },
+  {
+    "id": "lg-27-4k-ips-monitor",
+    "name": "LG 27UK850-W 27-Inch 4K UHD IPS Monitor with USB-C",
+    "category": "Office & Work",
+    "score": 8.6,
+    "tag": "Monitors",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/lg-27-4k-ips-monitor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07YDQHFNH/?tag=clearpick06-20",
+    "subscores": {
+      "4K IPS Quality": 9,
+      "USB-C": 9,
+      "HDR": 8.5,
+      "Value": 8.5,
+      "Color Accuracy": 9
+    },
+    "specs": {
+      "Resolution": "3840×2160 4K UHD",
+      "Panel": "IPS — wide color gamut, excellent viewing angles",
+      "HDR": "HDR10, VESA DisplayHDR 400",
+      "USB-C": "USB-C with 60W Power Delivery",
+      "Refresh Rate": "60Hz",
+      "Ports": "HDMI 2.0 ×2, DisplayPort, USB-C, USB 3.0 hub ×2",
+      "sRGB": "99% sRGB"
+    }
+  },
+  {
+    "id": "lg-34-ultrawide-monitor",
+    "name": "LG 34WN80C-B 34-Inch UltraWide QHD IPS Curved Monitor",
+    "category": "Office & Work",
+    "score": 8.8,
+    "tag": "Monitors",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$649 CAD",
+    "page": "products/lg-34-ultrawide-monitor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08XC5PV6Y/?tag=clearpick06-20",
+    "subscores": {
+      "Ultrawide Productivity": 9.5,
+      "USB-C": 9,
+      "Color Accuracy": 9,
+      "Curvature": 9,
+      "Value": 8
+    },
+    "specs": {
+      "Resolution": "3440×1440 UWQHD (21:9 ultrawide aspect ratio)",
+      "Panel": "IPS curved (1800R curvature)",
+      "USB-C": "USB-C with 94W Power Delivery — charges most laptops at full speed",
+      "Refresh Rate": "60Hz",
+      "Ports": "HDMI 2.0 ×2, DisplayPort, USB-C, USB 3.0 hub ×2",
+      "sRGB": "99% sRGB",
+      "Screen Split": "PBP/PIP — display two sources side-by-side on one screen"
+    }
+  },
+  {
+    "id": "logitech-c920-webcam",
+    "name": "Logitech C920 HD Pro Webcam, 1080p/30fps",
+    "category": "Office & Work",
+    "score": 9,
+    "tag": "Webcams",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/logitech-c920-webcam.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B006JH8T3S/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Video Quality": 9,
+      "Compatibility": 9.5,
+      "Plug-and-Play": 9.5,
+      "Low Light": 8.5
+    },
+    "specs": {
+      "Video": "1080p at 30fps or 720p at 60fps",
+      "Field of View": "78° diagonal field of view",
+      "Autofocus": "Full HD autofocus",
+      "Microphones": "Dual omni-directional mic with RightLight 2 auto light correction",
+      "Connection": "USB-A plug-and-play — no drivers required",
+      "Compatibility": "Windows, Mac, ChromeOS — certified for Zoom, Teams, Meet, Skype",
+      "Mount": "Universal clip mounts on laptops, monitors, or tripods"
+    }
+  },
+  {
+    "id": "logitech-c930e-webcam",
+    "name": "Logitech C930e Business Webcam, 1080p with 90 Degree Field of View",
+    "category": "Office & Work",
+    "score": 8.7,
+    "tag": "Webcams",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/logitech-c930e-webcam.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00CRJWW2G/?tag=clearpick06-20",
+    "subscores": {
+      "Wide FOV": 9.5,
+      "Build Quality": 9,
+      "Business Features": 9.5,
+      "Video Quality": 8.5,
+      "Value": 8
+    },
+    "specs": {
+      "Video": "1080p at 30fps, 720p at 60fps",
+      "Field of View": "90° diagonal — wider than C920's 78°",
+      "Zoom": "Motorized 4× digital zoom with smooth tracking",
+      "Autofocus": "Autofocus with motorized zoom",
+      "Encoding": "H.264 hardware encoding reduces CPU load on host",
+      "Microphones": "Dual omni-directional microphones with 360° pickup",
+      "Certifications": "Certified for Skype for Business, Microsoft Teams, Cisco Webex"
+    }
+  },
+  {
+    "id": "logitech-lift-vertical-mouse",
+    "name": "Logitech Lift Vertical Ergonomic Mouse, Wireless",
+    "category": "Office & Work",
+    "score": 8.7,
+    "tag": "Mice",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/logitech-lift-vertical-mouse.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BNX5NCC/?tag=clearpick06-20",
+    "subscores": {
+      "Wrist Comfort": 9.5,
+      "Value": 9,
+      "Scroll Wheel": 8.5,
+      "Connectivity": 9,
+      "Build Quality": 8.5
+    },
+    "specs": {
+      "Angle": "57° vertical angle — natural handshake position reduces forearm pronation",
+      "Size": "Compact — fits small-to-medium hands (under ~19cm hand length)",
+      "Connectivity": "Logi Bolt USB receiver OR Bluetooth 5.0",
+      "Battery": "AA battery, up to 24 months",
+      "DPI": "400–4000 DPI adjustable (4 levels)",
+      "Buttons": "4 buttons + scroll wheel + side buttons",
+      "Variants": "Available in right-handed and left-handed versions, multiple colors"
+    }
+  },
+  {
+    "id": "logitech-mx-keys-s-keyboard",
+    "name": "Logitech MX Keys S Advanced Wireless Illuminated Keyboard",
+    "category": "Office & Work",
+    "score": 9,
+    "tag": "Keyboards",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$169 CAD",
+    "page": "products/logitech-mx-keys-s-keyboard.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BFD3C8LS/?tag=clearpick06-20",
+    "subscores": {
+      "Typing Feel": 9.5,
+      "Smart Illumination": 9.5,
+      "Multi-Device": 9.5,
+      "Battery Life": 9,
+      "Build Quality": 9
+    },
+    "specs": {
+      "Key Shape": "Spherically-dished keys — cupped to match fingertip shape",
+      "Illumination": "Smart backlight activates on hand proximity, adjusts to ambient light automatically",
+      "Multi-Device": "Easy-Switch — connects to 3 devices, switches with a dedicated key press",
+      "Connectivity": "Logi Bolt USB receiver + Bluetooth 5.0",
+      "Battery": "10 days with backlight on, up to 5 months without",
+      "Flow": "Logitech Flow — copy-paste text and files between two computers seamlessly",
+      "Layout": "Full-size with numpad, dedicated media keys, and app-switching row"
+    }
+  },
+  {
+    "id": "logitech-mx-master-3s-mouse",
+    "name": "Logitech MX Master 3S Performance Wireless Mouse",
+    "category": "Office & Work",
+    "score": 9.2,
+    "tag": "Mice",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$139 CAD",
+    "page": "products/logitech-mx-master-3s-mouse.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09HMKFDXC/?tag=clearpick06-20",
+    "subscores": {
+      "Scroll Wheel": 9.5,
+      "Ergonomics": 9.5,
+      "Precision": 9.5,
+      "Multi-Device": 9.5,
+      "Battery Life": 9
+    },
+    "specs": {
+      "Scroll Wheel": "MagSpeed electromagnetic scroll — 1,000 lines per second, near-silent",
+      "DPI": "200–8000 DPI, 8000 DPI optical sensor that tracks on glass",
+      "Multi-Device": "Easy-Switch for 3 devices (Logi Bolt + Bluetooth 5.0)",
+      "Battery": "70-day charge via USB-C; 1 minute = 3 hours of use",
+      "Buttons": "7 customizable buttons via Logi Options+",
+      "SmartShift": "Auto-switches between ratchet scroll and freewheel based on scroll speed",
+      "Thumb Wheel": "Horizontal scroll thumb wheel for wide spreadsheets and timelines"
+    }
+  },
+  {
+    "id": "makita-bo5041-random-orbit-sander",
+    "name": "Makita BO5041 5-Inch Random Orbit Sander with Variable Speed",
+    "category": "Tools & Home Improvement",
+    "score": 9,
+    "tag": "Sanders",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$119 CAD",
+    "page": "products/makita-bo5041-random-orbit-sander.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00D6A2KL0/?tag=clearpick06-20",
+    "subscores": {
+      "Variable Speed": 9.5,
+      "Balance": 9.5,
+      "Dust Collection": 9,
+      "Finish Quality": 9.5,
+      "Value": 9
+    },
+    "specs": {
+      "Motor": "3.0-AMP, variable 4,000-12,000 OPM",
+      "Pad": "5-inch hook-and-loop",
+      "Speed Control": "Large dial (dial 1 through 6) for precise control",
+      "Dust": "Through-the-pad dust extraction — connects to Makita dust collector (hose included)",
+      "Counterbalance": "Counterbalance weight for minimal vibration",
+      "Weight": "2.6 lbs (lighter than most)"
+    }
+  },
+  {
+    "id": "makita-xph12z-hammer-drill",
+    "name": "Makita XPH12Z 18V LXT Lithium-Ion Brushless Cordless Hammer Drill (Tool Only)",
+    "category": "Tools & Home Improvement",
+    "score": 8.9,
+    "tag": "Drills & Drivers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/makita-xph12z-hammer-drill.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07B8KK28G/?tag=clearpick06-20",
+    "subscores": {
+      "Brushless Motor": 9.5,
+      "Variable Speed": 9.5,
+      "Build Quality": 9.5,
+      "Torque": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Motor": "BL Brushless motor — 50% longer run time, 3× longer life than brushed",
+      "Speed": "0-550/0-2,000 RPM, 2-speed",
+      "Torque": "530 in-lbs (low) / 750 in-lbs max",
+      "Hammer Mode": "33,000 BPM (blows per minute)",
+      "Chuck": "1/2-inch single-sleeve keyless",
+      "Clutch": "16+1 clutch settings",
+      "Battery": "18V LXT — compatible with 200+ Makita 18V tools (not included)"
+    }
+  },
+  {
+    "id": "milwaukee-2626-20-multi-tool",
+    "name": "Milwaukee M18 Cordless Multi-Tool (2626-20), Tool Only",
+    "category": "Tools & Home Improvement",
+    "score": 8.6,
+    "tag": "Multi-Tools",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/milwaukee-2626-20-multi-tool.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00BUDBH1S/?tag=clearpick06-20",
+    "subscores": {
+      "Variable Speed": 9,
+      "Accessory Range": 9,
+      "Battery Compatibility": 9.5,
+      "Build Quality": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Speed": "11,000-18,000 OPM variable",
+      "Compatibility": "Milwaukee Accessory Interface — accepts all STARLOCK and OIS accessories",
+      "Accessory Change": "Tool-free accessory change via QUIK-LOK",
+      "Battery": "M18 — compatible with all Milwaukee M18 batteries and chargers (not included)",
+      "Angle": "3.2° oscillation angle",
+      "Grip": "Variable grip zone — mount at any angle"
+    }
+  },
+  {
+    "id": "milwaukee-m18-fuel-hammer-drill",
+    "name": "Milwaukee M18 FUEL 1/2-Inch Hammer Drill/Driver, Tool Only (2804-20)",
+    "category": "Tools & Home Improvement",
+    "score": 9.2,
+    "tag": "Drills & Drivers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$279 CAD",
+    "page": "products/milwaukee-m18-fuel-hammer-drill.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08KDYZJV4/?tag=clearpick06-20",
+    "subscores": {
+      "Motor Power": 9.5,
+      "POWERSTATE Motor": 9.5,
+      "Battery Runtime": 9,
+      "Torque": 9.5,
+      "Build Quality": 9.5
+    },
+    "specs": {
+      "Motor": "POWERSTATE brushless motor",
+      "Torque": "1,200 in-lbs peak — highest in class",
+      "Speed": "0-550/0-2,000/0-3,100 RPM (3-speed)",
+      "Hammering": "0-58,500 BPM max",
+      "Battery": "M18 REDLITHIUM — compatible with all M18 tools (not included)",
+      "Clutch": "Tri-power Switch between drill, hammer drill, and drive modes",
+      "Ratchet": "REDLINK PLUS intelligence system prevents damage from overloads"
+    }
+  },
+  {
+    "id": "milwaukee-packout-rolling-tool-box",
+    "name": "Milwaukee PACKOUT 22-Inch Rolling Tool Box with Telescoping Handle",
+    "category": "Tools & Home Improvement",
+    "score": 9.3,
+    "tag": "Tool Storage",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/milwaukee-packout-rolling-tool-box.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07KQFCZM4/?tag=clearpick06-20",
+    "subscores": {
+      "Durability": 9.5,
+      "Stackability": 9.5,
+      "Wheels": 9.5,
+      "Interior Capacity": 9,
+      "System Compatibility": 9.5
+    },
+    "specs": {
+      "System": "PACKOUT modular storage — all PACKOUT boxes lock together",
+      "Capacity": "22-inch rolling box with 2 levels of storage",
+      "Wheels": "All-terrain wheels, telescoping handle",
+      "IP": "IP65 rated — weather-sealed interior",
+      "Load": "Supports 250 lbs on top when stacked",
+      "Interior": "Low-friction, chemical-resistant liner",
+      "Handles": "Metal reinforced connection points for stacking"
+    }
+  },
+  {
+    "id": "nuface-trinity-plus",
+    "name": "NuFACE Trinity+ Facial Toning Device with ELE & Wrinkle Reducer Attachments",
+    "category": "Health & Beauty",
+    "score": 8.5,
+    "tag": "Facial Cleansing Devices",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$489 CAD",
+    "page": "products/nuface-trinity-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0018VNJ5W/?tag=clearpick06-20",
+    "subscores": {
+      "Microcurrent Effectiveness": 8.5,
+      "Lift Results": 9,
+      "Attachments Value": 9,
+      "Ease of Use": 8,
+      "Value": 7
+    },
+    "specs": {
+      "Technology": "Microcurrent — mimics body's natural current to tone facial muscles",
+      "Treatment Time": "5 min/day, 5× per week (first 60 days), then 2-3× weekly",
+      "Attachments Included": "ELE Attachment (eye/lip area) + Wrinkle Reducer (red light therapy)",
+      "Gel": "Requires NuFACE Gel Primer for conductivity",
+      "FDA Cleared": "Yes",
+      "Results Timeline": "Most see results in 60 days"
+    }
+  },
+  {
+    "id": "oral-b-io-series-9",
+    "name": "Oral-B iO Series 9 Electric Toothbrush with AI Motion Sensor",
+    "category": "Health & Beauty",
+    "score": 9,
+    "tag": "Electric Toothbrushes",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$229 CAD",
+    "page": "products/oral-b-io-series-9.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B088CK6XJ4/?tag=clearpick06-20",
+    "subscores": {
+      "Cleaning Power": 9.5,
+      "AI Guidance": 9.5,
+      "Pressure Sensor": 9,
+      "Battery": 9,
+      "Value": 7.5
+    },
+    "specs": {
+      "Technology": "Oscillating-rotating-pulsating + linear magnetic drive for gentler motion",
+      "AI": "AI Motion Sensor tracks brushing zones and pressure — shows coverage map in app",
+      "Pressure Sensor": "SmartPressure sensor — pulses red if too hard, green when optimal",
+      "Battery": "Magnetic charging — lasts 2 weeks per charge",
+      "Modes": "7 brushing modes",
+      "Timer": "2-minute timer with 30-sec quadrant pacer",
+      "App": "Oral-B app required for AI features"
+    }
+  },
+  {
+    "id": "oral-b-pro-1000",
+    "name": "Oral-B Pro 1000 CrossAction Electric Toothbrush",
+    "category": "Health & Beauty",
+    "score": 8.7,
+    "tag": "Electric Toothbrushes",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/oral-b-pro-1000.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0722WDRJ8/?tag=clearpick06-20",
+    "subscores": {
+      "Cleaning Power": 9,
+      "Value": 9.5,
+      "Pressure Sensor": 9,
+      "Battery": 8.5,
+      "Simplicity": 9.5
+    },
+    "specs": {
+      "Technology": "Oscillating-rotating-pulsating 3D motion",
+      "Strokes": "20,000 oscillations + 10,000 pulsations per minute",
+      "Pressure Sensor": "Visible pressure sensor — stops pulsating if pressing too hard",
+      "Battery": "Charges in 22 hours, lasts 5+ days",
+      "Timer": "2-minute timer with 30-sec quadrant alerts",
+      "Modes": "1 mode (Daily Clean)",
+      "Included": "CrossAction brush head"
+    }
+  },
+  {
+    "id": "panasonic-arc5-electric-shaver",
+    "name": "Panasonic Arc5 ES-LV97-S Wet/Dry Men's Electric Shaver with Cleaning Station",
+    "category": "Health & Beauty",
+    "score": 8.8,
+    "tag": "Electric Shavers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/panasonic-arc5-electric-shaver.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00GFAW0AE/?tag=clearpick06-20",
+    "subscores": {
+      "Shave Closeness": 9.5,
+      "Motor Speed": 9.5,
+      "Wet/Dry": 9,
+      "Cleaning Station": 8.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Foil": "5-blade arc with 30-degree nanotech blades",
+      "Motor": "14,000 CPM linear motor — fastest in category",
+      "Cutting": "Inner blade oscillates while outer foils capture more hair per pass",
+      "Wet/Dry": "100% waterproof",
+      "Battery": "1-hour charge, 45-minute use",
+      "Sensor": "Shave sensor adjusts power",
+      "Included": "Automatic cleaning & charging system"
+    }
+  },
+  {
+    "id": "philips-norelco-9000-shaver",
+    "name": "Philips Norelco 9000 Prestige SP9840/94 Rotary Electric Shaver",
+    "category": "Health & Beauty",
+    "score": 8.7,
+    "tag": "Electric Shavers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/philips-norelco-9000-shaver.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07P5VB1R6/?tag=clearpick06-20",
+    "subscores": {
+      "Contour Following": 9.5,
+      "Wet/Dry": 9,
+      "Skin Comfort": 9,
+      "SmartClean": 9,
+      "Value": 8
+    },
+    "specs": {
+      "Head System": "3 NanoTech precision blades in each of 3 rotating heads",
+      "Contour": "360-D flex heads follow every contour of face and neck",
+      "Wet/Dry": "Fully waterproof — wet shave with gel/cream",
+      "Battery": "1-hour charge, 60-minute use",
+      "Cleaning": "SmartClean System — lubricate, clean, dry, charge",
+      "SkinIQ": "Senses beard density and adapts power"
+    }
+  },
+  {
+    "id": "philips-sonicare-diamondclean-9300",
+    "name": "Philips Sonicare DiamondClean 9300 Electric Toothbrush HX9903",
+    "category": "Health & Beauty",
+    "score": 8.8,
+    "tag": "Electric Toothbrushes",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/philips-sonicare-diamondclean-9300.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CM438KZY/?tag=clearpick06-20",
+    "subscores": {
+      "Cleaning Performance": 9.5,
+      "App Guidance": 9,
+      "Pressure Sensor": 9,
+      "Battery": 9.5,
+      "Build Quality": 9
+    },
+    "specs": {
+      "Technology": "Sonic — 31,000 brush strokes/min",
+      "Modes": "4 modes (Clean, White+, Gum Health, Deep Clean+)",
+      "Intensity": "3 intensity settings per mode",
+      "Pressure Sensor": "Real-time pressure feedback in app and handle",
+      "Battery": "3-week charge (glass induction charger)",
+      "App": "Sonicare app — coverage feedback, brushing coach",
+      "Heads": "2× Premium All-in-One brush heads"
+    }
+  },
+  {
+    "id": "philips-sonicare-protectiveclean-6100",
+    "name": "Philips Sonicare ProtectiveClean 6100 Electric Toothbrush HX6877",
+    "category": "Health & Beauty",
+    "score": 8.5,
+    "tag": "Electric Toothbrushes",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/philips-sonicare-protectiveclean-6100.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07BFPXKY5/?tag=clearpick06-20",
+    "subscores": {
+      "Cleaning Power": 9,
+      "Pressure Sensor": 9,
+      "Value": 9,
+      "Battery": 8.5,
+      "Simplicity": 8.5
+    },
+    "specs": {
+      "Technology": "Sonic — 31,000 brush strokes/min",
+      "Modes": "3 modes (Clean, White, Gum Care)",
+      "Intensity": "3 intensity levels",
+      "Pressure Sensor": "Light sensor pauses if too hard",
+      "Battery": "2-week charge",
+      "BrushSync": "Brush head replacement reminder via color sensor",
+      "Included": "2× premium brush heads"
+    }
+  },
+  {
+    "id": "revlon-one-step-volumizer-plus",
+    "name": "Revlon One-Step Volumizer Plus 2.0 Hair Dryer and Hot Air Brush",
+    "category": "Health & Beauty",
+    "score": 9.1,
+    "tag": "Hot Air Brushes",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$49 CAD",
+    "page": "products/revlon-one-step-volumizer-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07FK6XXCJ/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Results on Fine/Medium Hair": 9.5,
+      "Ease of Use": 9.5,
+      "Speed": 9,
+      "Heat Settings": 8
+    },
+    "specs": {
+      "Technology": "Oval brush with built-in dryer — dry and volumize in one step",
+      "Bristles": "Nylon pin and tufted bristles for grip and volume",
+      "Heat": "3 heat/speed settings + cool shot",
+      "Ionic": "Ionic technology for frizz control",
+      "Cord": "7-ft cord",
+      "Weight": "1.5 lbs",
+      "Best For": "Fine to medium hair — thick hair may need multiple passes"
+    }
+  },
+  {
+    "id": "ryobi-18v-pcl206k2-drill-kit",
+    "name": "Ryobi PCL206K2 18V ONE+ Cordless Drill/Driver Kit with 2 Batteries",
+    "category": "Tools & Home Improvement",
+    "score": 8.4,
+    "tag": "Drills & Drivers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/ryobi-18v-pcl206k2-drill-kit.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BNGB7ZH/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Battery Ecosystem": 9.5,
+      "Ease of Use": 9,
+      "Versatility": 8.5,
+      "Torque": 8
+    },
+    "specs": {
+      "Torque": "500 in-lbs",
+      "Speed": "0-450/0-1,800 RPM",
+      "Clutch": "24-position clutch",
+      "Chuck": "3/8-inch keyless",
+      "Battery": "18V ONE+ (2× 1.5Ah batteries + charger)",
+      "Platform": "18V ONE+ — compatible with 280+ tools",
+      "LED": "2-LED worklight"
+    }
+  },
+  {
+    "id": "ryobi-pcl540b-cordless-circular-saw",
+    "name": "Ryobi PBLCS300B ONE+ HP 18V Brushless 7-1/4 In. Circular Saw (Tool Only)",
+    "category": "Tools & Home Improvement",
+    "score": 8.7,
+    "tag": "Circular Saws",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$229 CAD",
+    "page": "products/ryobi-pcl540b-cordless-circular-saw.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B099CHFN88/?tag=clearpick06-20",
+    "subscores": {
+      "Brushless Motor": 9.5,
+      "Cut Capacity": 9,
+      "Value": 9,
+      "Battery Compatibility": 9.5,
+      "Blade": 9
+    },
+    "specs": {
+      "Motor": "18V HP Brushless — more power and runtime than brushed",
+      "Blade": "7-1/4 inch carbide-tipped blade",
+      "Speed": "5,000 RPM no-load",
+      "Bevel": "0°–56° bevel capacity",
+      "Cut Depth": "2-1/4\" at 90°, 1-9/16\" at 45°",
+      "Battery": "18V ONE+ (not included) — compatible with 280+ Ryobi ONE+ tools",
+      "LED": "LED light illuminates cut line"
+    }
+  },
+  {
+    "id": "ryobi-tss103-miter-saw",
+    "name": "Ryobi 10-Inch Compound Miter Saw (TSS103)",
+    "category": "Tools & Home Improvement",
+    "score": 8.5,
+    "tag": "Miter Saws",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/ryobi-tss103-miter-saw.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B088QSQG3H/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Miter Range": 9,
+      "Build Quality": 8.5,
+      "Fence": 8.5,
+      "Accuracy": 8.5
+    },
+    "specs": {
+      "Blade": "10-inch, 40T blade included",
+      "Motor": "15-AMP, 5,000 RPM",
+      "Miter": "0°–52° left and right miter",
+      "Bevel": "0°–48° single bevel",
+      "Cross Cut": "12\" cross cut capacity at 90°, 8-1/2\" at 45°",
+      "Fence": "Adjustable stainless steel miter fence",
+      "Dust": "Dust bag included"
+    }
+  },
+  {
+    "id": "secretlab-titan-evo-chair",
+    "name": "Secretlab TITAN Evo 2022 Gaming Chair, Regular Size",
+    "category": "Office & Work",
+    "score": 9.1,
+    "tag": "Office Chairs",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$649 CAD",
+    "page": "products/secretlab-titan-evo-chair.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09K55VLZS/?tag=clearpick06-20",
+    "subscores": {
+      "Lumbar Support": 9.5,
+      "Build Quality": 9.5,
+      "Adjustability": 9,
+      "Long Sessions": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Lumbar": "4-way L-ADAPT lumbar support — adjustable up/down, in/out, and in firmness",
+      "Neck Pillow": "Magnetic memory foam neck pillow — removes without clips",
+      "Seat Foam": "Cold-cure foam — retains shape over years vs. standard polyurethane foam",
+      "Reclining": "Full metal multi-tilt mechanism, 85°–165° recline range",
+      "Armrests": "4D armrests — height, width, depth, and angle adjustable",
+      "Material": "SoftWeave Plus fabric or NEO Hybrid Leatherette (model-dependent)",
+      "Size": "Regular: fits 5'4\"–5'11\", 100–220 lbs; also available in Small and XL"
+    }
+  },
+  {
+    "id": "shark-hyperair-hair-dryer",
+    "name": "Shark HyperAir Hair Dryer with IQ 2-in-1 Concentrator & Styling Brush",
+    "category": "Health & Beauty",
+    "score": 8.6,
+    "tag": "Hair Dryers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$229 CAD",
+    "page": "products/shark-hyperair-hair-dryer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BKJMNYX/?tag=clearpick06-20",
+    "subscores": {
+      "Speed": 9,
+      "Attachments": 9.5,
+      "Heat": 9,
+      "Value": 8.5,
+      "Noise": 7.5
+    },
+    "specs": {
+      "Technology": "HyperAIR IQ Technology — high-velocity controlled air",
+      "Attachments": "IQ 2-in-1 concentrator (styles + controls) + IQ volumizing brush (dries + volumizes)",
+      "Temperature": "5 heat settings + cool shot",
+      "Speed": "3 speed settings",
+      "Cord": "9-ft swivel cord",
+      "Heat Measurement": "Measures temperature 1000× per second"
+    }
+  },
+  {
+    "id": "t3-cura-luxe-hair-dryer",
+    "name": "T3 Cura Luxe Professional Hair Dryer with Auto Pause Sensor",
+    "category": "Health & Beauty",
+    "score": 8.7,
+    "tag": "Hair Dryers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/t3-cura-luxe-hair-dryer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08THP6WT1/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Heat Settings": 9,
+      "Auto Pause": 9,
+      "Ion Output": 9,
+      "Value": 7.5
+    },
+    "specs": {
+      "Motor": "Professional AC motor, 1875W",
+      "Ionic": "Digital ionic generator",
+      "Heat": "2 speed + 3 heat settings",
+      "Auto Pause": "Auto Pause Sensor — dryer pauses when put down, resumes when lifted",
+      "Cord": "9-ft swivel cord",
+      "Concentrator": "Attachment included",
+      "Filter": "Easily removable filter for lint cleaning"
+    }
+  },
+  {
+    "id": "wahl-magic-clip-hair-clipper",
+    "name": "Wahl Magic Clip Cordless Professional Hair Clipper",
+    "category": "Health & Beauty",
+    "score": 9.2,
+    "tag": "Hair Clippers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/wahl-magic-clip-hair-clipper.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00B5HZAQA/?tag=clearpick06-20",
+    "subscores": {
+      "Fade Ability": 9.5,
+      "Motor Power": 9,
+      "Battery Life": 9,
+      "Value": 9.5,
+      "Blade Quality": 9.5
+    },
+    "specs": {
+      "Blade": "Fade blade with extended taper lever — zero-gap adjustable",
+      "Motor": "Rotary motor for continuous heavy use",
+      "Battery": "90-minute cordless runtime, 60-min charge",
+      "Cord": "Corded/cordless convertible",
+      "Guides": "8 colored guide combs (1/8\" to 1\")",
+      "Weight": "7.4 oz",
+      "Used By": "Standard choice in barbershops worldwide"
+    }
+  },
+  {
+    "id": "waterpik-aquarius-wp-660",
+    "name": "Waterpik Aquarius Water Flosser WP-660",
+    "category": "Health & Beauty",
+    "score": 9.2,
+    "tag": "Water Flossers",
+    "icon": "📦",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/waterpik-aquarius-wp-660.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01B2NGKJE/?tag=clearpick06-20",
+    "subscores": {
+      "Effectiveness": 9.5,
+      "Ease of Use": 9,
+      "Pressure Settings": 9.5,
+      "Value": 9,
+      "Reservoir Size": 9
+    },
+    "specs": {
+      "Pressure": "10 settings from 10–100 PSI",
+      "Reservoir": "650ml removable water reservoir (90 seconds at highest setting)",
+      "Tips": "7 tips included (Flosser, Jet, Tongue, Toothbrush, Plaque, Pocket, Orthodontic)",
+      "Timer": "30-second timer with 1-minute pacer",
+      "Cord": "360° rotating handle",
+      "Voltage": "Dual voltage 100-240V",
+      "Size": "Countertop unit — 3.8\"W × 4.7\"D × 10.3\"H"
+    }
   }
 ]
