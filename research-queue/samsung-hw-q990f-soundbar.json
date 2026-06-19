@@ -99,5 +99,10 @@
     "sonos-era-100",
     "samsung-q80d-65-qled-tv",
     "lg-c5-oled-65-tv"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/samsung-hw-q990f-soundbar/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

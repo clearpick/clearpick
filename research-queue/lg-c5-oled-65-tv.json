@@ -10,7 +10,7 @@
   "asin": "B0F7J14C5Q",
   "price": 1998,
   "priceDisplay": "$1,998 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best OLED TV for Gaming and Movies",
   "image": "https://m.media-amazon.com/images/I/91sNJE-bPkL._AC_SX500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0F7J14C5Q/?tag=clearpick06-20",
@@ -18,7 +18,7 @@
     "Picture Quality": 9.5,
     "Gaming Performance": 9.5,
     "Smart TV & Features": 8.5,
-    "Build & Design": 9.0,
+    "Build & Design": 9,
     "Value for Money": 7.5
   },
   "specs": {
@@ -47,18 +47,41 @@
   ],
   "verdict": "The LG C5 is the TV for people who will genuinely use it. If you watch movies in a dark room, game seriously, or want the best picture quality available at 65 inches, it earns every dollar of its $1,998 CAD price. If you watch TV casually in a bright living room, the Samsung Q80D at $698 gives you 85% of the experience at a third of the cost. Buy the C5 when picture perfection actually matters to you.",
   "realBuyers": [
-    {"quote": "Upgraded from a 2019 QLED and the black levels blew my mind. Night scenes in movies are like a completely different experience -- you can't go back to LCD after this.", "source": "r/hometheater"},
-    {"quote": "Gaming on the C5 at 144Hz is ridiculous. Zero ghosting, colours are insane. I baby it a bit with burn-in settings but worth every penny for competitive play.", "source": "r/OLED"},
-    {"quote": "Had my C2 since 2022 with daily use -- zero burn-in. Watch all kinds of content including gaming. The burn-in fear is overblown for most users.", "source": "r/4kTV"}
+    {
+      "quote": "Upgraded from a 2019 QLED and the black levels blew my mind. Night scenes in movies are like a completely different experience -- you can't go back to LCD after this.",
+      "source": "r/hometheater"
+    },
+    {
+      "quote": "Gaming on the C5 at 144Hz is ridiculous. Zero ghosting, colours are insane. I baby it a bit with burn-in settings but worth every penny for competitive play.",
+      "source": "r/OLED"
+    },
+    {
+      "quote": "Had my C2 since 2022 with daily use -- zero burn-in. Watch all kinds of content including gaming. The burn-in fear is overblown for most users.",
+      "source": "r/4kTV"
+    }
   ],
   "sources": [
-    {"title": "RTINGS.com: LG C5 OLED Review", "url": "https://www.rtings.com/tv/reviews/lg/c5-oled"},
-    {"title": "Tom's Guide: LG C5 OLED TV Review", "url": "https://www.tomsguide.com/tvs/oled-tvs/lg-c5-oled-tv-review"},
-    {"title": "Tom's Guide: OLED Burn-In -- What You Need to Know", "url": "https://www.tomsguide.com/tvs/oled-tvs/for-oled-tvs-burn-in-fears-are-overblown-heres-what-you-need-to-know"}
+    {
+      "title": "RTINGS.com: LG C5 OLED Review",
+      "url": "https://www.rtings.com/tv/reviews/lg/c5-oled"
+    },
+    {
+      "title": "Tom's Guide: LG C5 OLED TV Review",
+      "url": "https://www.tomsguide.com/tvs/oled-tvs/lg-c5-oled-tv-review"
+    },
+    {
+      "title": "Tom's Guide: OLED Burn-In -- What You Need to Know",
+      "url": "https://www.tomsguide.com/tvs/oled-tvs/for-oled-tvs-burn-in-fears-are-overblown-heres-what-you-need-to-know"
+    }
   ],
   "metaDescription": "LG C5 OLED 65-inch review for Canada. Perfect black, 144Hz gaming, 4x HDMI 2.1 -- at $1,998 CAD. Honest take on burn-in, brightness, and who should buy it.",
   "introText": "The LG C5 is the 2025 version of the TV that has topped best-in-class lists for nine consecutive years. Self-lit OLED pixels deliver contrast and colour accuracy that no LCD can match, and the gaming spec sheet -- 144Hz, 4x HDMI 2.1, G-Sync -- sets the standard. The question is never whether it's good. It's whether you'll actually use what you're paying for.",
   "researchedAt": "2026-06-12",
   "currentProductCount": 1,
-  "newProductCount": 2
+  "newProductCount": 2,
+  "images": {
+    "hero": "/images/products/lg-c5-oled-65-tv/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

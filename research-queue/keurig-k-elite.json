@@ -111,5 +111,10 @@
     "breville-barista-express-impress",
     "breville-bambino-plus",
     "delonghi-la-specialista-maestro"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/keurig-k-elite/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

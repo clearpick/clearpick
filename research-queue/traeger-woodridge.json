@@ -92,5 +92,10 @@
     "camp-chef-woodwind-pro-24",
     "traeger-pro-575-pellet-grill",
     "weber-spirit-ii-e310-gas-grill"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/traeger-woodridge/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

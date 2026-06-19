@@ -74,11 +74,11 @@ function renderProductPage(p, products) {
   ).join('');
 
   // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = p.whatWorks.map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = p.worthKnowing.map(item => `<li>${esc(item)}</li>`).join('\n');
+  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
+  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
 
   // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = p.realBuyers.map(b =>
+  const goodCardsHtml = (p.realBuyers || []).map(b =>
     `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
 <p class="real-buyers-say__text">"${esc(b.quote)}"</p>
 <cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
@@ -87,7 +87,7 @@ function renderProductPage(p, products) {
 
   // ── Common complaints — bad cards ─────────────────────────────────────────────
   // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = p.commonComplaints.map(c => {
+  const badCardsHtml = (p.commonComplaints || []).map(c => {
     const words = (c.complaint || '').split(/\s+/);
     const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
     const body  = c.body  || c.complaint || '';
@@ -110,7 +110,7 @@ function renderProductPage(p, products) {
     : '';
 
   // ── Similar products section ──────────────────────────────────────────────────
-  const similar = p.similarProducts.map(s => products.find(x => x.id === s));
+  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
   const similarSection = similar.length ? `<section class="section--similar">
 <div class="container">
 <div class="section__header">
@@ -148,7 +148,7 @@ ${similar.map(s => {
 <meta property="og:description" content="${esc(p.metaDescription)}" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc(p.image)}" />
+<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
 <link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
@@ -303,7 +303,7 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc(p.image)}" />
+<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
 <div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
 <div class="product-cta-box__name">${esc(p.name)}</div>
 <div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
@@ -337,6 +337,7 @@ ${consHtml}
 </ul>
 </div>
 </div>
+${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
@@ -351,6 +352,7 @@ ${badCardsHtml}
 </div>
 </div>
 </section>
+${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
 <p class="product-review__verdict-text">${esc(p.verdict)}</p>

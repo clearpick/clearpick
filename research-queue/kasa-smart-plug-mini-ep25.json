@@ -106,5 +106,10 @@
     "amazon-echo-dot-5th-gen",
     "amazon-echo-pop",
     "amazon-echo-show-8-3rd-gen"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/kasa-smart-plug-mini-ep25/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

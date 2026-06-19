@@ -15,8 +15,8 @@
   "subscores": {
     "Suction & Cleaning": 8.5,
     "Mopping Performance": 8.5,
-    "Navigation & Mapping": 9.0,
-    "Self-Maintenance": 9.0,
+    "Navigation & Mapping": 9,
+    "Self-Maintenance": 9,
     "Value for Money": 8.5
   },
   "specs": {
@@ -43,22 +43,56 @@
     "Roller maintenance is required weekly for households with shedding pets — hair accumulates at the roller ends and must be cleared manually even though the dock handles everything else."
   ],
   "commonComplaints": [
-    {"title": "No detergent support — owners consistently flag the mopping gap", "body": "Owners in r/RobotVacuums consistently raise the no-detergent limitation when comparing the Qrevo S to higher Roborock models — room-temperature water only means it struggles on greasy kitchen floors, which is exactly where the Qrevo Pro wins. For maintenance mopping it's fine; for deep-cleaning cooking residue or dried spills, multiple owners say it falls short.", "source": "Trusted Reviews"},
-    {"title": "The 1–2cm wall gap gets called out in nearly every owner review", "body": "The 1–2cm uncleaned strip along walls gets called out in nearly every owner review — not a dealbreaker, but consistent enough to count on it being there. Owners with baseboard grime or tight spaces mention it most.", "source": "Reddit r/RobotVacuums"},
-    {"title": "Roborock's post-warranty support is a recurring negative", "body": "Roborock's post-warranty support is a recurring negative in r/RobotVacuums — owners who needed parts or had issues outside the warranty window report slow response times and difficulty getting resolution. The product is well-regarded; the company's responsiveness after the sale is not.", "source": "Reddit r/RobotVacuums"}
+    {
+      "title": "No detergent support — owners consistently flag the mopping gap",
+      "body": "Owners in r/RobotVacuums consistently raise the no-detergent limitation when comparing the Qrevo S to higher Roborock models — room-temperature water only means it struggles on greasy kitchen floors, which is exactly where the Qrevo Pro wins. For maintenance mopping it's fine; for deep-cleaning cooking residue or dried spills, multiple owners say it falls short.",
+      "source": "Trusted Reviews"
+    },
+    {
+      "title": "The 1–2cm wall gap gets called out in nearly every owner review",
+      "body": "The 1–2cm uncleaned strip along walls gets called out in nearly every owner review — not a dealbreaker, but consistent enough to count on it being there. Owners with baseboard grime or tight spaces mention it most.",
+      "source": "Reddit r/RobotVacuums"
+    },
+    {
+      "title": "Roborock's post-warranty support is a recurring negative",
+      "body": "Roborock's post-warranty support is a recurring negative in r/RobotVacuums — owners who needed parts or had issues outside the warranty window report slow response times and difficulty getting resolution. The product is well-regarded; the company's responsiveness after the sale is not.",
+      "source": "Reddit r/RobotVacuums"
+    }
   ],
   "verdict": "'Set and forget' is the phrase owners in r/RobotVacuums use most — and specifically about the dock, which handles emptying, mop washing, mop drying, and water refill without you touching it. It's the main thing that separates the Qrevo S from cheaper robot vacuums. The mopping caveat is real: room-temperature water with no detergent handles maintenance cleaning well, but owners who expected it to replace a mop on greasy kitchen floors were disappointed. For hard-floor households that want hands-off daily maintenance, it consistently delivers. For deep cleaning, it's a supplement, not a replacement.",
   "realBuyers": [
-    {"quote": "I've had two German Shepherds for years and tried four different robot vacuums. The Qrevo S is the first one where I actually trust it to run daily without babysitting — it picks up everything and the mop wash system means I'm not cleaning the dock constantly.", "source": "Reddit r/RobotVacuums"},
-    {"quote": "The LiDAR mapping is shockingly good. First map completed in one pass, no missed zones, handles our open-concept floor plan with no re-runs needed.", "source": "Amazon.ca reviewer"},
-    {"quote": "Genuinely set and forget. Runs every morning, empties itself, mops and dries. I only interact with it to swap the dustbin bag once a month.", "source": "Reddit r/RobotVacuums"}
+    {
+      "quote": "I've had two German Shepherds for years and tried four different robot vacuums. The Qrevo S is the first one where I actually trust it to run daily without babysitting — it picks up everything and the mop wash system means I'm not cleaning the dock constantly.",
+      "source": "Reddit r/RobotVacuums"
+    },
+    {
+      "quote": "The LiDAR mapping is shockingly good. First map completed in one pass, no missed zones, handles our open-concept floor plan with no re-runs needed.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Genuinely set and forget. Runs every morning, empties itself, mops and dries. I only interact with it to swap the dustbin bag once a month.",
+      "source": "Reddit r/RobotVacuums"
+    }
   ],
   "sources": [
-    {"title": "Trusted Reviews: Roborock Qrevo S Review — Excellent value for a robot vacuum and mop", "url": "https://www.trustedreviews.com/reviews/roborock-qrevo-s"},
-    {"title": "Vacuum Wars: Roborock Qrevo S Review — Premium Cleaning at a Budget Price", "url": "https://vacuumwars.com/roborock-qrevo-s-review-premium-cleaning-at-a-budget-price/"},
-    {"title": "RedditRecs: Roborock Qrevo S — All Reddit Reviews", "url": "https://redditrecs.com/robot-vacuum/model/roborock-qrevo-s/"}
+    {
+      "title": "Trusted Reviews: Roborock Qrevo S Review — Excellent value for a robot vacuum and mop",
+      "url": "https://www.trustedreviews.com/reviews/roborock-qrevo-s"
+    },
+    {
+      "title": "Vacuum Wars: Roborock Qrevo S Review — Premium Cleaning at a Budget Price",
+      "url": "https://vacuumwars.com/roborock-qrevo-s-review-premium-cleaning-at-a-budget-price/"
+    },
+    {
+      "title": "RedditRecs: Roborock Qrevo S — All Reddit Reviews",
+      "url": "https://redditrecs.com/robot-vacuum/model/roborock-qrevo-s/"
+    }
   ],
-  "similarProducts": ["dreame-l10s-ultra", "eufy-x10-pro-omni", "roborock-q8-max"],
+  "similarProducts": [
+    "dreame-l10s-ultra",
+    "eufy-x10-pro-omni",
+    "roborock-q8-max"
+  ],
   "metaDescription": "Roborock Qrevo S review for Canadian buyers: self-emptying, self-washing robot vacuum mop with 7,000Pa suction and LiDAR navigation. Is it worth it in Canada?",
   "introText": "The Roborock Qrevo S is Roborock's mid-range all-in-one robot vacuum and mop, featuring a multifunction dock that automatically empties the dustbin, washes and dries the mop pads, and refills the water tank. With 7,000Pa suction, dual spinning mops, and LiDAR + camera obstacle avoidance, it offers most of the features of Roborock's premium lineup at a lower entry point. Available on Amazon.ca with ASIN B0CTZXJTGJ.",
   "researchedAt": "2026-06-17",
@@ -67,5 +101,10 @@
   "subcategory": "robot-vacuums",
   "verifiedAt": "2026-06-17",
   "verifiedAsin": "B0CTZXJTGJ",
-  "stockNote": "Currently unavailable on Amazon.ca as of 2026-06-17 — page still builds, link live when restocked"
+  "stockNote": "Currently unavailable on Amazon.ca as of 2026-06-17 — page still builds, link live when restocked",
+  "images": {
+    "hero": "/images/products/roborock-qrevo-s/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

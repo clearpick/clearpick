@@ -15,10 +15,10 @@
   "image": "https://m.media-amazon.com/images/I/71CpBpf1Q+L._AC_SX500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0CVS4FWFY/?tag=clearpick06-20",
   "subscores": {
-    "Picture Quality": 8.0,
+    "Picture Quality": 8,
     "Gaming Performance": 8.5,
-    "Smart TV & Features": 7.0,
-    "Build & Design": 8.0,
+    "Smart TV & Features": 7,
+    "Build & Design": 8,
     "Value for Money": 9.5
   },
   "specs": {
@@ -47,18 +47,41 @@
   ],
   "verdict": "At $698 CAD, the Samsung Q80D is one of the most compelling 65-inch TVs available. The combination of high brightness, Quantum Dot color, local dimming, and 4K 120Hz gaming performance is genuinely hard to beat at this price. If you want the absolute best picture -- particularly black levels and viewing angles -- spend the extra $1,300 CAD for the LG C5 OLED. But for a bright living room, casual gaming, and strong value, the Q80D is the smart buy.",
   "realBuyers": [
-    {"quote": "Picked this up on sale and couldn't believe the picture quality. PS5 gaming on this is stunning -- colours pop and response is instant.", "source": "Amazon.ca reviewer"},
-    {"quote": "No Dolby Vision is a bummer but you honestly barely notice unless you're specifically testing it side by side. The brightness makes up for it in a bright room.", "source": "Best Buy customer review"},
-    {"quote": "Six months daily gaming use, zero complaints. Way brighter than my old LG IPS and the colours are beautiful. Wouldn't buy anything else at this price.", "source": "r/Televisions"}
+    {
+      "quote": "Picked this up on sale and couldn't believe the picture quality. PS5 gaming on this is stunning -- colours pop and response is instant.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "No Dolby Vision is a bummer but you honestly barely notice unless you're specifically testing it side by side. The brightness makes up for it in a bright room.",
+      "source": "Best Buy customer review"
+    },
+    {
+      "quote": "Six months daily gaming use, zero complaints. Way brighter than my old LG IPS and the colours are beautiful. Wouldn't buy anything else at this price.",
+      "source": "r/Televisions"
+    }
   ],
   "sources": [
-    {"title": "RTINGS.com: Samsung Q80D QLED Review", "url": "https://www.rtings.com/tv/reviews/samsung/q80d-q80-q80dd-qled"},
-    {"title": "TechRadar: Samsung Q80D TV Review", "url": "https://www.techradar.com/televisions/samsung-q80d-review"},
-    {"title": "Amazon.ca: Samsung Q80D 65\" Customer Reviews", "url": "https://www.amazon.ca/dp/B0CVS4FWFY"}
+    {
+      "title": "RTINGS.com: Samsung Q80D QLED Review",
+      "url": "https://www.rtings.com/tv/reviews/samsung/q80d-q80-q80dd-qled"
+    },
+    {
+      "title": "TechRadar: Samsung Q80D TV Review",
+      "url": "https://www.techradar.com/televisions/samsung-q80d-review"
+    },
+    {
+      "title": "Amazon.ca: Samsung Q80D 65\" Customer Reviews",
+      "url": "https://www.amazon.ca/dp/B0CVS4FWFY"
+    }
   ],
   "metaDescription": "Samsung Q80D 65-inch QLED review for Canada. Bright, colour-accurate, and gaming-ready at $698 CAD. Honest verdict on no Dolby Vision and local dimming.",
   "introText": "The Samsung Q80D is the highest-end QLED in Samsung's non-Mini-LED range -- which means it punches well above its price. At current sale pricing around $698 CAD, it's one of the few large TVs that combines genuine brightness, local dimming, Quantum Dot colour, and 4K 120Hz gaming into one affordable package.",
   "researchedAt": "2026-06-12",
   "currentProductCount": 0,
-  "newProductCount": 1
+  "newProductCount": 1,
+  "images": {
+    "hero": "/images/products/samsung-q80d-65-qled-tv/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

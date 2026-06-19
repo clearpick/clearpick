@@ -98,5 +98,10 @@
     "roborock-qrevo-s",
     "dreame-l10s-ultra",
     "eufy-x10-pro-omni"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/roborock-qrevo-curv/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

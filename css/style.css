@@ -2306,6 +2306,46 @@ a:hover { color: var(--color-primary-hover); }
   border-radius: var(--radius-full);
 }
 
+/* ─── Scattered Product Images ─── */
+.product-lifestyle-image {
+  float: right;
+  margin: 0 0 var(--space-6) var(--space-6);
+  width: 280px;
+  max-width: 40%;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.product-lifestyle-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.product-detail-image {
+  margin: var(--space-8) auto;
+  max-width: 480px;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  border: 1px solid var(--color-border);
+}
+
+.product-detail-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .product-lifestyle-image {
+    float: none;
+    margin: var(--space-4) 0;
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
 /* ─── Mega Menu (desktop) ─── */
 .nav__mega-groups {
   display: flex;

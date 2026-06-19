@@ -45,19 +45,42 @@
   ],
   "verdict": "The Weber Spirit II E-310 is the benchmark mid-range gas grill — not the flashiest or cheapest option, but the one most likely to still be running a decade from now. It earns its price through consistently even heat, a reliable ignition system, flavorizer bars that actually improve flavor, and Weber's 10-year burner warranty. Canadian buyers who want a reliable gas grill for regular family use and don't need a side burner will be very happy with this purchase.",
   "realBuyers": [
-    {"quote": "It's probably the most well-built piece of outdoor equipment I own — zero issues after four years, still lights first try every time, and the cast-iron grates look better than my neighbours' year-old cheap grills.", "source": "Amazon.ca reviewer"},
-    {"quote": "Assembly took my wife and me about 75 minutes with the Bilt app — instructions were genuinely clear. First cook the next day and the burgers were the best I've made at home.", "source": "Bob Vila tester review"},
-    {"quote": "Compared to my old Broil King the heat is more even and the ignition never fails. I do miss having a side burner for corn on the cob but it wasn't a deal-breaker.", "source": "r/grilling / r/BBQ"}
+    {
+      "quote": "It's probably the most well-built piece of outdoor equipment I own — zero issues after four years, still lights first try every time, and the cast-iron grates look better than my neighbours' year-old cheap grills.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Assembly took my wife and me about 75 minutes with the Bilt app — instructions were genuinely clear. First cook the next day and the burgers were the best I've made at home.",
+      "source": "Bob Vila tester review"
+    },
+    {
+      "quote": "Compared to my old Broil King the heat is more even and the ignition never fails. I do miss having a side burner for corn on the cob but it wasn't a deal-breaker.",
+      "source": "r/grilling / r/BBQ"
+    }
   ],
   "sources": [
-    {"title": "Bob Vila: Weber Spirit II E-310 Gas Grill Review", "url": "https://www.bobvila.com/articles/weber-spirit-ii-e-310-grill-review/"},
-    {"title": "Tom's Guide: Weber Spirit II E-310 Gas Grill Review", "url": "https://tomsguide.com/home/weber-spirit-ii-e-310-gas-grill-review"},
-    {"title": "Amazon.ca: Weber Spirit II E-310 Black LP — Product Listing", "url": "https://www.amazon.ca/dp/B077JTCMKQ"}
+    {
+      "title": "Bob Vila: Weber Spirit II E-310 Gas Grill Review",
+      "url": "https://www.bobvila.com/articles/weber-spirit-ii-e-310-grill-review/"
+    },
+    {
+      "title": "Tom's Guide: Weber Spirit II E-310 Gas Grill Review",
+      "url": "https://tomsguide.com/home/weber-spirit-ii-e-310-gas-grill-review"
+    },
+    {
+      "title": "Amazon.ca: Weber Spirit II E-310 Black LP — Product Listing",
+      "url": "https://www.amazon.ca/dp/B077JTCMKQ"
+    }
   ],
   "metaDescription": "Weber Spirit II E-310 review for Canadian buyers: even heat, reliable GS4 ignition, and 10-year warranty make it the benchmark mid-range gas grill at $649 CAD.",
   "introText": "The Weber Spirit II E-310 is a three-burner propane gas grill built around Weber's GS4 system — Infinity electronic ignition, stainless steel burners, flavorizer bars, and porcelain-enameled cast-iron grates. At $649 CAD on Amazon.ca, it sits at the upper end of the mid-range gas grill category but backs up its price with a 10-year burner warranty and a reputation for outlasting nearly everything in its class.",
   "researchedAt": "2026-06-12",
   "newCategoryPage": true,
   "currentProductCount": 1,
-  "newProductCount": 2
+  "newProductCount": 2,
+  "images": {
+    "hero": "/images/products/weber-spirit-ii-e310-gas-grill/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

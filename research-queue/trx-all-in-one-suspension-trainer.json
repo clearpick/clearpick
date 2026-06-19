@@ -13,10 +13,10 @@
   "image": "https://m.media-amazon.com/images/I/71t5J88RIrL._AC_SX500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B002YRB35I/?tag=clearpick06-20",
   "subscores": {
-    "Build Quality & Durability": 9.0,
+    "Build Quality & Durability": 9,
     "Versatility & Exercise Range": 9.5,
     "Ease of Setup": 8.5,
-    "Portability": 9.0,
+    "Portability": 9,
     "Value for Money": 7.5
   },
   "specs": {
@@ -45,18 +45,41 @@
   ],
   "verdict": "The TRX All-In-One is the standard against which all suspension trainers are measured, and for good reason — the versatility, portability, and build quality genuinely justify the premium over cheap knockoffs for anyone who will use it regularly. It works especially well for home gym users who want a complete functional training tool that stows in a drawer and for travelers who want a hotel-room workout that goes beyond pushups. Casual users who just want to add variety once a week may find the knockoffs at a third the price are sufficient.",
   "realBuyers": [
-    {"quote": "I've had mine for 5 years and it looks brand new. The buckle and stitching are solid. Bought a knockoff first — it started fraying at 6 months.", "source": "r/homegym"},
-    {"quote": "The door anchor is fine for most exercises but I screwed an X-Mount into a ceiling joist and it completely changed the experience. Worth the extra $40.", "source": "r/bodyweightfitness"},
-    {"quote": "Harder to learn than YouTube makes it look, but after 2 weeks of following the TRX beginner program I was hooked. Nothing else trains your stabilizers like this.", "source": "Amazon.ca reviewer"}
+    {
+      "quote": "I've had mine for 5 years and it looks brand new. The buckle and stitching are solid. Bought a knockoff first — it started fraying at 6 months.",
+      "source": "r/homegym"
+    },
+    {
+      "quote": "The door anchor is fine for most exercises but I screwed an X-Mount into a ceiling joist and it completely changed the experience. Worth the extra $40.",
+      "source": "r/bodyweightfitness"
+    },
+    {
+      "quote": "Harder to learn than YouTube makes it look, but after 2 weeks of following the TRX beginner program I was hooked. Nothing else trains your stabilizers like this.",
+      "source": "Amazon.ca reviewer"
+    }
   ],
   "sources": [
-    {"title": "GymBird: TRX Suspension Trainer Review 2024", "url": "https://www.gymbird.com/equipment/trx-suspension-trainer-review"},
-    {"title": "Trail & Kale: TRX Straps Review", "url": "https://trailandkale.com/trx-straps-review-suspension-trainer/"},
-    {"title": "PowerliftingTechnique: Top 5 TRX Alternatives", "url": "https://powerliftingtechnique.com/trx-alternatives/"}
+    {
+      "title": "GymBird: TRX Suspension Trainer Review 2024",
+      "url": "https://www.gymbird.com/equipment/trx-suspension-trainer-review"
+    },
+    {
+      "title": "Trail & Kale: TRX Straps Review",
+      "url": "https://trailandkale.com/trx-straps-review-suspension-trainer/"
+    },
+    {
+      "title": "PowerliftingTechnique: Top 5 TRX Alternatives",
+      "url": "https://powerliftingtechnique.com/trx-alternatives/"
+    }
   ],
   "metaDescription": "TRX All-In-One Suspension Trainer review for Canadians: $250 CAD, 300+ exercises, 700-lb tested, fits in a bag. Honest look at whether it's worth it over knockoffs.",
   "introText": "The TRX All-In-One Suspension Training System is the original suspension trainer — designed for military use and refined over two decades into one of the most versatile pieces of fitness equipment that fits in a bag. Using only your bodyweight and a single overhead anchor point, you can run 300+ exercises that train strength, stability, and mobility simultaneously. At $250 CAD on Amazon.ca it's a premium buy, but one that dedicated home gym users and frequent travelers consistently rate as one of their most-used pieces of equipment.",
   "researchedAt": "2026-06-14",
   "currentProductCount": 15,
-  "newProductCount": 16
+  "newProductCount": 16,
+  "images": {
+    "hero": "/images/products/trx-all-in-one-suspension-trainer/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

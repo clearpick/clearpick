@@ -94,5 +94,10 @@
     "lg-g4-oled-65-tv",
     "samsung-q80d-65-qled-tv",
     "hisense-u88qg-65-mini-led-tv"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/samsung-qn90d-neo-qled-65-tv/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

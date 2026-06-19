@@ -106,5 +106,10 @@
     "instant-pot-pro-6qt",
     "vitamix-e310-explorian",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/baratza-encore-grinder/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

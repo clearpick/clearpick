@@ -95,5 +95,10 @@
     "samsung-q80d-65-qled-tv",
     "lg-c5-oled-65-tv",
     "hisense-u88qg-65-mini-led-tv"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/apple-tv-4k-3rd-gen/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

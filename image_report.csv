@@ -2,8 +2,12 @@ id,name,page,image_url,status,content_type,width,height,flag
 adobe-acrobat-standard,Adobe Acrobat Standard,products/adobe-acrobat-standard.html,https://images-na.ssl-images-amazon.com/images/P/B0D4C9NZDY.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 amazon-echo-dot-5th-gen,Amazon Echo Dot 5th Gen,products/amazon-echo-dot-5th-gen.html,https://images-na.ssl-images-amazon.com/images/P/B09B8V1LZ3.01._SCLZZZZZZZ_.jpg,200,image/jpeg,313,500,OK
 amazon-echo-pop,Amazon Echo Pop,products/amazon-echo-pop.html,https://images-na.ssl-images-amazon.com/images/P/B09WNK39JN.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+amazon-echo-show-8-3rd-gen,"Amazon Echo Show 8 (3rd Gen, 2023)",products/amazon-echo-show-8-3rd-gen.html,https://images-na.ssl-images-amazon.com/images/P/B0BLS3Y632.01._AC_SX500_.jpg,200,image/jpeg,160,121,OK
 anker-soundcore-space-q45,Anker Soundcore Space Q45,products/anker-soundcore-space-q45.html,https://images-na.ssl-images-amazon.com/images/P/B0B5VHRX7F.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+apple-airpods-max-usb-c,Apple AirPods Max Wireless Over-Ear Headphones with USB-C Charging,products/apple-airpods-max-usb-c.html,https://images-na.ssl-images-amazon.com/images/P/B0DGJC52FP.01._AC_SX500_.jpg,200,image/jpeg,116,128,OK
+apple-airpods-pro-2nd-gen,Apple AirPods Pro (2nd Generation) with USB-C,products/apple-airpods-pro-2nd-gen.html,https://images-na.ssl-images-amazon.com/images/P/B0CHWRXH8B.01._AC_SX500_.jpg,200,image/jpeg,100,125,OK
 apple-airtag-dog-collar-holder,Apple AirTag Dog Collar Holder,products/apple-airtag-dog-collar-holder.html,https://m.media-amazon.com/images/I/71YJQc90XRL._AC_SX500_.jpg,200,image/jpeg,500,488,OK
+apple-tv-4k-3rd-gen,"Apple TV 4K (3rd Generation, 2022)",products/apple-tv-4k-3rd-gen.html,https://m.media-amazon.com/images/I/61HGvrbamzL._AC_SX500_.jpg,200,image/jpeg,500,339,OK
 arlo-essential-video-doorbell-wire-free,Arlo Essential Video Doorbell Wire-Free,products/arlo-essential-video-doorbell-wire-free.html,https://images-na.ssl-images-amazon.com/images/P/B0DNTZN481.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 audeze-maxwell,Audeze Maxwell Wireless,products/audeze-maxwell.html,https://m.media-amazon.com/images/I/51iE7XD13NL._AC_SX500_.jpg,200,image/jpeg,500,612,OK
 bedsure-orthopedic-dog-bed,Bedsure Orthopedic Dog Bed,products/bedsure-orthopedic-dog-bed.html,https://m.media-amazon.com/images/I/816enU18xfL._AC_SX500_.jpg,200,image/jpeg,500,500,OK
@@ -11,36 +15,45 @@ big-agnes-copper-spur-hv-ul2,Big Agnes Copper Spur HV UL2,products/big-agnes-cop
 biolite-campstove-2,BioLite CampStove 2+,products/biolite-campstove-2.html,https://m.media-amazon.com/images/I/613BdK6MWGL._AC_SX500_.jpg,200,image/jpeg,500,477,OK
 bitdefender-total-security,Bitdefender Total Security,products/bitdefender-total-security.html,https://m.media-amazon.com/images/I/61LKM7+acPL._AC_SX500_.jpg,200,image/jpeg,500,715,OK
 black-decker-4-slice-toaster-oven,BLACK+DECKER 4-Slice Toaster Oven TO1745SSG,products/black-decker-4-slice-toaster-oven.html,https://images-na.ssl-images-amazon.com/images/P/B00GGFHH4U.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+blackstone-36-inch-griddle,Blackstone 1554 36-Inch Outdoor Flat Top Gas Griddle Station,products/blackstone-36-inch-griddle.html,https://m.media-amazon.com/images/I/61x-LyASDEL._AC_SX500_.jpg,200,image/jpeg,500,323,OK
 blink-video-doorbell,Blink Video Doorbell,products/blink-video-doorbell.html,https://m.media-amazon.com/images/I/61px+bHHElL._AC_SX500_.jpg,200,image/jpeg,500,500,OK
 bodylastics-pro-resistance-bands,Bodylastics PRO Resistance Bands,products/bodylastics-pro-resistance-bands.html,https://m.media-amazon.com/images/I/6160ZUZ26pL._AC_SX500_.jpg,200,image/jpeg,500,493,OK
 bose-quietcomfort,Bose QuietComfort Headphones,products/bose-quietcomfort.html,https://images-na.ssl-images-amazon.com/images/P/B0D4Z9C562.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
-bose-quietcomfort-ultra,Bose QuietComfort Ultra,products/bose-quietcomfort-ultra.html,https://images-na.ssl-images-amazon.com/images/P/B0CCZ26B5V.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+bose-quietcomfort-ultra-headphones,Bose QuietComfort Ultra Wireless Noise Cancelling Headphones,products/bose-quietcomfort-ultra-headphones.html,https://images-na.ssl-images-amazon.com/images/P/B0CCZ1L489.01._AC_SX500_.jpg,200,image/jpeg,102,125,OK
 bowflex-selecttech-552,Bowflex SelectTech 552 Dumbbells,products/bowflex-selecttech-552.html,https://images-na.ssl-images-amazon.com/images/P/B0FRNG2N5H.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+bowflex-selecttech-840-kettlebell,Bowflex SelectTech 840 Adjustable Kettlebell,products/bowflex-selecttech-840-kettlebell.html,https://m.media-amazon.com/images/I/61GhgyYpcRL._AC_SX500_.jpg,200,image/jpeg,500,561,OK
 breville-bambino-plus,Breville Bambino Plus (BES500BSS),products/breville-bambino-plus.html,https://images-na.ssl-images-amazon.com/images/P/B07JH9CRBZ.01._SCLZZZZZZZ_.jpg,200,image/jpeg,474,500,OK
 breville-barista-express,Breville Barista Express (BES870XL),products/breville-barista-express.html,https://images-na.ssl-images-amazon.com/images/P/B00CH9QWOU.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+breville-barista-express-impress,Breville Barista Express Impress Espresso Machine BES876BSS,products/breville-barista-express-impress.html,https://m.media-amazon.com/images/I/51iZ6QChqDL._AC_SX500_.jpg,200,image/jpeg,500,577,OK
 breville-barista-pro,Breville Barista Pro (BES878BSS),products/breville-barista-pro.html,https://images-na.ssl-images-amazon.com/images/P/B07JH9CRBZ.01._SCLZZZZZZZ_.jpg,200,image/jpeg,474,500,OK
 breville-compact-smart-oven,Breville Compact Smart Oven (BOV650BSS),products/breville-compact-smart-oven.html,https://images-na.ssl-images-amazon.com/images/P/B00357YS3A.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 breville-fast-slow-pro,Breville Fast Slow Pro (BPR700BSS),products/breville-fast-slow-pro.html,https://images-na.ssl-images-amazon.com/images/P/B013I40R8E.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 breville-smart-oven-air-fryer-compact,Breville Smart Oven Air Fryer Compact (BOV680BSS),products/breville-smart-oven-air-fryer-compact.html,https://images-na.ssl-images-amazon.com/images/P/B07YX7PYH4.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,344,OK
 breville-smart-oven-pro,Breville Smart Oven Pro (BOV845BSS),products/breville-smart-oven-pro.html,https://images-na.ssl-images-amazon.com/images/P/B00XBOXVIA.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 brs-3000t-titanium-stove,BRS-3000T Titanium Stove,products/brs-3000t-titanium-stove.html,https://m.media-amazon.com/images/I/510B8GK5qrL._AC_SX500_.jpg,200,image/jpeg,500,467,OK
+camp-chef-woodwind-pro-24,Camp Chef Woodwind Pro 24 WiFi Pellet Grill with Sidekick,products/camp-chef-woodwind-pro-24.html,https://m.media-amazon.com/images/I/61ZzYJTsQCL._AC_SX500_.jpg,200,image/jpeg,500,467,OK
+canon-eos-r50,Canon EOS R50 Mirrorless Camera with RF-S 18-45mm Lens,products/canon-eos-r50.html,https://images-na.ssl-images-amazon.com/images/P/B0BTTV6CT1.01._AC_SX500_.jpg,200,image/jpeg,122,92,OK
 cat-mate-c500,Cat Mate C500 Automatic Pet Feeder,products/cat-mate-c500.html,https://images-na.ssl-images-amazon.com/images/P/B01AUYLVU8.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 coleman-north-rim-mummy-bag,Coleman North Rim Adult Mummy Sleeping Bag,products/coleman-north-rim-mummy-bag.html,https://images-na.ssl-images-amazon.com/images/P/B0D643KDKN.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 coleman-skydome-2-person,Coleman Skydome 2-Person Tent,products/coleman-skydome-2-person.html,https://images-na.ssl-images-amazon.com/images/P/B0C7SW2ZRS.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 coleman-skydome-4-person,Coleman Skydome 4-Person Camping Tent,products/coleman-skydome-4-person.html,https://images-na.ssl-images-amazon.com/images/P/B0C7SW2ZRS.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+concept2-rowerg,Concept2 RowErg Model D Indoor Rowing Machine,products/concept2-rowerg.html,https://m.media-amazon.com/images/I/41kmOFvpQoS._AC_SX500_.jpg,200,image/jpeg,500,290,OK
 corsair-dark-core,Corsair Dark Core RGB Pro SE,products/corsair-dark-core.html,https://images-na.ssl-images-amazon.com/images/P/B082LVNJ4W.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 corsair-k70-pro-tkl,CORSAIR K70 PRO TKL,products/corsair-k70-pro-tkl.html,https://images-na.ssl-images-amazon.com/images/P/B0D83TJ5RB.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,291,OK
 corsair-mm350,Corsair MM350 Pro Extended XL,products/corsair-mm350.html,https://images-na.ssl-images-amazon.com/images/P/B08JH8C5T5.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 cosori-pro-le-5-8-qt,Cosori Pro LE 5.8-Qt Air Fryer,products/cosori-pro-le-5-8-qt.html,https://images-na.ssl-images-amazon.com/images/P/B0CCJ8X596.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+cosori-turbo-blaze-6qt,Cosori TurboBlaze 6-Qt Air Fryer,products/cosori-turbo-blaze-6qt.html,https://images-na.ssl-images-amazon.com/images/P/B0D1KQKZM2.01._AC_SX500_.jpg,200,image/jpeg,160,160,OK
 cuisinart-toa-60,Cuisinart TOA-60 Air Fryer Toaster Oven,products/cuisinart-toa-60.html,https://images-na.ssl-images-amazon.com/images/P/B075BL334F.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 cuisinart-toa-70,Cuisinart TOA-70 Digital Air Fryer Toaster Oven,products/cuisinart-toa-70.html,https://images-na.ssl-images-amazon.com/images/P/B09HSWBTN4.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,455,OK
 cuisinart-tob-40n,Cuisinart TOB-40N,products/cuisinart-tob-40n.html,https://images-na.ssl-images-amazon.com/images/P/B004JMZGM2.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,309,OK
 delonghi-la-specialista-maestro,De'Longhi La Specialista Maestro EC9665M,products/delonghi-la-specialista-maestro.html,https://images-na.ssl-images-amazon.com/images/P/B0DGRTWFKJ.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 dewalt-2100-psi-pressure-washer,DEWALT 2100 PSI Cordless Pressure Washer,products/dewalt-2100-psi-pressure-washer.html,https://images-na.ssl-images-amazon.com/images/P/B09VWH6C3G.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 dewalt-60v-flexvolt-leaf-blower,DeWalt 60V FLEXVOLT Leaf Blower,products/dewalt-60v-flexvolt-leaf-blower.html,https://m.media-amazon.com/images/I/413mSgRZJKL._AC_SX500_.jpg,200,image/jpeg,500,309,OK
+dji-mini-4-pro,DJI Mini 4 Pro Drone,products/dji-mini-4-pro.html,https://images-na.ssl-images-amazon.com/images/P/B0CFF1SJ3P.01._AC_SX500_.jpg,200,image/jpeg,143,120,OK
 dreame-l10s-ultra,Dreame L10s Ultra Robot Vacuum and Mop,products/dreame-l10s-ultra.html,https://m.media-amazon.com/images/I/61rV0WmplkL._AC_SX500_.jpg,200,image/jpeg,500,529,OK
 echelon-ex5s,Echelon Smart Connect Bike EX-5s,products/echelon-ex5s.html,https://images-na.ssl-images-amazon.com/images/P/B07XGN9G8W.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 ecobee-smart-thermostat-premium,ecobee Smart Thermostat Premium,products/ecobee-smart-thermostat-premium.html,https://images-na.ssl-images-amazon.com/images/P/B09XXS48P8.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+ecobee-smartthermostat-premium,Ecobee SmartThermostat Premium,products/ecobee-smartthermostat-premium.html,https://images-na.ssl-images-amazon.com/images/P/B09YHX4MCL.01._AC_SX500_.jpg,200,image/jpeg,138,116,OK
 ego-power-lb6504,EGO Power+ LB6504 650 CFM Cordless Leaf Blower,products/ego-power-lb6504.html,https://images-na.ssl-images-amazon.com/images/P/B087RRLLQ3.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 epos-impact-1000,EPOS IMPACT 1000,products/epos-impact-1000.html,https://images-na.ssl-images-amazon.com/images/P/B0C4ZLLPVY.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 eset-home-security-premium,ESET HOME Security Premium,products/eset-home-security-premium.html,https://images-na.ssl-images-amazon.com/images/P/B0F1H22T9D.01._SCLZZZZZZZ_.jpg,200,image/jpeg,375,500,OK
@@ -52,41 +65,50 @@ eufy-security-video-doorbell-battery-powered,eufy Security Video Doorbell Batter
 eufy-x10-pro-omni,eufy X10 Pro Omni Robot Vacuum,products/eufy-x10-pro-omni.html,https://m.media-amazon.com/images/I/61NdxkWqIOL._AC_SX500_.jpg,200,image/jpeg,500,527,OK
 fi-series-3-smart-dog-collar,Fi Series 3 Smart Dog Collar,products/fi-series-3-smart-dog-collar.html,https://m.media-amazon.com/images/I/718qv1ME25L._AC_SX500_.jpg,200,image/jpeg,500,469,OK
 fire-maple-fixed-star-x2,Fire-Maple Fixed Star X2,products/fire-maple-fixed-star-x2.html,https://m.media-amazon.com/images/I/71qq0CY6t1L._AC_SX500_.jpg,200,image/jpeg,500,688,OK
+fujifilm-x100vi,Fujifilm X100VI Compact Digital Camera,products/fujifilm-x100vi.html,https://images-na.ssl-images-amazon.com/images/P/B0CW1KVSVF.01._AC_SX500_.jpg,200,image/jpeg,157,89,OK
 furhaven-deluxe-chaise-dog-bed,Furhaven Deluxe Chaise Dog Bed,products/furhaven-deluxe-chaise-dog-bed.html,https://images-na.ssl-images-amazon.com/images/P/B0759M2DPY.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 furhaven-ultra-plush-luxe-lounger,Furhaven Ultra Plush Luxe Lounger Dog Bed,products/furhaven-ultra-plush-luxe-lounger.html,https://images-na.ssl-images-amazon.com/images/P/B073PZL8HR.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 gaggia-classic-pro,Gaggia Classic Pro (RI9380/46),products/gaggia-classic-pro.html,https://images-na.ssl-images-amazon.com/images/P/B07RQ3NL76.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 garmin-alpha-tt-25,Garmin Alpha TT 25,products/garmin-alpha-tt-25.html,https://images-na.ssl-images-amazon.com/images/P/B0BYGGBLKM.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 google-nest-doorbell-battery,Google Nest Doorbell (Battery),products/google-nest-doorbell-battery.html,https://images-na.ssl-images-amazon.com/images/P/B0B1PJQB17.01._SCLZZZZZZZ_.jpg,200,image/jpeg,376,500,OK
 google-nest-thermostat,Google Nest Thermostat,products/google-nest-thermostat.html,https://m.media-amazon.com/images/I/31NI+obldKL._AC_SX500_.jpg,200,image/jpeg,496,519,OK
+gopro-hero-13-black,GoPro HERO13 Black,products/gopro-hero-13-black.html,https://m.media-amazon.com/images/I/71+pD0anNuL._AC_SX500_.jpg,200,image/jpeg,500,362,OK
 greenworks-80v-leaf-blower,Greenworks 80V Cordless Leaf Blower,products/greenworks-80v-leaf-blower.html,https://images-na.ssl-images-amazon.com/images/P/B0CLSF9WK3.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 greenworks-pro-2700-psi,Greenworks Pro 2700 PSI Pressure Washer,products/greenworks-pro-2700-psi.html,https://images-na.ssl-images-amazon.com/images/P/B0888VVDQ7.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 hamilton-beach-31127d,Hamilton Beach 31127D Countertop Oven,products/hamilton-beach-31127d.html,https://images-na.ssl-images-amazon.com/images/P/B06WGNC8Q4.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,400,OK
+hisense-u88qg-65-mini-led-tv,"Hisense 65"" U88QG Mini-LED QLED 4K Smart TV",products/hisense-u88qg-65-mini-led-tv.html,https://m.media-amazon.com/images/I/71xcUpNGkGL._AC_SX500_.jpg,200,image/jpeg,500,308,OK
 honeywell-home-t9-wifi-smart-thermostat,Honeywell Home T9 WiFi Smart Thermostat,products/honeywell-home-t9-wifi-smart-thermostat.html,https://images-na.ssl-images-amazon.com/images/P/B07RBRG6DQ.01._SCLZZZZZZZ_.jpg,200,image/jpeg,400,500,OK
 husqvarna-350ib,Husqvarna 350iB Battery Leaf Blower,products/husqvarna-350ib.html,https://images-na.ssl-images-amazon.com/images/P/B0CB6GVV75.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,224,OK
 husqvarna-automower-415x,Husqvarna Automower 415X Robotic Lawn Mower,products/husqvarna-automower-415x.html,https://images-na.ssl-images-amazon.com/images/P/B09WNDLXJL.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,245,OK
+hydrow-wave-rower,"Hydrow Wave Rowing Machine with 16"" HD Touchscreen",products/hydrow-wave-rower.html,https://m.media-amazon.com/images/I/61XGyCpvYiL._AC_SX500_.jpg,200,image/jpeg,500,500,OK
 hyperx-cloud-flight,HyperX Cloud Flight Wireless,products/hyperx-cloud-flight.html,https://images-na.ssl-images-amazon.com/images/P/B0FP1YT84W.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 hyperx-cloud-iii-wireless,HyperX Cloud III Wireless,products/hyperx-cloud-iii-wireless.html,https://images-na.ssl-images-amazon.com/images/P/B0F6NZWPTC.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 hyperx-pulsefire-mat,HyperX Pulsefire Mat,products/hyperx-pulsefire-mat.html,https://images-na.ssl-images-amazon.com/images/P/B09TZTSX68.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 instant-pot-duo-crisp-11-in-1,Instant Pot Duo Crisp 11-in-1,products/instant-pot-duo-crisp-11-in-1.html,https://images-na.ssl-images-amazon.com/images/P/B07VT23JDM.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 instant-pot-duo-plus-9-in-1,Instant Pot Duo Plus 9-in-1 (6 Quart),products/instant-pot-duo-plus-9-in-1.html,https://images-na.ssl-images-amazon.com/images/P/B01NBKTPTS.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 instant-pot-pro-10-in-1,Instant Pot Pro 10-in-1 (6 Quart),products/instant-pot-pro-10-in-1.html,https://images-na.ssl-images-amazon.com/images/P/B08PQ2KWHS.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+instant-pot-pro-6qt,Instant Pot Pro 10-in-1 6-Qt Electric Pressure Cooker,products/instant-pot-pro-6qt.html,https://images-na.ssl-images-amazon.com/images/P/B08PQ2KWHS.01._AC_SX500_.jpg,200,image/jpeg,148,160,OK
 instant-vortex-plus-6-qt,Instant Vortex Plus 6-Qt Air Fryer,products/instant-vortex-plus-6-qt.html,https://images-na.ssl-images-amazon.com/images/P/B07VHFMZHJ.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 irobot-roomba-combo-j9,iRobot Roomba Combo j9+,products/irobot-roomba-combo-j9.html,https://images-na.ssl-images-amazon.com/images/P/B0C415NHBM.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 irobot-roomba-j7,iRobot Roomba j7+,products/irobot-roomba-j7.html,https://images-na.ssl-images-amazon.com/images/P/B094NYHTMF.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+iron-gym-pull-up-bar,Iron Gym Total Upper Body Workout Bar,products/iron-gym-pull-up-bar.html,https://m.media-amazon.com/images/I/51S48AlbfOS._AC_SX500_.jpg,200,image/jpeg,500,289,OK
 jabra-evolve2-65,Jabra Evolve2 65,products/jabra-evolve2-65.html,https://images-na.ssl-images-amazon.com/images/P/B0GBWW6V4H.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 jabra-evolve2-75,Jabra Evolve2 75,products/jabra-evolve2-75.html,https://m.media-amazon.com/images/I/61kAtoHqReL._AC_SX500_.jpg,200,image/jpeg,500,500,OK
 jbl-live-780nc,JBL Live 780NC,products/jbl-live-780nc.html,https://images-na.ssl-images-amazon.com/images/P/B0GLLTQZKK.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
-k-rcher-k5-premium,Kärcher K5 Premium Pressure Washer,products/k-rcher-k5-premium.html,https://images-na.ssl-images-amazon.com/images/P/B01BMETENG.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+k-rcher-k5-premium,KÃ¤rcher K5 Premium Pressure Washer,products/k-rcher-k5-premium.html,https://images-na.ssl-images-amazon.com/images/P/B01BMETENG.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 kaspersky-total-security,Kaspersky Total Security,products/kaspersky-total-security.html,https://m.media-amazon.com/images/I/61tP2GYohdL._AC_SX500_.jpg,200,image/jpeg,500,645,OK
 kelly-kettle-trekker,Kelly Kettle Trekker,products/kelly-kettle-trekker.html,https://m.media-amazon.com/images/I/61oLzhm4fCL._AC_SX500_.jpg,200,image/jpeg,500,500,OK
 kelty-cosmic-20-sleeping-bag,Kelty Cosmic 20 Sleeping Bag,products/kelty-cosmic-20-sleeping-bag.html,https://m.media-amazon.com/images/I/51tiHd10hnL._AC_SX500_.jpg,200,image/jpeg,480,1378,OK
+keurig-k-elite,Keurig K-Elite Single Serve Coffee Maker,products/keurig-k-elite.html,https://images-na.ssl-images-amazon.com/images/P/B0788F3R8X.01._AC_SX500_.jpg,200,image/jpeg,110,160,OK
 keychron-q1-he,Keychron Q1 HE Wireless,products/keychron-q1-he.html,https://m.media-amazon.com/images/I/71sel8PrUJL._AC_SX500_.jpg,200,image/jpeg,500,423,OK
+kitchenaid-artisan-5qt-stand-mixer,KitchenAid Artisan 5-Qt Tilt-Head Stand Mixer,products/kitchenaid-artisan-5qt-stand-mixer.html,https://images-na.ssl-images-amazon.com/images/P/B00005UP2P.01._AC_SX500_.jpg,200,image/jpeg,157,155,OK
 lg-c5-oled-65-tv,"LG 65"" C5 OLED evo 4K Smart TV",products/lg-c5-oled-65-tv.html,https://m.media-amazon.com/images/I/91sNJE-bPkL._AC_SX500_.jpg,200,image/jpeg,500,308,OK
+lg-g4-oled-65-tv,"LG 65"" G4 OLED evo 4K Smart TV (2024)",products/lg-g4-oled-65-tv.html,https://m.media-amazon.com/images/I/71T29ndJmHL._AC_SX500_.jpg,200,image/jpeg,500,302,OK
 logitech-g-pro-x-tkl,Logitech G PRO X TKL Rapid,products/logitech-g-pro-x-tkl.html,https://images-na.ssl-images-amazon.com/images/P/B0DJD163HT.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 logitech-g502-x,Logitech G502 X LIGHTSPEED,products/logitech-g502-x.html,https://m.media-amazon.com/images/I/61-F0KQym0L._AC_SX500_.jpg,200,image/jpeg,500,433,OK
 logitech-g640,Logitech G640 Large Gaming Mouse Pad,products/logitech-g640.html,https://images-na.ssl-images-amazon.com/images/P/B0BHMKVF1P.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 malwarebytes-premium,Malwarebytes Premium,products/malwarebytes-premium.html,https://m.media-amazon.com/images/I/71Twsrs0ITL._AC_SX500_.jpg,200,image/jpeg,500,716,OK
-mammotion-luba-2-awd-1000,Mammotion LUBA 3 AWD 1500H Robot Lawn Mower,products/mammotion-luba-2-awd-1000.html,https://m.media-amazon.com/images/I/61FPxhqzfxL._AC_SX500_.jpg,200,image/jpeg,500,333,OK
+mammotion-luba-3-awd-1500h,Mammotion LUBA 3 AWD 1500H Robot Lawn Mower,products/mammotion-luba-3-awd-1500h.html,https://m.media-amazon.com/images/I/61FPxhqzfxL._AC_SX500_.jpg,200,image/jpeg,500,333,OK
 manduka-pro-yoga-mat,Manduka PRO Yoga Mat,products/manduka-pro-yoga-mat.html,https://m.media-amazon.com/images/I/91WnKjpclwL._AC_SX500_.jpg,200,image/jpeg,500,478,OK
 marmot-trestles-15-sleeping-bag,Marmot Trestles 15 Sleeping Bag,products/marmot-trestles-15-sleeping-bag.html,https://images-na.ssl-images-amazon.com/images/P/B01IO53AXQ.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 marmot-trestles-elite-eco-20,Marmot Trestles Elite Eco 20,products/marmot-trestles-elite-eco-20.html,https://images-na.ssl-images-amazon.com/images/P/B01IO53AXQ.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
@@ -97,7 +119,10 @@ microsoft-365-personal,Microsoft 365 Personal,products/microsoft-365-personal.ht
 msr-hubba-hubba-nx,MSR Hubba Hubba NX,products/msr-hubba-hubba-nx.html,https://images-na.ssl-images-amazon.com/images/P/B07F26RX39.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 msr-pocketrocket-2,MSR PocketRocket 2,products/msr-pocketrocket-2.html,https://images-na.ssl-images-amazon.com/images/P/B0CQRW7LH8.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 nemo-disco-15-sleeping-bag,NEMO Disco 15 Sleeping Bag,products/nemo-disco-15-sleeping-bag.html,https://m.media-amazon.com/images/I/71DMG13+QBL._AC_SX500_.jpg,200,image/jpeg,500,1070,OK
+nespresso-vertuo-next,Nespresso Vertuo Next Coffee and Espresso Machine,products/nespresso-vertuo-next.html,https://images-na.ssl-images-amazon.com/images/P/B08XZS8G7K.01._AC_SX500_.jpg,200,image/jpeg,128,97,OK
 ninja-af161-max-xl-air-fryer,Ninja AF161 Max XL Air Fryer,products/ninja-af161-max-xl-air-fryer.html,https://images-na.ssl-images-amazon.com/images/P/B07S6529ZZ.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+ninja-air-fryer-max-xl,Ninja Air Fryer Max XL AF161,products/ninja-air-fryer-max-xl.html,https://images-na.ssl-images-amazon.com/images/P/B07S6529ZZ.01._AC_SX500_.jpg,200,image/jpeg,105,113,OK
+ninja-creami-deluxe,Ninja CREAMi Deluxe 11-in-1 Ice Cream and Frozen Treat Maker NC501C,products/ninja-creami-deluxe.html,https://m.media-amazon.com/images/I/71JtrpENiwL._AC_SX500_.jpg,200,image/jpeg,500,1033,OK
 ninja-foodi-2-basket-8qt,Ninja Foodi 2-Basket Air Fryer 8Qt,products/ninja-foodi-2-basket-8qt.html,https://images-na.ssl-images-amazon.com/images/P/B08GL1XSH8.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 ninja-foodi-dualzone-7-qt,Ninja Foodi DualZone 7-Qt Air Fryer,products/ninja-foodi-dualzone-7-qt.html,https://images-na.ssl-images-amazon.com/images/P/B0D888HK4K.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 ninja-foodi-xl-pro-dt201,Ninja Foodi XL Pro DT201 Air Fry Oven,products/ninja-foodi-xl-pro-dt201.html,https://images-na.ssl-images-amazon.com/images/P/B08LQY2XF5.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
@@ -121,35 +146,55 @@ razer-gigantus-v2,Razer Gigantus V2,products/razer-gigantus-v2.html,https://imag
 razer-huntsman-v3-pro,Razer Huntsman V3 Pro TKL,products/razer-huntsman-v3-pro.html,https://images-na.ssl-images-amazon.com/images/P/B0CG7BWG7J.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 razer-naga-v2-pro,Razer Naga V2 Pro Wireless,products/razer-naga-v2-pro.html,https://images-na.ssl-images-amazon.com/images/P/B0BGJTLFN5.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 ring-battery-video-doorbell-2024,Ring Battery Video Doorbell 2024,products/ring-battery-video-doorbell-2024.html,https://m.media-amazon.com/images/I/71iI5p0+nAL._AC_SX500_.jpg,200,image/jpeg,500,800,OK
+ring-video-doorbell-pro-2,Ring Wired Video Doorbell Pro (2nd Gen),products/ring-video-doorbell-pro-2.html,https://m.media-amazon.com/images/I/61Pwmhc7SqL._AC_SX500_.jpg,200,image/jpeg,500,500,OK
 roborock-q8-max,roborock Q8 Max+,products/roborock-q8-max.html,https://m.media-amazon.com/images/I/61g6O+6WRtL._AC_SX500_.jpg,200,image/jpeg,500,576,OK
+roborock-qrevo-curv,Roborock Qrevo Curv Robot Vacuum and Mop,products/roborock-qrevo-curv.html,https://m.media-amazon.com/images/I/31fGKCPEyIL._AC_SX500_.jpg,200,image/jpeg,500,438,OK
 roborock-qrevo-s,Roborock Qrevo S Robot Vacuum and Mop,products/roborock-qrevo-s.html,https://m.media-amazon.com/images/I/61LtW-qPsSL._AC_SX500_.jpg,200,image/jpeg,500,507,OK
+roborock-qrevo-s-pro,Roborock Qrevo S Pro Robot Vacuum and Mop,products/roborock-qrevo-s-pro.html,https://m.media-amazon.com/images/I/61rielRLLxL._AC_SX500_.jpg,200,image/jpeg,500,508,OK
+roborock-qv-35a,Roborock QV 35A Robot Vacuum and Mop,products/roborock-qv-35a.html,https://m.media-amazon.com/images/I/41EeOg-wEcL._AC_SX500_.jpg,200,image/jpeg,457,454,OK
 rosetta-stone,Rosetta Stone,products/rosetta-stone.html,https://images-na.ssl-images-amazon.com/images/P/B09DHWG3ST.01._SCLZZZZZZZ_.jpg,200,image/jpeg,324,500,OK
 ryobi-40v-whisper,Ryobi 40V Whisper Series Leaf Blower,products/ryobi-40v-whisper.html,https://m.media-amazon.com/images/I/51eSYgGv1RL._AC_SX500_.jpg,200,image/jpeg,500,415,OK
+samsung-galaxy-buds-3-pro,Samsung Galaxy Buds 3 Pro True Wireless Earbuds,products/samsung-galaxy-buds-3-pro.html,https://m.media-amazon.com/images/I/41vTe69iLGL._AC_SX500_.jpg,200,image/jpeg,500,358,OK
+samsung-hw-q990f-soundbar,Samsung HW-Q990F 11.1.4ch Dolby Atmos Soundbar,products/samsung-hw-q990f-soundbar.html,https://m.media-amazon.com/images/I/517-VfV1CVL._AC_SX500_.jpg,200,image/jpeg,500,74,OK
 samsung-q80d-65-qled-tv,"Samsung 65"" Q80D QLED 4K Smart TV",products/samsung-q80d-65-qled-tv.html,https://m.media-amazon.com/images/I/71CpBpf1Q+L._AC_SX500_.jpg,200,image/jpeg,500,309,OK
+samsung-qn90d-neo-qled-65-tv,"Samsung 65"" QN90D NEO QLED 4K Smart TV (2024)",products/samsung-qn90d-neo-qled-65-tv.html,https://m.media-amazon.com/images/I/71xcUpNGkGL._AC_SX500_.jpg,200,image/jpeg,500,308,OK
+samsung-s95d-65-qd-oled-tv,"Samsung 65"" S95D QD-OLED 4K Smart TV",products/samsung-s95d-65-qd-oled-tv.html,https://m.media-amazon.com/images/I/71xWQcSOvsL._AC_SX500_.jpg,200,image/jpeg,500,315,OK
 schwinn-ic3,Schwinn IC3 Indoor Cycling Bike,products/schwinn-ic3.html,https://images-na.ssl-images-amazon.com/images/P/B0DNFNBVJM.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 schwinn-ic4,Schwinn IC4 Indoor Cycling Bike,products/schwinn-ic4.html,https://images-na.ssl-images-amazon.com/images/P/B07WZXSDKW.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 segway-navimow-i110n,Segway Navimow i110N Robot Lawn Mower,products/segway-navimow-i110n.html,https://m.media-amazon.com/images/I/51NsKuGzw0L._AC_SX500_.jpg,200,image/jpeg,500,411,OK
 sennheiser-momentum-4,Sennheiser Momentum 4 Wireless,products/sennheiser-momentum-4.html,https://images-na.ssl-images-amazon.com/images/P/B0CQ2TBSPV.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+sennheiser-momentum-4-wireless,Sennheiser MOMENTUM 4 Wireless Noise Cancelling Headphones,products/sennheiser-momentum-4-wireless.html,https://images-na.ssl-images-amazon.com/images/P/B0B6GHW1SX.01._AC_SX500_.jpg,200,image/jpeg,94,129,OK
 shark-ai-ultra-robot-vacuum,Shark AI Ultra Robot Vacuum,products/shark-ai-ultra-robot-vacuum.html,https://images-na.ssl-images-amazon.com/images/P/B0DJT6YY1D.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 shark-ai-ultra-xl-hepa,Shark AI Ultra XL HEPA Robot Vacuum,products/shark-ai-ultra-xl-hepa.html,https://images-na.ssl-images-amazon.com/images/P/B09T4YZGQR.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 shark-rv2610waca-ai-ultra-2-in-1,Shark RV2610WACA AI Ultra 2-in-1,products/shark-rv2610waca-ai-ultra-2-in-1.html,https://images-na.ssl-images-amazon.com/images/P/B0BLMCGD6N.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 solo-stove-lite,Solo Stove Lite,products/solo-stove-lite.html,https://m.media-amazon.com/images/I/51m4AQoI+ML._AC_SX500_.jpg,200,image/jpeg,500,921,OK
+sonos-arc-ultra-soundbar,Sonos Arc Ultra Soundbar,products/sonos-arc-ultra-soundbar.html,https://m.media-amazon.com/images/I/61WbdzYBy8L._AC_SX500_.jpg,200,image/jpeg,500,171,OK
 sonos-era-100,Sonos Era 100,products/sonos-era-100.html,https://images-na.ssl-images-amazon.com/images/P/B0BW2LVJ4P.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+sony-bravia-8-oled-65-tv,"Sony Bravia 8 65"" OLED 4K Smart Google TV (2024)",products/sony-bravia-8-oled-65-tv.html,https://m.media-amazon.com/images/I/71kmM6BpHhL._AC_SX500_.jpg,200,image/jpeg,500,303,OK
+sony-bravia-9-65-mini-led-tv,"Sony BRAVIA 9 65"" Mini LED QLED 4K Smart TV",products/sony-bravia-9-65-mini-led-tv.html,https://m.media-amazon.com/images/I/815JlBJENqL._AC_SX500_.jpg,200,image/jpeg,500,303,OK
 sony-inzone-h9,Sony INZONE H9 Wireless,products/sony-inzone-h9.html,https://images-na.ssl-images-amazon.com/images/P/B0CJH3DJ36.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 sony-ult-wear,Sony ULT WEAR,products/sony-ult-wear.html,https://images-na.ssl-images-amazon.com/images/P/B0CWVX1GNX.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+sony-wf-1000xm5,Sony WF-1000XM5 True Wireless Noise Cancelling Earbuds,products/sony-wf-1000xm5.html,https://images-na.ssl-images-amazon.com/images/P/B0C33XXS56.01._AC_SX500_.jpg,200,image/jpeg,123,104,OK
 sony-wh-1000xm4,Sony WH-1000XM4,products/sony-wh-1000xm4.html,https://m.media-amazon.com/images/I/51-m-2SmuOL._AC_SX500_.jpg,200,image/jpeg,500,742,OK
 sony-wh-1000xm5,Sony WH-1000XM5,products/sony-wh-1000xm5.html,https://images-na.ssl-images-amazon.com/images/P/B09Y2LL45F.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
+sony-wh-1000xm6,Sony WH-1000XM6,products/sony-wh-1000xm6.html,https://m.media-amazon.com/images/I/61ddahpESML._AC_SX500_.jpg,200,image/jpeg,500,757,OK
+sony-zv-e10-ii-mirrorless-camera,Sony ZV-E10 II Mirrorless Vlogging Camera (Kit with 16-50mm Lens),products/sony-zv-e10-ii-mirrorless-camera.html,https://m.media-amazon.com/images/I/71uHJqx95+L._AC_SX500_.jpg,200,image/jpeg,500,259,OK
 steelseries-apex-pro-tkl-gen-3,SteelSeries Apex Pro TKL Gen 3 Keyboard,products/steelseries-apex-pro-tkl-gen-3.html,https://images-na.ssl-images-amazon.com/images/P/B0DZZN889Q.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
-steelseries-arctis-nova-pro,SteelSeries Arctis Nova Pro Wireless,products/steelseries-arctis-nova-pro.html,https://images-na.ssl-images-amazon.com/images/P/B09ZWKD9TF.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 steelseries-arctis-nova-pro-wireless,SteelSeries Arctis Nova Pro Wireless,products/steelseries-arctis-nova-pro-wireless.html,https://images-na.ssl-images-amazon.com/images/P/B09ZWKD9TF.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 steelseries-qck-heavy,SteelSeries QcK Heavy,products/steelseries-qck-heavy.html,https://images-na.ssl-images-amazon.com/images/P/B000V7ARAU.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,286,OK
 sun-joe-spx3000,Sun Joe SPX3000 Electric Pressure Washer,products/sun-joe-spx3000.html,https://m.media-amazon.com/images/I/71l9XB9pCSL._AC_SX500_.jpg,200,image/jpeg,500,528,OK
 teton-sports-celsius-xxl,TETON Sports Celsius XXL Sleeping Bag,products/teton-sports-celsius-xxl.html,https://m.media-amazon.com/images/I/61TFXt2pnxL._AC_SX500_.jpg,200,image/jpeg,500,1169,OK
 the-north-face-wawona-4-tent,The North Face Wawona 4 Tent,products/the-north-face-wawona-4-tent.html,https://images-na.ssl-images-amazon.com/images/P/B0DG5ZS9RS.01._SCLZZZZZZZ_.jpg,200,image/jpeg,430,500,OK
 theragun-mini,Theragun Mini,products/theragun-mini.html,https://m.media-amazon.com/images/I/51z+s7toytL._AC_SX500_.jpg,200,image/jpeg,500,556,OK
+theragun-prime-5th-gen,Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun,products/theragun-prime-5th-gen.html,https://m.media-amazon.com/images/I/612BUMXAJ9L._AC_SX500_.jpg,200,image/jpeg,500,344,OK
 tractive-gps-dog-6,Tractive GPS DOG 6 Smart Dog Tracker,products/tractive-gps-dog-6.html,https://images-na.ssl-images-amazon.com/images/P/B0D6Z74WJY.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 traeger-pro-575-pellet-grill,Traeger Pro 575 Wi-Fi Pellet Grill,products/traeger-pro-575-pellet-grill.html,https://m.media-amazon.com/images/I/617P84KmxhL._AC_SX500_.jpg,200,image/jpeg,500,677,OK
+traeger-woodridge,"Traeger Woodridge Wood Pellet Grill and Smoker, 860 Sq. In.",products/traeger-woodridge.html,https://m.media-amazon.com/images/I/813H-npINjL._AC_SX500_.jpg,200,image/jpeg,500,466,OK
+triggerpoint-grid-foam-roller,TriggerPoint GRID Foam Roller (13-Inch),products/triggerpoint-grid-foam-roller.html,https://m.media-amazon.com/images/I/71WUESEiowL._AC_SX500_.jpg,200,image/jpeg,500,225,OK
+trx-all-in-one-suspension-trainer,TRX All-In-One Suspension Training System,products/trx-all-in-one-suspension-trainer.html,https://m.media-amazon.com/images/I/71t5J88RIrL._AC_SX500_.jpg,200,image/jpeg,500,501,OK
 turtle-beach-stealth-pro-wireless,Turtle Beach Stealth Pro Wireless,products/turtle-beach-stealth-pro-wireless.html,https://m.media-amazon.com/images/I/71WLUhJ2C4L._AC_SX500_.jpg,200,image/jpeg,500,481,OK
+vitamix-e310-explorian,"Vitamix Explorian E310 Blender, Professional-Grade, 48 oz Container, Black",products/vitamix-e310-explorian.html,https://images-na.ssl-images-amazon.com/images/P/B0758JHZM3.01._AC_SX500_.jpg,200,image/jpeg,72,146,OK
+weber-genesis-e-325s,Weber Genesis E-325s 3-Burner Propane Gas BBQ in Black,products/weber-genesis-e-325s.html,https://m.media-amazon.com/images/I/61zMU+EbFXL._AC_SX500_.jpg,200,image/jpeg,500,413,OK
 weber-spirit-ii-e310-gas-grill,Weber Spirit II E-310 3-Burner Gas Grill,products/weber-spirit-ii-e310-gas-grill.html,https://m.media-amazon.com/images/I/51j1XTxlAiL._AC_SX500_.jpg,200,image/jpeg,500,475,OK
 westinghouse-epx3500,Westinghouse ePX3500 Electric Pressure Washer,products/westinghouse-epx3500.html,https://images-na.ssl-images-amazon.com/images/P/B0BVGSX46M.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,500,OK
 worx-landroid-wr165,WORX Landroid WR165 Robot Lawn Mower,products/worx-landroid-wr165.html,https://images-na.ssl-images-amazon.com/images/P/B097NGYWST.01._SCLZZZZZZZ_.jpg,200,image/jpeg,500,383,OK

@@ -106,5 +106,10 @@
     "milwaukee-m18-fuel-hammer-drill",
     "milwaukee-packout-rolling-tool-box",
     "dewalt-dck240c2-drill-combo-kit"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/ryobi-18v-pcl206k2-drill-kit/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

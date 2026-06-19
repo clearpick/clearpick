@@ -106,5 +106,10 @@
     "oral-b-io-series-9",
     "oral-b-pro-1000",
     "philips-norelco-9000-shaver"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/philips-sonicare-diamondclean-9300/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

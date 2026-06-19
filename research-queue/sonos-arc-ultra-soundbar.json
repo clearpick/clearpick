@@ -99,5 +99,10 @@
     "samsung-hw-q990f-soundbar",
     "sonos-era-100",
     "samsung-q80d-65-qled-tv"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/sonos-arc-ultra-soundbar/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -13,11 +13,11 @@
   "image": "https://m.media-amazon.com/images/I/41kmOFvpQoS._AC_SX500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B00NH9WEUA/?tag=clearpick06-20",
   "subscores": {
-    "Build & Durability": 10.0,
-    "Performance & Accuracy": 10.0,
+    "Build & Durability": 10,
+    "Performance & Accuracy": 10,
     "Ease of Use & Setup": 8.5,
     "Storage & Footprint": 8.5,
-    "Value for Money": 8.0
+    "Value for Money": 8
   },
   "specs": {
     "Resistance Type": "Air (flywheel)",
@@ -42,24 +42,56 @@
     "Resale value holds at 70-80% — which means buying used is common and smart, but also means you won't recover much if you buy new and quit rowing"
   ],
   "commonComplaints": [
-    {"complaint": "Noise is the most-cited dealbreaker: 15-20% of reviewers mention it. At 78-82 dB, early morning or late night rows in apartments are genuinely inconsiderate to neighbours.", "source": "Amazon.ca reviews + r/homegym"},
-    {"complaint": "Seat discomfort on sessions over 20 minutes is real, especially for heavier users — the official Concept2 foam pad reportedly makes no difference; third-party gel cushions work better.", "source": "Concept2 Forum + Amazon 3-star reviews"},
-    {"complaint": "No interactive content and the PM5 screen feels dated compared to Hydrow or NordicTrack RW900 — users who need motivation beyond raw data numbers report lower consistency.", "source": "r/rowing + Garage Gym Reviews"}
+    {
+      "complaint": "Noise is the most-cited dealbreaker: 15-20% of reviewers mention it. At 78-82 dB, early morning or late night rows in apartments are genuinely inconsiderate to neighbours.",
+      "source": "Amazon.ca reviews + r/homegym"
+    },
+    {
+      "complaint": "Seat discomfort on sessions over 20 minutes is real, especially for heavier users — the official Concept2 foam pad reportedly makes no difference; third-party gel cushions work better.",
+      "source": "Concept2 Forum + Amazon 3-star reviews"
+    },
+    {
+      "complaint": "No interactive content and the PM5 screen feels dated compared to Hydrow or NordicTrack RW900 — users who need motivation beyond raw data numbers report lower consistency.",
+      "source": "r/rowing + Garage Gym Reviews"
+    }
   ],
   "verdict": "The Concept2 RowErg is the correct answer for anyone serious about rowing. It is used by Olympic teams, CrossFit gyms, and competitive athletes worldwide because no other machine comes close to its accuracy and durability. At $659 CAD, the math is simple: divide by 20 years and it costs $33/year. The only people who should look elsewhere are apartment dwellers with thin walls (get a magnetic rower instead) and people who genuinely need instructor-led classes to stay motivated (get a Hydrow).",
   "realBuyers": [
-    {"quote": "They last forever. I bought mine at 50 and I expect it to outlive me.", "source": "Amazon.ca reviewer"},
-    {"quote": "20+ years of heavy use across multiple machines — never once replaced a monitor, chain, or saddle. The durability isn't marketing, it's real.", "source": "Gym owner, r/homegym"},
-    {"quote": "The noise is not a small thing if you're in an apartment. I had to sell mine after three months because my downstairs neighbour complained twice. Great machine, wrong living situation.", "source": "r/rowing"}
+    {
+      "quote": "They last forever. I bought mine at 50 and I expect it to outlive me.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "20+ years of heavy use across multiple machines — never once replaced a monitor, chain, or saddle. The durability isn't marketing, it's real.",
+      "source": "Gym owner, r/homegym"
+    },
+    {
+      "quote": "The noise is not a small thing if you're in an apartment. I had to sell mine after three months because my downstairs neighbour complained twice. Great machine, wrong living situation.",
+      "source": "r/rowing"
+    }
   ],
   "sources": [
-    {"title": "Garage Gym Reviews: Concept2 RowErg Review (2026)", "url": "https://www.garagegymreviews.com/concept2-rowerg-review"},
-    {"title": "HealthyEditor: Concept2 RowErg — The 3 Real Flaws Nobody Talks About", "url": "https://healthyeditor.com/blog/concept2-rowerg-review/"},
-    {"title": "Amazon.ca: Concept2 Model D Customer Reviews", "url": "https://www.amazon.ca/dp/B00NH9WEUA"}
+    {
+      "title": "Garage Gym Reviews: Concept2 RowErg Review (2026)",
+      "url": "https://www.garagegymreviews.com/concept2-rowerg-review"
+    },
+    {
+      "title": "HealthyEditor: Concept2 RowErg — The 3 Real Flaws Nobody Talks About",
+      "url": "https://healthyeditor.com/blog/concept2-rowerg-review/"
+    },
+    {
+      "title": "Amazon.ca: Concept2 Model D Customer Reviews",
+      "url": "https://www.amazon.ca/dp/B00NH9WEUA"
+    }
   ],
   "metaDescription": "Concept2 RowErg Model D review for Canada. The gold standard home rowing machine at $659 CAD — honest take on noise, seat comfort, and who should skip it.",
   "introText": "The Concept2 RowErg has been the #1 rowing machine for serious athletes for over 30 years. Olympic teams, CrossFit gyms, and competitive rowers worldwide use it because the PM5 monitor produces competition-accurate data no other home rower can match. At $659 CAD with a 20+ year lifespan, the cost-per-year math is hard to argue with — but the noise and lack of interactive content mean it's not the right machine for everyone.",
   "researchedAt": "2026-06-14",
   "currentProductCount": 13,
-  "newProductCount": 14
+  "newProductCount": 14,
+  "images": {
+    "hero": "/images/products/concept2-rowerg/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

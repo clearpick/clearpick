@@ -99,5 +99,10 @@
     "roborock-qrevo-s-pro",
     "roborock-qrevo-s",
     "eufy-x10-pro-omni"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/roborock-qv-35a/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

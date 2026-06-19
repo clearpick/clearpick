@@ -102,5 +102,9 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09NVNQKPN",
   "verifiedPrice": "$999 CAD",
-  "similarProducts": ["garmin-edge-530", "fitbit-charge-6", "apple-watch-ultra-2"]
+  "similarProducts": [
+    "garmin-edge-530",
+    "fitbit-charge-6",
+    "apple-watch-ultra-2"
+  ]
 }

@@ -44,18 +44,41 @@
   ],
   "verdict": "The TriggerPoint GRID is the foam roller most physical therapists and serious recreational athletes reach for first, and for good reason — it outlasts cheap alternatives by years and the grid surface works better than smooth foam on stubborn areas like the IT band and upper back. At $55 CAD it's an easy recommend for anyone doing regular running, lifting, or high-intensity training who wants a recovery tool that will still work in 2029. Budget-only shoppers who just want to roll their calves occasionally can get away with something cheaper.",
   "realBuyers": [
-    {"quote": "I've had this for three years and it looks and feels identical to day one. My previous foam roller was a lumpy mess after six months. The price difference is completely worth it for daily use.", "source": "Amazon.ca reviewer"},
-    {"quote": "The grid texture is the real selling point. Rolling my IT band on a smooth roller did nothing. This one actually gets into the tissue differently — hard to describe but you feel it immediately.", "source": "OutdoorGearLab user comment"},
-    {"quote": "Physio recommended this specifically over cheaper options because the hollow core doesn't give. I use it every morning on my quads and calves before runs. No complaints after 18 months.", "source": "Amazon.ca reviewer"}
+    {
+      "quote": "I've had this for three years and it looks and feels identical to day one. My previous foam roller was a lumpy mess after six months. The price difference is completely worth it for daily use.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The grid texture is the real selling point. Rolling my IT band on a smooth roller did nothing. This one actually gets into the tissue differently — hard to describe but you feel it immediately.",
+      "source": "OutdoorGearLab user comment"
+    },
+    {
+      "quote": "Physio recommended this specifically over cheaper options because the hollow core doesn't give. I use it every morning on my quads and calves before runs. No complaints after 18 months.",
+      "source": "Amazon.ca reviewer"
+    }
   ],
   "sources": [
-    {"title": "OutdoorGearLab: Best Foam Rollers Tested & Ranked", "url": "https://www.outdoorgearlab.com/topics/fitness/best-foam-roller"},
-    {"title": "Fit Chameleon: TriggerPoint GRID Foam Roller Review", "url": "https://www.fitchameleon.com/triggerpoint-grid-foam-roller-review/"},
-    {"title": "TriggerPoint: GRID 1.0 Foam Roller Product Page", "url": "https://tptherapy.com/products/grid-1-0-foam-roller"}
+    {
+      "title": "OutdoorGearLab: Best Foam Rollers Tested & Ranked",
+      "url": "https://www.outdoorgearlab.com/topics/fitness/best-foam-roller"
+    },
+    {
+      "title": "Fit Chameleon: TriggerPoint GRID Foam Roller Review",
+      "url": "https://www.fitchameleon.com/triggerpoint-grid-foam-roller-review/"
+    },
+    {
+      "title": "TriggerPoint: GRID 1.0 Foam Roller Product Page",
+      "url": "https://tptherapy.com/products/grid-1-0-foam-roller"
+    }
   ],
   "metaDescription": "TriggerPoint GRID foam roller review for Canadians. The 13-inch model at $54.99 CAD outlasts cheap alternatives with a rigid hollow core and grid surface that's more effective for IT band and muscle recovery.",
   "introText": "The TriggerPoint GRID is the foam roller that physical therapists and endurance athletes actually use — a 13-inch roller with a rigid hollow ABS core and multi-density GRID surface that mimics massage therapist pressure more effectively than smooth foam cylinders. Available on Amazon.ca for $54.99, it costs more than generic foam rollers but consistently holds its shape and effectiveness through years of daily use.",
   "researchedAt": "2026-06-14",
   "currentProductCount": 13,
-  "newProductCount": 14
+  "newProductCount": 14,
+  "images": {
+    "hero": "/images/products/triggerpoint-grid-foam-roller/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

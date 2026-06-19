@@ -13,11 +13,11 @@
   "image": "https://m.media-amazon.com/images/I/71+pD0anNuL._AC_SX500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0DCM34GXX/?tag=clearpick06-20",
   "subscores": {
-    "Video Quality & Stabilization": 9.0,
+    "Video Quality & Stabilization": 9,
     "Battery Life": 7.5,
     "Waterproofing & Durability": 9.5,
-    "Ease of Use": 8.0,
-    "Value for Money": 8.0
+    "Ease of Use": 8,
+    "Value for Money": 8
   },
   "specs": {
     "Max Video Resolution": "5.3K at 60fps",
@@ -45,18 +45,41 @@
   ],
   "verdict": "The GoPro Hero 13 Black remains the go-to action camera for high-intensity sports where stabilization, waterproofing, and mounting flexibility matter most. HyperSmooth 6.0 is still the best-in-class stabilization for fast-motion activities, and 5.3K60 is more than enough resolution for any use case. The battery limitation is real and Canadian winter users should carry a spare. Those who shoot mainly in low-light or need all-day continuous recording may find the DJI Osmo Action 5 Pro a better fit — but for daylight adventure footage, GoPro leads.",
   "realBuyers": [
-    {"quote": "Coming from a Hero 10, the battery improvement is noticeable but still short. I just carry two batteries now — it's become second nature.", "source": "r/gopro"},
-    {"quote": "The stabilization is genuinely insane on a mountain bike. Footage looks smoother than helmet cam footage twice the price.", "source": "Amazon.ca reviewer"},
-    {"quote": "Low light is where GoPro still loses to DJI. But for sunny day skiing and hiking, the colors and stabilization are hard to beat.", "source": "r/videography"}
+    {
+      "quote": "Coming from a Hero 10, the battery improvement is noticeable but still short. I just carry two batteries now — it's become second nature.",
+      "source": "r/gopro"
+    },
+    {
+      "quote": "The stabilization is genuinely insane on a mountain bike. Footage looks smoother than helmet cam footage twice the price.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Low light is where GoPro still loses to DJI. But for sunny day skiing and hiking, the colors and stabilization are hard to beat.",
+      "source": "r/videography"
+    }
   ],
   "sources": [
-    {"title": "TechRadar: GoPro Hero 13 Black vs DJI Osmo Action 5 Pro", "url": "https://www.techradar.com/cameras/action-cameras/gopro-hero-13-black-vs-dji-osmo-action-5-pro-has-dji-dethroned-gopro"},
-    {"title": "Videomaker: GoPro HERO13 Black Review", "url": "https://www.videomaker.com/reviews/cameras/gopro-hero13-black-the-best-action-camera-ever/"},
-    {"title": "DroneXL: GoPro Hero 13 Black vs DJI Osmo Action 5 Pro Full Comparison", "url": "https://dronexl.co/2024/09/21/gopro-hero-13-black-vs-dji-action-5-pro-full-comparison/"}
+    {
+      "title": "TechRadar: GoPro Hero 13 Black vs DJI Osmo Action 5 Pro",
+      "url": "https://www.techradar.com/cameras/action-cameras/gopro-hero-13-black-vs-dji-osmo-action-5-pro-has-dji-dethroned-gopro"
+    },
+    {
+      "title": "Videomaker: GoPro HERO13 Black Review",
+      "url": "https://www.videomaker.com/reviews/cameras/gopro-hero13-black-the-best-action-camera-ever/"
+    },
+    {
+      "title": "DroneXL: GoPro Hero 13 Black vs DJI Osmo Action 5 Pro Full Comparison",
+      "url": "https://dronexl.co/2024/09/21/gopro-hero-13-black-vs-dji-action-5-pro-full-comparison/"
+    }
   ],
   "metaDescription": "GoPro Hero 13 Black review for Canadian buyers: $440 CAD, HyperSmooth 6.0, 33ft waterproof, 5.3K60. Honest look at battery life, overheating, and DJI comparison.",
   "introText": "The GoPro HERO13 Black is the 13th iteration of the camera that invented the action camera category — and it's still the benchmark for high-intensity sports footage. With HyperSmooth 6.0 stabilization, 5.3K60 video, and 33-foot waterproofing without a housing, it's as capable as it has ever been. The main debates in 2024 are about battery life (real-world ~1.5–2 hours) and whether DJI's Osmo Action 5 Pro has finally caught up. For daylight adventure sports, GoPro still edges ahead.",
   "researchedAt": "2026-06-14",
   "currentProductCount": 1,
-  "newProductCount": 2
+  "newProductCount": 2,
+  "images": {
+    "hero": "/images/products/gopro-hero-13-black/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

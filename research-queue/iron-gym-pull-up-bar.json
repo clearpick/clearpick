@@ -14,9 +14,9 @@
   "affiliateUrl": "https://www.amazon.ca/dp/B001EJMS6K/?tag=clearpick06-20",
   "subscores": {
     "Effectiveness": 8.8,
-    "Durability & Build": 8.0,
-    "Ease of Use": 9.0,
-    "Portability": 9.0,
+    "Durability & Build": 8,
+    "Ease of Use": 9,
+    "Portability": 9,
     "Value for Money": 9.2
   },
   "specs": {
@@ -44,18 +44,41 @@
   ],
   "verdict": "The Iron Gym is the right pull-up bar for renters, apartment dwellers, and anyone who wants to add pull-ups to their routine without committing to wall hardware. At $44 CAD with no installation required, the value is hard to argue with. The only meaningful caveat is door frame scuffing — it happens over time, especially on MDF trim, and buyers who care about painted wood door stops should put a thin cloth pad at the contact points or look at a free-standing pull-up tower instead.",
   "realBuyers": [
-    {"quote": "Used it daily for a year. Does exactly what it says. Only issue is the door frame has some scuff marks where it contacts the trim. Threw a piece of rubber mat there and it stopped. No regrets at this price.", "source": "Amazon.ca reviewer"},
-    {"quote": "This is how I got my first pull-up. Couldn't justify a gym membership just for pull-ups. Simple, sturdy, and you forget it's there between workouts. Takes 5 seconds to put up.", "source": "GarageGymBuilders reader comment"},
-    {"quote": "The three grip positions matter more than I expected. Narrow grip chin-ups hit completely different muscles than the wide pull-up grip. Good range of motion for a doorframe bar.", "source": "Amazon.ca reviewer"}
+    {
+      "quote": "Used it daily for a year. Does exactly what it says. Only issue is the door frame has some scuff marks where it contacts the trim. Threw a piece of rubber mat there and it stopped. No regrets at this price.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "This is how I got my first pull-up. Couldn't justify a gym membership just for pull-ups. Simple, sturdy, and you forget it's there between workouts. Takes 5 seconds to put up.",
+      "source": "GarageGymBuilders reader comment"
+    },
+    {
+      "quote": "The three grip positions matter more than I expected. Narrow grip chin-ups hit completely different muscles than the wide pull-up grip. Good range of motion for a doorframe bar.",
+      "source": "Amazon.ca reviewer"
+    }
   ],
   "sources": [
-    {"title": "GarageGymBuilders: Iron Gym Total Upper Body Workout Bar Review (2026)", "url": "https://garagegymbuilders.com/reviews/iron-gym-pull-up-bar-review/"},
-    {"title": "PhysicalLiving.com: Doorway Pull Up Bar Review", "url": "https://physicalliving.com/doorway-pull-up-bar-review-by-john-sifferman-take-a-look-at-the-pro-fit-iron-gym-total-upper-body-workout-bar/"},
-    {"title": "Amazon.ca: Iron Gym Total Upper Body Workout Bar — Customer Reviews", "url": "https://www.amazon.ca/dp/B001EJMS6K"}
+    {
+      "title": "GarageGymBuilders: Iron Gym Total Upper Body Workout Bar Review (2026)",
+      "url": "https://garagegymbuilders.com/reviews/iron-gym-pull-up-bar-review/"
+    },
+    {
+      "title": "PhysicalLiving.com: Doorway Pull Up Bar Review",
+      "url": "https://physicalliving.com/doorway-pull-up-bar-review-by-john-sifferman-take-a-look-at-the-pro-fit-iron-gym-total-upper-body-workout-bar/"
+    },
+    {
+      "title": "Amazon.ca: Iron Gym Total Upper Body Workout Bar — Customer Reviews",
+      "url": "https://www.amazon.ca/dp/B001EJMS6K"
+    }
   ],
   "metaDescription": "Iron Gym pull-up bar review for Canadian buyers. The $43.73 CAD doorframe bar fits 24–32\" openings, holds 300 lbs, and installs in seconds with no screws — plus honest notes on door frame scuffing.",
   "introText": "The Iron Gym Total Upper Body Workout Bar is a doorframe pull-up bar that installs in seconds with no screws, no tools, and no wall damage — it simply leverages against the door stop trim to hold your bodyweight. Available on Amazon.ca for $43.73, it's been a staple home workout tool for over a decade and remains one of the most popular pull-up bars for renters and apartment dwellers across Canada.",
   "researchedAt": "2026-06-14",
   "currentProductCount": 14,
-  "newProductCount": 15
+  "newProductCount": 15,
+  "images": {
+    "hero": "/images/products/iron-gym-pull-up-bar/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

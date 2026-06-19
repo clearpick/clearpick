@@ -14,7 +14,7 @@
   "affiliateUrl": "https://www.amazon.ca/dp/B0F3PQHWTZ/?tag=clearpick06-20",
   "subscores": {
     "Noise Cancellation": 9.5,
-    "Sound Quality": 9.0,
+    "Sound Quality": 9,
     "Comfort": 8.5,
     "Battery Life": 9.5,
     "Value for Money": 8.5
@@ -101,5 +101,10 @@
   "subcategory": "headphones",
   "verifiedAt": "2026-06-17",
   "verifiedPrice": "$598 CAD",
-  "verifiedAsin": "B0F3PQHWTZ"
+  "verifiedAsin": "B0F3PQHWTZ",
+  "images": {
+    "hero": "/images/products/sony-wh-1000xm6/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -99,5 +99,10 @@
     "lg-c5-oled-65-tv",
     "samsung-s95d-65-qd-oled-tv",
     "samsung-q80d-65-qled-tv"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/sony-bravia-9-65-mini-led-tv/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,7 +11,7 @@
   "priceDisplay": "$1,299.99 CAD",
   "score": 8.8,
   "tag": "Best Premium Gas Grill",
-  "image": "https://m.media-amazon.com/images/I/71kLRFQ7o9L._AC_SX500_.jpg",
+  "image": "https://m.media-amazon.com/images/I/61zMU+EbFXL._AC_SX500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B09MV26KZV/?tag=clearpick06-20",
   "subscores": {
     "Cooking Performance": 9,
@@ -91,5 +91,10 @@
     "traeger-woodridge",
     "camp-chef-woodwind-pro-24",
     "weber-spirit-ii-e310-gas-grill"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/weber-genesis-e-325s/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }
