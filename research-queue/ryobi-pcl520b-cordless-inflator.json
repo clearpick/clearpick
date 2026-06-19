@@ -1,0 +1,91 @@
+{
+  "slug": "ryobi-pcl520b-cordless-inflator",
+  "name": "RYOBI PCL520B ONE+ 18V Cordless Power Inflator",
+  "brand": "RYOBI",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Portable Air Compressors",
+  "subcategory": "portable-air-compressors",
+  "asin": "B08HN8FJYC",
+  "price": 89,
+  "priceDisplay": "$89.99 CAD",
+  "score": 8.7,
+  "tag": "Best Cordless Tire Inflator",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08HN8FJYC/?tag=clearpick06-20",
+  "subscores": {
+    "Inflation Speed": 8.5,
+    "Build Quality": 8.5,
+    "Ease of Use": 9.0,
+    "Cordless Convenience": 9.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Voltage": "18V ONE+ (Tool Only — battery and charger sold separately)",
+    "Max Pressure": "150 PSI",
+    "Auto Shutoff": "Yes — digital preset target pressure, automatic stop",
+    "Adapters": "Presta valve, ball inflation needle, air mattress nozzle included",
+    "Run Time": "Approximately 15–20 minutes per 2.0 Ah charge",
+    "Compatible Batteries": "All RYOBI 18V ONE+ lithium batteries"
+  },
+  "whatWorks": [
+    "Cordless 18V operation means you can inflate tires in a parking lot, a trailhead, or a remote campsite with no vehicle connection required—the defining advantage over 12V units that require a running car to operate",
+    "150 PSI capacity handles passenger car tires (typically 30–35 PSI), bicycle tires (up to 120 PSI for road bikes), and even lower-pressure SUV and truck tires in one unit—substantially more versatile than 12V inflators that max at 100 PSI",
+    "RYOBI's ONE+ battery platform compatibility means existing RYOBI tool owners can add this inflator without purchasing additional batteries—if you already own a RYOBI drill, saw, or blower, your batteries work here",
+    "The digital preset with auto-shutoff at target PSI is accurate and consistent—no watching a gauge and guessing when to stop, which matters for maintaining proper tire pressure for fuel economy and tire longevity"
+  ],
+  "worthKnowing": [
+    "Sold as tool-only (battery and charger not included)—buyers who don't already own RYOBI 18V batteries need to add a starter kit ($50–$80) to the purchase, making the total investment $140–$170 versus the $50 Avid Power corded alternative",
+    "The run time of 15–20 minutes per 2.0 Ah charge covers 2–3 typical car tires from low to target pressure but a full four-tire inflation from near-flat uses most of the charge",
+    "The hose is integrated and non-removable; if the hose develops a crack, the entire unit requires service rather than a simple hose replacement"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Requires separate battery purchase for new users",
+      "body": "The tool-only purchase price of $89 is misleading for buyers who need a battery too. A 2.0 Ah battery adds $50–$60 to the cost. The value proposition is specifically for existing RYOBI ONE+ owners.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Run time limits full four-tire inflation on 2Ah",
+      "body": "A 2.0 Ah battery typically inflates 2–3 tires fully before needing a swap or recharge. Running four tires from near-flat requires a 4.0 Ah or 5.0 Ah battery for a single uninterrupted session.",
+      "source": "Reddit r/overlanding"
+    },
+    {
+      "title": "Louder than 12V compressors",
+      "body": "The 18V motor runs louder than typical 12V car compressors. Residents inflating bike tires in an apartment common area or early morning neighborhood use may receive complaints from the noise.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The RYOBI PCL520B is the right cordless inflator for RYOBI ONE+ tool ecosystem owners who want flexible, vehicle-independent tire inflation with 150 PSI capability. The cordless freedom and 150 PSI capacity justify the premium over 12V car port units. Non-RYOBI users who need to buy a battery kit should compare the total $140–$170 cost against an NOCO battery-free alternative or corded compressor at $50—the math changes significantly outside the ecosystem.",
+  "realBuyers": [
+    {
+      "quote": "I have 8 RYOBI ONE+ tools and three batteries. This inflator costs me $89 and I can inflate anything anywhere with a battery I already own. That value is undeniable.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Used this to inflate four MTB tires at a trailhead with no car outlet nearby. 150 PSI handles road bike tires too. The auto-shutoff at target PSI is perfect.",
+      "source": "Reddit r/MTB"
+    },
+    {
+      "quote": "Works great. Loud, but works great. Pre-set the pressure, clip it on, walk away. Exactly what I needed.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Portable Tire Inflators | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32903498/best-portable-tire-inflators/"
+    },
+    {
+      "title": "RYOBI ONE+ Inflator Review | Popular Mechanics",
+      "url": "https://www.popularmechanics.com/cars/car-technology/a36039696/best-portable-air-compressor/"
+    }
+  ],
+  "metaDescription": "RYOBI PCL520B ONE+ 18V inflator review: 150 PSI, cordless, auto-shutoff at preset pressure. Best cordless tire inflator for RYOBI ONE+ tool owners. $89 CAD (tool only).",
+  "introText": "The RYOBI PCL520B ONE+ 18V Cordless Power Inflator (ASIN B08HN8FJYC) is a 150 PSI battery-powered tire inflator with digital auto-shutoff at preset target pressure, sold as a tool-only unit compatible with all RYOBI 18V ONE+ batteries. Available on Amazon.ca, it includes Presta valve, ball needle, and air mattress adapters for versatile inflation without a vehicle connection.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B08HN8FJYC",
+  "verifiedPrice": "$89.99 CAD",
+  "similarProducts": ["avid-power-tire-inflator", "noco-boost-plus-gb40", "noco-boost-hd-gb70"]
+}

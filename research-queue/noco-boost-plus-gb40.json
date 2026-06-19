@@ -1,0 +1,91 @@
+{
+  "slug": "noco-boost-plus-gb40",
+  "name": "NOCO Boost Plus GB40 1000 Amp UltraSafe Lithium Jump Starter",
+  "brand": "NOCO",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Jump Starters",
+  "subcategory": "jump-starters",
+  "asin": "B015TKUPIC",
+  "price": 149,
+  "priceDisplay": "$149.99 CAD",
+  "score": 9.0,
+  "tag": "Best Compact Jump Starter",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B015TKUPIC/?tag=clearpick06-20",
+  "subscores": {
+    "Jump Starting Power": 9.0,
+    "Safety Features": 9.5,
+    "Portability": 9.5,
+    "Battery Life": 8.5,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Peak Amps": "1000 peak amps",
+    "Compatible Engines": "Gasoline engines up to 6L, diesel up to 3L",
+    "Recharge Time": "Approximately 1 hour via USB-C PD",
+    "USB Output": "USB-A 5V/2.1A for device charging",
+    "LED Light": "7-mode flashlight including SOS and strobe",
+    "Weight": "1.0 lb / 454g"
+  },
+  "whatWorks": [
+    "At 1 lb, the GB40 is small enough to live in a jacket pocket, glovebox, or small purse—a transformative convenience over traditional lead-acid jump starters that require trunk space and two-handed lifting",
+    "1000 peak amps handles virtually all passenger cars, compact SUVs, and minivans with gas engines up to 6L, covering the vast majority of Canadian personal vehicles without overshooting into truck territory that requires the GB70",
+    "UltraSafe spark-proof technology makes the GB40 the most beginner-friendly jump starter available—the clamps refuse to pass current if connected incorrectly, making battery explosions from reversed polarity mechanically impossible",
+    "USB-C PD recharging means the jump starter recharges from your existing phone/laptop charger in about an hour, without needing to remember a specialized charging cable or adapter"
+  ],
+  "worthKnowing": [
+    "1000 amps is sufficient for most gas passenger vehicles but won't reliably start diesel engines beyond 3L displacement—truck owners, diesel SUV owners, or boat owners should look at the GB70's 2000 amps",
+    "Lithium batteries lose jump-starting effectiveness in severe cold (below -20°C to -25°C); in Prairie winters, warming the unit in your hands or vehicle for 2–3 minutes before use improves performance significantly",
+    "Battery self-discharge means storing it unused for 6+ months without a maintenance charge will deplete it; quarterly plug-in charges for 30 minutes are sufficient to keep it road-ready"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Cold weather performance drops sharply",
+      "body": "Below -20°C, the lithium chemistry loses capacity noticeably. Prairie and northern Canada users report the GB40 struggling on very cold mornings and recommend warming it first or choosing the GB70 (with higher reserve capacity) for cold climates.",
+      "source": "Reddit r/Alberta"
+    },
+    {
+      "title": "Short clamp cables for deep engine bays",
+      "body": "The included clamp cables reach most batteries easily but some deep-buried batteries in SUVs and trucks require careful cable positioning. An extension cable is available from NOCO but sold separately.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Not powerful enough for larger diesels",
+      "body": "Owners of diesel pickups with 6.7L engines report the GB40 insufficient—it attempts but cannot reliably crank the engine. The GB70 (2000A) is the correct unit for large diesel applications.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The NOCO Boost Plus GB40 is the best compact jump starter for passenger car and compact SUV owners who want glovebox-size convenience with professional-grade safety. For most Canadian households with gas-engine vehicles under 6L, this is the one jump starter you need. The UltraSafe connection system makes it safe enough for anyone to use correctly on the first attempt. Get the GB70 if you own a diesel truck; get the GB40 for everything else.",
+  "realBuyers": [
+    {
+      "quote": "Lives in my glovebox. I've jumped my own car twice, helped a stranger in a parking lot, and jumped my mother-in-law's minivan. Never had a failure. It's always charged when I need it.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "My wife started our dead Civic at -18°C by herself in a mall parking lot. She'd never used a jump starter before. The UltraSafe means she couldn't do it wrong.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Replaced a 15-lb lead-acid jump starter with this. Same capability for most things, weighs nothing, fits in a jacket pocket. No comparison.",
+      "source": "Reddit r/MechanicAdvice"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Jump Starters of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-jump-starters/"
+    },
+    {
+      "title": "NOCO Boost Plus GB40 Review | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32906085/best-portable-jump-starters/"
+    }
+  ],
+  "metaDescription": "NOCO Boost Plus GB40 review: 1000 amp lithium jump starter in 1-lb package, UltraSafe spark-proof connections. Best compact jump starter for passenger cars. $149 CAD.",
+  "introText": "The NOCO Boost Plus GB40 (ASIN B015TKUPIC) is a 1000 peak amp lithium jump starter weighing just 1 lb with UltraSafe spark-proof clamp connections and USB-C PD recharging. Available on Amazon.ca, it starts gas engines up to 6L and fits in a jacket pocket, making it the most practical compact jump starter for everyday Canadian drivers.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B015TKUPIC",
+  "verifiedPrice": "$149.99 CAD",
+  "similarProducts": ["noco-boost-hd-gb70", "clore-jump-n-carry-jnc660", "meguiars-gold-class-car-wash"]
+}

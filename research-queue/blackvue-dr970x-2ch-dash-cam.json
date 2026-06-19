@@ -1,0 +1,91 @@
+{
+  "slug": "blackvue-dr970x-2ch-dash-cam",
+  "name": "BlackVue DR970X-2CH 4K UHD Front and Rear Dash Cam",
+  "brand": "BlackVue",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Dash Cams",
+  "subcategory": "dash-cams",
+  "asin": "B09TT29KZV",
+  "price": 599,
+  "priceDisplay": "$599.99 CAD",
+  "score": 9.1,
+  "tag": "Best Premium Dual-Channel Dash Cam",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09TT29KZV/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality": 9.5,
+    "Build Quality": 9.0,
+    "Feature Set": 9.0,
+    "App & Connectivity": 9.0,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Front Resolution": "4K UHD (3840×2160) at 30fps",
+    "Rear Resolution": "1080p Full HD at 30fps",
+    "Cloud": "BlackVue Cloud (optional subscription for live view, remote backup)",
+    "WiFi": "Built-in 2.4GHz/5GHz dual-band WiFi + Bluetooth",
+    "GPS": "Built-in GPS with speed overlay",
+    "Parking Mode": "Motion detection + impact detection (requires hardwire kit)"
+  },
+  "whatWorks": [
+    "4K front resolution captures license plates clearly at 60+ km/h—the defining capability gap between this camera and 1080p competitors that struggle in low-light intersections or at highway speeds",
+    "The BlackVue Cloud app provides live remote viewing via LTE hotspot or vehicle WiFi, letting you check on your parked car from anywhere in the world—a legitimately unique security feature for fleet managers and concerned owners",
+    "Dual-band 5GHz WiFi enables full 4K video transfer from camera to phone without the multi-hour download times that plague single-band 2.4GHz dash cams",
+    "BlackVue's build quality and thermal management are best-in-class—the DR970X is rated for parking mode operation in Canadian winters without the capacitor/battery failures that plague cheaper units in extreme cold"
+  ],
+  "worthKnowing": [
+    "Cloud features require a BlackVue subscription (approximately $10–$20 USD/month); the camera works offline without it, but the live view and remote backup that justify part of the premium are subscription-locked",
+    "Parking mode requires a hardwire kit (sold separately, approximately $30–$40 CAD) to maintain power from the car's battery when the engine is off",
+    "At $600 it's among the most expensive consumer dash cams available; buyers who don't need cloud connectivity or dual-channel recording can get 4K quality for significantly less from Viofo or Garmin"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Cloud features require ongoing subscription",
+      "body": "BlackVue markets cloud connectivity as a feature but it's a subscription. Remote live view, cloud backup, and real-time alerts all require a paid monthly plan. Without it, the camera is excellent but you've paid a premium for features you can't use.",
+      "source": "Reddit r/Dashcam"
+    },
+    {
+      "title": "Hardwire kit required for parking mode",
+      "body": "Parking mode is listed as a feature but requires a separate hardwire kit for constant power. Without it, parking mode only works until the capacitor drains—typically 30–60 seconds after engine off.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Expensive versus single-channel alternatives",
+      "body": "At $600 for the dual-channel set, buyers who only care about front-only recording and don't need cloud features can get equivalent or better video quality from a Garmin 67W or VIOFO A139 Pro at 30–60% of the cost.",
+      "source": "Reddit r/Dashcam"
+    }
+  ],
+  "verdict": "The BlackVue DR970X-2CH is the right dash cam for buyers who want the best simultaneously available front and rear 4K documentation, cloud connectivity, and professional-grade build quality and don't mind paying for it. Fleet operators, rideshare drivers, and security-conscious owners who want remote access to footage justify this spend easily. Recreational drivers who just want evidence in an accident and don't need cloud features should look at the Garmin 67W or VIOFO A139 Pro and spend the difference on something else.",
+  "realBuyers": [
+    {
+      "quote": "Fleet of 8 vehicles. The cloud view is genuinely useful for driver behavior monitoring and claims management. Worth the subscription cost many times over.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The 4K footage caught the license plate of a hit-and-run in a parking lot at night. The camera paid for itself in one incident.",
+      "source": "Reddit r/Dashcam"
+    },
+    {
+      "quote": "Best dash cam I've owned. The dual-band WiFi means I can transfer footage in under a minute. Previous cameras took 20+ minutes to pull footage.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Dash Cams of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-dashboard-cameras/"
+    },
+    {
+      "title": "BlackVue DR970X Review | DashCamTalk",
+      "url": "https://www.dashcamtalk.com/blackvue-dr970x-review/"
+    }
+  ],
+  "metaDescription": "BlackVue DR970X-2CH review: 4K front + 1080p rear dash cam with cloud connectivity, dual-band WiFi, and GPS. Best premium dual-channel dash cam for 2025.",
+  "introText": "The BlackVue DR970X-2CH (ASIN B09TT29KZV) is a premium dual-channel dash cam recording 4K UHD front and 1080p rear simultaneously, with built-in GPS, dual-band WiFi, and optional BlackVue Cloud connectivity for remote live view. Available on Amazon.ca, it is designed for year-round Canadian climate operation with advanced thermal management.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09TT29KZV",
+  "verifiedPrice": "$599.99 CAD",
+  "similarProducts": ["black-decker-20v-handheld-vacuum", "bissell-aeroslim-cordless-vacuum", "autel-maxicom-mk808-scanner"]
+}

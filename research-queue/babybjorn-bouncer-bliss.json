@@ -1,0 +1,91 @@
+{
+  "slug": "babybjorn-bouncer-bliss",
+  "name": "BabyBjörn Bouncer Bliss",
+  "brand": "BabyBjörn",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Bouncers & Swings",
+  "subcategory": "bouncers-swings",
+  "asin": "B07VGLXDGX",
+  "price": 259,
+  "priceDisplay": "$259.99 CAD",
+  "score": 8.6,
+  "tag": "Best Baby Bouncer",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07VGLXDGX/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.5,
+    "Ease of Use": 9.0,
+    "Comfort": 9.0,
+    "Value for Money": 7.5,
+    "Portability": 9.0
+  },
+  "specs": {
+    "Weight Range": "8–29 lbs (3.5–13 kg)",
+    "Motion": "Natural bouncing driven by baby's own movements",
+    "Recline Positions": "3 recline positions (lying, semi-reclined, upright)",
+    "Seat Cover": "3D mesh, machine washable",
+    "Power Required": "None — purely mechanical bounce response",
+    "Folds Flat": "Yes, folds completely flat for storage and travel"
+  },
+  "whatWorks": [
+    "The bouncer uses no electricity—baby's own arm and leg movements create the bouncing motion, which most babies find deeply satisfying and which many parents report is more effective at self-soothing than motorized swings",
+    "Folds completely flat and weighs just 4 lbs, making it the most travel-friendly premium bouncer available—it fits in a large suitcase and sets up in seconds for grandparent visits and hotel stays",
+    "The 3D mesh seat cover is exceptionally breathable compared to padded fabric options, keeping babies cooler in warmer months and reducing the heat buildup that can cause fussiness",
+    "Build quality and materials are BabyBjörn-standard: the steel frame is robust, all plastic connectors click with authority, and the product has essentially no safety-related design complaints in its multi-decade history"
+  ],
+  "worthKnowing": [
+    "At $259, the Bliss is one of the most expensive bouncers on the market—Fisher-Price and Graco offer basic bouncers with vibration for $40–$80, though their build quality and resale value are incomparable",
+    "The natural bounce requires a baby who is actively moving; very young newborns who are still and sleepy won't generate the motion themselves and may need the bouncer positioned on a slightly inclined surface initially",
+    "No vibration mode or music—some fussy babies who respond to vibration specifically won't be soothed by the Bliss's purely mechanical motion"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Very expensive for a bouncer",
+      "body": "Nearly every reviewer acknowledges the sticker shock at $250+. The counterpoint is consistently that it outlasts three children and resells for $100–$140 used—but the upfront cost is real.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "No vibration or sound features",
+      "body": "Unlike competing bouncers with built-in vibration motors and speaker toys, the Bliss relies entirely on baby movement. Parents whose infants specifically need vibration for colic or reflux may find it insufficient.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Toy bar sold separately",
+      "body": "The mobile toy bar that clips to the bouncer is not included and costs an additional $35–$45. Given the price of the bouncer itself, many parents feel it should be bundled.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The BabyBjörn Bouncer Bliss is the right choice for parents who want a safe, durable, portable bouncer that will handle two or three children and still sell for meaningful money secondhand. The no-power design is an asset, not a limitation—children who learn to bounce themselves (as early as 2–3 months) frequently use it contentedly for stretches of 20–30 minutes. If you want vibration, music, or swing motion and are price-conscious, look at the 4moms mamaRoo or a budget bouncer. For minimalists and design-conscious families, the Bliss is the premium benchmark.",
+  "realBuyers": [
+    {
+      "quote": "Three children, ten years, still in use. The oldest used it, we stored it, two more kids used it. No structural issues. The mesh cover still looks presentable. Worth every dollar.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "My daughter figured out she could bounce herself at 10 weeks and has not stopped. I get 30 minutes of hands-free time every morning. Life-changing.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "quote": "The fold-flat feature is the killer feature. Took it to three grandparent houses, one hotel, and a cottage. Takes up zero space in a bag.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Swings and Bouncers | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-swings-and-bouncers/"
+    },
+    {
+      "title": "BabyBjörn Bouncer Bliss Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/sleep/best-baby-swing"
+    }
+  ],
+  "metaDescription": "BabyBjörn Bouncer Bliss review: no-power bouncer, 3D mesh, folds flat. Best premium baby bouncer for travel and multi-child families. 8–29 lbs.",
+  "introText": "The BabyBjörn Bouncer Bliss (ASIN B07VGLXDGX) is a premium electrically-passive baby bouncer that responds to baby's own movements without motors, batteries, or cords. Available on Amazon.ca, it folds completely flat for travel, features a breathable 3D mesh seat cover, and supports babies from 8 to 29 lbs across three recline positions.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07VGLXDGX",
+  "verifiedPrice": "$259.99 CAD",
+  "similarProducts": ["4moms-mamaroo-4-swing", "babybjorn-baby-carrier-one", "baby-jogger-city-mini-gt2"]
+}

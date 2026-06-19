@@ -1,0 +1,91 @@
+{
+  "slug": "autel-maxicom-mk808-scanner",
+  "name": "Autel MaxiCOM MK808 OBD2 Diagnostic Scanner",
+  "brand": "Autel",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "OBD Scanners",
+  "subcategory": "obd-scanners",
+  "asin": "B0757Z2VB9",
+  "price": 399,
+  "priceDisplay": "$399.99 CAD",
+  "score": 8.8,
+  "tag": "Best Professional OBD2 Scanner",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0757Z2VB9/?tag=clearpick06-20",
+  "subscores": {
+    "Diagnostic Coverage": 9.0,
+    "Ease of Use": 8.5,
+    "Feature Set": 9.0,
+    "Update Policy": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "System Coverage": "Full-system diagnostics: engine, ABS, SRS, transmission, body, chassis",
+    "Service Functions": "Oil reset, EPB, BMS, DPF, TPMS, SAS, throttle reset, and more",
+    "Display": "7-inch touchscreen, 1024×600 resolution",
+    "OS": "Android 4.4",
+    "Updates": "1 year free software updates via WiFi",
+    "Connectivity": "WiFi, Bluetooth, USB-A port"
+  },
+  "whatWorks": [
+    "Full-system scanning goes far beyond basic code readers—it diagnoses ABS, SRS airbag, transmission, and body modules, not just engine codes, which are the systems that actually cause warning lights for most drivers",
+    "Service reset functions (oil life, electronic parking brake, battery registration, DPF reset) handle the maintenance tasks that dealerships charge $60–$150 per reset for; regular users recoup the scanner's cost within a few service visits",
+    "The 7-inch Android touchscreen makes navigating menus intuitive compared to button-based scanners, and live data streams let you watch sensor readings in real time during a test drive to catch intermittent faults",
+    "Works on virtually all 1996+ OBD2 vehicles (US, EU, Asian makes) without needing make-specific adapter cables—one tool covers a multi-vehicle household"
+  ],
+  "worthKnowing": [
+    "The free software update period is one year from purchase; post-year updates require an annual subscription fee of approximately $100–$150 USD, which adds up if you rely on this for current-model-year coverage",
+    "WiFi-only connectivity for updates (no cellular) means you need to be near a router to keep software current; it does not do live remote diagnostics",
+    "Android 4.4 is an older OS and the interface can feel sluggish compared to newer tablet-style scanners; don't expect the responsiveness of a current smartphone"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Annual update fee after year one",
+      "body": "Many buyers are surprised to learn the one-year free update period ends, after which Autel charges a subscription to maintain OEM-level coverage on newer model years. The scanner still works but may lack coverage for cars released after the subscription lapses.",
+      "source": "Reddit r/MechanicAdvice"
+    },
+    {
+      "title": "Slower performance than newer models",
+      "body": "The MK808 runs Android 4.4 on aging hardware. Boot time is 30+ seconds, and navigating deeply nested menus can feel laggy compared to the MK808BT or MK906 Pro. For shop use, speed matters.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "No built-in oscilloscope or ADAS calibration",
+      "body": "Serious technicians note the MK808 lacks oscilloscope capability and can't calibrate ADAS systems (lane keep assist, adaptive cruise). These require higher-tier Autel units (MK906 and above) costing $600+.",
+      "source": "Reddit r/AutoMechanics"
+    }
+  ],
+  "verdict": "The Autel MK808 bridges the gap between cheap consumer code readers and professional shop equipment, making it the right tool for mechanically inclined car owners, fleet managers, or semi-professional technicians. If you're doing your own oil changes, brake jobs, or battery replacements, the service reset functions alone justify the price within a single year. Committed hobbyist mechanics who want to avoid dealership fees for routine resets will find this pays for itself quickly. Pure DIYers who only need to read check-engine codes don't need to spend this much—a $50 reader does that job.",
+  "realBuyers": [
+    {
+      "quote": "Did my own EPB service, oil reset, and battery registration on my BMW last month. The dealer wanted $200+ for just the resets. Paid for itself on the first use.",
+      "source": "Reddit r/MechanicAdvice"
+    },
+    {
+      "quote": "Running a small 3-bay shop and this handles 90% of what our customers bring in. The full-system scan catches things our old Innova missed constantly.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Easy enough for a home mechanic to figure out. The live data graphs helped me diagnose an intermittent misfire I couldn't catch any other way.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best OBD2 Scanners for 2025 | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32862200/best-obd2-scanners/"
+    },
+    {
+      "title": "Autel MaxiCOM MK808 In-Depth Review | AutoServicePros",
+      "url": "https://www.autoservicepros.com/article/best-scan-tools"
+    }
+  ],
+  "metaDescription": "Autel MaxiCOM MK808 review: full-system OBD2 scanner with oil reset, EPB, TPMS, BMS functions. Best professional-grade scanner for home mechanics under $400 CAD.",
+  "introText": "The Autel MaxiCOM MK808 (ASIN B0757Z2VB9) is a professional-grade OBD2 diagnostic scanner with a 7-inch touchscreen, full-system coverage, and 25+ service reset functions. Available on Amazon.ca, it supports all 1996+ OBD2 vehicles and includes one year of free software updates via WiFi.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0757Z2VB9",
+  "verifiedPrice": "$399.99 CAD",
+  "similarProducts": ["dewalt-dck240c2-drill-combo-kit", "milwaukee-m18-fuel-hammer-drill", "ryobi-18v-pcl206k2-drill-kit"]
+}

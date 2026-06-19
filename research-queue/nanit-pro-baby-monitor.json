@@ -1,0 +1,91 @@
+{
+  "slug": "nanit-pro-baby-monitor",
+  "name": "Nanit Pro Smart Baby Monitor and Flex Stand",
+  "brand": "Nanit",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Baby Monitors",
+  "subcategory": "baby-monitors",
+  "asin": "B07F2J5D5B",
+  "price": 329,
+  "priceDisplay": "$329.99 CAD",
+  "score": 9.0,
+  "tag": "Best Smart Baby Monitor",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07F2J5D5B/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.0,
+    "Ease of Use": 8.5,
+    "Comfort": 8.5,
+    "Value for Money": 8.0,
+    "Smart Features & Insights": 9.5
+  },
+  "specs": {
+    "Resolution": "1080p Full HD overhead-angle camera",
+    "Camera Type": "Ceiling/wall mount or Flex Stand floor stand",
+    "App": "Nanit app (iOS and Android) with sleep analytics",
+    "Night Vision": "Automatic infrared night vision",
+    "Two-Way Audio": "Yes",
+    "Breathing Monitoring": "Optional Nanit Breathing Wear required (sold separately)"
+  },
+  "whatWorks": [
+    "The overhead (bird's-eye) camera angle provides a complete view of the entire crib including all four corners in one frame—no pan, tilt, or camera repositioning needed, and no part of the crib is hidden behind a rail or bumper",
+    "Nanit's sleep analytics (time in bed, time asleep, number of wakes) provide data-driven insight that helps parents identify sleep pattern changes during developmental regressions, illness, or schedule transitions—a genuinely more useful tool than a camera-only monitor",
+    "WiFi operation enables remote viewing from anywhere in the world via the Nanit app—a hospital stay, a work trip, or a partner traveling with the baby can all be managed from a phone",
+    "The camera image quality at 1080p from directly overhead makes it easy to see subtle movement, breathing rhythm, and positioning in a way that side-mounted cameras with partial views cannot achieve"
+  ],
+  "worthKnowing": [
+    "Requires a Nanit account and active WiFi; unlike RF monitors, a router outage or internet disruption loses the monitoring feed entirely—plan a backup if your internet is unreliable",
+    "Breathing monitoring requires purchasing Nanit's Breathing Wear (special swaddle or sleep sack with detection pattern)—the camera alone does not detect breathing, and the Breathing Wear is an additional $50–$75",
+    "Nanit subscription unlocks historical sleep data storage beyond 7 days and more detailed analytics—the camera and live view work without subscription, but the sleep insights that are a core selling point require it ($9.99 USD/month)"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Subscription required for full sleep analytics",
+      "body": "The sleep tracking that differentiates Nanit from other monitors requires a paid subscription for data history beyond 7 days. At $10/month, parents who rely on the analytics add $120/year to the $329 camera cost.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "Breathing monitoring requires separate purchase",
+      "body": "The camera cannot monitor breathing on its own—it needs Nanit's Breathing Wear (swaddle/sleep sack with a dot-pattern that the camera tracks). An additional $50–$75 accessory cost surprised many buyers expecting this capability at base.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "WiFi dependency means outages lose feed",
+      "body": "Unlike RF monitors that work regardless of internet status, the Nanit goes dark during WiFi outages or router restarts. Parents in areas with intermittent internet find this a practical reliability concern overnight.",
+      "source": "Reddit r/beyondthebump"
+    }
+  ],
+  "verdict": "The Nanit Pro is the right monitor for data-driven parents who want sleep analytics, remote access from anywhere, and complete overhead crib visibility in one system. It is the only monitor that provides the bird's-eye view that captures the entire crib without blind spots. The subscription and breathing wear accessory costs are real additions to the total investment. If you want the most capable smart monitoring system and are comfortable with WiFi dependency, the Nanit Pro is the premium benchmark.",
+  "realBuyers": [
+    {
+      "quote": "The sleep insights helped us identify our daughter's wake window was too short. We adjusted nap timing based on the data and she started sleeping through the night within a week.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The overhead view is everything. I can see every inch of the crib simultaneously. No more zooming to try to see under a canopy or behind a rail.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "quote": "Checked in on our baby from my work trip via the app. Clear 1080p video in real time from 2,000 km away. Incredibly reassuring for both of us.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Monitors of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-monitor/"
+    },
+    {
+      "title": "Nanit Pro Baby Monitor Review | Babylist",
+      "url": "https://www.babylist.com/hello-baby/best-baby-monitors"
+    }
+  ],
+  "metaDescription": "Nanit Pro baby monitor review: 1080p overhead camera, sleep analytics, remote WiFi viewing. Best smart baby monitor for data-driven parents. $329 CAD.",
+  "introText": "The Nanit Pro Smart Baby Monitor (ASIN B07F2J5D5B) uses an overhead camera position to capture the entire crib in one 1080p frame with automatic night vision and sleep analytics via the Nanit app. Available on Amazon.ca with the Flex Stand, it enables remote monitoring worldwide via WiFi and tracks sleep patterns over time.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07F2J5D5B",
+  "verifiedPrice": "$329.99 CAD",
+  "similarProducts": ["infant-optics-dxr-8-pro", "eufy-baby-e110-monitor", "hatch-rest-plus-sound-machine"]
+}

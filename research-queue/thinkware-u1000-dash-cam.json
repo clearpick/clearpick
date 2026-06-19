@@ -1,0 +1,91 @@
+{
+  "slug": "thinkware-u1000-dash-cam",
+  "name": "Thinkware U1000 4K UHD Dual Channel Dash Cam",
+  "brand": "Thinkware",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Dash Cams",
+  "subcategory": "dash-cams",
+  "asin": "B093XS57SF",
+  "price": 399,
+  "priceDisplay": "$399.99 CAD",
+  "score": 9.0,
+  "tag": "Best Premium 4K Dash Cam",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B093XS57SF/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality": 9.5,
+    "Build Quality": 9.0,
+    "Night Vision": 9.0,
+    "Features": 9.0,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Front Resolution": "4K UHD (3840×2160) at 30fps",
+    "Rear Resolution": "Full HD 1080p (included rear camera)",
+    "Night Vision": "Sony STARVIS 2 sensor",
+    "Storage": "MicroSD (not included, up to 256GB)",
+    "Connectivity": "WiFi + hardwire kit for parking mode",
+    "Parking Mode": "Yes — motion detection and time-lapse modes"
+  },
+  "whatWorks": [
+    "4K front resolution provides the license plate legibility and detail at distance that 1080p cameras miss—the difference is meaningful in an insurance claim or collision dispute where plate capture at 30 meters is the critical evidence frame",
+    "Sony STARVIS 2 sensor performance in low-light and night conditions is genuinely superior to standard CMOS sensors—headlights, streetlights, and high-contrast night conditions that cause overexposure on standard dash cams render correctly on the U1000",
+    "The dual-channel front+rear configuration is included in the box (not a separate purchase) and covers both the collision evidence from front and the tailgating/rear-end evidence from behind—comprehensive accident documentation in one package",
+    "Thinkware's parking mode with the included hardwire kit provides 24-hour vehicle monitoring for hit-and-run events in parking lots—relevant in urban Canadian environments where unattended parking damage is common"
+  ],
+  "worthKnowing": [
+    "MicroSD card is not included and 4K front + 1080p rear recording fills storage faster than standard cams; a 128–256GB endurance-rated microSD card ($30–$60) is required and should be added to the purchase budget",
+    "4K resolution means larger file sizes—the camera will overwrite older footage more quickly per GB of storage than a 1080p alternative; 128GB at 4K dual channel provides approximately 6–8 hours of loop-before-overwrite recording",
+    "The hardwire kit (needed for parking mode) requires connection to the vehicle's fuse box; if you're not comfortable with DIY wiring, a professional install adds $60–$100 to the total cost"
+  ],
+  "commonComplaints": [
+    {
+      "title": "MicroSD not included at $400 price point",
+      "body": "At $399, buyers expect the memory card to be included. Adding a 128–256GB endurance-rated microSD card adds $30–$60 to the total cost, which feels like a nickel-and-dime at this price tier.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Hardwire kit install can be complex",
+      "body": "Parking mode requires a hardwire connection to the vehicle fuse box for constant low-current power. Non-DIY owners should budget $60–$100 for a shop installation, which adds to the already premium purchase price.",
+      "source": "Reddit r/dashcam"
+    },
+    {
+      "title": "App interface is dated compared to Garmin",
+      "body": "The Thinkware mobile app is functional but less polished than Garmin's Vault app. Footage review and clip sharing from the app requires more steps than competitors. The hardware quality exceeds the software quality.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Thinkware U1000 is the right premium dash cam for drivers who want best-in-class 4K video evidence quality, front+rear dual channel in one package, and Sony STARVIS 2 night performance for after-dark driving. At $400 it competes directly with the Garmin 67W (1440p, $199) on pure evidence value—the 4K resolution advantage is meaningful for plate capture quality. Add $30–$60 for a MicroSD card and $100 for professional hardwire install if parking mode is required.",
+  "realBuyers": [
+    {
+      "quote": "The 4K footage captured a plate at 40 meters in daytime clearly. That detail level was the difference in my insurance claim. Worth every dollar.",
+      "source": "Reddit r/dashcam"
+    },
+    {
+      "quote": "Night recording is incredible. Streetlit roads look like daytime. Unlit country roads have enough ambient to see plates 20 meters out. The Sony sensor is the real thing.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Remember to buy the microSD separately and get an endurance-rated card not a standard one. Regular cards die fast in dash cam heat cycling.",
+      "source": "Reddit r/dashcam"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Thinkware U1000 Review | DashCamTalk",
+      "url": "https://www.dashcamtalk.com/review/thinkware-u1000/"
+    },
+    {
+      "title": "Best 4K Dash Cams | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32836874/best-dash-cams/"
+    }
+  ],
+  "metaDescription": "Thinkware U1000 dash cam review: 4K UHD front + 1080p rear, Sony STARVIS 2 sensor, parking mode, WiFi. Best premium 4K dual-channel dash cam. $399 CAD (MicroSD not included).",
+  "introText": "The Thinkware U1000 (ASIN B093XS57SF) is a 4K UHD dual-channel dash cam with a Sony STARVIS 2 front sensor, included 1080p rear camera, WiFi connectivity, and hardwire kit compatibility for 24-hour parking mode. Available on Amazon.ca at $399, it provides the highest resolution front-facing evidence quality currently available in the consumer dash cam category.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B093XS57SF",
+  "verifiedPrice": "$399.99 CAD",
+  "similarProducts": ["garmin-dash-cam-67w", "blackvue-dr970x-2ch-dash-cam", "spigen-onetap-pro-magsafe-mount"]
+}

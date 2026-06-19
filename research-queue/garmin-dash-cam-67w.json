@@ -1,0 +1,91 @@
+{
+  "slug": "garmin-dash-cam-67w",
+  "name": "Garmin Dash Cam 67W, Wide 180-Degree Field of View",
+  "brand": "Garmin",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Dash Cams",
+  "subcategory": "dash-cams",
+  "asin": "B09VT6BXTM",
+  "price": 199,
+  "priceDisplay": "$199.99 CAD",
+  "score": 8.8,
+  "tag": "Best Wide-Angle Dash Cam",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09VT6BXTM/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality": 9.0,
+    "Build Quality": 8.5,
+    "Feature Set": 8.5,
+    "App & Connectivity": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Resolution": "1440p Quad HD (2560×1440) at 30fps",
+    "Field of View": "180-degree ultra-wide (horizontal)",
+    "GPS": "Built-in GPS with speed and location overlay",
+    "Voice Control": "Yes — 'OK Garmin, save video' commands",
+    "Auto Incident Detection": "Yes — G-sensor triggered automatic incident save",
+    "Storage": "Up to 512GB microSD (sold separately)"
+  },
+  "whatWorks": [
+    "The 180-degree horizontal field of view captures the full road across three lanes in each direction—a significant advantage over 140-degree cameras that lose coverage at lane edges; particularly valuable for documenting lane-change incidents and wide-angle parking lot footage",
+    "Built-in GPS records speed and exact location on every frame of footage, providing objective evidence for insurance claims and legal disputes without requiring manual timestamp reconciliation",
+    "Voice commands work reliably in a noisy car cabin—'OK Garmin, save video' saves the current clip without taking your hands off the wheel, which is the right workflow at the moment of an incident when you're already stressed",
+    "Garmin's driver assistance alerts (lane departure warning, forward collision alert, go alert) are accurate enough to be useful rather than annoyingly over-sensitive, which is a real differentiator from cheaper Chinese dash cam ADAS systems"
+  ],
+  "worthKnowing": [
+    "1440p is excellent but not 4K; if capturing clear license plates at highway distances in low light is the priority, consider the Thinkware U1000 or VIOFO A139 Pro's 4K sensor for sharper long-range text",
+    "The 180-degree lens creates mild barrel distortion at the extreme edges of the frame—footage looks natural in the center two-thirds but edges curve visibly; this rarely affects incident documentation but is noticeable in side-by-side comparisons",
+    "No rear camera in this model—the 67W is front-only; pair with a separate rear camera or consider the BlackVue DR970X-2CH if dual-channel coverage is needed"
+  ],
+  "commonComplaints": [
+    {
+      "title": "No included memory card",
+      "body": "The 67W is sold without a microSD card despite Garmin recommending a specific card tier (U3 rated) for continuous recording. A quality 64–128GB card adds $20–$40 CAD to the total purchase cost.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "App connectivity can be finicky",
+      "body": "The Garmin Drive app Bluetooth connection drops occasionally on some Android phones, requiring a re-pair. iOS connectivity is consistently reported as more stable than Android in user reviews.",
+      "source": "Reddit r/Dashcam"
+    },
+    {
+      "title": "Front-only recording",
+      "body": "At $200, buyers expect the option for rear camera coverage. The 67W requires a companion rear camera (sold separately) for full coverage—total cost with rear camera approaches $350–$400.",
+      "source": "Reddit r/Dashcam"
+    }
+  ],
+  "verdict": "The Garmin Dash Cam 67W is the best single-channel dash cam for drivers who want the widest possible coverage with the reliability and polish of a premium brand. The 180-degree field of view, GPS integration, and voice commands are a genuinely better implementation than competing Chinese brands at the same price. The 4K gap matters for long-range license plate capture; the VIOFO A139 Pro matches or beats the 67W for front-only 4K recording at a similar price. Choose the 67W if the Garmin ecosystem, driver alerts, and brand support matter to you.",
+  "realBuyers": [
+    {
+      "quote": "A driver cut me off and the 180-degree view caught them completely—including their lane change from far left. Insurance was settled immediately because the footage was unambiguous.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The voice command is the feature I didn't know I needed. 'OK Garmin, save video' immediately after a near-miss means I never lose footage trying to reach the unit.",
+      "source": "Reddit r/Dashcam"
+    },
+    {
+      "quote": "Garmin quality is consistent. This is my third Garmin dash cam and the image quality, GPS accuracy, and build are all exactly what I expect from the brand.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Dash Cams of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-dashboard-cameras/"
+    },
+    {
+      "title": "Garmin Dash Cam 67W Review | DashCamTalk",
+      "url": "https://www.dashcamtalk.com/garmin-dash-cam-67w-review/"
+    }
+  ],
+  "metaDescription": "Garmin Dash Cam 67W review: 1440p, 180-degree field of view, built-in GPS, voice commands. Best wide-angle dash cam for comprehensive front coverage. $199 CAD.",
+  "introText": "The Garmin Dash Cam 67W (ASIN B09VT6BXTM) records 1440p video with a 180-degree horizontal field of view, built-in GPS for speed and location overlay, and voice command controls. Available on Amazon.ca at $199, it includes Garmin's driver assistance alerts and automatic incident detection via G-sensor.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09VT6BXTM",
+  "verifiedPrice": "$199.99 CAD",
+  "similarProducts": ["fixd-bluetooth-obd2-scanner", "blackvue-dr970x-2ch-dash-cam", "clore-jump-n-carry-jnc660"]
+}

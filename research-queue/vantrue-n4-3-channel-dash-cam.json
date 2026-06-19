@@ -1,0 +1,91 @@
+{
+  "slug": "vantrue-n4-3-channel-dash-cam",
+  "name": "Vantrue N4 Pro 4K 3-Channel Dash Cam",
+  "brand": "Vantrue",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Dash Cams",
+  "subcategory": "dash-cams",
+  "asin": "B09Y1Q8R9F",
+  "price": 299,
+  "priceDisplay": "$299.99 CAD",
+  "score": 8.9,
+  "tag": "Best 3-Channel Dash Cam",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09Y1Q8R9F/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality": 9.0,
+    "Coverage": 9.5,
+    "Build Quality": 8.5,
+    "Features": 9.0,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Channels": "3 — front 4K, interior 1080p IR night vision, rear 1080p",
+    "Front Resolution": "4K UHD at 30fps (or 2.5K at 60fps)",
+    "Interior Camera": "1080p infrared LED night vision for cabin recording",
+    "Rear Camera": "1080p exterior rear",
+    "Storage": "MicroSD up to 512GB (not included); supports loop recording",
+    "Parking Mode": "Motion detection and time-lapse via hardwire kit (sold separately)"
+  },
+  "whatWorks": [
+    "Three simultaneous channels (front exterior, interior cabin, rear exterior) provide the most comprehensive evidence coverage available—front captures approaching hazards and plate information, interior cabin camera records what happened inside the vehicle, rear captures rear-end collisions and tailgating; no single-camera or dual-camera alternative covers all three perspectives",
+    "The interior infrared cabin camera operates in complete darkness without visible light—critical for rideshare drivers who cannot illuminate the cabin during passenger trips, and for personal vehicles as a security deterrent that functions in dark garages",
+    "4K front resolution at 30fps or 2.5K at 60fps mode provides user-selectable trade-off between maximum detail and smoother motion capture—2.5K 60fps is often preferable on high-speed highways where motion blur at 30fps reduces plate legibility at distance",
+    "512GB microSD capacity support allows multiple days of continuous three-channel recording before loop overwriting, which is practically important for parking mode where days can pass between incident review"
+  ],
+  "worthKnowing": [
+    "Three simultaneous channels require significant microSD storage and generate large file sizes—a 128GB card provides approximately 3–4 hours of triple-channel recording before looping; a 256GB card is the practical minimum for daily driving",
+    "The interior cabin recording creates a privacy consideration for passengers who may not know they're being recorded; Canadian privacy law requires driver awareness that recording is occurring, and displaying a visible dash cam notification or informing passengers is advisable",
+    "The hardwire kit for parking mode is sold separately ($25–$35) and requires fuse box connection for constant power; without it, parking mode is not available and the camera powers off with the ignition"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Requires large microSD for meaningful coverage",
+      "body": "Three simultaneous video streams fill storage quickly. 128GB holds only 3–4 hours of recording before overwriting. A 256GB endurance-rated card is the minimum practical choice, adding $40–$60 to the purchase.",
+      "source": "Reddit r/dashcam"
+    },
+    {
+      "title": "Interior camera is visible to passengers",
+      "body": "Unlike front-only dash cams that are less noticeable, the interior IR camera pointed at the cabin is clearly visible to passengers. Some riders or passengers react negatively to visible interior recording.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Parking mode kit sold separately",
+      "body": "The parking mode hardwire kit costs $25–$35 extra and requires installation. Buyers expecting full-featured parking surveillance out of the box are surprised by the additional purchase.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Vantrue N4 Pro is the right dash cam for rideshare drivers (Uber, Lyft, DoorDash) and fleet operators who need interior cabin documentation alongside front and rear exterior coverage. The three-channel coverage is unmatched at $299 for the use case where interior evidence is as valuable as exterior. Personal vehicle owners who don't need interior recording should choose the Thinkware U1000 or BlackVue DR970X for superior single-channel 4K front quality at comparable prices.",
+  "realBuyers": [
+    {
+      "quote": "Uber driver. The interior camera documenting passenger behavior has protected me twice from false incident reports. The front and rear cover everything else. Three channels, one unit, one subscription-free system.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The IR cabin camera works in complete darkness. Parked in underground garage, someone walked between the cars—cabin camera got clear footage. The night vision on this sensor is excellent.",
+      "source": "Reddit r/dashcam"
+    },
+    {
+      "quote": "Get the 256GB card when you order. 128GB wasn't enough for our fleet vehicles that drive 10+ hours per shift. The triple channels chew through storage.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vantrue N4 Review | DashCamTalk",
+      "url": "https://www.dashcamtalk.com/review/vantrue-n4/"
+    },
+    {
+      "title": "Best 3-Channel Dash Cams | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32836874/best-dash-cams/"
+    }
+  ],
+  "metaDescription": "Vantrue N4 Pro dash cam review: 4K front, 1080p IR interior, 1080p rear, 3 simultaneous channels. Best 3-channel dash cam for rideshare and fleet use. $299 CAD.",
+  "introText": "The Vantrue N4 Pro 4K 3-Channel Dash Cam (ASIN B09Y1Q8R9F) records front 4K, interior cabin 1080p infrared (visible in darkness), and rear exterior 1080p simultaneously. Available on Amazon.ca at $299, it supports up to 512GB microSD and is the definitive three-channel dash cam for rideshare drivers and fleet operators who need interior cabin documentation.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09Y1Q8R9F",
+  "verifiedPrice": "$299.99 CAD",
+  "similarProducts": ["thinkware-u1000-dash-cam", "garmin-dash-cam-67w", "blackvue-dr970x-2ch-dash-cam"]
+}

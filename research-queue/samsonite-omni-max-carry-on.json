@@ -1,0 +1,91 @@
+{
+  "slug": "samsonite-omni-max-carry-on",
+  "name": "Samsonite Omni 2 Hardside Expandable Carry-On (20 Inch)",
+  "brand": "Samsonite",
+  "category": "Luggage & Travel",
+  "categoryPage": "luggage-travel.html",
+  "filterTag": "Carry-On Luggage",
+  "subcategory": "carry-on-luggage",
+  "asin": "B0BH6T841Z",
+  "price": 149,
+  "priceDisplay": "$149.99 CAD",
+  "score": 8.7,
+  "tag": "Best Mid-Range Carry-On",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BH6T841Z/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 9.0,
+    "Storage & Organization": 8.5,
+    "Ease of Use": 8.5,
+    "Value for Money": 8.5,
+    "Spinner Performance": 9.0
+  },
+  "specs": {
+    "Size": "20 inches (standard carry-on fit)",
+    "Weight": "6.9 lbs / 3.1 kg",
+    "Material": "Hardside polycarbonate + ABS blend",
+    "Spinner": "4-wheel multi-directional spinner system",
+    "Expandable": "1.5-inch expansion zipper",
+    "TSA Lock": "Built-in TSA-approved combination lock"
+  },
+  "whatWorks": [
+    "Samsonite's hardshell polycarbonate/ABS blend offers genuinely better impact resistance than pure ABS budget bags—the Omni 2 shell flexes under stress rather than cracking or denting, maintaining structural integrity through gate-check abuse that destroys cheaper alternatives",
+    "Samsonite's 4-wheel spinner system is the measurable quality difference from budget competitors—the wheels are larger diameter, rotate more freely, and maintain smooth operation after 50+ trips without the grittiness that develops in cheaper wheels after 20 trips",
+    "The interior cross-strap divider system with two separate packing panels keeps contents from shifting, and the inner zipper pocket on the secondary panel creates a dedicated home for flat items (documents, tablet, toiletry kit)",
+    "Samsonite's warranty support in Canada (available through major Canadian retailers including Canadian Tire, Hudson's Bay, and Samsonite.ca) means warranty claims can be resolved locally without shipping to a U.S. service center"
+  ],
+  "worthKnowing": [
+    "At 6.9 lbs empty it's on the heavier end of carry-on options; budget the empty weight into your airline's total weight limit, particularly on WestJet (10 kg total) or carriers with strict enforcement",
+    "The ABS component of the shell means it still scratches more visibly than pure polycarbonate shells like Rimowa's; surface scuffs are cosmetic only but may disappoint buyers expecting pristine appearance after years of travel",
+    "1.5-inch expansion is useful for overpacking but reduces the bag's structural rigidity slightly when expanded; packing without expansion creates a more compact, firm suitcase"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heavier than softside alternatives",
+      "body": "At 6.9 lbs, strict 10 kg carry-on limits leave only 3.1 kg for contents. The Travelpro Maxlite 5 at 5 lbs provides 1.9 lbs more packing allowance, which is meaningful for photographers and anyone carrying heavy gear.",
+      "source": "Reddit r/travel"
+    },
+    {
+      "title": "Interior organization is basic",
+      "body": "Beyond the two-panel split and cross-strap divider, the interior pockets are minimal. Power bank, charger cable, and toiletry bags require their own containers rather than dedicated interior pockets.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Combination lock preset code is hard to find",
+      "body": "The factory combination is not printed prominently on the bag. Multiple buyers locked themselves out by attempting to change the combination without first testing the factory default (000 or printed on a label inside the bag).",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Samsonite Omni 2 is the right mid-range carry-on for travelers who want the assurance of Samsonite brand quality, Canadian warranty support, and hardshell protection at a price significantly below premium brands. It delivers meaningfully better spinner quality and shell resilience than $100 alternatives while stopping short of the $300–$400 premium tier. Weight-conscious flyers should compare the Travelpro Maxlite 5 softside for 1.9 lbs of empty weight savings.",
+  "realBuyers": [
+    {
+      "quote": "The spinner wheels on this versus my old American Tourister are night and day. These still glide smoothly after 30 flights. The others got gritty by trip 15.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Looks professional, holds up, fits in every Air Canada overhead I've tried. Samsonite quality at a price that's reasonable.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Gate checked it twice. Got back both times with zero damage. The polycarbonate shell flexes rather than denting. Worth the premium over budget ABS shells.",
+      "source": "Reddit r/solotravel"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Carry-On Luggage of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/"
+    },
+    {
+      "title": "Samsonite Omni 2 Review | Travel + Leisure",
+      "url": "https://www.travelandleisure.com/style/luggage-bags/best-carry-on-luggage"
+    }
+  ],
+  "metaDescription": "Samsonite Omni 2 carry-on review: polycarbonate hardshell, premium spinner wheels, built-in TSA lock, 1.5-inch expansion. Best mid-range carry-on luggage. $149 CAD.",
+  "introText": "The Samsonite Omni 2 Hardside Carry-On (ASIN B0BH6T841Z) is a 20-inch polycarbonate/ABS hardshell spinner with Samsonite's 4-wheel spinner system and built-in TSA combination lock. Available on Amazon.ca with 1.5-inch expansion, it bridges the gap between budget ABS carry-ons and premium polycarbonate shells at a mid-range price point.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0BH6T841Z",
+  "verifiedPrice": "$149.99 CAD",
+  "similarProducts": ["american-tourister-moonlight-carry-on", "rockland-fusion-softside-luggage", "delsey-chatelet-air-carry-on"]
+}

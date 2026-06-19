@@ -1,174 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum Review 2026 | ClearPick</title>
+<meta name="description" content="BISSELL AeroSlim cordless vacuum review: 20-minute run time, motorized brush, crevice tool. Best cordless handheld car vacuum for pet hair and daily maintenance." />
+<meta property="og:title" content="BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum Review 2026 | ClearPick" />
+<meta property="og:description" content="BISSELL AeroSlim cordless vacuum review: 20-minute run time, motorized brush, crevice tool. Best cordless handheld car vacuum for pet hair and daily maintenance." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/bissell-aeroslim-cordless-vacuum.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/bissell-aeroslim-cordless-vacuum.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.4", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The BISSELL AeroSlim is the right cordless handheld vacuum for car owners who want regular interior maintenance convenience without running an extension cord to a corded unit. The motorized brush attachment and crevice tool handle daily crumbs, pet hair, and floor mat debris well. Heavy-duty detailers or those with very dirty work vehicles should use a dedicated shop vacuum instead. For the majority of car owners who want a quick Sunday morning vacuum, this earns its $130 price."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.4",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -268,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../automotive.html">Automotive</a> <span>›</span>
+<span>BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Automotive</div>
+<h1 class="product-hero__title">BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum</h1>
+<div class="product-hero__tag">Best Cordless Car Vacuum</div>
+<p class="product-hero__desc">The BISSELL AeroSlim (ASIN B09PRN75JN) is a 1.9-lb lithium-ion cordless handheld vacuum with a motorized brush roll, crevice tool, and 20-minute run time per charge. Available on Amazon.ca, it is designed for car interior maintenance and includes attachments for carpet, upholstery, and tight crevices.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -287,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.4 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Suction Power</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Battery Life</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Build Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Attachments</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Battery</td><td class="spec-table__value">Lithium-ion (included, not removable)</td></tr><tr><td class="spec-table__label">Run Time</td><td class="spec-table__value">Up to 20 minutes per charge</td></tr><tr><td class="spec-table__label">Motor</td><td class="spec-table__value">14.4V lithium-powered</td></tr><tr><td class="spec-table__label">Weight</td><td class="spec-table__value">1.9 lbs / 0.86 kg</td></tr><tr><td class="spec-table__label">Attachments</td><td class="spec-table__value">Crevice tool, dusting brush, motorized brush roll</td></tr><tr><td class="spec-table__label">Charge Time</td><td class="spec-table__value">Approximately 4 hours to full</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -306,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best Cordless Car Vacuum</div>
+<div class="product-cta-box__name">BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum</div>
+<div class="product-cta-box__price">~$129.99 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B09PRN75JN/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -330,39 +223,108 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>At 1.9 lbs with no cord to manage, this is substantially easier to use inside a vehicle than corded canister vacuums—you can reach under seats, between center consoles, and into cup holders without repositioning a cord or the car</li>
+<li>The included motorized brush roll attachment (uncommon at this price tier) agitates carpet fibers to lift embedded pet hair and crumbs that suction alone can't dislodge from car floor mats</li>
+<li>20-minute run time is sufficient to vacuum a full interior in one charge for most vehicles; a quick charge between front and rear can extend a thorough cleaning session without buying a second battery</li>
+<li>BISSELL's crevice tool is narrow enough to reach between seat cushions and around console cup holders—the areas where debris accumulates most heavily and where standard vacuum heads can't reach</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>The battery is integrated (non-removable), so when it eventually degrades after 2–3 years of weekly use, the entire unit needs replacement rather than a battery swap</li>
+<li>Suction is competitive for handheld but not comparable to a dedicated shop vacuum—thick debris, wet spills, or deeply embedded gravel in car mats may require multiple passes or a more powerful unit</li>
+<li>4-hour charge time is slow; the vacuum doesn't rapid-charge, so scheduling a charge the night before a detail session is practical</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Two dogs, three kids. This thing is a weekly necessity. The motorized brush head gets pet hair out of the back seat carpet that nothing else reached. Light enough to use one-handed."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Replaced a corded vacuum I kept in the garage. Not being tethered to an outlet is the real upgrade. Run time is enough for my sedan in one pass."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Works great. The dustbin is small, dump it twice per car, no big deal. The suction is way better than my old handheld Black+Decker."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/AutoDetailing</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Non-removable battery limits lifespan</p>
+<p class="real-buyers-say__text">The integrated battery design means degraded capacity after 300–500 charge cycles can't be fixed with a replacement battery. For a $130 vacuum, users expect more than 2–3 years before facing a full replacement.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Dustbin is small for a full car clean</p>
+<p class="real-buyers-say__text">The 0.3L dustbin fills quickly when vacuuming a genuinely dirty car interior. Multiple emptying stops during a thorough clean interrupt the workflow, especially compared to corded handheld units with larger bins.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/AutoDetailing</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Suction fades near end of battery</p>
+<p class="real-buyers-say__text">As the lithium battery depletes below 20%, suction noticeably drops. The last few minutes of run time are markedly less effective than the first 15 minutes.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The BISSELL AeroSlim is the right cordless handheld vacuum for car owners who want regular interior maintenance convenience without running an extension cord to a corded unit. The motorized brush attachment and crevice tool handle daily crumbs, pet hair, and floor mat debris well. Heavy-duty detailers or those with very dirty work vehicles should use a dedicated shop vacuum instead. For the majority of car owners who want a quick Sunday morning vacuum, this earns its $130 price.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="autel-maxicom-mk808-scanner.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Autel MaxiCOM MK808 OBD2 Diagnostic Scanner" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Professional OBD2 Scanner</span>
+<h3 class="product-card__name">Autel MaxiCOM MK808 OBD2 Diagnostic Scanner</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="avid-power-tire-inflator.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Avid Power Tire Inflator Portable Air Compressor" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Budget Tire Inflator</span>
+<h3 class="product-card__name">Avid Power Tire Inflator Portable Air Compressor</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="dewalt-dck240c2-drill-combo-kit.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="DEWALT 20V MAX Cordless Drill Combo Kit, 2-Tool (DCK240C2)" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Drills &amp; Drivers</span>
+<h3 class="product-card__name">DEWALT 20V MAX Cordless Drill Combo Kit, 2-Tool (DCK240C2)</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -381,7 +343,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

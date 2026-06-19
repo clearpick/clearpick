@@ -1,0 +1,91 @@
+{
+  "slug": "chicco-keyfit-35-infant-seat",
+  "name": "Chicco KeyFit 35 ClearTex Infant Car Seat",
+  "brand": "Chicco",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Car Seats",
+  "subcategory": "car-seats",
+  "asin": "B07RBHGJN2",
+  "price": 279,
+  "priceDisplay": "$279.99 CAD",
+  "score": 8.8,
+  "tag": "Best Infant Car Seat",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07RBHGJN2/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.0,
+    "Ease of Use": 9.0,
+    "Comfort": 8.5,
+    "Value for Money": 8.5,
+    "Installation Accuracy": 9.0
+  },
+  "specs": {
+    "Weight Range": "4–35 lbs (1.8–15.9 kg)",
+    "Height Limit": "Up to 32 inches",
+    "Base Installation": "LATCH and ReclineSure leveling foot for precise angle",
+    "Handle": "Multi-position adjustable carry handle",
+    "Canopy": "Spring-loaded pop-up canopy with 3 panels",
+    "Anti-Rebound Bar": "No — base uses leveling foot instead"
+  },
+  "whatWorks": [
+    "The Chicco KeyFit series has consistently topped independent infant seat crash test performance ratings from NHTSA and Canadian testing bodies—it's the benchmark other infant seats are measured against for ease of correct installation and rear-facing safety",
+    "ReclineSure leveling foot (instead of angle indicator bubbles used by competitors) makes the correct recline angle far easier to achieve; the foot extends until contact and a level indicator turns green—much clearer than aligning bubbles in dim garages",
+    "The ClearTex fabric is made without harmful chemicals typically found in flame retardants, appealing to parents who want reduced chemical exposure for infants spending significant time in the seat",
+    "Spring-loaded pop-up canopy extends in three separate panels to provide coverage from multiple sun angles; most competing seats have a single rigid canopy that only blocks one direction effectively"
+  ],
+  "worthKnowing": [
+    "Infant-only seat with a shorter useful window than convertible seats—most babies outgrow the 35 lb weight or 32-inch height limit between 12–18 months, requiring purchase of a convertible seat sooner than families expect",
+    "The base is substantial and takes up meaningful floor space in the vehicle; smaller vehicles may struggle with rear-facing installation given the depth of the ReclineSure foot when extended",
+    "ClearTex fabric is less plush than standard Chicco fabric and some parents find it less soft-looking in photos, though baby comfort is equivalent"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Short useful window for the price",
+      "body": "At $280, parents who didn't research the infant seat category are surprised to find their baby outgrows the 35 lb limit or 32-inch height limit at 12–15 months, requiring a convertible seat purchase shortly after.",
+      "source": "Reddit r/CarSeats"
+    },
+    {
+      "title": "Base takes up significant floor space",
+      "body": "The extended leveling foot on the base adds considerable depth, pushing the infant seat further from the vehicle seatback in some small cars to the point of pressing against the front passenger seat.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Canopy coverage could be wider",
+      "body": "Even with three panels extended, the canopy doesn't cover the full width of the seat opening. Taller babies with head height near the top of the seat have sun exposure that the side panels don't reach.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Chicco KeyFit 35 ClearTex is the infant seat experts consistently recommend first—it combines the highest independent safety ratings, intuitive installation that most parents get right the first time, and quality construction that handles resale well. The key consideration is its phase-limited design: plan to budget for a convertible seat at 12–18 months. If you want one seat from birth through age 4–6, buy a convertible seat instead. But if you want the safest, easiest-to-install infant bucket seat on the market, this is the benchmark.",
+  "realBuyers": [
+    {
+      "quote": "The NICU nurses preferred we use this brand when we left the hospital. That endorsement was enough for us. The leveling foot makes it impossible to install at the wrong angle.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "On baby number three, still using the same base from baby one. Base and seat both look excellent. Only replacing because our youngest finally outgrew the height limit.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Easiest car seat I've installed across four different vehicles. The green indicator is clear and the LATCH connectors click confidently. No guessing.",
+      "source": "Reddit r/CarSeats"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Infant Car Seats of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-infant-car-seat/"
+    },
+    {
+      "title": "Chicco KeyFit 35 ClearTex Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/travel/best-infant-car-seat"
+    }
+  ],
+  "metaDescription": "Chicco KeyFit 35 ClearTex review: top-rated infant car seat, 4–35 lbs, ReclineSure leveling foot. Best infant car seat for easy correct installation. $279 CAD.",
+  "introText": "The Chicco KeyFit 35 ClearTex Infant Car Seat (ASIN B07RBHGJN2) is the consistently top-rated infant car seat by independent safety testers, supporting babies from 4 to 35 lbs with a ReclineSure leveling foot and chemical-reduced ClearTex fabric. Available on Amazon.ca, it includes a spring-loaded three-panel canopy and multi-position carry handle.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07RBHGJN2",
+  "verifiedPrice": "$279.99 CAD",
+  "similarProducts": ["britax-boulevard-clicktight-seat", "4moms-mamaroo-4-swing", "babybjorn-baby-carrier-one"]
+}

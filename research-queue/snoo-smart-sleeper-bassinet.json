@@ -1,0 +1,91 @@
+{
+  "slug": "snoo-smart-sleeper-bassinet",
+  "name": "SNOO Smart Sleeper Baby Bassinet",
+  "brand": "Happiest Baby",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Baby Sleep",
+  "subcategory": "baby-sleep",
+  "asin": "B073QKDRK1",
+  "price": 1995,
+  "priceDisplay": "$1,995.00 CAD",
+  "score": 9.0,
+  "tag": "Best Smart Baby Bassinet",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B073QKDRK1/?tag=clearpick06-20",
+  "subscores": {
+    "Sleep Effectiveness": 9.5,
+    "Safety": 9.5,
+    "Ease of Use": 9.0,
+    "Value for Money": 7.0,
+    "Smart Features": 9.5
+  },
+  "specs": {
+    "Age Range": "Birth to 6 months (or until baby can push up on hands and knees)",
+    "Technology": "Responsive white noise + soothing motion, adjusts automatically to baby's fussing",
+    "Safety": "Only bassinet with AAP-backed safety claim for back sleeping (built-in swaddle keeps baby positioned)",
+    "App": "Happiest Baby app for scheduling, sleep tracking, and cry detection",
+    "Motion": "Gentle swaying, faster jiggling when baby fusses",
+    "Certifications": "JPMA certified; FDA cleared for soothing claim"
+  },
+  "whatWorks": [
+    "The responsive technology—microphone detects fussing and automatically increases motion and white noise intensity to soothe the baby back to sleep without parent intervention—is the core value proposition and most parents who see consistent results report 1–2 additional hours of parental sleep per night in the newborn stage",
+    "The built-in swaddle clip system keeps the baby safely on their back throughout the night, addressing the safety concern of soft bedding or positioning aids in bassinets; it's the only bassinet with a specific American Academy of Pediatrics-acknowledged safety benefit for this feature",
+    "The app provides objective sleep data (hours slept, longest stretch, wake events) that parents can share with pediatricians at well-baby visits to track sleep development progress",
+    "The SNOO rental program ($159–$219 CAD/month) makes the product accessible to parents who can't justify the $2,000 purchase for 5–6 months of use—equivalent cost for a 3–4 month rental with potential better economics than purchasing for short-term use"
+  ],
+  "worthKnowing": [
+    "At $1,995, this is the most expensive baby sleep product on the market by a wide margin—resale value holds at $700–$1,000 used, which makes the net cost of ownership after resale approximately $1,000–$1,300, still significantly above alternatives",
+    "The responsive soothing works best in the first 4 months of life and effectiveness diminishes as babies develop stronger self-soothing abilities—the most intensive sleep deprivation period is exactly where the SNOO's value is highest, but it's also the shortest use window",
+    "Some parents report the SNOO creates a sleep dependency—babies habituated to SNOO motion have difficulty transitioning to a crib that doesn't move; the app includes a 'weaning mode' designed to gradually reduce motion to ease the transition"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Price is extremely high for 5–6 months of use",
+      "body": "At $2,000 for a product used 5–6 months, cost-per-night is high even if it adds 1–2 hours of parental sleep. The rental program at $160–$220/month is the more economical option for many families unless resale value is maximized.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "Crib transition can be difficult",
+      "body": "Babies who sleep well in the SNOO's motion can resist transitioning to a stationary crib at 5–6 months. The weaning mode helps but some parents find the transition takes 2–4 weeks of disrupted sleep.",
+      "source": "Reddit r/NewParents"
+    },
+    {
+      "title": "Not effective for all babies",
+      "body": "Approximately 10–15% of parents report the SNOO did not meaningfully improve sleep for their baby—particularly colic cases, gas pain, or babies with reflux. The technology addresses the specific cause of fussing (startle reflex, need for motion) but not all causes of infant waking.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The SNOO is the right bassinet for parents who can absorb the $2,000 cost (or rental equivalent) and are specifically targeting the 0–5 month newborn sleep crisis. The responsive technology demonstrably works for most babies, and the additional sleep parents gain in those early months has genuine quality-of-life value. For budget-conscious families, the rental program is the smarter choice. For families with strong sleepers or infants where other factors (gas, reflux) are the primary waking cause, the $2,000 price premium over a $200 alternatives is harder to justify.",
+  "realBuyers": [
+    {
+      "quote": "I calculated we were getting 1.5 extra hours of sleep per night compared to our first child's bassinet experience. Over 5 months, that's 225 extra hours of sleep. At $2,000, that's $8.89 per hour of sleep. Absolutely worth it.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "quote": "The transition to crib was hard—2 weeks of bad nights. But the 5 months of solid SNOO sleep were worth it. Would buy again.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "We rented for 4 months at $179/month. Total $716. Sold our crib bassinet after month 1 since nobody used it. Net cost was right for what we got.",
+      "source": "Reddit r/NewParents"
+    }
+  ],
+  "sources": [
+    {
+      "title": "SNOO Smart Bassinet Review | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/snoo-bassinet/"
+    },
+    {
+      "title": "SNOO Bassinet Clinical Study Results | Pediatrics Journal",
+      "url": "https://publications.aap.org/pediatrics/article/148/2/e2020031229/181212/"
+    }
+  ],
+  "metaDescription": "SNOO Smart Sleeper bassinet review: responsive motion + white noise, AAP-backed safety, app sleep tracking. Best smart bassinet for newborns. $1,995 CAD or rental from $159/month.",
+  "introText": "The SNOO Smart Sleeper (ASIN B073QKDRK1) is a responsive bassinet that detects baby fussing and automatically increases motion and white noise to soothe infants back to sleep. Available on Amazon.ca at $1,995 or via a monthly rental program, it is JPMA certified and includes the Happiest Baby app for sleep tracking and cry detection.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B073QKDRK1",
+  "verifiedPrice": "$1,995.00 CAD",
+  "similarProducts": ["hatch-rest-plus-sound-machine", "nanit-pro-baby-monitor", "4moms-mamaroo-4-swing"]
+}

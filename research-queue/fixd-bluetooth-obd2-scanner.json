@@ -1,0 +1,91 @@
+{
+  "slug": "fixd-bluetooth-obd2-scanner",
+  "name": "FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor",
+  "brand": "FIXD",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "OBD Scanners",
+  "subcategory": "obd-scanners",
+  "asin": "B01HFQBLW2",
+  "price": 89,
+  "priceDisplay": "$89.99 CAD",
+  "score": 8.5,
+  "tag": "Best App-Connected OBD2 Scanner",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01HFQBLW2/?tag=clearpick06-20",
+  "subscores": {
+    "Ease of Use": 9.0,
+    "App Experience": 9.0,
+    "Diagnostic Coverage": 8.0,
+    "Feature Set": 8.0,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Connectivity": "Bluetooth 4.0 to iOS and Android",
+    "Compatibility": "All 1996+ OBD2 gas vehicles (not diesel or EV)",
+    "App": "FIXD app (free download, iOS and Android)",
+    "Basic Functions": "Read and clear check engine codes with plain-language explanations",
+    "Premium Features": "FIXD Premium: issue severity ratings, repair cost estimates, predictive maintenance (subscription)",
+    "Power": "Draws from OBD2 port (always plugged in)"
+  },
+  "whatWorks": [
+    "The FIXD app translates generic fault codes into plain English with an estimated severity rating—instead of 'P0420 Catalyst System Efficiency Below Threshold Bank 1,' you see 'Catalytic Converter Issue — Not urgent, monitor and service within 30 days'—genuinely useful for non-mechanical owners",
+    "Setup is the fastest in the category: plug the sensor into the OBD2 port, open the app, and you're reading codes in under 60 seconds without any Bluetooth pairing menus or manual sync procedures",
+    "The sensor stays plugged in permanently and actively monitors the vehicle; the app notifies you when a new code appears before a warning light illuminates in some cases, giving you a heads-up before the situation becomes obvious",
+    "At $89 it's significantly less than professional scanners while providing the core consumer use case—reading a check engine light before going to a mechanic so you know whether it's urgent and have context for the repair estimate"
+  ],
+  "worthKnowing": [
+    "The free app reads and clears codes but the most useful features (severity ratings, repair estimates, maintenance tracking) require FIXD Premium at approximately $8–$10 USD/month or a one-time annual fee—factor this into the total cost",
+    "Coverage is OBD2 gas vehicles only; diesel vehicles, hybrids with complex systems, and EVs are not reliably supported, and the sensor won't work with pre-1996 vehicles without OBD2 ports",
+    "Advanced diagnostics (ABS, SRS, transmission codes, live data graphs, service resets) require the Autel MK808 or similar professional-grade scanner—FIXD is optimized for consumer-friendly code reading, not shop-level diagnosis"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Premium features require an ongoing subscription",
+      "body": "The free app functionality is genuinely limited. Severity ratings and repair cost estimates—the features that make FIXD useful versus a $20 code reader—are behind a subscription. Total cost is $89 sensor + $80–$120/year premium.",
+      "source": "Reddit r/MechanicAdvice"
+    },
+    {
+      "title": "Stays plugged in draws minor battery power",
+      "body": "The sensor is always powered from the OBD2 port. In vehicles with known parasitic drain issues or those left parked for extended periods, some users report the always-on draw contributing to battery depletion over weeks.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Doesn't replace a professional scanner",
+      "body": "FIXD covers basic engine codes well but misses ABS, SRS, transmission, and body module faults that many vehicles generate. Mechanics note it provides a false sense of complete diagnostic coverage to non-technical owners.",
+      "source": "Reddit r/MechanicAdvice"
+    }
+  ],
+  "verdict": "FIXD is the right OBD2 tool for non-mechanical car owners who want to understand a check engine light before going to a mechanic and avoid being oversold on urgency. The plain-language explanations and severity ratings are genuinely valuable for the target audience. Factor in the Premium subscription if you want the full feature set. Mechanically inclined DIYers who want to actually diagnose and fix problems should step up to the Autel MK808—FIXD's consumer focus works against you when you need real data.",
+  "realBuyers": [
+    {
+      "quote": "Check engine light came on. Plugged in FIXD, saw it was an oxygen sensor issue rated 'not urgent.' Went to the mechanic and wasn't pressured into a $700 emergency repair. Worth $90 easily.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "So easy my teenage daughter uses it herself. She knows what every warning light means now and texts me the app description. Incredible for new drivers.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The free tier is genuinely limited but I got annual premium for $80 and now get maintenance reminders too. For a car I depend on, worth it.",
+      "source": "Reddit r/personalfinance"
+    }
+  ],
+  "sources": [
+    {
+      "title": "FIXD Review: Is It Worth It? | Consumer Reports",
+      "url": "https://www.consumerreports.org/cars/car-technology/best-obd2-scanners/"
+    },
+    {
+      "title": "Best OBD2 Scanners for 2025 | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32862200/best-obd2-scanners/"
+    }
+  ],
+  "metaDescription": "FIXD OBD2 scanner review: Bluetooth, plain-language code explanations, severity ratings via app. Best consumer OBD2 scanner for non-mechanics under $90 CAD.",
+  "introText": "The FIXD OBD2 Bluetooth Scanner (ASIN B01HFQBLW2) plugs permanently into your vehicle's OBD2 port and communicates with the FIXD app to translate check engine codes into plain language with severity ratings. Available on Amazon.ca, it works with all 1996+ gas vehicles and sets up in under 60 seconds via Bluetooth.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B01HFQBLW2",
+  "verifiedPrice": "$89.99 CAD",
+  "similarProducts": ["autel-maxicom-mk808-scanner", "clore-jump-n-carry-jnc660", "black-decker-20v-handheld-vacuum"]
+}

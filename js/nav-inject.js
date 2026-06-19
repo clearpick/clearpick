@@ -23,9 +23,9 @@
     { slug: 'tools-home-improvement', icon: '🔧', label: 'Tools & Home Improvement',   count: 20, desc: 'Power tools & storage'               },
     { slug: 'bbq-outdoor-cooking',    icon: '🍖', label: 'BBQ & Outdoor Cooking',      count: 17, desc: 'Grills, smokers & griddles'          },
     { slug: 'sports-outdoors',        icon: '⛰️', label: 'Sports & Outdoors',          count: 20, desc: 'Running, hiking & cycling'           },
-    { slug: 'baby-kids',              icon: '🍼', label: 'Baby & Kids',                count: 0,  desc: 'Safety, toys & essentials'           },
-    { slug: 'luggage-travel',         icon: '🧳', label: 'Luggage & Travel',           count: 0,  desc: 'Bags, cases & accessories'           },
-    { slug: 'automotive',             icon: '🚗', label: 'Automotive',                 count: 0,  desc: 'Accessories & car tech'              },
+    { slug: 'baby-kids',              icon: '🍼', label: 'Baby & Kids',                count: 20                    ,  desc: 'Safety, toys & essentials'           },
+    { slug: 'luggage-travel',         icon: '🧳', label: 'Luggage & Travel',           count: 19                   ,  desc: 'Bags, cases & accessories'           },
+    { slug: 'automotive',             icon: '🚗', label: 'Automotive',                 count: 19                   ,  desc: 'Accessories & car tech'              },
   ];
 
   var GROUPS = [

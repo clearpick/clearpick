@@ -1,174 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Hatch Rest+ Sound Machine and Night Light (2nd Gen) Review 2026 | ClearPick</title>
+<meta name="description" content="Hatch Rest+ 2nd Gen review: WiFi sound machine with Time-to-Rise light programming. Best smart baby sound machine for sleep training toddlers. $99 CAD." />
+<meta property="og:title" content="Hatch Rest+ Sound Machine and Night Light (2nd Gen) Review 2026 | ClearPick" />
+<meta property="og:description" content="Hatch Rest+ 2nd Gen review: WiFi sound machine with Time-to-Rise light programming. Best smart baby sound machine for sleep training toddlers. $99 CAD." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/hatch-rest-plus-sound-machine.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/hatch-rest-plus-sound-machine.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Hatch Rest+ Sound Machine and Night Light (2nd Gen)",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.8", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The Hatch Rest+ is the right choice for parents who plan to use sleep training methods that benefit from light-cue programming, or who want remote app control of their child's sleep environment. The Time-to-Rise feature consistently earns the highest praise in parent reviews and delivers real sleep benefits once toddlers understand the green light means morning. If you just want white noise for a newborn, a $30 basic sound machine serves that need. If you want a sleep tool that actively helps teach kids to sleep independently through toddlerhood, the Hatch justifies its price."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.8",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -268,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../baby-kids.html">Baby &amp; Kids</a> <span>›</span>
+<span>Hatch Rest+ Sound Machine and Night Light (2nd Gen)</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Baby &amp; Kids</div>
+<h1 class="product-hero__title">Hatch Rest+ Sound Machine and Night Light (2nd Gen)</h1>
+<div class="product-hero__tag">Best Smart Baby Sound Machine</div>
+<p class="product-hero__desc">The Hatch Rest+ Sound Machine (ASIN B07VFX59Q3) is a WiFi-connected baby sound machine and night light with app-controlled color programming, including the Time-to-Rise feature that uses color cues to teach toddlers when to stay in bed. Available on Amazon.ca, it features a full sound library, digital clock display, and 16-million color LED night light.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -287,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.8 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Safety &amp; Build Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Ease of Use</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Comfort</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">App &amp; Smart Features</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">App Control</td><td class="spec-table__value">Yes — Hatch Sleep app (iOS and Android)</td></tr><tr><td class="spec-table__label">Sound Library</td><td class="spec-table__value">White noise, nature sounds, lullabies, fan noise, and more</td></tr><tr><td class="spec-table__label">Night Light</td><td class="spec-table__value">Multi-color dimmable LED (16 million colors)</td></tr><tr><td class="spec-table__label">Clock Face</td><td class="spec-table__value">Digital clock display on device</td></tr><tr><td class="spec-table__label">Time-to-Rise</td><td class="spec-table__value">Color-coded program (e.g., red=sleep time, green=OK to wake)</td></tr><tr><td class="spec-table__label">Connectivity</td><td class="spec-table__value">WiFi (2.4 GHz)</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -306,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Hatch Rest+ Sound Machine and Night Light (2nd Gen) product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best Smart Baby Sound Machine</div>
+<div class="product-cta-box__name">Hatch Rest+ Sound Machine and Night Light (2nd Gen)</div>
+<div class="product-cta-box__price">~$99.99 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B07VFX59Q3/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -330,39 +223,108 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>The Time-to-Rise color program is the killer feature for toddlers transitioning out of cribs—set the light to red during sleep hours and green at the designated wake time, and children as young as 18 months learn to stay in bed until the light changes green, often adding 45–90 minutes of family sleep</li>
+<li>App control from anywhere in the house lets you turn the sound machine on after the bedtime routine without entering the room and risking waking a lightly sleeping baby; remote brightness adjustment is equally valuable</li>
+<li>The Hatch Sleep app tracks usage patterns over time, which is useful for identifying sleep schedule inconsistencies when troubleshooting a regression or developmental sleep change</li>
+<li>The multi-color LED provides enough gentle light for nighttime feeds without fully waking either parent or baby—warm amber or dim red modes are specifically popular for minimizing alerting light during night wakings</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>Requires a Hatch account for full functionality; without the app, the device operates in basic manual mode only, which limits its value compared to non-connected sound machines at half the price</li>
+<li>The Hatch+ subscription unlocks additional sleep content (sleep programs, expert guides)—the core Time-to-Rise and sound features remain free, but Hatch markets premium content aggressively in-app</li>
+<li>WiFi-only operation means app control depends on your home internet; a router outage or WiFi disruption loses remote control until connection is restored, though the device continues playing the last set program</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The green light changed our lives. Our 2-year-old went from waking us at 5:30am to staying in his room until 7am within two weeks of introducing the light program. Incredible."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"I can turn it on from my phone after putting the baby down. No more sneaking back into the room because I forgot to turn on the sound machine. Essential."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/sleeptrain</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Worth every dollar for the app control alone. My husband and I can coordinate sound/light from separate rooms without waking each other or the baby."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Requires WiFi and account for full use</p>
+<p class="real-buyers-say__text">Unlike simple sound machines, the Hatch Rest+ requires a Hatch account and active WiFi connection for app features. Families who lose WiFi or want a simple no-account sound machine are better served by basic options at $30–$50.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">App can be slow to connect</p>
+<p class="real-buyers-say__text">Some users report the Hatch app taking 10–20 seconds to connect to the device, which feels frustrating when you need to turn the light on quickly during a night waking. The lag is inconsistent and seems to improve after app updates.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/sleeptrain</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Premium content push feels aggressive</p>
+<p class="real-buyers-say__text">The Hatch app continually promotes Hatch+ subscription content and sleep programs within the free interface. For a $100 device, some parents feel the in-app upsell pressure is excessive.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/beyondthebump</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The Hatch Rest+ is the right choice for parents who plan to use sleep training methods that benefit from light-cue programming, or who want remote app control of their child's sleep environment. The Time-to-Rise feature consistently earns the highest praise in parent reviews and delivers real sleep benefits once toddlers understand the green light means morning. If you just want white noise for a newborn, a $30 basic sound machine serves that need. If you want a sleep tool that actively helps teach kids to sleep independently through toddlerhood, the Hatch justifies its price.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="eufy-baby-e110-monitor.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="eufy Baby E110 Video Baby Monitor with Camera and Parent Unit" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Budget Video Baby Monitor</span>
+<h3 class="product-card__name">eufy Baby E110 Video Baby Monitor with Camera and Parent Unit</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="4moms-mamaroo-4-swing.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="4moms mamaRoo 4 Infant Seat" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best High-Tech Baby Swing</span>
+<h3 class="product-card__name">4moms mamaRoo 4 Infant Seat</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="amazon-echo-dot-5th-gen.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Amazon Echo Dot 5th Gen" class="product-card__img" loading="lazy" src="https://images-na.ssl-images-amazon.com/images/P/B09B8V1LZ3.01._SCLZZZZZZZ_.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Smart Home Hub</span>
+<h3 class="product-card__name">Amazon Echo Dot 5th Gen</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -381,7 +343,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

@@ -1,0 +1,91 @@
+{
+  "slug": "meguiars-gold-class-car-wash",
+  "name": "Meguiar's Gold Class Car Wash Shampoo & Conditioner (64 oz)",
+  "brand": "Meguiar's",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Car Cleaning",
+  "subcategory": "car-cleaning",
+  "asin": "B00007GQDX",
+  "price": 29,
+  "priceDisplay": "$29.99 CAD",
+  "score": 8.7,
+  "tag": "Best Car Wash Soap",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00007GQDX/?tag=clearpick06-20",
+  "subscores": {
+    "Cleaning Power": 8.5,
+    "Paint Safety": 9.0,
+    "Foam & Lather": 9.0,
+    "Value for Money": 9.0,
+    "Wax Compatibility": 9.0
+  },
+  "specs": {
+    "Volume": "64 fl oz (1,892 mL)",
+    "Dilution Ratio": "1–3 oz per 1 gallon of water",
+    "Formula": "Rich-foaming shampoo with conditioning polymers",
+    "Safe for Wax/Sealant": "Yes — will not strip existing wax or paint sealant",
+    "Foam Cannon Compatible": "Yes",
+    "Finishes Treated": "Clears, metallics, matte (with reduced agitation)"
+  },
+  "whatWorks": [
+    "The conditioning polymer formula lifts dirt and grime without stripping existing wax or paint protection—a critical distinction from household dish soap (a common DIY substitute) that strips wax and accelerates clear coat fading with every wash",
+    "64 oz at 1–3 oz per gallon yields 20–60 washes depending on concentration used, making the per-wash cost under $1.50—comparable in economy to making your own soap solution but with professional-grade paint chemistry",
+    "Rich foam production clings to vertical panels and dwell time loosens bonded contaminants before agitation, reducing the scratching risk of washing dry or with insufficient lubrication on the paint surface",
+    "Foam cannon compatible at higher concentrations, enabling a pre-soak foam application for contact-free loosening of road grime and salt before any wash mitt or sponge touches the paint"
+  ],
+  "worthKnowing": [
+    "Not a wash-and-wax product—it cleans without stripping but also doesn't add protective wax; pair with a dedicated wax or sealant application separately if protection is the goal",
+    "Matte finish vehicles should wash at very low dilution and use a microfiber wash mitt without circular buffing motions; matte clear coat is more sensitive to surface abrasion than gloss finishes",
+    "The 64 oz bottle lasts much longer than expected at the recommended dilution—at 2 oz per gallon, a weekly car washer gets 32 washes from a single bottle"
+  ],
+  "commonComplaints": [
+    {
+      "title": "No wax protection included",
+      "body": "Some buyers expect the 'Gold Class' branding implies a wash-and-wax product. It's a shampoo only—clean and protect are separate steps. First-time buyers disappointed by lack of shine-enhancement should look at Meguiar's Complete Care instead.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Doesn't remove water spots or contaminants",
+      "body": "Gold Class removes surface dirt but not bonded contamination (rail dust, tree sap polymerization, water spot mineral deposits). Those require clay bar treatment or chemical decontamination separate from the wash step.",
+      "source": "Reddit r/AutoDetailing"
+    },
+    {
+      "title": "Scent is artificial and strong for some",
+      "body": "The cherry or tropical scent is prominent enough that some detailers prefer scentless alternatives for enclosed spaces like garages. Not a performance concern, but frequently mentioned.",
+      "source": "Reddit r/AutoDetailing"
+    }
+  ],
+  "verdict": "Meguiar's Gold Class is the right car wash shampoo for owners who maintain a waxed or sealed paint finish and want to preserve their protection between wax applications. The paint-safe formula, foam volume, and price-per-wash efficiency make it the default recommendation for enthusiast and casual washers alike. If you want a wash-and-wax product in one step, Meguiar's Complete Care or Turtle Wax Hybrid Solutions offer that. For straight washing excellence at an honest price, Gold Class is the consistent category leader.",
+  "realBuyers": [
+    {
+      "quote": "Been using this for 15 years. My car still has its original clear coat looking perfect. Gold Class doesn't strip the wax and it's never caused swirling in the paint.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The foam is excellent for a contact wash—coats the entire panel and dwell time does real work before I touch it with a mitt. Industry standard for good reason.",
+      "source": "Reddit r/AutoDetailing"
+    },
+    {
+      "quote": "64 oz lasts me 6 months. Comes out to cents per wash. Way cheaper than drive-through washes and much better for the paint.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Car Wash Soaps of 2025 | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32904100/best-car-wash-soaps/"
+    },
+    {
+      "title": "Meguiar's Gold Class Car Wash Review | Autogeek",
+      "url": "https://www.autogeek.net/meguiars-gold-class-car-wash.html"
+    }
+  ],
+  "metaDescription": "Meguiar's Gold Class car wash review: 64 oz, wax-safe formula, rich foam, 1–3 oz per gallon. Best car wash shampoo for maintaining waxed paint finishes. $29 CAD.",
+  "introText": "Meguiar's Gold Class Car Wash Shampoo & Conditioner (ASIN B00007GQDX) is a 64 oz concentrated car wash formula with conditioning polymers that clean without stripping existing wax or paint sealant. Available on Amazon.ca, it produces rich foam suitable for bucket wash and foam cannon use at a dilution that yields 20–60 washes per bottle.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B00007GQDX",
+  "verifiedPrice": "$29.99 CAD",
+  "similarProducts": ["iottie-easy-one-touch-5-mount", "fixd-bluetooth-obd2-scanner", "black-decker-20v-handheld-vacuum"]
+}

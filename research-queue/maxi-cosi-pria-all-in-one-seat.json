@@ -1,0 +1,91 @@
+{
+  "slug": "maxi-cosi-pria-all-in-one-seat",
+  "name": "Maxi-Cosi Pria All-in-One Convertible Car Seat",
+  "brand": "Maxi-Cosi",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Car Seats",
+  "subcategory": "car-seats",
+  "asin": "B07Y3W23CC",
+  "price": 399,
+  "priceDisplay": "$399.99 CAD",
+  "score": 8.7,
+  "tag": "Best Convertible Car Seat for Small Cars",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07Y3W23CC/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.0,
+    "Ease of Use": 8.5,
+    "Comfort": 9.0,
+    "Value for Money": 8.5,
+    "Compact Fit": 9.5
+  },
+  "specs": {
+    "Rear-Facing": "5–40 lbs, up to 43 inches",
+    "Forward-Facing with Harness": "22–65 lbs, up to 49 inches",
+    "High-Back Booster": "40–100 lbs",
+    "Installation": "LATCH up to 40 lbs; vehicle seatbelt beyond",
+    "Side Impact Protection": "G-Cell foam side-impact energy absorbers",
+    "Cover": "Machine washable, no re-threading required for harness adjustment"
+  },
+  "whatWorks": [
+    "The Pria's compact rear-facing depth is the key differentiator—it extends approximately 2–3 inches less into the front passenger space than competing convertible seats like the Graco 4Ever or Britax Boulevard, making it the preferred choice for drivers of compact sedans, smaller SUVs, and vehicles with limited rear-seat depth",
+    "Machine washable covers with no harness re-threading on removal is a genuine convenience—remove the cover without undoing the harness webbing, wash, reinstall—a feature premium Britax seats lack",
+    "G-Cell foam side-impact protection is energy-absorbing (not just structural), offering comparable side-crash energy management to Britax's SafeCell technology at a similar price point",
+    "Covers from birth (5 lbs) to high-back booster (100 lbs) in one seat, offering the same multi-stage value proposition as the Graco 4Ever while having a notably smaller physical footprint in the vehicle"
+  ],
+  "worthKnowing": [
+    "The LATCH connector has a 40-lb weight limit—heavier toddlers in forward-facing mode must use the vehicle seatbelt instead of LATCH, which requires reading the manual carefully during the transition period",
+    "Booster mode tops out at 100 lbs (versus 120 lbs for the Graco 4Ever DLX) and requires the seat to be used with a vehicle seatbelt—verify your target vehicle's seatbelt geometry is compatible with booster use",
+    "At $399, it costs marginally more than the Graco 4Ever DLX for slightly fewer booster-mode lbs; the compact fit advantage is the primary reason to choose it over Graco's offering"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Harness release button stiff at first",
+      "body": "The red harness release button requires firm pressing and is positioned awkwardly for smaller-handed adults. Parents with small hands or joint pain occasionally report difficulty releasing quickly. The button loosens with regular use.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Cup holder sold separately",
+      "body": "Unlike some competing seats that include cup holder attachments, the Pria's cup holder is a separate $20–$25 accessory purchase. In a $400 seat, buyers expect this included.",
+      "source": "Reddit r/CarSeats"
+    },
+    {
+      "title": "LATCH limit means transition to seatbelt earlier",
+      "body": "The 40-lb LATCH limit means transitioning many forward-facing toddlers to seatbelt-only installation earlier than parents expect. The Britax Boulevard's higher-rated LATCH allows connector use to a higher weight.",
+      "source": "Reddit r/CarSeats"
+    }
+  ],
+  "verdict": "The Maxi-Cosi Pria All-in-One is the right convertible car seat for owners of compact and midsize vehicles where the Graco 4Ever or Britax Boulevard's larger rear-facing footprint crowds the front passenger uncomfortably. The compact depth, washable no-rethread cover, and multi-stage coverage make it the practical choice when vehicle fit is the primary constraint. If vehicle space isn't a concern and you want maximum booster-mode longevity, the Graco 4Ever DLX's 120-lb booster ceiling edges it out.",
+  "realBuyers": [
+    {
+      "quote": "Fit in our Honda Fit rear-facing without moving the passenger seat at all. The Graco we tried beforehand pushed the front seat so far forward the passenger couldn't sit. Night and day difference.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The no-rethread harness adjustment is real quality-of-life. Two different pants lengths for my son means I'm adjusting the crotch buckle weekly and it's effortless.",
+      "source": "Reddit r/CarSeats"
+    },
+    {
+      "quote": "G-Cell side impact foam and a solid installation. We feel confident in the seat every time. The compact fit in our Mazda3 sold us immediately.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Convertible Car Seats for Small Cars | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/travel/best-convertible-car-seat"
+    },
+    {
+      "title": "Maxi-Cosi Pria All-in-One Review | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-convertible-car-seats/"
+    }
+  ],
+  "metaDescription": "Maxi-Cosi Pria All-in-One car seat review: compact rear-facing depth, 5–100 lbs, no-rethread harness, G-Cell side impact protection. Best for small cars. $399 CAD.",
+  "introText": "The Maxi-Cosi Pria All-in-One Convertible Car Seat (ASIN B07Y3W23CC) is designed with a compact rear-facing footprint ideal for smaller vehicles, covering 5 lbs rear-facing through 100 lbs high-back booster with a no-rethread harness and machine washable cover. Available on Amazon.ca with G-Cell foam side-impact protection.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07Y3W23CC",
+  "verifiedPrice": "$399.99 CAD",
+  "similarProducts": ["britax-boulevard-clicktight-seat", "graco-4ever-dlx-car-seat", "chicco-keyfit-35-infant-seat"]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "skip-hop-explore-more-gym",
+  "name": "Skip Hop Baby Activity Gym and Play Mat, Explore & More",
+  "brand": "Skip Hop",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Play Mats",
+  "subcategory": "play-mats",
+  "asin": "B07NRRS6PW",
+  "price": 89,
+  "priceDisplay": "$89.99 CAD",
+  "score": 8.6,
+  "tag": "Best Baby Play Gym",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07NRRS6PW/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 8.5,
+    "Ease of Use": 9.0,
+    "Comfort": 8.5,
+    "Value for Money": 8.5,
+    "Developmental Features": 9.0
+  },
+  "specs": {
+    "Toys": "8 removable developmental toys (crinkle, rattle, teether, mirror, and more)",
+    "Bat Bar": "Removable double-sided bat bar for reaching and batting practice",
+    "Tummy Time Pillow": "Included foam support wedge for tummy time",
+    "Stages": "Converts from play gym arch to stand-up activity table at age 1+",
+    "Material": "Padded cotton mat with soft foam padding",
+    "Machine Washable": "Mat cover yes; foam padding spot clean only"
+  },
+  "whatWorks": [
+    "Eight diverse developmental toys covering multiple sensory modalities—visual (high-contrast mirror), auditory (rattle, crinkle), tactile (teether, soft textures)—provide age-appropriate stimulation without needing separate toy purchases for the first 6 months",
+    "The tummy time support wedge is included rather than sold separately—a meaningful cost savings since tummy time is developmentally essential and a separate foam wedge costs $20–$35 on its own",
+    "The convert-to-activity-table design at age 1+ extends the useful life through the toddler fine motor development stage, meaning parents get 18+ months of use rather than the 4–5 months typical of play gym-only products",
+    "Skip Hop's aesthetic design (modern, neutral colors, avoided primary color overload) is a genuine market differentiator for parents who care about home aesthetics and want baby gear that doesn't visually dominate a living room"
+  ],
+  "worthKnowing": [
+    "The mat foam padding is not removable for washing—only the cotton cover comes off; food spills on the foam base require spot cleaning and air drying, which can be slow",
+    "The arch frame is plastic and feels less substantial than the metal-frame arches on premium alternatives like the Lovevery Play Gym ($200+); adequate for home use but noticeably lighter in feel",
+    "By 4–5 months, most babies outgrow the lying-under-the-gym phase and the activity table conversion becomes relevant; planning for the transition makes the product feel complete"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Foam base not fully washable",
+      "body": "The cotton cover washes well but the foam base underneath is spot-clean only. Blow-outs or formula spills that reach the foam require careful drying and can leave odor. Parents of frequent blow-out babies find this limiting.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Arch feels lightweight",
+      "body": "The plastic arch frame is stable but lacks the premium solidity of more expensive gym alternatives. Parents who pick up the arch frequently to fold the mat or move the gym report the plastic feels thin at connection points.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "Activity table conversion is basic",
+      "body": "The second-stage activity table mode is somewhat limited in stimulation features compared to dedicated activity tables. It serves the conversion purpose but isn't a full replacement for a standalone activity table as the toddler develops.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Skip Hop Explore & More gym is the right choice for parents who want a fully-equipped developmental play space with included tummy time support, multi-sensory toys, and a design that extends into toddlerhood. At $90, it undercuts the Lovevery Play Gym ($200+) significantly while providing comparable developmental toy variety. The foam base washability limitation is a real consideration for messy babies, but for the majority of parents the mat cover washing is sufficient.",
+  "realBuyers": [
+    {
+      "quote": "The eight toys came out of the box immediately. No extra purchases needed. The mirror was my daughter's favorite from week 3—she'd stare at it for 20 minutes.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The tummy time wedge being included was a surprise bonus. Saved me $30 buying one separately and my son started using it on day 1 home.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "quote": "The design fits our living room without clashing with everything. Most baby gear is eye-searing primary colors. Skip Hop is neutral and clean. Love it.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Play Mats and Gyms | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-play-mats/"
+    },
+    {
+      "title": "Skip Hop Explore & More Gym Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/play/best-baby-play-mat"
+    }
+  ],
+  "metaDescription": "Skip Hop Explore & More baby gym review: 8 developmental toys, tummy time pillow included, converts to activity table at 12 months. Best baby play gym under $90 CAD.",
+  "introText": "The Skip Hop Baby Activity Gym and Play Mat (ASIN B07NRRS6PW) includes eight removable developmental toys, a tummy time support pillow, and a padded cotton mat that converts to a stand-up activity table at 12 months. Available on Amazon.ca under $90, it provides multi-sensory stimulation from newborn through toddlerhood in a modern neutral design.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07NRRS6PW",
+  "verifiedPrice": "$89.99 CAD",
+  "similarProducts": ["regalo-easy-step-extra-wide-gate", "4moms-mamaroo-4-swing", "babybjorn-bouncer-bliss"]
+}

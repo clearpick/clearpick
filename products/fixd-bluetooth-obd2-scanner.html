@@ -1,174 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor Review 2026 | ClearPick</title>
+<meta name="description" content="FIXD OBD2 scanner review: Bluetooth, plain-language code explanations, severity ratings via app. Best consumer OBD2 scanner for non-mechanics under $90 CAD." />
+<meta property="og:title" content="FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor Review 2026 | ClearPick" />
+<meta property="og:description" content="FIXD OBD2 scanner review: Bluetooth, plain-language code explanations, severity ratings via app. Best consumer OBD2 scanner for non-mechanics under $90 CAD." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/fixd-bluetooth-obd2-scanner.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/fixd-bluetooth-obd2-scanner.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.5", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "FIXD is the right OBD2 tool for non-mechanical car owners who want to understand a check engine light before going to a mechanic and avoid being oversold on urgency. The plain-language explanations and severity ratings are genuinely valuable for the target audience. Factor in the Premium subscription if you want the full feature set. Mechanically inclined DIYers who want to actually diagnose and fix problems should step up to the Autel MK808—FIXD's consumer focus works against you when you need real data."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.5",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -268,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../automotive.html">Automotive</a> <span>›</span>
+<span>FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Automotive</div>
+<h1 class="product-hero__title">FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor</h1>
+<div class="product-hero__tag">Best App-Connected OBD2 Scanner</div>
+<p class="product-hero__desc">The FIXD OBD2 Bluetooth Scanner (ASIN B01HFQBLW2) plugs permanently into your vehicle's OBD2 port and communicates with the FIXD app to translate check engine codes into plain language with severity ratings. Available on Amazon.ca, it works with all 1996+ gas vehicles and sets up in under 60 seconds via Bluetooth.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -287,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.5 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Ease of Use</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">App Experience</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Diagnostic Coverage</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Feature Set</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Connectivity</td><td class="spec-table__value">Bluetooth 4.0 to iOS and Android</td></tr><tr><td class="spec-table__label">Compatibility</td><td class="spec-table__value">All 1996+ OBD2 gas vehicles (not diesel or EV)</td></tr><tr><td class="spec-table__label">App</td><td class="spec-table__value">FIXD app (free download, iOS and Android)</td></tr><tr><td class="spec-table__label">Basic Functions</td><td class="spec-table__value">Read and clear check engine codes with plain-language explanations</td></tr><tr><td class="spec-table__label">Premium Features</td><td class="spec-table__value">FIXD Premium: issue severity ratings, repair cost estimates, predictive maintenance (subscription)</td></tr><tr><td class="spec-table__label">Power</td><td class="spec-table__value">Draws from OBD2 port (always plugged in)</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -306,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best App-Connected OBD2 Scanner</div>
+<div class="product-cta-box__name">FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor</div>
+<div class="product-cta-box__price">~$89.99 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B01HFQBLW2/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -330,39 +223,108 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>The FIXD app translates generic fault codes into plain English with an estimated severity rating—instead of 'P0420 Catalyst System Efficiency Below Threshold Bank 1,' you see 'Catalytic Converter Issue — Not urgent, monitor and service within 30 days'—genuinely useful for non-mechanical owners</li>
+<li>Setup is the fastest in the category: plug the sensor into the OBD2 port, open the app, and you're reading codes in under 60 seconds without any Bluetooth pairing menus or manual sync procedures</li>
+<li>The sensor stays plugged in permanently and actively monitors the vehicle; the app notifies you when a new code appears before a warning light illuminates in some cases, giving you a heads-up before the situation becomes obvious</li>
+<li>At $89 it's significantly less than professional scanners while providing the core consumer use case—reading a check engine light before going to a mechanic so you know whether it's urgent and have context for the repair estimate</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>The free app reads and clears codes but the most useful features (severity ratings, repair estimates, maintenance tracking) require FIXD Premium at approximately $8–$10 USD/month or a one-time annual fee—factor this into the total cost</li>
+<li>Coverage is OBD2 gas vehicles only; diesel vehicles, hybrids with complex systems, and EVs are not reliably supported, and the sensor won't work with pre-1996 vehicles without OBD2 ports</li>
+<li>Advanced diagnostics (ABS, SRS, transmission codes, live data graphs, service resets) require the Autel MK808 or similar professional-grade scanner—FIXD is optimized for consumer-friendly code reading, not shop-level diagnosis</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Check engine light came on. Plugged in FIXD, saw it was an oxygen sensor issue rated 'not urgent.' Went to the mechanic and wasn't pressured into a $700 emergency repair. Worth $90 easily."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"So easy my teenage daughter uses it herself. She knows what every warning light means now and texts me the app description. Incredible for new drivers."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The free tier is genuinely limited but I got annual premium for $80 and now get maintenance reminders too. For a car I depend on, worth it."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/personalfinance</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Premium features require an ongoing subscription</p>
+<p class="real-buyers-say__text">The free app functionality is genuinely limited. Severity ratings and repair cost estimates—the features that make FIXD useful versus a $20 code reader—are behind a subscription. Total cost is $89 sensor + $80–$120/year premium.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/MechanicAdvice</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Stays plugged in draws minor battery power</p>
+<p class="real-buyers-say__text">The sensor is always powered from the OBD2 port. In vehicles with known parasitic drain issues or those left parked for extended periods, some users report the always-on draw contributing to battery depletion over weeks.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Doesn't replace a professional scanner</p>
+<p class="real-buyers-say__text">FIXD covers basic engine codes well but misses ABS, SRS, transmission, and body module faults that many vehicles generate. Mechanics note it provides a false sense of complete diagnostic coverage to non-technical owners.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/MechanicAdvice</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">FIXD is the right OBD2 tool for non-mechanical car owners who want to understand a check engine light before going to a mechanic and avoid being oversold on urgency. The plain-language explanations and severity ratings are genuinely valuable for the target audience. Factor in the Premium subscription if you want the full feature set. Mechanically inclined DIYers who want to actually diagnose and fix problems should step up to the Autel MK808—FIXD's consumer focus works against you when you need real data.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="autel-maxicom-mk808-scanner.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Autel MaxiCOM MK808 OBD2 Diagnostic Scanner" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Professional OBD2 Scanner</span>
+<h3 class="product-card__name">Autel MaxiCOM MK808 OBD2 Diagnostic Scanner</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="clore-jump-n-carry-jnc660.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Clore Automotive Jump-N-Carry JNC660 1700 Peak Amp Jump Starter" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Professional Jump Starter</span>
+<h3 class="product-card__name">Clore Automotive Jump-N-Carry JNC660 1700 Peak Amp Jump Starter</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="black-decker-20v-handheld-vacuum.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="BLACK+DECKER 20V MAX Handheld Cordless Vacuum" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Value Car Vacuum</span>
+<h3 class="product-card__name">BLACK+DECKER 20V MAX Handheld Cordless Vacuum</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -381,7 +343,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

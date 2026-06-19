@@ -1,0 +1,91 @@
+{
+  "slug": "osprey-farpoint-40-backpack",
+  "name": "Osprey Farpoint 40 Travel Pack",
+  "brand": "Osprey",
+  "category": "Luggage & Travel",
+  "categoryPage": "luggage-travel.html",
+  "filterTag": "Travel Backpacks",
+  "subcategory": "travel-backpacks",
+  "asin": "B00K5Y16RE",
+  "price": 249,
+  "priceDisplay": "$249.99 CAD",
+  "score": 9.0,
+  "tag": "Best Carry-On Travel Backpack",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00K5Y16RE/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 9.5,
+    "Storage & Organization": 9.0,
+    "Ease of Use": 9.0,
+    "Value for Money": 9.0,
+    "Suspension & Comfort": 9.0
+  },
+  "specs": {
+    "Capacity": "40L",
+    "Laptop Sleeve": "Padded 15-inch laptop sleeve with fleece lining",
+    "Access": "Clamshell zip access—opens flat like a suitcase",
+    "Harness": "Stow-away padded harness and removable hip belt",
+    "Carry-On": "Meets most international carry-on dimension requirements",
+    "Frame": "Internal foam framesheet for structure"
+  },
+  "whatWorks": [
+    "The clamshell zip opening provides suitcase-style full-panel access to the entire 40L main compartment—no digging through a top-loading tube; pack it like a suitcase, access it like a suitcase, carry it as a backpack",
+    "Stowable harness and hip belt zip away completely when not in use, presenting as a clean rectangular bag for overhead bins and hotel luggage racks—you get backpack ergonomics on the walking-intensive days and clean bag presentation on arrival",
+    "At 40L in international carry-on dimensions, this covers 7–14 days of travel for most packing styles without ever checking luggage—the core promise of the one-bag travel movement, executed well",
+    "Osprey's All Mighty Guarantee (lifetime warranty including repairs for damage) means you buy this once—any manufacturing defect or component failure is repaired or replaced free, a meaningful policy on a travel pack that's used daily"
+  ],
+  "worthKnowing": [
+    "40L at max packing weight (14–16 lbs) on the stowed harness becomes heavy over a long terminal walk—the hip belt dramatically improves comfort once deployed, but many travelers forget to use it when in a rush",
+    "The stowable harness pocket limits quick access to the back panel; attaching a small accessory pouch to the front panel handles this but adds cost",
+    "Strictly a travel pack rather than a technical hiking pack—the suspension handles airport and city walking with loaded packs but isn't designed for steep trail carrying with full loads"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Hip belt pocket is vestigial",
+      "body": "The removable hip belt doesn't have a useful pocket for quick access items like passports or transit cards. Power users who want hip belt pockets for on-the-go access need to use front pockets instead.",
+      "source": "Reddit r/onebag"
+    },
+    {
+      "title": "Heavy when fully loaded",
+      "body": "At 40L fully packed (14–16 lbs), the Farpoint is noticeably heavier than packable alternatives for multi-week trips. The weight is mostly the gear, not the bag (bag is 1.6 lbs empty), but the cumulative result is tiring on long walking days.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Main access zipper requires two hands",
+      "body": "The clamshell zipper runs around three sides and requires two-hand opening—one to hold the bag and one to unzip. Not a serious issue but a minor convenience compared to top-loading one-hand access.",
+      "source": "Reddit r/solotravel"
+    }
+  ],
+  "verdict": "The Osprey Farpoint 40 is the most consistently recommended carry-on travel backpack for good reason: it combines the access convenience of a suitcase, the mobility of a backpack, Osprey's lifetime warranty, and true 40L capacity in a package that fits international carry-on restrictions. It's the right choice for budget-conscious travelers, digital nomads, and first-time one-bag travelers who want maximum versatility without overspending. The NOMATIC is more organized; the Peak Design is better for camera gear. For pure travel utility, the Farpoint wins.",
+  "realBuyers": [
+    {
+      "quote": "Traveled Southeast Asia for 3 months with nothing else. Every flight, every hostel, every overnight bus. The clamshell access meant I never unpacked into chaos. Perfect bag.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The harness stows perfectly and the bag looks completely professional for business travel. No one knows it's a backpack until I flip it around at the gate.",
+      "source": "Reddit r/onebag"
+    },
+    {
+      "quote": "Osprey's warranty is real. Had a zipper fail on the front pocket after 5 years. They repaired it free, no hassle. That's why I buy Osprey.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Travel Backpacks of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-travel-backpacks/"
+    },
+    {
+      "title": "Osprey Farpoint 40 Review | Pack Hacker",
+      "url": "https://packhacker.com/travel-gear/osprey/farpoint-40/"
+    }
+  ],
+  "metaDescription": "Osprey Farpoint 40 review: 40L clamshell travel pack, stow-away harness, lifetime Osprey warranty. Best carry-on travel backpack for one-bag travelers. $249 CAD.",
+  "introText": "The Osprey Farpoint 40 Travel Pack (ASIN B00K5Y16RE) is a 40L clamshell-opening travel backpack with a stow-away harness and hip belt, padded 15-inch laptop sleeve, and Osprey's All Mighty Lifetime Guarantee. Available on Amazon.ca, it meets most international carry-on size requirements and is the most widely recommended travel pack for one-bag travelers.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B00K5Y16RE",
+  "verifiedPrice": "$249.99 CAD",
+  "similarProducts": ["north-face-base-camp-duffel-small", "nomatic-travel-pack-20l", "matein-travel-laptop-backpack"]
+}

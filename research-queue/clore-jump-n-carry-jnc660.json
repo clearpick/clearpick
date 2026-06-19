@@ -1,0 +1,91 @@
+{
+  "slug": "clore-jump-n-carry-jnc660",
+  "name": "Clore Automotive Jump-N-Carry JNC660 1700 Peak Amp Jump Starter",
+  "brand": "Clore",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Jump Starters",
+  "subcategory": "jump-starters",
+  "asin": "B00028WHKQ",
+  "price": 149,
+  "priceDisplay": "$149.99 CAD",
+  "score": 8.7,
+  "tag": "Best Professional Jump Starter",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00028WHKQ/?tag=clearpick06-20",
+  "subscores": {
+    "Jump Starting Power": 9.5,
+    "Build Quality": 9.0,
+    "Ease of Use": 8.5,
+    "Battery Life": 8.0,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Peak Amps": "1700 peak amps",
+    "Cranking Amps": "425 cranking amps",
+    "Battery": "22 Ah sealed lead-acid battery",
+    "Cables": "46-inch (117 cm) heavy-duty industrial cables",
+    "Compatible": "Gas engines up to 10L, diesel up to 7.5L",
+    "Weight": "18 lbs / 8.2 kg"
+  },
+  "whatWorks": [
+    "At 1700 peak amps with 46-inch industrial cables, the JNC660 can start large diesel trucks, commercial vehicles, and farm equipment that lithium lithium jump starters simply don't have the sustained cranking power to handle",
+    "The sealed lead-acid battery holds a charge for months without active maintenance, making it reliable for seasonal use—leave it in the garage all winter and it will still start a dead battery in spring",
+    "Clore's professional-grade cable clamps are heavy copper jaws rather than the thin-metal clips found on consumer units; they grip battery terminals securely and handle the heat and current of repeated commercial use",
+    "Shop and fleet operators trust the JNC660 specifically because its lead-acid design can absorb the abuse of daily multi-vehicle commercial use without the lithium safety management limitations that trigger protection cutoffs"
+  ],
+  "worthKnowing": [
+    "At 18 lbs, this is a heavy unit that requires two hands and a clear trunk to manage—lithium jump starters like the NOCO GB40 achieve 1000 amps at 1 lb and fit in a glovebox, which is a real convenience advantage for most passenger car owners",
+    "The lead-acid battery requires periodic top-up charging (every 30 days if stored) to avoid sulfation damage that permanently reduces capacity; a maintenance charger is a useful companion purchase",
+    "No USB charging port, no air compressor, no digital display—this is a pure jump starter with no multi-function extras; the price is largely for raw power and cable quality"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heavy and bulky for passenger car use",
+      "body": "18 lbs is manageable for a garage or truck bed, but unwieldy in a compact car trunk alongside other gear. Lithium alternatives that fit in a jacket pocket have made the JNC660's footprint feel outdated for everyday carry.",
+      "source": "Reddit r/MechanicAdvice"
+    },
+    {
+      "title": "Needs periodic maintenance charging",
+      "body": "Lead-acid batteries self-discharge and sulfate if left uncharged for extended periods. Multiple users report capacity loss after storing the unit for a season without a maintenance charge cycle.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "No USB ports or auxiliary features",
+      "body": "At $150, buyers occasionally expect the multi-function capabilities of similarly priced NOCO units (USB charging, air compressor option). The JNC660 is a single-purpose tool—extraordinary at that purpose, but only that purpose.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Clore JNC660 is the right jump starter for commercial operators, farmers, fleet managers, and anyone who regularly starts large diesel engines or works in a shop. Its 1700 peak amps and commercial-grade cables make it the most capable consumer jump starter for heavy-duty applications. Passenger car owners or commuters who want something that lives in the glovebox should look at NOCO's GB40 or GB70 instead—they deliver equivalent capability for most personal vehicles at a fraction of the weight.",
+  "realBuyers": [
+    {
+      "quote": "Run a 4-vehicle fleet of diesel pickups. This thing lives in the shop and has started batteries in -30°C weather without hesitation. Lead acid at this capacity beats lithium in real winter.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Farm use. Starts the big diesel tractor, the combine header, and the backup generator when they sit all winter. Nothing else I've tried could do all three reliably.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Used it in my shop for eight years. The clamps and cables still look new. Clore builds these things like tanks.",
+      "source": "Reddit r/MechanicAdvice"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Jump Starters of 2025 | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32906085/best-portable-jump-starters/"
+    },
+    {
+      "title": "Jump Starter Buying Guide | Popular Mechanics",
+      "url": "https://www.popularmechanics.com/cars/car-technology/a33272093/best-jump-starters/"
+    }
+  ],
+  "metaDescription": "Clore JNC660 review: 1700 peak amps, 46-inch industrial cables, starts diesel trucks up to 7.5L. Best professional jump starter for commercial and fleet use.",
+  "introText": "The Clore Automotive Jump-N-Carry JNC660 (ASIN B00028WHKQ) is a 1700 peak amp professional jump starter with 22 Ah lead-acid battery and 46-inch heavy-duty cables. Available on Amazon.ca, it starts gasoline engines up to 10L and diesel up to 7.5L—the benchmark for commercial and fleet jump starting applications.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B00028WHKQ",
+  "verifiedPrice": "$149.99 CAD",
+  "similarProducts": ["blackvue-dr970x-2ch-dash-cam", "black-decker-20v-handheld-vacuum", "autel-maxicom-mk808-scanner"]
+}

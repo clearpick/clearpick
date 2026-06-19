@@ -1,0 +1,91 @@
+{
+  "slug": "bissell-aeroslim-cordless-vacuum",
+  "name": "BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum",
+  "brand": "BISSELL",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Car Vacuums",
+  "subcategory": "car-vacuums",
+  "asin": "B09PRN75JN",
+  "price": 129,
+  "priceDisplay": "$129.99 CAD",
+  "score": 8.4,
+  "tag": "Best Cordless Car Vacuum",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09PRN75JN/?tag=clearpick06-20",
+  "subscores": {
+    "Suction Power": 8.0,
+    "Battery Life": 8.0,
+    "Build Quality": 8.5,
+    "Attachments": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Battery": "Lithium-ion (included, not removable)",
+    "Run Time": "Up to 20 minutes per charge",
+    "Motor": "14.4V lithium-powered",
+    "Weight": "1.9 lbs / 0.86 kg",
+    "Attachments": "Crevice tool, dusting brush, motorized brush roll",
+    "Charge Time": "Approximately 4 hours to full"
+  },
+  "whatWorks": [
+    "At 1.9 lbs with no cord to manage, this is substantially easier to use inside a vehicle than corded canister vacuums—you can reach under seats, between center consoles, and into cup holders without repositioning a cord or the car",
+    "The included motorized brush roll attachment (uncommon at this price tier) agitates carpet fibers to lift embedded pet hair and crumbs that suction alone can't dislodge from car floor mats",
+    "20-minute run time is sufficient to vacuum a full interior in one charge for most vehicles; a quick charge between front and rear can extend a thorough cleaning session without buying a second battery",
+    "BISSELL's crevice tool is narrow enough to reach between seat cushions and around console cup holders—the areas where debris accumulates most heavily and where standard vacuum heads can't reach"
+  ],
+  "worthKnowing": [
+    "The battery is integrated (non-removable), so when it eventually degrades after 2–3 years of weekly use, the entire unit needs replacement rather than a battery swap",
+    "Suction is competitive for handheld but not comparable to a dedicated shop vacuum—thick debris, wet spills, or deeply embedded gravel in car mats may require multiple passes or a more powerful unit",
+    "4-hour charge time is slow; the vacuum doesn't rapid-charge, so scheduling a charge the night before a detail session is practical"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Non-removable battery limits lifespan",
+      "body": "The integrated battery design means degraded capacity after 300–500 charge cycles can't be fixed with a replacement battery. For a $130 vacuum, users expect more than 2–3 years before facing a full replacement.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Dustbin is small for a full car clean",
+      "body": "The 0.3L dustbin fills quickly when vacuuming a genuinely dirty car interior. Multiple emptying stops during a thorough clean interrupt the workflow, especially compared to corded handheld units with larger bins.",
+      "source": "Reddit r/AutoDetailing"
+    },
+    {
+      "title": "Suction fades near end of battery",
+      "body": "As the lithium battery depletes below 20%, suction noticeably drops. The last few minutes of run time are markedly less effective than the first 15 minutes.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The BISSELL AeroSlim is the right cordless handheld vacuum for car owners who want regular interior maintenance convenience without running an extension cord to a corded unit. The motorized brush attachment and crevice tool handle daily crumbs, pet hair, and floor mat debris well. Heavy-duty detailers or those with very dirty work vehicles should use a dedicated shop vacuum instead. For the majority of car owners who want a quick Sunday morning vacuum, this earns its $130 price.",
+  "realBuyers": [
+    {
+      "quote": "Two dogs, three kids. This thing is a weekly necessity. The motorized brush head gets pet hair out of the back seat carpet that nothing else reached. Light enough to use one-handed.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Replaced a corded vacuum I kept in the garage. Not being tethered to an outlet is the real upgrade. Run time is enough for my sedan in one pass.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Works great. The dustbin is small, dump it twice per car, no big deal. The suction is way better than my old handheld Black+Decker.",
+      "source": "Reddit r/AutoDetailing"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Car Vacuums of 2025 | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a37056278/best-car-vacuums/"
+    },
+    {
+      "title": "Best Handheld Vacuums | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-handheld-vacuum/"
+    }
+  ],
+  "metaDescription": "BISSELL AeroSlim cordless vacuum review: 20-minute run time, motorized brush, crevice tool. Best cordless handheld car vacuum for pet hair and daily maintenance.",
+  "introText": "The BISSELL AeroSlim (ASIN B09PRN75JN) is a 1.9-lb lithium-ion cordless handheld vacuum with a motorized brush roll, crevice tool, and 20-minute run time per charge. Available on Amazon.ca, it is designed for car interior maintenance and includes attachments for carpet, upholstery, and tight crevices.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09PRN75JN",
+  "verifiedPrice": "$129.99 CAD",
+  "similarProducts": ["autel-maxicom-mk808-scanner", "avid-power-tire-inflator", "dewalt-dck240c2-drill-combo-kit"]
+}

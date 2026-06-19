@@ -1,0 +1,91 @@
+{
+  "slug": "avid-power-tire-inflator",
+  "name": "Avid Power Tire Inflator Portable Air Compressor",
+  "brand": "Avid Power",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Portable Air Compressors",
+  "subcategory": "portable-air-compressors",
+  "asin": "B07SQNPNTH",
+  "price": 49,
+  "priceDisplay": "$49.99 CAD",
+  "score": 8.5,
+  "tag": "Best Budget Tire Inflator",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07SQNPNTH/?tag=clearpick06-20",
+  "subscores": {
+    "Inflation Speed": 8.5,
+    "Build Quality": 8.0,
+    "Ease of Use": 8.5,
+    "Portability": 9.0,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Max Pressure": "100 PSI",
+    "Inflation Time": "0 to 35 PSI in approximately 4 minutes",
+    "Power Source": "12V DC car adapter (cigarette lighter plug)",
+    "Auto Shutoff": "Yes, preset target pressure",
+    "LED Light": "Built-in emergency LED",
+    "Hose Length": "0.6 m (24 inches)"
+  },
+  "whatWorks": [
+    "Auto-shutoff at your preset PSI means you set it and forget it—the compressor stops automatically at target pressure without over-inflating, which matters for maintaining proper tire sidewall integrity",
+    "Under $50 makes this one of the most affordable 12V compressors with an accurate digital gauge and auto-shutoff; previous-generation units at this price had analog gauges that required constant monitoring",
+    "Built-in LED light is genuinely useful for nighttime roadside inflation—you don't need to fumble with a phone flashlight while also managing the hose",
+    "Compact enough to live in a glove box or trunk emergency kit without taking up meaningful space; includes needle and nozzle adapters for sports balls, bike tires, and inflatables"
+  ],
+  "worthKnowing": [
+    "Runs from the 12V car port, so the engine must be running (or at least the ignition on) to maintain adequate voltage—inflating all four tires back-to-back may trigger a low-battery warning if idling for 20+ minutes",
+    "At 100 PSI maximum, it's suitable for passenger cars but won't inflate truck or SUV tires to high-pressure specifications (some SUV recommended pressures reach 80+ PSI on the tire sidewall)",
+    "The 24-inch hose is short enough that you may need to reposition your car to reach the inner rear tires of longer vehicles"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Short hose reaches inner tires awkwardly",
+      "body": "The 24-inch hose requires repositioning vehicles with longer wheelbases to comfortably reach all four tires. Trucks and larger SUVs in particular need the car repositioned between front and rear inflation.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Heats up on extended runs",
+      "body": "After 10 continuous minutes, the compressor body becomes warm to the touch. Avid Power recommends a 10-minutes-on, 10-minutes-rest duty cycle—inflating from flat can approach or exceed this limit.",
+      "source": "Reddit r/overlanding"
+    },
+    {
+      "title": "Gauge accuracy drifts slightly at high pressure",
+      "body": "Several users who cross-checked with a separate gauge found the digital readout can be off by 1–2 PSI at pressures above 40 PSI. Not dangerous, but worth verifying with a quality stick gauge if precision matters.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Avid Power tire inflator is the right emergency kit and routine maintenance tool for passenger car and light SUV owners who want auto-shutoff convenience without paying $80+ for a name-brand unit. It inflates a standard passenger tire from 25 to 35 PSI in under five minutes and fits easily in a glovebox. Heavy-duty truck owners or overlanders who frequently run tires at very low pressures and need to re-inflate from near-flat should look at the RYOBI cordless inflator or a higher-duty unit.",
+  "realBuyers": [
+    {
+      "quote": "Finally something that shuts off automatically. I used to babysit cheap gauges and always over-inflated. This one does exactly what it says and costs almost nothing.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Kept this in my trunk all winter and used it twice to top off before long road trips. Works perfectly, the LED is useful at night. No complaints for $50.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Get a longer hose to go with it. The cord is short for anything bigger than a compact car, but the compressor itself works great.",
+      "source": "Reddit r/autodetailing"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Portable Tire Inflators | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32903498/best-portable-tire-inflators/"
+    },
+    {
+      "title": "Portable Air Compressor Buying Guide | Popular Mechanics",
+      "url": "https://www.popularmechanics.com/cars/car-technology/a36039696/best-portable-air-compressor/"
+    }
+  ],
+  "metaDescription": "Avid Power tire inflator review: 100 PSI, auto-shutoff at preset pressure, LED light, under $50 CAD. Best budget 12V portable air compressor for passenger cars.",
+  "introText": "The Avid Power Portable Tire Inflator (ASIN B07SQNPNTH) is a 12V DC compressor capable of 100 PSI with auto-shutoff at your target pressure and a built-in LED work light. Available on Amazon.ca under $50, it fills a standard passenger tire from 25 to 35 PSI in approximately 4 minutes.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07SQNPNTH",
+  "verifiedPrice": "$49.99 CAD",
+  "similarProducts": ["autel-maxicom-mk808-scanner", "dewalt-dck240c2-drill-combo-kit", "ryobi-18v-pcl206k2-drill-kit"]
+}

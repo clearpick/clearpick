@@ -1,0 +1,91 @@
+{
+  "slug": "infant-optics-dxr-8-pro",
+  "name": "Infant Optics DXR-8 PRO Video Baby Monitor",
+  "brand": "Infant Optics",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Baby Monitors",
+  "subcategory": "baby-monitors",
+  "asin": "B07VZRS3GG",
+  "price": 199,
+  "priceDisplay": "$199.99 CAD",
+  "score": 8.9,
+  "tag": "Best Dedicated Baby Monitor",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07VZRS3GG/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.0,
+    "Ease of Use": 9.0,
+    "Comfort": 8.5,
+    "Value for Money": 9.0,
+    "Video Clarity": 9.0
+  },
+  "specs": {
+    "Resolution": "1080p Full HD camera",
+    "Parent Unit Screen": "5-inch IPS display",
+    "Pan/Tilt": "360° pan, 140° tilt remote control",
+    "Night Vision": "Automatic infrared switching night vision",
+    "Battery Life": "Up to 10 hours (power-saving mode on parent unit)",
+    "Range": "900 ft (275 m) open area, dedicated RF (no WiFi required)"
+  },
+  "whatWorks": [
+    "1080p HD resolution on a 5-inch IPS display provides the sharpest image available in the dedicated RF monitor category—parents can clearly see whether baby's chest is rising and falling, whether their arm is at an awkward angle, or whether they've kicked off a sleep sack",
+    "360°/140° pan and tilt with 5× digital zoom from the parent unit means comprehensive nursery coverage without ever entering the room—critical for parents managing a light sleeper who wakes at any disturbance",
+    "RF operation on a proprietary frequency provides both privacy (no cloud exposure, no hackable WiFi signal) and range (900 ft open air) that WiFi monitors lose through walls; 10-hour parent unit battery eliminates cord tethering",
+    "The IPS panel produces accurate colors and wide viewing angles, making it easier to read the nursery environment at a glance rather than squinting at a washed-out or color-shifted display"
+  ],
+  "worthKnowing": [
+    "No remote access—RF design means monitoring is only possible within transmission range; working parents who want to check in from the office need a WiFi camera like the Nanit Pro",
+    "The camera is fixed to a table or clip mount in one position—unlike the eufy E110 which pans from the parent unit, the DXR-8 Pro's wider swivel range still requires physical camera repositioning for a completely different view angle",
+    "1080p generates larger file sizes if using the local recording function; the SD card (sold separately) fills faster than SD-resolution units, though most users don't use local recording at all"
+  ],
+  "commonComplaints": [
+    {
+      "title": "No out-of-home remote access",
+      "body": "The proprietary RF design—a privacy advantage—also means there's no way to view the monitor from outside the transmission range. Parents who travel frequently or work away from home need a separate WiFi solution.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Camera requires physical repositioning",
+      "body": "While pan and tilt are controlled from the parent unit, the range of motion has limits. Users who need to monitor a child who moves to different parts of a larger room report needing to physically move the camera occasionally.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "Additional cameras are expensive",
+      "body": "Adding a second camera to monitor two children in different rooms costs $80–$100 for an Infant Optics compatible camera, making a two-camera setup $280–$300 total—comparable to premium WiFi monitors with more features.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Infant Optics DXR-8 Pro is the right baby monitor for parents who want the clearest dedicated-frequency video available without any cloud, subscription, or internet dependency. The 1080p IPS display, 10-hour battery, and 360° pan/tilt make it the most capable RF-only monitor you can buy. If remote access from outside the home matters more than privacy or image quality, look at the Nanit Pro. For in-home monitoring excellence, this is the benchmark.",
+  "realBuyers": [
+    {
+      "quote": "The image quality compared to our old 480p monitor is night-and-day. We can see fine details at night that we completely missed before. Worth the upgrade.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "No WiFi means no one can hack into it. That was the dealbreaker for us. The picture is excellent and the pan/tilt covers every corner of the nursery.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "quote": "Battery lasts all night on the parent unit even on medium brightness. The IPS screen is easy to read in the dark bedroom. Perfect monitor.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Monitors of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-monitor/"
+    },
+    {
+      "title": "Infant Optics DXR-8 Pro Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/safety/best-video-baby-monitor"
+    }
+  ],
+  "metaDescription": "Infant Optics DXR-8 PRO review: 1080p, 5-inch IPS display, 360° pan/tilt, 10-hour battery, no WiFi required. Best dedicated baby monitor for clear in-home monitoring.",
+  "introText": "The Infant Optics DXR-8 PRO (ASIN B07VZRS3GG) is a 1080p HD baby monitor with a 5-inch IPS parent unit display, full 360°/140° pan-tilt control, and 10-hour battery life operating on a private RF frequency without WiFi or cloud accounts. Available on Amazon.ca, it delivers the sharpest image available in the dedicated baby monitor category.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07VZRS3GG",
+  "verifiedPrice": "$199.99 CAD",
+  "similarProducts": ["eufy-baby-e110-monitor", "hatch-rest-plus-sound-machine", "4moms-mamaroo-4-swing"]
+}

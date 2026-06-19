@@ -1,0 +1,91 @@
+{
+  "slug": "regalo-easy-step-extra-wide-gate",
+  "name": "Regalo Easy Step 38.5-Inch Extra Wide Walk Thru Baby Gate",
+  "brand": "Regalo",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Baby Gates",
+  "subcategory": "baby-gates",
+  "asin": "B001AT7QCQ2",
+  "price": 39,
+  "priceDisplay": "$39.99 CAD",
+  "score": 8.4,
+  "tag": "Best Budget Baby Gate",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B001AT7QCQ2/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 8.5,
+    "Ease of Use": 8.5,
+    "Comfort": 8.0,
+    "Value for Money": 9.5,
+    "Installation Flexibility": 9.0
+  },
+  "specs": {
+    "Width": "38.5 inches base width, extends to 53.5 inches with included extension",
+    "Height": "30.5 inches",
+    "Installation": "Pressure-mount (no drilling, no wall damage)",
+    "Gate Door": "Walk-through door swings open in both directions, auto-closes",
+    "Surfaces": "Works on flat walls; banister adapter kit included",
+    "Certifications": "JPMA (Juvenile Products Manufacturers Association) certified"
+  },
+  "whatWorks": [
+    "Pressure-mount installation with no drilling or wall anchors means you can install it anywhere without wall damage—ideal for renters, doorways between rooms, and temporary configurations that change as the child grows and areas change",
+    "38.5 inches base width covers a standard doorway, and the included extension panel extends coverage to 53.5 inches for wider doorways, stair openings, or room dividers without purchasing separate extension pieces",
+    "Two-direction swing door with auto-close means the gate never stays open accidentally—a safety feature that hardware-mounted gates at 3× the price also offer, but the Regalo delivers at $40",
+    "JPMA certification confirms the gate meets the independent Juvenile Products Manufacturers Association safety standards for gate height, bar spacing, and latch security—baseline assurance for a safety-critical product"
+  ],
+  "worthKnowing": [
+    "Pressure-mount gates are not recommended for top of stairs—they can be pushed outward under force rather than being rigidly anchored; use a hardware-mounted gate at stair tops and reserve this for interior doorways",
+    "The step-over threshold bar is present in most pressure-mount gates including this one; adults tripping over the bottom rail in the dark is a common complaint and a real fall hazard for elderly family members",
+    "The pressure-mount pins leave circular marks on door frames and molding after extended use; no wall anchors but not entirely damage-free on soft wood trim"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Not safe for top of stairs",
+      "body": "Pressure-mount gates cannot be used at the top of stairs per JPMA safety guidelines—the mounting pads can release under a forceful push. This limitation is in the manual but surprises buyers who expected stair-top use.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Step-over bar is a tripping hazard",
+      "body": "The bottom threshold rail (inherent to pressure-mount gate design) trips adults navigating at night. Families with elderly grandparents or mobility issues in the household find this a meaningful hazard.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "Gate can be knocked loose by determined toddlers",
+      "body": "The pressure-mount mechanism relies on friction, which confident 18-month-olds who throw their full weight into it can occasionally shift. Retightening the mounting screws regularly maintains security.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Regalo Easy Step is the right baby gate for interior doorway use between rooms—kitchen to living room, hallway to bedroom, child's room entrance—where a pressure-mount installation is safe and appropriate. At $40 it delivers JPMA-certified security, 38.5-inch coverage, extension capability, and auto-close functionality that hardware-mounted alternatives charge $100+ for. Never use at stair tops; use there only with a wall-anchored hardware-mounted gate.",
+  "realBuyers": [
+    {
+      "quote": "Three kids, three different homes, still using the same gate. We've moved it from the kitchen door to the hall to the playroom. Pressure mount means no holes in the walls.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Works perfectly for the kitchen doorway. Toddler hasn't figured out the latch yet. Auto-close is great—one-handed release when I'm carrying something.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Good for doorways, not for stairs. We use a Munchkin at the top of our stairs (hardware mounted) and this Regalo everywhere else. Perfect division of labor.",
+      "source": "Reddit r/beyondthebump"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Gates of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-gates/"
+    },
+    {
+      "title": "Baby Gate Safety Guide | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/safety/best-baby-gate"
+    }
+  ],
+  "metaDescription": "Regalo Easy Step baby gate review: 38.5–53.5 inch width, pressure mount, walk-through door, JPMA certified. Best budget baby gate for doorways under $40 CAD.",
+  "introText": "The Regalo Easy Step Extra Wide Walk Thru Baby Gate (ASIN B001AT7QCQ2) is a JPMA-certified pressure-mount gate covering 38.5 to 53.5 inches with a walk-through door that swings both directions and auto-closes. Available on Amazon.ca, it installs without drilling on flat walls or banisters using the included adapter kit.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B001AT7QCQ2",
+  "verifiedPrice": "$39.99 CAD",
+  "similarProducts": ["4moms-mamaroo-4-swing", "graco-blossom-6in1-high-chair", "babybjorn-bouncer-bliss"]
+}

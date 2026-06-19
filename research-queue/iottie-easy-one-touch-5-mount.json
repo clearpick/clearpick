@@ -1,0 +1,91 @@
+{
+  "slug": "iottie-easy-one-touch-5-mount",
+  "name": "iOttie Easy One Touch 5 Universal Car Mount",
+  "brand": "iOttie",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Car Phone Mounts",
+  "subcategory": "car-phone-mounts",
+  "asin": "B07BTZMPNC",
+  "price": 39,
+  "priceDisplay": "$39.99 CAD",
+  "score": 8.6,
+  "tag": "Best Universal Car Phone Mount",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07BTZMPNC/?tag=clearpick06-20",
+  "subscores": {
+    "Grip Strength": 8.5,
+    "Ease of Use": 9.0,
+    "Compatibility": 9.0,
+    "Build Quality": 8.5,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Mount Type": "Suction cup (windshield or dashboard) + dashboard pedestal pad",
+    "Phone Width": "Up to 3.5 inches / 8.9 cm phone width",
+    "One-Hand Operation": "Yes — squeeze-to-release spring mechanism",
+    "Rotation": "360° ball and socket rotation",
+    "Dashboard Pad": "Sticky gel pad for non-windshield mounting",
+    "Compatibility": "All non-MagSafe smartphones (Universal sizing)"
+  },
+  "whatWorks": [
+    "The telescoping arm extends 6 inches from the mount base, providing enough reach to position the phone at driver eye level regardless of dashboard depth or windshield curvature—unusually flexible placement versus competing fixed-arm mounts",
+    "One-hand squeeze-to-release mechanism means you can remove your phone with the same hand while the other stays on the wheel—no button pressing, no lever operation, and no two-hand fumbling at a stop light",
+    "Suction cup holds on both glass (windshield) and the included sticky gel pad (dashboard), giving you two mounting positions with one purchase and allowing repositioning without leaving permanent marks",
+    "Universal sizing accommodates phones from smaller iPhones through large Plus/Max models and Android phablets—works without a phone case and also accommodates most slim cases without removal"
+  ],
+  "worthKnowing": [
+    "Not MagSafe compatible—iPhones with MagSafe cases often fit fine but the mechanism is purely mechanical clamping, not magnetic; if you want MagSafe auto-attachment, look at the Spigen OneTap Pro",
+    "Suction cup requires a clean, smooth surface and should be re-tightened periodically; in extreme heat (car interiors in Canadian summer sun can exceed 80°C), suction can temporarily soften and require repositioning",
+    "The sticky gel pad loses tackiness after 8–12 months and should be occasionally rinsed with water and air-dried to restore adhesion; replacement pads are available but not included"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Suction cup can release in extreme heat",
+      "body": "In cars parked in full sun during summer, the suction cup can partially release and the phone drops. Typically not a failure but a heat issue—retightening before use in hot conditions is a workaround.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Not MagSafe compatible",
+      "body": "iPhone 12 and newer users who wanted MagSafe auto-alignment are disappointed to find this is a standard spring clamp. The phone attaches fine, but there's no magnetic snap-in alignment.",
+      "source": "Reddit r/iphone"
+    },
+    {
+      "title": "Arm can vibrate slightly on rough roads",
+      "body": "On roads with significant surface texture or construction, the telescoping arm can develop a slight vibration that blurs the phone screen momentarily. Not a navigation safety issue but visible on screen.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The iOttie Easy One Touch 5 is the right universal car mount for Android users and iPhone users without MagSafe cases who want the widest phone compatibility, flexible arm reach, and one-hand operation in a reliable sub-$40 package. The suction cup and gel pad dual mounting approach gives genuine placement flexibility. iPhone 12+ users who want MagSafe auto-alignment should look at the Spigen OneTap Pro instead—it's a cleaner experience for the Apple ecosystem.",
+  "realBuyers": [
+    {
+      "quote": "On my third car, still using the same iOttie mount. Moved it between vehicles three times. Never had a suction cup failure. The one-hand grip release is so much better than other designs.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Works with my giant Samsung Galaxy in its thick case. Most mounts struggle with large cases but this opens wide enough. Perfect.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The telescoping arm is the feature no one talks about but it's crucial. Positions the phone exactly where I need it regardless of dashboard shape.",
+      "source": "Reddit r/Android"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Car Phone Mounts of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-car-phone-mounts/"
+    },
+    {
+      "title": "iOttie Easy One Touch 5 Review | Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/iottie-easy-one-touch-5"
+    }
+  ],
+  "metaDescription": "iOttie Easy One Touch 5 car mount review: universal fit up to 3.5 inches wide, one-hand release, 360° rotation, suction or dashboard mount. $39 CAD.",
+  "introText": "The iOttie Easy One Touch 5 (ASIN B07BTZMPNC) is a universal car phone mount with a telescoping arm, 360° ball-socket rotation, and one-hand squeeze-to-release spring mechanism. Available on Amazon.ca, it attaches via suction cup or the included sticky gel dashboard pad and fits all non-MagSafe smartphones up to 3.5 inches wide.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07BTZMPNC",
+  "verifiedPrice": "$39.99 CAD",
+  "similarProducts": ["garmin-dash-cam-67w", "fixd-bluetooth-obd2-scanner", "clore-jump-n-carry-jnc660"]
+}

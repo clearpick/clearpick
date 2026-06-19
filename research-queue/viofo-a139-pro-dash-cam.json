@@ -1,0 +1,92 @@
+{
+  "slug": "viofo-a139-pro-dash-cam",
+  "name": "VIOFO A139 Pro 4K Front and Rear Dash Cam",
+  "brand": "VIOFO",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Dash Cams",
+  "subcategory": "dash-cams",
+  "asin": "B09BLBH4FB",
+  "price": 199,
+  "priceDisplay": "$199.99 CAD",
+  "score": 8.8,
+  "tag": "Best Value 4K Dual Dash Cam",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09BLBH4FB/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality": 9.0,
+    "Build Quality": 8.5,
+    "Night Vision": 9.0,
+    "Features": 8.5,
+    "Value for Money": 9.5
+  },
+  "specs": {
+    "Front Resolution": "4K UHD (3840×2160) at 30fps or 2K at 60fps",
+    "Rear Resolution": "2K 1440p (rear camera included)",
+    "Sensor": "Sony STARVIS 2 IMX678 (front)",
+    "WiFi + GPS": "Both included (GPS track with speed and location data)",
+    "Storage": "MicroSD up to 256GB (not included)",
+    "Parking Mode": "Hardwire kit compatible (sold separately)"
+  },
+  "specs_notes": "One of the only dual-channel dash cams offering 4K front + 1440p rear at $200",
+  "whatWorks": [
+    "The VIOFO A139 Pro delivers 4K front resolution with Sony STARVIS 2 IMX678 sensor performance at a price ($199) that competing brands charge for 1080p or 1440p front-only cameras—the combination of sensor quality and resolution at this price point is the defining specification",
+    "The rear camera included at 1440p (not 1080p) is a meaningful upgrade over dual-cam competitors at this price that include 720p or 1080p rear cameras; 1440p rear captures plate numbers on rear-ending vehicles more reliably",
+    "Built-in GPS records speed, location, and heading data embedded in the video file—in a collision dispute, GPS-overlaid video showing exact speed and location at the time of the incident is more defensible than video alone",
+    "WiFi connectivity allows direct phone-to-camera file transfer without removing the microSD card—reviewing or sharing specific incident clips from your phone while the camera is mounted is faster than the SD card extraction workflow required by non-WiFi models"
+  ],
+  "worthKnowing": [
+    "VIOFO is a Chinese dash cam brand with a strong community following among enthusiast buyers on Reddit r/dashcam, but Canadian warranty support is handled through North American distributors rather than domestic retail; warranty service requires email contact rather than retail walk-in",
+    "4K front + 1440p rear generates large files; a 128GB endurance-rated microSD is the minimum practical size for all-day recording with loop overwrite; recommend 256GB for parking mode users",
+    "The CPL (circular polarizing lens) filter, which reduces windshield glare significantly in front-facing dash cameras, is sold separately at $15–$20; worth adding for drivers in bright western Canada sun conditions"
+  ],
+  "commonComplaints": [
+    {
+      "title": "App interface is functional but not polished",
+      "body": "The VIOFO app handles file transfer and basic settings but lacks the UI refinement of Garmin or Thinkware apps. The clip sharing workflow requires more steps and the app stability gets mixed reviews on Android.",
+      "source": "Reddit r/dashcam"
+    },
+    {
+      "title": "Warranty support requires email for Canadians",
+      "body": "Unlike Garmin or Thinkware (available at Best Buy for walk-in support), VIOFO warranty claims are handled through North American email support. Resolution takes longer without retail walk-in access.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Rear cable routing can be complex in some vehicles",
+      "body": "The included rear camera cable is long enough for most vehicles but cable routing under headliner trim requires patience and sometimes a trim tool. Some users find the routing process challenging in crossovers and SUVs with thick headliner padding.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The VIOFO A139 Pro is the best value 4K dual-channel dash cam available—delivering Sony STARVIS 2 sensor 4K front and 1440p rear at $199, a specification that competing brands sell for $300–$400. The tradeoff is Canadian warranty support via email rather than retail walk-in, and app software that lags the premium brands. For specification-conscious buyers on a budget who want maximum video evidence quality per dollar, the A139 Pro is the clear choice. Buyers who prioritize polished software or in-store support should choose Garmin or Thinkware.",
+  "realBuyers": [
+    {
+      "quote": "4K front, 1440p rear, Sony sensor, WiFi, GPS, for $200. I looked at Garmin's 1440p for the same money and there's no comparison in specs. VIOFO wins on paper and in practice.",
+      "source": "Reddit r/dashcam"
+    },
+    {
+      "quote": "The night footage from the Sony STARVIS sensor makes streetlit roads look like daytime. For a $200 cam this sensor performance is remarkable.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Buy the endurance-rated microSD at the same time. The 4K+1440p dual channel fills regular cards fast and they die from heat cycling. Budget an extra $35 for the card.",
+      "source": "Reddit r/dashcam"
+    }
+  ],
+  "sources": [
+    {
+      "title": "VIOFO A139 Pro Review | DashCamTalk",
+      "url": "https://www.dashcamtalk.com/review/viofo-a139-pro/"
+    },
+    {
+      "title": "Best Budget 4K Dash Cams | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32836874/best-dash-cams/"
+    }
+  ],
+  "metaDescription": "VIOFO A139 Pro dash cam review: 4K front, 1440p rear, Sony STARVIS 2 sensor, WiFi, GPS. Best value 4K dual-channel dash cam under $200 CAD.",
+  "introText": "The VIOFO A139 Pro (ASIN B09BLBH4FB) is a 4K front / 1440p rear dual-channel dash cam with a Sony STARVIS 2 IMX678 front sensor, built-in WiFi and GPS, and support for up to 256GB microSD. Available on Amazon.ca at $199, it delivers the highest specification-per-dollar ratio in the 4K dual-channel dash cam category.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09BLBH4FB",
+  "verifiedPrice": "$199.99 CAD",
+  "similarProducts": ["vantrue-n4-3-channel-dash-cam", "garmin-dash-cam-67w", "thinkware-u1000-dash-cam"]
+}

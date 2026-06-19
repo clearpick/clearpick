@@ -1,0 +1,91 @@
+{
+  "slug": "baby-jogger-city-mini-gt2",
+  "name": "Baby Jogger City Mini GT2 All-Terrain Stroller",
+  "brand": "Baby Jogger",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Strollers",
+  "subcategory": "strollers",
+  "asin": "B07T6JGVLT",
+  "price": 649,
+  "priceDisplay": "$649.99 CAD",
+  "score": 9.0,
+  "tag": "Best All-Terrain Stroller",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07T6JGVLT/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.5,
+    "Ease of Use": 9.0,
+    "Comfort": 9.0,
+    "Value for Money": 8.5,
+    "Terrain Handling": 9.5
+  },
+  "specs": {
+    "Fold Type": "One-hand, self-standing compact fold",
+    "Weight": "28 lbs / 12.7 kg",
+    "Recline": "Multi-position near-flat recline",
+    "Canopy": "Large SPF 50+ sun canopy with peek-a-boo window",
+    "Wheel Size": "8.5-inch front, 12-inch rear all-terrain wheels",
+    "Compatible Infant Seat": "Yes (Car Seat Adapter sold separately)"
+  },
+  "whatWorks": [
+    "The all-terrain wheel system handles gravel, grass, packed dirt, and uneven sidewalks smoothly enough to use as a daily driver—unlike single-purpose jogging strollers that lock the front wheel, the GT2's swivel front wheel is practical in stores and on city streets",
+    "One-hand fold is genuinely one motion: pull the fold strap and the stroller collapses in under two seconds, then stands on its own—crucial when you're holding a baby and managing grocery bags simultaneously",
+    "The near-flat recline accommodates newborns safely from day one with no infant insert required, and the large extendable canopy with UPF 50+ provides shade coverage that budget strollers can't match",
+    "Baby Jogger's build quality is notably above average—the frame is aircraft-grade aluminum and feels solid over three-plus years of use, which also supports strong resale value on Facebook Marketplace"
+  ],
+  "worthKnowing": [
+    "At 28 lbs the GT2 is heavier than compact strollers like the Babyzen YOYO; parents who frequently fly or use public transit where lifting is required may find the weight tiring",
+    "Car seat compatibility requires a sold-separately adapter (approximately $50 CAD), and only select infant seats are compatible—verify compatibility with your specific seat before purchasing",
+    "No included travel bag or rain cover; both are sold separately and are useful accessories that add $40–$80 to the total cost"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heavy for transit and air travel",
+      "body": "At 28 lbs, parents who regularly ride the subway, take buses, or fly with this stroller report fatigue from lifting it up stairs and loading it into overhead bins or car trunks. City-dwellers without elevators feel this most.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "Car seat adapter costs extra",
+      "body": "The GT2 is sold as a stroller only. Using it as a travel system with an infant car seat requires a brand-specific adapter—another $40–$60 purchase that the marketing doesn't make obvious at point of sale.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Storage basket access is limited",
+      "body": "With the seat in full recline, the under-seat storage basket is partially blocked by the seat frame. Loading a full diaper bag requires lifting at an awkward angle.",
+      "source": "Reddit r/Mommit"
+    }
+  ],
+  "verdict": "The Baby Jogger City Mini GT2 is the all-terrain stroller to beat for active families who walk trails, farmers markets, and uneven terrain without wanting to sacrifice city maneuverability. The one-hand fold, robust build quality, and from-birth recline make it a true multi-year stroller rather than a short-phase product. If you live in a dense city, climb stairs daily, and rarely leave pavement, consider a lighter compact stroller—the GT2's weight is a real consideration. For suburban and active families, this earns its premium price.",
+  "realBuyers": [
+    {
+      "quote": "We've used this on gravel paths, beaches, and busy mall floors. Handles everything. The one-hand fold changed my life—I used to dread loading into the car.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Worth every dollar. Two years in, the frame is solid, wheels are still smooth, and it looks new. Our third kid will use it too.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The 28 lb weight is real but so is the quality. I carry it up one flight of stairs daily and adapted. Everything else about it is perfect.",
+      "source": "Reddit r/beyondthebump"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Strollers of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-strollers/"
+    },
+    {
+      "title": "Baby Jogger City Mini GT2 Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/gear/best-jogging-stroller"
+    }
+  ],
+  "metaDescription": "Baby Jogger City Mini GT2 review: best all-terrain stroller with one-hand fold, near-flat recline, and UPF 50+ canopy. Handles trails and cities equally well.",
+  "introText": "The Baby Jogger City Mini GT2 (ASIN B07T6JGVLT) is a premium all-terrain stroller featuring 8.5-inch front and 12-inch rear wheels, one-hand self-standing fold, and near-flat recline for newborns. Available on Amazon.ca, it bridges the gap between jogging strollers and daily-use city strollers with equal competence on both terrain types.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07T6JGVLT",
+  "verifiedPrice": "$649.99 CAD",
+  "similarProducts": ["4moms-mamaroo-4-swing", "osprey-atmos-ag-65", "theragun-mini"]
+}

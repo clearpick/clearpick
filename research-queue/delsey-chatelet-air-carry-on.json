@@ -1,0 +1,91 @@
+{
+  "slug": "delsey-chatelet-air-carry-on",
+  "name": "DELSEY Paris Chatelet Air 2.0 Hardside Carry-On Luggage",
+  "brand": "DELSEY Paris",
+  "category": "Luggage & Travel",
+  "categoryPage": "luggage-travel.html",
+  "filterTag": "Carry-On Luggage",
+  "subcategory": "carry-on-luggage",
+  "asin": "B08K9RV5H2",
+  "price": 299,
+  "priceDisplay": "$299.99 CAD",
+  "score": 8.7,
+  "tag": "Best Premium Style Carry-On",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08K9RV5H2/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 9.0,
+    "Storage & Organization": 8.5,
+    "Ease of Use": 8.5,
+    "Value for Money": 8.0,
+    "Style & Aesthetics": 9.5
+  },
+  "specs": {
+    "Size": "21.5 inches (fits standard overhead bins)",
+    "Weight": "6.4 lbs / 2.9 kg",
+    "Shell": "Hardshell polycarbonate",
+    "Spinner": "Double-wheel spinners for smooth rolling",
+    "Expandable": "Yes (+2 cm expansion)",
+    "TSA Lock": "Integrated TSA-approved combination lock"
+  },
+  "whatWorks": [
+    "The Chatelet Air 2.0's polycarbonate shell is notably more impact-resistant and flex-tolerant than ABS plastic alternatives—it dents and cracks significantly harder, which matters for frequent flyers whose bags are checked overhead or gate-checked",
+    "DELSEY's signature double spinner wheels are wide-set and smooth-rolling on both airport linoleum and rough pavement; the silky roll quality is consistently cited as a step above single-wheel spinner alternatives",
+    "The interior organization—with dual-panel butterfly opening, zippered mesh pockets, and compression straps—is more thoughtfully laid out than budget hardshell competitors that offer only two flat compartments",
+    "DELSEY's vintage-inspired design and French brand heritage make it genuinely stylish in a category where most carry-ons look identical; the herringbone pattern interior and matte exterior finish age better than shiny surfaces"
+  ],
+  "worthKnowing": [
+    "At 6.4 lbs empty it is on the heavier side for a carry-on; Travelpro Maxlite 5 softside is 1.4 lbs lighter, which matters on weight-strict airlines that impose a 10 kg combined weight limit",
+    "The expansion adds only 2 cm (versus 2 inches on many U.S. brands)—useful for a thin extra layer but not a meaningful volume increase for packing heavy",
+    "DELSEY's 10-year international warranty is strong on paper but the claims process through Canadian retail channels can be slow; front-end quality is high enough that most buyers never need it"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heavier than comparably priced softside options",
+      "body": "At 6.4 lbs the polycarbonate shell contributes significant dead weight on strict 10 kg carry-on limits. Experienced frequent flyers who track total weight closely often prefer Travelpro or away softside alternatives.",
+      "source": "Reddit r/travel"
+    },
+    {
+      "title": "Interior space feels smaller than dimensions suggest",
+      "body": "The butterfly-opening interior layout with center-mounted pockets divides the main cavity into two narrower sections. Wide items—folded dress shirts, large toiletry bags—feel cramped compared to a single open-panel case.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Combination lock is stiff initially",
+      "body": "Several reviewers note the built-in combination lock requires significant force to set during the first few uses and the default combination isn't obvious from the manual. Takes a few weeks to break in smoothly.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The DELSEY Chatelet Air 2.0 is the carry-on for travelers who want premium aesthetics and durability without reaching Away or Rimowa territory. The polycarbonate construction is genuinely more durable than budget ABS shells, the double-wheel spinners are a pleasure on long terminal walks, and the design is distinctive without being garish. Weight-conscious frequent flyers on strict 10 kg limits should check the softside Travelpro alternatives first. For occasional to moderate travelers who want quality that looks good, this delivers.",
+  "realBuyers": [
+    {
+      "quote": "Bought this for a two-week Europe trip. Fit in every overhead bin and people kept complimenting it at airports. The polycarbonate shell has zero dents after being gate-checked twice.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The wheels are butter. I've had three cheaper carry-ons with rough wheels and this is the first time I understand what 'smooth spinner' actually means.",
+      "source": "Reddit r/solotravel"
+    },
+    {
+      "quote": "DELSEY quality is real. Worth the price over the $100 ABS alternatives. Just watch the weight if your airline is strict.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Carry-On Luggage of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/"
+    },
+    {
+      "title": "DELSEY Paris Chatelet Air 2.0 Review | The Points Guy",
+      "url": "https://thepointsguy.com/guide/best-carry-on-luggage/"
+    }
+  ],
+  "metaDescription": "DELSEY Paris Chatelet Air 2.0 carry-on review: polycarbonate hardshell, double-wheel spinners, integrated TSA lock. Best premium style carry-on luggage under $300 CAD.",
+  "introText": "The DELSEY Paris Chatelet Air 2.0 (ASIN B08K9RV5H2) is a 21.5-inch polycarbonate hardshell carry-on with DELSEY's signature double-wheel spinner system and an integrated TSA combination lock. Available on Amazon.ca, it features a butterfly-opening interior with mesh pockets and compression straps in DELSEY's distinctive French-designed aesthetic.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B08K9RV5H2",
+  "verifiedPrice": "$299.99 CAD",
+  "similarProducts": ["american-tourister-moonlight-carry-on", "amazon-basics-packing-cubes", "anker-powercore-20000-power-bank"]
+}

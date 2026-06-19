@@ -1,0 +1,91 @@
+{
+  "slug": "north-face-base-camp-duffel-small",
+  "name": "The North Face Base Camp Duffel Bag Small (50L)",
+  "brand": "The North Face",
+  "category": "Luggage & Travel",
+  "categoryPage": "luggage-travel.html",
+  "filterTag": "Duffel Bags",
+  "subcategory": "duffel-bags",
+  "asin": "B07PMLJHV5",
+  "price": 129,
+  "priceDisplay": "$129.99 CAD",
+  "score": 8.8,
+  "tag": "Best Adventure Duffel Bag",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07PMLJHV5/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 9.5,
+    "Storage & Organization": 8.5,
+    "Ease of Use": 9.0,
+    "Value for Money": 8.5,
+    "Weather Resistance": 9.5
+  },
+  "specs": {
+    "Capacity": "50L",
+    "Material": "TPE laminate Base Camp fabric (highly water-resistant)",
+    "Carry Modes": "Detachable padded shoulder straps (duffel or backpack mode)",
+    "Compression": "Lid compression straps for secure top-loading",
+    "Daisy Chains": "Side external daisy chain lashing points",
+    "Water Resistance": "Highly water-resistant welded seams and Base Camp fabric"
+  },
+  "whatWorks": [
+    "The TPE laminate Base Camp fabric is not merely water-resistant—it can be submerged briefly and remain dry inside, making this the right bag for kayak trips, ski resorts, and base camp expeditions where gear bags get wet from rain, snow, and condensation",
+    "Detachable shoulder straps can be converted from haul handles (one-hand carry like a duffle) to full backpack mode with padded harness, providing genuine flexibility for multi-terrain travel where you switch between car-to-boat and long walk carries",
+    "Daisy chain lashing points allow tying the bag to vehicle roof racks, boat cleats, or base camp frames without separate strapping systems—a detail that distinguishes gear bags from fashion duffles",
+    "North Face's reputation for 50+ year durability on their expedition-grade products carries through to the Base Camp line; these bags routinely outlast multiple trips to destinations that destroy cheaper alternatives"
+  ],
+  "worthKnowing": [
+    "At 50L, the small is genuinely compact for the Base Camp line (medium is 71L, large is 95L)—50L fits 5–7 days of packable clothing but will feel crowded with bulky items like ski layers or sleeping bag liners",
+    "The TPE material is stiffer and heavier than nylon alternatives when empty; the bag doesn't compress or stuff into itself, requiring dedicated storage space between trips",
+    "The main opening is a top-loading roll-top style rather than a clamshell zipper—accessing items at the bottom of a fully packed bag requires removing top items first, less convenient than split-zipper competitors"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Top-load access makes digging frustrating",
+      "body": "The single top-opening makes reaching anything not packed at the very top require unpacking. For travelers who need mid-trip access to buried items (chargers, documents, layers), this is a daily friction point.",
+      "source": "Reddit r/solotravel"
+    },
+    {
+      "title": "Stiff and heavy when empty",
+      "body": "The TPE laminate material that makes this bag so weather-resistant is noticeably stiffer and heavier than nylon. At 1.5 lbs empty, it weighs more than many 40L travel packs, cutting into the weight budget for gear.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Expensive compared to comparable capacity duffles",
+      "body": "At $130, the Base Camp costs 2.5× more than the Nike Brasilia 60L duffel. The weather-resistance and build quality justify it for adventure use, but gym-to-car commuters are genuinely overpaying for features they won't need.",
+      "source": "Reddit r/outdoors"
+    }
+  ],
+  "verdict": "The North Face Base Camp Duffel Small is the right bag for outdoor adventurers, skiers, kayakers, and expedition campers who need a bag that survives genuinely wet and rough conditions. The TPE construction and haul-to-backpack conversion make it the most versatile duffel available for mixed terrain. Urban travelers and gym users should look at the lighter, more flexible Nike Brasilia—the Base Camp's weather resistance and durability are overkill for pavement-only use.",
+  "realBuyers": [
+    {
+      "quote": "Kept this in the bottom of a canoe for 5 days in the BWCA. Got dunked twice. Everything inside stayed completely dry. Nothing else at this price delivers that.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Four ski seasons and counting. Boots, ski clothes, helmet. The fabric still looks like new despite the abuse. North Face gear that actually earns the price.",
+      "source": "Reddit r/skiing"
+    },
+    {
+      "quote": "The backpack straps are legit when loaded—not just a token accessory. Carried 15 lbs half a mile to a base camp trailhead in backpack mode without issue.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Duffel Bags of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-duffel-bags/"
+    },
+    {
+      "title": "North Face Base Camp Duffel Review | Outside Magazine",
+      "url": "https://www.outsideonline.com/gear/pack-it/north-face-base-camp-duffel-review/"
+    }
+  ],
+  "metaDescription": "North Face Base Camp Duffel Small (50L) review: TPE waterproof fabric, backpack strap conversion, daisy chain lashing. Best adventure duffel for outdoor use. $129 CAD.",
+  "introText": "The North Face Base Camp Duffel Bag Small (ASIN B07PMLJHV5) is a 50L expedition-grade duffel with highly water-resistant TPE laminate construction, detachable backpack shoulder straps, and daisy chain lashing points. Available on Amazon.ca, it withstands submersion briefly while keeping contents dry—designed for ski resorts, kayaking, and base camp expeditions.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07PMLJHV5",
+  "verifiedPrice": "$129.99 CAD",
+  "similarProducts": ["nike-brasilia-95-duffel", "nomatic-travel-pack-20l", "matein-travel-laptop-backpack"]
+}

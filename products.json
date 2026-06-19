@@ -13071,5 +13071,1571 @@
       "Auger": "Auto pellet feeding with stainless steel auger",
       "Warranty": "3-year warranty"
     }
+  },
+  {
+    "id": "4moms-mamaroo-4-swing",
+    "name": "4moms mamaRoo 4 Infant Seat",
+    "category": "Baby & Kids",
+    "score": 8.7,
+    "tag": "Best High-Tech Baby Swing",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/4moms-mamaroo-4-swing.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07FSXH5P3/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9,
+      "Ease of Use": 8.5,
+      "Comfort": 9,
+      "Value for Money": 8,
+      "App & Connectivity": 8.5
+    },
+    "specs": {
+      "Motions": "5 unique motions (car ride, kangaroo, tree swing, rock-a-bye, wave)",
+      "Speeds": "5 speeds per motion",
+      "App Control": "Yes (Bluetooth via 4moms app)",
+      "Bluetooth Speaker": "Yes, plays music or connects to phone",
+      "Weight Capacity": "Up to 25 lbs / 11 kg",
+      "Power": "AC adapter (included)"
+    }
+  },
+  {
+    "id": "amazon-basics-packing-cubes",
+    "name": "Amazon Essentials 4-Piece Packing Cube Set",
+    "category": "Luggage & Travel",
+    "score": 8.4,
+    "tag": "Best Budget Packing Cubes",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$29 CAD",
+    "page": "products/amazon-basics-packing-cubes.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B014VBGRR8/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 8,
+      "Storage & Organization": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 9.5,
+      "Durability": 7.5
+    },
+    "specs": {
+      "Pieces": "4-piece set (small, medium, large, slim)",
+      "Material": "Lightweight nylon with mesh panel top",
+      "Zipper": "Dual zipper closure on each cube",
+      "Handle": "Loop handle for easy stacking and removal",
+      "Machine Washable": "Yes",
+      "Colors Available": "Multiple (black, blue, grey, green)"
+    }
+  },
+  {
+    "id": "american-tourister-moonlight-carry-on",
+    "name": "American Tourister Moonlight Hardside Carry-On Luggage",
+    "category": "Luggage & Travel",
+    "score": 8.3,
+    "tag": "Best Budget Carry-On",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/american-tourister-moonlight-carry-on.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01N8SXKLF/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 7.5,
+      "Storage & Organization": 8,
+      "Ease of Use": 8.5,
+      "Value for Money": 9.5,
+      "Spinner Performance": 8
+    },
+    "specs": {
+      "Size": "21 inches (fits most overhead bins)",
+      "Weight": "6.4 lbs",
+      "Spinner Wheels": "4-wheel multi-directional spinner",
+      "Shell": "Hardshell ABS plastic",
+      "Expandable": "Yes (+2 inches)",
+      "TSA Lock": "Built-in TSA-approved combination lock"
+    }
+  },
+  {
+    "id": "anker-powercore-20000-power-bank",
+    "name": "Anker PowerCore 20000 mAh Portable Charger",
+    "category": "Luggage & Travel",
+    "score": 8.8,
+    "tag": "Best High-Capacity Power Bank",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$69 CAD",
+    "page": "products/anker-powercore-20000-power-bank.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B06X9JCKR7/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9,
+      "Storage & Organization": 8,
+      "Ease of Use": 9,
+      "Value for Money": 9,
+      "Charging Speed": 8.5
+    },
+    "specs": {
+      "Capacity": "20,000 mAh",
+      "Ports": "2× USB-A output (12W max combined)",
+      "Input": "Micro-USB (cable included)",
+      "Charge Speed": "PowerIQ 2.0 adaptive output",
+      "Device Charges": "iPhone 15 approx. 6x, Galaxy S23 approx. 5x",
+      "Weight": "356g / 12.5 oz"
+    }
+  },
+  {
+    "id": "autel-maxicom-mk808-scanner",
+    "name": "Autel MaxiCOM MK808 OBD2 Diagnostic Scanner",
+    "category": "Automotive",
+    "score": 8.8,
+    "tag": "Best Professional OBD2 Scanner",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/autel-maxicom-mk808-scanner.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0757Z2VB9/?tag=clearpick06-20",
+    "subscores": {
+      "Diagnostic Coverage": 9,
+      "Ease of Use": 8.5,
+      "Feature Set": 9,
+      "Update Policy": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "System Coverage": "Full-system diagnostics: engine, ABS, SRS, transmission, body, chassis",
+      "Service Functions": "Oil reset, EPB, BMS, DPF, TPMS, SAS, throttle reset, and more",
+      "Display": "7-inch touchscreen, 1024×600 resolution",
+      "OS": "Android 4.4",
+      "Updates": "1 year free software updates via WiFi",
+      "Connectivity": "WiFi, Bluetooth, USB-A port"
+    }
+  },
+  {
+    "id": "avid-power-tire-inflator",
+    "name": "Avid Power Tire Inflator Portable Air Compressor",
+    "category": "Automotive",
+    "score": 8.5,
+    "tag": "Best Budget Tire Inflator",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$49 CAD",
+    "page": "products/avid-power-tire-inflator.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07SQNPNTH/?tag=clearpick06-20",
+    "subscores": {
+      "Inflation Speed": 8.5,
+      "Build Quality": 8,
+      "Ease of Use": 8.5,
+      "Portability": 9,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Max Pressure": "100 PSI",
+      "Inflation Time": "0 to 35 PSI in approximately 4 minutes",
+      "Power Source": "12V DC car adapter (cigarette lighter plug)",
+      "Auto Shutoff": "Yes, preset target pressure",
+      "LED Light": "Built-in emergency LED",
+      "Hose Length": "0.6 m (24 inches)"
+    }
+  },
+  {
+    "id": "baby-jogger-city-mini-gt2",
+    "name": "Baby Jogger City Mini GT2 All-Terrain Stroller",
+    "category": "Baby & Kids",
+    "score": 9,
+    "tag": "Best All-Terrain Stroller",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$649 CAD",
+    "page": "products/baby-jogger-city-mini-gt2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07T6JGVLT/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9.5,
+      "Ease of Use": 9,
+      "Comfort": 9,
+      "Value for Money": 8.5,
+      "Terrain Handling": 9.5
+    },
+    "specs": {
+      "Fold Type": "One-hand, self-standing compact fold",
+      "Weight": "28 lbs / 12.7 kg",
+      "Recline": "Multi-position near-flat recline",
+      "Canopy": "Large SPF 50+ sun canopy with peek-a-boo window",
+      "Wheel Size": "8.5-inch front, 12-inch rear all-terrain wheels",
+      "Compatible Infant Seat": "Yes (Car Seat Adapter sold separately)"
+    }
+  },
+  {
+    "id": "babybjorn-baby-carrier-one",
+    "name": "BabyBjörn Baby Carrier One",
+    "category": "Baby & Kids",
+    "score": 8.8,
+    "tag": "Best Structured Baby Carrier",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/babybjorn-baby-carrier-one.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01CDL5WMK/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9.5,
+      "Ease of Use": 9,
+      "Comfort": 8.5,
+      "Value for Money": 8,
+      "Newborn Readiness": 9
+    },
+    "specs": {
+      "Age Range": "Newborn to approximately 3 years",
+      "Weight Range": "8–33 lbs (3.5–15 kg)",
+      "Carry Positions": "4 positions (front facing-in, front facing-out, hip, back carry)",
+      "Material": "100% cotton or mesh options",
+      "Certifications": "Oeko-Tex Standard 100, hip-healthy certified by IHDI",
+      "Machine Washable": "Yes (30°C gentle cycle)"
+    }
+  },
+  {
+    "id": "babybjorn-bouncer-bliss",
+    "name": "BabyBjörn Bouncer Bliss",
+    "category": "Baby & Kids",
+    "score": 8.6,
+    "tag": "Best Baby Bouncer",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$259 CAD",
+    "page": "products/babybjorn-bouncer-bliss.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07VGLXDGX/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9.5,
+      "Ease of Use": 9,
+      "Comfort": 9,
+      "Value for Money": 7.5,
+      "Portability": 9
+    },
+    "specs": {
+      "Weight Range": "8–29 lbs (3.5–13 kg)",
+      "Motion": "Natural bouncing driven by baby's own movements",
+      "Recline Positions": "3 recline positions (lying, semi-reclined, upright)",
+      "Seat Cover": "3D mesh, machine washable",
+      "Power Required": "None — purely mechanical bounce response",
+      "Folds Flat": "Yes, folds completely flat for storage and travel"
+    }
+  },
+  {
+    "id": "bissell-aeroslim-cordless-vacuum",
+    "name": "BISSELL AeroSlim Lithium Ion Cordless Handheld Vacuum",
+    "category": "Automotive",
+    "score": 8.4,
+    "tag": "Best Cordless Car Vacuum",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/bissell-aeroslim-cordless-vacuum.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09PRN75JN/?tag=clearpick06-20",
+    "subscores": {
+      "Suction Power": 8,
+      "Battery Life": 8,
+      "Build Quality": 8.5,
+      "Attachments": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Battery": "Lithium-ion (included, not removable)",
+      "Run Time": "Up to 20 minutes per charge",
+      "Motor": "14.4V lithium-powered",
+      "Weight": "1.9 lbs / 0.86 kg",
+      "Attachments": "Crevice tool, dusting brush, motorized brush roll",
+      "Charge Time": "Approximately 4 hours to full"
+    }
+  },
+  {
+    "id": "black-decker-20v-handheld-vacuum",
+    "name": "BLACK+DECKER 20V MAX Handheld Cordless Vacuum",
+    "category": "Automotive",
+    "score": 8.3,
+    "tag": "Best Value Car Vacuum",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/black-decker-20v-handheld-vacuum.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09Y1GDSN7/?tag=clearpick06-20",
+    "subscores": {
+      "Suction Power": 8,
+      "Battery Life": 8,
+      "Build Quality": 8,
+      "Portability": 9,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Battery": "20V MAX lithium-ion (included)",
+      "Run Time": "Approximately 18 minutes per charge",
+      "Weight": "2.4 lbs / 1.09 kg",
+      "Attachments": "Flip-out brush, crevice tool",
+      "Compatible Batteries": "BLACK+DECKER 20V MAX ecosystem (interchangeable)",
+      "Dustbin": "Bagless with cyclonic action"
+    }
+  },
+  {
+    "id": "blackvue-dr970x-2ch-dash-cam",
+    "name": "BlackVue DR970X-2CH 4K UHD Front and Rear Dash Cam",
+    "category": "Automotive",
+    "score": 9.1,
+    "tag": "Best Premium Dual-Channel Dash Cam",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$599 CAD",
+    "page": "products/blackvue-dr970x-2ch-dash-cam.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09TT29KZV/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 9.5,
+      "Build Quality": 9,
+      "Feature Set": 9,
+      "App & Connectivity": 9,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Front Resolution": "4K UHD (3840×2160) at 30fps",
+      "Rear Resolution": "1080p Full HD at 30fps",
+      "Cloud": "BlackVue Cloud (optional subscription for live view, remote backup)",
+      "WiFi": "Built-in 2.4GHz/5GHz dual-band WiFi + Bluetooth",
+      "GPS": "Built-in GPS with speed overlay",
+      "Parking Mode": "Motion detection + impact detection (requires hardwire kit)"
+    }
+  },
+  {
+    "id": "britax-boulevard-clicktight-seat",
+    "name": "Britax Boulevard ClickTight Convertible Car Seat",
+    "category": "Baby & Kids",
+    "score": 8.9,
+    "tag": "Best Premium Convertible Car Seat",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/britax-boulevard-clicktight-seat.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0195LQC6O/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9.5,
+      "Ease of Use": 9.5,
+      "Comfort": 9,
+      "Value for Money": 8,
+      "Installation Confidence": 9.5
+    },
+    "specs": {
+      "Rear-Facing": "5–40 lbs, up to 49 inches",
+      "Forward-Facing": "20–65 lbs, up to 49 inches",
+      "Installation": "ClickTight system—seatbelt threads through the seat frame and buckles",
+      "Side Impact Protection": "SafeCell crumple technology + Head Comfort System foam layers",
+      "Harness": "10-position no-rethread harness with 2-position crotch buckle",
+      "Made In": "USA"
+    }
+  },
+  {
+    "id": "chicco-keyfit-35-infant-seat",
+    "name": "Chicco KeyFit 35 ClearTex Infant Car Seat",
+    "category": "Baby & Kids",
+    "score": 8.8,
+    "tag": "Best Infant Car Seat",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$279 CAD",
+    "page": "products/chicco-keyfit-35-infant-seat.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07RBHGJN2/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9,
+      "Ease of Use": 9,
+      "Comfort": 8.5,
+      "Value for Money": 8.5,
+      "Installation Accuracy": 9
+    },
+    "specs": {
+      "Weight Range": "4–35 lbs (1.8–15.9 kg)",
+      "Height Limit": "Up to 32 inches",
+      "Base Installation": "LATCH and ReclineSure leveling foot for precise angle",
+      "Handle": "Multi-position adjustable carry handle",
+      "Canopy": "Spring-loaded pop-up canopy with 3 panels",
+      "Anti-Rebound Bar": "No — base uses leveling foot instead"
+    }
+  },
+  {
+    "id": "clore-jump-n-carry-jnc660",
+    "name": "Clore Automotive Jump-N-Carry JNC660 1700 Peak Amp Jump Starter",
+    "category": "Automotive",
+    "score": 8.7,
+    "tag": "Best Professional Jump Starter",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/clore-jump-n-carry-jnc660.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00028WHKQ/?tag=clearpick06-20",
+    "subscores": {
+      "Jump Starting Power": 9.5,
+      "Build Quality": 9,
+      "Ease of Use": 8.5,
+      "Battery Life": 8,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Peak Amps": "1700 peak amps",
+      "Cranking Amps": "425 cranking amps",
+      "Battery": "22 Ah sealed lead-acid battery",
+      "Cables": "46-inch (117 cm) heavy-duty industrial cables",
+      "Compatible": "Gas engines up to 10L, diesel up to 7.5L",
+      "Weight": "18 lbs / 8.2 kg"
+    }
+  },
+  {
+    "id": "delsey-chatelet-air-carry-on",
+    "name": "DELSEY Paris Chatelet Air 2.0 Hardside Carry-On Luggage",
+    "category": "Luggage & Travel",
+    "score": 8.7,
+    "tag": "Best Premium Style Carry-On",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/delsey-chatelet-air-carry-on.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08K9RV5H2/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9,
+      "Storage & Organization": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8,
+      "Style & Aesthetics": 9.5
+    },
+    "specs": {
+      "Size": "21.5 inches (fits standard overhead bins)",
+      "Weight": "6.4 lbs / 2.9 kg",
+      "Shell": "Hardshell polycarbonate",
+      "Spinner": "Double-wheel spinners for smooth rolling",
+      "Expandable": "Yes (+2 cm expansion)",
+      "TSA Lock": "Integrated TSA-approved combination lock"
+    }
+  },
+  {
+    "id": "eagle-creek-pack-it-reveal-set",
+    "name": "Eagle Creek Pack-It Reveal Cube Set (6-Piece)",
+    "category": "Luggage & Travel",
+    "score": 8.7,
+    "tag": "Best Premium Packing Cubes",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/eagle-creek-pack-it-reveal-set.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BFXYMB9M/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Storage & Organization": 9,
+      "Ease of Use": 8.5,
+      "Value for Money": 8,
+      "Sustainability": 9.5
+    },
+    "specs": {
+      "Pieces": "6-piece set (2 small, 2 medium, 1 large, 1 slim)",
+      "Material": "100% recycled ripstop nylon (bluesign certified)",
+      "Design": "Two-sided compression pack (can compress contents)",
+      "Visibility": "Clear mesh panel top for contents view",
+      "Lifetime Warranty": "Eagle Creek No Matter What lifetime guarantee",
+      "Total Weight": "Approximately 400g for the set"
+    }
+  },
+  {
+    "id": "ergobaby-omni-360-carrier",
+    "name": "Ergobaby Omni 360 All Position Baby Carrier",
+    "category": "Baby & Kids",
+    "score": 8.7,
+    "tag": "Best Ergonomic Baby Carrier",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/ergobaby-omni-360-carrier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01N78JIWB/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9,
+      "Ease of Use": 8,
+      "Comfort": 9.5,
+      "Value for Money": 8.5,
+      "Extended Carry Comfort": 9.5
+    },
+    "specs": {
+      "Carry Positions": "4 positions: front-in facing, front-out facing, hip carry, back carry",
+      "Newborn Ready": "No infant insert required — adjustable panel built in",
+      "Weight Range": "7–45 lbs (3.2–20.4 kg)",
+      "Hip Safety": "Hip-healthy certified by the International Hip Dysplasia Institute",
+      "Lumbar Support": "Structured wide waistband with lumbar support padding",
+      "Machine Washable": "Yes (30°C gentle cycle)"
+    }
+  },
+  {
+    "id": "eufy-baby-e110-monitor",
+    "name": "eufy Baby E110 Video Baby Monitor with Camera and Parent Unit",
+    "category": "Baby & Kids",
+    "score": 8.5,
+    "tag": "Best Budget Video Baby Monitor",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$169 CAD",
+    "page": "products/eufy-baby-e110-monitor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09PRN3L2L/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 8.5,
+      "Ease of Use": 9,
+      "Comfort": 8,
+      "Value for Money": 9,
+      "Video Quality": 8.5
+    },
+    "specs": {
+      "Resolution": "720p HD camera",
+      "Night Vision": "Automatic infrared night vision (up to 15 ft / 5 m)",
+      "Audio": "Two-way audio with noise reduction",
+      "Pan/Tilt": "330° pan, 110° tilt remote control",
+      "Zoom": "5× digital zoom",
+      "Range": "Up to 1,000 ft (300 m) open area, dedicated RF frequency (no WiFi required)"
+    }
+  },
+  {
+    "id": "fixd-bluetooth-obd2-scanner",
+    "name": "FIXD OBD2 Professional Bluetooth Scanner and Car Health Monitor",
+    "category": "Automotive",
+    "score": 8.5,
+    "tag": "Best App-Connected OBD2 Scanner",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/fixd-bluetooth-obd2-scanner.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01HFQBLW2/?tag=clearpick06-20",
+    "subscores": {
+      "Ease of Use": 9,
+      "App Experience": 9,
+      "Diagnostic Coverage": 8,
+      "Feature Set": 8,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Connectivity": "Bluetooth 4.0 to iOS and Android",
+      "Compatibility": "All 1996+ OBD2 gas vehicles (not diesel or EV)",
+      "App": "FIXD app (free download, iOS and Android)",
+      "Basic Functions": "Read and clear check engine codes with plain-language explanations",
+      "Premium Features": "FIXD Premium: issue severity ratings, repair cost estimates, predictive maintenance (subscription)",
+      "Power": "Draws from OBD2 port (always plugged in)"
+    }
+  },
+  {
+    "id": "garmin-dash-cam-67w",
+    "name": "Garmin Dash Cam 67W, Wide 180-Degree Field of View",
+    "category": "Automotive",
+    "score": 8.8,
+    "tag": "Best Wide-Angle Dash Cam",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/garmin-dash-cam-67w.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09VT6BXTM/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 9,
+      "Build Quality": 8.5,
+      "Feature Set": 8.5,
+      "App & Connectivity": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Resolution": "1440p Quad HD (2560×1440) at 30fps",
+      "Field of View": "180-degree ultra-wide (horizontal)",
+      "GPS": "Built-in GPS with speed and location overlay",
+      "Voice Control": "Yes — 'OK Garmin, save video' commands",
+      "Auto Incident Detection": "Yes — G-sensor triggered automatic incident save",
+      "Storage": "Up to 512GB microSD (sold separately)"
+    }
+  },
+  {
+    "id": "graco-4ever-dlx-car-seat",
+    "name": "Graco 4Ever DLX 4-in-1 Car Seat",
+    "category": "Baby & Kids",
+    "score": 8.9,
+    "tag": "Best All-in-One Car Seat",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$379 CAD",
+    "page": "products/graco-4ever-dlx-car-seat.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01MZI7QD0/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9,
+      "Ease of Use": 8.5,
+      "Comfort": 8.5,
+      "Value for Money": 9.5,
+      "Longevity": 9.5
+    },
+    "specs": {
+      "Rear-Facing": "4–40 lbs (1.8–18.1 kg)",
+      "Forward-Facing with Harness": "22–65 lbs (10–29.5 kg)",
+      "High-Back Booster": "40–100 lbs (18.1–45.4 kg)",
+      "Backless Booster": "40–120 lbs (18.1–54.4 kg)",
+      "Installation": "InRight LATCH system + vehicle seatbelt",
+      "Recline": "6-position recline adjustment"
+    }
+  },
+  {
+    "id": "graco-blossom-6in1-high-chair",
+    "name": "Graco Blossom 6-in-1 Convertible High Chair",
+    "category": "Baby & Kids",
+    "score": 8.7,
+    "tag": "Best Convertible High Chair",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/graco-blossom-6in1-high-chair.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01M9HT3HS/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 8.5,
+      "Ease of Use": 8.5,
+      "Comfort": 8.5,
+      "Value for Money": 9,
+      "Longevity": 9.5
+    },
+    "specs": {
+      "Stages": "6-in-1: infant booster, traditional high chair, youth seat, toddler booster x2, toddler chair",
+      "Weight Capacity": "Up to 130 lbs / 57.5 kg (all stages combined)",
+      "Footrest": "Adjustable height footrest",
+      "Trays": "2 dishwasher-safe trays (large outer + removable insert)",
+      "Fabric": "Machine washable seat pad",
+      "Wheels": "No (floor-standing)"
+    }
+  },
+  {
+    "id": "graco-modes-pramette-stroller",
+    "name": "Graco Modes Pramette Travel System",
+    "category": "Baby & Kids",
+    "score": 8.6,
+    "tag": "Best Value Travel System",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$499 CAD",
+    "page": "products/graco-modes-pramette-stroller.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07H59XNLF/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 8.5,
+      "Ease of Use": 8.5,
+      "Comfort": 8.5,
+      "Value for Money": 9.5,
+      "Travel System Integration": 9
+    },
+    "specs": {
+      "Seat Modes": "Pram mode (lie-flat bassinet-style) + forward-facing toddler seat + reversible parent-facing seat",
+      "Travel System": "Includes SnugRide 35 Lite infant car seat + base",
+      "Fold": "One-hand compact fold (seat attached)",
+      "Canopy": "Multi-position extendable SPF 50+ sun canopy",
+      "Weight": "Approximately 31 lbs / 14 kg (stroller + seat)",
+      "Compatible Seats": "Any Graco Click Connect infant seat attaches without adapter"
+    }
+  },
+  {
+    "id": "hatch-rest-plus-sound-machine",
+    "name": "Hatch Rest+ Sound Machine and Night Light (2nd Gen)",
+    "category": "Baby & Kids",
+    "score": 8.8,
+    "tag": "Best Smart Baby Sound Machine",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/hatch-rest-plus-sound-machine.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07VFX59Q3/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 8.5,
+      "Ease of Use": 9,
+      "Comfort": 9,
+      "Value for Money": 8.5,
+      "App & Smart Features": 9
+    },
+    "specs": {
+      "App Control": "Yes — Hatch Sleep app (iOS and Android)",
+      "Sound Library": "White noise, nature sounds, lullabies, fan noise, and more",
+      "Night Light": "Multi-color dimmable LED (16 million colors)",
+      "Clock Face": "Digital clock display on device",
+      "Time-to-Rise": "Color-coded program (e.g., red=sleep time, green=OK to wake)",
+      "Connectivity": "WiFi (2.4 GHz)"
+    }
+  },
+  {
+    "id": "infant-optics-dxr-8-pro",
+    "name": "Infant Optics DXR-8 PRO Video Baby Monitor",
+    "category": "Baby & Kids",
+    "score": 8.9,
+    "tag": "Best Dedicated Baby Monitor",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/infant-optics-dxr-8-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07VZRS3GG/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9,
+      "Ease of Use": 9,
+      "Comfort": 8.5,
+      "Value for Money": 9,
+      "Video Clarity": 9
+    },
+    "specs": {
+      "Resolution": "1080p Full HD camera",
+      "Parent Unit Screen": "5-inch IPS display",
+      "Pan/Tilt": "360° pan, 140° tilt remote control",
+      "Night Vision": "Automatic infrared switching night vision",
+      "Battery Life": "Up to 10 hours (power-saving mode on parent unit)",
+      "Range": "900 ft (275 m) open area, dedicated RF (no WiFi required)"
+    }
+  },
+  {
+    "id": "iottie-easy-one-touch-5-mount",
+    "name": "iOttie Easy One Touch 5 Universal Car Mount",
+    "category": "Automotive",
+    "score": 8.6,
+    "tag": "Best Universal Car Phone Mount",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$39 CAD",
+    "page": "products/iottie-easy-one-touch-5-mount.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07BTZMPNC/?tag=clearpick06-20",
+    "subscores": {
+      "Grip Strength": 8.5,
+      "Ease of Use": 9,
+      "Compatibility": 9,
+      "Build Quality": 8.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Mount Type": "Suction cup (windshield or dashboard) + dashboard pedestal pad",
+      "Phone Width": "Up to 3.5 inches / 8.9 cm phone width",
+      "One-Hand Operation": "Yes — squeeze-to-release spring mechanism",
+      "Rotation": "360° ball and socket rotation",
+      "Dashboard Pad": "Sticky gel pad for non-windshield mounting",
+      "Compatibility": "All non-MagSafe smartphones (Universal sizing)"
+    }
+  },
+  {
+    "id": "matein-travel-laptop-backpack",
+    "name": "MATEIN Travel Laptop Backpack, 40L TSA Large",
+    "category": "Luggage & Travel",
+    "score": 8.3,
+    "tag": "Best Budget Travel Backpack",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$45 CAD",
+    "page": "products/matein-travel-laptop-backpack.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B077ZHXNVG/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 7.5,
+      "Storage & Organization": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 9.5,
+      "Laptop Protection": 8.5
+    },
+    "specs": {
+      "Capacity": "40L",
+      "Laptop Compartment": "Padded sleeve for laptops up to 17.3 inches",
+      "TSA Opening": "Lies flat for TSA X-ray screening without removing laptop",
+      "USB Port": "External USB-A charging port with internal cable routing (power bank not included)",
+      "Carry-On Compliance": "Fits most major airline overhead bins",
+      "Weight": "1.5 kg / 3.3 lbs"
+    }
+  },
+  {
+    "id": "maxi-cosi-pria-all-in-one-seat",
+    "name": "Maxi-Cosi Pria All-in-One Convertible Car Seat",
+    "category": "Baby & Kids",
+    "score": 8.7,
+    "tag": "Best Convertible Car Seat for Small Cars",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/maxi-cosi-pria-all-in-one-seat.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07Y3W23CC/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9,
+      "Ease of Use": 8.5,
+      "Comfort": 9,
+      "Value for Money": 8.5,
+      "Compact Fit": 9.5
+    },
+    "specs": {
+      "Rear-Facing": "5–40 lbs, up to 43 inches",
+      "Forward-Facing with Harness": "22–65 lbs, up to 49 inches",
+      "High-Back Booster": "40–100 lbs",
+      "Installation": "LATCH up to 40 lbs; vehicle seatbelt beyond",
+      "Side Impact Protection": "G-Cell foam side-impact energy absorbers",
+      "Cover": "Machine washable, no re-threading required for harness adjustment"
+    }
+  },
+  {
+    "id": "meguiars-gold-class-car-wash",
+    "name": "Meguiar's Gold Class Car Wash Shampoo & Conditioner (64 oz)",
+    "category": "Automotive",
+    "score": 8.7,
+    "tag": "Best Car Wash Soap",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$29 CAD",
+    "page": "products/meguiars-gold-class-car-wash.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00007GQDX/?tag=clearpick06-20",
+    "subscores": {
+      "Cleaning Power": 8.5,
+      "Paint Safety": 9,
+      "Foam & Lather": 9,
+      "Value for Money": 9,
+      "Wax Compatibility": 9
+    },
+    "specs": {
+      "Volume": "64 fl oz (1,892 mL)",
+      "Dilution Ratio": "1–3 oz per 1 gallon of water",
+      "Formula": "Rich-foaming shampoo with conditioning polymers",
+      "Safe for Wax/Sealant": "Yes — will not strip existing wax or paint sealant",
+      "Foam Cannon Compatible": "Yes",
+      "Finishes Treated": "Clears, metallics, matte (with reduced agitation)"
+    }
+  },
+  {
+    "id": "nanit-pro-baby-monitor",
+    "name": "Nanit Pro Smart Baby Monitor and Flex Stand",
+    "category": "Baby & Kids",
+    "score": 9,
+    "tag": "Best Smart Baby Monitor",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$329 CAD",
+    "page": "products/nanit-pro-baby-monitor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07F2J5D5B/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 9,
+      "Ease of Use": 8.5,
+      "Comfort": 8.5,
+      "Value for Money": 8,
+      "Smart Features & Insights": 9.5
+    },
+    "specs": {
+      "Resolution": "1080p Full HD overhead-angle camera",
+      "Camera Type": "Ceiling/wall mount or Flex Stand floor stand",
+      "App": "Nanit app (iOS and Android) with sleep analytics",
+      "Night Vision": "Automatic infrared night vision",
+      "Two-Way Audio": "Yes",
+      "Breathing Monitoring": "Optional Nanit Breathing Wear required (sold separately)"
+    }
+  },
+  {
+    "id": "nike-brasilia-95-duffel",
+    "name": "Nike Brasilia 9.5 Training Duffel Bag (60L)",
+    "category": "Luggage & Travel",
+    "score": 8.5,
+    "tag": "Best Gym Duffel Bag",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$49 CAD",
+    "page": "products/nike-brasilia-95-duffel.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BCGCDJCP/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 8.5,
+      "Storage & Organization": 8.5,
+      "Ease of Use": 9,
+      "Value for Money": 9,
+      "Durability": 8.5
+    },
+    "specs": {
+      "Capacity": "60L",
+      "Material": "100% Polyester with water-resistant bottom panel",
+      "Shoe Compartment": "Separate ventilated side shoe bag",
+      "Shoulder Strap": "Removable, padded adjustable strap",
+      "Handle": "Reinforced haul handle",
+      "Pockets": "Zippered main, zippered side, interior slip pockets"
+    }
+  },
+  {
+    "id": "noco-boost-hd-gb70",
+    "name": "NOCO Boost HD GB70 2000 Amp UltraSafe Lithium Jump Starter",
+    "category": "Automotive",
+    "score": 9.1,
+    "tag": "Best Heavy-Duty Jump Starter",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/noco-boost-hd-gb70.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07PHMNPQ2/?tag=clearpick06-20",
+    "subscores": {
+      "Jump Starting Power": 9.5,
+      "Safety Features": 9.5,
+      "Build Quality": 9,
+      "Battery Life": 9,
+      "Versatility": 8.5
+    },
+    "specs": {
+      "Peak Amps": "2000 peak amps",
+      "Compatible Engines": "Gasoline up to 8L, diesel up to 6L",
+      "Recharge Time": "Approximately 1 hour from USB-C PD",
+      "USB Output": "USB-A 5V/2.1A for device charging",
+      "LED Light": "7-mode emergency flashlight (SOS, strobe, steady)",
+      "Weight": "2.3 lbs / 1.04 kg"
+    }
+  },
+  {
+    "id": "noco-boost-plus-gb40",
+    "name": "NOCO Boost Plus GB40 1000 Amp UltraSafe Lithium Jump Starter",
+    "category": "Automotive",
+    "score": 9,
+    "tag": "Best Compact Jump Starter",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/noco-boost-plus-gb40.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B015TKUPIC/?tag=clearpick06-20",
+    "subscores": {
+      "Jump Starting Power": 9,
+      "Safety Features": 9.5,
+      "Portability": 9.5,
+      "Battery Life": 8.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Peak Amps": "1000 peak amps",
+      "Compatible Engines": "Gasoline engines up to 6L, diesel up to 3L",
+      "Recharge Time": "Approximately 1 hour via USB-C PD",
+      "USB Output": "USB-A 5V/2.1A for device charging",
+      "LED Light": "7-mode flashlight including SOS and strobe",
+      "Weight": "1.0 lb / 454g"
+    }
+  },
+  {
+    "id": "nomatic-travel-pack-20l",
+    "name": "NOMATIC Travel Pack 20L",
+    "category": "Luggage & Travel",
+    "score": 8.6,
+    "tag": "Best Minimalist Travel Backpack",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$329 CAD",
+    "page": "products/nomatic-travel-pack-20l.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B06Y4DBJZC/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Storage & Organization": 9.5,
+      "Ease of Use": 8,
+      "Value for Money": 7.5,
+      "Organization System": 9.5
+    },
+    "specs": {
+      "Capacity": "20L base, expandable to 28L via expansion zipper",
+      "Laptop Sleeve": "Up to 15-inch laptop, padded fleece",
+      "RFID Pocket": "Yes — RFID-blocking passport/card pocket",
+      "Material": "300D coated tarpaulin with welded seams",
+      "Carry-On Compliance": "Yes, fits under seat and in overhead",
+      "Lifetime Guarantee": "Yes — NOMATIC lifetime guarantee"
+    }
+  },
+  {
+    "id": "north-face-base-camp-duffel-small",
+    "name": "The North Face Base Camp Duffel Bag Small (50L)",
+    "category": "Luggage & Travel",
+    "score": 8.8,
+    "tag": "Best Adventure Duffel Bag",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/north-face-base-camp-duffel-small.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07PMLJHV5/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Storage & Organization": 8.5,
+      "Ease of Use": 9,
+      "Value for Money": 8.5,
+      "Weather Resistance": 9.5
+    },
+    "specs": {
+      "Capacity": "50L",
+      "Material": "TPE laminate Base Camp fabric (highly water-resistant)",
+      "Carry Modes": "Detachable padded shoulder straps (duffel or backpack mode)",
+      "Compression": "Lid compression straps for secure top-loading",
+      "Daisy Chains": "Side external daisy chain lashing points",
+      "Water Resistance": "Highly water-resistant welded seams and Base Camp fabric"
+    }
+  },
+  {
+    "id": "osprey-farpoint-40-backpack",
+    "name": "Osprey Farpoint 40 Travel Pack",
+    "category": "Luggage & Travel",
+    "score": 9,
+    "tag": "Best Carry-On Travel Backpack",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/osprey-farpoint-40-backpack.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00K5Y16RE/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Storage & Organization": 9,
+      "Ease of Use": 9,
+      "Value for Money": 9,
+      "Suspension & Comfort": 9
+    },
+    "specs": {
+      "Capacity": "40L",
+      "Laptop Sleeve": "Padded 15-inch laptop sleeve with fleece lining",
+      "Access": "Clamshell zip access—opens flat like a suitcase",
+      "Harness": "Stow-away padded harness and removable hip belt",
+      "Carry-On": "Meets most international carry-on dimension requirements",
+      "Frame": "Internal foam framesheet for structure"
+    }
+  },
+  {
+    "id": "pacsafe-travelsafe-x25",
+    "name": "Pacsafe TravelSafe X25 Anti-Theft Portable Safe",
+    "category": "Luggage & Travel",
+    "score": 8.5,
+    "tag": "Best Portable Travel Safe",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/pacsafe-travelsafe-x25.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01MSL2OYJ/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9,
+      "Storage & Organization": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5,
+      "Security Features": 9
+    },
+    "specs": {
+      "Capacity": "25L / 1,527 cu in",
+      "Material": "3-ply 200D reinforced fabric with cut-resistant wire mesh insert",
+      "Lock": "3-dial combination lock",
+      "Anchoring": "Easylock cable (steel wire coated) with safety clip for securing to fixed objects",
+      "Fits": "13-inch laptop, tablet, camera, documents, valuables",
+      "Weight": "800g / 28 oz"
+    }
+  },
+  {
+    "id": "peak-design-travel-backpack-45l",
+    "name": "Peak Design Travel Backpack 45L",
+    "category": "Luggage & Travel",
+    "score": 9.1,
+    "tag": "Best Premium Travel Backpack",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$649 CAD",
+    "page": "products/peak-design-travel-backpack-45l.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B087MQHXWR/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Storage & Organization": 9.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 7.5,
+      "Camera System Integration": 9.5
+    },
+    "specs": {
+      "Capacity": "45L (compresses to approximately 30L via MagLatch straps)",
+      "Camera Access": "Side zip access to Peak Design camera cube compartment (cubes sold separately)",
+      "Laptop": "Up to 16-inch laptop dedicated padded sleeve",
+      "Material": "400D double-weave recycled nylon, 100% recycled content",
+      "Carry-On": "Meets most airline carry-on requirements at 45L",
+      "Compression": "MagLatch magnetic buckle front straps compress the bag to minimum volume"
+    }
+  },
+  {
+    "id": "regalo-easy-step-extra-wide-gate",
+    "name": "Regalo Easy Step 38.5-Inch Extra Wide Walk Thru Baby Gate",
+    "category": "Baby & Kids",
+    "score": 8.4,
+    "tag": "Best Budget Baby Gate",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$39 CAD",
+    "page": "products/regalo-easy-step-extra-wide-gate.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B001AT7QCQ2/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 8.5,
+      "Ease of Use": 8.5,
+      "Comfort": 8,
+      "Value for Money": 9.5,
+      "Installation Flexibility": 9
+    },
+    "specs": {
+      "Width": "38.5 inches base width, extends to 53.5 inches with included extension",
+      "Height": "30.5 inches",
+      "Installation": "Pressure-mount (no drilling, no wall damage)",
+      "Gate Door": "Walk-through door swings open in both directions, auto-closes",
+      "Surfaces": "Works on flat walls; banister adapter kit included",
+      "Certifications": "JPMA (Juvenile Products Manufacturers Association) certified"
+    }
+  },
+  {
+    "id": "rfid-passport-holder-wallet",
+    "name": "ZOPPEN Multi-Purpose RFID Travel Passport Wallet",
+    "category": "Luggage & Travel",
+    "score": 8.6,
+    "tag": "Best RFID Travel Wallet",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$29 CAD",
+    "page": "products/rfid-passport-holder-wallet.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B072ZWQNVF/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 8.5,
+      "Storage & Organization": 9.5,
+      "Ease of Use": 9,
+      "Value for Money": 9.5,
+      "Security Features": 8.5
+    },
+    "specs": {
+      "RFID Blocking": "Yes — RFID-blocking lining throughout",
+      "Card Slots": "12 card slots",
+      "SIM Pocket": "Dedicated SIM card storage pocket",
+      "Material": "Premium PU leather exterior",
+      "Currency Compartment": "Yes — zippered cash compartment",
+      "Size": "Fits standard international and biometric passports"
+    }
+  },
+  {
+    "id": "rockland-fusion-softside-luggage",
+    "name": "Rockland 19-Inch Expandable Spinner Carry-On Luggage",
+    "category": "Luggage & Travel",
+    "score": 8.2,
+    "tag": "Best Entry-Level Spinner Luggage",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/rockland-fusion-softside-luggage.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00FB4X75U/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 7.5,
+      "Storage & Organization": 8,
+      "Ease of Use": 8.5,
+      "Value for Money": 9.5,
+      "Spinner Performance": 8
+    },
+    "specs": {
+      "Size": "19 inches",
+      "Weight": "4.5 lbs / 2.04 kg",
+      "Shell": "Softside scratch-resistant polyester exterior",
+      "Spinner": "4-wheel spinner system",
+      "Expandable": "2-inch expansion zipper",
+      "Material": "Oxford nylon with ABS rigid frame"
+    }
+  },
+  {
+    "id": "ryobi-pcl520b-cordless-inflator",
+    "name": "RYOBI PCL520B ONE+ 18V Cordless Power Inflator",
+    "category": "Automotive",
+    "score": 8.7,
+    "tag": "Best Cordless Tire Inflator",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/ryobi-pcl520b-cordless-inflator.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08HN8FJYC/?tag=clearpick06-20",
+    "subscores": {
+      "Inflation Speed": 8.5,
+      "Build Quality": 8.5,
+      "Ease of Use": 9,
+      "Cordless Convenience": 9.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Voltage": "18V ONE+ (Tool Only — battery and charger sold separately)",
+      "Max Pressure": "150 PSI",
+      "Auto Shutoff": "Yes — digital preset target pressure, automatic stop",
+      "Adapters": "Presta valve, ball inflation needle, air mattress nozzle included",
+      "Run Time": "Approximately 15–20 minutes per 2.0 Ah charge",
+      "Compatible Batteries": "All RYOBI 18V ONE+ lithium batteries"
+    }
+  },
+  {
+    "id": "samsonite-omni-max-carry-on",
+    "name": "Samsonite Omni 2 Hardside Expandable Carry-On (20 Inch)",
+    "category": "Luggage & Travel",
+    "score": 8.7,
+    "tag": "Best Mid-Range Carry-On",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/samsonite-omni-max-carry-on.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BH6T841Z/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9,
+      "Storage & Organization": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5,
+      "Spinner Performance": 9
+    },
+    "specs": {
+      "Size": "20 inches (standard carry-on fit)",
+      "Weight": "6.9 lbs / 3.1 kg",
+      "Material": "Hardside polycarbonate + ABS blend",
+      "Spinner": "4-wheel multi-directional spinner system",
+      "Expandable": "1.5-inch expansion zipper",
+      "TSA Lock": "Built-in TSA-approved combination lock"
+    }
+  },
+  {
+    "id": "samsonite-omni-max-checked-28",
+    "name": "Samsonite Omni 2 Hardside Expandable Checked Luggage (28 Inch)",
+    "category": "Luggage & Travel",
+    "score": 8.6,
+    "tag": "Best Mid-Range Checked Bag",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/samsonite-omni-max-checked-28.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0DHPW5Y6S/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9,
+      "Storage & Organization": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5,
+      "Spinner Performance": 9
+    },
+    "specs": {
+      "Size": "28 inches (standard checked bag)",
+      "Weight": "9.5 lbs / 4.3 kg",
+      "Material": "Hardside polycarbonate + ABS blend",
+      "Spinner": "4-wheel multi-directional spinner",
+      "Expandable": "1.5-inch expansion zipper",
+      "TSA Lock": "Built-in TSA-approved combination lock"
+    }
+  },
+  {
+    "id": "skip-hop-explore-more-gym",
+    "name": "Skip Hop Baby Activity Gym and Play Mat, Explore & More",
+    "category": "Baby & Kids",
+    "score": 8.6,
+    "tag": "Best Baby Play Gym",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/skip-hop-explore-more-gym.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07NRRS6PW/?tag=clearpick06-20",
+    "subscores": {
+      "Safety & Build Quality": 8.5,
+      "Ease of Use": 9,
+      "Comfort": 8.5,
+      "Value for Money": 8.5,
+      "Developmental Features": 9
+    },
+    "specs": {
+      "Toys": "8 removable developmental toys (crinkle, rattle, teether, mirror, and more)",
+      "Bat Bar": "Removable double-sided bat bar for reaching and batting practice",
+      "Tummy Time Pillow": "Included foam support wedge for tummy time",
+      "Stages": "Converts from play gym arch to stand-up activity table at age 1+",
+      "Material": "Padded cotton mat with soft foam padding",
+      "Machine Washable": "Mat cover yes; foam padding spot clean only"
+    }
+  },
+  {
+    "id": "snoo-smart-sleeper-bassinet",
+    "name": "SNOO Smart Sleeper Baby Bassinet",
+    "category": "Baby & Kids",
+    "score": 9,
+    "tag": "Best Smart Baby Bassinet",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1995 CAD",
+    "page": "products/snoo-smart-sleeper-bassinet.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B073QKDRK1/?tag=clearpick06-20",
+    "subscores": {
+      "Sleep Effectiveness": 9.5,
+      "Safety": 9.5,
+      "Ease of Use": 9,
+      "Value for Money": 7,
+      "Smart Features": 9.5
+    },
+    "specs": {
+      "Age Range": "Birth to 6 months (or until baby can push up on hands and knees)",
+      "Technology": "Responsive white noise + soothing motion, adjusts automatically to baby's fussing",
+      "Safety": "Only bassinet with AAP-backed safety claim for back sleeping (built-in swaddle keeps baby positioned)",
+      "App": "Happiest Baby app for scheduling, sleep tracking, and cry detection",
+      "Motion": "Gentle swaying, faster jiggling when baby fusses",
+      "Certifications": "JPMA certified; FDA cleared for soothing claim"
+    }
+  },
+  {
+    "id": "spigen-onetap-pro-magsafe-mount",
+    "name": "Spigen OneTap Pro MagSafe Car Phone Mount",
+    "category": "Automotive",
+    "score": 8.7,
+    "tag": "Best MagSafe Car Mount",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$59 CAD",
+    "page": "products/spigen-onetap-pro-magsafe-mount.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BPFM8YQZ/?tag=clearpick06-20",
+    "subscores": {
+      "Magnet Strength": 9.5,
+      "Ease of Use": 9.5,
+      "Build Quality": 9,
+      "Phone Compatibility": 8,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Compatibility": "iPhone 12 and later with MagSafe; non-MagSafe phones require a MagSafe case",
+      "Magnet": "N52 grade neodymium magnets, Apple MFi certified",
+      "Mount Type": "Dashboard suction cup or air vent clip (both included)",
+      "One-Tap Release": "Single press center button releases phone",
+      "Rotation": "360-degree rotation, portrait and landscape",
+      "Wireless Charging": "Compatible with MagSafe charging through case"
+    }
+  },
+  {
+    "id": "stanley-j5c09-jump-starter",
+    "name": "STANLEY J5C09 JUMPiT 1000 Peak Amp Jump Starter",
+    "category": "Automotive",
+    "score": 8.5,
+    "tag": "Best Budget Jump Starter",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/stanley-j5c09-jump-starter.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00018YHBY/?tag=clearpick06-20",
+    "subscores": {
+      "Jump Power": 8.5,
+      "Build Quality": 8,
+      "Ease of Use": 8.5,
+      "Value for Money": 9.5,
+      "Additional Features": 7.5
+    },
+    "specs": {
+      "Peak Amps": "1000 peak amps",
+      "Cranking Amps": "350 cranking amps",
+      "Battery": "18 Ah sealed lead-acid battery",
+      "Cable Length": "4-foot jumper cables",
+      "Additional Features": "120 PSI air compressor, USB charging port, built-in LED work light",
+      "Vehicle Coverage": "Up to 6.5L gasoline and 5.0L diesel engines"
+    }
+  },
+  {
+    "id": "stokke-tripp-trapp-high-chair",
+    "name": "Stokke Tripp Trapp High Chair",
+    "category": "Baby & Kids",
+    "score": 9.1,
+    "tag": "Best Premium High Chair",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$329 CAD",
+    "page": "products/stokke-tripp-trapp-high-chair.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B004TK8SDJ/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 10,
+      "Ease of Use": 8.5,
+      "Comfort": 9,
+      "Value for Money": 8,
+      "Longevity": 10
+    },
+    "specs": {
+      "Age Range": "6 months to adult (with appropriate configuration; newborn set sold separately)",
+      "Materials": "European beech wood; seat and footrest adjustable in 7 positions",
+      "Weight Capacity": "Up to 136 kg (300 lbs) as a chair for older children and adults",
+      "Finish": "Water-based stain; available in 20+ colors",
+      "Safety": "EN 14988-1 European Standard certified; ASTM F404 North American certified",
+      "Baby Set": "Baby set (back rest + harness) sold separately, required for babies 6–36 months"
+    }
+  },
+  {
+    "id": "thinkware-u1000-dash-cam",
+    "name": "Thinkware U1000 4K UHD Dual Channel Dash Cam",
+    "category": "Automotive",
+    "score": 9,
+    "tag": "Best Premium 4K Dash Cam",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/thinkware-u1000-dash-cam.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B093XS57SF/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 9.5,
+      "Build Quality": 9,
+      "Night Vision": 9,
+      "Features": 9,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Front Resolution": "4K UHD (3840×2160) at 30fps",
+      "Rear Resolution": "Full HD 1080p (included rear camera)",
+      "Night Vision": "Sony STARVIS 2 sensor",
+      "Storage": "MicroSD (not included, up to 256GB)",
+      "Connectivity": "WiFi + hardwire kit for parking mode",
+      "Parking Mode": "Yes — motion detection and time-lapse modes"
+    }
+  },
+  {
+    "id": "travelpro-maxlite-5-carry-on",
+    "name": "Travelpro Maxlite 5 Expandable Spinner Carry-On",
+    "category": "Luggage & Travel",
+    "score": 8.8,
+    "tag": "Best Lightweight Carry-On",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/travelpro-maxlite-5-carry-on.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07PHTRHXD/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 8.5,
+      "Storage & Organization": 9,
+      "Ease of Use": 9,
+      "Weight Efficiency": 10,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Weight": "5.0 lbs / 2.27 kg (unusually light for a spinner carry-on)",
+      "Dimensions": "21.5 × 14 × 9 inches (under typical airline carry-on limits)",
+      "Shell": "Softside high-density nylon",
+      "Spinner": "4-wheel spinner, 360-degree rotation",
+      "Expandable": "2-inch expansion zipper",
+      "Interior": "Zip-around packing panel, hanging toiletry hook, exterior front pocket"
+    }
+  },
+  {
+    "id": "travelpro-platinum-elite-25-checked",
+    "name": "Travelpro Platinum Elite 25-Inch Expandable Spinner",
+    "category": "Luggage & Travel",
+    "score": 9.1,
+    "tag": "Best Premium Checked Luggage",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/travelpro-platinum-elite-25-checked.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07BFLMYBD/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Storage & Organization": 9.5,
+      "Ease of Use": 9.5,
+      "Spinner Performance": 9.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Size": "25-inch mid-size checked",
+      "Weight": "7.9 lbs / 3.6 kg",
+      "Material": "High-density ballistic nylon (SBT or SBS designation)",
+      "Spinner": "Travelpro's PrecisionGlide spinner wheels (10 ball-bearing wheel system)",
+      "Expandable": "2-inch expansion zipper",
+      "Organization": "Dedicated suiter with anti-wrinkle dry cleaning bag, self-aligning combo lock"
+    }
+  },
+  {
+    "id": "trtl-pillow-plus",
+    "name": "Trtl Pillow Plus Neck Support Travel Pillow",
+    "category": "Luggage & Travel",
+    "score": 8.5,
+    "tag": "Best Travel Neck Pillow",
+    "icon": "🧳",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/trtl-pillow-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07RSTRHGK/?tag=clearpick06-20",
+    "subscores": {
+      "Neck Support": 9.5,
+      "Packability": 8,
+      "Comfort": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Design": "Internal plastic support frame wrapped in fleece, worn as scarf",
+      "Weight": "148 g / 5.2 oz (half the weight of a standard U-shaped foam pillow)",
+      "Adjustable": "4 positions — can lean to left, right, forward, or straight",
+      "Material": "Removable and machine-washable fleece cover",
+      "Compatibility": "Works with standard airplane headrests",
+      "Certifications": "Recommended by medical professionals for ergonomic neck support"
+    }
+  },
+  {
+    "id": "uniden-r3-radar-detector",
+    "name": "Uniden R3 Long Range Laser Radar Detector",
+    "category": "Automotive",
+    "score": 9,
+    "tag": "Best Long-Range Radar Detector",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/uniden-r3-radar-detector.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07CTDB5Q8/?tag=clearpick06-20",
+    "subscores": {
+      "Detection Range": 9.5,
+      "False Alert Filtering": 9,
+      "Build Quality": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Band Coverage": "X-band, K-band, Ka-band, Laser/Lidar",
+      "GPS": "Built-in GPS for speed camera database and red light camera alerts",
+      "Display": "OLED multi-color display",
+      "False Filter": "Advanced digital signal processing for BSM false alert filtering",
+      "Voice Alerts": "Yes — band, signal strength, and direction",
+      "Mute Memory": "GPS-correlated automatic mute of repeated false alerts at fixed locations"
+    }
+  },
+  {
+    "id": "uppababy-vista-v3-stroller",
+    "name": "UPPAbaby VISTA V3 Stroller",
+    "category": "Baby & Kids",
+    "score": 9.2,
+    "tag": "Best Premium Full-Size Stroller",
+    "icon": "👶",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1399 CAD",
+    "page": "products/uppababy-vista-v3-stroller.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0D9X92CJS/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Ease of Use": 9,
+      "Comfort": 9.5,
+      "Value for Money": 8,
+      "Grow-With System": 9.5
+    },
+    "specs": {
+      "Configuration": "Single-to-double: accepts bassinet, toddler seat, RumbleSeat, Piggyback ride-along, Mesa infant car seat",
+      "Weight": "27 lbs / 12.2 kg (frame only)",
+      "Fold": "One-hand fold, self-standing",
+      "Wheel Size": "11.8-inch rear pneumatic tires, front swivel wheels",
+      "Age Range": "Birth to 50 lbs per seat (up to 100 lbs combined in dual configuration)",
+      "Bassinet": "Included — full-size bassinet, JPMA certified for overnight sleep"
+    }
+  },
+  {
+    "id": "vantrue-n4-3-channel-dash-cam",
+    "name": "Vantrue N4 Pro 4K 3-Channel Dash Cam",
+    "category": "Automotive",
+    "score": 8.9,
+    "tag": "Best 3-Channel Dash Cam",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/vantrue-n4-3-channel-dash-cam.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09Y1Q8R9F/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 9,
+      "Coverage": 9.5,
+      "Build Quality": 8.5,
+      "Features": 9,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Channels": "3 — front 4K, interior 1080p IR night vision, rear 1080p",
+      "Front Resolution": "4K UHD at 30fps (or 2.5K at 60fps)",
+      "Interior Camera": "1080p infrared LED night vision for cabin recording",
+      "Rear Camera": "1080p exterior rear",
+      "Storage": "MicroSD up to 512GB (not included); supports loop recording",
+      "Parking Mode": "Motion detection and time-lapse via hardwire kit (sold separately)"
+    }
+  },
+  {
+    "id": "viofo-a139-pro-dash-cam",
+    "name": "VIOFO A139 Pro 4K Front and Rear Dash Cam",
+    "category": "Automotive",
+    "score": 8.8,
+    "tag": "Best Value 4K Dual Dash Cam",
+    "icon": "🚗",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/viofo-a139-pro-dash-cam.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BLBH4FB/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 9,
+      "Build Quality": 8.5,
+      "Night Vision": 9,
+      "Features": 8.5,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Front Resolution": "4K UHD (3840×2160) at 30fps or 2K at 60fps",
+      "Rear Resolution": "2K 1440p (rear camera included)",
+      "Sensor": "Sony STARVIS 2 IMX678 (front)",
+      "WiFi + GPS": "Both included (GPS track with speed and location data)",
+      "Storage": "MicroSD up to 256GB (not included)",
+      "Parking Mode": "Hardwire kit compatible (sold separately)"
+    }
   }
 ]

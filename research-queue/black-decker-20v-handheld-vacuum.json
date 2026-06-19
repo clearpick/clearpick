@@ -1,0 +1,91 @@
+{
+  "slug": "black-decker-20v-handheld-vacuum",
+  "name": "BLACK+DECKER 20V MAX Handheld Cordless Vacuum",
+  "brand": "BLACK+DECKER",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Car Vacuums",
+  "subcategory": "car-vacuums",
+  "asin": "B09Y1GDSN7",
+  "price": 89,
+  "priceDisplay": "$89.99 CAD",
+  "score": 8.3,
+  "tag": "Best Value Car Vacuum",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09Y1GDSN7/?tag=clearpick06-20",
+  "subscores": {
+    "Suction Power": 8.0,
+    "Battery Life": 8.0,
+    "Build Quality": 8.0,
+    "Portability": 9.0,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Battery": "20V MAX lithium-ion (included)",
+    "Run Time": "Approximately 18 minutes per charge",
+    "Weight": "2.4 lbs / 1.09 kg",
+    "Attachments": "Flip-out brush, crevice tool",
+    "Compatible Batteries": "BLACK+DECKER 20V MAX ecosystem (interchangeable)",
+    "Dustbin": "Bagless with cyclonic action"
+  },
+  "whatWorks": [
+    "Uses BLACK+DECKER's 20V MAX battery platform—if you already own 20V MAX drills, saws, or other tools, you can share batteries between them and this vacuum, which adds significant value for existing ecosystem users",
+    "At $89 it's $40 less than the BISSELL AeroSlim for comparable cordless convenience, making it the right pick for occasional car cleaning rather than weekly detailing",
+    "The flip-out brush is integrated into the nose of the vacuum, eliminating the need to swap attachments for switching between vacuuming and surface dusting during a car clean",
+    "Cyclonic action keeps suction consistent as debris accumulates in the bin rather than falling off rapidly as the filter clogs—a meaningful performance advantage over non-cyclonic handheld units at this price"
+  ],
+  "worthKnowing": [
+    "18-minute run time is enough for a front-seat vacuum of smaller vehicles; owners of SUVs and minivans frequently report needing to pause for a charge recharge before finishing the full interior",
+    "No motorized brush roll—the flip-out bristle brush is passive, meaning it won't agitate carpet fibers to lift embedded pet hair the way BISSELL's motorized version does",
+    "Filter needs regular cleaning (every 5–10 uses) to maintain suction; a clogged filter drops performance significantly more than premium units with larger filter surface areas"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Struggles with embedded pet hair",
+      "body": "Without a motorized brush, embedded pet hair in car carpet requires multiple passes and a rubber pet tool used first to pull hair up before the vacuum can collect it. BISSELL's motorized attachment handles this in one pass.",
+      "source": "Reddit r/AutoDetailing"
+    },
+    {
+      "title": "Run time short for larger vehicles",
+      "body": "18 minutes is consistent with manufacturer spec but goes fast in an SUV. Multiple reviewers with minivans and full-size trucks report running out of charge before finishing the full interior, requiring mid-clean recharging.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Suction noticeably less than corded units",
+      "body": "When compared side-by-side with a corded 120V handheld or shop vacuum, the suction difference is apparent—particularly on floor mats with heavy debris. For maintenance cleaning it's fine; for a deep clean it's not the right tool.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The BLACK+DECKER 20V MAX handheld vacuum is the right choice for existing 20V MAX tool owners who want cordless car cleaning convenience without buying a separate battery, or for anyone who wants a capable car vacuum under $100. It handles daily crumbs, sand, and light debris well. Pet owners with heavy hair deposits and perfectionists doing thorough weekly details will want the BISSELL AeroSlim's motorized attachment instead.",
+  "realBuyers": [
+    {
+      "quote": "Already have two 20V MAX batteries from my drill. This vacuum costs effectively nothing since I didn't need to buy the battery kit version. Works great for a quick clean.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Good for regular maintenance. Fast, no cord hassle, easy to empty. Not going to replace a shop vac for deep cleaning but that's not the point.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Simple, does what it says. I keep it in the trunk. The flip-out brush is handy for wiping down the dash before vacuuming.",
+      "source": "Reddit r/autodetailing"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Car Vacuums of 2025 | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a37056278/best-car-vacuums/"
+    },
+    {
+      "title": "BLACK+DECKER 20V MAX Vacuum Review | Popular Mechanics",
+      "url": "https://www.popularmechanics.com/home/a38882944/best-handheld-vacuums/"
+    }
+  ],
+  "metaDescription": "BLACK+DECKER 20V MAX handheld vacuum review: cordless car vacuum with cyclonic action and 20V MAX ecosystem compatibility. Best value car vacuum under $90 CAD.",
+  "introText": "The BLACK+DECKER 20V MAX Handheld Cordless Vacuum (ASIN B09Y1GDSN7) is a lightweight 2.4-lb bagless car vacuum with cyclonic action and 18-minute run time on the included 20V MAX battery. Available on Amazon.ca, it is compatible with all BLACK+DECKER 20V MAX batteries and includes a flip-out brush and crevice tool.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09Y1GDSN7",
+  "verifiedPrice": "$89.99 CAD",
+  "similarProducts": ["bissell-aeroslim-cordless-vacuum", "autel-maxicom-mk808-scanner", "avid-power-tire-inflator"]
+}

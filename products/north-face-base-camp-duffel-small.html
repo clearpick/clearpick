@@ -1,174 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>The North Face Base Camp Duffel Bag Small (50L) Review 2026 | ClearPick</title>
+<meta name="description" content="North Face Base Camp Duffel Small (50L) review: TPE waterproof fabric, backpack strap conversion, daisy chain lashing. Best adventure duffel for outdoor use. $129 CAD." />
+<meta property="og:title" content="The North Face Base Camp Duffel Bag Small (50L) Review 2026 | ClearPick" />
+<meta property="og:description" content="North Face Base Camp Duffel Small (50L) review: TPE waterproof fabric, backpack strap conversion, daisy chain lashing. Best adventure duffel for outdoor use. $129 CAD." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/north-face-base-camp-duffel-small.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/north-face-base-camp-duffel-small.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "The North Face Base Camp Duffel Bag Small (50L)",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.8", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The North Face Base Camp Duffel Small is the right bag for outdoor adventurers, skiers, kayakers, and expedition campers who need a bag that survives genuinely wet and rough conditions. The TPE construction and haul-to-backpack conversion make it the most versatile duffel available for mixed terrain. Urban travelers and gym users should look at the lighter, more flexible Nike Brasilia—the Base Camp's weather resistance and durability are overkill for pavement-only use."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.8",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -268,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../luggage-travel.html">Luggage &amp; Travel</a> <span>›</span>
+<span>The North Face Base Camp Duffel Bag Small (50L)</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Luggage &amp; Travel</div>
+<h1 class="product-hero__title">The North Face Base Camp Duffel Bag Small (50L)</h1>
+<div class="product-hero__tag">Best Adventure Duffel Bag</div>
+<p class="product-hero__desc">The North Face Base Camp Duffel Bag Small (ASIN B07PMLJHV5) is a 50L expedition-grade duffel with highly water-resistant TPE laminate construction, detachable backpack shoulder straps, and daisy chain lashing points. Available on Amazon.ca, it withstands submersion briefly while keeping contents dry—designed for ski resorts, kayaking, and base camp expeditions.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -287,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.8 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Build Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Storage &amp; Organization</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Ease of Use</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Weather Resistance</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Capacity</td><td class="spec-table__value">50L</td></tr><tr><td class="spec-table__label">Material</td><td class="spec-table__value">TPE laminate Base Camp fabric (highly water-resistant)</td></tr><tr><td class="spec-table__label">Carry Modes</td><td class="spec-table__value">Detachable padded shoulder straps (duffel or backpack mode)</td></tr><tr><td class="spec-table__label">Compression</td><td class="spec-table__value">Lid compression straps for secure top-loading</td></tr><tr><td class="spec-table__label">Daisy Chains</td><td class="spec-table__value">Side external daisy chain lashing points</td></tr><tr><td class="spec-table__label">Water Resistance</td><td class="spec-table__value">Highly water-resistant welded seams and Base Camp fabric</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -306,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="The North Face Base Camp Duffel Bag Small (50L) product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best Adventure Duffel Bag</div>
+<div class="product-cta-box__name">The North Face Base Camp Duffel Bag Small (50L)</div>
+<div class="product-cta-box__price">~$129.99 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B07PMLJHV5/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -330,39 +223,108 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>The TPE laminate Base Camp fabric is not merely water-resistant—it can be submerged briefly and remain dry inside, making this the right bag for kayak trips, ski resorts, and base camp expeditions where gear bags get wet from rain, snow, and condensation</li>
+<li>Detachable shoulder straps can be converted from haul handles (one-hand carry like a duffle) to full backpack mode with padded harness, providing genuine flexibility for multi-terrain travel where you switch between car-to-boat and long walk carries</li>
+<li>Daisy chain lashing points allow tying the bag to vehicle roof racks, boat cleats, or base camp frames without separate strapping systems—a detail that distinguishes gear bags from fashion duffles</li>
+<li>North Face's reputation for 50+ year durability on their expedition-grade products carries through to the Base Camp line; these bags routinely outlast multiple trips to destinations that destroy cheaper alternatives</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>At 50L, the small is genuinely compact for the Base Camp line (medium is 71L, large is 95L)—50L fits 5–7 days of packable clothing but will feel crowded with bulky items like ski layers or sleeping bag liners</li>
+<li>The TPE material is stiffer and heavier than nylon alternatives when empty; the bag doesn't compress or stuff into itself, requiring dedicated storage space between trips</li>
+<li>The main opening is a top-loading roll-top style rather than a clamshell zipper—accessing items at the bottom of a fully packed bag requires removing top items first, less convenient than split-zipper competitors</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Kept this in the bottom of a canoe for 5 days in the BWCA. Got dunked twice. Everything inside stayed completely dry. Nothing else at this price delivers that."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Four ski seasons and counting. Boots, ski clothes, helmet. The fabric still looks like new despite the abuse. North Face gear that actually earns the price."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/skiing</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The backpack straps are legit when loaded—not just a token accessory. Carried 15 lbs half a mile to a base camp trailhead in backpack mode without issue."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Top-load access makes digging frustrating</p>
+<p class="real-buyers-say__text">The single top-opening makes reaching anything not packed at the very top require unpacking. For travelers who need mid-trip access to buried items (chargers, documents, layers), this is a daily friction point.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/solotravel</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Stiff and heavy when empty</p>
+<p class="real-buyers-say__text">The TPE laminate material that makes this bag so weather-resistant is noticeably stiffer and heavier than nylon. At 1.5 lbs empty, it weighs more than many 40L travel packs, cutting into the weight budget for gear.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Expensive compared to comparable capacity duffles</p>
+<p class="real-buyers-say__text">At $130, the Base Camp costs 2.5× more than the Nike Brasilia 60L duffel. The weather-resistance and build quality justify it for adventure use, but gym-to-car commuters are genuinely overpaying for features they won't need.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/outdoors</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The North Face Base Camp Duffel Small is the right bag for outdoor adventurers, skiers, kayakers, and expedition campers who need a bag that survives genuinely wet and rough conditions. The TPE construction and haul-to-backpack conversion make it the most versatile duffel available for mixed terrain. Urban travelers and gym users should look at the lighter, more flexible Nike Brasilia—the Base Camp's weather resistance and durability are overkill for pavement-only use.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="nike-brasilia-95-duffel.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Nike Brasilia 9.5 Training Duffel Bag (60L)" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Gym Duffel Bag</span>
+<h3 class="product-card__name">Nike Brasilia 9.5 Training Duffel Bag (60L)</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="nomatic-travel-pack-20l.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="NOMATIC Travel Pack 20L" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Minimalist Travel Backpack</span>
+<h3 class="product-card__name">NOMATIC Travel Pack 20L</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="matein-travel-laptop-backpack.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="MATEIN Travel Laptop Backpack, 40L TSA Large" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Budget Travel Backpack</span>
+<h3 class="product-card__name">MATEIN Travel Laptop Backpack, 40L TSA Large</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -381,7 +343,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

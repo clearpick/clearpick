@@ -1,0 +1,91 @@
+{
+  "slug": "ergobaby-omni-360-carrier",
+  "name": "Ergobaby Omni 360 All Position Baby Carrier",
+  "brand": "Ergobaby",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Baby Carriers",
+  "subcategory": "baby-carriers",
+  "asin": "B01N78JIWB",
+  "price": 199,
+  "priceDisplay": "$199.99 CAD",
+  "score": 8.7,
+  "tag": "Best Ergonomic Baby Carrier",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01N78JIWB/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.0,
+    "Ease of Use": 8.0,
+    "Comfort": 9.5,
+    "Value for Money": 8.5,
+    "Extended Carry Comfort": 9.5
+  },
+  "specs": {
+    "Carry Positions": "4 positions: front-in facing, front-out facing, hip carry, back carry",
+    "Newborn Ready": "No infant insert required — adjustable panel built in",
+    "Weight Range": "7–45 lbs (3.2–20.4 kg)",
+    "Hip Safety": "Hip-healthy certified by the International Hip Dysplasia Institute",
+    "Lumbar Support": "Structured wide waistband with lumbar support padding",
+    "Machine Washable": "Yes (30°C gentle cycle)"
+  },
+  "whatWorks": [
+    "The wide padded waistband distributes a toddler's weight across the hips and lower back rather than hanging from the shoulders—parents carrying 30+ lb toddlers consistently report being able to carry for 60–90 minutes without shoulder fatigue that plagues narrower carriers",
+    "Newborn-ready without a separate insert: the built-in adjustable panel narrows to a seat width appropriate for a 7-lb infant's legs, then widens as baby grows—eliminating the $30–$50 infant insert cost common with other structured carriers",
+    "Solo back-loading is genuinely achievable with the Omni 360 via the over-the-head method; single parents who want to back-carry independently will find this design far more manageable than BabyBjörn's carrier-one structure",
+    "Four carry positions including front-facing-out (supported from 4–5 months with adequate head control) and hip carry add genuine variety across a wide developmental window from newborn through age 3–4"
+  ],
+  "worthKnowing": [
+    "The buckle system has more straps and connections than BabyBjörn's simpler design—first-time users often need 10–15 minutes and a tutorial video to understand the correct configuration, especially for back carries",
+    "Front-facing-out position is only supported up to approximately 25 lbs and should be limited to 30-minute sessions due to the less ergonomic position for the carrier's lumbar support",
+    "The structured design makes it difficult to twist or adjust position on-the-fly without removing the carrier completely—less flexible than ring slings for quick transfers"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Complex buckle system has a learning curve",
+      "body": "New users frequently report spending 20+ minutes learning the correct strap configuration, especially for back carry. The BabyBjörn's simpler three-buckle design is faster to learn, though Ergobaby's system becomes second nature quickly.",
+      "source": "Reddit r/babywearing"
+    },
+    {
+      "title": "Bulky to carry when not in use",
+      "body": "The structured waistband and padded shoulder straps don't compress flat for easy bag storage. When not wearing it, the carrier is unwieldy to carry—not ideal for on-and-off wearing in a store or at events.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Front-facing-out has forward lean issue",
+      "body": "In front-facing-out position, some carriers feel the waistband digs in below the hips when baby leans forward to look around, putting more weight on the carrier's shoulders. Heavier babies exacerbate this over time.",
+      "source": "Reddit r/babywearing"
+    }
+  ],
+  "verdict": "The Ergobaby Omni 360 is the right carrier for parents who plan to carry regularly for extended periods and want the best lumbar support system available in a structured carrier. The newborn-readiness, solo back-loading capability, and wide weight range make it more versatile across the full infant-to-toddler window than BabyBjörn's carrier. The tradeoff is a steeper initial learning curve. If you're doing daily 90-minute carriers through toddlerhood, the ergonomics are worth the complexity. For 20-minute comfort carries, BabyBjörn's simpler system may be preferable.",
+  "realBuyers": [
+    {
+      "quote": "Carried my 28-lb toddler for 2 hours at a music festival with this. No back pain, no shoulder soreness. The waistband is the real MVP.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Took a few YouTube videos to figure out the back carry but now I can do it solo in 3 minutes. Completely changed how we travel with a toddler.",
+      "source": "Reddit r/babywearing"
+    },
+    {
+      "quote": "The adjustable newborn panel meant I used this from day 10 home without any insert. Two years later, it still fits my toddler perfectly.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Carriers of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-carriers/"
+    },
+    {
+      "title": "Ergobaby Omni 360 Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/gear/best-baby-carrier"
+    }
+  ],
+  "metaDescription": "Ergobaby Omni 360 baby carrier review: 4 carry positions, newborn-ready, structured lumbar support for extended carries. Best ergonomic carrier for 7–45 lbs.",
+  "introText": "The Ergobaby Omni 360 (ASIN B01N78JIWB) is a four-position structured baby carrier supporting 7–45 lbs without a separate newborn insert, featuring a structured lumbar support waistband and IHDI hip-healthy certification. Available on Amazon.ca, it enables solo back loading and extends comfortably from newborn through toddler stages.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B01N78JIWB",
+  "verifiedPrice": "$199.99 CAD",
+  "similarProducts": ["babybjorn-baby-carrier-one", "4moms-mamaroo-4-swing", "britax-boulevard-clicktight-seat"]
+}

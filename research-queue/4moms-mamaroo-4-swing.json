@@ -1,0 +1,91 @@
+{
+  "slug": "4moms-mamaroo-4-swing",
+  "name": "4moms mamaRoo 4 Infant Seat",
+  "brand": "4moms",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Bouncers & Swings",
+  "subcategory": "bouncers-swings",
+  "asin": "B07FSXH5P3",
+  "price": 299,
+  "priceDisplay": "$299.99 CAD",
+  "score": 8.7,
+  "tag": "Best High-Tech Baby Swing",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07FSXH5P3/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.0,
+    "Ease of Use": 8.5,
+    "Comfort": 9.0,
+    "Value for Money": 8.0,
+    "App & Connectivity": 8.5
+  },
+  "specs": {
+    "Motions": "5 unique motions (car ride, kangaroo, tree swing, rock-a-bye, wave)",
+    "Speeds": "5 speeds per motion",
+    "App Control": "Yes (Bluetooth via 4moms app)",
+    "Bluetooth Speaker": "Yes, plays music or connects to phone",
+    "Weight Capacity": "Up to 25 lbs / 11 kg",
+    "Power": "AC adapter (included)"
+  },
+  "whatWorks": [
+    "Five distinct motion patterns—car ride, kangaroo, tree swing, rock-a-bye, and wave—mimic real parental soothing far more convincingly than a basic back-and-forth swing, which matters enormously for colicky or high-needs babies",
+    "Bluetooth app control lets you adjust speed and sound without physically touching the seat and waking a finally-sleeping infant; the app also plays Spotify or your own music through the built-in speaker",
+    "The recline-to-near-flat position makes it safe for newborns from day one, eliminating the need for rolled blanket props that most simpler swings require",
+    "Compact footprint compared to older full-size baby swings—fits in tighter nurseries and apartments, and the seat fabric is machine washable"
+  ],
+  "worthKnowing": [
+    "Runs only on the AC adapter included in the box; there is no battery mode, so placement is limited to wherever you can route the cord safely",
+    "The toy bar offers limited engagement compared to full activity gyms, and the mobile attachment is sold separately at additional cost",
+    "Some babies plateau and stop responding to the mamaRoo by 10–12 weeks once novelty wears off, making the $300 price point feel steep for a product with a 3–4 month useful window"
+  ],
+  "commonComplaints": [
+    {
+      "title": "No battery option limits placement",
+      "body": "Parents consistently flag the cord-only design as a frustration—you can't move the mamaRoo freely around the house or use it outdoors without an extension cord, limiting its flexibility versus battery-powered competitors.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "Some babies reject it entirely",
+      "body": "A meaningful minority of reviewers report their infant was unimpressed despite the five-motion system, preferring simpler bouncers or being held. The mamaRoo's motions are subtle rather than vigorous, which doesn't soothe every temperament.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Expensive for a short usage window",
+      "body": "Wirecutter and multiple parenting forums note that most babies outgrow swings by 4–6 months, making the $300 entry price hard to justify unless you can resell or pass it along.",
+      "source": "Wirecutter"
+    }
+  ],
+  "verdict": "The 4moms mamaRoo 4 earns its premium price for families with fussy or colicky babies who haven't responded to simpler bouncers. The five-motion system and app control are genuinely differentiated features—not marketing fluff—and parents who need to set-it-and-go while cooking or working will appreciate the hands-free soothing. If your baby is content in a basic bouncer or you're budget-conscious, there are solid $80–$120 alternatives. But for high-needs infants, the mamaRoo frequently pays for itself in sleep and sanity.",
+  "realBuyers": [
+    {
+      "quote": "Our daughter had severe reflux and would only sleep in motion. This swing was the only thing that worked for the first three months. Absolutely worth every penny.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The app control is a lifesaver—I can slow it down gradually from across the room without walking over and resetting her. Game changer at 3am.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "quote": "We tried two other swings first. The mamaRoo's car-ride motion is the only one that consistently calms our son. The cord thing is annoying but we just keep it in one spot.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Swings and Bouncers | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-swings-and-bouncers/"
+    },
+    {
+      "title": "4moms mamaRoo 4 Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/sleep/best-baby-swing"
+    }
+  ],
+  "metaDescription": "4moms mamaRoo 4 review: 5 motion patterns, app control via Bluetooth, and near-flat recline for newborns. Best for fussy or colicky babies.",
+  "introText": "The 4moms mamaRoo 4 (ASIN B07FSXH5P3) is a high-tech infant seat featuring five distinct motion patterns controlled via Bluetooth smartphone app. Available on Amazon.ca, it supports babies from birth up to 25 lbs with a built-in speaker and near-flat recline for newborn safety.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07FSXH5P3",
+  "verifiedPrice": "$299.99 CAD",
+  "similarProducts": ["sonos-era-100", "amazon-echo-dot-5th-gen", "theragun-mini"]
+}

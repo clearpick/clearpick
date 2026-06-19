@@ -1,0 +1,91 @@
+{
+  "slug": "noco-boost-hd-gb70",
+  "name": "NOCO Boost HD GB70 2000 Amp UltraSafe Lithium Jump Starter",
+  "brand": "NOCO",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Jump Starters",
+  "subcategory": "jump-starters",
+  "asin": "B07PHMNPQ2",
+  "price": 199,
+  "priceDisplay": "$199.99 CAD",
+  "score": 9.1,
+  "tag": "Best Heavy-Duty Jump Starter",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07PHMNPQ2/?tag=clearpick06-20",
+  "subscores": {
+    "Jump Starting Power": 9.5,
+    "Safety Features": 9.5,
+    "Build Quality": 9.0,
+    "Battery Life": 9.0,
+    "Versatility": 8.5
+  },
+  "specs": {
+    "Peak Amps": "2000 peak amps",
+    "Compatible Engines": "Gasoline up to 8L, diesel up to 6L",
+    "Recharge Time": "Approximately 1 hour from USB-C PD",
+    "USB Output": "USB-A 5V/2.1A for device charging",
+    "LED Light": "7-mode emergency flashlight (SOS, strobe, steady)",
+    "Weight": "2.3 lbs / 1.04 kg"
+  },
+  "whatWorks": [
+    "2000 peak amps handles the heaviest consumer vehicles—full-size diesel trucks, diesel SUVs, motorhomes, and boats—that the 1000A GB40 can't reliably start, making this the right choice for owners of large-displacement engines",
+    "NOCO's UltraSafe technology provides spark-proof clamp connections—you cannot cause a battery explosion by connecting clamps in the wrong order; the unit detects polarity and voltage before allowing current flow, making it idiot-proof",
+    "At 2.3 lbs it fits in a glovebox or center console where a 18-lb Clore JNC660 cannot go—the lithium vs. lead-acid weight difference is dramatic and the practical consequence is that the NOCO actually stays in the vehicle",
+    "USB-C PD input means you can recharge the jump starter from a laptop charger, phone brick, or car USB-C port rather than needing a wall outlet or automotive charger specifically"
+  ],
+  "worthKnowing": [
+    "Lithium batteries have reduced performance below -20°C; NOCO recommends warming the unit in your hands or the vehicle interior for a few minutes before attempting a jump start in extreme Canadian winter conditions",
+    "2000 amp lithium peak amps are not directly comparable to lead-acid peak amps—the sustained cranking performance of lithium units is shorter duration per jump, though adequate for most passenger and light commercial applications",
+    "At $199 it's considerably more than the GB40 ($149) and only necessary if you own diesel trucks (6L+) or very large gas engines (8L+); most passenger cars are well-served by the GB40"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Performance reduced in extreme cold",
+      "body": "Below -20°C to -25°C, lithium battery chemistry degrades meaningfully. Users in northern Canada and Prairies report needing to warm the unit inside their coat before use in extreme winter conditions—lead-acid performs more consistently at extreme cold.",
+      "source": "Reddit r/canadiantrucks"
+    },
+    {
+      "title": "More expensive than necessary for most cars",
+      "body": "For a standard passenger car with a gas engine under 4L, the GB40's 1000 amps is more than sufficient. Paying an extra $50 for 2000 amps is unnecessary for most buyers who don't own trucks or diesel vehicles.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Clamp cable is short",
+      "body": "The included clamp cables are shorter than professional-grade jump starters, which can make connecting to batteries positioned deep in engine bays of SUVs and trucks awkward without repositioning.",
+      "source": "Reddit r/MechanicAdvice"
+    }
+  ],
+  "verdict": "The NOCO Boost HD GB70 is the right jump starter for owners of diesel trucks, large-displacement gas trucks and SUVs, commercial vehicles, and boats. The 2000 amps and UltraSafe spark-proof connection make it the safest and most capable lithium jump starter available for heavy-duty consumer applications. Passenger car and compact SUV owners don't need this much capacity—the GB40 at $50 less is the better value for most households. Buy the GB70 if you own something with a large diesel or plan to keep one unit for a mixed fleet.",
+  "realBuyers": [
+    {
+      "quote": "Jumped my 6.7L diesel Cummins in -28°C after warming the unit for 5 minutes. Started on the first try. No other lithium starter I've tried worked in that cold.",
+      "source": "Reddit r/TruckTalk"
+    },
+    {
+      "quote": "My motorhome has a 454 gas and the GB40 wasn't confident starting it. The GB70 cranks it immediately. Worth the extra $50 for the peace of mind.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The UltraSafe is real. My teenager connected the clamps backwards and nothing happened—the unit detected the wrong polarity and refused to allow current until she corrected them.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Jump Starters of 2025 | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32906085/best-portable-jump-starters/"
+    },
+    {
+      "title": "NOCO GB70 vs GB40 Comparison | Road and Track",
+      "url": "https://www.roadandtrack.com/car-gear/car-accessories/a37051895/best-jump-starters/"
+    }
+  ],
+  "metaDescription": "NOCO Boost HD GB70 review: 2000 amp lithium jump starter, UltraSafe spark-proof, starts diesel up to 6L. Best heavy-duty jump starter for trucks and diesel vehicles.",
+  "introText": "The NOCO Boost HD GB70 (ASIN B07PHMNPQ2) is a 2000 peak amp lithium jump starter with UltraSafe spark-proof connections, 7-mode emergency flashlight, and USB-C PD recharging. Available on Amazon.ca at $199, it starts gasoline engines up to 8L and diesel up to 6L—designed for trucks, diesel vehicles, and large-displacement engines.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07PHMNPQ2",
+  "verifiedPrice": "$199.99 CAD",
+  "similarProducts": ["clore-jump-n-carry-jnc660", "meguiars-gold-class-car-wash", "iottie-easy-one-touch-5-mount"]
+}

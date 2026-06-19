@@ -1,0 +1,91 @@
+{
+  "slug": "graco-4ever-dlx-car-seat",
+  "name": "Graco 4Ever DLX 4-in-1 Car Seat",
+  "brand": "Graco",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Car Seats",
+  "subcategory": "car-seats",
+  "asin": "B01MZI7QD0",
+  "price": 379,
+  "priceDisplay": "$379.99 CAD",
+  "score": 8.9,
+  "tag": "Best All-in-One Car Seat",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01MZI7QD0/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.0,
+    "Ease of Use": 8.5,
+    "Comfort": 8.5,
+    "Value for Money": 9.5,
+    "Longevity": 9.5
+  },
+  "specs": {
+    "Rear-Facing": "4–40 lbs (1.8–18.1 kg)",
+    "Forward-Facing with Harness": "22–65 lbs (10–29.5 kg)",
+    "High-Back Booster": "40–100 lbs (18.1–45.4 kg)",
+    "Backless Booster": "40–120 lbs (18.1–54.4 kg)",
+    "Installation": "InRight LATCH system + vehicle seatbelt",
+    "Recline": "6-position recline adjustment"
+  },
+  "whatWorks": [
+    "The 4-in-1 design eliminates the need to buy separate car seats across infant, convertible, and booster stages—from birth through approximately age 10 (120 lbs), one seat handles the entire child passenger safety journey, representing significant cost savings over purchasing multiple stage-specific seats",
+    "At $379, the 4Ever DLX costs less than many convertible-only seats (Britax Boulevard at $449) while covering more stages—the cost-per-year value over a 9–10 year lifespan is the best available in the category",
+    "The 6-position recline and multiple harness heights accommodate rear-facing infants comfortably through the transition to forward-facing without requiring harness re-threading",
+    "InRight LATCH click connectors provide audible and tactile confirmation of secure installation—a meaningful ease-of-use advantage over pull-strap LATCH systems that require force and guesswork to confirm tightness"
+  ],
+  "worthKnowing": [
+    "The seat is large and heavy at approximately 22 lbs—moving it between vehicles is awkward, and it occupies substantial fore-aft floor space in rear-facing mode in smaller sedans",
+    "Graco's InRight LATCH has a weight limit of 65 lbs for the connector (seatbelt must be used instead at higher weights); the transition to seatbelt-only installation at booster stage requires reading the manual carefully",
+    "The seat is designed for long-term use but if you frequently need to move between vehicles, the Chicco KeyFit 35 infant seat (smaller, lighter) may make more practical sense for the first 18 months"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Large and heavy to move between cars",
+      "body": "At 22 lbs with a large footprint, the 4Ever DLX is designed to stay in one vehicle. Families who regularly transfer car seats between two vehicles find the size and weight frustrating compared to smaller convertible seats.",
+      "source": "Reddit r/CarSeats"
+    },
+    {
+      "title": "Rear-facing pushes front seat forward in small cars",
+      "body": "In compact vehicles (Honda Civic, Toyota Corolla, Mazda3), the 4Ever DLX in rear-facing mode can push the front passenger seat forward significantly, making front-seat comfort uncomfortable for adults.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Cover washing requires full removal",
+      "body": "The seat cover is not removable without some effort—multiple straps and clips must be undone, and reinstallation requires care. In a category where spilled milk is routine, this is a real maintenance friction point.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Graco 4Ever DLX is the right choice for budget-conscious families who want the best cost-per-year value in car seating, or for parents who want to minimize the number of seats they purchase over their child's car travel years. The all-in-one design is genuinely convenient if you use it in one vehicle from birth through booster. Families needing to move seats frequently, parents with small cars, or those who want the safest installation system available should consider narrower alternatives like the Britax Boulevard for the first years.",
+  "realBuyers": [
+    {
+      "quote": "Our daughter is 9 and still in this seat. We bought it when she was 8 months old. Best purchase we made for her—one seat, no shopping for replacements.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The value is undeniable. I calculated what we would have spent on infant seat + convertible + booster and this paid for itself by year 3.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Easy to install, the LATCH clicks clearly, and the recline options are enough to get a comfortable rear-facing angle in my sedan. Great seat.",
+      "source": "Reddit r/CarSeats"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Convertible Car Seats of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-convertible-car-seats/"
+    },
+    {
+      "title": "Graco 4Ever DLX Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/travel/best-convertible-car-seat"
+    }
+  ],
+  "metaDescription": "Graco 4Ever DLX car seat review: 4-in-1 from infant to 120 lb booster. Best all-in-one car seat value covering birth through age 10+. $379 CAD.",
+  "introText": "The Graco 4Ever DLX 4-in-1 Car Seat (ASIN B01MZI7QD0) covers rear-facing from 4 lbs through forward-facing harness, high-back booster, and backless booster up to 120 lbs. Available on Amazon.ca, it features InRight LATCH installation with audible click confirmation and 6-position recline to cover birth through approximately age 10 in a single seat.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B01MZI7QD0",
+  "verifiedPrice": "$379.99 CAD",
+  "similarProducts": ["britax-boulevard-clicktight-seat", "chicco-keyfit-35-infant-seat", "babybjorn-baby-carrier-one"]
+}

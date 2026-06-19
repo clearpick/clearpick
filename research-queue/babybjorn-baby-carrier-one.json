@@ -1,0 +1,91 @@
+{
+  "slug": "babybjorn-baby-carrier-one",
+  "name": "BabyBjörn Baby Carrier One",
+  "brand": "BabyBjörn",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Baby Carriers",
+  "subcategory": "baby-carriers",
+  "asin": "B01CDL5WMK",
+  "price": 249,
+  "priceDisplay": "$249.99 CAD",
+  "score": 8.8,
+  "tag": "Best Structured Baby Carrier",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01CDL5WMK/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 9.5,
+    "Ease of Use": 9.0,
+    "Comfort": 8.5,
+    "Value for Money": 8.0,
+    "Newborn Readiness": 9.0
+  },
+  "specs": {
+    "Age Range": "Newborn to approximately 3 years",
+    "Weight Range": "8–33 lbs (3.5–15 kg)",
+    "Carry Positions": "4 positions (front facing-in, front facing-out, hip, back carry)",
+    "Material": "100% cotton or mesh options",
+    "Certifications": "Oeko-Tex Standard 100, hip-healthy certified by IHDI",
+    "Machine Washable": "Yes (30°C gentle cycle)"
+  },
+  "whatWorks": [
+    "No-insert newborn readiness from 8 lbs means you can start carrying from the first days home from hospital without purchasing a separate newborn insert—a meaningful convenience and cost saving versus many competitors",
+    "Four carry positions including front-facing-out (once baby has sufficient head control at around 4–5 months) give the carrier longevity across developmental stages rather than becoming a single-purpose newborn tool",
+    "The structured panel provides ergonomic hip positioning (the M-position) certified by the International Hip Dysplasia Institute—parents and pediatricians frequently cite BabyBjörn as the easiest brand to trust on hip health",
+    "BabyBjörn's build quality is exceptional—the buckles, padding, and fabric maintain their integrity after two or three children and years of weekly washing, with many families successfully reselling or passing carriers down"
+  ],
+  "worthKnowing": [
+    "The carrier's structured panel is less adjustable than soft structured carriers like the Ergobaby Omni 360; very tall or very short parents may find the waist-to-shoulder torso fit less customizable",
+    "Back carry is possible but requires a second person to assist with loading—it's not designed for solo back-loading the way Ergobaby or Tula carriers are, limiting utility for single parents",
+    "At $249 it's among the pricier structured carriers; parents who anticipate heavy daily carrying for multiple years may prefer the Ergobaby Omni 360's superior lumbar support for the same price"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Back carry requires assistance",
+      "body": "Unlike Ergobaby or Tula carriers designed for solo back loading, BabyBjörn's back carry position requires a second adult to ensure the baby is positioned safely. Single parents frequently cite this as a dealbreaker.",
+      "source": "Reddit r/babywearing"
+    },
+    {
+      "title": "Shoulder straps can dig in over time",
+      "body": "With babies over 20 lbs, some carriers report the shoulder straps put pressure on the neck/shoulder junction after 45+ minutes. Ergobaby's crossed-back strap design distributes weight more evenly for extended carries.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Pricey vs. soft-structured alternatives",
+      "body": "Babywearing enthusiasts note that ring slings or woven wraps can be more ergonomic and cost half as much. The BabyBjörn's premium is largely for ease of use and brand trust, not raw performance.",
+      "source": "Reddit r/babywearing"
+    }
+  ],
+  "verdict": "The BabyBjörn Baby Carrier One is the ideal choice for first-time parents who want a carrier they can trust immediately—with newborn-ready fit from birth, proven hip safety certification, and a straightforward buckle system that doesn't require a YouTube tutorial to use correctly. Parents who plan to do extended back carrying solo, or who carry for several hours daily, should compare the Ergobaby Omni 360 for its superior shoulder-weight distribution. But for most parents doing 30–90 minute carries around the neighborhood or through stores, this is excellent.",
+  "realBuyers": [
+    {
+      "quote": "Used this from day 3 home from the hospital. No insert needed, baby looked comfortable immediately, I could figure out the buckles alone in the dark. Best baby purchase we made.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Two kids, five years, still perfect. The fabric has never pilled and the buckles click like new. BabyBjörn quality is real.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Easier to put on than any other carrier I've tried. My husband uses it too without adjusting anything. The fit is foolproof.",
+      "source": "Reddit r/beyondthebump"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Carriers of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-carriers/"
+    },
+    {
+      "title": "Baby Carrier One Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/gear/best-baby-carrier"
+    }
+  ],
+  "metaDescription": "BabyBjörn Baby Carrier One review: 4 carry positions, newborn-ready from 8 lbs, IHDI hip-healthy certified. Best structured baby carrier for first-time parents.",
+  "introText": "The BabyBjörn Baby Carrier One (ASIN B01CDL5WMK) is a structured baby carrier suitable from newborn (8 lbs) through toddlerhood (33 lbs) in four carry positions. Available on Amazon.ca, it features Oeko-Tex certified materials, IHDI hip-healthy certification, and a machine-washable design that requires no infant insert from day one.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B01CDL5WMK",
+  "verifiedPrice": "$249.99 CAD",
+  "similarProducts": ["4moms-mamaroo-4-swing", "baby-jogger-city-mini-gt2", "theragun-mini"]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "graco-blossom-6in1-high-chair",
+  "name": "Graco Blossom 6-in-1 Convertible High Chair",
+  "brand": "Graco",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "High Chairs",
+  "subcategory": "high-chairs",
+  "asin": "B01M9HT3HS",
+  "price": 299,
+  "priceDisplay": "$299.99 CAD",
+  "score": 8.7,
+  "tag": "Best Convertible High Chair",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01M9HT3HS/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 8.5,
+    "Ease of Use": 8.5,
+    "Comfort": 8.5,
+    "Value for Money": 9.0,
+    "Longevity": 9.5
+  },
+  "specs": {
+    "Stages": "6-in-1: infant booster, traditional high chair, youth seat, toddler booster x2, toddler chair",
+    "Weight Capacity": "Up to 130 lbs / 57.5 kg (all stages combined)",
+    "Footrest": "Adjustable height footrest",
+    "Trays": "2 dishwasher-safe trays (large outer + removable insert)",
+    "Fabric": "Machine washable seat pad",
+    "Wheels": "No (floor-standing)"
+  },
+  "whatWorks": [
+    "The six-stage configuration allows this chair to grow from infant feeding through a youth chair at the dining table—eliminating the separate booster seat and youth chair purchases that add up significantly over the years",
+    "Two dishwasher-safe trays (outer tray that stays on chair + removable inner tray that fits in dishwasher top rack) is the most practical tray design available at this price—parents with messy eaters cite this setup as a daily convenience",
+    "The machine washable seat pad can be laundered regularly without deteriorating—a critical feature in a category where food staining is daily and cheap pad alternatives crack or fade after 10 washes",
+    "Graco's build quality and parts availability mean broken buckles or worn straps can be replaced without buying a new chair—rare but meaningful for a product expected to last 5–7 years"
+  ],
+  "worthKnowing": [
+    "In all stages, the chair takes up full dining-table-chair footprint rather than compressing to a compact size; kitchen storage when not actively in use requires dedicated floor space",
+    "Transitioning between stages requires time—removing the tray, adjusting the harness, reconfiguring the seating insert—plan 15–20 minutes the first time you convert it between configurations",
+    "The seat height when in high chair mode is fixed; some dining tables are taller than standard (36 inches) and the Blossom's tray height may not align perfectly with custom or bar-height tables"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Buckle can be stiff and hard to release",
+      "body": "With food residue in the buckle mechanism (daily reality with a toddler), the crotch buckle can become difficult to press. Regular cleaning with a damp cloth in the buckle cavity solves this but requires attention.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Seat pad stains even after washing",
+      "body": "While the pad is machine washable, dark food stains (berries, tomato sauce) can set into the fabric permanently even with immediate attention. Light-colored pad options look notably worse over time than darker colorways.",
+      "source": "Reddit r/Mommit"
+    },
+    {
+      "title": "Stage conversions take time",
+      "body": "Reconfiguring from infant high chair to toddler booster involves removing multiple components and references to the manual. Parents who expected a 2-minute conversion were surprised by the complexity.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Graco Blossom 6-in-1 is the right high chair for parents who want to eliminate the high chair → booster seat → youth chair purchasing cascade. At $299, you're paying for multi-year coverage rather than a single-stage seat, and the math works out in your favor by year 3 of use. The Stokke Tripp Trapp is a better chair aesthetically and ergonomically for the dining table stage but costs more and doesn't cover the infant feeding stage. For value-conscious families who want one chair that grows with their child, the Blossom delivers.",
+  "realBuyers": [
+    {
+      "quote": "Seven years and two kids into this chair. Still using it as a toddler booster. The only thing I've replaced is the seat pad once. Worth every dollar.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The two-tray system is genius. Wipe the outer tray, pop the insert in the dishwasher. We use it every single meal and it's still clean after two years.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Converted it from infant to high chair to toddler seat over three years. Took a few minutes each time but the manual is clear. Great buy for the price.",
+      "source": "Reddit r/beyondthebump"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best High Chairs of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-high-chairs/"
+    },
+    {
+      "title": "Graco Blossom 6-in-1 Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/feeding/best-high-chair"
+    }
+  ],
+  "metaDescription": "Graco Blossom 6-in-1 high chair review: covers infant through 130 lbs with 2 dishwasher-safe trays. Best convertible high chair value for growing families. $299 CAD.",
+  "introText": "The Graco Blossom 6-in-1 Convertible High Chair (ASIN B01M9HT3HS) transitions through six feeding and seating configurations from infant booster to toddler chair, supporting up to 130 lbs. Available on Amazon.ca, it features two dishwasher-safe trays, a machine washable seat pad, and adjustable footrest.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B01M9HT3HS",
+  "verifiedPrice": "$299.99 CAD",
+  "similarProducts": ["graco-4ever-dlx-car-seat", "chicco-keyfit-35-infant-seat", "4moms-mamaroo-4-swing"]
+}

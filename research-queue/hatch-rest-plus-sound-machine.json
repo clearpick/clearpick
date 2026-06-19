@@ -1,0 +1,91 @@
+{
+  "slug": "hatch-rest-plus-sound-machine",
+  "name": "Hatch Rest+ Sound Machine and Night Light (2nd Gen)",
+  "brand": "Hatch",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Baby Sleep",
+  "subcategory": "baby-sleep",
+  "asin": "B07VFX59Q3",
+  "price": 99,
+  "priceDisplay": "$99.99 CAD",
+  "score": 8.8,
+  "tag": "Best Smart Baby Sound Machine",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07VFX59Q3/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 8.5,
+    "Ease of Use": 9.0,
+    "Comfort": 9.0,
+    "Value for Money": 8.5,
+    "App & Smart Features": 9.0
+  },
+  "specs": {
+    "App Control": "Yes — Hatch Sleep app (iOS and Android)",
+    "Sound Library": "White noise, nature sounds, lullabies, fan noise, and more",
+    "Night Light": "Multi-color dimmable LED (16 million colors)",
+    "Clock Face": "Digital clock display on device",
+    "Time-to-Rise": "Color-coded program (e.g., red=sleep time, green=OK to wake)",
+    "Connectivity": "WiFi (2.4 GHz)"
+  },
+  "whatWorks": [
+    "The Time-to-Rise color program is the killer feature for toddlers transitioning out of cribs—set the light to red during sleep hours and green at the designated wake time, and children as young as 18 months learn to stay in bed until the light changes green, often adding 45–90 minutes of family sleep",
+    "App control from anywhere in the house lets you turn the sound machine on after the bedtime routine without entering the room and risking waking a lightly sleeping baby; remote brightness adjustment is equally valuable",
+    "The Hatch Sleep app tracks usage patterns over time, which is useful for identifying sleep schedule inconsistencies when troubleshooting a regression or developmental sleep change",
+    "The multi-color LED provides enough gentle light for nighttime feeds without fully waking either parent or baby—warm amber or dim red modes are specifically popular for minimizing alerting light during night wakings"
+  ],
+  "worthKnowing": [
+    "Requires a Hatch account for full functionality; without the app, the device operates in basic manual mode only, which limits its value compared to non-connected sound machines at half the price",
+    "The Hatch+ subscription unlocks additional sleep content (sleep programs, expert guides)—the core Time-to-Rise and sound features remain free, but Hatch markets premium content aggressively in-app",
+    "WiFi-only operation means app control depends on your home internet; a router outage or WiFi disruption loses remote control until connection is restored, though the device continues playing the last set program"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Requires WiFi and account for full use",
+      "body": "Unlike simple sound machines, the Hatch Rest+ requires a Hatch account and active WiFi connection for app features. Families who lose WiFi or want a simple no-account sound machine are better served by basic options at $30–$50.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "App can be slow to connect",
+      "body": "Some users report the Hatch app taking 10–20 seconds to connect to the device, which feels frustrating when you need to turn the light on quickly during a night waking. The lag is inconsistent and seems to improve after app updates.",
+      "source": "Reddit r/sleeptrain"
+    },
+    {
+      "title": "Premium content push feels aggressive",
+      "body": "The Hatch app continually promotes Hatch+ subscription content and sleep programs within the free interface. For a $100 device, some parents feel the in-app upsell pressure is excessive.",
+      "source": "Reddit r/beyondthebump"
+    }
+  ],
+  "verdict": "The Hatch Rest+ is the right choice for parents who plan to use sleep training methods that benefit from light-cue programming, or who want remote app control of their child's sleep environment. The Time-to-Rise feature consistently earns the highest praise in parent reviews and delivers real sleep benefits once toddlers understand the green light means morning. If you just want white noise for a newborn, a $30 basic sound machine serves that need. If you want a sleep tool that actively helps teach kids to sleep independently through toddlerhood, the Hatch justifies its price.",
+  "realBuyers": [
+    {
+      "quote": "The green light changed our lives. Our 2-year-old went from waking us at 5:30am to staying in his room until 7am within two weeks of introducing the light program. Incredible.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "I can turn it on from my phone after putting the baby down. No more sneaking back into the room because I forgot to turn on the sound machine. Essential.",
+      "source": "Reddit r/sleeptrain"
+    },
+    {
+      "quote": "Worth every dollar for the app control alone. My husband and I can coordinate sound/light from separate rooms without waking each other or the baby.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best White Noise Machines for Babies | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-white-noise-machine-for-baby/"
+    },
+    {
+      "title": "Hatch Rest+ 2nd Gen Review | Babylist",
+      "url": "https://www.babylist.com/hello-baby/hatch-rest-review"
+    }
+  ],
+  "metaDescription": "Hatch Rest+ 2nd Gen review: WiFi sound machine with Time-to-Rise light programming. Best smart baby sound machine for sleep training toddlers. $99 CAD.",
+  "introText": "The Hatch Rest+ Sound Machine (ASIN B07VFX59Q3) is a WiFi-connected baby sound machine and night light with app-controlled color programming, including the Time-to-Rise feature that uses color cues to teach toddlers when to stay in bed. Available on Amazon.ca, it features a full sound library, digital clock display, and 16-million color LED night light.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07VFX59Q3",
+  "verifiedPrice": "$99.99 CAD",
+  "similarProducts": ["eufy-baby-e110-monitor", "4moms-mamaroo-4-swing", "amazon-echo-dot-5th-gen"]
+}

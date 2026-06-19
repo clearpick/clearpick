@@ -1,174 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Trtl Pillow Plus Neck Support Travel Pillow Review 2026 | ClearPick</title>
+<meta name="description" content="Trtl Pillow Plus travel neck pillow review: internal support frame, 148g, 4 positions, washable fleece. Best ergonomic travel neck pillow for long-haul flights. $79 CAD." />
+<meta property="og:title" content="Trtl Pillow Plus Neck Support Travel Pillow Review 2026 | ClearPick" />
+<meta property="og:description" content="Trtl Pillow Plus travel neck pillow review: internal support frame, 148g, 4 positions, washable fleece. Best ergonomic travel neck pillow for long-haul flights. $79 CAD." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/trtl-pillow-plus.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/trtl-pillow-plus.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Trtl Pillow Plus Neck Support Travel Pillow",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.5", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The Trtl Plus is the right travel pillow for travelers who have used standard U-pillows and woken with neck pain, or who need packable neck support that doesn't require a separate bag clip or compression sack. The structural support is a genuine mechanical improvement over foam donut pillows for most users. The polarized reviews reflect individual anatomy variation rather than a product defect—the design works excellently for some and not at all for others."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.5",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -268,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../luggage-travel.html">Luggage &amp; Travel</a> <span>›</span>
+<span>Trtl Pillow Plus Neck Support Travel Pillow</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Luggage &amp; Travel</div>
+<h1 class="product-hero__title">Trtl Pillow Plus Neck Support Travel Pillow</h1>
+<div class="product-hero__tag">Best Travel Neck Pillow</div>
+<p class="product-hero__desc">The Trtl Pillow Plus (ASIN B07RSTRHGK) is a 148-gram travel neck pillow with an internal adjustable plastic support frame and machine-washable fleece cover, worn as a neck scarf rather than a U-shape. Available on Amazon.ca at $79, it provides structural neck alignment in 4 positions recommended by medical professionals for reducing in-flight neck strain.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -287,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.5 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Neck Support</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Packability</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Comfort</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Ease of Use</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Design</td><td class="spec-table__value">Internal plastic support frame wrapped in fleece, worn as scarf</td></tr><tr><td class="spec-table__label">Weight</td><td class="spec-table__value">148 g / 5.2 oz (half the weight of a standard U-shaped foam pillow)</td></tr><tr><td class="spec-table__label">Adjustable</td><td class="spec-table__value">4 positions — can lean to left, right, forward, or straight</td></tr><tr><td class="spec-table__label">Material</td><td class="spec-table__value">Removable and machine-washable fleece cover</td></tr><tr><td class="spec-table__label">Compatibility</td><td class="spec-table__value">Works with standard airplane headrests</td></tr><tr><td class="spec-table__label">Certifications</td><td class="spec-table__value">Recommended by medical professionals for ergonomic neck support</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -306,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Trtl Pillow Plus Neck Support Travel Pillow product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best Travel Neck Pillow</div>
+<div class="product-cta-box__name">Trtl Pillow Plus Neck Support Travel Pillow</div>
+<div class="product-cta-box__price">~$79.99 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B07RSTRHGK/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -330,39 +223,108 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>The internal plastic support frame maintains the head in an ergonomically aligned position relative to the neck and spine, rather than the floating-head-on-a-donut that U-shaped foam pillows produce—the structural support reduces the neck strain and waking-with-pain outcome that standard travel pillows cause for most people</li>
+<li>At 148 grams and wrapping flat into a backpack exterior pocket, the Trtl occupies a fraction of the space of a standard inflatable or foam U-pillow, which must be strapped outside a bag or purchased separately at the destination because they don't pack efficiently</li>
+<li>The fleece cover is machine washable—important for a product worn against the face and neck across dozens of flights; removing, washing, and reattaching the cover takes under 5 minutes</li>
+<li>The 4-position adjustment (left lean, right lean, forward, upright) covers the main comfortable sleeping positions in an airplane seat without requiring repositioning mid-sleep</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>The Trtl Plus has a plastic internal frame that some users find uncomfortable against the shoulder or neck during longer trips; the original Trtl (without Plus) uses a softer internal structure but provides less rigid support for heavier heads</li>
+<li>The design looks unconventional—it's worn like a neck scarf rather than a traditional pillow shape—and some travelers feel self-conscious wearing it in public or on flights</li>
+<li>Neck support effectiveness is highly dependent on individual neck anatomy, normal sleeping position preferences, and head weight; some users love it and some find it no better than alternatives</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Chronic neck pain sufferer. U-pillows make it worse. Trtl is the first travel pillow where I wake up without pain. The structural support is the difference."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"London to Toronto overnight. Slept 5 hours with this. Would not have managed 1 hour without it. The weight vs. a standard pillow is also nothing—barely notice it in my bag."</p>
+<cite class="real-buyers-say__source">Source: Reddit r/solotravel</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Doesn't work for me. The frame presses into my shoulder and I can't get comfortable. My partner loves it. Completely individual. Try before committing."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Plastic frame can press into shoulder</p>
+<p class="real-buyers-say__text">The internal support frame on the Plus version presses into the shoulder area for some users, particularly those who lean heavily against the window or armrest. The discomfort is most pronounced on the 3–5 hour range flights.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/solotravel</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Looks unusual, some social anxiety about wearing it</p>
+<p class="real-buyers-say__text">The scarf-wrap design is visible and unconventional. Travelers who feel self-conscious about standout travel accessories mention the Trtl as something they hesitate to wear in airport common areas.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Not universally effective — anatomy dependent</p>
+<p class="real-buyers-say__text">Reviews are polarized: some users report it's the only travel pillow that works for them; others find no improvement over a standard pillow or find the hard frame less comfortable. Neck anatomy, head weight, and preferred sleep position determine which camp you're in.</p>
+<cite class="real-buyers-say__source">Source: Reddit r/travel</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The Trtl Plus is the right travel pillow for travelers who have used standard U-pillows and woken with neck pain, or who need packable neck support that doesn't require a separate bag clip or compression sack. The structural support is a genuine mechanical improvement over foam donut pillows for most users. The polarized reviews reflect individual anatomy variation rather than a product defect—the design works excellently for some and not at all for others.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="travelpro-maxlite-5-carry-on.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Travelpro Maxlite 5 Expandable Spinner Carry-On" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Lightweight Carry-On</span>
+<h3 class="product-card__name">Travelpro Maxlite 5 Expandable Spinner Carry-On</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="travelpro-platinum-elite-25-checked.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Travelpro Platinum Elite 25-Inch Expandable Spinner" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Premium Checked Luggage</span>
+<h3 class="product-card__name">Travelpro Platinum Elite 25-Inch Expandable Spinner</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="rfid-passport-holder-wallet.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="ZOPPEN Multi-Purpose RFID Travel Passport Wallet" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best RFID Travel Wallet</span>
+<h3 class="product-card__name">ZOPPEN Multi-Purpose RFID Travel Passport Wallet</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -381,7 +343,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

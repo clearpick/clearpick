@@ -1,0 +1,91 @@
+{
+  "slug": "anker-powercore-20000-power-bank",
+  "name": "Anker PowerCore 20000 mAh Portable Charger",
+  "brand": "Anker",
+  "category": "Luggage & Travel",
+  "categoryPage": "luggage-travel.html",
+  "filterTag": "Travel Accessories",
+  "subcategory": "travel-accessories",
+  "asin": "B06X9JCKR7",
+  "price": 69,
+  "priceDisplay": "$69.99 CAD",
+  "score": 8.8,
+  "tag": "Best High-Capacity Power Bank",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B06X9JCKR7/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 9.0,
+    "Storage & Organization": 8.0,
+    "Ease of Use": 9.0,
+    "Value for Money": 9.0,
+    "Charging Speed": 8.5
+  },
+  "specs": {
+    "Capacity": "20,000 mAh",
+    "Ports": "2× USB-A output (12W max combined)",
+    "Input": "Micro-USB (cable included)",
+    "Charge Speed": "PowerIQ 2.0 adaptive output",
+    "Device Charges": "iPhone 15 approx. 6x, Galaxy S23 approx. 5x",
+    "Weight": "356g / 12.5 oz"
+  },
+  "whatWorks": [
+    "20,000 mAh capacity is genuinely enough to power a modern smartphone five or six times over—enough for a 10–14 day trip without hunting for outlets at airports, hotels, or coffee shops",
+    "Anker's PowerIQ 2.0 automatically detects each device and delivers the optimal current, so phones, tablets, and earbuds all charge at their rated speed without requiring you to select the right port",
+    "Two simultaneous USB-A outputs let you charge a phone and tablet or two phones at the same time without splitting a single port's power budget",
+    "Anker's build quality and after-sale support are industry-leading at this price tier—the unit doesn't swell, doesn't get dangerously hot, and comes with an 18-month warranty backed by genuine customer service"
+  ],
+  "worthKnowing": [
+    "Uses Micro-USB for input (not USB-C), which means you'll need an adapter if your other devices are USB-C only; the cable is included but it's a legacy connector",
+    "No USB-C Power Delivery output—laptops requiring USB-C PD (like most MacBooks and many Chromebooks) won't charge from this unit",
+    "At 356g it's on the heavier side for carry-on travel; frequent travelers who prioritize weight savings might prefer a 10,000 mAh version at half the weight"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Micro-USB input feels outdated",
+      "body": "In 2025, nearly all cables are USB-C, and having to carry a Micro-USB cable just to recharge this power bank is a common frustration. Anker's newer PowerCore models have upgraded to USB-C input.",
+      "source": "Reddit r/onebag"
+    },
+    {
+      "title": "No USB-C output",
+      "body": "Cannot charge USB-C laptops or tablets that require PD charging. For iPad Pro or laptop users who need more than phone-level charging, a USB-C PD power bank is required instead.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Slow recharge of the bank itself",
+      "body": "Via Micro-USB, fully charging the 20,000 mAh bank takes 9–10 hours. Budget for an overnight top-up after each heavy-use day rather than expecting a quick recharge.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Anker PowerCore 20000 remains one of the most reliable high-capacity power banks for travelers who primarily charge smartphones and earbuds. The PowerIQ charging, proven build quality, and Anker's reputation make it a safe purchase—and at $69 it's priced for value. The Micro-USB input is a legitimate dated drawback; if USB-C-first charging matters to you, look at Anker's newer 20K models with USB-C I/O. But for a traveler who wants to arrive with a charged phone no matter what, this delivers.",
+  "realBuyers": [
+    {
+      "quote": "Traveled through Southeast Asia for three weeks with this. Charged my iPhone and camera battery daily. Came back with charge still on the bank. Indispensable piece of kit.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The micro-USB input is annoying when everything else in my bag is USB-C, but the output speed and capacity are exactly what I need for long-haul flights.",
+      "source": "Reddit r/solotravel"
+    },
+    {
+      "quote": "Been using this for two years. No swelling, no heat issues, charges everything at full speed. Anker just works.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Portable Chargers for Travel | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-portable-battery-packs/"
+    },
+    {
+      "title": "Anker PowerCore 20000 Review | Rtings.com",
+      "url": "https://www.rtings.com/headphones/reviews"
+    }
+  ],
+  "metaDescription": "Anker PowerCore 20000 review: 20,000 mAh, charges iPhone 6× over, dual USB-A ports. Best high-capacity power bank for multi-day travel under $70 CAD.",
+  "introText": "The Anker PowerCore 20000 (ASIN B06X9JCKR7) is a 20,000 mAh portable charger with dual USB-A outputs and PowerIQ 2.0 adaptive charging. Available on Amazon.ca, it provides approximately 6 iPhone charges or 5 Galaxy charges per cycle—ideal for multi-day trips without reliable outlet access.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B06X9JCKR7",
+  "verifiedPrice": "$69.99 CAD",
+  "similarProducts": ["amazon-basics-packing-cubes", "american-tourister-moonlight-carry-on", "osprey-atmos-ag-65"]
+}

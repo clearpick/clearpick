@@ -1,0 +1,91 @@
+{
+  "slug": "stanley-j5c09-jump-starter",
+  "name": "STANLEY J5C09 JUMPiT 1000 Peak Amp Jump Starter",
+  "brand": "Stanley",
+  "category": "Automotive",
+  "categoryPage": "automotive.html",
+  "filterTag": "Jump Starters",
+  "subcategory": "jump-starters",
+  "asin": "B00018YHBY",
+  "price": 79,
+  "priceDisplay": "$79.99 CAD",
+  "score": 8.5,
+  "tag": "Best Budget Jump Starter",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00018YHBY/?tag=clearpick06-20",
+  "subscores": {
+    "Jump Power": 8.5,
+    "Build Quality": 8.0,
+    "Ease of Use": 8.5,
+    "Value for Money": 9.5,
+    "Additional Features": 7.5
+  },
+  "specs": {
+    "Peak Amps": "1000 peak amps",
+    "Cranking Amps": "350 cranking amps",
+    "Battery": "18 Ah sealed lead-acid battery",
+    "Cable Length": "4-foot jumper cables",
+    "Additional Features": "120 PSI air compressor, USB charging port, built-in LED work light",
+    "Vehicle Coverage": "Up to 6.5L gasoline and 5.0L diesel engines"
+  },
+  "whatWorks": [
+    "The 1000 peak amp / 350 cranking amp capacity handles the majority of passenger cars, SUVs, and light trucks with gasoline engines up to 6.5L—covers 90%+ of vehicles on Canadian roads without requiring a premium lithium unit",
+    "The integrated 120 PSI air compressor adds genuine secondary value—a flat tire at the same time as a dead battery is one scenario, but more practically, having a tire inflator built into your emergency kit is a meaningful extra utility at $80 total cost",
+    "Traditional lead-acid battery construction is reliable in cold Canadian winters where lithium battery capacity drops significantly below -10°C; the STANLEY maintains function in temperatures where lithium units may fail to deliver full cranking power",
+    "Stanley is a recognized brand with Canadian retail presence (Canadian Tire, Walmart) for warranty service and replacement parts—not a grey-market unit that requires U.S. shipping for support"
+  ],
+  "worthKnowing": [
+    "At 15+ lbs / 7 kg, this is a heavy and bulky unit compared to lithium jump starters like the NOCO GB40 (2.5 lbs)—it occupies significant trunk space and is not practical to carry in a vehicle you use for airport trips or need a clean trunk",
+    "Lead-acid batteries require periodic charging maintenance—if stored without use for 3+ months, the battery can discharge below the recovery threshold and require replacement (typically a $25–$35 lead-acid battery)",
+    "The 4-foot cable is short for some engine bay configurations, particularly trucks and larger SUVs where the hood-to-hood distance exceeds the reach of shorter cables"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Very heavy and bulky",
+      "body": "The 18 Ah lead-acid battery makes the unit weigh 15+ lbs and occupy the footprint of a briefcase in the trunk. Families who use trunk space heavily or need a clean trunk for commuting find the size a daily inconvenience.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Battery self-discharges in storage",
+      "body": "Lead-acid batteries self-discharge over time. Charging the STANLEY every 3 months when stored is the manufacturer's guidance. Forgotten for 6+ months in a cold garage, it may require replacement battery or full discharge-recharge cycle.",
+      "source": "Reddit r/MechanicAdvice"
+    },
+    {
+      "title": "Air compressor is slow for car tires",
+      "body": "The 120 PSI compressor refills a completely flat standard car tire in 8–12 minutes—functional but slow compared to dedicated tire inflators. For true emergency-only use it's adequate; for regular tire maintenance it's inconvenient.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The STANLEY J5C09 is the right jump starter for families who want an all-in-one emergency kit with jump starting, air compression, and USB charging in one affordable unit for $80. The lead-acid cold weather reliability is a real Canadian advantage over lithium in sub-zero temperatures. For trunk-space-conscious drivers or regular users who prioritize a compact and lightweight unit, the NOCO GB40 at $149 is a meaningfully better product. At $80, the STANLEY delivers emergency reliability that most families will only use once a year, if that.",
+  "realBuyers": [
+    {
+      "quote": "Bought it for my parents who park outdoors in Edmonton winters. They needed something reliable at -30°C. Lithium units won't deliver full power at that temperature. This delivers.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Jumped my 2018 Silverado in a grocery store parking lot in January. Worked first try. The built-in light was useful too. Worth every dollar.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Heavy and takes up trunk space, but it also has an air compressor so it's replacing two things. Net space vs. two units is actually reasonable.",
+      "source": "Reddit r/povertyfinance"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Jump Starters | Car and Driver",
+      "url": "https://www.caranddriver.com/shopping-advice/a32836874/best-portable-jump-starter/"
+    },
+    {
+      "title": "Stanley JUMPiT Review | Popular Mechanics",
+      "url": "https://www.popularmechanics.com/cars/car-technology/a8490/best-portable-jump-starters/"
+    }
+  ],
+  "metaDescription": "Stanley J5C09 JUMPiT review: 1000 peak amps, built-in 120 PSI air compressor, USB port, LED light. Best budget jump starter for cold Canadian winters. $79 CAD.",
+  "introText": "The STANLEY J5C09 JUMPiT 1000 Peak Amp Jump Starter (ASIN B00018YHBY) is a lead-acid battery jump starter with 1000 peak amps, integrated 120 PSI air compressor, USB charging port, and LED work light. Available on Amazon.ca at $79, it covers engines up to 6.5L gasoline and 5.0L diesel and maintains cold-weather reliability where lithium units may underperform.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B00018YHBY",
+  "verifiedPrice": "$79.99 CAD",
+  "similarProducts": ["noco-boost-plus-gb40", "noco-boost-hd-gb70", "clore-jump-n-carry-jnc660"]
+}

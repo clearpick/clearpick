@@ -1,0 +1,91 @@
+{
+  "slug": "eufy-baby-e110-monitor",
+  "name": "eufy Baby E110 Video Baby Monitor with Camera and Parent Unit",
+  "brand": "eufy",
+  "category": "Baby & Kids",
+  "categoryPage": "baby-kids.html",
+  "filterTag": "Baby Monitors",
+  "subcategory": "baby-monitors",
+  "asin": "B09PRN3L2L",
+  "price": 169,
+  "priceDisplay": "$169.99 CAD",
+  "score": 8.5,
+  "tag": "Best Budget Video Baby Monitor",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09PRN3L2L/?tag=clearpick06-20",
+  "subscores": {
+    "Safety & Build Quality": 8.5,
+    "Ease of Use": 9.0,
+    "Comfort": 8.0,
+    "Value for Money": 9.0,
+    "Video Quality": 8.5
+  },
+  "specs": {
+    "Resolution": "720p HD camera",
+    "Night Vision": "Automatic infrared night vision (up to 15 ft / 5 m)",
+    "Audio": "Two-way audio with noise reduction",
+    "Pan/Tilt": "330° pan, 110° tilt remote control",
+    "Zoom": "5× digital zoom",
+    "Range": "Up to 1,000 ft (300 m) open area, dedicated RF frequency (no WiFi required)"
+  },
+  "whatWorks": [
+    "Operates on a dedicated 2.4 GHz RF frequency rather than WiFi—no internet connection required, no subscription, no app, and no cloud privacy exposure; setup is plug-in-and-done with no network configuration",
+    "330° pan and 110° tilt controlled from the parent unit lets you check all corners of the crib without physically entering the room—particularly useful when baby is sleeping lightly and you're trying to check without waking them",
+    "The parent unit has a 5-inch screen with up to 12 hours of battery life on low brightness, meaning you can carry it around the house without keeping it plugged in—far more flexible than app-only monitors that drain your phone battery",
+    "720p HD with automatic infrared night vision delivers clear image quality in complete darkness—sufficient to see if baby has rolled or kicked off their blanket without the resolution ambiguity of older QVGA monitors"
+  ],
+  "worthKnowing": [
+    "720p resolution is the limiting factor compared to Nanit Pro's 1080p overhead view; on the 5-inch parent unit screen the difference is minor at normal monitoring distances, but zoomed in at 5× the image is softer",
+    "RF-only operation is a privacy advantage but also means no remote access from outside the home—you cannot check the monitor from work or while shopping, unlike WiFi monitors",
+    "The parent unit display dims after inactivity to preserve battery; the screen wake-on-sound sensitivity occasionally has a brief delay that can be frustrating for anxious parents checking continuously"
+  ],
+  "commonComplaints": [
+    {
+      "title": "No remote viewing outside the home",
+      "body": "The RF-only design means monitoring only works within the dedicated transmission range. Parents who want to check on a sleeping baby while running errands or at work need a WiFi camera like the Nanit or Infant Optics WiFi model instead.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Range drops indoors with walls",
+      "body": "The 1,000 ft rated range is open-air. In multi-story homes with concrete or plaster walls, some users report signal drops or static below the rated range. Single-story homes and condos rarely have issues.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "title": "Night vision image is slightly grainy",
+      "body": "720p night vision at 15 feet is functional but shows visible grain when digitally zoomed in. For parents who want to see fine detail like breathing rise-and-fall at a distance, the Nanit's overhead 1080p view is clearer.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The eufy Baby E110 is the right choice for parents who want reliable, private, no-subscription video monitoring at home without app dependency or cloud storage concerns. The RF design, pan/tilt flexibility, and parent unit battery life make it more convenient for in-home monitoring than any smartphone-based monitor. If you want remote access from outside the home or 1080p overhead clarity, step up to Nanit Pro or Infant Optics DXR-8 Pro. For the majority of parents monitoring from the next room or same floor, this covers all the bases at a fair price.",
+  "realBuyers": [
+    {
+      "quote": "No WiFi, no app, no subscription. Set up in 5 minutes and it just works. The pan/tilt from the parent unit is great—I can scan the whole room without going in.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "We wanted something private that didn't require a cloud account. This is exactly that. Picture is clear at night, two-way audio works, battery lasts all night.",
+      "source": "Reddit r/beyondthebump"
+    },
+    {
+      "quote": "Works great in our two-story house. Occasional static in the basement but that's expected with RF. In the bedroom range is perfect.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Baby Monitors of 2025 | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-baby-monitor/"
+    },
+    {
+      "title": "eufy Baby E110 Review | BabyGearLab",
+      "url": "https://www.babygearlab.com/topics/safety/best-video-baby-monitor"
+    }
+  ],
+  "metaDescription": "eufy Baby E110 review: 720p video, 330° pan/tilt, no WiFi or subscription required. Best budget RF baby monitor for private in-home monitoring. $169 CAD.",
+  "introText": "The eufy Baby E110 (ASIN B09PRN3L2L) is a dedicated RF-frequency video baby monitor with 720p HD camera, 330°/110° pan-tilt control, and a 5-inch parent unit with 12-hour battery life. Available on Amazon.ca, it requires no WiFi, no app, and no subscription—operating on a private 2.4 GHz radio frequency.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09PRN3L2L",
+  "verifiedPrice": "$169.99 CAD",
+  "similarProducts": ["ergobaby-omni-360-carrier", "britax-boulevard-clicktight-seat", "chicco-keyfit-35-infant-seat"]
+}

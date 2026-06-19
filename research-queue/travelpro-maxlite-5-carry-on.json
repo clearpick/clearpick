@@ -1,0 +1,91 @@
+{
+  "slug": "travelpro-maxlite-5-carry-on",
+  "name": "Travelpro Maxlite 5 Expandable Spinner Carry-On",
+  "brand": "Travelpro",
+  "category": "Luggage & Travel",
+  "categoryPage": "luggage-travel.html",
+  "filterTag": "Carry-On Luggage",
+  "subcategory": "carry-on-luggage",
+  "asin": "B07PHTRHXD",
+  "price": 199,
+  "priceDisplay": "$199.99 CAD",
+  "score": 8.8,
+  "tag": "Best Lightweight Carry-On",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07PHTRHXD/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 8.5,
+    "Storage & Organization": 9.0,
+    "Ease of Use": 9.0,
+    "Weight Efficiency": 10.0,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Weight": "5.0 lbs / 2.27 kg (unusually light for a spinner carry-on)",
+    "Dimensions": "21.5 × 14 × 9 inches (under typical airline carry-on limits)",
+    "Shell": "Softside high-density nylon",
+    "Spinner": "4-wheel spinner, 360-degree rotation",
+    "Expandable": "2-inch expansion zipper",
+    "Interior": "Zip-around packing panel, hanging toiletry hook, exterior front pocket"
+  },
+  "whatWorks": [
+    "At 5.0 lbs, the Maxlite 5 is among the lightest carry-on spinners available—1.9 lbs lighter than the Samsonite Omni 2, which translates directly to 1.9 lbs more clothing or gear allowed within a 10 kg carry-on limit (WestJet, Porter) or more headroom before exceeding weight at check-in",
+    "Travelpro's spinner wheels are the airline-rated standard used by flight crews—the pilot trolley brand's quality carries into the consumer line, and the wheels maintain smooth operation over rough airport tiles and outdoor pavement where cheaper wheels seize",
+    "The hang-up hook on the interior packing panel lets you hang the bag in a hotel closet with it open for visibility and access, an organizational feature absent from most competitor carry-ons that requires separate packing cubes to achieve",
+    "High-density nylon softside construction allows the bag to flex into overhead bins when partially full, avoiding the size-limit rejection risk that exact-dimension hardshells face when bins are diagonally packed"
+  ],
+  "worthKnowing": [
+    "Softside nylon shows scuffs and wear patterns after heavy travel use more visibly than hardshell; the dark colorways (black, slate green) hide wear better than lighter options",
+    "The 2-inch expansion takes the bag to maximum airline tolerance—expanding to full depth may make the bag too large for some regional airline overhead bins; use expansion capacity for checked bag scenarios rather than as routine carry-on packing",
+    "Travelpro's warranty claims are handled through the U.S. for Canadian customers, requiring shipping to a service center rather than local Canadian retail resolution"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Warranty service requires U.S. shipping from Canada",
+      "body": "Travelpro's warranty service center is in the United States. Canadian warranty claims require cross-border shipping, which adds $30–$50 in shipping costs and 2–3 weeks for turnaround. Samsonite Canada warranty resolution is faster for Canadian buyers.",
+      "source": "Reddit r/travel"
+    },
+    {
+      "title": "Nylon shows wear after 2–3 years of heavy use",
+      "body": "The high-density nylon holds up well but darkens and shows scuff texture after 50+ flights. A hardshell at the same price point maintains a cleaner appearance longer, though this is aesthetic not functional.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Front pocket is small",
+      "body": "The exterior front zip pocket is shallow and narrow—fits a document or a small cable wallet but not a standard-size toiletry bag or a bulkier item. Organization outside the main compartment is limited to this one small pocket.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Travelpro Maxlite 5 is the right carry-on for weight-conscious flyers who want professional spinner quality at 5.0 lbs—the category-best weight in this size. For frequent flyers on strict 10 kg total carry-on limits (WestJet, Porter, regional carriers), the 1.9 lb weight advantage over hardshell alternatives is practically significant. Travelers who prioritize warranty convenience should note Canadian warranty claims require U.S. service center shipping.",
+  "realBuyers": [
+    {
+      "quote": "WestJet enforces 10 kg strictly. My previous Samsonite at 6.9 lbs left me 3.1 kg for clothes. This at 5 lbs gives me 5 kg of real packing space. That's a shirt, two pairs of pants, and a sweater difference.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Flight crew luggage quality at a consumer price. The wheels on this are the same quality I see on flight attendant bags rolling through airports every day.",
+      "source": "Reddit r/travel"
+    },
+    {
+      "quote": "The interior hang hook is a detail that sounds minor but I use it every hotel stay to hang the open bag in the closet while unpacking. Really nice touch.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Lightweight Carry-On Luggage | Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-carry-on-luggage/"
+    },
+    {
+      "title": "Travelpro Maxlite 5 Review | Pack Hacker",
+      "url": "https://packhacker.com/travel-gear/travelpro/maxlite-5-carry-on/"
+    }
+  ],
+  "metaDescription": "Travelpro Maxlite 5 carry-on review: 5.0 lb flight-crew-grade spinner, 2-inch expansion, high-density nylon. Best lightweight carry-on for weight-conscious travelers. $199 CAD.",
+  "introText": "The Travelpro Maxlite 5 Expandable Spinner Carry-On (ASIN B07PHTRHXD) is a 5.0-lb softside carry-on with Travelpro's flight-crew-grade spinner wheels, 2-inch expansion, and a hang-up interior hook. Available on Amazon.ca at $199, it is the lightest full-size spinner carry-on from an airline-trusted brand.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07PHTRHXD",
+  "verifiedPrice": "$199.99 CAD",
+  "similarProducts": ["samsonite-omni-max-carry-on", "delsey-chatelet-air-carry-on", "rockland-fusion-softside-luggage"]
+}

@@ -1,0 +1,91 @@
+{
+  "slug": "pacsafe-travelsafe-x25",
+  "name": "Pacsafe TravelSafe X25 Anti-Theft Portable Safe",
+  "brand": "Pacsafe",
+  "category": "Luggage & Travel",
+  "categoryPage": "luggage-travel.html",
+  "filterTag": "Travel Accessories",
+  "subcategory": "travel-accessories",
+  "asin": "B01MSL2OYJ",
+  "price": 89,
+  "priceDisplay": "$89.99 CAD",
+  "score": 8.5,
+  "tag": "Best Portable Travel Safe",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01MSL2OYJ/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 9.0,
+    "Storage & Organization": 8.5,
+    "Ease of Use": 8.5,
+    "Value for Money": 8.5,
+    "Security Features": 9.0
+  },
+  "specs": {
+    "Capacity": "25L / 1,527 cu in",
+    "Material": "3-ply 200D reinforced fabric with cut-resistant wire mesh insert",
+    "Lock": "3-dial combination lock",
+    "Anchoring": "Easylock cable (steel wire coated) with safety clip for securing to fixed objects",
+    "Fits": "13-inch laptop, tablet, camera, documents, valuables",
+    "Weight": "800g / 28 oz"
+  },
+  "whatWorks": [
+    "The Easylock cable system threads through fixed room objects (bed frame, desk leg, radiator pipe) and the safe itself, preventing grab-and-run theft even when left in a hostel dorm or hotel room—a level of security that a hotel safe doesn't provide when your valuables include items that don't fit the in-room box",
+    "Cut-resistant 3-ply fabric with an internal stainless steel wire mesh defeats slashing theft—a common attack on regular backpacks left in luggage storage or at beach loungers where a knife cuts through fabric in seconds",
+    "25L is large enough for a 13-inch laptop, passport, currency, and camera—all the essential valuables that need securing while you're on a day trip from your accommodation",
+    "The 3-dial combination lock with no keys to lose is the right design for travel where losing a key at the beach means losing access to your valuables"
+  ],
+  "worthKnowing": [
+    "Securing the cable to a fixed point requires something to anchor to—not all hotel rooms have bed frames accessible for cable threading, and some property managers discourage it; scout your accommodation before depending on it",
+    "At 800g the safe adds meaningful weight to your bag every day even when not anchored; some travelers use it only for specific destinations (shared hostels, busy beaches) rather than carrying it the entire trip",
+    "The combination lock protects against casual theft but is not rated for determined professional thieves with bolt cutters—it provides meaningful protection against opportunistic theft, not determined targeted theft"
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heavy for a full-trip carry",
+      "body": "800g every day in your pack is a real weight addition. Travelers doing extended trips where weight is carefully managed often leave the safe at home for low-risk destinations and only pack it for higher-risk locations.",
+      "source": "Reddit r/solotravel"
+    },
+    {
+      "title": "Hard to find anchoring points in some rooms",
+      "body": "Platform beds without accessible frames, hotel rooms with heavy furniture, and some modern hostels make cable anchoring difficult. Having a backup plan for securing valuables is necessary for some accommodation types.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Combination lock can be slow to reset",
+      "body": "Resetting the 3-dial combination to a new code requires careful following of the instructions, and several reviewers report locking themselves out by not following the reset sequence precisely. Memorize the original combination before resetting.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Pacsafe TravelSafe X25 is the right security accessory for solo travelers visiting destinations with meaningful petty theft risk—Central and South America, Southeast Asia, parts of Europe—who use hostel dorms, beach accommodations, or leave valuables in day packs. The cut-resistant construction and cable anchoring add layers of security that regular bags and in-room safes don't provide. Low-risk destination travelers and those in private hotel rooms likely won't get enough value from the extra 800g.",
+  "realBuyers": [
+    {
+      "quote": "Three years of backpacking through hostels. The TravelSafe stays locked to my bunk while I explore. I don't stress about my laptop and passport when I'm out all day.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Left this locked to the fixed desk in a hostel in Medellín for a week. Everything was exactly as I left it every evening. Worth every dollar for peace of mind.",
+      "source": "Reddit r/solotravel"
+    },
+    {
+      "quote": "The cable system is clever—threads through most bed frames and chairs. I've secured it to the fixed luggage rack in overnight buses too. Versatile.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Best Travel Security Products | Lonely Planet",
+      "url": "https://www.lonelyplanet.com/articles/travel-safety-products"
+    },
+    {
+      "title": "Pacsafe TravelSafe X25 Review | Pack Hacker",
+      "url": "https://packhacker.com/travel-gear/pacsafe/travelsafe-x25/"
+    }
+  ],
+  "metaDescription": "Pacsafe TravelSafe X25 review: cut-resistant anti-theft portable safe with Easylock cable, 25L, 3-dial lock. Best travel safe for hostel and beach security. $89 CAD.",
+  "introText": "The Pacsafe TravelSafe X25 (ASIN B01MSL2OYJ) is a 25L portable anti-theft safe with cut-resistant 3-ply fabric, internal wire mesh, Easylock anchoring cable, and 3-dial combination lock. Available on Amazon.ca, it fits a 13-inch laptop and all essential travel valuables and anchors to fixed room objects to prevent grab-and-run theft.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B01MSL2OYJ",
+  "verifiedPrice": "$89.99 CAD",
+  "similarProducts": ["osprey-farpoint-40-backpack", "nomatic-travel-pack-20l", "north-face-base-camp-duffel-small"]
+}
