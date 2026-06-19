@@ -1429,12 +1429,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://clearpick.ca/products/ego-power-lb6504-leaf-blower.html</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
+    <url>
     <loc>https://clearpick.ca/products/ego-power-lm2156sp-self-propelled-mower.html</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

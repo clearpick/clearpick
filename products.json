@@ -7034,37 +7034,6 @@
     }
   },
   {
-    "id": "ego-power-lb6504-leaf-blower",
-    "name": "EGO Power+ LB6504 56V 650 CFM Cordless Leaf Blower",
-    "category": "Lawn & Garden",
-    "score": 9,
-    "tag": "Best Cordless Leaf Blower",
-    "icon": "🌿",
-    "image": "VERIFY_IMAGE_ID",
-    "price": "~$229 CAD",
-    "page": "products/ego-power-lb6504-leaf-blower.html",
-    "amazonUrl": "https://www.amazon.ca/dp/B0832FZT4V/?tag=clearpick06-20",
-    "subscores": {
-      "Airflow Power": 9.5,
-      "Battery Ecosystem": 9,
-      "Noise Level": 8,
-      "Weight": 7.5,
-      "Value": 8.5
-    },
-    "specs": {
-      "Voltage": "56V Arc-Lithium",
-      "Max Airflow": "650 CFM",
-      "Max Speed": "180 MPH",
-      "Variable Speed": "Yes — trigger + speed boost button",
-      "Turbo Mode": "Yes",
-      "LED Light": "Yes",
-      "Battery": "2.5Ah minimum (check kit — battery may or may not be included)",
-      "Runtime": "~45–75 min (battery dependent)",
-      "Weight": "~7.5 lb (without battery)",
-      "Ecosystem": "EGO 56V (shares with LM2156SP mower, trimmers, etc.)"
-    }
-  },
-  {
     "id": "ego-power-lm2156sp-self-propelled-mower",
     "name": "EGO Power+ LM2156SP 21\" 56V Self-Propelled Cordless Lawn Mower",
     "category": "Lawn & Garden",
