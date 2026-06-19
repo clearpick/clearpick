@@ -1,0 +1,110 @@
+{
+  "slug": "nordictrack-t65si-treadmill",
+  "name": "NordicTrack T 6.5Si Treadmill",
+  "brand": "NordicTrack",
+  "category": "Fitness Equipment",
+  "categoryPage": "fitness.html",
+  "filterTag": "Treadmills",
+  "subcategory": "treadmills",
+  "asin": "B088X5R4C3",
+  "price": 999,
+  "priceDisplay": "$999 CAD",
+  "score": 8.1,
+  "tag": "Best Mid-Range Treadmill",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B088X5R4C3/?tag=clearpick06-20",
+  "subscores": {
+    "Motor Power": 8,
+    "Build Quality": 8,
+    "Features": 8.5,
+    "Value": 7.5,
+    "Durability": 8
+  },
+  "specs": {
+    "Motor": "3.0 CHP",
+    "Speed Range": "0–12 MPH",
+    "Incline Range": "0–12%",
+    "Display": "7\" HD touchscreen",
+    "Weight Capacity": "300 lb",
+    "Belt Size": "20\" × 55\"",
+    "Connectivity": "iFIT compatible (subscription separate)"
+  },
+  "whatWorks": [
+    "The 3.0 CHP motor handles sustained jogging and running reliably — owners report it running without hesitation at 6–8 MPH for 45-minute sessions, which is the real test of home treadmill motor quality.",
+    "iFIT integration opens a library of thousands of on-demand and live workouts — Google Maps runs, studio classes, and auto-adjusting incline programs — that meaningfully extend the machine's usefulness beyond a basic belt and motor.",
+    "300 lb weight capacity is honest and consistent with reported use, making this appropriate for a wider range of users than budget treadmills that list 250 lb but flex noticeably under load.",
+    "The 12% incline range adds enough variety for incline walking workouts, which are among the most effective low-impact cardio formats — owners who do '12-3-30' style workouts consistently report it as their primary use case."
+  ],
+  "worthKnowing": [
+    "The iFIT subscription runs ~$39/month (or ~$396/year) — over three years of ownership this adds more to the total cost than the machine itself. Without a subscription, the display shows only basic speed and time data.",
+    "The 7\" display is noticeably small, especially compared to Peloton Tread and iFIT-branded competitors with 14–22\" screens. Buyers who want an immersive display experience should budget for a separate tablet mount.",
+    "Assembly is complex and involves 25+ steps and 40+ bolts. NordicTrack's own instructions assume two people; solo assembly is reported as 3+ hours. Professional assembly ($150–200 CAD) is worth considering.",
+    "Motor noise increases meaningfully above 6 MPH. In apartments or homes with shared floors, this is a real limitation for daytime and evening use."
+  ],
+  "commonComplaints": [
+    {
+      "title": "iFIT subscription required for full value…",
+      "body": "The machine works without iFIT but it's basically just a belt and motor. The whole reason to buy this over a cheaper treadmill is the iFIT classes, and that's another $400 a year.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "7-inch screen feels tiny in use…",
+      "body": "I put my iPad next to it because the built-in screen is too small to actually watch anything. At this price I expected something bigger.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Assembly took us almost four hours…",
+      "body": "Assembly was brutal. Instructions weren't clear, bolts stripped on one of the arms, and we had to watch YouTube to figure out the last steps. Pay for the assembly service.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Gets loud above 6 MPH…",
+      "body": "At walking and light jogging speeds it's fine, but once I hit 7 MPH it starts vibrating and the motor noise picks up noticeably. My downstairs neighbour has already knocked.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The NordicTrack T 6.5Si is a competent mid-range treadmill whose value proposition is almost entirely tied to iFIT — without the subscription, you're paying $999 for a motor and belt that competitors offer for $600. With iFIT, the on-demand class library and auto-adjusting incline programs justify the price for buyers who will actually use them consistently. The 7\" display is the clearest compromise at this price; bring a tablet if screen size matters. Assembly complexity is real and professional installation is worth the cost for most buyers.",
+  "realBuyers": [
+    {
+      "quote": "The iFIT classes are the reason I actually use this thing. I've done more cardio in the last 3 months than the last 3 years.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I do incline walking at 12% every morning. The motor handles it without a complaint. Great for low-impact calorie burn.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "At 285 lbs I was nervous but this thing doesn't flex or wobble at all. Solid machine.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Running on it daily for 8 months with zero issues. Worth every penny if you actually use it.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NordicTrack T 6.5Si — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B088X5R4C3"
+    },
+    {
+      "title": "NordicTrack T 6.5Si Review — Garage Gym Reviews",
+      "url": "https://www.garagegymreviews.com/nordictrack-t-6-5-si-treadmill-review"
+    },
+    {
+      "title": "Best Treadmills 2025 — Tom's Guide",
+      "url": "https://www.tomsguide.com/best-picks/best-treadmills"
+    }
+  ],
+  "metaDescription": "NordicTrack T 6.5Si treadmill review for Canada: 3.0 CHP motor, 12% incline, iFIT compatible. Honest on subscription cost and small display. ~$999 CAD.",
+  "introText": "The NordicTrack T 6.5Si is a mid-range home treadmill with a 3.0 CHP motor, 12% incline, and iFIT compatibility for on-demand workout classes. It's aimed at buyers who want more than a basic belt but aren't ready to spend $2,000+. Available on Amazon.ca (ASIN B088X5R4C3) at around $999 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B088X5R4C3",
+  "verifiedPrice": "$999 CAD",
+  "similarProducts": [
+    "concept2-rowerg",
+    "triggerpoint-grid-foam-roller",
+    "iron-gym-pull-up-bar"
+  ]
+}

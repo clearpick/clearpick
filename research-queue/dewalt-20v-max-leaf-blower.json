@@ -1,0 +1,113 @@
+{
+  "slug": "dewalt-20v-max-leaf-blower",
+  "name": "DEWALT 20V MAX Cordless Leaf Blower (DCBL720B)",
+  "brand": "DEWALT",
+  "category": "Lawn & Garden",
+  "categoryPage": "lawn-garden.html",
+  "filterTag": "Leaf Blowers",
+  "subcategory": "leaf-blowers",
+  "asin": "B07BVXTC2J",
+  "price": 99,
+  "priceDisplay": "$99 CAD",
+  "score": 8.2,
+  "tag": "Best DeWalt Cordless Blower",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07BVXTC2J/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9,
+    "DEWALT Ecosystem": 9,
+    "Weight": 9.5,
+    "Airflow Power": 7,
+    "Battery Ecosystem": 9
+  },
+  "specs": {
+    "Voltage": "20V MAX",
+    "Max Airflow": "100 CFM",
+    "Max Speed": "90 MPH",
+    "Speeds": "Variable trigger + 3-speed switch",
+    "Weight": "2.9 lb (tool only, without battery)",
+    "Battery": "20V MAX (sold separately in DCBL720B listing)",
+    "Ecosystem": "DEWALT 20V MAX (largest cordless ecosystem available)",
+    "Best For": "Patios, decks, driveways, garages, light yard cleanup",
+    "Noise": "Lower than gas or high-CFM battery blowers",
+    "Warranty": "3 years limited"
+  },
+  "whatWorks": [
+    "At 2.9 lb without battery, this is one of the lightest leaf blowers you can buy — a meaningful advantage for extended cleanup sessions, overhead blowing, or users with arm fatigue concerns.",
+    "The DEWALT 20V MAX battery system is the most widely used cordless power tool platform in North America. Buyers with DEWALT drills, circular saws, or impact drivers can add this blower to their existing battery ecosystem at tool-only cost.",
+    "100 CFM and 90 MPH is adequate for regular patio, deck, driveway, and garage cleanup — the jobs most homeowners actually do most often. It handles dry leaves on flat surfaces well.",
+    "Three-speed switch plus variable trigger makes precision easy — low speed for fine dust and light debris without scattering everything, high for moving larger accumulations."
+  ],
+  "worthKnowing": [
+    "100 CFM is modest by battery blower standards — EGO runs at 650 CFM, Greenworks 40V at 150 CFM. For large property leaf clearing or heavy wet piles, this blower will require more time and passes.",
+    "The (B) suffix indicates tool-only — battery sold separately. Most buyers in the DEWALT 20V ecosystem already own compatible batteries, but new buyers need to budget for a battery and charger.",
+    "This is not the tool for large-property leaf blowing, clearing gutters, or moving heavy wet debris. It excels at light, frequent cleanup rather than major autumn leaf events.",
+    "90 MPH is air speed, not the same metric as CFM (volume). High MPH with low CFM — like this blower — means a focused fast stream that moves light debris but lacks the volume to push heavy piles efficiently."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Not powerful enough for heavy leaf…",
+      "body": "Not powerful enough for heavy leaf piles in the fall. I ended up using it for driveway and patio cleanup and borrowing my neighbour's gas blower for the big yard job.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Battery sold separately — easy to…",
+      "body": "Battery sold separately — easy to miss in the listing description. Make sure you have a 20V MAX battery already or budget for one.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "CFM is too low for wet…",
+      "body": "CFM is too low for wet or matted-down leaves. Dry leaves on pavement, absolutely. Wet leaf piles on grass, forget it.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Great for quick driveway cleanup but…",
+      "body": "Great for quick driveway cleanup but I wish I'd bought a higher-CFM model for fall. Know your use case before buying.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The DEWALT DCBL720B earns its place as the lightest, most ecosystem-compatible entry-level blower on the market. At 2.9 lb and 100 CFM, it's purpose-built for frequent light cleanup — driveways, patios, decks, and garages — rather than heavy fall leaf events. Existing DEWALT 20V users get outstanding value at $99 CAD tool-only. Buyers who need to clear autumn leaves from a full property or move heavy wet debris should look at EGO's 650 CFM LB6504 instead.",
+  "realBuyers": [
+    {
+      "quote": "I already had three DEWALT 20V batteries — this blower was a $99 add-on and it cleans my driveway and patio perfectly.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Perfect for daily patio cleanup. Quick blast after mowing and everything looks tidy.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "2.9 pounds is the key spec. I have a shoulder issue and this is the only blower I can use for more than 10 minutes.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Light duty but excellent light duty. I use it for the driveway three times a week in autumn. Takes two minutes.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DEWALT DCBL720B — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07BVXTC2J"
+    },
+    {
+      "title": "Best DEWALT Outdoor Tools 2025 — Tool Box Buzz",
+      "url": "https://www.toolboxbuzz.com/cordless-tools/dewalt/dewalt-dcbl720b-review"
+    },
+    {
+      "title": "Best Cordless Leaf Blowers — Bob Vila",
+      "url": "https://www.bobvila.com/articles/best-cordless-leaf-blower"
+    }
+  ],
+  "metaDescription": "DEWALT 20V MAX cordless leaf blower (DCBL720B) review for Canada: lightest blower at 2.9 lb, 20V MAX ecosystem, ideal for patios and driveways. Honest on 100 CFM limit. ~$99 CAD.",
+  "introText": "The DEWALT DCBL720B is a 20V MAX cordless leaf blower built for light, frequent cleanup — patios, driveways, decks. At 2.9 lb it's the lightest option in its class and integrates with the DEWALT 20V MAX battery platform. Available on Amazon.ca (ASIN B07BVXTC2J) at around $99 CAD (tool only).",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07BVXTC2J",
+  "verifiedPrice": "$99 CAD",
+  "similarProducts": [
+    "ego-power-lb6504",
+    "dewalt-2100-psi-pressure-washer",
+    "dewalt-60v-flexvolt-leaf-blower"
+  ]
+}

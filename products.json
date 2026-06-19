@@ -6554,5 +6554,1687 @@
       "Weight": "5.9g per earbud",
       "Microphones": "6 total (3 per bud), bone conduction sensor"
     }
+  },
+  {
+    "id": "jabra-elite-10",
+    "name": "Jabra Elite 10 True Wireless Earbuds",
+    "category": "Headphones",
+    "score": 8.9,
+    "tag": "Best True Wireless for Calls",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/jabra-elite-10.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C7N6PTJK/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9,
+      "Call Quality": 9.5,
+      "ANC": 8.5,
+      "Battery Life": 8.5,
+      "Comfort": 8.5
+    },
+    "specs": {
+      "Driver": "11mm with Jabra Advanced Electroplated Speaker",
+      "Battery": "6h earbuds + 30h case (ANC on); 8h + 28h (ANC off)",
+      "ANC": "Advanced Hybrid ANC with 6-mic MultiSensor Voice",
+      "Connectivity": "Bluetooth 5.3, Multipoint (2 devices)",
+      "Water Resistance": "IP57",
+      "Weight": "5.6g per earbud",
+      "Codec": "SBC, AAC",
+      "Special Features": "Dolby Atmos spatial audio, Comfort Fit oval ear tips"
+    }
+  },
+  {
+    "id": "aeropress-coffee-maker",
+    "name": "AeroPress Original Coffee and Espresso Maker",
+    "category": "Kitchen & Dining",
+    "score": 9,
+    "tag": "Best Travel Coffee Maker",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/51ZHK8qHI-L._AC_SX500_.jpg",
+    "price": "~$45 CAD",
+    "page": "products/aeropress-coffee-maker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0047BIWSK/?tag=clearpick06-20",
+    "subscores": {
+      "Coffee Quality": 9.5,
+      "Speed": 9.5,
+      "Portability": 9.5,
+      "Versatility": 9,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Output": "1–3 cups per press",
+      "Brew Time": "1–2 minutes",
+      "Filtration": "Micro paper filter (350 included)",
+      "Material": "BPA-free copolyester",
+      "Weight": "6.4 oz (181g)"
+    }
+  },
+  {
+    "id": "anker-soundcore-q45",
+    "name": "Anker Soundcore Q45 Adaptive Active Noise Cancelling Headphones",
+    "category": "Headphones",
+    "score": 8.1,
+    "tag": "Best Budget Over-Ear",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/anker-soundcore-q45.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09T12M7GN/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8,
+      "ANC": 7.5,
+      "Battery Life": 9,
+      "Value": 9.5,
+      "Comfort": 8
+    },
+    "specs": {
+      "Driver": "40mm dynamic drivers",
+      "Battery": "50h (ANC off) / 40h (ANC on)",
+      "ANC": "Adaptive ANC with 3 modes (Transport, Indoor, Outdoor)",
+      "Connectivity": "Bluetooth 5.3, Multipoint (2 devices), 3.5mm wired",
+      "Charging": "USB-C",
+      "Weight": "228g",
+      "Codec": "SBC, AAC, LDAC",
+      "Special Features": "Hi-Res Audio certified, foldable, app EQ"
+    }
+  },
+  {
+    "id": "audio-technica-ath-m50x",
+    "name": "Audio-Technica ATH-M50x Professional Studio Monitor Headphones",
+    "category": "Headphones",
+    "score": 8.8,
+    "tag": "Best Studio Monitor Headphones",
+    "icon": "🎧",
+    "image": "https://m.media-amazon.com/images/I/71G5OkSr2zL._AC_SX500_.jpg",
+    "price": "~$199 CAD",
+    "page": "products/audio-technica-ath-m50x.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00HVLUR86/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Accuracy": 9.5,
+      "Build Quality": 9,
+      "Comfort": 8,
+      "Value": 9,
+      "Versatility": 8.5
+    },
+    "specs": {
+      "Driver": "45mm large-aperture drivers",
+      "Frequency Response": "15 – 28,000 Hz",
+      "Sensitivity": "99 dB",
+      "Impedance": "38 ohms",
+      "Type": "Closed-back, over-ear",
+      "Cable": "3 detachable cables included (1.2m straight, 3m straight, 1.2–3m coiled)",
+      "Weight": "285g",
+      "Special Features": "90° swivel earcups, foldable, professional-grade build"
+    }
+  },
+  {
+    "id": "baratza-encore-grinder",
+    "name": "Baratza Encore Conical Burr Coffee Grinder",
+    "category": "Kitchen & Dining",
+    "score": 8.9,
+    "tag": "Best Entry-Level Burr Coffee Grinder",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/61TrvcVsXEL._AC_SX500_.jpg",
+    "price": "~$199 CAD",
+    "page": "products/baratza-encore-grinder.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B007F183LK/?tag=clearpick06-20",
+    "subscores": {
+      "Grind Consistency": 9,
+      "Grind Range": 8.5,
+      "Build Quality": 9,
+      "Ease of Use": 9.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Burrs": "40mm conical steel burrs",
+      "Grind Settings": "40 — from coarse (French press) to medium-fine (drip/AeroPress)",
+      "Hopper Capacity": "8 oz (227g) beans",
+      "Ground Bin": "5 oz (142g) capacity",
+      "Motor": "110W DC motor, 450 RPM (low speed to reduce heat and static)",
+      "Dimensions": "4.7\" W × 6.3\" D × 13.75\" H",
+      "Weight": "7 lb (3.2 kg)"
+    }
+  },
+  {
+    "id": "beats-studio-pro",
+    "name": "Beats Studio Pro Wireless Headphones",
+    "category": "Headphones",
+    "score": 8.3,
+    "tag": "Best Over-Ear for Apple Users",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/beats-studio-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CLHH7JNZ/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8.5,
+      "ANC": 8,
+      "Battery Life": 9,
+      "Apple Integration": 9.5,
+      "Comfort": 8
+    },
+    "specs": {
+      "Driver": "Custom 40mm drivers",
+      "Battery": "40h (ANC off) / 24h (ANC on)",
+      "ANC": "Active Noise Cancelling with Transparency mode",
+      "Connectivity": "Bluetooth 5.3, USB-C wired (lossless on iPhone 15+)",
+      "Charging": "USB-C",
+      "Weight": "260g",
+      "Codec": "SBC, AAC; lossless via USB-C",
+      "Special Features": "Apple H1 chip, Find My, instant iPhone pairing, foldable"
+    }
+  },
+  {
+    "id": "breville-smart-oven-air-fryer-pro",
+    "name": "Breville Smart Oven Air Fryer Pro",
+    "category": "Kitchen & Dining",
+    "score": 9,
+    "tag": "Best Countertop Oven",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/breville-smart-oven-air-fryer-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07TZ4L3BR/?tag=clearpick06-20",
+    "subscores": {
+      "Cook Performance": 9.5,
+      "Versatility": 9.5,
+      "Build Quality": 9,
+      "Ease of Use": 8.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Capacity": "0.8 cu ft — fits a 13\" pizza or 9×13\" pan",
+      "Cooking Functions": "13 — Air Fry, Roast, Bake, Broil, Toast, Warm, Proof, Reheat, Cookie, Pizza, Slow Cook, Dehydrate, Bagel",
+      "Element IQ": "5 independent quartz heating elements with smart power distribution",
+      "Interior Dimensions": "13\" × 13\" × 8\"",
+      "Max Temperature": "480°F (250°C)",
+      "Exterior Dimensions": "18.5\" W × 16\" D × 11.4\" H",
+      "Weight": "23.1 lb (10.5 kg)"
+    }
+  },
+  {
+    "id": "cap-barbell-olympic-weight-set",
+    "name": "CAP Barbell 300 lb Olympic Weight Set",
+    "category": "Fitness Equipment",
+    "score": 8,
+    "tag": "Best Olympic Weight Set",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$349 CAD",
+    "page": "products/cap-barbell-olympic-weight-set.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00FC3YCVO/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9,
+      "Weight Range": 8.5,
+      "Durability": 8,
+      "Bar Quality": 7.5,
+      "Completeness": 8
+    },
+    "specs": {
+      "Total Weight": "300 lb",
+      "Bar": "7-foot Olympic bar, 28mm grip",
+      "Plate Hole Size": "2-inch Olympic standard",
+      "Plate Material": "Cast iron",
+      "Plate Sizes": "2×45lb, 2×35lb, 4×25lb, 4×10lb, 2×5lb, 4×2.5lb",
+      "Compatibility": "Standard Olympic racks and benches",
+      "Includes": "Bar + plates (collars sold separately)"
+    }
+  },
+  {
+    "id": "crossrope-get-lean-jump-rope",
+    "name": "Crossrope Get Lean Weighted Jump Rope Set",
+    "category": "Fitness Equipment",
+    "score": 8.4,
+    "tag": "Best Weighted Jump Rope Set",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/crossrope-get-lean-jump-rope.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07MQ3V1GN/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9,
+      "Weight Options": 9,
+      "App Integration": 8.5,
+      "Value": 7.5,
+      "Rope Durability": 8.5
+    },
+    "specs": {
+      "Ropes Included": "1/4 lb (light) + 1/2 lb (heavy)",
+      "Handles": "Aluminum with ball-bearing swivel, sweat-resistant grip",
+      "Attachment": "Quick-clip system — rope swaps in seconds",
+      "Rope Length": "9–10 ft (length adjustable for height)",
+      "App": "Crossrope app — free basic workouts + premium subscription option",
+      "Compatibility": "Works without app for standalone jumping"
+    }
+  },
+  {
+    "id": "cuisinart-14-cup-food-processor",
+    "name": "Cuisinart DFP-14BCWB 14-Cup Food Processor",
+    "category": "Kitchen & Dining",
+    "score": 8.8,
+    "tag": "Best Full-Size Food Processor",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/cuisinart-14-cup-food-processor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00JVOH7FE/?tag=clearpick06-20",
+    "subscores": {
+      "Capacity": 9.5,
+      "Cutting Performance": 9,
+      "Ease of Cleaning": 8.5,
+      "Build Quality": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Capacity": "14 cups (3.3L) work bowl",
+      "Motor": "720W",
+      "Feed Tube": "Extra-large feed tube fits whole fruits and vegetables",
+      "Included Blades": "Stainless chopping blade, dough blade, medium slicing disc, shredding disc",
+      "Dishwasher Safe": "Bowl, lid, and all discs/blades (top rack)",
+      "Dimensions": "11.5\" L × 8.5\" W × 15\" H",
+      "Weight": "12.3 lb (5.6 kg)"
+    }
+  },
+  {
+    "id": "cuisinart-dcc-3200-coffee-maker",
+    "name": "Cuisinart DCC-3200P1 PerfecTemp 14-Cup Programmable Coffeemaker",
+    "category": "Kitchen & Dining",
+    "score": 8.6,
+    "tag": "Best 14-Cup Drip Coffee Maker",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/cuisinart-dcc-3200-coffee-maker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00MVWGDH4/?tag=clearpick06-20",
+    "subscores": {
+      "Brew Quality": 8.5,
+      "Capacity": 9.5,
+      "Ease of Use": 9,
+      "Features": 8,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Capacity": "14 cups",
+      "Carafe": "Glass with ergonomic handle",
+      "Brew Strength": "Regular / Bold",
+      "Small Batch Mode": "1–4 cups",
+      "Keep Warm": "60 minutes, adjustable temperature"
+    }
+  },
+  {
+    "id": "cuisinart-ice-21-ice-cream-maker",
+    "name": "Cuisinart ICE-21 1.5-Qt Automatic Ice Cream Maker",
+    "category": "Kitchen & Dining",
+    "score": 8.3,
+    "tag": "Best Budget Ice Cream Maker",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/cuisinart-ice-21-ice-cream-maker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B000FMQHM0/?tag=clearpick06-20",
+    "subscores": {
+      "Ice Cream Quality": 8.5,
+      "Speed": 8,
+      "Ease of Use": 8.5,
+      "Noise": 7.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Capacity": "1.5 Qt",
+      "Motor": "25W",
+      "Freeze Bowl Pre-Freeze Time": "6–24 hours",
+      "Churning Time": "20–25 minutes",
+      "Outputs": "Ice cream, sorbet, gelato, frozen yogurt, sherbet"
+    }
+  },
+  {
+    "id": "dash-mini-waffle-maker",
+    "name": "Dash Mini Waffle Maker",
+    "category": "Kitchen & Dining",
+    "score": 8.1,
+    "tag": "Best Compact Waffle Maker",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$25 CAD",
+    "page": "products/dash-mini-waffle-maker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01N58KRVW/?tag=clearpick06-20",
+    "subscores": {
+      "Waffle Quality": 8,
+      "Speed": 9,
+      "Compact Design": 9.5,
+      "Ease of Cleaning": 7,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Waffle Size": "4 inches",
+      "Wattage": "350W",
+      "Plates": "Non-stick, not removable",
+      "Indicator Lights": "Red (heating) / Green (ready)",
+      "Heat-Up Time": "Under 1 minute"
+    }
+  },
+  {
+    "id": "delonghi-dedica-arte",
+    "name": "De'Longhi Dedica Arte Manual Espresso Machine",
+    "category": "Kitchen & Dining",
+    "score": 8.5,
+    "tag": "Best Slim Espresso Machine",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/delonghi-dedica-arte.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09JX3QQKB/?tag=clearpick06-20",
+    "subscores": {
+      "Espresso Quality": 8.5,
+      "Compact Design": 10,
+      "Ease of Use": 7.5,
+      "Build Quality": 8.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Pump Pressure": "15-bar",
+      "Water Tank": "1.1L removable",
+      "Filter Basket": "3-in-1 (single shot, double shot, ESE pod compatible)",
+      "Steam Wand": "Manual Cappuccino System (panarello-style)",
+      "Heat-Up Time": "Approximately 35 seconds",
+      "Width": "6 cm (2.4 inches) — narrowest in class",
+      "Dimensions": "6\" W × 13.3\" D × 13\" H"
+    }
+  },
+  {
+    "id": "dewalt-13-amp-pressure-washer",
+    "name": "DEWALT 13 Amp Electric Cold Water Pressure Washer (DWPW2400)",
+    "category": "Lawn & Garden",
+    "score": 8.5,
+    "tag": "Best Mid-Range Electric Pressure Washer",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$329 CAD",
+    "page": "products/dewalt-13-amp-pressure-washer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07N2H8NBJ/?tag=clearpick06-20",
+    "subscores": {
+      "Pressure": 8.5,
+      "Build Quality": 9,
+      "Nozzle Storage": 8.5,
+      "Value": 8,
+      "DEWALT Brand": 9
+    },
+    "specs": {
+      "Pressure": "2400 PSI max",
+      "Flow Rate": "1.1 GPM",
+      "Motor": "13A electric",
+      "Nozzles": "4 quick-connect + soap (0°, 15°, 25°, 40°)",
+      "Detergent Tank": "Onboard (single)",
+      "Hose": "25-ft high-pressure hose",
+      "Power Cord": "35-ft",
+      "Onboard Storage": "Yes — nozzle, wand, and hose",
+      "Total Stop System": "Yes",
+      "Weight": "~31 lb"
+    }
+  },
+  {
+    "id": "dewalt-20v-max-leaf-blower",
+    "name": "DEWALT 20V MAX Cordless Leaf Blower (DCBL720B)",
+    "category": "Lawn & Garden",
+    "score": 8.2,
+    "tag": "Best DeWalt Cordless Blower",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/dewalt-20v-max-leaf-blower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07BVXTC2J/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9,
+      "DEWALT Ecosystem": 9,
+      "Weight": 9.5,
+      "Airflow Power": 7,
+      "Battery Ecosystem": 9
+    },
+    "specs": {
+      "Voltage": "20V MAX",
+      "Max Airflow": "100 CFM",
+      "Max Speed": "90 MPH",
+      "Speeds": "Variable trigger + 3-speed switch",
+      "Weight": "2.9 lb (tool only, without battery)",
+      "Battery": "20V MAX (sold separately in DCBL720B listing)",
+      "Ecosystem": "DEWALT 20V MAX (largest cordless ecosystem available)",
+      "Best For": "Patios, decks, driveways, garages, light yard cleanup",
+      "Noise": "Lower than gas or high-CFM battery blowers",
+      "Warranty": "3 years limited"
+    }
+  },
+  {
+    "id": "edifier-w820nb-plus",
+    "name": "Edifier W820NB Plus Hybrid Active Noise Cancelling Headphones",
+    "category": "Headphones",
+    "score": 8,
+    "tag": "Best Budget ANC Over-Ear",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/edifier-w820nb-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09Q1LV8YD/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8,
+      "ANC": 7.5,
+      "Battery Life": 9,
+      "Value": 9.5,
+      "Comfort": 8
+    },
+    "specs": {
+      "Driver": "40mm dynamic drivers",
+      "Battery": "49h (ANC off) / 38h (ANC on)",
+      "ANC": "Hybrid Active Noise Cancelling (feedforward + feedback)",
+      "Connectivity": "Bluetooth 5.0, Multipoint (2 devices), 3.5mm wired",
+      "Charging": "USB-C",
+      "Weight": "235g",
+      "Codec": "SBC, AAC, LDAC",
+      "Special Features": "Hi-Res Audio certified, foldable, app EQ"
+    }
+  },
+  {
+    "id": "ego-power-lb6504-leaf-blower",
+    "name": "EGO Power+ LB6504 56V 650 CFM Cordless Leaf Blower",
+    "category": "Lawn & Garden",
+    "score": 9,
+    "tag": "Best Cordless Leaf Blower",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$229 CAD",
+    "page": "products/ego-power-lb6504-leaf-blower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0832FZT4V/?tag=clearpick06-20",
+    "subscores": {
+      "Airflow Power": 9.5,
+      "Battery Ecosystem": 9,
+      "Noise Level": 8,
+      "Weight": 7.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Voltage": "56V Arc-Lithium",
+      "Max Airflow": "650 CFM",
+      "Max Speed": "180 MPH",
+      "Variable Speed": "Yes — trigger + speed boost button",
+      "Turbo Mode": "Yes",
+      "LED Light": "Yes",
+      "Battery": "2.5Ah minimum (check kit — battery may or may not be included)",
+      "Runtime": "~45–75 min (battery dependent)",
+      "Weight": "~7.5 lb (without battery)",
+      "Ecosystem": "EGO 56V (shares with LM2156SP mower, trimmers, etc.)"
+    }
+  },
+  {
+    "id": "ego-power-lm2156sp-self-propelled-mower",
+    "name": "EGO Power+ LM2156SP 21\" 56V Self-Propelled Cordless Lawn Mower",
+    "category": "Lawn & Garden",
+    "score": 8.8,
+    "tag": "Best Battery Self-Propelled Mower",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$849 CAD",
+    "page": "products/ego-power-lm2156sp-self-propelled-mower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0832FZ1X7/?tag=clearpick06-20",
+    "subscores": {
+      "Battery Runtime": 9,
+      "Cutting Quality": 9,
+      "Self-Propel System": 8.5,
+      "Build Quality": 8.5,
+      "Value": 8
+    },
+    "specs": {
+      "Voltage": "56V Arc-Lithium",
+      "Battery": "7.5Ah (included in kit)",
+      "Cutting Width": "21\" steel deck",
+      "Drive": "Self-propelled, variable speed (0–3.1 mph)",
+      "Cutting Heights": "6 positions (1.5\"–4\")",
+      "Discharge": "3-in-1 — bag, mulch, side discharge",
+      "Motor": "Brushless",
+      "Charge Time": "~90 min (standard charger)",
+      "Weight": "82 lb with battery",
+      "Runtime": "~45–60 min / ~1/3 acre per charge"
+    }
+  },
+  {
+    "id": "ego-power-st1521s-string-trimmer",
+    "name": "EGO Power+ ST1521S 56V 15\" String Trimmer with 2.5Ah Battery",
+    "category": "Lawn & Garden",
+    "score": 8.8,
+    "tag": "Best Battery String Trimmer",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/ego-power-st1521s-string-trimmer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0832GBZFJ/?tag=clearpick06-20",
+    "subscores": {
+      "Cut Power": 9,
+      "Ecosystem": 9,
+      "Run Time": 8.5,
+      "Weight": 8,
+      "Build Quality": 8.5
+    },
+    "specs": {
+      "Voltage": "56V Arc-Lithium",
+      "Battery": "2.5Ah (check listing — kit vs tool-only varies)",
+      "Cutting Swath": "15\"",
+      "Line Diameter": ".095\" (pre-wound)",
+      "Line Feed": "Bump feed",
+      "Shaft": "Carbon fiber composite, split-shaft design",
+      "Weight": "~7 lb with battery",
+      "Weather Rating": "Weather sealed",
+      "Accessory Compatible": "Yes — split shaft accepts EGO attachments (edger, cultivator, etc.)",
+      "Ecosystem": "EGO 56V"
+    }
+  },
+  {
+    "id": "felco-f2-hand-pruner",
+    "name": "FELCO F 2 Classic Manual Hand Pruner",
+    "category": "Lawn & Garden",
+    "score": 9.2,
+    "tag": "Best Hand Pruner",
+    "icon": "🌿",
+    "image": "https://m.media-amazon.com/images/I/71r8xdLsfjL._AC_SX500_.jpg",
+    "price": "~$69 CAD",
+    "page": "products/felco-f2-hand-pruner.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00002N64Y/?tag=clearpick06-20",
+    "subscores": {
+      "Blade Quality": 9.5,
+      "Durability": 9.5,
+      "Replaceability": 9.5,
+      "Ergonomics": 8.5,
+      "Value": 8
+    },
+    "specs": {
+      "Origin": "Swiss-made (Aubonne, Switzerland)",
+      "Blade Type": "Bypass, hardened chrome-vanadium steel",
+      "Max Cut Diameter": "1\" (25mm)",
+      "Weight": "~8.9 oz (252g)",
+      "Handle": "Aluminium alloy with hard rubber grip",
+      "Spring": "Wire spring (replaceable)",
+      "Wire Cutting": "Notch on lower blade",
+      "Handedness": "Right-handed (left-handed: FELCO F 9)",
+      "Replaceability": "All components available: blade, spring, bolt, grip, bumper",
+      "Warranty": "FELCO guarantees the product for life with proper care"
+    }
+  },
+  {
+    "id": "fellow-stagg-ekg-kettle",
+    "name": "Fellow Stagg EKG Electric Pour-Over Kettle",
+    "category": "Kitchen & Dining",
+    "score": 9,
+    "tag": "Best Pour-Over Kettle",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/fellow-stagg-ekg-kettle.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0765DQY3W/?tag=clearpick06-20",
+    "subscores": {
+      "Pour Control": 10,
+      "Temperature Accuracy": 9.5,
+      "Build Quality": 9.5,
+      "Design": 9.5,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Capacity": "0.9L (30 oz)",
+      "Temperature Range": "135–212°F (57–100°C), 1°F increments",
+      "Keep Warm": "60 minutes at set temperature",
+      "Power": "1200W (North American model)",
+      "Display": "LCD temperature display on handle",
+      "Boil Time": "Approximately 3–4 minutes for full 0.9L",
+      "Dimensions": "9.5\" L × 5.25\" W × 7.75\" H"
+    }
+  },
+  {
+    "id": "fiskars-32-inch-bypass-lopper",
+    "name": "Fiskars 32\" PowerGear2 Bypass Lopper",
+    "category": "Lawn & Garden",
+    "score": 9,
+    "tag": "Best Garden Lopper",
+    "icon": "🌿",
+    "image": "https://m.media-amazon.com/images/I/61eSe-eM54L._AC_SX500_.jpg",
+    "price": "~$49 CAD",
+    "page": "products/fiskars-32-inch-bypass-lopper.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00002N66V/?tag=clearpick06-20",
+    "subscores": {
+      "Cutting Power": 9.5,
+      "Durability": 9.5,
+      "Ergonomics": 9,
+      "Value": 9,
+      "Blade Quality": 9
+    },
+    "specs": {
+      "Total Length": "32\"",
+      "Max Cut Diameter": "Up to 2\" (50mm)",
+      "Blade Type": "Bypass (hardened steel, ground to a sharp edge)",
+      "Mechanism": "PowerGear2 (3× force multiplication)",
+      "Handle Material": "Lightweight aluminum",
+      "Coating": "Non-stick blade coating",
+      "Grip": "SoftGrip over-mould handle",
+      "Weight": "~1.5 lb",
+      "Best For": "Live green branches, shrubs, small trees up to 2\" diameter"
+    }
+  },
+  {
+    "id": "fitness-reality-810xlt-power-cage",
+    "name": "Fitness Reality 810XLT Super Max Power Cage",
+    "category": "Fitness Equipment",
+    "score": 8.2,
+    "tag": "Best Budget Power Cage",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/fitness-reality-810xlt-power-cage.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00MS20SHC/?tag=clearpick06-20",
+    "subscores": {
+      "Safety": 9,
+      "Weight Capacity": 9,
+      "Value": 8.5,
+      "Stability": 8,
+      "Versatility": 8
+    },
+    "specs": {
+      "Weight Capacity": "800 lb",
+      "Height Positions": "19 (J-hooks and safety bars)",
+      "Pull-Up Bar": "Multi-grip (wide, narrow, neutral)",
+      "Footprint": "30\" × 36\"",
+      "Steel Gauge": "12-gauge",
+      "Height": "82.5\"",
+      "Optional Add-Ons": "Lat pulldown attachment, dip handles (sold separately)"
+    }
+  },
+  {
+    "id": "gaiam-essentials-yoga-mat",
+    "name": "Gaiam Essentials Thick Yoga Mat with Carry Strap",
+    "category": "Fitness Equipment",
+    "score": 8,
+    "tag": "Best Budget Yoga Mat",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$29 CAD",
+    "page": "products/gaiam-essentials-yoga-mat.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07N4RPSNS/?tag=clearpick06-20",
+    "subscores": {
+      "Cushioning": 8.5,
+      "Grip": 8,
+      "Value": 9.5,
+      "Portability": 8,
+      "Durability": 7.5
+    },
+    "specs": {
+      "Thickness": "10mm",
+      "Dimensions": "68\" × 24\" (standard) or 72\" × 24\" (tall)",
+      "Material": "NBR foam",
+      "Texture": "Non-slip surface both sides",
+      "Includes": "Nylon carry strap",
+      "Colors": "Multiple color options available"
+    }
+  },
+  {
+    "id": "greenworks-1800-psi-pressure-washer",
+    "name": "Greenworks 1800 PSI Electric Pressure Washer (GPW1803)",
+    "category": "Lawn & Garden",
+    "score": 8,
+    "tag": "Best Compact Electric Pressure Washer",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$169 CAD",
+    "page": "products/greenworks-1800-psi-pressure-washer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07KSVBC2Q/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9,
+      "Portability": 9.5,
+      "Ease of Use": 8.5,
+      "Pressure": 7.5,
+      "Build Quality": 7.5
+    },
+    "specs": {
+      "Pressure": "1800 PSI max",
+      "Flow Rate": "1.1 GPM",
+      "Motor": "13A electric",
+      "Nozzles": "5 quick-connect (0°, 15°, 25°, 40°, soap)",
+      "Detergent Tank": "Onboard (single)",
+      "Hose": "25-ft high-pressure hose",
+      "Power Cord": "35-ft",
+      "Weight": "~9.4 lb",
+      "Total Stop System": "Yes",
+      "Best For": "Cars, patio furniture, bikes, light residential surfaces"
+    }
+  },
+  {
+    "id": "greenworks-40v-17-cordless-mower",
+    "name": "Greenworks 40V 17\" Cordless Push Lawn Mower with 4Ah Battery",
+    "category": "Lawn & Garden",
+    "score": 8.1,
+    "tag": "Best Budget Cordless Mower",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/greenworks-40v-17-cordless-mower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07YNKC4LQ/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Battery Included": 9,
+      "Cutting Quality": 8,
+      "Runtime": 7.5,
+      "Build Quality": 8
+    },
+    "specs": {
+      "Voltage": "40V G-MAX",
+      "Battery": "4Ah included",
+      "Cutting Width": "17\" steel deck",
+      "Drive": "Push (no self-propel)",
+      "Cutting Heights": "5 positions",
+      "Discharge": "2-in-1 — bag, mulch",
+      "Motor": "Brushless",
+      "Runtime": "35–45 min per charge",
+      "Weight": "~50 lb with battery",
+      "Charge Time": "~60 min"
+    }
+  },
+  {
+    "id": "greenworks-40v-brushless-leaf-blower",
+    "name": "Greenworks 40V Brushless Cordless Leaf Blower with 2Ah Battery",
+    "category": "Lawn & Garden",
+    "score": 8.3,
+    "tag": "Best Mid-Range Cordless Blower",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$179 CAD",
+    "page": "products/greenworks-40v-brushless-leaf-blower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07YNKC7RW/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 8.5,
+      "Airflow Power": 8,
+      "Battery Included": 9,
+      "Weight": 8.5,
+      "Ecosystem": 8
+    },
+    "specs": {
+      "Voltage": "40V G-MAX",
+      "Max Airflow": "150 CFM",
+      "Max Speed": "125 MPH",
+      "Variable Speed": "Yes — trigger",
+      "Turbo Mode": "Yes",
+      "Battery": "2Ah included",
+      "Runtime": "20–40 min (speed dependent)",
+      "Weight": "~5.5 lb with battery",
+      "Ecosystem": "Greenworks 40V (shares with mowers, trimmers)",
+      "Charger": "Included"
+    }
+  },
+  {
+    "id": "hamilton-beach-2-way-brewer",
+    "name": "Hamilton Beach 2-Way Brewer Coffee Maker",
+    "category": "Kitchen & Dining",
+    "score": 8.3,
+    "tag": "Best Dual-Brew Coffee Maker",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/hamilton-beach-2-way-brewer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B011WFEBSI/?tag=clearpick06-20",
+    "subscores": {
+      "Versatility": 9.5,
+      "Brew Quality": 7.5,
+      "Ease of Use": 8.5,
+      "Features": 8,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Carafe Capacity": "12 cups",
+      "Single-Serve Options": "K-Cup pods or ground coffee",
+      "Brew Strength": "Regular / Bold",
+      "Auto Shutoff": "2 hours",
+      "Single Serve Cup Sizes": "6, 8, 10, 14 oz"
+    }
+  },
+  {
+    "id": "honda-hrx217vka-gas-mower",
+    "name": "Honda HRX217VKA 21\" Gas Self-Propelled Lawn Mower",
+    "category": "Lawn & Garden",
+    "score": 8.9,
+    "tag": "Best Gas Self-Propelled Mower",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1099 CAD",
+    "page": "products/honda-hrx217vka-gas-mower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B084KG5Y9W/?tag=clearpick06-20",
+    "subscores": {
+      "Engine Reliability": 9.5,
+      "Deck Durability": 9.5,
+      "Cut Quality": 9,
+      "Self-Propel": 9,
+      "Longevity": 9.5
+    },
+    "specs": {
+      "Engine": "Honda GCV200 OHC 4-stroke",
+      "Cutting Width": "21\" NeXite composite deck",
+      "Drive": "Hydrostatic self-propelled (variable, infinite speed)",
+      "Cutting Heights": "7 positions (1\"–4\")",
+      "Discharge": "4-in-1 — bag, mulch, side discharge, Versamow (simultaneous mulch + bag)",
+      "Blade System": "Twin-blade MicroCut",
+      "Fuel": "Gasoline (regular unleaded)",
+      "Rear Bag Capacity": "3.1 bushel",
+      "Weight": "~97 lb",
+      "Warranty": "3 years residential"
+    }
+  },
+  {
+    "id": "instant-pot-duo-6qt",
+    "name": "Instant Pot Duo 7-in-1 Electric Pressure Cooker, 6 Quart",
+    "category": "Kitchen & Dining",
+    "score": 8.7,
+    "tag": "Best Entry-Level Multi-Cooker",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/71Z401LjFFL._AC_SX500_.jpg",
+    "price": "~$129 CAD",
+    "page": "products/instant-pot-duo-6qt.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00FLYWNYQ/?tag=clearpick06-20",
+    "subscores": {
+      "Versatility": 9,
+      "Ease of Use": 8.5,
+      "Cook Quality": 8.5,
+      "Value for Money": 9,
+      "Build Quality": 8.5
+    },
+    "specs": {
+      "Capacity": "6 Qt — serves 3–6",
+      "Wattage": "1000W",
+      "Cooking Functions": "7 — Pressure Cook, Slow Cook, Rice, Sauté, Steam, Keep Warm, Yogurt",
+      "Smart Programs": "13 preset one-touch programs",
+      "Dimensions": "13.4\" L × 12.2\" W × 12.5\" H",
+      "Weight": "11.8 lb (5.4 kg)",
+      "Included Accessories": "Stainless steel steam rack, rice paddle, soup spoon, measuring cup"
+    }
+  },
+  {
+    "id": "jbl-tour-one-m2",
+    "name": "JBL Tour One M2 Wireless Over-Ear Headphones",
+    "category": "Headphones",
+    "score": 8.4,
+    "tag": "Best JBL Over-Ear",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$349 CAD",
+    "page": "products/jbl-tour-one-m2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BXT95KDF/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8.5,
+      "ANC": 8.5,
+      "Battery Life": 9,
+      "Comfort": 8,
+      "Value": 8
+    },
+    "specs": {
+      "Driver": "40mm dynamic drivers",
+      "Battery": "50h (ANC off) / 30h (ANC on)",
+      "ANC": "4-mic Adaptive ANC with 3 modes",
+      "Connectivity": "Bluetooth 5.3, Multipoint (2 devices), 3.5mm wired",
+      "Charging": "USB-C",
+      "Weight": "289g",
+      "Codec": "SBC, AAC, aptX Adaptive",
+      "Special Features": "JBL Personi-Fi 2.0 sound personalization, foldable"
+    }
+  },
+  {
+    "id": "jbl-tune-770nc",
+    "name": "JBL Tune 770NC Adaptive Noise Cancelling Wireless Over-Ear Headphones",
+    "category": "Headphones",
+    "score": 8,
+    "tag": "Best JBL Mid-Range Over-Ear",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/jbl-tune-770nc.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C5F5ZB7L/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8,
+      "ANC": 7.5,
+      "Battery Life": 9.5,
+      "Value": 8.5,
+      "Comfort": 8
+    },
+    "specs": {
+      "Driver": "40mm dynamic drivers",
+      "Battery": "70h (ANC off) / 44h (ANC on)",
+      "ANC": "Adaptive Noise Cancelling with 3 modes",
+      "Connectivity": "Bluetooth 5.3, Multipoint (2 devices), 3.5mm wired",
+      "Charging": "USB-C",
+      "Weight": "220g",
+      "Codec": "SBC, AAC",
+      "Special Features": "JBL Pure Bass Sound, foldable, Ambient Aware"
+    }
+  },
+  {
+    "id": "lodge-cast-iron-skillet",
+    "name": "Lodge L10SK3 Pre-Seasoned Cast Iron Skillet, 12-Inch",
+    "category": "Kitchen & Dining",
+    "score": 9.2,
+    "tag": "Best Cast Iron Skillet",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/71uh7OjLpFL._AC_SX500_.jpg",
+    "price": "~$49 CAD",
+    "page": "products/lodge-cast-iron-skillet.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00G2XGC88/?tag=clearpick06-20",
+    "subscores": {
+      "Heat Retention": 10,
+      "Durability": 10,
+      "Versatility": 9.5,
+      "Value for Money": 9.5,
+      "Ease of Maintenance": 7
+    },
+    "specs": {
+      "Size": "12 inches",
+      "Material": "Cast iron, pre-seasoned with soy-based vegetable oil",
+      "Oven Safe": "Up to 500°C (no temperature limit with proper care)",
+      "Induction Compatible": "Yes",
+      "Made In": "USA (Lodge foundry, South Pittsburg, Tennessee)",
+      "Weight": "7.6 lb (3.4 kg)",
+      "Included": "Silicone handle holder"
+    }
+  },
+  {
+    "id": "marcy-me709-recumbent-bike",
+    "name": "Marcy Recumbent Exercise Bike with Resistance ME-709",
+    "category": "Fitness Equipment",
+    "score": 7.9,
+    "tag": "Best Budget Recumbent Bike",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/marcy-me709-recumbent-bike.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B073JW65PT/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Ease of Entry": 9,
+      "Resistance Range": 7,
+      "Build Quality": 7.5,
+      "Comfort": 8
+    },
+    "specs": {
+      "Resistance": "8 preset levels, magnetic",
+      "Display": "LCD — speed, distance, time, calories",
+      "Weight Capacity": "300 lb",
+      "Seat": "Adjustable slide, padded",
+      "Drive": "Chain drive",
+      "Extras": "Transport wheels, water bottle holder",
+      "Dimensions": "45.5\" L × 24\" W × 37.5\" H"
+    }
+  },
+  {
+    "id": "marshall-major-iv",
+    "name": "Marshall Major IV On-Ear Bluetooth Headphones",
+    "category": "Headphones",
+    "score": 8.2,
+    "tag": "Best Headphones for Rock and Guitar Music",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/marshall-major-iv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09G3NWKY6/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8.5,
+      "Battery Life": 9.5,
+      "Style": 9,
+      "Comfort": 7.5,
+      "Value": 8
+    },
+    "specs": {
+      "Driver": "40mm dynamic drivers",
+      "Battery": "80h wireless playback",
+      "ANC": "None",
+      "Connectivity": "Bluetooth 5.0, 3.5mm wired fallback",
+      "Charging": "USB-C",
+      "Weight": "166g",
+      "Type": "On-ear (supra-aural), foldable",
+      "Special Features": "Multi-directional control knob, wired share mode"
+    }
+  },
+  {
+    "id": "nespresso-vertuo-plus",
+    "name": "Nespresso Vertuo Plus Coffee & Espresso Machine by De'Longhi",
+    "category": "Kitchen & Dining",
+    "score": 8.4,
+    "tag": "Best One-Touch Pod Coffee System",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/61Tr13OioqL._AC_SX500_.jpg",
+    "price": "~$229 CAD",
+    "page": "products/nespresso-vertuo-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01N7GO468/?tag=clearpick06-20",
+    "subscores": {
+      "Ease of Use": 10,
+      "Crema Quality": 9,
+      "Brew Speed": 9.5,
+      "Variety of Sizes": 9,
+      "Value (Pod Ongoing Cost)": 6
+    },
+    "specs": {
+      "Brewing System": "Centrifusion — barcode-read pods spin at 7,000 RPM",
+      "Cup Sizes": "5 — Espresso (40ml), Double Espresso (80ml), Gran Lungo (150ml), Coffee (230ml), Alto (414ml)",
+      "Heat-Up Time": "Approximately 40 seconds",
+      "Water Tank": "1.1L removable",
+      "Pressure": "19-bar pump",
+      "Pod Compatibility": "Vertuo pods only (not Original Line compatible)",
+      "Dimensions": "5.5\" W × 15.75\" D × 12.5\" H"
+    }
+  },
+  {
+    "id": "ninja-foodi-14-in-1",
+    "name": "Ninja Foodi 14-in-1 8-Qt. XL Pressure Cooker Steam Fryer",
+    "category": "Kitchen & Dining",
+    "score": 8.8,
+    "tag": "Best Multi-Cooker with Air Fry",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$349 CAD",
+    "page": "products/ninja-foodi-14-in-1.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08C3NTSHK/?tag=clearpick06-20",
+    "subscores": {
+      "Versatility": 9.5,
+      "Cook Quality": 9,
+      "TenderCrisp Performance": 9.5,
+      "Ease of Use": 7.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Capacity": "8 Qt",
+      "Cooking Functions": "14 — Pressure, Air Fry, Steam, Slow Cook, Sear/Sauté, Bake, Roast, Broil, Dehydrate, Sous Vide, Yogurt, Steam Crisp, Proof, Keep Warm",
+      "TenderCrisp Technology": "Pressure cook then air-crisp in same pot",
+      "Crisper Basket": "6.5 Qt",
+      "Pressure Settings": "High and Low"
+    }
+  },
+  {
+    "id": "nordictrack-t65si-treadmill",
+    "name": "NordicTrack T 6.5Si Treadmill",
+    "category": "Fitness Equipment",
+    "score": 8.1,
+    "tag": "Best Mid-Range Treadmill",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$999 CAD",
+    "page": "products/nordictrack-t65si-treadmill.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B088X5R4C3/?tag=clearpick06-20",
+    "subscores": {
+      "Motor Power": 8,
+      "Build Quality": 8,
+      "Features": 8.5,
+      "Value": 7.5,
+      "Durability": 8
+    },
+    "specs": {
+      "Motor": "3.0 CHP",
+      "Speed Range": "0–12 MPH",
+      "Incline Range": "0–12%",
+      "Display": "7\" HD touchscreen",
+      "Weight Capacity": "300 lb",
+      "Belt Size": "20\" × 55\"",
+      "Connectivity": "iFIT compatible (subscription separate)"
+    }
+  },
+  {
+    "id": "nothing-ear-2",
+    "name": "Nothing Ear (2) True Wireless Earbuds",
+    "category": "Headphones",
+    "score": 8.3,
+    "tag": "Best Mid-Range True Wireless",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$179 CAD",
+    "page": "products/nothing-ear-2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BQFLTR4P/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8.5,
+      "ANC": 8,
+      "Design": 9.5,
+      "Battery Life": 8,
+      "Value": 8.5
+    },
+    "specs": {
+      "Driver": "11.6mm dynamic driver",
+      "Battery": "6h earbuds + 30h case (ANC on); 6.3h + 30h (ANC off)",
+      "ANC": "3 modes: Light, Maximum, Adaptive",
+      "Connectivity": "Bluetooth 5.3, Multipoint",
+      "Water Resistance": "IP54",
+      "Weight": "4.5g per earbud",
+      "Codec": "SBC, AAC, LHDC 5.0 (Android only)",
+      "Special Features": "Transparent design, ChatSense (call detection), Ear Tip Fit Test"
+    }
+  },
+  {
+    "id": "orbit-bhyve-smart-hose-timer",
+    "name": "Orbit B-hyve Smart Hose Watering Timer with WiFi Hub",
+    "category": "Lawn & Garden",
+    "score": 8.5,
+    "tag": "Best Smart Hose Timer",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/orbit-bhyve-smart-hose-timer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07H9TGY7C/?tag=clearpick06-20",
+    "subscores": {
+      "App Experience": 8.5,
+      "Weather Integration": 9,
+      "Ease of Setup": 8,
+      "Reliability": 8.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Connectivity": "WiFi (2.4 GHz) + Bluetooth",
+      "Hub Required": "Yes — Orbit B-hyve WiFi Hub (included)",
+      "Zones": "Single zone (one hose connection)",
+      "Thread": "3/4\" standard hose thread",
+      "Power": "4 × AA batteries (~1 year life)",
+      "Smart Features": "Scheduled watering, rain delay (smart + manual), weather intelligence",
+      "App": "Orbit B-hyve (iOS and Android)",
+      "Voice Control": "Amazon Alexa, Google Assistant compatible",
+      "Watering Modes": "Duration-based or volume-based",
+      "Weather": "Integrates with local weather station data for auto-skip on rain days"
+    }
+  },
+  {
+    "id": "oster-pro-1200-blender",
+    "name": "Oster Pro 1200 Blender with Glass Jar",
+    "category": "Kitchen & Dining",
+    "score": 8,
+    "tag": "Best Budget High-Speed Blender",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$119 CAD",
+    "page": "products/oster-pro-1200-blender.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07WQ6NHY2/?tag=clearpick06-20",
+    "subscores": {
+      "Blending Performance": 8,
+      "Noise": 7,
+      "Build Quality": 7.5,
+      "Versatility": 8.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Motor": "1200W",
+      "Speeds": "7 + 3 presets (Smoothie, Food Chop, Milkshake)",
+      "Containers": "6-cup glass blending jar + 24 oz personal BPA-free cup",
+      "Blade Technology": "Dual Direction — forward and reverse",
+      "Dishwasher Safe": "Yes (jar, lid, personal cup)"
+    }
+  },
+  {
+    "id": "oxo-brew-9-cup-pour-over",
+    "name": "OXO Brew 9-Cup Pour-Over Coffee Maker with Water Tank",
+    "category": "Kitchen & Dining",
+    "score": 8.7,
+    "tag": "Best Pour-Over Coffee Maker",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/oxo-brew-9-cup-pour-over.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07KHMTBXM/?tag=clearpick06-20",
+    "subscores": {
+      "Coffee Quality": 9,
+      "Ease of Use": 8.5,
+      "Brew Evenness": 9,
+      "Design": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Capacity": "9 cups (1.35L carafe)",
+      "Carafe": "Borosilicate glass with thermal lid",
+      "Filter Basket": "Flat-bottom (Melitta No. 4 compatible)",
+      "Shower Head": "Rainmaker — perforated for even saturation",
+      "Material": "BPA-free"
+    }
+  },
+  {
+    "id": "prosourcefit-ab-wheel-roller",
+    "name": "ProsourceFit Ab Wheel Roller with Knee Pad",
+    "category": "Fitness Equipment",
+    "score": 8.1,
+    "tag": "Best Ab Wheel Roller",
+    "icon": "💪",
+    "image": "https://m.media-amazon.com/images/I/71S4-NjoTDL._AC_SX500_.jpg",
+    "price": "~$19 CAD",
+    "page": "products/prosourcefit-ab-wheel-roller.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01AVDVHTI/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Stability": 8.5,
+      "Durability": 8,
+      "Knee Pad Quality": 8,
+      "Ease of Use": 8
+    },
+    "specs": {
+      "Wheel": "Dual wheel, 3.5\" wide",
+      "Handles": "Ergonomic foam-covered grips",
+      "Knee Pad": "Extra-thick included",
+      "Weight Capacity": "350 lb",
+      "Tread": "Non-slip rubber",
+      "Material": "ABS plastic frame, steel axle"
+    }
+  },
+  {
+    "id": "rep-fitness-fid-weight-bench",
+    "name": "REP Fitness AB-3000 FID Adjustable Weight Bench",
+    "category": "Fitness Equipment",
+    "score": 8.5,
+    "tag": "Best Adjustable Weight Bench",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/rep-fitness-fid-weight-bench.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07CMLGQR9/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Weight Capacity": 9.5,
+      "Stability": 9,
+      "Pad Comfort": 8,
+      "Value": 8
+    },
+    "specs": {
+      "Weight Capacity": "1,000 lb",
+      "Back Positions": "7 (flat, 15°, 30°, 45°, 60°, 75°, 90°)",
+      "Seat Positions": "3",
+      "Steel Gauge": "11-gauge, 3\" × 3\" frame",
+      "Pad Dimensions": "10\" W × 27\" L × 3\" thick",
+      "Weight": "~90 lb",
+      "Extras": "Transport wheels, pull pin adjustment system"
+    }
+  },
+  {
+    "id": "ryobi-40v-cordless-string-trimmer",
+    "name": "RYOBI 40V HP Brushless 15\" Cordless String Trimmer (RY40290VNM)",
+    "category": "Lawn & Garden",
+    "score": 8.2,
+    "tag": "Best Ryobi Battery Trimmer",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/ryobi-40v-cordless-string-trimmer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09FN5M4PG/?tag=clearpick06-20",
+    "subscores": {
+      "Cut Power": 8,
+      "Ecosystem": 8.5,
+      "Value": 8.5,
+      "Weight": 8.5,
+      "Build Quality": 8
+    },
+    "specs": {
+      "Voltage": "40V HP",
+      "Cutting Swath": "15\"",
+      "Line Diameter": ".080\" dual line",
+      "Line Feed": "Bump feed",
+      "Motor": "HP Brushless",
+      "Shaft": "Straight composite shaft",
+      "Weight": "~6.7 lb with battery",
+      "Variable Speed": "Yes",
+      "Battery": "Compatible with RYOBI 40V (NOT 18V ONE+ — different system)",
+      "Ecosystem": "RYOBI 40V"
+    }
+  },
+  {
+    "id": "ryobi-40v-hp-brushless-21-mower",
+    "name": "RYOBI 40V HP Brushless 21\" Self-Propelled Cordless Lawn Mower",
+    "category": "Lawn & Garden",
+    "score": 8.5,
+    "tag": "Best Mid-Range Cordless Mower",
+    "icon": "🌿",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/ryobi-40v-hp-brushless-21-mower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09FN5K1S6/?tag=clearpick06-20",
+    "subscores": {
+      "Cutting Power": 8.5,
+      "Self-Propel": 8.5,
+      "Battery Ecosystem": 9,
+      "Build Quality": 8,
+      "Value": 8.5
+    },
+    "specs": {
+      "Voltage": "40V HP",
+      "Cutting Width": "21\" steel deck",
+      "Drive": "Self-propelled, variable speed",
+      "Cutting Heights": "7 positions",
+      "Discharge": "3-in-1 — bag, mulch, side discharge",
+      "Motor": "HP Brushless",
+      "Battery": "6Ah recommended (check listing for kit vs tool-only)",
+      "Runtime": "~40–50 min per charge",
+      "Ecosystem": "RYOBI 40V (incompatible with RYOBI 18V ONE+)",
+      "Weight": "~70 lb with battery"
+    }
+  },
+  {
+    "id": "schwinn-270-recumbent-bike",
+    "name": "Schwinn 270 Recumbent Bike",
+    "category": "Fitness Equipment",
+    "score": 8.4,
+    "tag": "Best Recumbent Bike for Home",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$999 CAD",
+    "page": "products/schwinn-270-recumbent-bike.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B077LZVS3F/?tag=clearpick06-20",
+    "subscores": {
+      "Comfort": 9,
+      "Resistance Range": 9,
+      "Programs": 8.5,
+      "Connectivity": 8,
+      "Value": 8
+    },
+    "specs": {
+      "Resistance": "25 levels, magnetic Eddy current",
+      "Programs": "29 preset + 9 user-defined",
+      "Display": "Dual LCD (speed, distance, time, calories, RPM, heart rate)",
+      "Connectivity": "Bluetooth — Schwinn Trainer app, JRNY compatible",
+      "Weight Capacity": "300 lb",
+      "Seat": "Ventilated, lumbar support, dual position armrests",
+      "Extras": "3-speed fan, USB charging, contact + wireless heart rate, device holder"
+    }
+  },
+  {
+    "id": "schwinn-ic4-indoor-bike",
+    "name": "Schwinn IC4 Indoor Cycling Exercise Bike",
+    "category": "Fitness Equipment",
+    "score": 8.8,
+    "tag": "Best Indoor Cycling Bike",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1099 CAD",
+    "page": "products/schwinn-ic4-indoor-bike.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07P3JS6K1/?tag=clearpick06-20",
+    "subscores": {
+      "Ride Quality": 9,
+      "Resistance Range": 9.5,
+      "Connectivity": 9,
+      "Value": 8.5,
+      "Build Quality": 8.5
+    },
+    "specs": {
+      "Resistance": "Magnetic, 100 micro-adjustable levels",
+      "Flywheel": "40 lb",
+      "Pedals": "Dual-sided SPD clip-in + toe cage",
+      "Bluetooth": "Yes — Peloton, Zwift, Apple Fitness+, Explore the World compatible",
+      "Weight Capacity": "300 lb",
+      "Display": "LCD (speed, cadence, distance, calories, heart rate)",
+      "Extras": "Media rack, water bottle holder, cage adjustments, Bluetooth heart rate monitor included"
+    }
+  },
+  {
+    "id": "shokz-openrun-pro",
+    "name": "Shokz OpenRun Pro Bone Conduction Headphones",
+    "category": "Headphones",
+    "score": 8.6,
+    "tag": "Best Bone Conduction Headphones",
+    "icon": "🎧",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/shokz-openrun-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BJ5LKGJ/?tag=clearpick06-20",
+    "subscores": {
+      "Situational Awareness": 10,
+      "Durability": 9,
+      "Sound Quality": 7,
+      "Battery Life": 8.5,
+      "Comfort": 9
+    },
+    "specs": {
+      "Transducer": "Bone conduction (open ear)",
+      "Battery": "10h playback, quick charge (10 min = 1.5h)",
+      "Water Resistance": "IP55 (sweat and rain resistant — not waterproof)",
+      "Connectivity": "Bluetooth 5.1",
+      "Frame": "Titanium",
+      "Weight": "29g",
+      "Microphone": "Dual noise-cancelling mics",
+      "Charging": "Proprietary magnetic USB"
+    }
+  },
+  {
+    "id": "sole-f80-treadmill",
+    "name": "Sole F80 Folding Treadmill",
+    "category": "Fitness Equipment",
+    "score": 8.7,
+    "tag": "Best Home Treadmill for Runners",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1799 CAD",
+    "page": "products/sole-f80-treadmill.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00BX99NM8/?tag=clearpick06-20",
+    "subscores": {
+      "Motor Power": 9,
+      "Build Quality": 9,
+      "Belt Size": 9.5,
+      "Features": 8,
+      "Durability": 9
+    },
+    "specs": {
+      "Motor": "3.5 CHP",
+      "Speed Range": "0–12 MPH",
+      "Incline Range": "0–15%",
+      "Display": "9\" LCD",
+      "Weight Capacity": "375 lb",
+      "Belt Size": "22\" × 60\"",
+      "Connectivity": "Bluetooth audio, USB charging, device holder"
+    }
+  },
+  {
+    "id": "sun-joe-spx3000-pressure-washer",
+    "name": "Sun Joe SPX3000 2030 PSI Electric Pressure Washer",
+    "category": "Lawn & Garden",
+    "score": 8.3,
+    "tag": "Best Budget Electric Pressure Washer",
+    "icon": "🌿",
+    "image": "https://m.media-amazon.com/images/I/71l9XB9pCSL._AC_SX500_.jpg",
+    "price": "~$199 CAD",
+    "page": "products/sun-joe-spx3000-pressure-washer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00CPGMUXW/?tag=clearpick06-20",
+    "subscores": {
+      "Pressure": 8,
+      "Value": 9.5,
+      "Nozzle Variety": 9,
+      "Portability": 8,
+      "Durability": 7.5
+    },
+    "specs": {
+      "Pressure": "2030 PSI max",
+      "Flow Rate": "1.76 GPM",
+      "Motor": "14.5A electric",
+      "Nozzles": "5 quick-connect (0°, 15°, 25°, 40°, soap)",
+      "Detergent Tanks": "Dual onboard (2 × 0.9L)",
+      "Hose": "20-ft high-pressure hose",
+      "Power Cord": "35-ft",
+      "Total Stop System": "Yes — auto-shuts motor when trigger released",
+      "Weight": "~31 lb",
+      "Best For": "Cars, decks, patios, fences, siding"
+    }
+  },
+  {
+    "id": "sunny-health-sf-rw5515-rower",
+    "name": "Sunny Health & Fitness SF-RW5515 Magnetic Rowing Machine",
+    "category": "Fitness Equipment",
+    "score": 8.3,
+    "tag": "Best Mid-Range Rowing Machine",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/sunny-health-sf-rw5515-rower.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07PPYKNRG/?tag=clearpick06-20",
+    "subscores": {
+      "Resistance Range": 8,
+      "Build Quality": 8,
+      "Storage": 8.5,
+      "Value": 8.5,
+      "Smooth Stroke": 8
+    },
+    "specs": {
+      "Resistance": "Magnetic, 16 levels",
+      "Monitor": "LCD — time, count, calories, distance, total count",
+      "Weight Capacity": "250 lb",
+      "Folding": "Yes — folds vertically for storage",
+      "Foot Straps": "Adjustable, anti-slip",
+      "Extras": "Device holder, transport wheels",
+      "Dimensions (folded)": "19\" L × 23.5\" W × 56\" H"
+    }
+  },
+  {
+    "id": "tfal-ultimate-hard-anodized-cookware-set",
+    "name": "T-fal Ultimate Hard Anodized 17-Piece Cookware Set",
+    "category": "Kitchen & Dining",
+    "score": 8.4,
+    "tag": "Best Hard-Anodized Cookware Set",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/tfal-ultimate-hard-anodized-cookware-set.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B001CC0NEI/?tag=clearpick06-20",
+    "subscores": {
+      "Non-Stick Performance": 8.5,
+      "Heat Distribution": 8.5,
+      "Durability": 7.5,
+      "Ease of Cleaning": 9,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Pieces": "17",
+      "Material": "Hard-anodized aluminum with titanium-reinforced non-stick",
+      "Thermo-Spot": "Heat indicator ring turns solid red at proper preheat temperature",
+      "Oven Safe": "Up to 400°F (204°C)",
+      "Induction Compatible": "No"
+    }
+  },
+  {
+    "id": "vitamix-5200",
+    "name": "Vitamix 5200 Blender, Professional-Grade",
+    "category": "Kitchen & Dining",
+    "score": 9.1,
+    "tag": "Best Professional-Grade Blender",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$649 CAD",
+    "page": "products/vitamix-5200.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B001I2KX0M/?tag=clearpick06-20",
+    "subscores": {
+      "Blending Power": 10,
+      "Build Quality": 9.5,
+      "Versatility": 9,
+      "Ease of Use": 8.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Motor": "2.0 HP (1380W)",
+      "Container": "64 oz (1.9L) BPA-free Eastman Tritan",
+      "Speed Settings": "Variable 1–10 + High/Low toggle + pulse",
+      "Blade": "Aircraft-grade stainless steel, hardened and laser-cut",
+      "Warranty": "7-year full warranty (motor base and container)",
+      "Dimensions": "8.75\" × 7.25\" × 20.5\" H",
+      "Weight": "10.6 lb (4.8 kg)"
+    }
+  },
+  {
+    "id": "vitamix-a2500-ascent-blender",
+    "name": "Vitamix A2500 Ascent Series Smart Blender",
+    "category": "Kitchen & Dining",
+    "score": 9,
+    "tag": "Best Smart Blender",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$799 CAD",
+    "page": "products/vitamix-a2500-ascent-blender.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01MY2NYRN/?tag=clearpick06-20",
+    "subscores": {
+      "Blending Performance": 9.5,
+      "Smart Features": 8.5,
+      "Build Quality": 9.5,
+      "Noise": 7,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Motor": "2.2 HP peak",
+      "Container": "64 oz Low-Profile",
+      "Smart Features": "Self-Detect, 3 preset programs, digital timer",
+      "Warranty": "10 years",
+      "Connectivity": "Wireless (Vitamix Perfect Blend app)"
+    }
+  },
+  {
+    "id": "walkingpad-a1-pro-under-desk-treadmill",
+    "name": "WalkingPad A1 Pro Under Desk Treadmill",
+    "category": "Fitness Equipment",
+    "score": 8.1,
+    "tag": "Best Under-Desk Walking Treadmill",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$599 CAD",
+    "page": "products/walkingpad-a1-pro-under-desk-treadmill.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BVDK56S/?tag=clearpick06-20",
+    "subscores": {
+      "Noise Level": 9,
+      "Portability": 9,
+      "Space Saving": 9.5,
+      "Speed Range": 7.5,
+      "Value": 7.5
+    },
+    "specs": {
+      "Speed Range": "0.5–6 km/h (walking only)",
+      "Motor": "1.0 HP",
+      "Weight Capacity": "265 lb",
+      "Noise Level": "<60 dB at walking speed",
+      "Belt Width": "17\"",
+      "Folded Dimensions": "58.3\" L × 20.5\" W × 5.1\" H",
+      "Control": "Remote control + foot-speed sensor mode"
+    }
+  },
+  {
+    "id": "yes4all-adjustable-kettlebell",
+    "name": "Yes4All Adjustable Kettlebell 12–42 lbs",
+    "category": "Fitness Equipment",
+    "score": 8.2,
+    "tag": "Best Adjustable Kettlebell",
+    "icon": "💪",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/yes4all-adjustable-kettlebell.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07RXBT1RH/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Adjustability": 8.5,
+      "Build Quality": 7.5,
+      "Handle Feel": 8,
+      "Space Savings": 9
+    },
+    "specs": {
+      "Weight Range": "12–42 lbs (6 settings: 12, 17, 22, 27, 32, 42 lb)",
+      "Material": "Cast iron with vinyl coating",
+      "Handle": "Standard kettlebell width, textured grip",
+      "Adjustment": "Quick-change dial system",
+      "Handle Diameter": "~35mm",
+      "Storage": "Single footprint replaces 6 kettlebells"
+    }
+  },
+  {
+    "id": "zojirushi-ns-zcc10-rice-cooker",
+    "name": "Zojirushi NS-ZCC10 Neuro Fuzzy Rice Cooker & Warmer, 5.5-Cup",
+    "category": "Kitchen & Dining",
+    "score": 8.9,
+    "tag": "Best Rice Cooker for Asian Varieties",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$229 CAD",
+    "page": "products/zojirushi-ns-zcc10-rice-cooker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00003CHEJ/?tag=clearpick06-20",
+    "subscores": {
+      "Rice Quality": 10,
+      "Versatility": 8.5,
+      "Keep-Warm Performance": 9.5,
+      "Build Quality": 9,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Capacity": "5.5 cups (uncooked) — approximately 10 cups cooked",
+      "Cooking Modes": "White rice (regular/softer/harder), mixed rice, sushi rice, porridge, quick cooking, brown rice",
+      "Keep Warm": "Up to 12 hours with automatic keep-warm",
+      "Neuro Fuzzy Logic": "Microcomputer adjusts cooking based on actual temperature readings",
+      "Inner Pot": "Non-stick coated aluminium with 2-layer Teflon",
+      "Dimensions": "10.25\" W × 14\" D × 8.5\" H",
+      "Weight": "7.3 lb (3.3 kg)"
+    }
   }
 ]

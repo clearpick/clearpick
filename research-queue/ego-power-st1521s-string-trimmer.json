@@ -1,0 +1,113 @@
+{
+  "slug": "ego-power-st1521s-string-trimmer",
+  "name": "EGO Power+ ST1521S 56V 15\" String Trimmer with 2.5Ah Battery",
+  "brand": "EGO",
+  "category": "Lawn & Garden",
+  "categoryPage": "lawn-garden.html",
+  "filterTag": "String Trimmers",
+  "subcategory": "string-trimmers",
+  "asin": "B0832GBZFJ",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.8,
+  "tag": "Best Battery String Trimmer",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0832GBZFJ/?tag=clearpick06-20",
+  "subscores": {
+    "Cut Power": 9,
+    "Ecosystem": 9,
+    "Run Time": 8.5,
+    "Weight": 8,
+    "Build Quality": 8.5
+  },
+  "specs": {
+    "Voltage": "56V Arc-Lithium",
+    "Battery": "2.5Ah (check listing — kit vs tool-only varies)",
+    "Cutting Swath": "15\"",
+    "Line Diameter": ".095\" (pre-wound)",
+    "Line Feed": "Bump feed",
+    "Shaft": "Carbon fiber composite, split-shaft design",
+    "Weight": "~7 lb with battery",
+    "Weather Rating": "Weather sealed",
+    "Accessory Compatible": "Yes — split shaft accepts EGO attachments (edger, cultivator, etc.)",
+    "Ecosystem": "EGO 56V"
+  },
+  "whatWorks": [
+    "The 56V brushless motor handles thick grass and weeds at the base of fences and along garden bed edges without the stalling that affects lower-voltage trimmers. Owners regularly cut through a week of overgrowth without reducing speed.",
+    "Carbon fibre composite shaft is lightweight but rigid — no flex or wobble during heavy cutting. The split-shaft design also accepts EGO attachment accessories, converting the trimmer into an edger, cultivator, or pole saw with separate heads.",
+    "EGO 56V battery compatibility means this trimmer uses the same batteries as the LM2156SP mower and LB6504 blower. For EGO ecosystem users, it rounds out a complete battery-powered yard tool set on a single charger.",
+    "Weather-sealed construction handles Canadian spring and fall conditions — light rain and wet grass are not an issue, which matters for a tool that's often used right after mowing or in damp morning conditions."
+  ],
+  "worthKnowing": [
+    "Battery and charger inclusion varies by listing — the ST1521S is available in kit (with 2.5Ah battery + charger) and tool-only versions. Confirm before ordering; 56V EGO batteries run $70–$130 CAD separately.",
+    "At ~7 lb with battery, this is heavier than entry-level trimmers. Extended sessions (45+ minutes) along large property edges can cause arm and shoulder fatigue.",
+    ".095\" line is the standard diameter for residential trimming but not the heaviest available — for thick brush or heavy overgrowth, a larger diameter line (available as replacement spools) would improve performance.",
+    "Bump feed requires correctly loaded line to function reliably. Owners who load line incorrectly report feed jams — the first few loads have a learning curve."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Battery not included in tool-only listing…",
+      "body": "Battery not included in tool-only listing — I ordered the base trimmer and didn't realize until it arrived. Make sure you're ordering the kit version if you need the battery.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Seven pounds gets heavy after extended…",
+      "body": "Seven pounds gets heavy after extended trimming sessions. My half-acre property perimeter takes 40 minutes and my arm is tired by the end.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Line feed jammed the first three…",
+      "body": "Line feed jammed the first three times I loaded it. Once I figured out the correct winding direction it's been flawless, but the manual doesn't explain it well.",
+      "source": "Reddit"
+    },
+    {
+      "title": "More expensive than Ryobi or Greenworks…",
+      "body": "More expensive than Ryobi or Greenworks alternatives but the 56V power and EGO battery ecosystem justify it if you're already in the EGO family.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The EGO ST1521S is the best battery string trimmer for Canadian residential use: 56V power handles overgrowth that lower-voltage alternatives stall on, the split shaft opens accessory compatibility, and EGO 56V battery sharing with the mower and blower makes the ecosystem investment pay off. The weight and higher price are the honest tradeoffs. For buyers already in the EGO 56V ecosystem, it's the correct trimmer. For buyers starting fresh with a standalone trimmer, the RYOBI 40V is the value alternative.",
+  "realBuyers": [
+    {
+      "quote": "Cuts through thick weeds along my fence line without slowing down. My old corded trimmer used to bog on the same spots.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Same battery as my EGO mower. Finish mowing, swap the battery, trim the edges. Done in one charge cycle.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Used it in the rain and it was completely fine. Weather sealed actually means something.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Added the edger attachment later — the split shaft is a genuine feature, not a gimmick. Now I have two tools for one battery.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "EGO ST1521S — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0832GBZFJ"
+    },
+    {
+      "title": "Best Cordless String Trimmers 2025 — Popular Mechanics",
+      "url": "https://www.popularmechanics.com/home/lawn-garden/best-cordless-string-trimmers"
+    },
+    {
+      "title": "EGO String Trimmer Review — The Spruce",
+      "url": "https://www.thespruce.com/ego-string-trimmer-review"
+    }
+  ],
+  "metaDescription": "EGO Power+ ST1521S 56V 15\" string trimmer review for Canada: 56V power, carbon fibre split shaft, EGO ecosystem compatible, weather sealed. Honest on weight and price. ~$199 CAD.",
+  "introText": "The EGO Power+ ST1521S is a 56V cordless string trimmer with a carbon fibre split-shaft design, .095\" line, and compatibility with the EGO 56V battery ecosystem. It shares batteries with EGO's mowers and blowers. Available on Amazon.ca (ASIN B0832GBZFJ) at around $199 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0832GBZFJ",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": [
+    "ego-power-lb6504",
+    "dewalt-2100-psi-pressure-washer",
+    "dewalt-60v-flexvolt-leaf-blower"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "sun-joe-spx3000-pressure-washer",
+  "name": "Sun Joe SPX3000 2030 PSI Electric Pressure Washer",
+  "brand": "Sun Joe",
+  "category": "Lawn & Garden",
+  "categoryPage": "lawn-garden.html",
+  "filterTag": "Pressure Washers",
+  "subcategory": "pressure-washers",
+  "asin": "B00CPGMUXW",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.3,
+  "tag": "Best Budget Electric Pressure Washer",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00CPGMUXW/?tag=clearpick06-20",
+  "subscores": {
+    "Pressure": 8,
+    "Value": 9.5,
+    "Nozzle Variety": 9,
+    "Portability": 8,
+    "Durability": 7.5
+  },
+  "specs": {
+    "Pressure": "2030 PSI max",
+    "Flow Rate": "1.76 GPM",
+    "Motor": "14.5A electric",
+    "Nozzles": "5 quick-connect (0°, 15°, 25°, 40°, soap)",
+    "Detergent Tanks": "Dual onboard (2 × 0.9L)",
+    "Hose": "20-ft high-pressure hose",
+    "Power Cord": "35-ft",
+    "Total Stop System": "Yes — auto-shuts motor when trigger released",
+    "Weight": "~31 lb",
+    "Best For": "Cars, decks, patios, fences, siding"
+  },
+  "whatWorks": [
+    "Five quick-connect nozzles — 0° (pencil jet), 15°, 25°, 40°, and foam soap — cover every common residential task without buying accessories. Swap nozzles in seconds.",
+    "Dual detergent tanks let you load two different soaps simultaneously and switch without draining and reloading — useful for car wash (car soap in one, wheel cleaner in the other).",
+    "Total Stop System automatically shuts the motor when you release the trigger, extending pump life significantly compared to models that run continuously.",
+    "Corded electric eliminates battery management and gas handling — plug in and go, which suits the typical Canadian homeowner doing seasonal cleaning a few times a year."
+  ],
+  "worthKnowing": [
+    "2030 PSI is the minimum for cleaning stubborn stains — it will not strip oil from a concrete driveway, remove old paint, or clean heavily neglected surfaces effectively. Tasks requiring 3000+ PSI need a higher-end model.",
+    "Hose connection fittings are a consistent complaint — if not fully seated and twisted to lock, they leak. The connection mechanism requires more attention than premium brands.",
+    "No dedicated hose reel or wrap — storing 20 ft of high-pressure hose and the 35-ft power cord is unwieldy without an aftermarket solution.",
+    "Build quality is entry-level plastic — not designed for contractor or frequent professional use. As a homeowner tool used a few times seasonally, it's appropriate."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Hose fittings leak if you don't…",
+      "body": "Hose fittings leak if you don't fully seat and lock them. First time I used it I had a spray at every connection. Once I understood the locking mechanism it was fine.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "2030 PSI not enough for old…",
+      "body": "2030 PSI not enough for old oil stains on my driveway. Good for general cleaning but not for heavily neglected surfaces.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Storage is a hassle — no hose…",
+      "body": "Storage is a hassle — no hose reel, no cord wrap. I ended up buying a cheap hose reel separately.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Plastic feels cheap compared to DEWALT…",
+      "body": "Plastic feels cheap compared to DEWALT or Karcher but at $199 you're not paying for premium materials. It cleans well though.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Sun Joe SPX3000 is the best-value electric pressure washer for Canadian homeowners with typical seasonal cleaning needs — 2030 PSI, five nozzles, and dual soap tanks at $199 CAD covers cars, decks, patios, fences, and siding without any additional purchases. It won't handle neglected concrete or paint stripping, and the hose connections require attention. For heavy-duty or frequent use, the DEWALT 13-Amp is more durable. For most homeowners cleaning a few times a year, the SPX3000 delivers.",
+  "realBuyers": [
+    {
+      "quote": "Washed my car, deck, patio furniture, and fence in one afternoon. Everything looks like new.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Cleaned my deck before re-staining — took half the time of scrubbing by hand and came out cleaner.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Did the whole driveway before sealing it. The 25-degree nozzle was perfect for that.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Cleaned siding that had been green with algae for years. Took one pass and it was clean.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sun Joe SPX3000 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B00CPGMUXW"
+    },
+    {
+      "title": "Best Electric Pressure Washers 2025 — Popular Mechanics",
+      "url": "https://www.popularmechanics.com/home/lawn-garden/best-electric-pressure-washers"
+    },
+    {
+      "title": "Sun Joe SPX3000 Review — The Spruce",
+      "url": "https://www.thespruce.com/sun-joe-spx3000-review"
+    }
+  ],
+  "metaDescription": "Sun Joe SPX3000 2030 PSI electric pressure washer review for Canada: 5 nozzles, dual soap tanks, total stop system. Honest on hose fittings and PSI limits. ~$199 CAD.",
+  "introText": "The Sun Joe SPX3000 is a 2030 PSI electric pressure washer with five quick-connect nozzles and dual detergent tanks — the most complete entry-level kit at this price. Available on Amazon.ca (ASIN B00CPGMUXW) at around $199 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B00CPGMUXW",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": [
+    "ego-power-lb6504",
+    "dewalt-2100-psi-pressure-washer",
+    "dewalt-60v-flexvolt-leaf-blower"
+  ]
+}

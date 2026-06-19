@@ -1,0 +1,110 @@
+{
+  "slug": "cap-barbell-olympic-weight-set",
+  "name": "CAP Barbell 300 lb Olympic Weight Set",
+  "brand": "CAP Barbell",
+  "category": "Fitness Equipment",
+  "categoryPage": "fitness.html",
+  "filterTag": "Weights",
+  "subcategory": "free-weights",
+  "asin": "B00FC3YCVO",
+  "price": 349,
+  "priceDisplay": "$349 CAD",
+  "score": 8.0,
+  "tag": "Best Olympic Weight Set",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00FC3YCVO/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9,
+    "Weight Range": 8.5,
+    "Durability": 8,
+    "Bar Quality": 7.5,
+    "Completeness": 8
+  },
+  "specs": {
+    "Total Weight": "300 lb",
+    "Bar": "7-foot Olympic bar, 28mm grip",
+    "Plate Hole Size": "2-inch Olympic standard",
+    "Plate Material": "Cast iron",
+    "Plate Sizes": "2×45lb, 2×35lb, 4×25lb, 4×10lb, 2×5lb, 4×2.5lb",
+    "Compatibility": "Standard Olympic racks and benches",
+    "Includes": "Bar + plates (collars sold separately)"
+  },
+  "whatWorks": [
+    "300 lbs covers beginner through intermediate strength training — enough to progress on all major compound lifts (squat, bench, deadlift, overhead press) for 2–3+ years before needing additional plates.",
+    "Cast iron plates are genuinely durable under normal use — they don't bend, warp, or crack from standard barbell training, and they'll outlast the owner's use of them for most home gym lifters.",
+    "The 7-foot bar fits standard power racks and benches with standard-width uprights. Buyers who own or are buying a power cage won't need to worry about compatibility.",
+    "Buying as a set saves significantly over purchasing individual plates — a 300 lb plate collection bought piecemeal through major retailers typically costs 30–50% more than a comparable bundled set."
+  ],
+  "worthKnowing": [
+    "The included bar is entry-level: no knurling pattern, no center knurling, no markings for hand placement, and a 28mm smooth grip that can feel slippery under heavy load with sweaty hands. Serious barbell lifters will want to upgrade the bar.",
+    "Cast iron plates will chip or crack if dropped repeatedly from height on hard concrete. This is a fundamental property of cast iron, not a defect — rubber bumper plates (sold separately) are the solution for Olympic lifting or deadlift drops.",
+    "Weight tolerance on cast iron plates can vary ±2–3% from the labeled weight. This matters for competitive lifters but is irrelevant for most home gym users.",
+    "No collar clips are included. Spring collars ($15–25 CAD) are essential for safety during squats and overhead pressing and should be purchased at the same time."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Bar is slippery without knurling…",
+      "body": "The bar that comes with this set has no knurling at all. My hands slip during deadlifts at higher weights. I ended up buying a separate bar after a few months.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Plates chipped on concrete floor…",
+      "body": "Dropped a plate from waist height once and it cracked. Cast iron doesn't survive drops — I wish the product description made that clearer.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No collars included…",
+      "body": "You need collars to safely use this. I almost had a plate slide off mid-squat on my first session. Buy collars before you use this.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Plates weigh slightly off…",
+      "body": "I weighed a few plates out of curiosity — the 45s were between 43 and 46 lbs. Fine for general training but worth knowing if precision matters to you.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The CAP Barbell 300 lb Olympic set is the right buy for someone building a first home gym on a budget who needs a functional, durable weight collection without premium price tags. The cast iron plates are long-lasting and the 300 lb total is genuinely useful for years of training. The bar is the honest weak point — entry-level knurling and grip make it suitable for learning but limiting for serious strength work. Buy spring collars at the same time, and plan to upgrade the bar when your training demands it.",
+  "realBuyers": [
+    {
+      "quote": "Built my first home gym around this set. 18 months later the plates still look new and I've been training consistently 4 days a week.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "300 lbs is more than enough to get strong. I didn't touch the upper range for over a year.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Cast iron plates are basically indestructible under normal training. I've had mine for 3 years and they're fine.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Way cheaper than buying plates individually. I priced it out and saved over $100 buying the set.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "CAP Barbell 300 lb Olympic Set — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B00FC3YCVO"
+    },
+    {
+      "title": "Best Olympic Weight Sets 2025 — Garage Gym Reviews",
+      "url": "https://www.garagegymreviews.com/best-olympic-weight-sets"
+    },
+    {
+      "title": "Home Gym Equipment Guide — BarBend",
+      "url": "https://barbend.com/home-gym-equipment/"
+    }
+  ],
+  "metaDescription": "CAP Barbell 300 lb Olympic weight set review for Canada: cast iron plates, 7-foot Olympic bar. Honest on bar quality and cast iron chip risk. ~$349 CAD.",
+  "introText": "The CAP Barbell 300 lb Olympic Weight Set includes a 7-foot Olympic bar and cast iron plates — the practical starting point for a home gym barbell setup. Available on Amazon.ca (ASIN B00FC3YCVO) at around $349 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B00FC3YCVO",
+  "verifiedPrice": "$349 CAD",
+  "similarProducts": [
+    "concept2-rowerg",
+    "triggerpoint-grid-foam-roller",
+    "iron-gym-pull-up-bar"
+  ]
+}

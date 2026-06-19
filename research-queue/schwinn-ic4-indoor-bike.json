@@ -1,0 +1,110 @@
+{
+  "slug": "schwinn-ic4-indoor-bike",
+  "name": "Schwinn IC4 Indoor Cycling Exercise Bike",
+  "brand": "Schwinn",
+  "category": "Fitness Equipment",
+  "categoryPage": "fitness.html",
+  "filterTag": "Exercise Bikes",
+  "subcategory": "exercise-bikes",
+  "asin": "B07P3JS6K1",
+  "price": 1099,
+  "priceDisplay": "$1,099 CAD",
+  "score": 8.8,
+  "tag": "Best Indoor Cycling Bike",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07P3JS6K1/?tag=clearpick06-20",
+  "subscores": {
+    "Ride Quality": 9,
+    "Resistance Range": 9.5,
+    "Connectivity": 9,
+    "Value": 8.5,
+    "Build Quality": 8.5
+  },
+  "specs": {
+    "Resistance": "Magnetic, 100 micro-adjustable levels",
+    "Flywheel": "40 lb",
+    "Pedals": "Dual-sided SPD clip-in + toe cage",
+    "Bluetooth": "Yes — Peloton, Zwift, Apple Fitness+, Explore the World compatible",
+    "Weight Capacity": "300 lb",
+    "Display": "LCD (speed, cadence, distance, calories, heart rate)",
+    "Extras": "Media rack, water bottle holder, cage adjustments, Bluetooth heart rate monitor included"
+  },
+  "whatWorks": [
+    "100 magnetic resistance levels give a degree of control that's genuinely different from bikes with 8 or 16 levels — interval training at precise resistance targets is actually possible, and the micro-increments let you dial in feel rather than jumping between distinctly different settings.",
+    "The Schwinn IC4 works with the Peloton app — giving you access to thousands of Peloton classes on an app subscription (~$20–30 CAD/month) without the $3,000+ Peloton bike. This is the single most common reason buyers choose this machine.",
+    "Dual-sided SPD pedals accept standard road cycling clip-in shoes on one side and toe cages on the other, meaning the bike works immediately without buying shoes, but rewards upgrading when you're ready.",
+    "The 40 lb flywheel provides smooth, road-bike-like momentum at higher cadences — the inertia makes spin classes feel more like outdoor cycling than budget bikes with lighter flywheels."
+  ],
+  "worthKnowing": [
+    "There is no built-in screen — you need a tablet or phone mounted to the media rack for Peloton, Zwift, or any class content. The included LCD only shows basic metrics.",
+    "The stock seat is consistently described as uncomfortable, especially for riders new to cycling. A gel seat cover or replacement saddle ($30–80 CAD) is a near-universal recommendation from long-term owners.",
+    "Assembly takes 2–3 hours and involves levelling the frame, which requires patience. The instruction manual is adequate but not friendly; YouTube walkthrough videos are faster.",
+    "At ~100 lb assembled, the IC4 is not easy to move. The built-in transport wheels work on flat floors, but getting it up stairs is a multi-person job."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Stock seat is uncomfortable…",
+      "body": "The seat that comes with it is terrible. I bought a gel cover on day one and even that wasn't enough — eventually got a replacement saddle. Budget for it.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No built-in screen…",
+      "body": "I knew going in there was no screen, but it's still annoying to prop up my iPad every session. I wish they'd at least included a better media mount.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Assembly instructions could be better…",
+      "body": "The manual is vague in the spots where it matters most. I spent 30 minutes YouTube searching for a video on how to align the flywheel correctly.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Heavy and doesn't move easily…",
+      "body": "The transport wheels only work on very smooth floors. On my textured concrete basement floor I basically can't move it without two people.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Schwinn IC4 is the de facto choice for buyers who want Peloton-class workouts without the Peloton price. The 100-level magnetic resistance and Peloton app compatibility together make this one of the best-value indoor bikes available in Canada. The seat needs upgrading and the lack of a built-in screen is a real omission, but neither is a dealbreaker — they're budget decisions buyers can make themselves after purchase. For serious home cyclists, this is the bike.",
+  "realBuyers": [
+    {
+      "quote": "I use the Peloton app on this and honestly can't imagine paying three grand for the actual Peloton when this does exactly the same thing.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The 100-level resistance is incredible for interval training. I can go from a very easy spin to a brutal climb in one turn of the knob.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Finally got clip-in shoes and it transformed the ride. The SPD pedals were a great call by Schwinn.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "I do a 45-minute Peloton class every morning on this. 8 months in, no issues whatsoever.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Schwinn IC4 Indoor Cycling Bike — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07P3JS6K1"
+    },
+    {
+      "title": "Schwinn IC4 Review — Garage Gym Reviews",
+      "url": "https://www.garagegymreviews.com/schwinn-ic4-review"
+    },
+    {
+      "title": "Best Exercise Bikes 2025 — Tom's Guide",
+      "url": "https://www.tomsguide.com/best-picks/best-exercise-bikes"
+    }
+  ],
+  "metaDescription": "Schwinn IC4 indoor cycling bike review for Canada: 100-level magnetic resistance, Peloton app compatible, SPD pedals. Honest on screen and seat trade-offs. ~$1,099 CAD.",
+  "introText": "The Schwinn IC4 is an indoor cycling bike with 100-level magnetic resistance and Bluetooth connectivity for Peloton, Zwift, and Apple Fitness+ — making it the most popular Peloton alternative in Canada. Available on Amazon.ca (ASIN B07P3JS6K1) at around $1,099 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07P3JS6K1",
+  "verifiedPrice": "$1,099 CAD",
+  "similarProducts": [
+    "concept2-rowerg",
+    "triggerpoint-grid-foam-roller",
+    "iron-gym-pull-up-bar"
+  ]
+}

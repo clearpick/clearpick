@@ -1,0 +1,113 @@
+{
+  "slug": "greenworks-1800-psi-pressure-washer",
+  "name": "Greenworks 1800 PSI Electric Pressure Washer (GPW1803)",
+  "brand": "Greenworks",
+  "category": "Lawn & Garden",
+  "categoryPage": "lawn-garden.html",
+  "filterTag": "Pressure Washers",
+  "subcategory": "pressure-washers",
+  "asin": "B07KSVBC2Q",
+  "price": 169,
+  "priceDisplay": "$169 CAD",
+  "score": 8.0,
+  "tag": "Best Compact Electric Pressure Washer",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07KSVBC2Q/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9,
+    "Portability": 9.5,
+    "Ease of Use": 8.5,
+    "Pressure": 7.5,
+    "Build Quality": 7.5
+  },
+  "specs": {
+    "Pressure": "1800 PSI max",
+    "Flow Rate": "1.1 GPM",
+    "Motor": "13A electric",
+    "Nozzles": "5 quick-connect (0°, 15°, 25°, 40°, soap)",
+    "Detergent Tank": "Onboard (single)",
+    "Hose": "25-ft high-pressure hose",
+    "Power Cord": "35-ft",
+    "Weight": "~9.4 lb",
+    "Total Stop System": "Yes",
+    "Best For": "Cars, patio furniture, bikes, light residential surfaces"
+  },
+  "whatWorks": [
+    "At 9.4 lb, this is one of the lightest pressure washers available — significantly easier to carry, set up, and move around than heavier models. For users who want to clean multiple areas in one session, the portability difference is real.",
+    "Five quick-connect nozzles are included and cover the same range as pricier models — 0° to 40° and foam soap. The foam soap application is the most-used nozzle for car washing.",
+    "Compact enough to store in an apartment closet, condo storage locker, or trunk — a genuine advantage for urban Canadian buyers without a garage.",
+    "1800 PSI is appropriate for cars, patio furniture, bicycles, lawn equipment, and light residential surface cleaning — the jobs most Canadian homeowners do most often."
+  ],
+  "worthKnowing": [
+    "1800 PSI and 1.1 GPM is the weakest among the three pressure washers reviewed — it will noticeably struggle on moderately soiled driveways, algae-covered surfaces, or anything requiring sustained scrubbing.",
+    "Single detergent tank vs Sun Joe's dual tanks is a meaningful limitation for car washing — you can't pre-load two different soaps.",
+    "Connections can loosen with repeated use over multiple seasons — an entry-level build-quality issue that emerges over time rather than immediately.",
+    "The 1.1 GPM flow rate means coverage is slower — you move the wand across the same area more times than a 1.76 GPM model."
+  ],
+  "commonComplaints": [
+    {
+      "title": "1800 PSI struggles with stubborn stains…",
+      "body": "1800 PSI struggles with stubborn stains on the driveway. I was able to clean the light stuff but the old oil stains didn't budge.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Less flow rate than Sun Joe…",
+      "body": "Less flow rate than Sun Joe — cleaning my deck took noticeably longer. Still worked but slower.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Connections started to loosen after…",
+      "body": "Connections started to loosen after the second season. Had to hand-tighten before each use by year three.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Only one soap tank vs two…",
+      "body": "Only one soap tank vs two on the Sun Joe. Not a big deal for general cleaning but annoying for car washing when you want two soaps.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Greenworks GPW1803 is the right choice when portability is the primary requirement — 9.4 lb is genuinely light, and for apartment dwellers, condo owners, and buyers without a garage, that compact footprint matters. The 1800 PSI and 1.1 GPM limits are real: this is a maintenance cleaner for light tasks, not a heavy-duty surface cleaner. For buyers who want serious cleaning power, the Sun Joe SPX3000 adds 230 PSI and 0.66 GPM for $30 CAD more.",
+  "realBuyers": [
+    {
+      "quote": "Live in a condo and store this in my closet. Fits perfectly and is light enough to carry down to the parking lot.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Cleaned patio furniture, bikes, and the BBQ. Perfect for what I needed it for.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Lightweight enough that I can actually carry it up stairs without help. Previous washer was twice as heavy.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Washes my car well. The foam soap nozzle gets good coverage and the rinse is clean.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Greenworks GPW1803 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07KSVBC2Q"
+    },
+    {
+      "title": "Best Electric Pressure Washers — Bob Vila",
+      "url": "https://www.bobvila.com/articles/best-electric-pressure-washer"
+    },
+    {
+      "title": "Greenworks Pressure Washer Review — This Old House",
+      "url": "https://www.thisoldhouse.com/lawn-care/reviews/greenworks-pressure-washer-review"
+    }
+  ],
+  "metaDescription": "Greenworks 1800 PSI electric pressure washer review for Canada: lightest at 9.4 lb, 5 nozzles, compact storage. Honest on 1800 PSI limits for heavy surfaces. ~$169 CAD.",
+  "introText": "The Greenworks GPW1803 is the most compact and portable electric pressure washer reviewed — 9.4 lb and 1800 PSI, designed for light maintenance cleaning of cars, furniture, and equipment. Available on Amazon.ca (ASIN B07KSVBC2Q) at around $169 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07KSVBC2Q",
+  "verifiedPrice": "$169 CAD",
+  "similarProducts": [
+    "ego-power-lb6504",
+    "dewalt-2100-psi-pressure-washer",
+    "dewalt-60v-flexvolt-leaf-blower"
+  ]
+}

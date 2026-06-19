@@ -1,0 +1,108 @@
+{
+  "slug": "oxo-brew-9-cup-pour-over",
+  "name": "OXO Brew 9-Cup Pour-Over Coffee Maker with Water Tank",
+  "brand": "OXO",
+  "category": "Kitchen & Dining",
+  "categoryPage": "kitchen-dining.html",
+  "filterTag": "Coffee Makers",
+  "subcategory": "pour-over",
+  "asin": "B07KHMTBXM",
+  "price": 79,
+  "priceDisplay": "$79 CAD",
+  "score": 8.7,
+  "tag": "Best Pour-Over Coffee Maker",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07KHMTBXM/?tag=clearpick06-20",
+  "subscores": {
+    "Coffee Quality": 9,
+    "Ease of Use": 8.5,
+    "Brew Evenness": 9,
+    "Design": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Capacity": "9 cups (1.35L carafe)",
+    "Carafe": "Borosilicate glass with thermal lid",
+    "Filter Basket": "Flat-bottom (Melitta No. 4 compatible)",
+    "Shower Head": "Rainmaker — perforated for even saturation",
+    "Material": "BPA-free"
+  },
+  "whatWorks": [
+    "The Rainmaker shower head distributes water through 26 perforations across the full surface of the coffee bed, ensuring even saturation without dry channels — the most common cause of flat, under-extracted pour-over coffee.",
+    "The flat-bottom filter basket (Melitta-style) produces more even extraction than a conical V60 for beginners because it slows the flow rate and allows more contact time, making it more forgiving of inconsistent pouring technique.",
+    "The water tank design allows you to pour all the hot water in at once rather than manually circling in stages — it approximates the pour-over experience with less technique required.",
+    "The thermal carafe lid keeps coffee hot for 30+ minutes after brewing without a warming plate, eliminating the burnt-coffee smell of drip machines left on keep-warm."
+  ],
+  "worthKnowing": [
+    "Requires a separate kettle to heat water — the OXO Brew itself cannot heat water, so it adds a step vs. a standard drip machine.",
+    "Uses Melitta No. 4 flat-bottom filters — not compatible with Chemex or V60 filters, and you'll need to keep Melitta filters on hand (available at most Canadian grocery stores).",
+    "The borosilicate glass carafe is high quality but not indestructible — a few owners have reported breakage from drops or thermal shock, which is common with glass vessels.",
+    "Pour-over coffee quality depends on the grind, water temperature, and coffee freshness more than any manual equipment — the OXO Brew is an excellent vessel, but great results still require quality inputs."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Requires a separate kettle — not standalone…",
+      "body": "Requires a separate kettle. I assumed it would heat the water but it doesn't. Read the listing carefully — it's a brewer, not a complete machine.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Have to buy Melitta filters specifically…",
+      "body": "Have to buy Melitta No. 4 filters specifically. V60 and Chemex filters don't fit. Minor but worth knowing before you buy.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Glass carafe broke when I set it on…",
+      "body": "Glass carafe broke when I set it on a cold granite counter straight from a hot brew. Thermal shock. My fault, but be careful.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Coffee quality depends mostly on the…",
+      "body": "Coffee quality depends mostly on the beans and grind. The OXO is a great vessel but it won't save a stale bag of pre-ground coffee.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The OXO Brew 9-Cup Pour-Over is the most accessible entry into quality pour-over coffee in Canada. The Rainmaker shower head and flat-bottom basket produce genuinely even extraction that most beginners can't achieve with a V60, and the thermal carafe lid keeps coffee hot without a warming plate. The kettle requirement and Melitta filter dependency are easy to plan around. If you want better coffee than a drip machine without the learning curve of a V60, this is the right tool.",
+  "realBuyers": [
+    {
+      "quote": "Switched from a drip machine and the difference is immediately noticeable. Coffee tastes like it came from a coffee shop.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The shower head does all the work. I pour water into the tank, it distributes it evenly, and I walk away. Much easier than a real pour-over.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "For anyone wanting better coffee without the V60 learning curve, this is the answer. My first cup was the best drip-style coffee I'd ever made.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "This + a decent grinder + quality beans = coffee I'm genuinely proud to serve guests. Morning ritual that I actually look forward to.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "OXO Brew 9-Cup Pour-Over — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07KHMTBXM"
+    },
+    {
+      "title": "Best Pour-Over Coffee Makers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-pour-over-coffee-maker/"
+    },
+    {
+      "title": "OXO Brew Pour-Over Review — Serious Eats",
+      "url": "https://www.seriouseats.com"
+    }
+  ],
+  "metaDescription": "OXO Brew 9-Cup Pour-Over Coffee Maker review for Canada: Rainmaker shower head, flat-bottom basket, thermal carafe lid. Honest on kettle requirement and Melitta filter dependency. ~$79 CAD.",
+  "introText": "The OXO Brew 9-Cup Pour-Over uses a Rainmaker perforated shower head to evenly saturate a flat-bottom coffee bed, producing consistent pour-over coffee without the manual technique a V60 requires. It's the most beginner-friendly pour-over coffee maker in Canada and available on Amazon.ca (ASIN B07KHMTBXM) at around $79 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07KHMTBXM",
+  "verifiedPrice": "$79 CAD",
+  "similarProducts": [
+    "instant-pot-pro-6qt",
+    "vitamix-e310-explorian",
+    "keurig-k-elite"
+  ]
+}

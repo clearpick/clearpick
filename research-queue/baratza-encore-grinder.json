@@ -1,0 +1,110 @@
+{
+  "slug": "baratza-encore-grinder",
+  "name": "Baratza Encore Conical Burr Coffee Grinder",
+  "brand": "Baratza",
+  "category": "Kitchen & Dining",
+  "categoryPage": "kitchen-dining.html",
+  "filterTag": "Kitchen Gadgets",
+  "subcategory": "kitchen-gadgets",
+  "asin": "B007F183LK",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.9,
+  "tag": "Best Entry-Level Burr Coffee Grinder",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B007F183LK/?tag=clearpick06-20",
+  "subscores": {
+    "Grind Consistency": 9,
+    "Grind Range": 8.5,
+    "Build Quality": 9,
+    "Ease of Use": 9.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Burrs": "40mm conical steel burrs",
+    "Grind Settings": "40 — from coarse (French press) to medium-fine (drip/AeroPress)",
+    "Hopper Capacity": "8 oz (227g) beans",
+    "Ground Bin": "5 oz (142g) capacity",
+    "Motor": "110W DC motor, 450 RPM (low speed to reduce heat and static)",
+    "Dimensions": "4.7\" W × 6.3\" D × 13.75\" H",
+    "Weight": "7 lb (3.2 kg)"
+  },
+  "whatWorks": [
+    "The 40mm conical burrs produce consistent grind particle size across all 40 settings — the difference in cup quality versus blade grinders is significant and immediate, particularly for pour-over and French press where extraction evenness matters.",
+    "Forty settings provide enough range to tune from coarse French press through drip, AeroPress, and Moka pot, covering every manual and drip brewing method without adjustment guesswork. Setting 20–28 is the drip sweet spot for most medium roasts.",
+    "Baratza offers replacement parts (burrs, hoppers, motors) for sale directly and supports Canadian buyers through North American customer service — a meaningful advantage over cheaper brands where repair means replacement.",
+    "Operation is straightforward: fill the hopper, set the number on the dial, press the button. The pulse button lets you grind smaller amounts on demand without pre-programming dosing."
+  ],
+  "worthKnowing": [
+    "The Encore is not designed for espresso — its finest setting (1) is too coarse for most espresso machines, which require a significantly finer grind than this unit can achieve. Espresso buyers need the Baratza Sette 270 or equivalent.",
+    "Static electricity causes ground coffee to cling to the plastic ground bin and spout during dry winter conditions — a common frustration in Canadian climates from October through March. A small spritz of water on the beans before grinding (the Ross Droplet Technique) largely eliminates this.",
+    "The 8 oz hopper is not sealed — beans stored in the hopper are exposed to air and light, which degrades freshness faster than an airtight container. Most serious coffee drinkers grind per session and store beans in a sealed canister separately.",
+    "Grind time for a full dose is slower than higher-end grinders — expect 10–15 seconds for a drip dose, 20–30 seconds for a full French press. Not a concern for most buyers but noticeable if you're grinding multiple cups in succession."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Can't grind fine enough for espresso…",
+      "body": "Can't grind fine enough for espresso. I thought 40 settings meant espresso was in there somewhere but it's not — the finest setting is still too coarse for my machine.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Static makes grounds stick everywhere…",
+      "body": "Static makes grounds stick to the inside of the bin and fly everywhere when I dump them out. Worse in winter. The wet bean trick helps but it's annoying to need a workaround.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Hopper isn't airtight for bean storage…",
+      "body": "Hopper isn't airtight so I can't leave beans in it — I have to refill from a sealed canister each time. Fine if you know this going in.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Grinds slowly compared to nicer grinders…",
+      "body": "Grinds slowly compared to nicer grinders. Takes 20-25 seconds for a full French press dose. Not a dealbreaker but worth knowing if speed matters.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Baratza Encore is the standard recommendation for entry-level burr grinding in Canada because it does the job it's designed for consistently and backs it with real repair support. The improvement over a blade grinder in cup quality is immediate and significant for any manual or drip brewing method. The limitations — no espresso capability, static in dry climates, slow grind speed — are well-documented and unlikely to surprise buyers who research before purchasing. For pour-over, French press, drip, and AeroPress drinkers spending under $200 CAD, nothing at this price competes on grind consistency and longevity.",
+  "realBuyers": [
+    {
+      "quote": "The difference between this and my old blade grinder was immediate — my first pour-over tasted like a completely different coffee. Better extraction, no bitterness.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I've had mine for four years, grinding every single morning. The burrs are still sharp and the motor hasn't slowed down.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I use it on setting 24 for my drip machine and the results are consistently good. Set it once, never touched it since.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Baratza shipped me replacement burrs two years in when mine showed wear. Fast, no hassle. That kind of support is why this brand has the reputation it does.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Baratza Encore Conical Burr Grinder — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B007F183LK"
+    },
+    {
+      "title": "Best coffee grinders — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-coffee-grinder/"
+    },
+    {
+      "title": "Baratza Encore review — Roasty Coffee",
+      "url": "https://www.roastycoffee.com/baratza-encore-review/"
+    }
+  ],
+  "metaDescription": "Baratza Encore burr grinder review for Canada: 40 settings, conical burrs, repair parts available. Honest on espresso limitations and static in dry climates. ~$199 CAD.",
+  "introText": "The Baratza Encore is the benchmark entry-level conical burr grinder for home coffee enthusiasts, combining 40 grind settings with a low-RPM motor and Baratza's North American repair support into the most recommended first burr grinder under $200 CAD. Available on Amazon.ca (ASIN B007F183LK) at around $199 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B007F183LK",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": [
+    "instant-pot-pro-6qt",
+    "vitamix-e310-explorian",
+    "keurig-k-elite"
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "slug": "cuisinart-dcc-3200-coffee-maker",
+  "name": "Cuisinart DCC-3200P1 PerfecTemp 14-Cup Programmable Coffeemaker",
+  "brand": "Cuisinart",
+  "category": "Kitchen & Dining",
+  "categoryPage": "kitchen-dining.html",
+  "filterTag": "Coffee Makers",
+  "subcategory": "coffee-makers",
+  "asin": "B00MVWGDH4",
+  "price": 89,
+  "priceDisplay": "$89 CAD",
+  "score": 8.6,
+  "tag": "Best 14-Cup Drip Coffee Maker",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00MVWGDH4/?tag=clearpick06-20",
+  "subscores": {
+    "Brew Quality": 8.5,
+    "Capacity": 9.5,
+    "Ease of Use": 9,
+    "Features": 8,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Capacity": "14 cups",
+    "Carafe": "Glass with ergonomic handle",
+    "Brew Strength": "Regular / Bold",
+    "Small Batch Mode": "1–4 cups",
+    "Keep Warm": "60 minutes, adjustable temperature"
+  },
+  "whatWorks": [
+    "14-cup capacity covers large households and office settings without multiple brew cycles — owners regularly run a full pot for morning gatherings without any issue.",
+    "The programmable 24-hour timer means coffee is ready when you wake up, and the bold brew setting produces noticeably stronger coffee that holds up to milk without tasting watered down.",
+    "The 1–4 cup small batch mode adjusts the brew to avoid over-extraction when you only want one or two cups — a genuinely useful feature most drip machines skip.",
+    "At under $90 CAD, it delivers reliable, consistent results that rival machines in the $150+ range, making it the clearest value pick in the drip coffee category."
+  ],
+  "worthKnowing": [
+    "The glass carafe develops staining over time and is harder to clean than stainless thermal carafes — a bottle brush is essentially required.",
+    "The 60-minute auto shutoff is fixed and will shut the machine off before you finish the pot if you brew early and drink slowly.",
+    "Keep-warm at higher temperature settings can slightly scorch the bottom of the coffee over 30–40 minutes, introducing a mild bitter edge.",
+    "This is a straightforward drip machine — no grinder, no bloom pause, no temperature control. Coffee quality is ceiling-capped by the ground coffee you use."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Carafe stains and is nearly impossible…",
+      "body": "Carafe stains badly over time and is nearly impossible to clean fully without a bottle brush and soaking overnight.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Keep-warm burns the coffee after…",
+      "body": "Keep-warm burns the coffee after about 30 minutes — it starts to taste bitter if you don't drink it quickly.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Programmable clock resets every time…",
+      "body": "Programmable clock resets every time the power goes out — even a brief outage means setting the time again.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "The lid drips when you pour…",
+      "body": "The carafe lid design lets coffee drip down the side when you pour. After a year I still haven't figured out the right angle.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The Cuisinart DCC-3200 is the most capable 14-cup drip coffee maker under $100 CAD. The bold brew setting and small-batch mode give it genuine flexibility most budget drip machines lack, and the 24-hour programmable timer works exactly as advertised. Glass carafe staining and the 60-minute auto shutoff are real trade-offs worth knowing, but neither is a dealbreaker for the price. If you need high-volume reliable drip coffee for a household or small office, this is the straightforward pick.",
+  "realBuyers": [
+    {
+      "quote": "Makes 14 cups perfectly every morning. Family of five and we go through the whole pot before 9am.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The bold setting is the only way I'll drink it now. Regular was fine but bold is genuinely better coffee.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I've had cheaper coffee makers fail after a year. This one is going on three years and still perfect.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Set it the night before and wake up to a hot pot. Does exactly what it promises at a very fair price.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cuisinart DCC-3200 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B00MVWGDH4"
+    },
+    {
+      "title": "Best Drip Coffee Makers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-drip-coffee-maker/"
+    },
+    {
+      "title": "Cuisinart DCC-3200 Review — Coffee Geek",
+      "url": "https://coffeegeek.com"
+    }
+  ],
+  "metaDescription": "Cuisinart DCC-3200 review for Canada: 14-cup programmable drip coffee maker with bold brew and small-batch mode. Honest on glass carafe staining and keep-warm limits. ~$89 CAD.",
+  "introText": "The Cuisinart DCC-3200 is a 14-cup programmable drip coffee maker with bold and regular brew strength settings, a 1–4 cup small-batch mode, and a 24-hour programmable timer. It's the most capable high-volume drip machine under $100 CAD and is widely available on Amazon.ca (ASIN B00MVWGDH4) at around $89 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B00MVWGDH4",
+  "verifiedPrice": "$89 CAD",
+  "similarProducts": [
+    "instant-pot-pro-6qt",
+    "vitamix-e310-explorian",
+    "keurig-k-elite"
+  ]
+}

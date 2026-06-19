@@ -1,0 +1,115 @@
+{
+  "slug": "marshall-major-iv",
+  "name": "Marshall Major IV On-Ear Bluetooth Headphones",
+  "brand": "Marshall",
+  "category": "Headphones",
+  "categoryPage": "headphones.html",
+  "filterTag": "Over-Ear Headphones",
+  "subcategory": "over-ear-headphones",
+  "asin": "B09G3NWKY6",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.2,
+  "tag": "Best Headphones for Rock and Guitar Music",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09G3NWKY6/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 8.5,
+    "Battery Life": 9.5,
+    "Style": 9,
+    "Comfort": 7.5,
+    "Value": 8
+  },
+  "specs": {
+    "Driver": "40mm dynamic drivers",
+    "Battery": "80h wireless playback",
+    "ANC": "None",
+    "Connectivity": "Bluetooth 5.0, 3.5mm wired fallback",
+    "Charging": "USB-C",
+    "Weight": "166g",
+    "Type": "On-ear (supra-aural), foldable",
+    "Special Features": "Multi-directional control knob, wired share mode"
+  },
+  "whatWorks": [
+    "80h battery is the highest in the consumer headphone category — not even close competitors reach this figure. For listeners who travel frequently or simply hate charging, the Major IV is genuinely set-and-forget.",
+    "Marshall's sound signature emphasizes guitar frequencies, midrange warmth, and controlled bass in a way that flatters rock, blues, classic rock, and acoustic music. These are purpose-tuned headphones and they excel at their intended genre.",
+    "The retro Marshall amp aesthetic is distinctive and consistently praised — brown/black leather texture, gold accents, and the Marshall logo make these a visual statement piece as much as an audio device.",
+    "The multi-directional control knob is clever and tactile — push to play/pause, rotate to adjust volume, hold for voice assistant. It eliminates the fumbling that touch-control earbuds cause."
+  ],
+  "worthKnowing": [
+    "On-ear (supra-aural) pads rest against the ear rather than around it — this causes listening fatigue for most people after 1-2 hours. These are not over-ear headphones and shouldn't be purchased expecting marathon comfort.",
+    "No active noise cancellation. In noisy environments, the only isolation comes from the passive seal of the ear pads — adequate for home and quiet offices, inadequate for transit and open-plan offices.",
+    "The Marshall mid-forward sound signature doesn't suit all genres — pop, hip-hop, EDM, and electronic music sound flat and under-powered compared to headphones tuned for those genres.",
+    "Some earlier Major IV batches shipped with micro-USB charging rather than USB-C. Verify the listing specifies USB-C charging if this matters to you."
+  ],
+  "commonComplaints": [
+    {
+      "title": "On-ear pads cause ear discomfort after…",
+      "body": "On-ear pads cause ear discomfort after about 90 minutes — I can't use these for long listening sessions no matter how much I like the sound.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No noise cancellation at all which…",
+      "body": "No noise cancellation at all which is a dealbreaker for commuting — I can't hear music on the subway without blasting the volume.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Marshall tuning is very mid-heavy, pop…",
+      "body": "Marshall tuning is very mid-heavy, pop and hip-hop sound flat. Bought these for a wide range of music and regret it.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Check whether you're getting USB-C or…",
+      "body": "Check whether you're getting USB-C or micro-USB before you buy — some listings still ship older stock with micro-USB.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Marshall Major IV is a single-genre specialist with the best battery life in the category — 80h is genuinely extraordinary and the mid-forward sound signature makes these the best consumer headphones for rock, blues, and guitar music. The on-ear design causes fatigue for long sessions and the lack of ANC limits them to home and quiet environments. If rock is your primary genre and you value battery over everything else, no competitor comes close. If you want ANC, all-genre flexibility, or extended comfort, look at over-ear alternatives.",
+  "realBuyers": [
+    {
+      "quote": "Guitar music sounds incredible on these — the midrange is exactly where Marshall amps live and it translates perfectly to the headphones.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I charged these in January. It's March. Still going. 80 hours is not a typo.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The design gets compliments constantly — people assume they're way more expensive than $149.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Great if you mostly listen to rock and classic rock at home. Terrible for commuting without ANC.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Marshall Major IV — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09G3NWKY6"
+    },
+    {
+      "title": "Marshall Major IV Review — Rtings.com",
+      "url": "https://www.rtings.com/headphones/reviews/marshall/major-iv"
+    },
+    {
+      "title": "Marshall Major IV Review — SoundGuys",
+      "url": "https://www.soundguys.com/marshall-major-iv-review/"
+    },
+    {
+      "title": "Marshall Major IV Review — What Hi-Fi",
+      "url": "https://www.whathifi.com/reviews/marshall-major-iv"
+    }
+  ],
+  "metaDescription": "Marshall Major IV review for Canada: 80h battery, Marshall mid-forward sound for rock, on-ear design, no ANC. Honest on comfort limits and genre fit. ~$149 CAD.",
+  "introText": "The Marshall Major IV are on-ear wireless headphones with the longest battery life in their category — 80h — and a Marshall sound signature optimized for rock, blues, and guitar-forward music. Available on Amazon.ca (ASIN B09G3NWKY6) at around $149 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09G3NWKY6",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": [
+    "sony-wf-1000xm5",
+    "sony-wh-1000xm6",
+    "apple-airpods-pro-2nd-gen"
+  ]
+}

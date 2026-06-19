@@ -1,0 +1,110 @@
+{
+  "slug": "rep-fitness-fid-weight-bench",
+  "name": "REP Fitness AB-3000 FID Adjustable Weight Bench",
+  "brand": "REP Fitness",
+  "category": "Fitness Equipment",
+  "categoryPage": "fitness.html",
+  "filterTag": "Weight Benches",
+  "subcategory": "weight-benches",
+  "asin": "B07CMLGQR9",
+  "price": 299,
+  "priceDisplay": "$299 CAD",
+  "score": 8.5,
+  "tag": "Best Adjustable Weight Bench",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07CMLGQR9/?tag=clearpick06-20",
+  "subscores": {
+    "Build Quality": 9.5,
+    "Weight Capacity": 9.5,
+    "Stability": 9,
+    "Pad Comfort": 8,
+    "Value": 8
+  },
+  "specs": {
+    "Weight Capacity": "1,000 lb",
+    "Back Positions": "7 (flat, 15°, 30°, 45°, 60°, 75°, 90°)",
+    "Seat Positions": "3",
+    "Steel Gauge": "11-gauge, 3\" × 3\" frame",
+    "Pad Dimensions": "10\" W × 27\" L × 3\" thick",
+    "Weight": "~90 lb",
+    "Extras": "Transport wheels, pull pin adjustment system"
+  },
+  "whatWorks": [
+    "11-gauge 3\"×3\" steel construction is commercial-grade — this is the same spec as benches used in commercial gyms, and the difference is tactile from the first use. There is zero wobble or flex during heavy pressing, which fundamentally changes the confidence level of solo pressing work.",
+    "1,000 lb weight capacity accommodates powerlifters and anyone expecting to progress to heavy loads — most consumer benches are rated for 500–600 lb, and the REP's extra capacity is felt structurally, not just as a spec on paper.",
+    "7 back positions and 3 seat positions cover every standard pressing angle: flat, incline (15° through 90°), and decline via seat tilt. The pull-pin adjustment is fast and doesn't require removing the user from the bench between sets.",
+    "Transport wheels allow one person to move a 90 lb bench without lifting it — effective on smooth gym floor surfaces, which matters in multi-use garage gyms where the bench needs to be moved frequently."
+  ],
+  "worthKnowing": [
+    "At ~90 lb, the AB-3000 is heavy for a bench — lighter than some commercial alternatives but heavy for solo lifting or stair navigation. Measure your gym space before ordering and get help for any installation that involves steps.",
+    "The 3\" pad thickness can feel thin for incline pressing positions, where body weight shifts more heavily onto the lower back contact point. A pad cover or additional cushion resolves this for most users.",
+    "Footprint is larger than basic flat benches — the multi-position adjustable mechanism adds length and width. Confirm measurements against your gym space before purchase.",
+    "At $299 CAD, this is not the cheapest bench available — budget benches at $150–200 exist, though they use thinner steel, lower weight capacities, and less precise adjustment mechanisms."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Very heavy even with transport wheels…",
+      "body": "90 lbs is a lot for a bench. I can move it with the wheels on flat floor but getting it down the basement stairs required two people and some creative thinking.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Pad could be thicker for incline…",
+      "body": "For flat pressing it's fine. But on a steep incline I feel the lower back support isn't quite enough — I use a rolled towel behind my lower back for incline work.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "More expensive than most benches…",
+      "body": "You're paying for the build quality and it shows — but if budget is tight, cheaper options exist that do 80% of what this does.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Large footprint in small home gyms…",
+      "body": "It's bigger than I expected. I had to re-arrange my garage gym to fit it. Measure twice.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The REP Fitness AB-3000 is the best adjustable bench available under $500 CAD and one of the top home gym equipment purchases for serious lifters. The 11-gauge steel and 1,000 lb capacity bring commercial-gym stability to a home setting, and the 7 back-position range covers every training angle you'll use. The pad thickness at incline and the weight/footprint are genuine trade-offs, not deal-breakers. For anyone who wants to bench press seriously at home without worrying about whether the equipment will hold, this is the bench.",
+  "realBuyers": [
+    {
+      "quote": "This bench doesn't move. I bench 260 lbs and the thing is an immovable object. Never going back to a wobbly consumer bench.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "1,000 lb rating sounds like overkill but you feel the difference. The whole bench is just solid.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I went through two cheap benches before buying this. Should have bought it first.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The incline and decline positions give me every chest angle I need. No more separate incline bench cluttering my garage.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "REP Fitness AB-3000 Weight Bench — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07CMLGQR9"
+    },
+    {
+      "title": "REP AB-3000 Review — Garage Gym Reviews",
+      "url": "https://www.garagegymreviews.com/rep-fitness-ab-3000-review"
+    },
+    {
+      "title": "Best Adjustable Weight Benches 2025 — BarBend",
+      "url": "https://barbend.com/best-adjustable-weight-benches/"
+    }
+  ],
+  "metaDescription": "REP Fitness AB-3000 FID weight bench review for Canada: 1,000 lb capacity, 11-gauge steel, 7 back positions. Honest on pad thickness and heavy weight. ~$299 CAD.",
+  "introText": "The REP Fitness AB-3000 FID Adjustable Weight Bench uses 11-gauge 3\"×3\" commercial steel with a 1,000 lb weight capacity and 7 back-angle positions — built to gym standards for home use. Available on Amazon.ca (ASIN B07CMLGQR9) at around $299 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07CMLGQR9",
+  "verifiedPrice": "$299 CAD",
+  "similarProducts": [
+    "concept2-rowerg",
+    "triggerpoint-grid-foam-roller",
+    "iron-gym-pull-up-bar"
+  ]
+}

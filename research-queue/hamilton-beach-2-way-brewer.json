@@ -1,0 +1,108 @@
+{
+  "slug": "hamilton-beach-2-way-brewer",
+  "name": "Hamilton Beach 2-Way Brewer Coffee Maker",
+  "brand": "Hamilton Beach",
+  "category": "Kitchen & Dining",
+  "categoryPage": "kitchen-dining.html",
+  "filterTag": "Coffee Makers",
+  "subcategory": "coffee-makers",
+  "asin": "B011WFEBSI",
+  "price": 79,
+  "priceDisplay": "$79 CAD",
+  "score": 8.3,
+  "tag": "Best Dual-Brew Coffee Maker",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B011WFEBSI/?tag=clearpick06-20",
+  "subscores": {
+    "Versatility": 9.5,
+    "Brew Quality": 7.5,
+    "Ease of Use": 8.5,
+    "Features": 8,
+    "Value for Money": 9
+  },
+  "specs": {
+    "Carafe Capacity": "12 cups",
+    "Single-Serve Options": "K-Cup pods or ground coffee",
+    "Brew Strength": "Regular / Bold",
+    "Auto Shutoff": "2 hours",
+    "Single Serve Cup Sizes": "6, 8, 10, 14 oz"
+  },
+  "whatWorks": [
+    "Two brew modes in one machine — full 12-cup carafe or single serve — eliminates the need for both a drip machine and a Keurig on the counter.",
+    "The single-serve side accepts K-Cup pods and ground coffee with the included reusable filter, which saves money on pods for buyers who already have ground coffee.",
+    "The programmable timer on the carafe side and the 2-hour auto shutoff make it low-maintenance for morning routines in shared households.",
+    "At $79 CAD, it costs less than many single-function coffee makers, making it the clearest value for households where different people want different brew volumes."
+  ],
+  "worthKnowing": [
+    "The single-serve side produces slightly weaker coffee than a dedicated Keurig — it runs cooler and faster, which reduces extraction for the same pod.",
+    "The carafe side only works with ground coffee — there's no pod option for full-pot brewing.",
+    "New machines have a noticeable plastic taste for the first five to ten brews that fades with use but can be off-putting initially.",
+    "The clock and programmable timer reset after any power interruption, even brief ones, requiring manual reconfiguration."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Single-serve side is weaker than…",
+      "body": "Single-serve side is noticeably weaker than my old Keurig for the same pods. The carafe side is great but single cup is a letdown.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Plastic taste in the first dozen…",
+      "body": "Plastic taste in the first dozen brews is real. Ran several water-only cycles through and it took almost two weeks to fully go away.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Clock resets with every power blip…",
+      "body": "Clock resets with every power blip, even a momentary one. Living in an area with occasional flickers means I reset this weekly.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Carafe side drips down the spout…",
+      "body": "Carafe drips down the side when pouring the last cup. Minor annoyance but it happens every time.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The Hamilton Beach 2-Way Brewer is the most practical dual-function coffee maker under $80 CAD, and for households where one person wants a full pot and another wants a single cup, it genuinely solves a real problem. The single-serve side underperforms a dedicated Keurig, and the plastic taste on first use is worth anticipating, but neither is unusual for the price bracket. If your household has mixed coffee volume needs and you want one machine on the counter instead of two, this is the straightforward pick.",
+  "realBuyers": [
+    {
+      "quote": "My husband drinks one cup, I drink three. One machine now covers both of us without fighting over counter space.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I use the reusable filter with my own grounds every day. Haven't bought a K-Cup in six months.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Best value coffee maker I've owned. Does two things and does them both well enough for the price.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Run a few vinegar cycles through it when you first get it. The plastic taste goes away faster.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hamilton Beach 2-Way Brewer — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B011WFEBSI"
+    },
+    {
+      "title": "Best Dual Coffee Makers — Good Housekeeping",
+      "url": "https://www.goodhousekeeping.com"
+    },
+    {
+      "title": "Hamilton Beach 2-Way Brewer Review — Tom's Guide",
+      "url": "https://www.tomsguide.com"
+    }
+  ],
+  "metaDescription": "Hamilton Beach 2-Way Brewer review for Canada: brews a 12-cup carafe or single K-Cup/ground coffee serve. Honest on single-serve weakness and plastic taste. ~$79 CAD.",
+  "introText": "The Hamilton Beach 2-Way Brewer makes a full 12-cup carafe or a single-serve cup using K-Cup pods or ground coffee — all from one machine. It's the most practical dual-function option under $80 CAD and available on Amazon.ca (ASIN B011WFEBSI) at around $79 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B011WFEBSI",
+  "verifiedPrice": "$79 CAD",
+  "similarProducts": [
+    "instant-pot-pro-6qt",
+    "vitamix-e310-explorian",
+    "keurig-k-elite"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "slug": "beats-studio-pro",
+  "name": "Beats Studio Pro Wireless Headphones",
+  "brand": "Beats",
+  "category": "Headphones",
+  "categoryPage": "headphones.html",
+  "filterTag": "Over-Ear Headphones",
+  "subcategory": "over-ear-headphones",
+  "asin": "B0CLHH7JNZ",
+  "price": 399,
+  "priceDisplay": "$399 CAD",
+  "score": 8.3,
+  "tag": "Best Over-Ear for Apple Users",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CLHH7JNZ/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 8.5,
+    "ANC": 8,
+    "Battery Life": 9,
+    "Apple Integration": 9.5,
+    "Comfort": 8
+  },
+  "specs": {
+    "Driver": "Custom 40mm drivers",
+    "Battery": "40h (ANC off) / 24h (ANC on)",
+    "ANC": "Active Noise Cancelling with Transparency mode",
+    "Connectivity": "Bluetooth 5.3, USB-C wired (lossless on iPhone 15+)",
+    "Charging": "USB-C",
+    "Weight": "260g",
+    "Codec": "SBC, AAC; lossless via USB-C",
+    "Special Features": "Apple H1 chip, Find My, instant iPhone pairing, foldable"
+  },
+  "whatWorks": [
+    "40h battery without ANC is among the best in the over-ear category — a full work week of daily commuting on a single charge is realistic. Even with ANC on, 24h is class-competitive.",
+    "Plugged into an iPhone 15 or later via USB-C, these function as a high-resolution lossless DAC — bypassing Bluetooth entirely for audiophile-grade wired audio. No other consumer headphones offer this at the price.",
+    "Apple H1 chip means instant one-tap pairing with iPhones, automatic switching between Apple devices, Siri hands-free, and integration with Find My. iPhone users get a tighter ecosystem experience than with any competitor.",
+    "The Studio Pro is now foldable — a meaningful improvement over the original Studio 3, making these practical for travel and bag storage in a way the previous generation wasn't."
+  ],
+  "worthKnowing": [
+    "The Beats sound signature is bass-heavy and warm — enjoyable for pop, hip-hop, and EDM, but buyers expecting neutral studio monitoring or reference-accurate sound will be disappointed. These are consumer-tuned headphones.",
+    "ANC performance lags behind the Sony WH-1000XM6 and Bose QuietComfort 45 at comparable prices. For pure noise cancellation, there are better options at $399 CAD.",
+    "The Apple H1 chip experience is largely Apple-only — Android users get standard Bluetooth pairing with no automatic switching, no voice assistant integration, and no Find My. The premium is wasted on Android.",
+    "At $399 CAD, these compete directly with Sony and Bose headphones that offer stronger ANC and more neutral sound. The price premium is justified for Apple users specifically; it's hard to recommend to everyone else."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Bass is way too heavy for…",
+      "body": "Bass is way too heavy for my taste — I listen to a lot of jazz and classical and everything sounds muddy and overblown.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "ANC not as good as Sony…",
+      "body": "ANC not as good as Sony XM5 or Bose — at this price I expected better noise blocking.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Basically useless features for Android…",
+      "body": "Basically useless features for Android — no automatic switching, no Siri equivalent, just regular Bluetooth. Waste of money for non-Apple users.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Price is hard to justify vs…",
+      "body": "Price is hard to justify vs Sony XM6 which has better ANC and more balanced sound for the same money.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Beats Studio Pro makes a compelling case for Apple users specifically: 40h battery, lossless USB-C audio on iPhone 15+, instant pairing, and Find My integration in a now-foldable package. The bass-heavy sound signature suits pop and hip-hop but disappoints listeners who want neutral sound. ANC is good but not class-leading — Sony and Bose offer stronger noise cancellation at similar prices. If you're in the Apple ecosystem and want long battery life, these are the best Beats ever made. If you're on Android or prioritize ANC, look elsewhere.",
+  "realBuyers": [
+    {
+      "quote": "The iPhone integration is seamless — they connect the second I open the case and switch automatically between my MacBook and phone.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Took these on a 12-hour flight and still had battery left — 40 hours is genuinely a full road trip headphone.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The bass is a lot — I had to EQ it down in the app but once I did the sound was actually pretty good.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "If you're deep in Apple ecosystem these are great. If you're on Android, just get Sony.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Beats Studio Pro — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CLHH7JNZ"
+    },
+    {
+      "title": "Beats Studio Pro Review — Rtings.com",
+      "url": "https://www.rtings.com/headphones/reviews/beats/studio-pro"
+    },
+    {
+      "title": "Beats Studio Pro Review — The Verge",
+      "url": "https://www.theverge.com/reviews/beats-studio-pro-review"
+    },
+    {
+      "title": "Beats Studio Pro Review — SoundGuys",
+      "url": "https://www.soundguys.com/beats-studio-pro-review/"
+    }
+  ],
+  "metaDescription": "Beats Studio Pro review for Canada: 40h battery, lossless USB-C audio, tight Apple integration. Honest on bass-heavy tuning and ANC vs Sony/Bose. ~$399 CAD.",
+  "introText": "The Beats Studio Pro are over-ear headphones built for the Apple ecosystem — featuring USB-C lossless audio for iPhone 15+, 40h battery, and H1 chip integration with Find My and instant pairing. Available on Amazon.ca (ASIN B0CLHH7JNZ) at around $399 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0CLHH7JNZ",
+  "verifiedPrice": "$399 CAD",
+  "similarProducts": [
+    "sony-wf-1000xm5",
+    "sony-wh-1000xm6",
+    "apple-airpods-pro-2nd-gen"
+  ]
+}

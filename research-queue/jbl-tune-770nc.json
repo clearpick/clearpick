@@ -1,0 +1,115 @@
+{
+  "slug": "jbl-tune-770nc",
+  "name": "JBL Tune 770NC Adaptive Noise Cancelling Wireless Over-Ear Headphones",
+  "brand": "JBL",
+  "category": "Headphones",
+  "categoryPage": "headphones.html",
+  "filterTag": "Over-Ear Headphones",
+  "subcategory": "over-ear-headphones",
+  "asin": "B0C5F5ZB7L",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.0,
+  "tag": "Best JBL Mid-Range Over-Ear",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0C5F5ZB7L/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 8,
+    "ANC": 7.5,
+    "Battery Life": 9.5,
+    "Value": 8.5,
+    "Comfort": 8
+  },
+  "specs": {
+    "Driver": "40mm dynamic drivers",
+    "Battery": "70h (ANC off) / 44h (ANC on)",
+    "ANC": "Adaptive Noise Cancelling with 3 modes",
+    "Connectivity": "Bluetooth 5.3, Multipoint (2 devices), 3.5mm wired",
+    "Charging": "USB-C",
+    "Weight": "220g",
+    "Codec": "SBC, AAC",
+    "Special Features": "JBL Pure Bass Sound, foldable, Ambient Aware"
+  },
+  "whatWorks": [
+    "70h battery without ANC is extraordinary for a $149 headphone — a full two weeks of daily commuting without charging is realistic. Even with ANC enabled, 44h covers a round trip flight with substantial reserve.",
+    "At 220g, the Tune 770NC is among the lightest over-ear ANC headphones available — long wearing sessions are more comfortable than heavier competitors.",
+    "Multipoint Bluetooth connects simultaneously to phone and laptop — calls route correctly between devices without manual switching, useful for hybrid work environments.",
+    "JBL Pure Bass signature with Adaptive ANC delivers clear, energetic sound for popular music genres — the tuning suits streaming playlists, podcasts, and casual listening well."
+  ],
+  "worthKnowing": [
+    "ANC performance is adequate for office noise and mild transit but doesn't reach the effectiveness of the JBL Tour One M2 or Sony WH-1000XM6 — the noise floor in loud environments like subways is noticeably higher.",
+    "JBL Pure Bass is boosted low-end — listeners who prefer neutral or balanced sound will find the bass emphasis overwhelming, especially on acoustic music and classical.",
+    "The SBC/AAC codec support means no Hi-Res Audio capability — buyers wanting LDAC or aptX Adaptive need to look at the higher-end Soundcore Q45 or Tour One M2.",
+    "App customization is limited compared to competitors — the JBL Headphones app offers basic EQ but lacks the depth of Jabra Sound+ or Sony Headphones Connect."
+  ],
+  "commonComplaints": [
+    {
+      "title": "ANC is decent but subway noise…",
+      "body": "ANC is decent but subway noise still bleeds through quite a bit — I have to turn the volume up more than I'd like.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Bass is very heavy, not for…",
+      "body": "Bass is very heavy, not for everyone — I listen to classical and jazz and had to EQ the bass down significantly.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "App doesn't offer much customization compared…",
+      "body": "App doesn't offer much customization compared to Sony or Jabra — just basic EQ and that's about it.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No LDAC at this price which…",
+      "body": "No LDAC at this price which is surprising when cheaper Anker headphones include it — feels like a step backward.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The JBL Tune 770NC hits the sweet spot of battery life and weight at $149 CAD — 70h without ANC in a 220g package is the best combination in the mid-range over-ear category. ANC is functional but not class-leading, and the bass-boosted Pure Bass signature limits genre versatility. For casual listeners who want a lightweight, long-lasting everyday headphone under $150, these are hard to beat. Demanding ANC users or neutral-sound seekers should spend more.",
+  "realBuyers": [
+    {
+      "quote": "70 hours battery — I've been traveling for two weeks and haven't charged once. This number is real.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Lightest over-ear ANC headphones I've owned — I forget I'm wearing them on long flights.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Multipoint works flawlessly for work from home — laptop calls, phone calls, music, all just switch automatically.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Best battery life in the sub-$150 category. ANC is average but what do you expect at this price.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "JBL Tune 770NC — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0C5F5ZB7L"
+    },
+    {
+      "title": "JBL Tune 770NC Review — Rtings.com",
+      "url": "https://www.rtings.com/headphones/reviews/jbl/tune-770nc"
+    },
+    {
+      "title": "JBL Tune 770NC Review — SoundGuys",
+      "url": "https://www.soundguys.com/jbl-tune-770nc-review/"
+    },
+    {
+      "title": "JBL Tune 770NC Review — PCMag",
+      "url": "https://www.pcmag.com/reviews/jbl-tune-770nc"
+    }
+  ],
+  "metaDescription": "JBL Tune 770NC review for Canada: 70h battery, lightweight 220g, adaptive ANC, multipoint. Honest on ANC limits and bass-heavy tuning. ~$149 CAD.",
+  "introText": "The JBL Tune 770NC are mid-range over-ear headphones combining exceptional battery life (70h without ANC), a lightweight 220g frame, and adaptive noise cancellation at $149 CAD — the best lightweight everyday option in JBL's lineup. Available on Amazon.ca (ASIN B0C5F5ZB7L) at around $149 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0C5F5ZB7L",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": [
+    "sony-wf-1000xm5",
+    "sony-wh-1000xm6",
+    "apple-airpods-pro-2nd-gen"
+  ]
+}

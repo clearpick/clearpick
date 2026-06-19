@@ -1,0 +1,108 @@
+{
+  "slug": "aeropress-coffee-maker",
+  "name": "AeroPress Original Coffee and Espresso Maker",
+  "brand": "AeroPress",
+  "category": "Kitchen & Dining",
+  "categoryPage": "kitchen-dining.html",
+  "filterTag": "Kitchen Gadgets",
+  "subcategory": "pour-over",
+  "asin": "B0047BIWSK",
+  "price": 45,
+  "priceDisplay": "$45 CAD",
+  "score": 9.0,
+  "tag": "Best Travel Coffee Maker",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0047BIWSK/?tag=clearpick06-20",
+  "subscores": {
+    "Coffee Quality": 9.5,
+    "Speed": 9.5,
+    "Portability": 9.5,
+    "Versatility": 9,
+    "Value for Money": 9
+  },
+  "specs": {
+    "Output": "1–3 cups per press",
+    "Brew Time": "1–2 minutes",
+    "Filtration": "Micro paper filter (350 included)",
+    "Material": "BPA-free copolyester",
+    "Weight": "6.4 oz (181g)"
+  },
+  "whatWorks": [
+    "The AeroPress brews a full cup of clean, sediment-free coffee in 1–2 minutes total — faster than any other manual brewing method and faster than most automatic machines.",
+    "Paper micro-filtration removes coffee oils and grounds completely, producing a clean cup without the bitterness associated with French press, and the result is consistently smooth across a wide range of grind sizes.",
+    "Genuinely versatile — adjust grind size, water temperature, steep time, and technique to produce anything from espresso-strength concentrate to a light American-style brew, all with the same device.",
+    "Built from BPA-free copolyester, it's essentially indestructible for travel, camping, and outdoor use. A community of competitive AeroPress enthusiasts has produced thousands of published recipes for every taste profile."
+  ],
+  "worthKnowing": [
+    "Maximum output is 1–3 cups per press — brewing for a group of four or more requires multiple sequential presses, which slows the process considerably.",
+    "Requires a separate kettle to heat water to the right temperature (80–93°C depending on technique) — the AeroPress itself cannot heat water.",
+    "The included paper filters are consumable and need replacing roughly every 1–3 uses depending on technique — reusable metal filters exist and are sold separately.",
+    "The manual pressing action takes 20–40 seconds of steady pressure — not physically demanding, but requires you to be present and engaged rather than walking away like a drip machine."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Can only make 1–3 cups at once…",
+      "body": "Can only make 1–3 cups at once. When family visits I have to press four or five times in a row. Not ideal when everyone wants coffee simultaneously.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Requires a separate kettle — it's…",
+      "body": "Requires a separate kettle to heat the water. It's not a standalone solution if you don't already have one.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Paper filters run out faster than…",
+      "body": "Paper filters run out faster than I expected. I brew twice a day and burned through 350 filters in under six months. Got the metal filter after that.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Takes practice to get consistent results…",
+      "body": "Takes practice to get consistent results. My first week of brews were all over the place before I found a recipe that worked for me.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The AeroPress is the best single-cup manual coffee maker available in Canada at any price. Its combination of speed, coffee quality, and portability is genuinely hard to match — nothing else brews a clean, smooth cup this fast at this size. The paper filter consumption and multi-cup limitation are real trade-offs for daily home use, but the AeroPress community's library of recipes means there's a technique for every preference. If you want outstanding coffee while travelling, camping, or just want the fastest quality cup in a small kitchen, this is the pick.",
+  "realBuyers": [
+    {
+      "quote": "I've taken this to three countries and a dozen camping trips. Best coffee I've had anywhere came from this thing in a tent.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Converted from pour-over. The AeroPress is faster and honestly the coffee is just as good, maybe better.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "One minute from kettle to cup. I've tried every manual method and nothing touches this for speed and quality.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "There are hundreds of competition-winning AeroPress recipes online. Rabbit hole warning — you will spend an evening trying them all.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "AeroPress Original — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0047BIWSK"
+    },
+    {
+      "title": "AeroPress Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/the-best-aeropress/"
+    },
+    {
+      "title": "AeroPress Guide — Serious Eats",
+      "url": "https://www.seriouseats.com/the-best-aeropress-technique-recipe"
+    }
+  ],
+  "metaDescription": "AeroPress Original review for Canada: brews 1–3 cups of clean, smooth coffee in 1–2 minutes with micro paper filtration. Honest on filter consumption and single-serve limit. ~$45 CAD.",
+  "introText": "The AeroPress Original brews 1–3 cups of micro-filtered coffee in under 2 minutes using manual air pressure — the fastest manual brewing method available. It's the best portable coffee maker in Canada and available on Amazon.ca (ASIN B0047BIWSK) at around $45 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0047BIWSK",
+  "verifiedPrice": "$45 CAD",
+  "similarProducts": [
+    "instant-pot-pro-6qt",
+    "vitamix-e310-explorian",
+    "keurig-k-elite"
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "greenworks-40v-17-cordless-mower",
+  "name": "Greenworks 40V 17\" Cordless Push Lawn Mower with 4Ah Battery",
+  "brand": "Greenworks",
+  "category": "Lawn & Garden",
+  "categoryPage": "lawn-garden.html",
+  "filterTag": "Lawn Mowers",
+  "subcategory": "lawn-mowers",
+  "asin": "B07YNKC4LQ",
+  "price": 399,
+  "priceDisplay": "$399 CAD",
+  "score": 8.1,
+  "tag": "Best Budget Cordless Mower",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07YNKC4LQ/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9.5,
+    "Battery Included": 9,
+    "Cutting Quality": 8,
+    "Runtime": 7.5,
+    "Build Quality": 8
+  },
+  "specs": {
+    "Voltage": "40V G-MAX",
+    "Battery": "4Ah included",
+    "Cutting Width": "17\" steel deck",
+    "Drive": "Push (no self-propel)",
+    "Cutting Heights": "5 positions",
+    "Discharge": "2-in-1 — bag, mulch",
+    "Motor": "Brushless",
+    "Runtime": "35–45 min per charge",
+    "Weight": "~50 lb with battery",
+    "Charge Time": "~60 min"
+  },
+  "whatWorks": [
+    "Battery and charger are included in the box — a key advantage over EGO and Ryobi at this price tier, where tool-only listings are common. What you see is what you pay.",
+    "At 17\" and ~50 lb, this is one of the lighter cordless mowers available. Maneuvering around garden beds, trees, and tight corners is noticeably easier than heavier 21\" alternatives.",
+    "The 40V brushless motor handles standard residential grass at a pace matching the 35–45 min runtime. For a typical small urban Canadian lot (under 2,000 sq ft), one charge is usually enough.",
+    "Quiet enough to use early morning or in the evening without angering neighbours — noticeably quieter than gas and comparable to most battery alternatives."
+  ],
+  "worthKnowing": [
+    "The 17\" cutting width means significantly more passes than a 21\" deck — on a 3,000+ sq ft lot, the extra time adds up and may exhaust the battery before finishing.",
+    "Push-only with no self-propel — on anything but flat ground, you're providing all the motive force. Not ideal for sloped Canadian properties.",
+    "The 35–45 min runtime is honest for most users, but heavy or wet grass will shorten it. Don't plan on a single charge covering more than a small lot.",
+    "The Greenworks 40V ecosystem is smaller than DEWALT 20V or EGO 56V — fewer compatible tools if you want to expand into blowers, trimmers, and snow blowers later."
+  ],
+  "commonComplaints": [
+    {
+      "title": "17 inch deck requires so many…",
+      "body": "17 inch deck requires so many passes on my medium-sized yard. Takes almost twice as long as my old 21-inch gas mower.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No self-propel makes slopes exhausting…",
+      "body": "No self-propel makes slopes exhausting. My front yard has a gentle slope and pushing this uphill for 40 minutes is a workout.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Battery died before I finished…",
+      "body": "Battery died before I finished my yard — had to wait an hour to charge and finish. My yard isn't huge but the 17-inch deck needs more passes.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Struggles with thick wet grass…",
+      "body": "Struggles with thick wet grass after a rainy week. Had to slow way down and it still bogged in the heavy spots.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Greenworks 40V 17\" is the best value entry point into cordless mowing — battery and charger included at $399 CAD beats most competitors at this price. The 17\" deck and push-only drive are real limitations that will frustrate anyone with a medium or larger lot, and the 40V ecosystem has fewer expansion options than EGO or DEWALT. For small, flat urban lots under 2,000 sq ft, it's a practical, affordable choice. For anything larger or sloped, the EGO LM2156SP is worth the premium.",
+  "realBuyers": [
+    {
+      "quote": "Perfect for my small backyard. Battery and charger included — I was mowing the same day it arrived.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "My neighbours always comment on how quiet it is compared to their gas mowers.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Lightweight and easy to push. My wife uses it without any trouble — something that wasn't possible with the old gas mower.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "For the price and the fact the battery is included, you can't argue with it for a small yard.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Greenworks 40V 17\" Mower — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07YNKC4LQ"
+    },
+    {
+      "title": "Best Budget Cordless Lawn Mowers — Consumer Reports",
+      "url": "https://www.consumerreports.org/lawn-mowers-tractors/best-cordless-lawn-mowers"
+    },
+    {
+      "title": "Greenworks Mower Review — This Old House",
+      "url": "https://www.thisoldhouse.com/lawn-care/reviews/greenworks-lawn-mower-review"
+    }
+  ],
+  "metaDescription": "Greenworks 40V 17\" cordless push mower review for Canada: battery included, lightweight, quiet. Honest on 17\" deck limitation and no self-propel. ~$399 CAD.",
+  "introText": "The Greenworks 40V 17\" is a push cordless mower that includes battery and charger — making it the most complete package at its price point. It's sized for small urban lots and priced for first-time battery-mower buyers. Available on Amazon.ca (ASIN B07YNKC4LQ) at around $399 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07YNKC4LQ",
+  "verifiedPrice": "$399 CAD",
+  "similarProducts": [
+    "ego-power-lb6504",
+    "dewalt-2100-psi-pressure-washer",
+    "dewalt-60v-flexvolt-leaf-blower"
+  ]
+}

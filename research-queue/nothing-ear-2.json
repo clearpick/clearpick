@@ -1,0 +1,115 @@
+{
+  "slug": "nothing-ear-2",
+  "name": "Nothing Ear (2) True Wireless Earbuds",
+  "brand": "Nothing",
+  "category": "Headphones",
+  "categoryPage": "headphones.html",
+  "filterTag": "In-Ear Earbuds",
+  "subcategory": "in-ear-earbuds",
+  "asin": "B0BQFLTR4P",
+  "price": 179,
+  "priceDisplay": "$179 CAD",
+  "score": 8.3,
+  "tag": "Best Mid-Range True Wireless",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BQFLTR4P/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 8.5,
+    "ANC": 8,
+    "Design": 9.5,
+    "Battery Life": 8,
+    "Value": 8.5
+  },
+  "specs": {
+    "Driver": "11.6mm dynamic driver",
+    "Battery": "6h earbuds + 30h case (ANC on); 6.3h + 30h (ANC off)",
+    "ANC": "3 modes: Light, Maximum, Adaptive",
+    "Connectivity": "Bluetooth 5.3, Multipoint",
+    "Water Resistance": "IP54",
+    "Weight": "4.5g per earbud",
+    "Codec": "SBC, AAC, LHDC 5.0 (Android only)",
+    "Special Features": "Transparent design, ChatSense (call detection), Ear Tip Fit Test"
+  },
+  "whatWorks": [
+    "LHDC 5.0 codec on compatible Android devices delivers exceptional audio resolution — the Nothing Ear (2) at $179 CAD sounds comparable to earbuds costing $100 more when paired with a LHDC-capable phone.",
+    "Three ANC modes (Light, Maximum, Adaptive) give genuine flexibility — Light is comfortable for extended office use, Maximum handles transit effectively, and Adaptive switches between them automatically based on environment.",
+    "The transparent design is distinctive and well-executed — the clear casing shows the internal components in a way that's become Nothing's signature. The case is equally striking.",
+    "Ear Tip Fit Test in the app confirms whether the seal is correct before you start using them — a genuinely useful feature that prevents hours of wondering why ANC feels weak."
+  ],
+  "worthKnowing": [
+    "LHDC 5.0 is Android-exclusive — iPhone users receive standard AAC and miss the primary audio quality differentiator. Apple users should consider whether $179 is justified without LHDC.",
+    "The Nothing X app is required to switch between ANC modes, adjust EQ, and access ChatSense. The earbuds function without it but the experience is significantly reduced.",
+    "ANC performance in Maximum mode is competitive but slightly below Jabra Elite 10 and Sony WF-1000XM5 in real-world transit tests — adequate for commuting but not best-in-class.",
+    "The transparent design is polarizing — it's unusual enough to generate consistent compliments and consistent criticism in equal measure. Try to see these in person before buying if aesthetics matter to you."
+  ],
+  "commonComplaints": [
+    {
+      "title": "LHDC only on Android, iPhone users…",
+      "body": "LHDC only on Android, iPhone users just get AAC — I was disappointed when I realized the premium codec I bought these for doesn't work on my phone.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "You need the app for everything…",
+      "body": "You need the app for everything — ANC mode switching isn't possible without it, which is annoying when my phone storage is full.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "ANC is good but Sony XM5…",
+      "body": "ANC is good but Sony XM5 earbuds are meaningfully quieter on the subway for not much more money.",
+      "source": "Reddit"
+    },
+    {
+      "title": "The see-through design is unique but…",
+      "body": "The see-through design is unique but my partner thinks they look weird — definitely a love it or hate it aesthetic.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Nothing Ear (2) are the best true wireless earbuds in the $150-$200 range for Android users with LHDC-capable phones — the audio quality uplift from that codec is real and measurable. Three-mode ANC is well-implemented, the design is genuinely distinctive, and the Fit Test prevents seal problems before they start. iPhone users should skip these — AAC removes the primary differentiator and Sony or Jabra offer better-balanced value without the codec restriction.",
+  "realBuyers": [
+    {
+      "quote": "LHDC on my Samsung S24 is genuinely impressive — music sounds more detailed and spacious than my previous $250 earbuds.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I get compliments on these constantly — people always ask what they are and are surprised they're earbuds.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "ANC on the commute cuts road noise and background chatter without making me feel isolated — the Adaptive mode nails it.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Best value earbuds under $200 for Android. Apple users should look elsewhere.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nothing Ear (2) — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BQFLTR4P"
+    },
+    {
+      "title": "Nothing Ear (2) Review — Rtings.com",
+      "url": "https://www.rtings.com/headphones/reviews/nothing/ear-2"
+    },
+    {
+      "title": "Nothing Ear (2) Review — The Verge",
+      "url": "https://www.theverge.com/reviews/nothing-ear-2-review"
+    },
+    {
+      "title": "Nothing Ear (2) Review — SoundGuys",
+      "url": "https://www.soundguys.com/nothing-ear-2-review/"
+    }
+  ],
+  "metaDescription": "Nothing Ear (2) review for Canada: LHDC 5.0 (Android), 3-mode ANC, transparent design, IP54. Honest on iOS codec limitation and ANC vs class leaders. ~$179 CAD.",
+  "introText": "The Nothing Ear (2) are true wireless earbuds with a distinctive transparent design, LHDC 5.0 high-resolution audio (Android), and three-mode adaptive ANC — offering premium audio performance at a mid-range price for Android users. Available on Amazon.ca (ASIN B0BQFLTR4P) at around $179 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0BQFLTR4P",
+  "verifiedPrice": "$179 CAD",
+  "similarProducts": [
+    "sony-wf-1000xm5",
+    "sony-wh-1000xm6",
+    "apple-airpods-pro-2nd-gen"
+  ]
+}

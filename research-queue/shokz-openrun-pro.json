@@ -1,0 +1,115 @@
+{
+  "slug": "shokz-openrun-pro",
+  "name": "Shokz OpenRun Pro Bone Conduction Headphones",
+  "brand": "Shokz",
+  "category": "Headphones",
+  "categoryPage": "headphones.html",
+  "filterTag": "Sports Headphones",
+  "subcategory": "sports-headphones",
+  "asin": "B09BJ5LKGJ",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.6,
+  "tag": "Best Bone Conduction Headphones",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09BJ5LKGJ/?tag=clearpick06-20",
+  "subscores": {
+    "Situational Awareness": 10,
+    "Durability": 9,
+    "Sound Quality": 7,
+    "Battery Life": 8.5,
+    "Comfort": 9
+  },
+  "specs": {
+    "Transducer": "Bone conduction (open ear)",
+    "Battery": "10h playback, quick charge (10 min = 1.5h)",
+    "Water Resistance": "IP55 (sweat and rain resistant — not waterproof)",
+    "Connectivity": "Bluetooth 5.1",
+    "Frame": "Titanium",
+    "Weight": "29g",
+    "Microphone": "Dual noise-cancelling mics",
+    "Charging": "Proprietary magnetic USB"
+  },
+  "whatWorks": [
+    "The open-ear bone conduction design delivers full situational awareness while listening — you hear music and your environment simultaneously. For road runners, cyclists, and hikers, this is a safety feature that traditional earbuds fundamentally cannot offer.",
+    "The titanium frame is exceptionally durable and comfortable for extended wear. At 29g, these are barely noticeable during multi-hour runs — many users wear them all day without discomfort.",
+    "IP55 water resistance handles heavy sweating, rain, and splashes without issue. The proprietary magnetic charger is the only vulnerability, but the connector is robust in practice.",
+    "Quick charge is genuinely useful for athletes — 10 minutes on the charger gives 1.5h of playback, enough to get out the door without waiting. Full charge takes about 1.5 hours."
+  ],
+  "worthKnowing": [
+    "Bone conduction physics produce significantly less bass and lower maximum volume than in-ear headphones. If you're accustomed to in-ear buds, the audio quality will disappoint — this is a deliberate trade-off for open-ear awareness, not a product defect.",
+    "These are not suitable for noisy environments like gym floors, public transit, or busy offices — the open design means you hear everything around you. They're designed for outdoor use with light background noise.",
+    "The IP55 rating covers sweat and rain but NOT swimming. Despite the water resistance, these should not be submerged. Buyers wanting swim-proof bone conduction should look at the Shokz OpenSwim.",
+    "The proprietary magnetic charging cable is a dependency — losing it means ordering a replacement. It can't charge from a standard USB-C cable."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Bass is almost completely absent compared…",
+      "body": "Bass is almost completely absent compared to regular earbuds — took me a week to adjust and I still miss it for certain music.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Useless in a noisy gym, you…",
+      "body": "Useless in a noisy gym, you can't hear anything over the weights and music — only works outside.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Proprietary charger is the only real…",
+      "body": "Proprietary charger is the only real downside — I've had to order two replacements after losing them.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Not waterproof, I learned this the…",
+      "body": "Not waterproof, I learned this the hard way trying to use them in the pool. IP55 is NOT submersion protection.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Shokz OpenRun Pro is the best bone conduction headphone available and the only sensible choice for runners and cyclists who prioritize road safety. The open-ear awareness it provides is genuinely life-preserving in traffic — something no traditional earbud can match. Audio quality is fundamentally limited by bone conduction physics and will not satisfy buyers used to in-ear sound. For the outdoor athlete who wants to hear both their music and their surroundings, there is no better option.",
+  "realBuyers": [
+    {
+      "quote": "I can hear cars coming, conversations with running partners, AND my music — it's the only way I'll run on roads now.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Cycling with these is a revelation — I can communicate with riders around me without taking anything out of my ears.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "29 grams. I forget I'm wearing them on 3-hour trail runs. Nothing else comes close for comfort over time.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Bass is basically nothing and volume ceiling is low — but if you're a road runner they might save your life one day.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Shokz OpenRun Pro — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09BJ5LKGJ"
+    },
+    {
+      "title": "Shokz OpenRun Pro Review — Rtings.com",
+      "url": "https://www.rtings.com/headphones/reviews/shokz/openrun-pro"
+    },
+    {
+      "title": "Shokz OpenRun Pro Review — Runner's World",
+      "url": "https://www.runnersworld.com/gear/a40000000/shokz-openrun-pro-review/"
+    },
+    {
+      "title": "Shokz OpenRun Pro Review — SoundGuys",
+      "url": "https://www.soundguys.com/shokz-openrun-pro-review/"
+    }
+  ],
+  "metaDescription": "Shokz OpenRun Pro review for Canada: bone conduction, full situational awareness, IP55, titanium frame, 10h battery. Best for runners and cyclists. ~$199 CAD.",
+  "introText": "The Shokz OpenRun Pro are bone conduction headphones designed for outdoor athletes who need to hear their environment while listening to music — delivering sound through your cheekbones while leaving ears completely open for situational awareness. Available on Amazon.ca (ASIN B09BJ5LKGJ) at around $199 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09BJ5LKGJ",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": [
+    "sony-wf-1000xm5",
+    "sony-wh-1000xm6",
+    "apple-airpods-pro-2nd-gen"
+  ]
+}

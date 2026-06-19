@@ -1,0 +1,113 @@
+{
+  "slug": "orbit-bhyve-smart-hose-timer",
+  "name": "Orbit B-hyve Smart Hose Watering Timer with WiFi Hub",
+  "brand": "Orbit",
+  "category": "Lawn & Garden",
+  "categoryPage": "lawn-garden.html",
+  "filterTag": "Garden Hose Timers",
+  "subcategory": "garden-hose-timers",
+  "asin": "B07H9TGY7C",
+  "price": 79,
+  "priceDisplay": "$79 CAD",
+  "score": 8.5,
+  "tag": "Best Smart Hose Timer",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07H9TGY7C/?tag=clearpick06-20",
+  "subscores": {
+    "App Experience": 8.5,
+    "Weather Integration": 9,
+    "Ease of Setup": 8,
+    "Reliability": 8.5,
+    "Value": 8.5
+  },
+  "specs": {
+    "Connectivity": "WiFi (2.4 GHz) + Bluetooth",
+    "Hub Required": "Yes — Orbit B-hyve WiFi Hub (included)",
+    "Zones": "Single zone (one hose connection)",
+    "Thread": "3/4\" standard hose thread",
+    "Power": "4 × AA batteries (~1 year life)",
+    "Smart Features": "Scheduled watering, rain delay (smart + manual), weather intelligence",
+    "App": "Orbit B-hyve (iOS and Android)",
+    "Voice Control": "Amazon Alexa, Google Assistant compatible",
+    "Watering Modes": "Duration-based or volume-based",
+    "Weather": "Integrates with local weather station data for auto-skip on rain days"
+  },
+  "whatWorks": [
+    "WiFi control from anywhere via the B-hyve app means you can start, stop, or adjust watering schedules from your phone while at work or on vacation — particularly valuable for Canadian cottage-season planning when you're away for weeks.",
+    "Smart weather delays automatically skip scheduled watering on rain days based on local forecast data — a genuine water-saving feature that many owners say pays for the timer in a single summer.",
+    "Alexa and Google Assistant integration enables voice control: 'Alexa, start watering the garden' works without opening the app. Setup is straightforward if you already have a smart home ecosystem.",
+    "Installation takes minutes on a standard 3/4\" hose thread — no tools, no plumbing. Screw on, pair to the hub, and schedule from the app."
+  ],
+  "worthKnowing": [
+    "Requires 2.4 GHz WiFi — does not work on 5 GHz networks. Many modern Canadian routers broadcast both bands under the same name, requiring you to split them or force a 2.4 GHz connection during setup.",
+    "Single zone only — one hose bib, one watering schedule. For properties with multiple hose connections or garden areas needing different schedules, multiple timers must be purchased and managed separately.",
+    "Battery-powered (4 AA batteries) — not wired. Battery life is approximately 12 months under typical use, but below-average Canadian winters may reduce this if the timer is left installed year-round.",
+    "Occasional app connectivity drops require re-pairing — a known issue in the B-hyve ecosystem that appears after firmware updates or router changes. Resolution is usually 5–10 minutes of troubleshooting."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Only works on 2.4 GHz WiFi…",
+      "body": "Only works on 2.4 GHz WiFi — spent 45 minutes troubleshooting before realizing my router was broadcasting 2.4 and 5 GHz under the same name. Had to split the bands.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "App lost connection after a firmware…",
+      "body": "App lost connection after a firmware update. Had to delete and re-pair the device. Took about 10 minutes but it's happened twice now in two seasons.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Single zone is limiting if you…",
+      "body": "Single zone is limiting if you have multiple garden areas. I ended up buying three of them which works but adds up quickly.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Battery dies faster than expected if…",
+      "body": "Battery dies faster than expected if you leave it installed through a cold Canadian winter. Take it inside after the first frost.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Orbit B-hyve Smart Hose Timer is the most practical smart watering solution for Canadian homeowners with a single-zone setup — weather-delay automation, away-from-home control, and Alexa/Google integration at $79 CAD. The 2.4 GHz WiFi requirement trips up modern dual-band routers during setup, and the single-zone limit requires multiple purchases for complex gardens. For a front or back garden with one hose bib, it's the right product. Take it inside before the Canadian winter to preserve battery and components.",
+  "realBuyers": [
+    {
+      "quote": "Went on a two-week vacation and didn't think once about watering. The timer ran every day on schedule and my garden was fine when I got back.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Smart rain delay saved me from watering the day before a huge rainstorm. Literally watches the forecast and cancels runs automatically.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Alexa turns on the garden watering when I ask. It's one of those smart home features that actually gets used every day.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Took ten minutes to install and set up the first schedule. Husband is not tech-savvy and he figured it out without help.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Orbit B-hyve Smart Hose Timer — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07H9TGY7C"
+    },
+    {
+      "title": "Best Smart Garden Hose Timers 2025 — The Spruce",
+      "url": "https://www.thespruce.com/best-garden-hose-timers"
+    },
+    {
+      "title": "Orbit B-hyve Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-smart-sprinkler-controller"
+    }
+  ],
+  "metaDescription": "Orbit B-hyve smart hose watering timer review for Canada: WiFi + Bluetooth, weather-delay automation, Alexa/Google compatible. Honest on 2.4 GHz and single-zone limits. ~$79 CAD.",
+  "introText": "The Orbit B-hyve Smart Hose Watering Timer connects to your home WiFi and automatically skips watering on rain days — controllable from anywhere via app or Alexa. Available on Amazon.ca (ASIN B07H9TGY7C) at around $79 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07H9TGY7C",
+  "verifiedPrice": "$79 CAD",
+  "similarProducts": [
+    "ego-power-lb6504",
+    "dewalt-2100-psi-pressure-washer",
+    "dewalt-60v-flexvolt-leaf-blower"
+  ]
+}

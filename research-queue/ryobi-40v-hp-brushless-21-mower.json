@@ -1,0 +1,113 @@
+{
+  "slug": "ryobi-40v-hp-brushless-21-mower",
+  "name": "RYOBI 40V HP Brushless 21\" Self-Propelled Cordless Lawn Mower",
+  "brand": "RYOBI",
+  "category": "Lawn & Garden",
+  "categoryPage": "lawn-garden.html",
+  "filterTag": "Lawn Mowers",
+  "subcategory": "lawn-mowers",
+  "asin": "B09FN5K1S6",
+  "price": 699,
+  "priceDisplay": "$699 CAD",
+  "score": 8.5,
+  "tag": "Best Mid-Range Cordless Mower",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09FN5K1S6/?tag=clearpick06-20",
+  "subscores": {
+    "Cutting Power": 8.5,
+    "Self-Propel": 8.5,
+    "Battery Ecosystem": 9,
+    "Build Quality": 8,
+    "Value": 8.5
+  },
+  "specs": {
+    "Voltage": "40V HP",
+    "Cutting Width": "21\" steel deck",
+    "Drive": "Self-propelled, variable speed",
+    "Cutting Heights": "7 positions",
+    "Discharge": "3-in-1 — bag, mulch, side discharge",
+    "Motor": "HP Brushless",
+    "Battery": "6Ah recommended (check listing for kit vs tool-only)",
+    "Runtime": "~40–50 min per charge",
+    "Ecosystem": "RYOBI 40V (incompatible with RYOBI 18V ONE+)",
+    "Weight": "~70 lb with battery"
+  },
+  "whatWorks": [
+    "Compatible with the broad RYOBI 40V battery ecosystem — the same batteries work across RYOBI 40V trimmers, blowers, hedge trimmers, and snow blowers. Existing RYOBI 40V users get immediate tool compatibility.",
+    "The HP Brushless motor runs noticeably cooler and more efficiently than standard brushed motors, translating to longer runtime per charge and longer motor lifespan over years of use.",
+    "21\" deck covers typical Canadian residential lots (3,000–5,000 sq ft) without the extra-passes frustration of 17\" budget mowers. Variable-speed self-propel adjusts to your walking pace on both flat and gently sloped terrain.",
+    "Quieter than any gas mower — a genuine quality-of-life difference for early morning mowing in Canadian suburbs where noise bylaws are common."
+  ],
+  "worthKnowing": [
+    "RYOBI sells two incompatible battery systems: 40V and 18V ONE+. They share no batteries. Many buyers with RYOBI 18V tools assume compatibility — it does not exist. Confirm 40V before buying.",
+    "Battery inclusion varies by listing — tool-only listings are common. Confirm the kit version; 40V 6Ah batteries cost $100–$130 CAD separately.",
+    "The 40V platform delivers slightly less power than EGO's 56V for very thick, overgrown, or wet grass. Weekly cutting keeps it within comfortable range; occasional users may struggle after missed weeks.",
+    "Customer service reports are mixed — warranty issues have been resolved slowly for some Canadian buyers. Keep purchase receipts."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Bought it not knowing 40V and…",
+      "body": "Bought it not knowing 40V and 18V batteries are totally different. I have a pile of 18V batteries from my RYOBI drill set and none of them work in this mower.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Listing said battery included but…",
+      "body": "Listing said battery included but mine arrived tool-only. Had to sort it out with customer service which took two weeks.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Bogs in thick wet grass after…",
+      "body": "Bogs in thick wet grass after a couple of missed weeks. Had to make two passes to get it clean. EGO handles it better but costs more.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Customer service was slow to respond…",
+      "body": "Customer service was slow to respond when my self-propel cable frayed. Took a month to get a replacement part.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The RYOBI 40V HP Brushless 21\" sits between the budget Greenworks and the premium EGO — broader ecosystem than Greenworks, more affordable than EGO, and more cutting power than entry-level options. The RYOBI 40V/18V battery confusion is a recurring real problem worth knowing going in. For buyers already in the RYOBI 40V ecosystem or looking for a solid mid-range self-propelled mower, it earns its place. For buyers starting fresh, the EGO's 56V ecosystem and superior thick-grass performance justify the ~$150 premium.",
+  "realBuyers": [
+    {
+      "quote": "Already had two RYOBI 40V batteries from my chainsaw — the mower was a natural add-on. No new chargers or batteries needed.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Self-propel handled my front yard incline without any struggle. I barely needed to push.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Cuts clean on the first pass on my weekly schedule. Hasn't bogged once in a whole summer.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Quieter than gas — I actually enjoy mowing now. Sounds like a vacuum cleaner, not a lawnmower.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "RYOBI 40V HP Brushless Mower — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09FN5K1S6"
+    },
+    {
+      "title": "Best Cordless Lawn Mowers — Popular Mechanics",
+      "url": "https://www.popularmechanics.com/home/lawn-garden/a37741049/best-cordless-lawn-mowers"
+    },
+    {
+      "title": "RYOBI 40V Mower Review — The Spruce",
+      "url": "https://www.thespruce.com/ryobi-40v-lawn-mower-review"
+    }
+  ],
+  "metaDescription": "RYOBI 40V HP Brushless 21\" self-propelled mower review for Canada: variable-speed drive, broad 40V ecosystem, 3-in-1 deck. Honest on battery confusion and thick-grass limits. ~$699 CAD.",
+  "introText": "The RYOBI 40V HP Brushless 21\" Self-Propelled Mower bridges budget and premium battery mowers — 21\" deck, variable-speed self-propel, and full 40V ecosystem compatibility. Available on Amazon.ca (ASIN B09FN5K1S6) at around $699 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09FN5K1S6",
+  "verifiedPrice": "$699 CAD",
+  "similarProducts": [
+    "ego-power-lb6504",
+    "dewalt-2100-psi-pressure-washer",
+    "dewalt-60v-flexvolt-leaf-blower"
+  ]
+}
