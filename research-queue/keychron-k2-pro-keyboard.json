@@ -1,0 +1,106 @@
+{
+  "slug": "keychron-k2-pro-keyboard",
+  "name": "Keychron K2 Pro QMK/VIA Wireless Mechanical Keyboard (Gateron G Pro Red)",
+  "brand": "Keychron",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Keyboards",
+  "subcategory": "keyboards",
+  "asin": "B0BJNCM8HF",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.9,
+  "tag": "Keyboards",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BJNCM8HF/?tag=clearpick06-20",
+  "subscores": {
+    "QMK/VIA Customization": 9.5,
+    "Wireless Range": 9,
+    "Switch Options": 9,
+    "Build Quality": 9,
+    "Value": 8.5
+  },
+  "specs": {
+    "Layout": "75% compact (84 keys) with dedicated function row",
+    "Connectivity": "Bluetooth 5.1 (up to 3 devices) + USB-C wired mode",
+    "QMK/VIA": "Full QMK/VIA support — remap any key, create macros, set layers",
+    "Switches": "Hot-swappable — change switches without soldering",
+    "Backlight": "RGB per-key lighting",
+    "Battery": "4000mAh — up to 300 hours without backlight, ~30 hours with RGB",
+    "Compatibility": "Dual-system keycap set included for Mac and Windows"
+  },
+  "whatWorks": [
+    "Full QMK/VIA support makes the K2 Pro one of the most customizable wireless mechanical keyboards at this price point. VIA's graphical interface lets you remap every key, create macros, and define up to 32 layers without writing code — changes apply instantly and persist on the keyboard's firmware.",
+    "The hot-swappable switch sockets let you change the typing feel without buying a new keyboard or soldering anything. Users who start with Gateron Red linear switches and later prefer tactile Browns or clicky Blues can make the switch in minutes with a switch puller.",
+    "The 75% layout keeps a dedicated function row and arrow keys while eliminating the numpad — maintaining the keys that matter for programming and productivity while reducing desk footprint by about 30% compared to a full-size layout.",
+    "Bluetooth 5.1 connects to three devices simultaneously with fast pairing switching — moving from a Mac to an iPad to a Windows PC is a matter of pressing the appropriate Fn key combination. The 4000mAh battery provides weeks of use in wireless mode without backlight."
+  ],
+  "worthKnowing": [
+    "QMK/VIA customization requires using the VIA desktop app to configure key maps. The process is user-friendly via the graphical interface, but there is a learning curve for users who have never used programmable keyboards. The default layout is fully functional without any customization.",
+    "The K2 Pro uses a south-facing PCB for LED placement, which means some third-party shine-through keycap sets that are north-facing optimized will have slightly different RGB bleed. Keychron's own keycap sets are designed for the board and look excellent.",
+    "The Gateron G Pro Red switches included are linear — light, smooth, with no tactile bump. Users who prefer tactile or clicky feedback should order with Browns or Blues, or buy the barebones version and choose their own switches.",
+    "Battery life with RGB backlighting enabled drops significantly — from 300 hours without backlight to approximately 30 hours with full RGB. Most users disable or reduce the RGB lighting for daily wireless use and enable it only when the keyboard is plugged in."
+  ],
+  "commonComplaints": [
+    {
+      "title": "RGB drains battery fast…",
+      "body": "30 hours with RGB on sounds like a lot until you're charging it every few days at work. Turn the RGB off or low for wireless use and battery life becomes much more practical.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "QMK setup has a learning curve…",
+      "body": "The VIA app is user-friendly but there's still a learning curve if you've never used QMK firmware. Took me an evening to get my first custom layer working correctly.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No numpad and no dedicated nav cluster…",
+      "body": "75% layout means no numpad and no Insert/Delete/Home/End/PgUp/PgDn keys. These are accessible via Fn combos but it's an adjustment if you're coming from a full-size keyboard.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Bluetooth can take a moment to reconnect…",
+      "body": "When waking the computer from sleep, the keyboard sometimes takes 5–10 seconds to reconnect via Bluetooth. Usually fine but occasionally inconvenient for quick logins.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Keychron K2 Pro is the best wireless QMK keyboard for power users who want full customization without the complexity of building a custom board. Hot-swappable switches, VIA compatibility, Bluetooth to three devices, and a practical 75% layout combine at $149 to offer the features that enthusiast keyboards charge two or three times as much for. The main trade-offs are the learning curve for customization and the battery drain from RGB — both manageable with a little setup time.",
+  "realBuyers": [
+    {
+      "quote": "Finally a wireless keyboard with real QMK support. I remapped Caps Lock to Escape for Vim, set up a macro layer, and configured all three Bluetooth devices in one evening. The typing feel on Gateron Reds is excellent.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Hot-swappable switches are a game changer. I switched from Reds to Tactile Blues in 20 minutes and didn't need any tools beyond the switch puller. Feels like a completely different keyboard.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Switch between my Mac, work PC, and iPad with one Fn key press. The Bluetooth reconnects fast and I don't lose typing momentum switching devices.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The build quality is noticeably better than my old Logitech keyboard. The aluminum frame has weight and rigidity that makes it feel professional, not plastic.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Keychron K2 Pro — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BJNCM8HF"
+    },
+    {
+      "title": "Keychron K2 Pro Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/keychron-k2-pro"
+    },
+    {
+      "title": "Best Wireless Mechanical Keyboards — PCMag",
+      "url": "https://www.pcmag.com/picks/best-wireless-mechanical-keyboards"
+    }
+  ],
+  "metaDescription": "Keychron K2 Pro review for Canada: QMK/VIA wireless, hot-swap, 75% layout, Bluetooth 3 devices. Best QMK wireless keyboard. ~$149 CAD on Amazon.ca.",
+  "introText": "The Keychron K2 Pro (ASIN B0BJNCM8HF) is a 75% wireless mechanical keyboard with full QMK/VIA support, hot-swappable switches, and Bluetooth 5.1 for up to three devices, available on Amazon.ca at around $149 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0BJNCM8HF",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": ["jabra-evolve2-65-headset", "flexispot-e7-standing-desk", "blue-yeti-usb-microphone"]
+}

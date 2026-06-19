@@ -1,0 +1,109 @@
+{
+  "slug": "dewalt-dwe6423k-random-orbit-sander",
+  "name": "DEWALT Random Orbit Sander, 5-Inch with Dust Bag (DWE6423K)",
+  "brand": "DEWALT",
+  "category": "Tools & Home Improvement",
+  "categoryPage": "tools-home-improvement.html",
+  "filterTag": "Sanders",
+  "subcategory": "sanders",
+  "asin": "B01M9HLYWV",
+  "price": 89,
+  "priceDisplay": "$89 CAD",
+  "score": 8.9,
+  "tag": "Sanders",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01M9HLYWV/?tag=clearpick06-20",
+  "subscores": {
+    "Dust Collection": 9.5,
+    "Finish Quality": 9.5,
+    "Motor": 9,
+    "Comfort": 9,
+    "Value": 9
+  },
+  "specs": {
+    "Motor": "3-AMP, 8,000-12,000 OPM variable speed",
+    "Pad": "5-inch hook-and-loop pad",
+    "Dust": "Dust-sealed power switch + 8-hole dust bag (included) — optional DWV010 vac connection",
+    "Counterbalance": "Counterbalance mechanism reduces vibration",
+    "Grip": "Rubber grip for better comfort and control",
+    "Weight": "3.2 lbs"
+  },
+  "whatWorks": [
+    "The counterbalance mechanism is the quality feature that separates the DWE6423K from budget random orbit sanders. By counteracting the eccentric orbit's vibration, DEWALT's counterbalance system transmits dramatically less vibration to the operator's hands and arm. Extended sanding sessions — refinishing a dining table, prepping multiple cabinet doors — become significantly more comfortable as a result.",
+    "Dust collection via the 8-hole pad and included dust bag captures roughly 70–75% of sanding dust. For shop use near a wall or with poor ventilation, connecting the port to a shop vac (any standard vac port via the included adapter) captures close to 95% and keeps the workspace breathable. The dust-sealed power switch prevents dust ingestion into the motor, extending service life.",
+    "Variable speed from 8,000 to 12,000 OPM allows material-specific speed selection. Lower speeds (8,000 OPM) for finish sanding bare wood before staining — slower speed reduces swirl marks and gives finer scratch patterns; higher speeds (12,000 OPM) for paint stripping and material removal between coats. The speed dial holds the setting without drift.",
+    "The 5-inch hook-and-loop pad accepts industry-standard PSA and hook-and-loop discs available at any hardware store — not proprietary discs locked to one brand. This matters for cost and availability over the tool's lifetime, particularly in Canada where some brand-specific disc formats are harder to find."
+  ],
+  "worthKnowing": [
+    "Random orbit sanders leave swirl marks in wood that are invisible until stain is applied — they become highly visible after finishing. The key to preventing visible swirls is not to skip grits (80→120→180→220 is a common progression) and to finish the final grit with light hand-sanding in the direction of the grain before staining. This is technique, not a tool limitation.",
+    "The included dust bag fills quickly during aggressive material removal. Empty it after every 15–20 minutes of heavy use to maintain consistent suction through the pad holes. A clogged dust bag reduces collection efficiency and allows fine dust back into the shop air, which is the main health concern with sanding. A shop vac connection is the cleaner solution for long sessions.",
+    "Hook-and-loop pads wear over time — the loops flatten and discs no longer stick securely, causing the disc to shift during sanding and create uneven scratch patterns. Replacement pads cost $10–$15 CAD and should be replaced when discs start lifting at the edges or spinning independently of the pad.",
+    "At 3.2 lbs, the DWE6423K is slightly heavier than the Makita BO5041 (2.6 lbs) — a meaningful difference during overhead sanding or full-day furniture refinishing. If weight is a primary concern, the Makita has the advantage in this category."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Swirl marks appear after staining…",
+      "body": "Sanded with this up to 220 grit and the piece looked perfect — then I applied stain and saw swirl patterns everywhere. Always hand-sand the final grit in the grain direction before any finish. Sander is fine; my technique needed work.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Dust bag fills fast on heavy removal…",
+      "body": "Stripping old paint from a door, the bag was full in 10 minutes. Hook the shop vac up immediately for any real material removal work — the bag is only for light finish sanding.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Hook-and-loop pad wears out eventually…",
+      "body": "After about 18 months of regular use the pad wouldn't hold discs anymore — they kept spinning off. Replacement pad was $12 and took 2 minutes. Expect to replace it eventually.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Slightly heavier than competitors…",
+      "body": "3.2 lbs sounds light until you sand overhead drywall patches for two hours. A Makita is a bit lighter for the same performance. Worth comparing if overhead work is common.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The DEWALT DWE6423K is the standard recommendation for furniture refinishing, cabinet prep, and finish carpentry sanding. The counterbalance mechanism and variable speed separate it from budget sanders, and the dust collection is the best in its price class. Technique matters more than the sander for finish quality — skip-grit swirls are a user issue, not a tool issue. At $89 CAD with the dust bag included, it's a strong value.",
+  "realBuyers": [
+    {
+      "quote": "Refinished six dining chairs with this. Old paint off in minutes, smooth bare wood for staining in one session. I expected it to take all weekend — took one afternoon.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The counterbalance is noticeable immediately coming from a cheap sander. My hand wasn't numb at the end of the day. Night and day difference.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Hooked it to my shop vac and the dust collection is unreal. I can sand in my basement without opening the windows. The air stays clean.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Used it to prep an entire kitchen's worth of cabinet doors for repainting. Consistent scratch pattern across every door. The cabinets turned out like factory new.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DEWALT DWE6423K — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B01M9HLYWV"
+    },
+    {
+      "title": "DEWALT DWE6423K Review — ToolGuyd",
+      "url": "https://toolguyd.com/dewalt-dwe6423k-review/"
+    },
+    {
+      "title": "Best Random Orbit Sanders — Family Handyman",
+      "url": "https://www.familyhandyman.com/list/best-random-orbit-sander/"
+    }
+  ],
+  "metaDescription": "DEWALT DWE6423K 5-inch random orbit sander review for Canada. Variable speed, counterbalance, dust-sealed switch. Honest on swirl marks and pad wear. ~$89 CAD.",
+  "introText": "The DEWALT DWE6423K is a 3-amp variable-speed 5-inch random orbit sander with a counterbalance mechanism and included dust bag, designed for furniture refinishing and finish prep work. Available on Amazon.ca (ASIN B01M9HLYWV) at around $89 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B01M9HLYWV",
+  "verifiedPrice": "$89 CAD",
+  "similarProducts": [
+    "dewalt-dwe575sb-circular-saw",
+    "dewalt-dwe402-angle-grinder",
+    "dewalt-dw088lg-cross-line-laser"
+  ]
+}

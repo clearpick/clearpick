@@ -1,0 +1,107 @@
+{
+  "slug": "corsair-k100-rgb-keyboard",
+  "name": "Corsair K100 RGB Optical-Mechanical Gaming Keyboard",
+  "brand": "Corsair",
+  "category": "Gaming",
+  "categoryPage": "gaming.html",
+  "filterTag": "Gaming Keyboards",
+  "subcategory": "gaming-keyboards",
+  "asin": "B08HR5XNJT",
+  "price": 279,
+  "priceDisplay": "$279 CAD",
+  "score": 9.2,
+  "tag": "Gaming Keyboards",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08HR5XNJT/?tag=clearpick06-20",
+  "subscores": {
+    "Switch Speed": 9.5,
+    "Build Quality": 9.5,
+    "RGB Lighting": 9.5,
+    "Control Dial": 9,
+    "Software": 9
+  },
+  "specs": {
+    "Switches": "Corsair OPX Optical-Mechanical — 1.0mm actuation, 45g force, 150M keystroke lifespan",
+    "RGB": "Per-key RGB with iCUE software",
+    "Control Dial": "iCUE Control Wheel — programmable dial for macros, volume, brush size",
+    "Frame": "Aluminum top plate",
+    "Passthrough": "Full-speed USB passthrough port",
+    "Anti-Ghost": "Full N-key rollover + 100% anti-ghosting",
+    "Memory": "8 MB onboard profile storage",
+    "Polling Rate": "4,000 Hz hyper-polling mode"
+  },
+  "whatWorks": [
+    "The OPX optical-mechanical switches are the K100's defining feature. Using a light beam to detect keystrokes instead of physical metal contact, they achieve 1.0mm actuation depth — the fastest available in a Corsair keyboard — while eliminating the debounce delay inherent to traditional mechanical switches. In fast-paced competitive games, the response advantage is real and measurable.",
+    "The iCUE Control Wheel on the upper left is genuinely useful rather than a gimmick. It can be assigned to system volume, individual application volume, mouse DPI, lighting brightness, media scrubbing, or even custom macros — and the assignment is per-profile. Content creators who switch between gaming and production work particularly appreciate having a tactile dial to adjust parameters without leaving their keyboard.",
+    "Build quality is flagship-tier. The full aluminum top plate with brushed finish gives the K100 a premium feel that is noticeably more solid than keyboards with plastic frames. At $279 CAD it is positioned as a luxury peripheral, and the construction matches the price expectation — it feels like something built to last a decade.",
+    "Corsair iCUE software gives granular RGB programming and per-key macro assignment that rivals any keyboard on the market. The 8MB onboard memory stores up to three profiles independently of the software, meaning your custom lighting and macros travel with the keyboard. The 4,000Hz polling mode puts input update rate at four times the standard 1,000Hz if your PC can take advantage of it."
+  ],
+  "worthKnowing": [
+    "The K100 is a full-size keyboard with a numpad and a media control row, which means it is large and takes up significant desk space. If you run a tenkeyless setup to bring your mouse closer to center, the SteelSeries Apex Pro TKL or Logitech G915 TKL are the better choices. The K100 does not offer a TKL variant with optical switches.",
+    "Corsair iCUE software is comprehensive but resource-intensive. Some users with lower-spec systems have reported that iCUE runs noticeably in the background, particularly during startup. The onboard memory profiles work without the software, but RGB customization and advanced macro management require iCUE running.",
+    "OPX switches have a linear feel with no tactile bump, which is ideal for gaming but not necessarily preferred for heavy typists. If you spend significant time typing documents or code, the lack of tactile feedback may be less satisfying than a tactile or clicky mechanical switch like Cherry MX Brown or Kailh Box White.",
+    "The K100 is wired-only — there is no wireless variant. The USB passthrough requires a second USB port on your PC. For cable-conscious setups, the desk presence and wire management requirements should be considered before purchase."
+  ],
+  "commonComplaints": [
+    {
+      "title": "iCUE software is resource-heavy",
+      "body": "Multiple users reported that Corsair iCUE significantly increases CPU usage and system startup time. While the keyboard works perfectly without the software via onboard memory, accessing the full feature set requires keeping iCUE running, which some users find unacceptable on gaming PCs.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Full-size only — no TKL option",
+      "body": "The K100's full-size layout with macro keys and control wheel is a dealbreaker for mouse-space-conscious gamers who want a tenkeyless footprint. Corsair does not offer a TKL version of the K100, which limits its appeal for competitive FPS setups.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Premium price vs alternatives",
+      "body": "At $279 CAD, several reviewers noted that the Logitech G915 TKL Wireless at $229 and SteelSeries Apex Pro TKL at $279 offer compelling alternatives, especially given the G915's wireless capability and the Apex Pro's adjustable actuation — features the K100 does not match.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Wrist rest sold separately",
+      "body": "For a keyboard at this price point, several buyers expected a wrist rest to be included. Corsair sells a compatible wrist rest separately for an additional $30+, which felt like a nickel-and-dime move on an already premium product.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Corsair K100 RGB is the best full-size optical-mechanical gaming keyboard currently available, combining the fastest switches in Corsair's lineup with flagship build quality, a genuinely useful iCUE Control Wheel, and comprehensive software support. The full-size-only format and iCUE software overhead are real considerations, but for gamers and content creators who want the absolute top of the full-size keyboard tier, the K100 delivers without compromise.",
+  "realBuyers": [
+    {
+      "quote": "The optical switches are noticeably faster than my old Cherry MX Red keyboard. In competitive games it is hard to quantify but the input responsiveness feels different in the best way. The actuaton point is very shallow.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The control wheel is my favorite feature. I mapped it to system volume for gaming and brush size in Photoshop for work. A physical dial for these tasks is genuinely more efficient than keyboard shortcuts.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Built like a tank. I have had it for 18 months of daily use and every key still feels as crisp as day one. The aluminum plate does not flex at all — it is the best-built keyboard I have ever owned.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The per-key RGB is the most responsive and vibrant I have seen. iCUE effects look incredible — reactive typing effects, game integrations with supported titles, the whole package. If RGB matters to you, this is the benchmark.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Corsair K100 RGB — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B08HR5XNJT"
+    },
+    {
+      "title": "Corsair K100 RGB Review — PCMag",
+      "url": "https://www.pcmag.com/reviews"
+    },
+    {
+      "title": "Corsair K100 RGB Review — Digital Trends",
+      "url": "https://www.digitaltrends.com/gaming"
+    }
+  ],
+  "metaDescription": "Corsair K100 RGB review: Optical-mechanical switches with 1.0mm actuation, aluminum build, and iCUE Control Wheel. The best full-size gaming keyboard. $279 CAD on Amazon.ca.",
+  "introText": "The Corsair K100 RGB Optical-Mechanical Gaming Keyboard (ASIN B08HR5XNJT) is available on Amazon.ca for $279 CAD and positions itself as the definitive full-size gaming keyboard with OPX optical-mechanical switches that actuate at just 1.0mm and a programmable iCUE Control Wheel that bridges gaming and content creation workflows. The full aluminum frame and 4,000Hz polling rate round out its flagship feature set.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B08HR5XNJT",
+  "verifiedPrice": "$279 CAD",
+  "similarProducts": ["asus-rog-swift-pg279qm", "astro-a50-gen5-wireless", "8bitdo-ultimate-2-controller"]
+}

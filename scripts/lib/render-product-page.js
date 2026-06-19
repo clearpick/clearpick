@@ -31,6 +31,11 @@ const CAT_ICONS = {
   'Sports & Fitness':              '🏃',
   'Outdoor & Garden':              '🌳',
   'Photography & Video':           '📷',
+  'Health & Beauty':               '💄',
+  'Office & Work':                 '💼',
+  'Tools & Home Improvement':      '🔧',
+  'BBQ & Outdoor Cooking':         '🍖',
+  'Sports & Outdoors':             '⛰️',
 };
 
 const esc = s => String(s)

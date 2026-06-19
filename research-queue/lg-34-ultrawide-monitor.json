@@ -1,0 +1,106 @@
+{
+  "slug": "lg-34-ultrawide-monitor",
+  "name": "LG 34WN80C-B 34-Inch UltraWide QHD IPS Curved Monitor",
+  "brand": "LG",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Monitors",
+  "subcategory": "monitors",
+  "asin": "B08XC5PV6Y",
+  "price": 649,
+  "priceDisplay": "$649 CAD",
+  "score": 8.8,
+  "tag": "Monitors",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08XC5PV6Y/?tag=clearpick06-20",
+  "subscores": {
+    "Ultrawide Productivity": 9.5,
+    "USB-C": 9,
+    "Color Accuracy": 9,
+    "Curvature": 9,
+    "Value": 8
+  },
+  "specs": {
+    "Resolution": "3440×1440 UWQHD (21:9 ultrawide aspect ratio)",
+    "Panel": "IPS curved (1800R curvature)",
+    "USB-C": "USB-C with 94W Power Delivery — charges most laptops at full speed",
+    "Refresh Rate": "60Hz",
+    "Ports": "HDMI 2.0 ×2, DisplayPort, USB-C, USB 3.0 hub ×2",
+    "sRGB": "99% sRGB",
+    "Screen Split": "PBP/PIP — display two sources side-by-side on one screen"
+  },
+  "whatWorks": [
+    "The 21:9 ultrawide format effectively gives you two 1440p monitors side by side with no physical gap, no second cable, and no misaligned bezel in the middle. For document comparison, split-screen coding, video editing timelines, or reference-while-working layouts, the single ultrawide experience is meaningfully better than dual monitors.",
+    "The 94W USB-C Power Delivery is among the highest available from a monitor — it charges most 15-inch and 16-inch laptops at full speed including MacBook Pro 14-inch (96W), and handles even high-demand ultrabooks without throttling. This is a genuine differentiator over 60-65W monitors.",
+    "The 1800R curve is subtle enough that it doesn't distort straight lines in document and spreadsheet work while providing enough wrap to keep both edges of the 34-inch display within comfortable viewing angle without turning your head. For most users it's the right curvature balance.",
+    "The Picture-by-Picture mode lets you display two separate input sources simultaneously — a laptop and a desktop, for example — each occupying half of the ultrawide canvas. Useful for developers switching between a reference machine and a work machine without a KVM switch."
+  ],
+  "worthKnowing": [
+    "At 3440×1440, the ultrawide resolution demands more GPU power than 27-inch 1440p. For video calls and document work, any modern CPU with integrated graphics handles this fine. For gaming at this resolution, ensure your GPU can drive it at acceptable frame rates.",
+    "The 60Hz refresh rate is standard for productivity-focused ultrawide at this price. Higher refresh rate ultrawide monitors (144Hz+) exist but cost significantly more. If you plan to game, factor this in.",
+    "The 34-inch width requires approximately 80cm of desk depth to be effective — too close and peripheral vision fatigue increases, too far and you lose the benefit. Deep desks or those with 80+ cm from wall to sitting position work best with ultrawide monitors.",
+    "LG's USB hub on the back offers two USB-A 3.0 ports, which is functional but limited. Heavy peripheral users may still need a separate hub — but the 94W USB-C handles the laptop dock role adequately."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Needs a deep desk…",
+      "body": "A 34-inch curved monitor needs proper depth to work comfortably. My 60cm-deep desk left it too close. Moved to a deeper desk and now it's perfect, but measure your setup first.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Only 60Hz…",
+      "body": "60Hz is limiting if you also want to game. Productivity is fine but the refresh rate gap is noticeable after using a 120Hz+ panel. Budget for 144Hz ultrawide if gaming matters.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Pricey compared to dual-monitor setup…",
+      "body": "You can get two 1440p 27-inch monitors for less than one 34-inch ultrawide. The no-bezel gap and single cable justifies it for me, but the math doesn't obviously favor ultrawide on cost.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Stand limits tilt range…",
+      "body": "The stand tilts but doesn't swivel, which makes fine-tuning the angle for different seating positions inconvenient. Planning to get a monitor arm for better positioning.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The LG 34WN80C-B is the best 34-inch ultrawide for productivity-focused buyers who want single-cable laptop connectivity with enough power delivery for large laptops. The 94W USB-C is a genuine advantage over most competitors, and the IPS panel with 99% sRGB covers creative and professional work accurately. The 60Hz ceiling and premium price are the main limitations — this monitor earns its cost for users who live in split-screen workflows and want the cleanest possible desk setup.",
+  "realBuyers": [
+    {
+      "quote": "Replaced dual 24-inch monitors with this one ultrawide. The no-bezel gap in the center makes a genuine difference for spreadsheet and code work. I can't go back to dual monitors.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "94W USB-C charges my MacBook Pro 14 at full speed while running the display. One cable, no brick on the desk. The desk is finally clean.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The curve is subtle enough that straight lines look straight. I was worried about distortion in architectural drawings but it's not noticeable in practice.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "PBP mode with my work laptop and personal computer on the same screen is surprisingly practical. Eliminated the need for a KVM switch for my secondary machine.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "LG 34WN80C-B — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B08XC5PV6Y"
+    },
+    {
+      "title": "LG 34WN80C-B Review — RTINGS.com",
+      "url": "https://www.rtings.com/monitor/reviews/lg/34wn80c-b"
+    },
+    {
+      "title": "Best Ultrawide Monitors — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-ultrawide-monitor/"
+    }
+  ],
+  "metaDescription": "LG 34WN80C-B 34-inch ultrawide monitor review for Canada: 3440x1440 IPS curved, 94W USB-C, 99% sRGB. Best ultrawide for productivity. ~$649 CAD.",
+  "introText": "The LG 34WN80C-B (ASIN B08XC5PV6Y) is a 34-inch 3440×1440 IPS curved ultrawide monitor with 94W USB-C Power Delivery and 99% sRGB coverage, available on Amazon.ca at around $649 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B08XC5PV6Y",
+  "verifiedPrice": "$649 CAD",
+  "similarProducts": ["lg-27-4k-ips-monitor", "dell-s2722qc-monitor", "keychron-k2-pro-keyboard"]
+}

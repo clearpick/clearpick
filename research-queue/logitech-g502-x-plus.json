@@ -1,0 +1,107 @@
+{
+  "slug": "logitech-g502-x-plus",
+  "name": "Logitech G502 X PLUS Wireless Gaming Mouse with LIGHTFORCE Switches",
+  "brand": "Logitech",
+  "category": "Gaming",
+  "categoryPage": "gaming.html",
+  "filterTag": "Gaming Mice",
+  "subcategory": "gaming-mice",
+  "asin": "B0B2HWMYZ4",
+  "price": 179,
+  "priceDisplay": "$179 CAD",
+  "score": 9.1,
+  "tag": "Gaming Mice",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0B2HWMYZ4/?tag=clearpick06-20",
+  "subscores": {
+    "Sensor Accuracy": 9.5,
+    "LIGHTFORCE Switches": 9.5,
+    "LIGHTSYNC RGB": 9,
+    "Side Buttons": 9.5,
+    "Value": 8.5
+  },
+  "specs": {
+    "Weight": "89g",
+    "Sensor": "HERO 2 — 25,600 DPI maximum",
+    "Switches": "LIGHTFORCE hybrid optical-mechanical switches",
+    "Wireless": "LIGHTSPEED wireless 2.4GHz",
+    "RGB": "LIGHTSYNC RGB underglow and logo",
+    "Buttons": "2 side thumb buttons + 1 sniper button (on-the-fly DPI downshift)",
+    "Scroll Wheel": "Dual-mode (click or freespin via MagSpeed toggle)",
+    "Battery": "130 hours wireless"
+  },
+  "whatWorks": [
+    "The G502 X PLUS takes the beloved G502 shape — one of the best-selling gaming mice in history — and upgrades its internals to LIGHTFORCE switches and HERO 2 sensor, then makes the whole thing wireless. The right-hand ergonomic shape with pronounced thumb rest, comfortable side button placement, and satisfying weight balance has earned the G502 line devotion from a massive fanbase that was previously tied to a wired-only option.",
+    "The sniper button is one of the most genuinely useful extra buttons in gaming. Holding it temporarily drops your DPI to a pre-configured lower setting, giving you precise aim when scoped or sniping, then springs back to your normal DPI when released. For players who adjust sensitivity situationally, this eliminates the multi-click DPI cycling process and makes precision adjustment instantaneous.",
+    "LIGHTFORCE switches bring the same 2ms improvement over mechanical debounce that the SUPERLIGHT 2 benefits from. The clicks feel clean, responsive, and consistent across left and right buttons — no pre-travel, no post-travel wobble. The physical G502 shape means more button surface area than the SUPERLIGHT 2, which many larger-handed gamers find more natural to actuate.",
+    "130-hour wireless battery life and a 22g weight reduction over the wired G502 Hero are the two most impactful upgrades. The G502 shape was always the issue for wireless play — LIGHTSPEED connection quality has been excellent for years — and eliminating the cable from the wired version without adding weight or reducing battery life is the engineering achievement that justifies the premium over wired alternatives."
+  ],
+  "worthKnowing": [
+    "89 grams is noticeably heavier than the SUPERLIGHT 2 (60g) or DeathAdder V3 HyperSpeed (55g). For gamers who have switched to lightweight mice and developed their technique around minimal mass, the G502 X PLUS will feel different — not worse, but different. The ergonomic shape compensates for the added mass for many players, particularly those with larger hands who grip rather than claw.",
+    "The MagSpeed scroll wheel freespin mode is a productivity feature that some gamers love and others never use. In standard click mode, the scroll wheel provides 24-step tactile feedback per revolution. Toggle MagSpeed and it spins freely with minimal friction — useful for rapid document or web page scrolling, but not a typical gaming feature. The toggle is easy to activate accidentally until you build the muscle memory to avoid it.",
+    "LIGHTSYNC RGB is present but not the primary reason to buy the G502 X PLUS. The underglow and logo glow look attractive in a dark room setup, but enabling RGB reduces battery life from 130 hours to approximately 60 hours. RGB can be toggled off in G HUB to preserve battery.",
+    "G HUB software is required for RGB customization, button remapping, DPI configuration, and LIGHTFORCE switch sensitivity adjustment. Like all Logitech software, G HUB has occasional stability issues that require reinstallation. The mouse functions without G HUB at default settings, but customization is software-gated."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heavier than ultralight alternatives",
+      "body": "Gamers coming from SUPERLIGHT 2 or DeathAdder V3 HyperSpeed find 89g noticeably heavier for high-speed flicking movements. The G502 X PLUS is not designed to compete on weight — it competes on ergonomics and features — but buyers who prioritize lightweight should look elsewhere.",
+      "source": "Reddit"
+    },
+    {
+      "title": "MagSpeed toggle activated accidentally",
+      "body": "The scroll wheel mode toggle behind the scroll wheel is easy to activate unintentionally during rapid gameplay. Several users found their scroll wheel suddenly freespinning mid-game, which is disorienting until the behavior is understood. Muscle memory prevents this after a period of adjustment.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "G HUB software required for full features",
+      "body": "Sniper button DPI configuration, RGB colors, and button remapping all require G HUB running. The same G HUB stability complaints that affect other Logitech products apply here — occasional crashes and update failures affect a subset of users.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Price close to SUPERLIGHT 2",
+      "body": "At $179 CAD, the G502 X PLUS is only $10 less than the $189 G PRO X SUPERLIGHT 2. Buyers who compare specifications frequently conclude the lighter weight and higher battery life of the SUPERLIGHT 2 are worth the marginal premium unless the G502 ergonomic shape is a personal preference.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Logitech G502 X PLUS is the definitive wireless upgrade for the enormous fanbase that swore by the wired G502's ergonomic shape. LIGHTFORCE switches, HERO 2 sensor, and LIGHTSPEED wireless bring the G502 to technical parity with the best wireless mice available, and the 130-hour battery life is class-leading for a mouse with this feature set. At 89g it is not a lightweight mouse, but for players who built their aim on the G502 shape, it is the wireless version they have been waiting for.",
+  "realBuyers": [
+    {
+      "quote": "I have been using the wired G502 for four years. This is that mouse but wireless, lighter, and with better switches. It feels immediately familiar and immediately better. The upgrade was completely seamless.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The sniper button is more useful than I expected. In Call of Duty I hold it for ADS and release to normal DPI. It is faster and more natural than any other sensitivity switching method I have tried.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "130-hour battery with occasional RGB is outstanding. I charge it maybe twice a month. The LIGHTSPEED connection is flawless — not once in six months of use has the connection dropped or lagged.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The LIGHTFORCE clicks feel significantly better than the mechanical switches on my old G502. They are cleaner, more consistent, and actuate with less force. Competitive gaming feels more precise.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Logitech G502 X PLUS — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0B2HWMYZ4"
+    },
+    {
+      "title": "Logitech G502 X PLUS Review — RTINGS",
+      "url": "https://www.rtings.com/mouse"
+    },
+    {
+      "title": "Logitech G502 X PLUS Review — PCMag",
+      "url": "https://www.pcmag.com/reviews"
+    }
+  ],
+  "metaDescription": "Logitech G502 X PLUS review: Wireless G502 with LIGHTFORCE switches, HERO 2 sensor, and 130-hour battery. Best ergonomic wireless gaming mouse. $179 CAD on Amazon.ca.",
+  "introText": "The Logitech G502 X PLUS Wireless Gaming Mouse (ASIN B0B2HWMYZ4) is available on Amazon.ca for $179 CAD and finally brings the beloved G502 ergonomic shape into the wireless era with LIGHTFORCE hybrid optical-mechanical switches, HERO 2 sensor, and 130-hour LIGHTSPEED battery life. The sniper button, dual-mode scroll wheel, and LIGHTSYNC RGB round out a comprehensive feature set for the right-handed gaming mouse enthusiast.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0B2HWMYZ4",
+  "verifiedPrice": "$179 CAD",
+  "similarProducts": ["logitech-g-pro-x-superlight-2", "logitech-g-pro-x-2-wireless", "hyperx-fury-s-pro-xl-mousepad"]
+}

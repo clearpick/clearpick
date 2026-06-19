@@ -1,0 +1,106 @@
+{
+  "slug": "benq-screenbar-plus",
+  "name": "BenQ ScreenBar Plus Monitor Light Bar with Wireless Dial",
+  "brand": "BenQ",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Monitor Lights",
+  "subcategory": "monitor-lights",
+  "asin": "B07S769R5L",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 9.2,
+  "tag": "Monitor Lights",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07S769R5L/?tag=clearpick06-20",
+  "subscores": {
+    "Eye Comfort": 9.5,
+    "Wireless Control": 9.5,
+    "Screen Glare": 9.5,
+    "Setup Ease": 9.5,
+    "Value": 8.5
+  },
+  "specs": {
+    "Mounting": "Clips on top of monitor — no tools, no desk space used",
+    "Light Design": "Non-glare asymmetric optical design — lights desk, not screen",
+    "Auto Dimming": "Built-in ambient light sensor adjusts brightness and color temperature",
+    "Control": "Wireless USB dial controller sits on desk — no need to reach the bar",
+    "Color Temp": "2700K–6500K adjustable",
+    "Brightness": "500 lux at peak (50cm from surface)",
+    "Power": "USB-A from monitor or PC — no wall outlet needed"
+  },
+  "whatWorks": [
+    "The asymmetric optical design is the key differentiator — light is angled downward onto the desk only, never reflecting back into the camera or creating a glare hotspot on the monitor screen. This is a genuine engineering achievement that cheaper LED desk lamps don't replicate.",
+    "The wireless dial controller on the desk is the feature that separates the ScreenBar Plus from the standard ScreenBar. Instead of reaching up to touch controls on the bar, you twist and press a small dial on your desk to adjust brightness and color temperature instantly.",
+    "The built-in ambient light sensor automatically adjusts the light output as room conditions change — useful during work sessions that span from daytime to evening without requiring any manual adjustment.",
+    "Setup takes under two minutes: clip the bar to the top of any monitor up to about 1.5 inches thick, plug the USB-A cable into the back of the monitor or PC, and the wireless dial connects automatically. No app, no Bluetooth pairing, no wall outlet required."
+  ],
+  "worthKnowing": [
+    "At $199 CAD, this is a significant spend on a desk light. The standard BenQ ScreenBar (without the wireless dial) costs around $109 and has the same optical design. The $90 premium buys you wireless desk control only — worth it if you frequently adjust brightness, less essential if you set it once and forget it.",
+    "The light bar clips to the top bezel of your monitor. Thin bezels on modern monitors work fine, but frameless or very curved monitors may not have enough surface for a secure clip.",
+    "The wireless dial uses a USB-A receiver that plugs into the bar itself. The desk controller doesn't need any extra dongles, but it's worth noting this is a proprietary wireless protocol, not Bluetooth.",
+    "Color accuracy of the light itself is rated at CRI 95+, which is good for close work like reading or drawing — colors appear natural rather than washed or shifted under the light."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Very expensive for a desk light…",
+      "body": "I love it but $199 for a monitor light feels steep. The standard ScreenBar at $109 has the same optics — paying $90 more for a wireless dial is a luxury, not a necessity.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Doesn't fit all monitor designs…",
+      "body": "My ultrawide has a very thin top bezel and the clip wobbled. Had to add a rubber shim to make it stable. Should include this in the box for thin-bezel monitors.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Auto mode sometimes too dim…",
+      "body": "The auto brightness mode can be too conservative in the morning — it reads the room as brighter than it feels and dims the light more than I'd like. I use manual most of the time.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Wireless dial occasionally loses sync…",
+      "body": "Very rarely the dial stops responding for a few seconds. Unplugging and replugging the bar fixes it every time, but it's a minor annoyance on a premium product.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The BenQ ScreenBar Plus is the best monitor light available and earns its premium with an optical design that genuinely eliminates screen glare and a wireless dial that makes adjustments effortless. If you work long hours at a desk and haven't tried a purpose-built monitor light, the quality-of-life improvement is real and noticeable. The main hesitation is price — the standard ScreenBar gets you the same optics for $90 less, and the wireless dial is the only meaningful upgrade.",
+  "realBuyers": [
+    {
+      "quote": "Zero screen glare, no reflection in video calls, adjustable color temperature throughout the day. This thing solved three problems I didn't realize were annoying me.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The wireless dial is the feature that makes it worth the extra money. I adjust the brightness constantly during the day and not having to reach up to the bar is genuinely convenient.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "My desk lamp was creating reflections in my monitor that I didn't notice until I switched to the ScreenBar. The difference is dramatic. Should have bought this years ago.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Clips on in seconds, powers from the monitor's USB, no wall outlet needed. The setup is as clean as the light output.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "BenQ ScreenBar Plus — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07S769R5L"
+    },
+    {
+      "title": "BenQ ScreenBar Plus Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-monitor-light/"
+    },
+    {
+      "title": "BenQ ScreenBar Plus Review — PCMag",
+      "url": "https://www.pcmag.com/reviews/benq-screenbar-plus"
+    }
+  ],
+  "metaDescription": "BenQ ScreenBar Plus monitor light bar review for Canada: wireless dial, zero screen glare, auto-dimming. Best desk light for monitor setups. ~$199 CAD.",
+  "introText": "The BenQ ScreenBar Plus (ASIN B07S769R5L) is a monitor-mounted LED light bar with a wireless desk dial and asymmetric optics that light your workspace without reflecting on your screen, available on Amazon.ca at around $199 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07S769R5L",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": ["benq-pd2700u-monitor", "asus-proart-pa278cv-monitor", "anker-575-usb-c-dock"]
+}

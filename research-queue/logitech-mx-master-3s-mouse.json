@@ -1,0 +1,106 @@
+{
+  "slug": "logitech-mx-master-3s-mouse",
+  "name": "Logitech MX Master 3S Performance Wireless Mouse",
+  "brand": "Logitech",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Mice",
+  "subcategory": "mice",
+  "asin": "B09HMKFDXC",
+  "price": 139,
+  "priceDisplay": "$139 CAD",
+  "score": 9.2,
+  "tag": "Mice",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09HMKFDXC/?tag=clearpick06-20",
+  "subscores": {
+    "Scroll Wheel": 9.5,
+    "Ergonomics": 9.5,
+    "Precision": 9.5,
+    "Multi-Device": 9.5,
+    "Battery Life": 9
+  },
+  "specs": {
+    "Scroll Wheel": "MagSpeed electromagnetic scroll — 1,000 lines per second, near-silent",
+    "DPI": "200–8000 DPI, 8000 DPI optical sensor that tracks on glass",
+    "Multi-Device": "Easy-Switch for 3 devices (Logi Bolt + Bluetooth 5.0)",
+    "Battery": "70-day charge via USB-C; 1 minute = 3 hours of use",
+    "Buttons": "7 customizable buttons via Logi Options+",
+    "SmartShift": "Auto-switches between ratchet scroll and freewheel based on scroll speed",
+    "Thumb Wheel": "Horizontal scroll thumb wheel for wide spreadsheets and timelines"
+  },
+  "whatWorks": [
+    "The MagSpeed electromagnetic scroll wheel is the single best mouse feature available at any price. Silent, near-frictionless, and capable of scrolling 1,000 lines per second in freewheel mode — navigating a 10,000-row spreadsheet, a long codebase, or a dense design file becomes qualitatively different compared to a standard notched wheel.",
+    "The 8000 DPI optical sensor tracks accurately on glass surfaces — most mouse sensors require a mousepad, but the MX Master 3S works reliably on glass desks, polished wood, and other reflective surfaces that defeat standard optical sensors.",
+    "SmartShift automatically switches between click-to-click ratchet scrolling and high-speed freewheel based on how fast you scroll. Slow scroll for precise document navigation stays in ratchet mode; fast scroll for long-document traversal drops into freewheel. The transition is instant and requires no manual switching.",
+    "The ergonomic right-hand grip is shaped around natural hand position for right-handed users with medium-to-large hands. The thumb rest, angled wheel position, and elevated profile distribute grip pressure across the palm rather than concentrating it on the fingers."
+  ],
+  "worthKnowing": [
+    "The MX Master 3S is right-hand only — no left-handed version exists. Left-handed users should look at the Logitech Lift Vertical (left-handed version available) or third-party options.",
+    "Full button customization requires the Logitech Options+ software running in the background. The default button assignments are sensible but the app-specific configurations — where the thumb buttons behave differently in Photoshop versus Chrome versus VS Code — require Logi Options+ to configure.",
+    "At $139 CAD, this is a premium mouse purchase. The MagSpeed wheel and multi-device switching justify the price for power users; casual users who scroll occasionally and don't need multi-computer support will find less return on the premium.",
+    "The 70-day battery life with USB-C charging makes this essentially a maintenance-free mouse for most users. The minute-to-3-hours fast charge means even running it to zero is not an inconvenience."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Right-hand only…",
+      "body": "No left-handed version. Logitech should offer an MX Master for left-handed users — this is the best mouse on the market and half the population can't use it ergonomically.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Logi Options+ required for customization…",
+      "body": "The software is well-made but the app-specific profiles require it running in the background at all times. Another startup process. Acceptable on Windows, slightly more annoying on Mac.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "SmartShift is excellent but takes adjustment…",
+      "body": "SmartShift surprised me a few times in the first week — scrolling fast to navigate jumped into freewheel mode unexpectedly. After a few days I adjusted and now it feels completely natural.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Large size may not suit small hands…",
+      "body": "The MX Master 3S is sized for medium to large hands. My colleague with smaller hands found the width too wide for comfortable use and switched to the Lift instead.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Logitech MX Master 3S is the best productivity mouse available and isn't particularly close at its price range. The MagSpeed electromagnetic scroll wheel alone is worth the purchase price for anyone who works in large spreadsheets, long documents, or dense codebases daily. Add a glass-surface sensor, 70-day battery, customizable multi-device switching, and a precise ergonomic grip, and you have a mouse that changes how you interact with your computer rather than just replacing your current one.",
+  "realBuyers": [
+    {
+      "quote": "The scroll wheel ruins every other mouse for me. I used a standard wheel for years and didn't realize how slow document navigation was until I could scroll 10,000 rows in two seconds.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Switching between my Mac and Windows machine with one button, plus Flow clipboard sharing through the MX Keys S keyboard — this is the premium desk setup I didn't think was worth the money until I tried it.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Works on my glass desk without a mousepad. This sounds like a small thing but I'd been using a mousepad I didn't want just because my previous sensor couldn't track on glass.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "70 days on a charge is not a typo. I charge it every two months and that's it. The fast charge is a nice backup but I've never needed it.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Logitech MX Master 3S — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09HMKFDXC"
+    },
+    {
+      "title": "Logitech MX Master 3S Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-wireless-mouse/"
+    },
+    {
+      "title": "Logitech MX Master 3S Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/logitech-mx-master-3s"
+    }
+  ],
+  "metaDescription": "Logitech MX Master 3S wireless mouse review for Canada: MagSpeed scroll, 8000 DPI glass sensor, 70-day battery, 3-device. Best productivity mouse. ~$139 CAD.",
+  "introText": "The Logitech MX Master 3S (ASIN B09HMKFDXC) is a premium wireless productivity mouse with MagSpeed electromagnetic scrolling, an 8000 DPI glass-tracking sensor, and 70-day battery life, available on Amazon.ca at around $139 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09HMKFDXC",
+  "verifiedPrice": "$139 CAD",
+  "similarProducts": ["logitech-mx-keys-s-keyboard", "logitech-lift-vertical-mouse", "keychron-k2-pro-keyboard"]
+}

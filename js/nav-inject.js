@@ -10,7 +10,7 @@
     { slug: 'robot-vacuums',      icon: '🤖', label: 'Robot Vacuums',              count: 12 },
     { slug: 'fitness',            icon: '💪', label: 'Fitness Equipment',           count: 32                 },
     { slug: 'pet-supplies',       icon: '🐾', label: 'Pet Supplies',               count: 27               },
-    { slug: 'gaming',             icon: '🎮', label: 'Gaming',                     count: 16 },
+    { slug: 'gaming',             icon: '🎮', label: 'Gaming',                     count: 35                    },
     { slug: 'lawn-garden',        icon: '🌿', label: 'Lawn & Garden',              count: 29                },
     { slug: 'home-entertainment', icon: '📺', label: 'Home Entertainment',         count: 31                               },
     { slug: 'outdoor-cooking',    icon: '🔥', label: 'Outdoor Cooking',            count: 3  },
@@ -22,6 +22,8 @@
     { slug: 'health-beauty',           icon: '💄', label: 'Health & Beauty',            count: 20                     },
     { slug: 'office-work',             icon: '💼', label: 'Office & Work',              count: 20                     },
     { slug: 'tools-home-improvement',  icon: '🔧', label: 'Tools & Home Improvement',   count: 20                     },
+    { slug: 'bbq-outdoor-cooking',     icon: '🍖', label: 'BBQ & Outdoor Cooking',       count: 17                                       },
+    { slug: 'sports-outdoors',         icon: '⛰️', label: 'Sports & Outdoors',           count: 20                                          },
   ];
 
   function inject() {

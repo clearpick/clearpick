@@ -1,0 +1,110 @@
+{
+  "slug": "philips-sonicare-diamondclean-9300",
+  "name": "Philips Sonicare DiamondClean 9300 Electric Toothbrush HX9903",
+  "brand": "Philips",
+  "category": "Health & Beauty",
+  "categoryPage": "health-beauty.html",
+  "filterTag": "Electric Toothbrushes",
+  "subcategory": "electric-toothbrushes",
+  "asin": "B0CM438KZY",
+  "price": 299,
+  "priceDisplay": "$299 CAD",
+  "score": 8.8,
+  "tag": "Electric Toothbrushes",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CM438KZY/?tag=clearpick06-20",
+  "subscores": {
+    "Cleaning Performance": 9.5,
+    "App Guidance": 9,
+    "Pressure Sensor": 9,
+    "Battery": 9.5,
+    "Build Quality": 9
+  },
+  "specs": {
+    "Technology": "Sonic — 31,000 brush strokes/min",
+    "Modes": "4 modes (Clean, White+, Gum Health, Deep Clean+)",
+    "Intensity": "3 intensity settings per mode",
+    "Pressure Sensor": "Real-time pressure feedback in app and handle",
+    "Battery": "3-week charge (glass induction charger)",
+    "App": "Sonicare app — coverage feedback, brushing coach",
+    "Heads": "2× Premium All-in-One brush heads"
+  },
+  "whatWorks": [
+    "Sonic technology operates by vibrating at 31,000 strokes per minute — the high-frequency bristle motion creates a dynamic fluid action that reaches slightly beyond the bristle tips into the gum line. This is fundamentally different from Oral-B's oscillating-rotating action, and dental research generally shows Sonicare's sonic approach is gentler on gum tissue while achieving equivalent plaque removal over time.",
+    "The combination of 4 modes and 3 intensity settings per mode gives 12 effective brushing configurations — covering everything from daily cleaning to post-whitening sensitivity, to gum health protocols recommended by periodontists. The Gum Health mode with low intensity is specifically useful for users managing early gum disease under dental guidance.",
+    "Three weeks of use from a single charge puts the DiamondClean 9300 at the top of the category for battery life. The glass induction charger (the toothbrush charges by sitting in a glass of water connected to a charging base) is an elegant design that integrates into bathroom counter aesthetics better than the plastic charging stands of most electric toothbrushes.",
+    "The Sonicare app's brushing coach and pressure feedback are among the most sophisticated in the consumer toothbrush category. The 3D mouth map tracks coverage in real time, and the AI coaching adapts prompts based on your specific brushing history — flagging consistently missed areas over multiple sessions rather than just showing current coverage."
+  ],
+  "worthKnowing": [
+    "Sonic vs. oscillating-rotating: Sonicare's sonic technology is the more established choice for users with sensitive gums, gum recession, or dental implants because the fluid dynamics approach is gentler on soft tissue. Oral-B's oscillating-rotating is the more established choice for maximum plaque removal efficiency. Both are dramatically better than manual brushing — this is a fine-tuning decision based on your specific dental health context.",
+    "At $299 CAD, the DiamondClean 9300 is the premium option in the Sonicare lineup. The ProtectiveClean 6100 at $149 CAD delivers the same core sonic technology with fewer modes and less app sophistication — a meaningful trade-off to consider if you won't use the advanced modes.",
+    "Premium All-in-One brush head replacements run $12–18 CAD each, slightly higher than Oral-B CrossAction heads. Sonicare heads also need replacement every 3 months. The BrushSync technology in the handle detects head type and automatically selects the optimal brushing mode — a convenient feature when using specific heads.",
+    "The glass charger design is attractive but fragile. Several long-term users report the glass cracking. If you have a bathroom counter that gets knocked around or have children in the house, the standard plastic charging stand of other Sonicare models may be more practical."
+  ],
+  "commonComplaints": [
+    {
+      "title": "The glass charger is fragile…",
+      "body": "The glass charging cup cracked when I knocked it off the counter. Replacement is $25–35. Beautiful design but should have gone with a plastic stand.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Expensive brush head replacements…",
+      "body": "The Premium All-in-One heads are $15 each and you need 4 a year. That's $60 annually just in brush heads on top of a $300 device.",
+      "source": "Reddit"
+    },
+    {
+      "title": "App is required to access all features…",
+      "body": "Several of the brushing modes are only configurable through the app. It's not a big deal but I didn't expect to need my phone to set up my toothbrush.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Handle gets hot during charging…",
+      "body": "The handle gets noticeably warm when charging in the glass. It's within normal range for induction charging but it was unexpected the first time I touched it.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Philips Sonicare DiamondClean 9300 is the premium choice for users who prioritize gum health and gentle but thorough cleaning — its sonic technology and Gum Health mode make it the standard recommendation for users with sensitive gums or those managing early gum disease. The 3-week battery, sophisticated app coaching, and premium build quality justify the $299 CAD price for committed daily users. For users who primarily want effective plaque removal and don't need gum-specific features, the Oral-B Pro 1000 at $79 CAD delivers comparable clinical results at a fraction of the price.",
+  "realBuyers": [
+    {
+      "quote": "My periodontist recommended Sonicare for my gum sensitivity. The Gum Health mode with low intensity has made my cleaning appointments less painful every visit since I started.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Three weeks between charges. That's the spec that got me to buy this and it's accurate. I charge it once a month.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The glass charger is beautiful and I love that it looks like bathroom decor. Just don't knock it off the counter — it's glass, it breaks.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The app coaching caught that I was always rushing my upper right quadrant. Fixed that, and my dentist noticed improved gum health at my next checkup.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Philips Sonicare DiamondClean 9300 HX9903 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CM438KZY"
+    },
+    {
+      "title": "Best Electric Toothbrushes — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-electric-toothbrush/"
+    },
+    {
+      "title": "Philips Sonicare DiamondClean 9300 Review — PCMag",
+      "url": "https://www.pcmag.com/reviews/philips-sonicare-diamondclean-9300"
+    }
+  ],
+  "metaDescription": "Philips Sonicare DiamondClean 9300 electric toothbrush review for Canada: sonic 31,000 strokes, 4 modes, 3-week battery, glass charger. ~$299 CAD on Amazon.ca.",
+  "introText": "The Philips Sonicare DiamondClean 9300 delivers 31,000 sonic brush strokes per minute across 4 cleaning modes with 3 intensity levels each, a 3-week battery charged via an elegant glass induction charger, and AI-powered brushing coaching in the Sonicare app. Available on Amazon.ca (ASIN B0CM438KZY) at around $299 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0CM438KZY",
+  "verifiedPrice": "$299 CAD",
+  "similarProducts": [
+    "oral-b-io-series-9",
+    "oral-b-pro-1000",
+    "philips-norelco-9000-shaver"
+  ]
+}

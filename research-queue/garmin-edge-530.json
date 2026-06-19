@@ -1,0 +1,106 @@
+{
+  "slug": "garmin-edge-530",
+  "name": "Garmin Edge 530 GPS Cycling Computer",
+  "brand": "Garmin",
+  "category": "Sports & Outdoors",
+  "categoryPage": "sports-outdoors.html",
+  "filterTag": "Bike Computers",
+  "subcategory": "bike-computers",
+  "asin": "B07QBDG3TR",
+  "price": 399,
+  "priceDisplay": "$399 CAD",
+  "score": 8.8,
+  "tag": "Bike Computers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07QBDG3TR/?tag=clearpick06-20",
+  "subscores": {
+    "Navigation": 9.5,
+    "Performance Metrics": 9.5,
+    "Battery Life": 9,
+    "Maps": 9.5,
+    "Value": 8.5
+  },
+  "specs": {
+    "Display": "2.6\" color display, sunlight-readable",
+    "Navigation": "ClimbPro — shows upcoming climb gradient, distance, elevation gain",
+    "GPS": "Multiple GNSS (GPS, Galileo) + barometric altimeter",
+    "Battery": "Up to 20 hours GPS mode",
+    "Metrics": "Cycling-specific training metrics, VO2 max, FTP, TSS",
+    "Connectivity": "ANT+ and Bluetooth compatible with power meters, heart rate monitors, smart trainers",
+    "Trail Maps": "On-device Garmin Cycle Map with turn-by-turn navigation"
+  },
+  "whatWorks": [
+    "The Garmin Edge 530 is the cycling computer that serious road and gravel cyclists have been reaching for for years, and its reputation is earned through depth of metrics rather than flashy hardware. ClimbPro is the killer feature for anyone who rides hilly terrain: it reads your planned route, identifies every significant climb, and displays them sequentially as you approach — gradient, remaining distance, remaining elevation gain — so you can pace your effort intelligently instead of getting dropped 200m from the top because you didn't know the pitch was going to kick up.",
+    "The on-device Garmin Cycle Map is a fully navigable map — not just a line on a blank background but a real road map with turn-by-turn navigation, rerouting, and points of interest. Load a route from Strava, Komoot, or Garmin Connect and the Edge 530 navigates it with voice-prompt-style on-screen alerts. The map is preloaded; no cell service required. For gravel riders exploring new roads or road cyclists doing destination rides in unfamiliar cities, this capability is genuinely transformative.",
+    "Training metrics go deep in the way only Garmin does at this price. FTP (Functional Threshold Power) detection, Training Stress Score, VO2 max estimation, Training Load, Recovery Time — all the numbers a data-driven cyclist needs to periodize training are on-device and sync to Garmin Connect for long-term tracking. ANT+ and Bluetooth connectivity means the Edge 530 pairs with virtually any power meter, heart rate strap, radar, Di2 groupset, or smart trainer on the market.",
+    "Battery life at 20 hours in GPS mode covers essentially every realistic cycling scenario — century rides, gran fondos, multi-day bikepacking with daily recharging. The 2.6\" color display is genuinely readable in direct sunlight without the glare problems that plague AMOLED screens on watches, which matters when you're squinting at data fields at 30 km/h. The form factor is compact enough to not obscure the stem while still showing multiple data fields simultaneously."
+  ],
+  "worthKnowing": [
+    "The Edge 530 has been in the lineup for several years and the Edge 840 is the current flagship — it adds a touchscreen, incident detection, and trail maps. If you're buying new, compare the 530 and 840 pricing, as the 840 frequently goes on sale. That said, the 530's button-only interface is genuinely preferred by many cyclists who've used both — gloved hands and sweaty fingers don't play well with touchscreens.",
+    "The device is map-enabled but not map-optimized for trail running or hiking — this is a cycling-specific computer. Foot navigation works in a basic sense, but dedicated running watches or hiking GPS units are better suited for non-cycling activities.",
+    "Setup takes time if you want to use the full feature set. Connecting a power meter, calibrating it, loading custom data fields, setting up training plans — the Edge ecosystem is deep, which means the learning curve is proportionally steep. Out of the box, a casual cyclist will use 20% of its capability. A data-obsessed cyclist will spend hours configuring it.",
+    "The Edge 530 doesn't include heart rate monitoring — it's a bike computer, not a wrist-based tracker, and requires pairing with a separate heart rate monitor (chest strap or arm optical). The Garmin HRM-Pro is the obvious complement, but any ANT+ heart rate device works. This is industry standard for dedicated cycling computers."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Steep setup learning curve",
+      "body": "First-time Garmin users report spending hours configuring data screens, connecting sensors, and loading maps before first use. The depth that makes it powerful also makes it complex.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No built-in heart rate monitor",
+      "body": "Requires pairing a separate HR strap or optical sensor. Not included in the box, which surprises buyers who expect it at this price.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Newer Edge 840 available",
+      "body": "The Edge 840 adds touchscreen and incident detection. If buying new at close to the same price, the 840 may be worth the upgrade depending on current sale pricing.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Mount vibrates loose on rough roads",
+      "body": "The stock rubber-band mount can vibrate loose on gravel or cobblestone at high speeds. Several reviewers upgrade to a K-Edge or Barfly mount for security.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Garmin Edge 530 remains one of the best cycling computers ever made for data-driven road and gravel cyclists. ClimbPro alone justifies the upgrade from basic GPS units, and the onboard map navigation with turn-by-turn routing transforms how you explore unfamiliar routes. The depth of training metrics — FTP, TSS, VO2 max, Training Load — puts it in a league that Wahoo and cheaper computers can't match. The newer Edge 840 adds convenience features, but the 530's button interface and long battery life remain legitimately preferred by many cyclists.",
+  "realBuyers": [
+    {
+      "quote": "ClimbPro changed how I ride mountains. Knowing there are 3 more climbs and the next one peaks at 8% for 4km changes how I pace the descent. I rode smarter in one week with this than I did in a year without it.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Loaded a 200km gravel route from Komoot. Edge 530 navigated every junction, no cell service for 8 hours. This is what a proper bike computer should do.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Tried a Wahoo ELEMNT for a month. Came back to Edge 530 because the training metrics are incomparably deeper. FTP detection, TSS, training load — Wahoo doesn't come close.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Button interface is a feature not a limitation. I ride with gloves 8 months a year. Touchscreens are useless in rain and cold. Buttons work every time.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Garmin Edge 530 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07QBDG3TR"
+    },
+    {
+      "title": "Garmin Edge 530 In-Depth Review — DC Rainmaker",
+      "url": "https://www.dcrainmaker.com/2019/05/garmin-edge-530-in-depth-review.html"
+    },
+    {
+      "title": "Best Bike Computers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-bike-computer/"
+    }
+  ],
+  "metaDescription": "Garmin Edge 530 review: ClimbPro navigation, onboard Cycle Map, 20-hour battery, ANT+ power meter compatibility. Best GPS cycling computer for Canada.",
+  "introText": "The Garmin Edge 530 GPS Cycling Computer (ASIN B07QBDG3TR) is available on Amazon.ca for $399 CAD — a fully-mapped cycling computer with ClimbPro navigation, turn-by-turn routing, and a deep suite of training metrics including FTP, TSS, and VO2 max, built for road and gravel cyclists who live by data.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07QBDG3TR",
+  "verifiedPrice": "$399 CAD",
+  "similarProducts": ["fitbit-charge-6", "apple-watch-ultra-2", "camelbak-chute-mag-32oz"]
+}

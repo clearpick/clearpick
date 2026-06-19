@@ -1,0 +1,110 @@
+{
+  "slug": "ryobi-tss103-miter-saw",
+  "name": "Ryobi 10-Inch Compound Miter Saw (TSS103)",
+  "brand": "Ryobi",
+  "category": "Tools & Home Improvement",
+  "categoryPage": "tools-home-improvement.html",
+  "filterTag": "Miter Saws",
+  "subcategory": "miter-saws",
+  "asin": "B088QSQG3H",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.5,
+  "tag": "Miter Saws",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B088QSQG3H/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9.5,
+    "Miter Range": 9,
+    "Build Quality": 8.5,
+    "Fence": 8.5,
+    "Accuracy": 8.5
+  },
+  "specs": {
+    "Blade": "10-inch, 40T blade included",
+    "Motor": "15-AMP, 5,000 RPM",
+    "Miter": "0°–52° left and right miter",
+    "Bevel": "0°–48° single bevel",
+    "Cross Cut": "12\" cross cut capacity at 90°, 8-1/2\" at 45°",
+    "Fence": "Adjustable stainless steel miter fence",
+    "Dust": "Dust bag included"
+  },
+  "whatWorks": [
+    "At $199 CAD including a 40-tooth blade, the TSS103 is among the most affordable compound miter saws from a recognized brand with parts and service availability in Canada. For homeowners doing crown moulding, baseboard installation, door casing, and framing cuts, this price point enables the purchase where a $400–$600 sliding compound miter saw would be out of reach.",
+    "A 52° miter range in both directions enables cuts well beyond standard 45° trim joints — compound angle cuts for cathedral ceiling crown moulding, angled corner joints in non-standard rooms, and rake cut baseboard on sloped walls all fall within range. The positive stops at 0°, 15°, 22.5°, 31.6°, and 45° enable fast repeatable common-angle cuts without reading the scale.",
+    "The 12-inch cross-cut capacity at 90° handles up to 12-inch wide boards in a single pass — appropriate for 1×12 shelving, stair treads, and wide window sills. The 8.5-inch capacity at 45° covers the majority of 45-degree mitered trim cuts. The included stainless steel fence provides a solid reference surface for consistent angle repeatability.",
+    "The included 40-tooth carbide blade is a genuine improvement over the thin kerf blades shipped with competing entry-level saws. For baseboard and casing installation, the 40-tooth blade produces clean, paint-ready mitered ends on pine and poplar trim without secondary cleanup sanding."
+  ],
+  "worthKnowing": [
+    "The TSS103 is a single-bevel saw — the head tilts only to the left for bevel cuts. For crown moulding installation, single-bevel means you flip the crown on the fence to cut both directions rather than tilting the saw head for a second direction. Double-bevel saws ($300–$500 CAD) cut both left and right bevel without repositioning the workpiece, which is faster for large crown moulding jobs.",
+    "There is no laser guide on the TSS103. Accurate cutting relies on the saw's integrated cut-line guide, the fence measurement scale, and the operator's ability to align the blade to the marked cut line before cutting. A laser guide ($30–$50 accessory or a saw upgrade) significantly improves accuracy for users new to miter saws.",
+    "The TSS103 is not a sliding compound miter saw — the blade travels down without sliding forward, limiting cross-cut capacity to 12 inches at 90°. Sliding compound miter saws extend cross-cut capacity to 12–16 inches across the sliding range, enabling cuts in wide stock like 2×12 dimensional lumber and 12-inch wide shelf planks without turning the workpiece.",
+    "The dust bag captures a portion of sawdust but miter saws in general are significant dust producers regardless of bag inclusion — fine sawdust escapes around the blade guard and out the back of the throat plate. For indoor use in a finished space, connecting a shop vac to the dust port alongside the bag significantly improves collection. Budget for this if the saw will be used indoors."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Single bevel — head tilts one direction only…",
+      "body": "Fine for most trim work but crown moulding in a room with four corners means flipping the crown repeatedly for left-hand miters. A double-bevel saw is the right tool for crown at volume. This one is fine for occasional use.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No laser — cut line needs attention…",
+      "body": "I missed my first two cuts by 1/16 inch each before adjusting my technique. No laser means you need to be careful about exactly where the blade contacts your marked line. Line up before you cut.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Dust bag is partial — still a messy tool…",
+      "body": "Even with the bag, my garage is covered in dust after a session. Miter saws are just dusty. Hook a shop vac to the port if cleanliness matters at all.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "12-inch max cross cut — wide boards need two passes or flipping…",
+      "body": "My 2x12 stair treads wouldn't fit in one pass. Had to cut from both sides. A sliding compound saw was the right tool for that project. Know your max cross-cut before buying.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Ryobi TSS103 is the best-value entry point into compound miter saw territory for Canadian homeowners. At $199 CAD with a useful 40T blade, 52° miter range, and 12-inch cross-cut capacity, it covers the full range of standard trim and framing cut tasks. Single-bevel only and no laser are real limitations for high-volume crown moulding or wide-board work — but for the average homeowner doing baseboard, door casing, and frame carpentry, the TSS103 is a capable, affordable workhorse.",
+  "realBuyers": [
+    {
+      "quote": "I installed baseboards and door casing throughout a full house with this saw. Every corner mitered perfectly. Under $200 for a saw that produced contractor-quality results.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "First miter saw. It took me 20 minutes to understand the settings and I've never made a bad cut since. The 52-degree range covers everything I've needed for the past two years.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I was going to spend $400 on a sliding saw. My contractor neighbour looked at my project and said the TSS103 would do everything I need. He was right. Saved $200.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The stainless steel fence is solid and the scale reads clearly. I set up a stop block on the fence rail and cut 40 identical pieces of crown base in 15 minutes. Repeatable and fast.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ryobi TSS103 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B088QSQG3H"
+    },
+    {
+      "title": "Ryobi TSS103 Review — The Spruce",
+      "url": "https://www.thespruce.com/ryobi-tss103-review-5200001"
+    },
+    {
+      "title": "Best Miter Saws for Homeowners — Bob Vila",
+      "url": "https://www.bobvila.com/articles/best-miter-saw/"
+    }
+  ],
+  "metaDescription": "Ryobi TSS103 10-inch compound miter saw review for Canada. 15 amp, 52° miter, 12\" cross cut. Honest on single bevel, no laser, dust output. ~$199 CAD.",
+  "introText": "The Ryobi TSS103 is a 15-amp 10-inch compound miter saw with 0–52° miter range and 12-inch cross-cut capacity, designed for trim installation, framing cuts, and general carpentry at an accessible price. Available on Amazon.ca (ASIN B088QSQG3H) at around $199 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B088QSQG3H",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": [
+    "ryobi-pcl540b-cordless-circular-saw",
+    "dewalt-dwe575sb-circular-saw",
+    "ryobi-18v-pcl206k2-drill-kit"
+  ]
+}

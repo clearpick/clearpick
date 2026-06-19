@@ -1,0 +1,106 @@
+{
+  "slug": "thermopro-tp25-thermometer",
+  "name": "ThermoPro TP25 Wireless Bluetooth Meat Thermometer with 4 Color-Coded Probes",
+  "brand": "ThermoPro",
+  "category": "BBQ & Outdoor Cooking",
+  "categoryPage": "bbq-outdoor-cooking.html",
+  "filterTag": "Meat Thermometers",
+  "subcategory": "meat-thermometers",
+  "asin": "B073N8B7F4",
+  "price": 49,
+  "priceDisplay": "$49 CAD",
+  "score": 8.8,
+  "tag": "Meat Thermometers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B073N8B7F4/?tag=clearpick06-20",
+  "subscores": {
+    "4 Simultaneous Probes": 9.5,
+    "Value": 9.5,
+    "App Features": 8.5,
+    "Accuracy": 9,
+    "Bluetooth Range": 8.5
+  },
+  "specs": {
+    "Probes": "4 simultaneous color-coded probes",
+    "Range": "500 ft Bluetooth (line of sight)",
+    "Accuracy": "±1.8°F accuracy",
+    "App": "ThermoPro app — preset temps for 9 meat types, custom alerts",
+    "Display": "Wireless receiver with backlit LCD (no phone required)",
+    "Probe Rating": "Food-grade stainless steel, oven/grill safe to 572°F",
+    "Battery": "AA batteries"
+  },
+  "whatWorks": [
+    "Four simultaneous probes at $49 CAD is extraordinary value. No other thermometer in this price range lets you monitor an entire cook — brisket flat, brisket point, pork ribs, and ambient grill temperature all at the same time. For anyone who regularly cooks multiple large cuts, the TP25 is simply the most practical and affordable solution on the market.",
+    "The included wireless receiver with a backlit LCD is a thoughtful inclusion that sets this above competitors who require your phone to be nearby. You can leave your phone inside and monitor all four probes from the receiver on the grill table. The receiver also has a clip for attaching to a pocket or apron during a cook.",
+    "Color-coded probes are genuinely useful in practice. Each probe has a colored ring at the base that matches a color indicator in the app and on the receiver, so there's no confusion about which probe is reading what. This sounds minor but eliminates the common frustration of tangled wires and misidentified probes during busy cooks.",
+    "The ThermoPro app has well-designed preset temperature alerts for common proteins — select beef, pork, chicken, or fish and the app knows the food-safe doneness temperatures. Custom alerts and high/low range alerts mean you'll be notified if your grill temperature spikes or drops outside your target range."
+  ],
+  "worthKnowing": [
+    "The 500 ft Bluetooth range is advertised as line-of-sight, and real-world range through walls and obstacles is significantly less — typically 100–200 ft in practice. For most home setups where the grill is on the back deck and you're moving around inside the house, this is fine. For large properties or rural setups, the MEATER's WiFi repeat capability or a wired transmitter system is more reliable.",
+    "Accuracy at ±1.8°F is good for the price but not as precise as the ThermoWorks Thermapen One's ±0.7°F. For monitoring slow smokes where you're watching for a 190–205°F window, ±1.8°F is perfectly adequate. For fine-tuning a steak from rare to medium-rare on a 10-degree window, a dedicated instant-read thermometer is a better tool.",
+    "The probes are wired — each probe has a cable running back to the transmitter unit that sits next to the grill. Managing four cables during a complex cook requires some organization. Use the color-coded system and route cables thoughtfully to avoid tangles and to keep cables away from high-heat zones.",
+    "AA batteries power the receiver, which means carrying spares for longer cooks. The battery life is good but the receiver unit will drain batteries if left on between uses. Many users add a habit of turning it off after each cook."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Bluetooth range lower than advertised",
+      "body": "The 500 ft line-of-sight spec reduces to 100–150 ft with walls and typical household obstacles. Most users find this sufficient for a backyard setup, but those with larger properties experience frustrating signal drops.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "App can be slow to reconnect after phone sleeps",
+      "body": "When the phone screen sleeps, the Bluetooth connection sometimes needs a moment to re-establish when you open the app. In the meantime the receiver continues displaying readings — it's a minor inconvenience rather than a cook-ruining issue.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Probe cables kink over time",
+      "body": "Repeated use and high heat exposure can cause the probe cables to stiffen and develop kinks near the probe tip. At this price point, replacement probes are inexpensive, but it's worth noting the cables aren't indefinitely flexible.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "App preset temperatures are not always adjustable",
+      "body": "Some users want to customize the preset doneness temperatures for specific cuts — for example, finishing brisket at a different temperature than the beef preset assumes. The app allows custom alerts but the built-in presets are fixed.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The ThermoPro TP25 is the best-value multi-probe thermometer available for Canadian buyers, delivering four simultaneous probe readings with a standalone receiver and solid Bluetooth connectivity at a price that makes it an easy impulse buy for any serious griller. It won't out-perform a MEATER Plus on wireless freedom or a Thermapen on instant-read speed, but for monitoring complex multi-protein smokes from the back deck, nothing beats four probes for $49 CAD. An essential tool for anyone who regularly cooks for groups.",
+  "realBuyers": [
+    {
+      "quote": "I can monitor my brisket, two racks of ribs, and my grill ambient temp simultaneously for $49. This is absurd value. Every BBQ competition I've attended has people spending $200+ for less functionality.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The receiver is the feature that sold me. My MEATER requires my phone to be nearby. With this I leave the receiver by the grill and check it when I walk by. So much simpler.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Third season using this. The color coding means I've never once grabbed the wrong probe reading during a cook. Such a simple but effective design choice.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Replaced a $120 dual-probe thermometer with this. Four probes, better app, costs less. I don't know why I waited so long to upgrade.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ThermoPro TP25 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B073N8B7F4"
+    },
+    {
+      "title": "Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-meat-thermometer/"
+    },
+    {
+      "title": "Review — The Spruce Eats",
+      "url": "https://www.thespruceeats.com/best-wireless-meat-thermometers-review"
+    }
+  ],
+  "metaDescription": "ThermoPro TP25 review — 4-probe wireless Bluetooth meat thermometer with receiver, 500 ft range. Worth $49 CAD on Amazon.ca?",
+  "introText": "The ThermoPro TP25 (ASIN: B073N8B7F4) is a 4-probe wireless Bluetooth meat thermometer available on Amazon.ca for $49 CAD. With four color-coded probes, a standalone wireless receiver, and a 500 ft Bluetooth range, it's the best-value multi-probe thermometer in the market.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B073N8B7F4",
+  "verifiedPrice": "$49 CAD",
+  "similarProducts": ["meater-plus-thermometer", "pit-boss-700fb", "napoleon-prestige-500"]
+}

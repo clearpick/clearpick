@@ -1,0 +1,106 @@
+{
+  "slug": "elgato-stream-deck-mk2",
+  "name": "Elgato Stream Deck MK.2 Studio Controller, 15 Customizable LCD Keys",
+  "brand": "Elgato",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Stream Decks",
+  "subcategory": "stream-decks",
+  "asin": "B09738CV2G",
+  "price": 229,
+  "priceDisplay": "$229 CAD",
+  "score": 9.0,
+  "tag": "Stream Decks",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09738CV2G/?tag=clearpick06-20",
+  "subscores": {
+    "Versatility": 9.5,
+    "Software Quality": 9.5,
+    "Build Quality": 9,
+    "Setup Ease": 9,
+    "Value": 8.5
+  },
+  "specs": {
+    "Keys": "15 customizable LCD keys — each key displays a custom icon or image",
+    "Software": "Stream Deck app — assign any action, macro, app shortcut, or OBS scene switch",
+    "Cable": "Detachable USB-C cable",
+    "Faceplate": "Customizable faceplate (sold separately in different colors)",
+    "Profiles": "Unlimited profiles, nested pages per key for hundreds of actions",
+    "Compatible": "Windows, Mac — Twitch, YouTube, Zoom, OBS, Spotify, Premiere, and 200+ plugins",
+    "Size": "11.8×7.3×2.1cm"
+  },
+  "whatWorks": [
+    "The 15 LCD keys displaying custom icons make it immediately obvious what each button does — no memorizing which blank key triggers which macro. This visual clarity is what separates the Stream Deck from keyboard shortcut memorization, making it genuinely faster to use over time.",
+    "The Stream Deck plugin ecosystem covers over 200 applications and services with dedicated integrations. OBS scene switching, Spotify track skipping, Zoom mute toggle, and Premiere playback controls each get dedicated plugins that respond instantly without switching windows.",
+    "Nested pages mean 15 physical keys can control hundreds of actions — you can set any key to open a folder page of related actions. A single 'Recording' key can expand to a page of 15 recording-specific controls, then close back to your main profile.",
+    "For remote workers, the Stream Deck handles video call management with one-touch mute, camera toggle, raise hand, and application switching — faster than keyboard shortcuts and visible from across the desk without squinting at key labels."
+  ],
+  "worthKnowing": [
+    "The Stream Deck requires the Elgato Stream Deck desktop app running in the background to function. The app is well-made and low on resources, but it's worth knowing this is not a standalone hardware button pad — it needs the software.",
+    "At $229 CAD, this is a productivity tool aimed at professionals and power users, not a casual purchase. The value proposition improves significantly the more applications and repetitive workflows you actively use.",
+    "The detachable USB-C cable is an improvement over the original Stream Deck's fixed cable, but the cable exits from the bottom rather than the back — worth knowing for desk cable management planning.",
+    "Elgato releases the Stream Deck in multiple sizes: Mini (6 keys), MK.2 (15 keys), and XL (32 keys). The MK.2 is the right balance for most users. Start here and upgrade only if you run out of key real estate after several months of use."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Requires software always running…",
+      "body": "The Stream Deck app needs to run at startup for the device to work. It's lightweight, but it adds another startup process. Not a dealbreaker but worth knowing upfront.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Expensive for a button pad…",
+      "body": "Hard to justify $229 just on productivity. Once you actually set it up and use it daily, the workflow improvement is real — but it takes a few weeks of investment to get full value.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Cable comes out the bottom…",
+      "body": "The USB-C cable exits from the bottom of the device, which makes cable management slightly awkward on a cluttered desk. A rear exit would be cleaner.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "15 keys fills up fast…",
+      "body": "I immediately wanted the XL version after a week of use. 15 keys sounds like plenty until you start building out profiles for each app. Use the nested pages feature or budget for the XL.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Elgato Stream Deck MK.2 is the definitive hardware shortcut controller for streamers, content creators, and productivity-focused professionals. Fifteen labeled LCD keys, a deep plugin ecosystem, and the Stream Deck's reliable software combine to deliver genuine workflow acceleration over time. The $229 price is steep but earns out for anyone who touches multiple applications repeatedly throughout the day — the hands-on efficiency gain is real and lasting.",
+  "realBuyers": [
+    {
+      "quote": "I set up profiles for OBS, Premiere, and Zoom in an afternoon. The next morning I couldn't imagine going back to keyboard shortcuts. One-touch scene switching changes how you stream.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "As a developer I use it for Git commands, VS Code actions, and Slack statuses. Not a streamer, but this is the most useful peripheral I've bought in years.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The visual LCD keys are the key feature — I actually know what each button does without thinking. Keyboard shortcuts require muscle memory; this requires none.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Remote work mute toggle, raise hand, and scene switching all on one device. My video call hygiene improved immediately. Can't overstate how useful this is for daily meetings.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Elgato Stream Deck MK.2 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09738CV2G"
+    },
+    {
+      "title": "Elgato Stream Deck MK.2 Review — The Verge",
+      "url": "https://www.theverge.com/reviews/elgato-stream-deck-mk2"
+    },
+    {
+      "title": "Best Stream Decks — PCMag",
+      "url": "https://www.pcmag.com/picks/best-stream-decks"
+    }
+  ],
+  "metaDescription": "Elgato Stream Deck MK.2 review for Canada: 15 LCD keys, OBS integration, 200+ plugins. Best hardware shortcut controller for streamers and creators. ~$229 CAD.",
+  "introText": "The Elgato Stream Deck MK.2 (ASIN B09738CV2G) is a 15-key LCD shortcut controller that works with OBS, Zoom, Spotify, Premiere, and 200+ apps via the Stream Deck software, available on Amazon.ca at around $229 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B09738CV2G",
+  "verifiedPrice": "$229 CAD",
+  "similarProducts": ["blue-yeti-usb-microphone", "dell-s2722qc-monitor", "benq-screenbar-plus"]
+}

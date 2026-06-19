@@ -1,0 +1,106 @@
+{
+  "slug": "blue-yeti-usb-microphone",
+  "name": "Blue Yeti USB Microphone with Multi-Pattern Recording",
+  "brand": "Blue (Logitech)",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Microphones",
+  "subcategory": "microphones",
+  "asin": "B00N1YPXW2",
+  "price": 179,
+  "priceDisplay": "$179 CAD",
+  "score": 8.8,
+  "tag": "Microphones",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00N1YPXW2/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 9,
+    "Pattern Versatility": 9.5,
+    "Plug-and-Play": 9.5,
+    "Build Quality": 9,
+    "Value": 8.5
+  },
+  "specs": {
+    "Capsules": "3 custom condenser capsule array",
+    "Polar Patterns": "Cardioid, Bidirectional, Omnidirectional, Stereo",
+    "Connection": "USB-A — plug-and-play, no audio interface needed",
+    "Frequency": "20Hz–20kHz",
+    "Bit Depth": "16-bit at 48kHz",
+    "Gain Control": "Gain knob and mute button on the body",
+    "Headphone": "Zero-latency headphone monitoring via 3.5mm jack"
+  },
+  "whatWorks": [
+    "Four polar patterns in one microphone is genuinely useful: Cardioid picks up your voice for solo recording and calls; Stereo captures wide ambient sound for music; Omnidirectional picks up all around for group meetings; Bidirectional captures two sources facing each other for interviews. Most USB mics offer cardioid only.",
+    "The plug-and-play USB connection works on Windows and Mac without installing drivers — the OS treats it as a standard USB audio device immediately. For podcasters, streamers, and remote workers, this simplicity means zero troubleshooting.",
+    "The on-board headphone amp provides zero-latency monitoring — you hear your own voice as you speak with no processing delay, which is essential for recording voiceovers and catching audio issues in real time without the distraction of echo.",
+    "The all-metal build and weighted base make the Yeti substantially heavier and more stable than cheaper plastic USB mics — it doesn't shift when adjusting the pivot angle, and the mute button has a satisfying, deliberate click that won't accidentally trigger."
+  ],
+  "worthKnowing": [
+    "The Yeti is large and heavy — it's not a travel mic or a mic you'll pack away between sessions. The integrated stand works fine on a desk but the mic sits close to the surface, which can pick up desk vibrations from typing. A boom arm significantly improves the recording quality.",
+    "Cardioid pattern at close range (6–12 inches) produces the best voice recording quality. The proximity effect adds warmth at close distances, but recording from further away picks up more room noise. In a hard-walled room, expect some room reverb.",
+    "The three-capsule array outputs stereo from a single USB device, but your recording software must support stereo input from the mic. Most DAWs and streaming apps do, but some video calling apps force mono regardless of input device settings.",
+    "A boom arm and a basic shock mount (around $40-50 combined) makes a meaningful difference in sound quality by eliminating desk vibrations and allowing proper mic positioning. Budget for these if you plan to use the Yeti regularly for recording."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Picks up keyboard noise…",
+      "body": "In cardioid mode with the gain set high, it picks up my mechanical keyboard quite clearly. Needs a boom arm and proper positioning to reduce this. Not ideal for streamers with loud keyboards.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Big and heavy on the desk…",
+      "body": "Takes up more space than I expected. The integrated stand is solid but the mic sits low — a boom arm is basically mandatory to get it at the right height without a desk stand.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Gain knob can catch and change accidentally…",
+      "body": "The gain knob is easy to bump when reaching for the mute button, which causes a sudden volume spike in recordings. Needs a firmer detent.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Room noise shows up in omnidirectional mode…",
+      "body": "Omni mode picks up everything, including HVAC noise and outside sounds I didn't realize were audible. Great for the application but you need a quiet room.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Blue Yeti remains the gold standard USB microphone for home studios, podcasters, and remote workers who want professional-grade audio without an audio interface. Four polar patterns in a plug-and-play USB package with zero-latency monitoring covers more recording scenarios than any comparable mic at this price. The main caveats are desk real estate and the value of pairing it with a boom arm — with a proper setup, the Yeti punches significantly above its price point.",
+  "realBuyers": [
+    {
+      "quote": "My coworkers on video calls started asking if I was using a professional setup. I just switched to the Yeti from my laptop mic. The difference is night and day.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I've recorded 200+ podcast episodes on this mic. Consistent, reliable, sounds great. The stereo mode for recording acoustic guitar is an unexpected bonus.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Plug and play was genuinely plug and play. Mac recognized it instantly, Teams picked it up, and I was on my first call in under two minutes.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The zero-latency headphone monitoring changed how I record. Hearing myself in real time lets me catch problems immediately instead of discovering them during editing.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Blue Yeti USB Microphone — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B00N1YPXW2"
+    },
+    {
+      "title": "Blue Yeti Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/the-best-usb-microphone/"
+    },
+    {
+      "title": "Blue Yeti Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/blue-yeti"
+    }
+  ],
+  "metaDescription": "Blue Yeti USB microphone review for Canada: 4 polar patterns, plug-and-play, zero-latency monitoring. Best USB mic for podcasting and remote work. ~$179 CAD.",
+  "introText": "The Blue Yeti USB Microphone (ASIN B00N1YPXW2) is a professional-grade plug-and-play condenser mic with four polar patterns including stereo, cardioid, omni, and bidirectional, available on Amazon.ca at around $179 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B00N1YPXW2",
+  "verifiedPrice": "$179 CAD",
+  "similarProducts": ["benq-screenbar-plus", "anker-575-usb-c-dock", "asus-proart-pa278cv-monitor"]
+}

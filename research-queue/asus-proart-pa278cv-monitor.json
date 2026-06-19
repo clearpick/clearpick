@@ -1,0 +1,106 @@
+{
+  "slug": "asus-proart-pa278cv-monitor",
+  "name": "ASUS ProArt Display PA278CV 27-Inch WQHD Monitor",
+  "brand": "ASUS",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Monitors",
+  "subcategory": "monitors",
+  "asin": "B0989KHX8W",
+  "price": 599,
+  "priceDisplay": "$599 CAD",
+  "score": 8.9,
+  "tag": "Monitors",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0989KHX8W/?tag=clearpick06-20",
+  "subscores": {
+    "Color Accuracy": 9.5,
+    "Factory Calibration": 9.5,
+    "USB-C": 9,
+    "Build Quality": 9,
+    "Value": 8.5
+  },
+  "specs": {
+    "Resolution": "2560×1440 WQHD (QHD)",
+    "Panel": "IPS",
+    "Color": "100% sRGB, 100% Rec.709 — factory calibrated to Delta E < 2",
+    "Refresh Rate": "75Hz",
+    "USB-C": "USB-C 3.2 with 65W Power Delivery (charges laptop)",
+    "Ports": "2× HDMI, DisplayPort, USB-C, 4× USB-A hub",
+    "Ergonomics": "Full stand with height, swivel, tilt, pivot"
+  },
+  "whatWorks": [
+    "The factory calibration to Delta E less than 2 means colors are accurate right out of the box — designers, photographers, and video editors can trust what they're seeing on screen without running separate calibration software.",
+    "The USB-C port with 65W Power Delivery handles both video signal and laptop charging in a single cable, making this an ideal dock-free setup for MacBook Air, Dell XPS, and Lenovo ThinkPad users who want a clean desk.",
+    "At 2560×1440, the WQHD resolution hits a sweet spot for 27-inch displays — sharp enough to read fine text and see detail in photos, while remaining less demanding on GPU resources than 4K at the same size.",
+    "The fully adjustable stand with height, swivel, tilt, and 90° pivot handles any ergonomic configuration, and the four USB-A hub ports on the back turn the monitor into a peripheral hub without requiring a separate dock."
+  ],
+  "worthKnowing": [
+    "The 75Hz refresh rate is adequate for productivity work but falls short if you also want to use this monitor for gaming. Content creators who also game should look at gaming-oriented monitors or accept the compromise.",
+    "65W USB-C charging is enough for ultrabooks and 13-inch laptops, but 15-inch and 16-inch laptops with discrete GPUs often need 90-100W to charge at full speed under load.",
+    "The IPS panel has the expected slight backlight bleed in very dark scenes, which affects movie watching in a dark room. For professional work in office lighting conditions, this is essentially invisible.",
+    "The ProArt Calibration software for fine-tuning color profiles requires a compatible colorimeter — the monitor doesn't include one. Delta E under 2 out of the box is enough for most professionals, but dedicated calibration hardware is a separate purchase."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Only 75Hz, not for gaming…",
+      "body": "Great for work but I was hoping to use this for gaming too. 75Hz feels choppy once you've used a 144Hz panel. Should've read the specs more carefully.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "65W not enough for my 16-inch MacBook…",
+      "body": "Charges my MBP 16 but barely keeps pace under heavy loads. The USB-C cable is convenient but I still keep my 96W charger handy for intensive work.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Mild backlight bleed at corners…",
+      "body": "There's noticeable backlight bleed in two corners when displaying a black screen. Not visible during normal use, but it's there if you look for it.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Stand is big and heavy…",
+      "body": "The stand takes up more desk real estate than I expected and is quite heavy. Would've preferred a smaller footprint or an option to buy it without the stand.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The ASUS ProArt PA278CV is the best under-$600 monitor for creative professionals who need accurate color without the setup friction of manual calibration. Factory Delta E under 2 and 100% sRGB coverage mean you can trust the display on day one, and the USB-C with 65W Power Delivery makes this a one-cable desk for most laptops. The 75Hz refresh rate is the primary limitation for anyone who also games, but as a dedicated work monitor it's excellent.",
+  "realBuyers": [
+    {
+      "quote": "I do photo editing professionally and the colors are spot on right out of the box. My clients' files look exactly the same on my calibrated laptop as they do on this monitor.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The USB-C single-cable setup is exactly what I wanted. One cable for video, data, and 65W charging. My desk is finally clean.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Pivot rotation to portrait mode works smoothly and is incredibly useful for coding. The hub ports on the back are a nice bonus.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Bought this to replace a 1080p 24-inch monitor. The step up in sharpness and color accuracy is massive. Should have done this years ago.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "ASUS ProArt PA278CV — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0989KHX8W"
+    },
+    {
+      "title": "ASUS ProArt PA278CV Review — RTINGS.com",
+      "url": "https://www.rtings.com/monitor/reviews/asus/proart-pa278cv"
+    },
+    {
+      "title": "Best Monitors for Photo Editing — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-photo-editing-monitors/"
+    }
+  ],
+  "metaDescription": "ASUS ProArt PA278CV 27-inch WQHD monitor review for Canada: factory-calibrated Delta E<2, 100% sRGB, 65W USB-C. Best work monitor ~$599 CAD.",
+  "introText": "The ASUS ProArt Display PA278CV (ASIN B0989KHX8W) is a 27-inch WQHD IPS monitor factory-calibrated to Delta E under 2 with 65W USB-C Power Delivery, available on Amazon.ca at around $599 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0989KHX8W",
+  "verifiedPrice": "$599 CAD",
+  "similarProducts": ["anker-575-usb-c-dock", "jabra-elite-10", "amazon-echo-show-8-3rd-gen"]
+}

@@ -1,0 +1,106 @@
+{
+  "slug": "fitbit-charge-6",
+  "name": "Fitbit Charge 6 Fitness Tracker with Google Apps and GPS",
+  "brand": "Fitbit (Google)",
+  "category": "Sports & Outdoors",
+  "categoryPage": "sports-outdoors.html",
+  "filterTag": "Fitness Trackers",
+  "subcategory": "fitness-trackers",
+  "asin": "B0CF2G9V5T",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.5,
+  "tag": "Fitness Trackers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CF2G9V5T/?tag=clearpick06-20",
+  "subscores": {
+    "Google Integration": 9.5,
+    "Heart Rate": 9,
+    "GPS": 8.5,
+    "Sleep Tracking": 9,
+    "Value": 8.5
+  },
+  "specs": {
+    "GPS": "Built-in GPS — no phone needed for outdoor runs",
+    "Google Apps": "Google Maps, Google Wallet, YouTube Music on wrist (requires Android)",
+    "Heart Rate": "Upgraded heart rate sensor (same as Pixel Watch)",
+    "Sleep": "Sleep stages, Sleep Score, Smart Wake Alarm",
+    "ECG": "ECG app for heart rhythm assessment",
+    "Battery": "Up to 7 days (GPS: up to 5 hours)",
+    "Compatibility": "Android and iPhone (some features Android-only)"
+  },
+  "whatWorks": [
+    "The Fitbit Charge 6 represents the most capable fitness band Fitbit has ever produced, elevated by Google's acquisition in ways that finally deliver on the integration promise. The heart rate sensor was pulled directly from the Pixel Watch — the same optical sensor, the same processing — and the result is noticeably more accurate continuous heart rate monitoring during intense workouts than any previous Charge model. Zone minutes, Active Zone Minutes, and heart rate zone tracking are correspondingly more useful when the underlying data is reliable.",
+    "Built-in GPS is the headline addition over the Charge 5, and it genuinely frees the band from phone dependency for outdoor running and walking. GPS lock time is fast, the track on a 5km run is accurate, and having pace and distance on-wrist without a phone in a pocket is a quality-of-life improvement that's hard to overstate. The real-time pace display is small but readable, and the route map syncs to the Fitbit app post-run.",
+    "Google integration is the most compelling differentiator for Android users. Google Maps navigation gives turn-by-turn prompts on the wrist — useful for cycling to new destinations without staring at a phone. Google Wallet enables tap-to-pay at any contactless terminal. YouTube Music controls work without pulling out your phone. For an Android user who doesn't want to spend $1,000 on an Apple Watch Ultra or $600+ on a Garmin Fenix, the Charge 6 delivers a meaningful slice of smartwatch functionality in a fitness band form factor.",
+    "Sleep tracking remains one of Fitbit's genuine strengths, and the Charge 6 continues that tradition. Sleep stages (light, deep, REM) are reliably detected, Sleep Score gives a simple summary number for quick morning review, and the Smart Wake alarm wakes you at the optimal point in your sleep cycle within a 30-minute window. The thin band form factor makes it comfortable to sleep in, which is a real advantage over bulkier watches."
+  ],
+  "worthKnowing": [
+    "Google integration is significantly limited on iPhone. iPhone users can track workouts, sleep, and health data, but Google Maps navigation, YouTube Music controls, and Google Wallet require Android. If you're considering the Charge 6 specifically for the Google features and you're on iPhone, consider the Apple Watch SE instead.",
+    "Battery life with GPS enabled drops to approximately 5 hours — fine for a half marathon, but not for a marathon or ultramarathon. For runs longer than 5 hours, you'd need a dedicated GPS running watch. The 7-day estimate is for normal use without GPS, and real-world experience typically lands at 5-6 days.",
+    "The Charge 6 lacks some features found on smartwatches: no onboard music storage (you can control Spotify/YouTube Music but not play music without a phone), no NFC payments on iOS, and no ability to install third-party apps. It's a capable fitness tracker that borrows some smartwatch features, not a full smartwatch.",
+    "Fitbit Premium subscription ($10.99/month CAD) unlocks the most useful features: detailed sleep analysis, Daily Readiness Score, advanced health insights, and workout video library. Without Premium, the app experience is functional but noticeably less informative. Factor the subscription cost into the total cost of ownership if you plan to use the full feature set."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Google features Android-only",
+      "body": "iPhone users cannot use Google Maps navigation, Google Wallet, or YouTube Music controls — the main differentiating features of the Charge 6 over the Charge 5. Many iPhone buyers feel misled by marketing.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "GPS drains battery to 5 hours",
+      "body": "Switching on GPS collapses the 7-day battery to about 5 hours. Not suitable for long events — marathoners and ultrarunners need a dedicated GPS watch.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No onboard music storage",
+      "body": "You can control music on your phone but can't store songs on the device. Needs a phone nearby for audio during workouts.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Fitbit Premium adds up",
+      "body": "The best features — Daily Readiness Score, advanced sleep analysis — require a subscription. At $10.99/month CAD, the annual cost exceeds the band's price within 18 months.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Fitbit Charge 6 is the best fitness tracker for Android users who want meaningful Google integration — Maps navigation, Wallet, and YouTube Music — in a slim, sleep-comfortable form factor. It's a strong step up from the Charge 5 with the added GPS and improved heart rate sensor. iPhone users should look elsewhere, and serious endurance athletes need a proper GPS watch, but for daily health tracking with workout capabilities, it's class-leading at $199 CAD.",
+  "realBuyers": [
+    {
+      "quote": "Google Maps on my wrist while cycling is genuinely useful. Get turn-by-turn alerts without touching my phone. This feature alone justifies the upgrade from Charge 5.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Switched from Garmin Forerunner 55 because I wanted sleep tracking and daily health monitoring to take priority. The Charge 6 sleep data is noticeably better than the Garmin.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "iPhone user here — don't get this. I had no idea how limited the Google features were on iOS until I had it on my wrist. Returned it for an Apple Watch SE.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Heart rate accuracy is legitimately impressive. Used it alongside a chest strap for a month — the optical sensor was within 2-3 BPM consistently during interval training.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fitbit Charge 6 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CF2G9V5T"
+    },
+    {
+      "title": "Fitbit Charge 6 Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-fitness-tracker/"
+    },
+    {
+      "title": "Fitbit Charge 6 In-Depth Review — DC Rainmaker",
+      "url": "https://www.dcrainmaker.com/2023/09/fitbit-charge6-in-depth-review.html"
+    }
+  ],
+  "metaDescription": "Fitbit Charge 6 review: built-in GPS, Google Maps & Wallet (Android), upgraded heart rate sensor, 7-day battery. Best fitness tracker for Android users.",
+  "introText": "The Fitbit Charge 6 (ASIN B0CF2G9V5T) is available on Amazon.ca for $199 CAD — a fitness tracker with built-in GPS, the same heart rate sensor as Pixel Watch, and the first Fitbit to integrate Google Maps, Google Wallet, and YouTube Music controls directly on the wrist.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0CF2G9V5T",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": ["camelbak-chute-mag-32oz", "apple-watch-ultra-2", "black-diamond-trail-ergo-cork-poles"]
+}

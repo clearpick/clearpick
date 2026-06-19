@@ -1,0 +1,106 @@
+{
+  "slug": "meater-plus-thermometer",
+  "name": "MEATER Plus Wireless Smart Meat Thermometer with 165 ft Bluetooth Range",
+  "brand": "MEATER",
+  "category": "BBQ & Outdoor Cooking",
+  "categoryPage": "bbq-outdoor-cooking.html",
+  "filterTag": "Meat Thermometers",
+  "subcategory": "meat-thermometers",
+  "asin": "B07WZDQPJ8",
+  "price": 129,
+  "priceDisplay": "$129 CAD",
+  "score": 9.2,
+  "tag": "Meat Thermometers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07WZDQPJ8/?tag=clearpick06-20",
+  "subscores": {
+    "Wireless Range": 9.5,
+    "Guided Cook App": 9.5,
+    "Accuracy": 9.5,
+    "No Wires": 9.5,
+    "Value": 8.5
+  },
+  "specs": {
+    "Range": "165 ft Bluetooth range",
+    "Sensors": "Dual sensors — internal meat + ambient grill temp simultaneously",
+    "App": "MEATER app with guided cook, rest timer, Alexa integration",
+    "Probe Material": "Stainless steel + ceramic tip",
+    "Max Temp": "212°F ambient / 527°F meat probe tip",
+    "Waterproof": "Fully waterproof probe",
+    "Battery": "24+ hours per charge from bamboo block holder"
+  },
+  "whatWorks": [
+    "The complete absence of wires is the MEATER Plus's defining feature. Being able to insert a probe into a roast or whole chicken and close the lid with no cable to manage is a meaningfully better experience than wired thermometers — no cable pinched in the lid, no wire to work around when turning food, no risk of accidentally yanking the probe. Once you cook wirelessly you won't go back.",
+    "The dual-sensor design is genuinely clever: the tip measures internal meat temperature while a second sensor near the base measures ambient grill temperature simultaneously. This means the app always knows both readings and can factor the grill environment into its cook time predictions — not just a naive countdown based on meat temp alone.",
+    "The MEATER app's guided cook feature is the best in the category for less experienced cooks. Select your protein, desired doneness, and weight — the app walks you through every phase of the cook and notifies you when to pull the meat and how long to rest it. It accounts for carryover cooking. For beginners, this turns an intimidating holiday roast into a manageable recipe.",
+    "165 ft Bluetooth range is enough for most home cooking situations — from the grill on the back deck to anywhere inside the house. The companion WiFi repeater app (free on a second phone or tablet) can extend range further if needed. In practice, most users find the base range more than adequate for regular backyard use."
+  ],
+  "worthKnowing": [
+    "The MEATER Plus covers one probe. If you want to monitor multiple cuts simultaneously — say, a brisket and chicken thighs at the same time — you need multiple MEATER units or a step up to the MEATER Block which holds four probes. The single-probe limitation is the most common reason experienced users outgrow the entry model.",
+    "Bluetooth range is affected by physical obstructions. Thick concrete walls, metal appliances, and terrain between you and the grill can reduce effective range below the advertised 165 ft. Most buyers find the real-world range sufficient, but those with longer driveways or multi-story homes may experience drops.",
+    "The ceramic probe tip is rated to 212°F ambient — this covers most smoking and roasting situations but is not designed for direct flame or high-heat sear zones. Do not leave the MEATER probe in food while searing at 700°F+ direct flame. Remove the probe for the sear step and reinsert for monitoring after.",
+    "The bamboo block that holds and charges the probe is charming but small and easy to misplace. Several users recommend immediately setting up a dedicated spot in the kitchen for the block so the probe always goes back to the same place. Losing the block means no battery charge for the probe."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Only one probe per unit",
+      "body": "The MEATER Plus includes a single probe. Anyone who regularly cooks multiple large cuts simultaneously finds this limiting quickly and ends up buying additional probes or the MEATER Block, significantly raising the total cost.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Bluetooth drops in large homes",
+      "body": "Several users report connectivity drops when multiple walls are between the grill and their phone. The app loses the probe connection and stops updating until the phone is closer. This is inherent to Bluetooth and the free WiFi repeater feature helps but requires a dedicated second device.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Cook time estimates can be off",
+      "body": "The guided cook time estimates are based on averages and can vary meaningfully with specific cut thickness, starting temperature, and grill behavior. Experienced cooks trust the temperature readings over the estimated finish time.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Probe cleaning requires care",
+      "body": "While the probe is waterproof, the junction between the stainless steel shaft and the wooden handle should not be submerged — only the probe tip. Several buyers damaged their units by soaking the whole probe in water during cleaning.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The MEATER Plus is the best wireless meat thermometer for home cooks who want a genuinely wire-free experience with excellent app support and guided cooking. The dual-sensor accuracy and 165 ft Bluetooth range make it the standard-setter at this price. The single-probe limitation is the key constraint — if you regularly cook multiple large cuts simultaneously, budget for two units or the MEATER Block. For everyone else, this is the thermometer that makes cooking a whole roast or turkey for the first time feel manageable.",
+  "realBuyers": [
+    {
+      "quote": "I have cooked a perfect roast chicken every single time since I bought this. The guided cook feature is like having a professional chef telling you exactly what to do. My family can't believe how consistent the results are now.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "No wires is a bigger deal than I expected. Closing the grill lid cleanly, walking inside, checking my phone — it just feels right. My old wired thermometer was always in the way.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Did a prime rib for Christmas using the MEATER. Pulled it at exactly the right internal temp, rested it per the app's timer, and it was the best prime rib our family has ever had. Worth every penny.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The ambient temp sensor saved a cook — I realized my grill was running 50 degrees hotter than the built-in thermometer said. Without the MEATER I would have overcooked the whole brisket.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "MEATER Plus Thermometer — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07WZDQPJ8"
+    },
+    {
+      "title": "Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-meat-thermometer/"
+    },
+    {
+      "title": "Review — Serious Eats",
+      "url": "https://www.seriouseats.com/meater-plus-thermometer-review"
+    }
+  ],
+  "metaDescription": "MEATER Plus review — wireless meat thermometer, 165 ft Bluetooth, dual sensors. Is it worth $129 CAD on Amazon.ca?",
+  "introText": "The MEATER Plus (ASIN: B07WZDQPJ8) is a fully wireless smart meat thermometer available on Amazon.ca for $129 CAD. With dual sensors measuring both internal meat and ambient grill temperature simultaneously and a guided cook app, it's the best wire-free thermometer for home cooks.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B07WZDQPJ8",
+  "verifiedPrice": "$129 CAD",
+  "similarProducts": ["masterbuilt-gravity-series-800", "kamado-joe-classic-iii", "char-griller-akorn-kamado"]
+}

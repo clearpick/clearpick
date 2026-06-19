@@ -11487,5 +11487,1589 @@
       "Voltage": "Dual voltage 100-240V",
       "Size": "Countertop unit — 3.8\"W × 4.7\"D × 10.3\"H"
     }
+  },
+  {
+    "id": "8bitdo-ultimate-2-controller",
+    "name": "8BitDo Ultimate 2 Bluetooth Controller",
+    "category": "Gaming",
+    "score": 9,
+    "tag": "Gaming Controllers",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/8bitdo-ultimate-2-controller.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0D4KQSQG1/?tag=clearpick06-20",
+    "subscores": {
+      "Switch Compatibility": 9.5,
+      "Build Quality": 9,
+      "Customization": 9.5,
+      "Battery Life": 9,
+      "Value": 9
+    },
+    "specs": {
+      "Compatibility": "Nintendo Switch, PC, Android, iOS, Raspberry Pi",
+      "Connectivity": "Bluetooth 5.0 + 2.4GHz dongle included",
+      "Joysticks": "Hall effect joysticks (no drift — magnetic, not potentiometer)",
+      "Triggers": "Hall effect triggers — also drift-free",
+      "Rumble": "Vibration motors",
+      "Battery": "1000 mAh rechargeable — 20+ hours",
+      "Software": "8BitDo Ultimate Software for custom button mapping, sensitivity, dead zones",
+      "Charge": "USB-C"
+    }
+  },
+  {
+    "id": "apple-watch-ultra-2",
+    "name": "Apple Watch Ultra 2 (49mm Titanium Case)",
+    "category": "Sports & Outdoors",
+    "score": 9.3,
+    "tag": "GPS Watches",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1049 CAD",
+    "page": "products/apple-watch-ultra-2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CHX87QR3/?tag=clearpick06-20",
+    "subscores": {
+      "Durability": 9.5,
+      "Battery Life": 9.5,
+      "GPS Accuracy": 9.5,
+      "Action Button": 9,
+      "Value": 7.5
+    },
+    "specs": {
+      "Case": "49mm Grade 5 titanium, sapphire crystal display, up to 100m water resistance",
+      "Battery": "Up to 60 hours standard, 36 hours high-accuracy GPS, Ultralow Power Mode up to 72 hours",
+      "Display": "2000 nit always-on Retina LTPO display — readable in direct sunlight",
+      "GPS": "Dual-frequency L1 + L5 GPS for precision in dense urban areas/canyons",
+      "Sensors": "Depth gauge, water temperature sensor, crash detection, ECG",
+      "Action Button": "Customizable Action button — assign to any workout, shortcut, or app",
+      "Siren": "86dB international distress siren"
+    }
+  },
+  {
+    "id": "astro-a50-gen5-wireless",
+    "name": "Astro A50 Gen 5 Wireless Gaming Headset + Base Station",
+    "category": "Gaming",
+    "score": 8.9,
+    "tag": "Gaming Headsets",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$349 CAD",
+    "page": "products/astro-a50-gen5-wireless.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CW35VMGB/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9.5,
+      "Wireless": 9,
+      "Base Station": 9.5,
+      "Microphone": 9,
+      "Build Quality": 9
+    },
+    "specs": {
+      "Driver": "40mm neodymium drivers with Dolby Audio",
+      "Wireless": "2.4GHz — 30-hour battery",
+      "Connectivity": "Works with PS5, Xbox, PC, Switch simultaneously via base station",
+      "Base Station": "Charges while docked, auto-mutes mic when docked, built-in DAC/amp",
+      "Mic": "Unidirectional microphone with flip-to-mute",
+      "Surround": "Dolby Atmos / DTS Headphone:X",
+      "EQ": "3 EQ presets, customizable via ASTRO Command Center software"
+    }
+  },
+  {
+    "id": "asus-rog-swift-pg279qm",
+    "name": "ASUS ROG Swift PG279QM 27-Inch 1440p 240Hz Gaming Monitor",
+    "category": "Gaming",
+    "score": 9.1,
+    "tag": "Gaming Monitors",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$799 CAD",
+    "page": "products/asus-rog-swift-pg279qm.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08XXXCJ8Q/?tag=clearpick06-20",
+    "subscores": {
+      "Refresh Rate": 9.5,
+      "IPS Panel Quality": 9.5,
+      "Response Time": 9.5,
+      "G-Sync": 9,
+      "Value": 8
+    },
+    "specs": {
+      "Panel": "27-inch Fast IPS — 1ms GTG response time",
+      "Resolution": "2560×1440 QHD (1440p)",
+      "Refresh Rate": "240Hz native (overclock to 270Hz)",
+      "Sync": "NVIDIA G-Sync Compatible + VESA Adaptive-Sync",
+      "HDR": "DisplayHDR 400",
+      "Ports": "2× HDMI 2.0, 1× DisplayPort 1.4, 4× USB-A 3.0 hub",
+      "Color Coverage": "sRGB 99%, DCI-P3 85%",
+      "Stand": "Full ergonomic adjustment (tilt, swivel, pivot, height)"
+    }
+  },
+  {
+    "id": "black-diamond-trail-ergo-cork-poles",
+    "name": "Black Diamond Trail Ergo Cork Trekking Poles (Pair)",
+    "category": "Sports & Outdoors",
+    "score": 8.9,
+    "tag": "Trekking Poles",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/black-diamond-trail-ergo-cork-poles.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B006DFKPHG/?tag=clearpick06-20",
+    "subscores": {
+      "Cork Grip": 9.5,
+      "Ergonomic Angle": 9.5,
+      "Build Quality": 9,
+      "Adjustability": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Grip": "Natural cork grip with ergonomic angle — absorbs sweat and moisture, reduces hot spots on palms",
+      "Basket": "Trail basket included (trekking), mud basket also included",
+      "Material": "6000 series aluminum shaft",
+      "Adjustment": "FlickLock Pro adjustment mechanism (tool-free), 100–130cm range",
+      "Weight": "530g/pair (18.7 oz/pair)",
+      "Tip": "Tungsten carbide tip — long-lasting on rock",
+      "Strap": "Adjustable wrist strap with padded webbing"
+    }
+  },
+  {
+    "id": "blackstone-36-flat-top-griddle",
+    "name": "Blackstone 36 Inch Outdoor Flat Top Gas Griddle Station",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 9,
+    "tag": "Flat Top Griddles",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/blackstone-36-flat-top-griddle.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01E6V5S44/?tag=clearpick06-20",
+    "subscores": {
+      "Cooking Surface": 9.5,
+      "Heat Distribution": 9,
+      "Build Quality": 9,
+      "Versatility": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Surface": "720 sq in total cooking area",
+      "Burners": "4 H-shaped stainless burners, 15,000 BTU each",
+      "Total BTU": "60,000 BTU",
+      "Material": "Cold-rolled steel griddle top",
+      "Ignition": "Push-and-turn electronic ignition",
+      "Fuel": "Propane (tank not included)",
+      "Legs": "Folding legs for storage"
+    }
+  },
+  {
+    "id": "broil-king-baron-420",
+    "name": "Broil King Baron 420 Pro 4-Burner Liquid Propane Gas Grill",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.7,
+    "tag": "Gas Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/broil-king-baron-420.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BNN9WY6/?tag=clearpick06-20",
+    "subscores": {
+      "Canadian Build Quality": 9.5,
+      "Heat Retention": 9,
+      "Even Cooking": 9,
+      "Warranty": 9.5,
+      "Value": 8
+    },
+    "specs": {
+      "Burners": "4 stainless steel Dual-Tube burners",
+      "BTU": "40,000 BTU + 10,000 BTU side burner",
+      "Cooking Area": "440 sq in primary + 180 sq in warming rack",
+      "Grates": "Porcelain-coated cast iron (reversible)",
+      "Hood": "Double-lined hood",
+      "Warranty": "Lifetime on burners, 10-year on hood/body",
+      "Made": "Engineered in Canada"
+    }
+  },
+  {
+    "id": "brooks-ghost-15",
+    "name": "Brooks Ghost 15 Men's Road Running Shoe",
+    "category": "Sports & Outdoors",
+    "score": 9.1,
+    "tag": "Road Running Shoes",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$159 CAD",
+    "page": "products/brooks-ghost-15.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09Q7GRWHV/?tag=clearpick06-20",
+    "subscores": {
+      "Cushioning": 9.5,
+      "Transition": 9.5,
+      "Durability": 9,
+      "Versatility": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Midsole": "DNA LOFT v2 foam — plush cushioning with balanced cushion feel (not mushy)",
+      "Outsole": "Segmented crash pad for smooth landing-to-toe-off transitions",
+      "Upper": "3D Fit Print upper adapts to foot movement, engineered mesh for breathability",
+      "Stack Height": "27mm heel / 19mm forefoot (8mm drop)",
+      "Weight": "279g / 9.8 oz (size 10)",
+      "Best For": "Neutral runners, long-distance daily trainer, recovery runs",
+      "Widths": "Available in narrow, standard, wide, extra-wide"
+    }
+  },
+  {
+    "id": "camelbak-chute-mag-32oz",
+    "name": "CamelBak Chute Mag Insulated Stainless Steel Water Bottle, 32 oz",
+    "category": "Sports & Outdoors",
+    "score": 8.7,
+    "tag": "Water Bottles",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$39 CAD",
+    "page": "products/camelbak-chute-mag-32oz.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07FXWJMBT/?tag=clearpick06-20",
+    "subscores": {
+      "Leak Proof": 9.5,
+      "Magnetic Cap": 9.5,
+      "Insulation": 9,
+      "Build Quality": 9,
+      "Value": 9.5
+    },
+    "specs": {
+      "Material": "18/8 stainless steel, double-wall vacuum insulation",
+      "Insulation": "24 hours cold, 12 hours hot",
+      "Cap": "Magnetic Cap — the cap stows magnetically on side so it stays out of your face while drinking",
+      "Lid": "Wide-mouth opening for ice cubes and easy cleaning",
+      "Size": "32 oz (946ml)",
+      "Weight": "397g (14 oz) empty",
+      "Dishwasher": "Dishwasher safe (bottle body; hand wash cap)"
+    }
+  },
+  {
+    "id": "camp-chef-flat-top-600",
+    "name": "Camp Chef Flat Top 600 4-Burner Outdoor Griddle",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.6,
+    "tag": "Flat Top Griddles",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$649 CAD",
+    "page": "products/camp-chef-flat-top-600.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07X2VRFK5/?tag=clearpick06-20",
+    "subscores": {
+      "Cooking Surface": 9,
+      "Independent Heat Zones": 9.5,
+      "Build Quality": 9,
+      "Portability": 8.5,
+      "Value": 8
+    },
+    "specs": {
+      "Surface": "604 sq in seasoned steel cooking surface",
+      "Burners": "4 individually-controlled burners, 12,000 BTU each",
+      "Total BTU": "48,000 BTU total",
+      "Heat Zones": "4 independent zones",
+      "Grease": "Front grease management with removable cup",
+      "Fuel": "Propane (tank not included)",
+      "Shelf": "Built-in side shelf and kickstand"
+    }
+  },
+  {
+    "id": "camp-chef-woodwind-pro-36",
+    "name": "Camp Chef Woodwind Pro 36 WiFi Pellet Grill with Sidekick Propane Burner",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 9.1,
+    "tag": "Pellet Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1299 CAD",
+    "page": "products/camp-chef-woodwind-pro-36.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09XGCFNKW/?tag=clearpick06-20",
+    "subscores": {
+      "Smoke Control": 9.5,
+      "Sidekick Versatility": 9.5,
+      "WiFi App Control": 9,
+      "Temperature Range": 9.5,
+      "Value": 8
+    },
+    "specs": {
+      "Cooking Area": "811 sq in total (570 main + 241 upper rack)",
+      "Smoke Number": "10-setting Smoke Number control — dial in smoke intensity independently",
+      "Sidekick": "Integrated high-heat propane burner for searing up to 900°F",
+      "WiFi": "WiFi + Bluetooth app control (iOS/Android)",
+      "Temp Range": "160°F to 500°F + sear mode",
+      "Hopper": "22 lb pellet hopper with window",
+      "Ash Cleanout": "Patented Ash Kickin' Cleanout lever"
+    }
+  },
+  {
+    "id": "char-griller-akorn-kamado",
+    "name": "Char-Griller AKORN Kamado Charcoal Grill",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.4,
+    "tag": "Kamado Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/char-griller-akorn-kamado.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B004AP4ETW/?tag=clearpick06-20",
+    "subscores": {
+      "Temperature Retention": 9,
+      "Value vs Ceramic": 9.5,
+      "Build Quality": 8,
+      "Airflow Control": 8.5,
+      "Weight": 9.5
+    },
+    "specs": {
+      "Material": "Triple-wall 22-gauge steel (not ceramic)",
+      "Cooking Area": "314 sq in primary + 133 sq in warming rack",
+      "Temp Range": "200°F–700°F with vent control",
+      "Weight": "97 lbs (vs 250+ lbs for ceramic kamados)",
+      "Grates": "Cast iron cooking grates",
+      "Dampers": "Top and bottom cast iron dampers",
+      "Ash Pan": "Easy Dump ash pan"
+    }
+  },
+  {
+    "id": "corsair-k100-rgb-keyboard",
+    "name": "Corsair K100 RGB Optical-Mechanical Gaming Keyboard",
+    "category": "Gaming",
+    "score": 9.2,
+    "tag": "Gaming Keyboards",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$279 CAD",
+    "page": "products/corsair-k100-rgb-keyboard.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08HR5XNJT/?tag=clearpick06-20",
+    "subscores": {
+      "Switch Speed": 9.5,
+      "Build Quality": 9.5,
+      "RGB Lighting": 9.5,
+      "Control Dial": 9,
+      "Software": 9
+    },
+    "specs": {
+      "Switches": "Corsair OPX Optical-Mechanical — 1.0mm actuation, 45g force, 150M keystroke lifespan",
+      "RGB": "Per-key RGB with iCUE software",
+      "Control Dial": "iCUE Control Wheel — programmable dial for macros, volume, brush size",
+      "Frame": "Aluminum top plate",
+      "Passthrough": "Full-speed USB passthrough port",
+      "Anti-Ghost": "Full N-key rollover + 100% anti-ghosting",
+      "Memory": "8 MB onboard profile storage",
+      "Polling Rate": "4,000 Hz hyper-polling mode"
+    }
+  },
+  {
+    "id": "elgato-4k60-pro-mk2",
+    "name": "Elgato 4K60 Pro MK.2 Internal Capture Card",
+    "category": "Gaming",
+    "score": 9,
+    "tag": "Capture Cards",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/elgato-4k60-pro-mk2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07WZML5GN/?tag=clearpick06-20",
+    "subscores": {
+      "4K Quality": 9.5,
+      "Low Latency Passthrough": 9.5,
+      "PCIe Performance": 9.5,
+      "Software": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Capture Resolution": "Up to 4K60 HDR10",
+      "Interface": "PCIe × 4 internal card (PC only)",
+      "Passthrough": "4K60 HDR10 zero-lag HDMI passthrough to TV",
+      "Encoding": "Hardware H.264/H.265 encoding — low CPU load",
+      "Compatibility": "OBS, XSplit, 4K Capture Utility, Streamlabs",
+      "HDR": "HDR10 passthrough and capture support",
+      "OS": "Windows 10/11, 64-bit only",
+      "Input": "HDMI 2.0 in/out"
+    }
+  },
+  {
+    "id": "elgato-hd60-x-capture-card",
+    "name": "Elgato HD60 X External Capture Card — 4K30 / 1080p60 HDR10+",
+    "category": "Gaming",
+    "score": 9.1,
+    "tag": "Capture Cards",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$159 CAD",
+    "page": "products/elgato-hd60-x-capture-card.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09NMH2QCN/?tag=clearpick06-20",
+    "subscores": {
+      "Portability": 9.5,
+      "Console Compatibility": 9.5,
+      "HDR10+ Support": 9.5,
+      "Plug-and-Play": 9,
+      "Value": 9
+    },
+    "specs": {
+      "Capture Resolution": "Up to 4K30 or 1080p60 HDR10+ capture",
+      "Interface": "USB-C external (works with PC and Mac)",
+      "Passthrough": "4K60 HDR10+ passthrough to TV via HDMI",
+      "Console Compatibility": "PS5, Xbox Series X/S, Nintendo Switch, PC",
+      "Software": "4K Capture Utility + OBS/XSplit/Streamlabs compatible",
+      "Mac Support": "Compatible with macOS Big Sur and later",
+      "Passthrough Quality": "Ultra-low latency HDMI passthrough"
+    }
+  },
+  {
+    "id": "fitbit-charge-6",
+    "name": "Fitbit Charge 6 Fitness Tracker with Google Apps and GPS",
+    "category": "Sports & Outdoors",
+    "score": 8.5,
+    "tag": "Fitness Trackers",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/fitbit-charge-6.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CF2G9V5T/?tag=clearpick06-20",
+    "subscores": {
+      "Google Integration": 9.5,
+      "Heart Rate": 9,
+      "GPS": 8.5,
+      "Sleep Tracking": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "GPS": "Built-in GPS — no phone needed for outdoor runs",
+      "Google Apps": "Google Maps, Google Wallet, YouTube Music on wrist (requires Android)",
+      "Heart Rate": "Upgraded heart rate sensor (same as Pixel Watch)",
+      "Sleep": "Sleep stages, Sleep Score, Smart Wake Alarm",
+      "ECG": "ECG app for heart rhythm assessment",
+      "Battery": "Up to 7 days (GPS: up to 5 hours)",
+      "Compatibility": "Android and iPhone (some features Android-only)"
+    }
+  },
+  {
+    "id": "garmin-edge-530",
+    "name": "Garmin Edge 530 GPS Cycling Computer",
+    "category": "Sports & Outdoors",
+    "score": 8.8,
+    "tag": "Bike Computers",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/garmin-edge-530.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07QBDG3TR/?tag=clearpick06-20",
+    "subscores": {
+      "Navigation": 9.5,
+      "Performance Metrics": 9.5,
+      "Battery Life": 9,
+      "Maps": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Display": "2.6\" color display, sunlight-readable",
+      "Navigation": "ClimbPro — shows upcoming climb gradient, distance, elevation gain",
+      "GPS": "Multiple GNSS (GPS, Galileo) + barometric altimeter",
+      "Battery": "Up to 20 hours GPS mode",
+      "Metrics": "Cycling-specific training metrics, VO2 max, FTP, TSS",
+      "Connectivity": "ANT+ and Bluetooth compatible with power meters, heart rate monitors, smart trainers",
+      "Trail Maps": "On-device Garmin Cycle Map with turn-by-turn navigation"
+    }
+  },
+  {
+    "id": "garmin-fenix-7-solar",
+    "name": "Garmin Fenix 7 Solar Multisport GPS Smartwatch",
+    "category": "Sports & Outdoors",
+    "score": 9.2,
+    "tag": "GPS Watches",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$999 CAD",
+    "page": "products/garmin-fenix-7-solar.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09NVNQKPN/?tag=clearpick06-20",
+    "subscores": {
+      "Multi-Sport": 9.5,
+      "Solar Battery": 9.5,
+      "Build Quality": 9.5,
+      "Maps": 9.5,
+      "Value": 7.5
+    },
+    "specs": {
+      "Solar": "Power Glass solar charging lens — 22 days smartwatch battery (vs 18 without solar)",
+      "GPS": "Multi-band GPS (L1/L5) for high accuracy in challenging environments",
+      "Health Metrics": "Pulse Ox, advanced sleep, HRV status, Body Battery",
+      "Sports": "40+ built-in activity profiles",
+      "Maps": "TopoActive maps onboard + ski maps + golf course maps",
+      "Display": "1.3\" MIP display, sunlight readable at all times",
+      "Durability": "MIL-STD-810 tested, 100m water resistance"
+    }
+  },
+  {
+    "id": "garmin-forerunner-265",
+    "name": "Garmin Forerunner 265 GPS Running Smartwatch with AMOLED Display",
+    "category": "Sports & Outdoors",
+    "score": 9,
+    "tag": "GPS Watches",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$599 CAD",
+    "page": "products/garmin-forerunner-265.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BVF9S5TM/?tag=clearpick06-20",
+    "subscores": {
+      "AMOLED Display": 9.5,
+      "Running Dynamics": 9.5,
+      "HRV": 9.5,
+      "Battery": 8.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Display": "1.3\" AMOLED always-on display — vibrant colors (major upgrade from MIP)",
+      "GPS": "Multi-band GPS/GNSS for improved accuracy",
+      "Running Metrics": "Running power, vertical oscillation, ground contact time, stride length",
+      "HRV": "Daily HRV Status + Training Readiness + Race Predictor",
+      "Battery": "15 days smartwatch / 20 hours GPS / 8 hours with AMOLED always-on",
+      "Music": "Spotify/Deezer offline playback + Garmin Pay"
+    }
+  },
+  {
+    "id": "garmin-forerunner-55",
+    "name": "Garmin Forerunner 55 GPS Running Watch",
+    "category": "Sports & Outdoors",
+    "score": 8.6,
+    "tag": "GPS Watches",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/garmin-forerunner-55.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0953HHQY7/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Ease of Use": 9.5,
+      "Battery Life": 9,
+      "Running Metrics": 8.5,
+      "Build Quality": 8.5
+    },
+    "specs": {
+      "Display": "1.04\" MIP display, sunlight readable",
+      "GPS": "GPS + GLONASS",
+      "Battery": "20 days smartwatch / 20 hours GPS mode",
+      "Metrics": "Suggested daily workouts, Fitness Age, VO2 Max, recovery advisor",
+      "Heart Rate": "Wrist-based heart rate monitoring",
+      "Body Battery": "Garmin Body Battery energy monitoring",
+      "Cadence": "Cadence tracking and alerts"
+    }
+  },
+  {
+    "id": "gregory-baltoro-65",
+    "name": "Gregory Baltoro 65 Men's Backpacking Pack",
+    "category": "Sports & Outdoors",
+    "score": 9,
+    "tag": "Hiking Backpacks",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/gregory-baltoro-65.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07VNX4X95/?tag=clearpick06-20",
+    "subscores": {
+      "Suspension": 9.5,
+      "Fit": 9.5,
+      "Organization": 9,
+      "Load Transfer": 9.5,
+      "Durability": 9
+    },
+    "specs": {
+      "Volume": "65 litres main compartment + 3.5L top lid + 1.5L sleeping bag compartment",
+      "Suspension": "Response A3 suspension — auto-adjusts to your unique spine curve for personalized fit",
+      "Hipbelt": "Contour Fit Hipbelt with natural curvature follows your hips through strides",
+      "Hipbelt Pockets": "Zippered hipbelt pockets with stash pocket for sun protection",
+      "Back Panel": "Aerosolve spacer mesh back panel — ventilated airflow against back",
+      "Frame": "Adjustable torso length (S/M/L)",
+      "Organization": "Top lid, sleeping bag compartment, front shove-it pocket, side water bottle pockets"
+    }
+  },
+  {
+    "id": "grillgrates-set",
+    "name": "GrillGrates Interlocking Grill Grates Set of 3 Panels (13.75 Inch)",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.8,
+    "tag": "Grill Accessories",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/grillgrates-set.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B003DRE1PM/?tag=clearpick06-20",
+    "subscores": {
+      "Sear Quality": 9.5,
+      "Heat Distribution": 9.5,
+      "Ease of Cleaning": 9,
+      "Versatility": 8.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Material": "Hard-anodized aluminum",
+      "Size": "3 panels, each 13.75\" × 5.25\" = 13.75\" × 16\" total",
+      "Rails": "Raised rails concentrate heat for grill marks",
+      "Reverse Side": "Flat griddle reverse side for delicate foods",
+      "Included": "GrateTool scraper included",
+      "Compatibility": "Works on any gas, charcoal, or pellet grill",
+      "Max Temp": "Handles up to 700°F+"
+    }
+  },
+  {
+    "id": "hoka-clifton-9",
+    "name": "HOKA Clifton 9 Men's Road Running Shoe",
+    "category": "Sports & Outdoors",
+    "score": 9.2,
+    "tag": "Road Running Shoes",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$189 CAD",
+    "page": "products/hoka-clifton-9.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BM7XWF1D/?tag=clearpick06-20",
+    "subscores": {
+      "Stack Height": 9.5,
+      "Plush Cushioning": 9.5,
+      "Transition": 9.5,
+      "Weight for Cushioning": 9,
+      "Durability": 8.5
+    },
+    "specs": {
+      "Midsole": "Compression-molded EVA foam — maximum cushioning with early stage Meta-Rocker geometry",
+      "Stack Height": "29mm heel / 24mm forefoot (5mm drop) — high-stack maximal cushioning",
+      "Upper": "Engineered mesh with strategic overlays for breathability and structure",
+      "Meta-Rocker": "Rocker geometry promotes smooth heel-to-toe transition",
+      "Weight": "227g / 8 oz (size 9)",
+      "Best For": "Long-distance daily training, recovery runs, high-mileage weeks",
+      "Widths": "Regular and Wide widths available"
+    }
+  },
+  {
+    "id": "hydro-flask-40oz-wide-mouth",
+    "name": "Hydro Flask 40 oz Wide Mouth Insulated Water Bottle",
+    "category": "Sports & Outdoors",
+    "score": 9.3,
+    "tag": "Water Bottles",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$69 CAD",
+    "page": "products/hydro-flask-40oz-wide-mouth.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B077VD2MHC/?tag=clearpick06-20",
+    "subscores": {
+      "Insulation": 9.5,
+      "Build Quality": 9.5,
+      "Lifetime Warranty": 9.5,
+      "Versatility": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Material": "18/8 pro-grade stainless steel, BPA-free",
+      "Insulation": "TempShield double-wall vacuum insulation — up to 24 hours cold, 12 hours hot",
+      "Coating": "Powder coat exterior — grip, no condensation, chip-resistant",
+      "Lid": "Wide Flex Cap (flex loop for carrying, wide mouth for ice)",
+      "Size": "40 oz (1.18L) — ideal for all-day hydration hikes",
+      "Warranty": "Lifetime warranty",
+      "Dishwasher": "Dishwasher safe (check current lid compatibility)"
+    }
+  },
+  {
+    "id": "hyperice-hypervolt-2-pro",
+    "name": "Hyperice Hypervolt 2 Pro Percussion Massage Device",
+    "category": "Sports & Outdoors",
+    "score": 8.8,
+    "tag": "Massage Guns",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/hyperice-hypervolt-2-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09HKPJWQ2/?tag=clearpick06-20",
+    "subscores": {
+      "Power": 9.5,
+      "Quiet Glide": 9.5,
+      "App Integration": 9,
+      "Attachments": 9,
+      "Battery": 8.5
+    },
+    "specs": {
+      "Motor": "Brushless high-torque motor",
+      "Speed": "5 speeds up to 3200 PPM",
+      "Force": "Up to 90 lbs stall force",
+      "Sound": "QuietGlide technology — near-silent operation",
+      "Attachments": "5 interchangeable head attachments (ball, fork, flat, bullet, cushion)",
+      "App": "Hyperice app — personalized routines, partner with Garmin/Apple Health",
+      "Battery": "Up to 3 hours per charge, USB-C",
+      "Weight": "1.08 kg (2.4 lbs)"
+    }
+  },
+  {
+    "id": "hyperx-cloud-alpha-wireless",
+    "name": "HyperX Cloud Alpha Wireless Gaming Headset — 300-Hour Battery",
+    "category": "Gaming",
+    "score": 9.3,
+    "tag": "Gaming Headsets",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/hyperx-cloud-alpha-wireless.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09DPMTZCH/?tag=clearpick06-20",
+    "subscores": {
+      "Battery Life": 9.5,
+      "Sound Quality": 9.5,
+      "Comfort": 9.5,
+      "Microphone": 9,
+      "Value": 9
+    },
+    "specs": {
+      "Battery": "300-hour battery life — industry record for wireless gaming headsets",
+      "Driver": "50mm dual-chamber drivers — separate chambers for bass and highs reduce distortion",
+      "Wireless": "2.4GHz wireless — negligible latency",
+      "Mic": "Detachable noise-cancelling microphone",
+      "Compatibility": "PC only via 2.4GHz USB dongle (no console native support)",
+      "Weight": "335g with mic attached",
+      "Frequency": "15Hz–21,000Hz",
+      "Materials": "Aluminum frame with memory foam over-ear cushions"
+    }
+  },
+  {
+    "id": "hyperx-fury-s-pro-xl-mousepad",
+    "name": "HyperX FURY S Pro XL Speed Gaming Mouse Pad",
+    "category": "Gaming",
+    "score": 9,
+    "tag": "Gaming Mice",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$29 CAD",
+    "page": "products/hyperx-fury-s-pro-xl-mousepad.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B073P39QQK/?tag=clearpick06-20",
+    "subscores": {
+      "Surface Speed": 9.5,
+      "Stitched Edges": 9.5,
+      "XL Coverage": 9.5,
+      "Value": 9.5,
+      "Thickness": 9
+    },
+    "specs": {
+      "Size": "XL: 900mm × 420mm × 4mm — covers keyboard and mouse",
+      "Material": "Micro-woven cloth surface optimized for speed",
+      "Base": "Natural rubber non-slip base",
+      "Edge": "Stitched edges — will not fray or peel",
+      "Thickness": "4mm cushioning",
+      "Surface Type": "Speed — low friction for fast, sweeping movements",
+      "Sensor Compatibility": "Works with optical and laser sensors"
+    }
+  },
+  {
+    "id": "kamado-joe-classic-iii",
+    "name": "Kamado Joe Classic III 18-Inch Charcoal Grill with Divide and Conquer System",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 9.3,
+    "tag": "Kamado Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1999 CAD",
+    "page": "products/kamado-joe-classic-iii.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B082JGXJ63/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Temperature Control": 9.5,
+      "Divide & Conquer": 9.5,
+      "Ceramic Seal Quality": 9.5,
+      "Value": 8
+    },
+    "specs": {
+      "Material": "Thick-wall ceramic — superior heat retention vs steel",
+      "Cooking Area": "254 sq in per level (flexible multi-level)",
+      "System": "Divide & Conquer multi-level flexible cooking system",
+      "Hinge": "Air Lift hinge (95 lbs counterbalanced to 1-finger lift)",
+      "SloRoller": "SloRoller hyperbolic smoke chamber included",
+      "Temp Range": "225°F–750°F",
+      "Warranty": "Limited lifetime warranty on ceramic components"
+    }
+  },
+  {
+    "id": "leatherman-wave-plus",
+    "name": "Leatherman Wave+ Multi-Tool with Premium Replaceable Wire Cutters",
+    "category": "Sports & Outdoors",
+    "score": 9.2,
+    "tag": "Camping Gear",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/leatherman-wave-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01H5TDHVC/?tag=clearpick06-20",
+    "subscores": {
+      "Tool Count": 9.5,
+      "Blade Quality": 9.5,
+      "Build Quality": 9.5,
+      "One-Hand Opening": 9,
+      "Value": 9
+    },
+    "specs": {
+      "Tools": "18 tools including 3 knives (420HC stainless), needle nose pliers, wire cutters, can opener, saw, scissors, bottle opener, files, screwdrivers, ruler",
+      "Outside Access": "All blades and tools accessible without opening the pliers (unique to Wave+ tier)",
+      "Cutters": "Premium replaceable wire cutters — replace without returning tool",
+      "Material": "420HC stainless steel with stainless steel handle",
+      "Weight": "247g (8.7 oz)",
+      "Length": "10.2cm closed",
+      "Warranty": "25-year warranty"
+    }
+  },
+  {
+    "id": "lg-27gp850-b-monitor",
+    "name": "LG 27GP850-B 27-Inch 1440p 165Hz Nano IPS Gaming Monitor",
+    "category": "Gaming",
+    "score": 9,
+    "tag": "Gaming Monitors",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$499 CAD",
+    "page": "products/lg-27gp850-b-monitor.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08XL4KQLM/?tag=clearpick06-20",
+    "subscores": {
+      "Nano IPS Colors": 9.5,
+      "165Hz Refresh Rate": 9.5,
+      "Adaptive Sync": 9.5,
+      "Response Time": 9.5,
+      "Value": 9
+    },
+    "specs": {
+      "Panel": "27-inch Nano IPS — 1ms GtG response time",
+      "Resolution": "2560×1440 QHD (1440p)",
+      "Refresh Rate": "165Hz native (overclock to 180Hz)",
+      "Color Coverage": "98% DCI-P3 wide color gamut",
+      "Sync": "NVIDIA G-Sync Compatible + AMD FreeSync Premium Pro",
+      "HDR": "VESA DisplayHDR 400",
+      "Ports": "2× HDMI 2.0, 1× DisplayPort 1.4, 2× USB-A 3.0",
+      "Adjustment": "Tilt, height, pivot (90-degree)"
+    }
+  },
+  {
+    "id": "logitech-g-pro-x-2-wireless",
+    "name": "Logitech G PRO X 2 LIGHTSPEED Wireless Gaming Headset",
+    "category": "Gaming",
+    "score": 9.2,
+    "tag": "Gaming Headsets",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/logitech-g-pro-x-2-wireless.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BZNDMSZ6/?tag=clearpick06-20",
+    "subscores": {
+      "LIGHTSPEED Wireless": 9.5,
+      "Blue VO!CE Microphone": 9.5,
+      "Sound Quality": 9.5,
+      "Battery Life": 9,
+      "Build Quality": 9
+    },
+    "specs": {
+      "Driver": "50mm graphene drivers — ultra-thin membrane for wider frequency response",
+      "Wireless": "LIGHTSPEED wireless — tournament-grade, ultra-low latency 2.4GHz",
+      "Battery": "50 hours battery life",
+      "Microphone": "Blue VO!CE microphone with AI-powered noise filtering",
+      "Surround": "DTS Headphone:X 2.0 surround sound",
+      "EQ": "Fully customizable EQ via G HUB software",
+      "Bluetooth": "Bluetooth 5.1 simultaneous connection (dual-connect)",
+      "Weight": "345g"
+    }
+  },
+  {
+    "id": "logitech-g-pro-x-superlight-2",
+    "name": "Logitech G PRO X SUPERLIGHT 2 Wireless Gaming Mouse",
+    "category": "Gaming",
+    "score": 9.4,
+    "tag": "Gaming Mice",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$189 CAD",
+    "page": "products/logitech-g-pro-x-superlight-2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BJ8PCDXJ/?tag=clearpick06-20",
+    "subscores": {
+      "Sensor Accuracy": 9.5,
+      "Weight": 9.5,
+      "LIGHTSPEED Wireless": 9.5,
+      "Battery Life": 9.5,
+      "Click Response": 9.5
+    },
+    "specs": {
+      "Weight": "60g — lightest pro wireless gaming mouse",
+      "Sensor": "HERO 2 sensor — 32,000 DPI, 888 IPS, zero smoothing/filtering/acceleration",
+      "Wireless": "LIGHTSPEED wireless — 1ms report rate",
+      "Battery": "95 hours battery life (USB-C charge)",
+      "Switches": "LIGHTFORCE hybrid optical-mechanical switches — 2ms faster than standard mechanical",
+      "Shape": "Right-handed symmetrical (slight right-hand ergonomic preference)",
+      "Feet": "100% PTFE feet — ultra-low friction",
+      "Colors": "White or black"
+    }
+  },
+  {
+    "id": "logitech-g502-x-plus",
+    "name": "Logitech G502 X PLUS Wireless Gaming Mouse with LIGHTFORCE Switches",
+    "category": "Gaming",
+    "score": 9.1,
+    "tag": "Gaming Mice",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$179 CAD",
+    "page": "products/logitech-g502-x-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0B2HWMYZ4/?tag=clearpick06-20",
+    "subscores": {
+      "Sensor Accuracy": 9.5,
+      "LIGHTFORCE Switches": 9.5,
+      "LIGHTSYNC RGB": 9,
+      "Side Buttons": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Weight": "89g",
+      "Sensor": "HERO 2 — 25,600 DPI maximum",
+      "Switches": "LIGHTFORCE hybrid optical-mechanical switches",
+      "Wireless": "LIGHTSPEED wireless 2.4GHz",
+      "RGB": "LIGHTSYNC RGB underglow and logo",
+      "Buttons": "2 side thumb buttons + 1 sniper button (on-the-fly DPI downshift)",
+      "Scroll Wheel": "Dual-mode (click or freespin via MagSpeed toggle)",
+      "Battery": "130 hours wireless"
+    }
+  },
+  {
+    "id": "logitech-g915-tkl-wireless",
+    "name": "Logitech G915 TKL Tenkeyless LIGHTSPEED Wireless Gaming Keyboard",
+    "category": "Gaming",
+    "score": 9.3,
+    "tag": "Gaming Keyboards",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$229 CAD",
+    "page": "products/logitech-g915-tkl-wireless.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B085RMD5TP/?tag=clearpick06-20",
+    "subscores": {
+      "Low Profile Design": 9.5,
+      "LIGHTSPEED Wireless": 9.5,
+      "Battery Life": 9.5,
+      "Build Quality": 9.5,
+      "TKL Layout": 9
+    },
+    "specs": {
+      "Switches": "Low-profile GL mechanical (Linear, Clicky, or Tactile) — 2.7mm travel, 1.5mm actuation",
+      "Wireless": "LIGHTSPEED wireless 2.4GHz + Bluetooth 5.1 (dual-connect)",
+      "Battery": "40 hours with RGB on; up to 1000 hours with RGB off",
+      "Height": "22mm ultra-low profile",
+      "Frame": "Aluminum top plate",
+      "Macro Keys": "5 dedicated G keys + 3 M-key macro profiles",
+      "Polling Rate": "1ms LIGHTSPEED wireless polling",
+      "RGB": "Per-key LIGHTSYNC RGB"
+    }
+  },
+  {
+    "id": "masterbuilt-gravity-series-800",
+    "name": "Masterbuilt Gravity Series 800 Digital Charcoal Grill and Smoker",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.9,
+    "tag": "Charcoal Smokers",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/masterbuilt-gravity-series-800.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08XXDQTGZ/?tag=clearpick06-20",
+    "subscores": {
+      "Temperature Consistency": 9.5,
+      "Charcoal Flavor": 9.5,
+      "App Control": 9,
+      "Capacity": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Cooking Area": "800 sq in total (560 main + 240 upper)",
+      "Fuel": "Charcoal with automatic gravity-fed ignition",
+      "Temp Range": "150°F–700°F",
+      "Fan System": "Smart fan auto-adjusts airflow to maintain set temp",
+      "App": "WiFi + Bluetooth control via Masterbuilt app",
+      "Charcoal Load": "10+ hour cook time on single load",
+      "Grates": "4 cast iron smoking/cooking grates"
+    }
+  },
+  {
+    "id": "meater-plus-thermometer",
+    "name": "MEATER Plus Wireless Smart Meat Thermometer with 165 ft Bluetooth Range",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 9.2,
+    "tag": "Meat Thermometers",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/meater-plus-thermometer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07WZDQPJ8/?tag=clearpick06-20",
+    "subscores": {
+      "Wireless Range": 9.5,
+      "Guided Cook App": 9.5,
+      "Accuracy": 9.5,
+      "No Wires": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Range": "165 ft Bluetooth range",
+      "Sensors": "Dual sensors — internal meat + ambient grill temp simultaneously",
+      "App": "MEATER app with guided cook, rest timer, Alexa integration",
+      "Probe Material": "Stainless steel + ceramic tip",
+      "Max Temp": "212°F ambient / 527°F meat probe tip",
+      "Waterproof": "Fully waterproof probe",
+      "Battery": "24+ hours per charge from bamboo block holder"
+    }
+  },
+  {
+    "id": "napoleon-prestige-500",
+    "name": "Napoleon Prestige 500 4-Burner Propane Gas Grill with Infrared Rear Burner",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 9,
+    "tag": "Gas Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1299 CAD",
+    "page": "products/napoleon-prestige-500.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0076VWZXG/?tag=clearpick06-20",
+    "subscores": {
+      "Canadian Build Quality": 9.5,
+      "Infrared Rear Burner": 9.5,
+      "Even Cooking": 9,
+      "Warranty": 9,
+      "Value": 8
+    },
+    "specs": {
+      "Burners": "4 stainless steel Wave burners + infrared rear rotisserie burner",
+      "BTU": "66,000 BTU main + 10,000 BTU side + 18,000 BTU infrared rear",
+      "Cooking Area": "500 sq in primary + 280 sq in warming rack",
+      "Grates": "Porcelain-coated cast iron WAVE grates",
+      "Ignition": "JETFIRE ignition — individual burner lighting",
+      "Made": "Designed and engineered in Barrie, Ontario",
+      "Warranty": "Lifetime warranty on burners and cooking grates"
+    }
+  },
+  {
+    "id": "osprey-atmos-ag-65",
+    "name": "Osprey Atmos AG 65 Men's Backpacking Backpack",
+    "category": "Sports & Outdoors",
+    "score": 9.1,
+    "tag": "Hiking Backpacks",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/osprey-atmos-ag-65.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08BGQR6T5/?tag=clearpick06-20",
+    "subscores": {
+      "AG Suspension": 9.5,
+      "Back Ventilation": 9.5,
+      "Organization": 9,
+      "Comfort": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Volume": "65 litres main compartment + integrated rain cover",
+      "Suspension": "Anti-Gravity (AG) trampoline mesh suspended backpanel — completely floating, tensioned mesh against back for maximum airflow",
+      "Fit": "Adjustable torso length with Fit-on-the-Fly hip belt",
+      "Hip Belt Pockets": "Oversized zippered hip belt pockets",
+      "Organization": "Top lid pocket, sleeping bag compartment, front stash pocket, side water bottle pockets",
+      "Warranty": "Osprey All Mighty Guarantee — lifetime guarantee"
+    }
+  },
+  {
+    "id": "osprey-talon-22-daypack",
+    "name": "Osprey Talon 22 Men's Trail Running Daypack",
+    "category": "Sports & Outdoors",
+    "score": 8.9,
+    "tag": "Hiking Backpacks",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/osprey-talon-22-daypack.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B088X7CFJD/?tag=clearpick06-20",
+    "subscores": {
+      "Lightweight": 9.5,
+      "Stability": 9,
+      "Organization": 8.5,
+      "Ventilation": 9,
+      "Value": 9
+    },
+    "specs": {
+      "Volume": "22 litres",
+      "Back Panel": "Airspeed back panel with trampoline mesh — keeps pack away from back for ventilation",
+      "Hip Belt": "Integrated LightWire hipbelt for load stabilization on technical terrain",
+      "Pockets": "Top lid pocket, front stretch mesh pocket, hip belt pockets, side water bottle pockets",
+      "Compression": "Removable top lid converts to a hip pack for summit bids",
+      "Weight": "840g (1.85 lbs)",
+      "Fit": "Osprey's IsoForm CM hipbelt — molded to body heat for custom fit"
+    }
+  },
+  {
+    "id": "pit-boss-700fb",
+    "name": "Pit Boss 700FB Wood Pellet Grill with Flame Broiler",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.5,
+    "tag": "Pellet Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$599 CAD",
+    "page": "products/pit-boss-700fb.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B083T3Q31G/?tag=clearpick06-20",
+    "subscores": {
+      "Flame Broiler": 9.5,
+      "Value per Square Inch": 9.5,
+      "Cooking Area": 9,
+      "Temperature Range": 8.5,
+      "App/WiFi": 7.5
+    },
+    "specs": {
+      "Cooking Area": "700 sq in",
+      "Flame Broiler": "Slide-plate flame broiler — open for direct sear, close for convection",
+      "Temp Range": "180°F–500°F + up to 1000°F direct flame",
+      "Hopper": "21 lb pellet hopper",
+      "Controls": "Digital LED control — no WiFi on base model",
+      "Grates": "Porcelain-coated cast iron grates",
+      "Grease": "Front grease bucket for easy cleanup"
+    }
+  },
+  {
+    "id": "razer-blackshark-v2-pro-2023",
+    "name": "Razer BlackShark V2 Pro (2023) Wireless Gaming Headset",
+    "category": "Gaming",
+    "score": 9.2,
+    "tag": "Gaming Headsets",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/razer-blackshark-v2-pro-2023.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BJCTN2W2/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Stage": 9.5,
+      "HyperClear Microphone": 9.5,
+      "Dual Wireless": 9.5,
+      "Battery Life": 9,
+      "Comfort": 9
+    },
+    "specs": {
+      "Driver": "50mm TriForce Titanium drivers — three-part tuning for bass, mid, and high independently",
+      "Wireless": "Razer HyperSpeed 2.4GHz + Bluetooth 5.0 (simultaneous dual-connect)",
+      "Battery": "70 hours (2.4GHz); 80 hours (Bluetooth)",
+      "Microphone": "Razer HyperClear Super Wideband Mic — detachable 9.9mm capsule",
+      "Weight": "320g",
+      "Frequency": "12Hz–28,000Hz",
+      "Compatibility": "PC, PS5, Xbox, mobile (via Bluetooth)",
+      "Surround": "Razer Spatial Audio + THX Spatial Audio (PC only)"
+    }
+  },
+  {
+    "id": "razer-deathadder-v3-hyperspeed",
+    "name": "Razer DeathAdder V3 HyperSpeed Wireless Gaming Mouse",
+    "category": "Gaming",
+    "score": 9,
+    "tag": "Gaming Mice",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$119 CAD",
+    "page": "products/razer-deathadder-v3-hyperspeed.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BWWGMJQJ/?tag=clearpick06-20",
+    "subscores": {
+      "Ergonomics": 9.5,
+      "Sensor": 9.5,
+      "HyperSpeed Wireless": 9.5,
+      "Weight": 9.5,
+      "Value": 9
+    },
+    "specs": {
+      "Weight": "55g — ultra-light wireless ergonomic mouse",
+      "Sensor": "Razer Focus X — 18,000 DPI, 300 IPS, 35g acceleration",
+      "Wireless": "Razer HyperSpeed 2.4GHz (25× faster than standard Bluetooth)",
+      "Battery": "300 hours (no RGB)",
+      "Shape": "Right-hand ergonomic — the classic DeathAdder form",
+      "Switches": "Razer Optical Switches Gen-2 — 0.2ms actuation, no debounce delay",
+      "Scroll Wheel": "Single-mode tactile scroll",
+      "Dongle": "HyperSpeed USB-A dongle"
+    }
+  },
+  {
+    "id": "salomon-x-ultra-4-gtx",
+    "name": "Salomon X Ultra 4 GTX Men's Hiking Shoes (Gore-Tex Waterproof)",
+    "category": "Sports & Outdoors",
+    "score": 9,
+    "tag": "Trail Running Shoes",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/salomon-x-ultra-4-gtx.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B097BZLLB7/?tag=clearpick06-20",
+    "subscores": {
+      "GTX Waterproofing": 9.5,
+      "Grip": 9.5,
+      "Support": 9,
+      "Breathability": 8,
+      "Durability": 9
+    },
+    "specs": {
+      "Waterproofing": "GORE-TEX lining — waterproof yet breathable",
+      "Outsole": "Contagrip MA outsole — multi-directional lugs for traction on wet and dry terrain",
+      "Midsole": "EnergyCell+ midsole foam for cushioning and rebound",
+      "Upper": "Reinforced toe cap and heel counter for technical trail use",
+      "Lacing": "Quicklace system — one pull lacing for quick, even tightening",
+      "Weight": "380g / 13.4 oz (size 10.5)",
+      "Drop": "11mm heel-to-toe drop"
+    }
+  },
+  {
+    "id": "sony-dualsense-controller",
+    "name": "Sony DualSense Wireless Controller for PS5",
+    "category": "Gaming",
+    "score": 9.4,
+    "tag": "Gaming Controllers",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/sony-dualsense-controller.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08FC6C75Y/?tag=clearpick06-20",
+    "subscores": {
+      "Haptic Feedback": 9.5,
+      "Adaptive Triggers": 9.5,
+      "Build Quality": 9.5,
+      "Battery Life": 8.5,
+      "Built-in Microphone": 9
+    },
+    "specs": {
+      "Haptics": "Advanced haptic feedback — high-fidelity actuators replace traditional rumble motors",
+      "Triggers": "Adaptive triggers — variable resistance simulates physical sensations (bow tension, terrain, rain)",
+      "Microphone": "Built-in dual-microphone array for voice without a headset",
+      "Speaker": "Built-in speaker for immersive audio cues",
+      "Battery": "12 hours typical — varies significantly by game",
+      "Charging": "USB-C",
+      "Touchpad": "Clickable capacitive touchpad",
+      "Connectivity": "Bluetooth 5.1"
+    }
+  },
+  {
+    "id": "stanley-quencher-40oz",
+    "name": "Stanley Quencher H2.0 FlowState Tumbler, 40 oz",
+    "category": "Sports & Outdoors",
+    "score": 9.1,
+    "tag": "Water Bottles",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$59 CAD",
+    "page": "products/stanley-quencher-40oz.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09NDHRSCN/?tag=clearpick06-20",
+    "subscores": {
+      "Handle": 9.5,
+      "Cupholder Fit": 9.5,
+      "Insulation": 9.5,
+      "Straw": 9,
+      "Value": 9.5
+    },
+    "specs": {
+      "Material": "18/8 stainless steel, double-wall vacuum insulation",
+      "Insulation": "Up to 20 hours cold, 12 hours hot, 48 hours iced",
+      "Lid": "3-position FlowState lid — straw opening, drink opening, full-cover seal",
+      "Handle": "Comfort grip handle with opening for car cupholder",
+      "Straw": "Reusable straw included",
+      "Size": "40 oz (1.18L)",
+      "Dishwasher": "Dishwasher safe",
+      "Finish": "Matte powder coat in wide color range"
+    }
+  },
+  {
+    "id": "steelseries-apex-pro-tkl-wireless",
+    "name": "SteelSeries Apex Pro TKL Wireless Gaming Keyboard (2023)",
+    "category": "Gaming",
+    "score": 9.3,
+    "tag": "Gaming Keyboards",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$279 CAD",
+    "page": "products/steelseries-apex-pro-tkl-wireless.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C3XB8RGS/?tag=clearpick06-20",
+    "subscores": {
+      "OmniPoint Switches": 9.5,
+      "Adjustable Actuation": 9.5,
+      "Wireless": 9.5,
+      "OLED Display": 9,
+      "Build Quality": 9.5
+    },
+    "specs": {
+      "Switches": "OmniPoint 2.0 adjustable mechanical — actuation adjustable from 0.1mm to 4.0mm per key",
+      "Wireless": "Quantum 2.0 wireless — 2.4GHz 1ms polling or Bluetooth 5.0",
+      "Battery": "45 hours wireless",
+      "OLED Display": "Smart Display — shows settings, Discord notifications, media info, game data",
+      "RGB": "Per-key Prism RGB via SteelSeries Engine",
+      "Anti-Ghosting": "Full N-Key rollover",
+      "Per-Key Actuation": "Set actuation depth per individual key if desired",
+      "Form Factor": "TKL (tenkeyless — no numpad)"
+    }
+  },
+  {
+    "id": "steelseries-rival-650-wireless",
+    "name": "SteelSeries Aerox 5 Wireless Gaming Mouse",
+    "category": "Gaming",
+    "score": 9,
+    "tag": "Gaming Mice",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$139 CAD",
+    "page": "products/steelseries-rival-650-wireless.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09VP2NV53/?tag=clearpick06-20",
+    "subscores": {
+      "Weight": 9.5,
+      "AquaBarrier IP54": 9.5,
+      "9 Programmable Buttons": 9.5,
+      "Quantum 2.0 Wireless": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Weight": "74g with honeycomb shell design",
+      "Sensor": "TrueMove Air optical sensor — 18,000 DPI",
+      "Wireless": "Quantum 2.0 Wireless — 2.4GHz + Bluetooth 5.0 simultaneous",
+      "Battery": "180 hours (2.4GHz); 200+ hours (Bluetooth)",
+      "Waterproof": "IP54 AquaBarrier — dust and water resistance",
+      "Buttons": "9 programmable buttons including 2 side thumb + 1 CPI cycle button",
+      "Shell": "Honeycomb ABS shell for weight reduction",
+      "Feet": "100% PTFE skates"
+    }
+  },
+  {
+    "id": "theragun-elite-5th-gen",
+    "name": "Theragun Elite 5th Generation Percussive Therapy Device",
+    "category": "Sports & Outdoors",
+    "score": 8.7,
+    "tag": "Massage Guns",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$599 CAD",
+    "page": "products/theragun-elite-5th-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C2G5LPKS/?tag=clearpick06-20",
+    "subscores": {
+      "Quiet": 9.5,
+      "Depth": 9,
+      "App Integration": 9,
+      "Attachments": 8.5,
+      "Value": 8
+    },
+    "specs": {
+      "Amplitude": "16mm amplitude — deep tissue penetration (vs 12mm on basic guns)",
+      "Speed": "1750-2400 PPM variable",
+      "Motor": "QuietForce Technology — 60% quieter than Gen 3 Elite",
+      "App": "Therabody app — guided routines by sport, muscle, or condition",
+      "Attachments": "5 attachments (dampener, standard ball, wedge, thumb, cone)",
+      "Force": "Up to 60 lbs stall force",
+      "Battery": "120 minutes per charge, USB-C"
+    }
+  },
+  {
+    "id": "theragun-pro-5th-gen",
+    "name": "Theragun Pro 5th Generation Professional Percussive Therapy Device",
+    "category": "Sports & Outdoors",
+    "score": 9,
+    "tag": "Massage Guns",
+    "icon": "⛰️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$799 CAD",
+    "page": "products/theragun-pro-5th-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C2G3GS1Q/?tag=clearpick06-20",
+    "subscores": {
+      "Power": 9.5,
+      "Amplitude": 9.5,
+      "Bidirectional": 9.5,
+      "Attachments": 9.5,
+      "Value": 7.5
+    },
+    "specs": {
+      "Amplitude": "16mm amplitude — deepest in Therabody lineup",
+      "Force": "Up to 60 lbs stall force — handles even densest muscle groups",
+      "Speed": "1750-2400 PPM with 5 speeds",
+      "Ergonomics": "Rotating arm in 4 positions + swivels 360° — reach any area without strain",
+      "Bidirectional": "OLED screen + bidirectional stroke — adapts treatment direction to your needs",
+      "Battery": "150 minutes + carry case has additional 300 minutes of charging",
+      "Attachments": "6 attachments including wedge, flat, dampener, standard ball, thumb, cone"
+    }
+  },
+  {
+    "id": "thermopro-tp25-thermometer",
+    "name": "ThermoPro TP25 Wireless Bluetooth Meat Thermometer with 4 Color-Coded Probes",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.8,
+    "tag": "Meat Thermometers",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$49 CAD",
+    "page": "products/thermopro-tp25-thermometer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B073N8B7F4/?tag=clearpick06-20",
+    "subscores": {
+      "4 Simultaneous Probes": 9.5,
+      "Value": 9.5,
+      "App Features": 8.5,
+      "Accuracy": 9,
+      "Bluetooth Range": 8.5
+    },
+    "specs": {
+      "Probes": "4 simultaneous color-coded probes",
+      "Range": "500 ft Bluetooth (line of sight)",
+      "Accuracy": "±1.8°F accuracy",
+      "App": "ThermoPro app — preset temps for 9 meat types, custom alerts",
+      "Display": "Wireless receiver with backlit LCD (no phone required)",
+      "Probe Rating": "Food-grade stainless steel, oven/grill safe to 572°F",
+      "Battery": "AA batteries"
+    }
+  },
+  {
+    "id": "thermoworks-thermapen-one",
+    "name": "ThermoWorks Thermapen One Instant-Read Meat Thermometer",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 9.5,
+    "tag": "Meat Thermometers",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/thermoworks-thermapen-one.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B092YF5TBH/?tag=clearpick06-20",
+    "subscores": {
+      "Read Speed": 9.5,
+      "Accuracy": 9.5,
+      "Build Quality": 9.5,
+      "Auto-Rotating Display": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Speed": "1-second read — fastest consumer thermometer available",
+      "Accuracy": "±0.7°F / ±0.4°C",
+      "Range": "-58°F to 572°F (-50°C to 300°C)",
+      "Display": "Auto-rotating backlit display — correct in any hand/orientation",
+      "Tip": "Super-fine 0.7mm tip — minimal puncture mark",
+      "Waterproof": "IP67 waterproof — wash under tap",
+      "Battery": "Single AAA battery"
+    }
+  },
+  {
+    "id": "traeger-ironwood-885",
+    "name": "Traeger Ironwood 885 Wi-Fi Pellet Grill and Smoker",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 9.2,
+    "tag": "Pellet Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1299 CAD",
+    "page": "products/traeger-ironwood-885.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B081P4J83Y/?tag=clearpick06-20",
+    "subscores": {
+      "D2 Controller": 9.5,
+      "WiFi App": 9.5,
+      "Super Smoke Mode": 9.5,
+      "Temperature Precision": 9.5,
+      "Value": 8
+    },
+    "specs": {
+      "Cooking Area": "885 sq in total (570 main + 315 upper rack)",
+      "Controller": "D2 Direct Drive brushless motor — more consistent temp, quieter",
+      "App": "WiFiFIRE enabled — monitor and adjust from anywhere via Traeger app",
+      "Super Smoke": "Super Smoke Mode — max smoke at 165°F–225°F",
+      "Temp Range": "165°F–500°F with ±15°F consistency",
+      "Hopper": "20 lb pellet hopper with EZ-Clean drain",
+      "Drip Tray": "Full-length drip tray to front grease bucket"
+    }
+  },
+  {
+    "id": "weber-smokey-mountain-18",
+    "name": "Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 9.1,
+    "tag": "Charcoal Smokers",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/weber-smokey-mountain-18.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00004RACS/?tag=clearpick06-20",
+    "subscores": {
+      "Charcoal Smoke Flavor": 9.5,
+      "Build Quality": 9.5,
+      "Temperature Stability": 9,
+      "Capacity": 8.5,
+      "Ease of Use": 9
+    },
+    "specs": {
+      "Diameter": "18.5-inch cooking diameter",
+      "Grates": "Two 18.5-inch plated steel grates (upper and lower) = 481 sq in",
+      "Fuel": "Charcoal",
+      "Water Pan": "Built-in water pan maintains moisture and regulates temp",
+      "Vents": "3 bottom air vents + 1 top vent",
+      "Access Door": "Front door to add charcoal without disassembly",
+      "Warranty": "10-year warranty on bowl and lid"
+    }
+  },
+  {
+    "id": "weber-spirit-ii-e-310",
+    "name": "Weber Spirit II E-310 3-Burner Liquid Propane Gas Grill",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.8,
+    "tag": "Gas Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/weber-spirit-ii-e-310.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01G3IT71U/?tag=clearpick06-20",
+    "subscores": {
+      "Compact Size": 9,
+      "Build Quality": 9.5,
+      "Even Heat": 9.5,
+      "Weber Support": 9.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Burners": "3 stainless steel burners — 30,000 BTU",
+      "Cooking Area": "424 sq in primary + 105 sq in warming rack",
+      "Grates": "Porcelain-enameled cast-iron cooking grates",
+      "Flavorizer Bars": "Porcelain-enameled Flavorizer bars — vaporize drippings for flavor",
+      "Ignition": "Push-button electronic ignition on each burner",
+      "Tables": "Two folding side tables",
+      "Warranty": "10-year warranty"
+    }
+  },
+  {
+    "id": "xbox-elite-controller-series-2",
+    "name": "Xbox Elite Wireless Controller Series 2",
+    "category": "Gaming",
+    "score": 9.1,
+    "tag": "Gaming Controllers",
+    "icon": "🎮",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/xbox-elite-controller-series-2.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07SFKTLZM/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9.5,
+      "Back Paddles": 9.5,
+      "Adjustable Triggers": 9.5,
+      "Battery Life": 9,
+      "Thumbstick Options": 9.5
+    },
+    "specs": {
+      "Paddles": "4 removable back paddles — map any button",
+      "Trigger Stops": "Adjustable trigger locks (short, medium, full range)",
+      "Thumbsticks": "6 interchangeable thumbstick caps (classic, dome, tall variants)",
+      "D-Pad": "Faceted faceted d-pad for precision diagonal inputs",
+      "Rumble": "4-zone tension rumble (triggers and grips separately)",
+      "Battery": "40 hours rechargeable — charging dock included",
+      "Profiles": "3 onboard configuration profiles",
+      "Stick Tension": "Adjustable tension in 3 steps"
+    }
+  },
+  {
+    "id": "z-grills-700d4e",
+    "name": "Z GRILLS 700D4E Wood Pellet Grill and Smoker with PID Controller",
+    "category": "BBQ & Outdoor Cooking",
+    "score": 8.4,
+    "tag": "Pellet Grills",
+    "icon": "🍖",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$549 CAD",
+    "page": "products/z-grills-700d4e.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07FXZN5G4/?tag=clearpick06-20",
+    "subscores": {
+      "Value for Price": 9.5,
+      "PID Controller": 9,
+      "Cooking Area": 9,
+      "Build Quality": 8,
+      "App/WiFi": 7
+    },
+    "specs": {
+      "Cooking Area": "697 sq in total (504 main + 193 upper)",
+      "Controller": "PID temperature controller — ±10°F accuracy",
+      "Temp Range": "180°F to 450°F",
+      "Hopper": "20 lb hopper capacity",
+      "Grates": "Porcelain-coated cast iron grates",
+      "Auger": "Auto pellet feeding with stainless steel auger",
+      "Warranty": "3-year warranty"
+    }
   }
 ]

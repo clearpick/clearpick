@@ -1,0 +1,106 @@
+{
+  "slug": "logitech-mx-keys-s-keyboard",
+  "name": "Logitech MX Keys S Advanced Wireless Illuminated Keyboard",
+  "brand": "Logitech",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Keyboards",
+  "subcategory": "keyboards",
+  "asin": "B0BFD3C8LS",
+  "price": 169,
+  "priceDisplay": "$169 CAD",
+  "score": 9.0,
+  "tag": "Keyboards",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BFD3C8LS/?tag=clearpick06-20",
+  "subscores": {
+    "Typing Feel": 9.5,
+    "Smart Illumination": 9.5,
+    "Multi-Device": 9.5,
+    "Battery Life": 9,
+    "Build Quality": 9
+  },
+  "specs": {
+    "Key Shape": "Spherically-dished keys — cupped to match fingertip shape",
+    "Illumination": "Smart backlight activates on hand proximity, adjusts to ambient light automatically",
+    "Multi-Device": "Easy-Switch — connects to 3 devices, switches with a dedicated key press",
+    "Connectivity": "Logi Bolt USB receiver + Bluetooth 5.0",
+    "Battery": "10 days with backlight on, up to 5 months without",
+    "Flow": "Logitech Flow — copy-paste text and files between two computers seamlessly",
+    "Layout": "Full-size with numpad, dedicated media keys, and app-switching row"
+  },
+  "whatWorks": [
+    "The spherically-dished key caps are the defining feature of the MX Keys lineup — each key is slightly concave and angled to match the curvature of a fingertip, which reduces lateral slip during typing and provides tactile accuracy that flat keys don't match. After extended typing sessions, the difference in finger fatigue is perceptible.",
+    "Smart proximity sensing automatically activates the backlight when your hands approach the keyboard and turns it off when you move away. Combined with automatic brightness adjustment based on ambient light, the keyboard manages its own illumination without requiring any user input.",
+    "Easy-Switch multi-device pairing connects to three devices simultaneously and switches between them with a single key press. The switching is near-instant — useful for users who type on both a personal and work laptop from the same desk without physical keyboard switching.",
+    "Logitech Flow enables clipboard sharing between two computers — you can copy text, images, or files on one machine and paste them on another. For users running both a Mac and a PC from the same desk, this functionality replaces manual file transfer for small assets."
+  ],
+  "worthKnowing": [
+    "The MX Keys S uses scissor-switch mechanisms, not mechanical switches. The typing feel is excellent for a scissor-switch keyboard but does not replicate the tactile feedback of mechanical keyboards. Users who specifically want mechanical key feel should look at the Keychron K2 Pro instead.",
+    "Battery life with backlight on is approximately 10 days of typical office use — more than adequate but noticeably less than keyboards without RGB. Disabling the backlight in a well-lit office extends battery to weeks or months.",
+    "The Logi Bolt receiver provides a more stable and lower-latency wireless connection than Bluetooth on compatible receivers. For critical typing reliability, always use the receiver when available rather than Bluetooth.",
+    "The full-size layout with numpad occupies significant desk width. For users with space constraints or who already use a 10-keyless layout, the full-size footprint may be inconvenient — there is no TKL version of the MX Keys S."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Full size only — no TKL option…",
+      "body": "Logitech doesn't offer the MX Keys S in a tenkeyless layout. The full-size takes up significant desk width. I'd upgrade from my current keyboard immediately if a TKL version existed.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Scissor switch, not mechanical…",
+      "body": "The typing feel is excellent for a membrane keyboard but it's not mechanical. If you want tactile bump or clicky feedback, this keyboard won't satisfy you regardless of how good the key shaping is.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Logi Options+ software required for some features…",
+      "body": "Flow and some customization options require Logitech Options+ running in the background. It's a polished app but adds another startup process.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "10-day battery with backlight is short…",
+      "body": "USB-C charging is convenient, but needing to charge every 10 days with the backlight on is frequent. I now charge it every Friday afternoon to stay ahead of it.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Logitech MX Keys S is the benchmark productivity keyboard for users who want the best scissor-switch typing experience with multi-device switching and smart illumination. The spherically-dished key caps genuinely reduce finger fatigue in extended typing sessions, and Easy-Switch plus Logitech Flow make it exceptional for multi-computer desk setups. Mechanical keyboard enthusiasts will find the switch feel insufficient regardless of how refined the rest of the keyboard is — the Keychron K2 Pro serves that preference better.",
+  "realBuyers": [
+    {
+      "quote": "I type 8 hours a day and the curved key shape actually reduces finger fatigue. It sounds like marketing until you use it for a week — then it's obvious. Best keyboard I've owned.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Switching between my MacBook, Windows desktop, and iPad with one key press is the feature I didn't know I needed. Flow for clipboard sharing between Mac and Windows is magic.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The proximity backlight is the perfect smart feature. It just works the way you want it to without any configuration. On when you need it, off when you don't.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Charged it once in three weeks without the backlight. With backlight it's about 10 days. The USB-C charging is fast so it's not a major inconvenience.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Logitech MX Keys S — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BFD3C8LS"
+    },
+    {
+      "title": "Logitech MX Keys S Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/logitech-mx-keys-s"
+    },
+    {
+      "title": "Best Wireless Keyboards 2026 — PCMag",
+      "url": "https://www.pcmag.com/picks/best-wireless-keyboards"
+    }
+  ],
+  "metaDescription": "Logitech MX Keys S keyboard review for Canada: spherical keys, smart backlight, 3-device Easy-Switch, Logitech Flow. Best productivity keyboard. ~$169 CAD.",
+  "introText": "The Logitech MX Keys S (ASIN B0BFD3C8LS) is a full-size wireless keyboard with spherically-dished keys, proximity-activated backlighting, and Easy-Switch for three devices, available on Amazon.ca at around $169 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0BFD3C8LS",
+  "verifiedPrice": "$169 CAD",
+  "similarProducts": ["logitech-lift-vertical-mouse", "keychron-k2-pro-keyboard", "logitech-c930e-webcam"]
+}

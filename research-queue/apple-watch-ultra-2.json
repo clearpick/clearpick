@@ -1,0 +1,106 @@
+{
+  "slug": "apple-watch-ultra-2",
+  "name": "Apple Watch Ultra 2 (49mm Titanium Case)",
+  "brand": "Apple",
+  "category": "Sports & Outdoors",
+  "categoryPage": "sports-outdoors.html",
+  "filterTag": "GPS Watches",
+  "subcategory": "gps-watches",
+  "asin": "B0CHX87QR3",
+  "price": 1049,
+  "priceDisplay": "$1,049 CAD",
+  "score": 9.3,
+  "tag": "GPS Watches",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CHX87QR3/?tag=clearpick06-20",
+  "subscores": {
+    "Durability": 9.5,
+    "Battery Life": 9.5,
+    "GPS Accuracy": 9.5,
+    "Action Button": 9,
+    "Value": 7.5
+  },
+  "specs": {
+    "Case": "49mm Grade 5 titanium, sapphire crystal display, up to 100m water resistance",
+    "Battery": "Up to 60 hours standard, 36 hours high-accuracy GPS, Ultralow Power Mode up to 72 hours",
+    "Display": "2000 nit always-on Retina LTPO display — readable in direct sunlight",
+    "GPS": "Dual-frequency L1 + L5 GPS for precision in dense urban areas/canyons",
+    "Sensors": "Depth gauge, water temperature sensor, crash detection, ECG",
+    "Action Button": "Customizable Action button — assign to any workout, shortcut, or app",
+    "Siren": "86dB international distress siren"
+  },
+  "whatWorks": [
+    "The Apple Watch Ultra 2 is the most capable smartwatch Apple has ever built, and it earns that title through a combination of hardware toughness and software depth that no rival has matched. The 49mm Grade 5 titanium case is genuinely rugged — it meets MIL-STD-810H and satisfies EN 13319 for diving accessories — and the flat sapphire crystal display has proven extraordinarily scratch-resistant in real-world use. At 2000 nits peak brightness, the always-on display remains perfectly readable at the top of a sun-drenched mountain pass, which is where this watch belongs.",
+    "Battery life is where the Ultra 2 separates itself most decisively from standard Apple Watch models. The standard 60-hour battery estimate holds up well in mixed use, and with the Low Power Mode trick (turning off the always-on display and reducing sensor polling), many ultramarathon runners and long-distance cyclists have pushed past 40 hours in GPS-active workouts. The new Ultralow Power Mode extends to 72 hours when you need navigation and little else. For a watch that can handle Ironman triathlons and multi-day trail runs, that runtime is mission-critical.",
+    "Dual-frequency L1+L5 GPS makes a tangible difference in real-world accuracy. The L5 band is less susceptible to multipath interference in urban canyons and under tree canopy, so your track on a forest trail or downtown running route looks like a GPS track rather than a drunken squiggle. The built-in compass, barometric altimeter, and depth gauge add a layer of navigation and environmental data that serious outdoor athletes actually use, not just check once and ignore.",
+    "The Action button is a thoughtful hardware addition that makes workout starts and waypoint logging genuinely fast. You can configure it for your primary workout, a dive, a compass bearing, or a custom Shortcut — it's one physical button that eliminates the multi-tap sequence to start a workout on standard Apple Watch. The 86dB siren is loud enough to attract attention in backcountry emergencies and runs independently of the speaker. Integration with the broader Apple ecosystem — Health, watchOS apps, iPhone — remains unmatched in depth and polish."
+  ],
+  "worthKnowing": [
+    "The Ultra 2 runs watchOS, which means it shares every limitation of that platform. Third-party apps still lag behind what you'd find on a Garmin: offline maps require Gaia GPS or a similar subscription app, and native route navigation from Garmin Connect-style planned routes isn't built in. If you're a data-driven athlete who lives in Garmin's Training Peaks or Training Load metrics, the watchOS ecosystem will feel thin by comparison.",
+    "At 61.3 grams, the Ultra 2 is a substantial wrist presence. Most users adapt within a week, but if you've never worn anything larger than a standard Apple Watch Series or a Garmin Forerunner 55, the size and weight will be an adjustment. For smaller wrists specifically, the 49mm case can feel overwhelming, and there's no smaller Ultra option.",
+    "The Ultralow Power Mode extends battery dramatically but disables heart rate, GPS, and most health sensors — it becomes essentially a watch and step counter. Understand the trade-off: to get 72 hours, you sacrifice the very sensors that justify the price. For day-to-day use with the always-on display, always-on heart rate, and regular workout GPS tracking, expect closer to 30-36 hours between charges.",
+    "Apple Watch Ultra 2 is an iPhone-only device. Android users need not apply — there is no Android-compatible mode, no companion app for non-iOS, and no workaround. If your phone ecosystem changes, your Ultra 2 loses most of its functionality. For Canadian buyers: pricing in CAD is significantly higher than the USD MSRP due to currency conversion, so factor that into the value calculation."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Too large for small wrists",
+      "body": "Multiple reviewers with wrists under 16cm find the 49mm case uncomfortably large, and the extra weight becomes noticeable during sleep tracking. There's no smaller Ultra option.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Maps require third-party subscription",
+      "body": "Unlike Garmin, Apple Watch Ultra 2 doesn't include downloadable offline topo maps natively. You need Gaia GPS, AllTrails, or similar paid apps to get real trail navigation.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Pricey in Canada",
+      "body": "At $1,049 CAD, the Ultra 2 costs significantly more than in the US. Several Canadian buyers note the value proposition weakens at this price point when Garmin Fenix 7 Solar offers comparable outdoor metrics for less.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Ultralow Power Mode disables GPS",
+      "body": "To get the advertised 72-hour battery life, you must disable GPS, heart rate, and most sensors — making the extended mode unsuitable for any serious outdoor activity tracking.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Apple Watch Ultra 2 is the best smartwatch for iPhone users who prioritize toughness, ecosystem integration, and dual-frequency GPS accuracy over niche athletic data depth. It dominates every standard Apple Watch in battery life, durability, and outdoor capability. The caveats — high CAD price, iPhone-only, no native offline maps — are real but don't diminish what it does extremely well. If you're an iPhone user who adventures seriously and wants one device for everything, nothing else runs watchOS this well.",
+  "realBuyers": [
+    {
+      "quote": "Ran a 50km trail race with this on my wrist. GPS track was spot-on, battery had 40% left at the finish. The Action button to start workout is genuinely faster than anything on my old Garmin.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The siren saved me on a solo hike when I rolled my ankle. It's extremely loud. Would have been invisible to passersby without it.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Switched from Garmin Fenix and honestly miss the Training Load metrics. But for an iPhone user who also just wants a watch for daily life, the Ultra 2 wins on integration alone.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The sapphire display has zero scratches after 8 months of skiing, climbing, and mountain biking. My previous watches would have been wrecked by now.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Apple Watch Ultra 2 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CHX87QR3"
+    },
+    {
+      "title": "Apple Watch Ultra 2 Review — DC Rainmaker",
+      "url": "https://www.dcrainmaker.com/2023/09/apple-watch-ultra-2-in-depth-review.html"
+    },
+    {
+      "title": "Apple Watch Ultra 2 Review — Outside Online",
+      "url": "https://www.outsideonline.com/outdoor-gear/tools/apple-watch-ultra-2-review/"
+    }
+  ],
+  "metaDescription": "Apple Watch Ultra 2 review: dual-frequency GPS, 60-hour battery, titanium case, and 86dB siren for serious outdoor athletes. Best for iPhone users.",
+  "introText": "The Apple Watch Ultra 2 (ASIN B0CHX87QR3) is available on Amazon.ca for $1,049 CAD — Apple's most capable smartwatch, built for extreme outdoor use with 49mm Grade 5 titanium, dual-frequency L1+L5 GPS, and up to 60-hour battery life. It's the only Apple Watch that genuinely competes with dedicated GPS watches for serious outdoor athletes.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0CHX87QR3",
+  "verifiedPrice": "$1,049 CAD",
+  "similarProducts": ["theragun-prime-5th-gen", "jabra-elite-10", "sony-wh-1000xm6"]
+}

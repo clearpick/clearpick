@@ -1,0 +1,105 @@
+{
+  "slug": "garmin-forerunner-265",
+  "name": "Garmin Forerunner 265 GPS Running Smartwatch with AMOLED Display",
+  "brand": "Garmin",
+  "category": "Sports & Outdoors",
+  "categoryPage": "sports-outdoors.html",
+  "filterTag": "GPS Watches",
+  "subcategory": "gps-watches",
+  "asin": "B0BVF9S5TM",
+  "price": 599,
+  "priceDisplay": "$599 CAD",
+  "score": 9.0,
+  "tag": "GPS Watches",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BVF9S5TM/?tag=clearpick06-20",
+  "subscores": {
+    "AMOLED Display": 9.5,
+    "Running Dynamics": 9.5,
+    "HRV": 9.5,
+    "Battery": 8.5,
+    "Value": 8.5
+  },
+  "specs": {
+    "Display": "1.3\" AMOLED always-on display — vibrant colors (major upgrade from MIP)",
+    "GPS": "Multi-band GPS/GNSS for improved accuracy",
+    "Running Metrics": "Running power, vertical oscillation, ground contact time, stride length",
+    "HRV": "Daily HRV Status + Training Readiness + Race Predictor",
+    "Battery": "15 days smartwatch / 20 hours GPS / 8 hours with AMOLED always-on",
+    "Music": "Spotify/Deezer offline playback + Garmin Pay"
+  },
+  "whatWorks": [
+    "The Garmin Forerunner 265 is the first Forerunner to include an AMOLED display, and the upgrade is more significant than it might appear on spec sheets. The vivid, high-contrast screen makes maps, data fields, and notifications genuinely readable at a glance — not the muddy always-on MIP screen that long-time Garmin users associate with the brand. This is a Garmin that you'd actually want to wear at a dinner or a meeting, without feeling like you're wearing a training computer to a social event.",
+    "Running dynamics metrics on the Forerunner 265 are the deepest available under $700. With the optional HRM-Pro chest strap, you get running power, vertical oscillation, ground contact time, stride length, and vertical ratio in real time — the same metrics previously locked to the Fenix lineup. For runners who are serious about form efficiency and injury prevention, having objective data on ground contact time and vertical oscillation is a tool that can meaningfully change training outcomes.",
+    "Daily HRV Status is Garmin's most useful health metric, and the Forerunner 265 executes it with the full five-status system (Balanced, Low, Unbalanced, Poor Recovery, Elevated). Combined with Training Readiness — a composite score that synthesizes HRV, sleep, recovery, and recent training load — and the Race Predictor (which estimates your 5K, 10K, half, and marathon finish times based on your current fitness), the Forerunner 265 gives serious runners a complete picture of when to push and when to back off.",
+    "Offline music playback from Spotify and Deezer (subscription required) is a meaningful quality-of-life feature for runners who want music without a phone. The Forerunner 265 stores playlists directly on the watch, and Garmin Pay enables tap-to-pay at contactless terminals — useful for runs that involve grabbing a coffee or taking transit home. For a $599 CAD running watch, these lifestyle integrations round out an otherwise athlete-focused feature set."
+  ],
+  "worthKnowing": [
+    "AMOLED always-on mode significantly reduces battery life — from 15 days down to approximately 8 days. During GPS workouts with always-on AMOLED active, battery drains faster than MIP GPS watches. Most users find the display so compelling that they accept the trade-off, but if you're doing multi-day events or prefer rare charging, the Fenix 7 Solar's 22-day solar battery is a better fit.",
+    "The Forerunner 265 does not include onboard topographic maps — it has breadcrumb navigation and back-to-start, but not the full Garmin Cycle/TopoActive map experience of the Fenix 7. For trail runners who navigate from on-device maps, this is a meaningful limitation. The 265 is optimized for runners on known routes, not backcountry navigators.",
+    "Offline Spotify and Deezer playback requires a Premium subscription to each service. Apple Music is not supported — Garmin's music licensing doesn't include it. This matters for Canadian users who primarily use Apple Music, as the music storage feature becomes significantly less useful without a Spotify or Deezer subscription.",
+    "The Forerunner 265 is a 46mm watch — the 265S is a 42mm version with slightly smaller battery and display if you prefer a smaller form factor. Both share the same software features. The 265 fits comfortably on wrists from about 130mm to 210mm circumference."
+  ],
+  "commonComplaints": [
+    {
+      "title": "AMOLED shortens battery",
+      "body": "Always-on AMOLED drops battery to 8 days. Users who came from MIP Garmin watches are surprised by how much the display affects runtime.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No topographic maps",
+      "body": "Trail runners expecting full map navigation from Fenix are disappointed. The 265 has breadcrumb/back-to-start only, not downloadable topo maps.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Spotify requires Premium subscription",
+      "body": "Offline music playback sounds great until you realize it requires paying for Spotify Premium separately. Apple Music users have no equivalent option.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No solar charging option",
+      "body": "Unlike the Fenix 7 Solar or Forerunner 955 Solar, there's no solar variant of the 265. Recharging is required every 8-15 days depending on use mode.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Garmin Forerunner 265 is the best running watch in the $500-600 range for runners who want AMOLED aesthetics, deep running dynamics, and Garmin's full health tracking ecosystem — including Daily HRV Status, Training Readiness, and Race Predictor. The battery compromise compared to MIP Garmins is real but manageable for most training rhythms. It's the watch Garmin should have built several generations ago, and it's finally here.",
+  "realBuyers": [
+    {
+      "quote": "Finally a Garmin that doesn't look embarrassing at work. The AMOLED display is genuinely beautiful, and the running data is everything I need. Best watch I've owned.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "HRV Status caught a stress response three days before I got sick. I was showing 'Poor Recovery' while I felt perfectly fine. Started taking it easy. Avoided a bad training week.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Switched from Forerunner 245. The display upgrade alone is worth it. Everything else is a bonus — the race predictor is more accurate than I expected.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Offline Spotify works seamlessly. Load up playlists before a run, leave the phone at home. Battery lasts 20 hours GPS — more than enough for any race I'm running.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Garmin Forerunner 265 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BVF9S5TM"
+    },
+    {
+      "title": "Garmin Forerunner 265 In-Depth Review — DC Rainmaker",
+      "url": "https://www.dcrainmaker.com/2023/02/garmin-forerunner-265-in-depth-review.html"
+    },
+    {
+      "title": "Best Running Watches — Runner's World",
+      "url": "https://www.runnersworld.com/gear/g20865720/best-gps-running-watches/"
+    }
+  ],
+  "metaDescription": "Garmin Forerunner 265 review: AMOLED display, multi-band GPS, Daily HRV Status, Training Readiness, offline Spotify. Best running watch under $600 CAD.",
+  "introText": "The Garmin Forerunner 265 (ASIN B0BVF9S5TM) is available on Amazon.ca for $599 CAD — Garmin's first Forerunner with an AMOLED display, featuring multi-band GPS, full running dynamics, Daily HRV Status and Training Readiness, plus offline Spotify and Garmin Pay for runners who want a compelling everyday watch alongside serious athletic performance.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B0BVF9S5TM",
+  "verifiedPrice": "$599 CAD",
+  "similarProducts": ["garmin-fenix-7-solar", "garmin-edge-530", "fitbit-charge-6"]
+}

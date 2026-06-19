@@ -1,0 +1,106 @@
+{
+  "slug": "logitech-c930e-webcam",
+  "name": "Logitech C930e Business Webcam, 1080p with 90 Degree Field of View",
+  "brand": "Logitech",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Webcams",
+  "subcategory": "webcams",
+  "asin": "B00CRJWW2G",
+  "price": 129,
+  "priceDisplay": "$129 CAD",
+  "score": 8.7,
+  "tag": "Webcams",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00CRJWW2G/?tag=clearpick06-20",
+  "subscores": {
+    "Wide FOV": 9.5,
+    "Build Quality": 9,
+    "Business Features": 9.5,
+    "Video Quality": 8.5,
+    "Value": 8
+  },
+  "specs": {
+    "Video": "1080p at 30fps, 720p at 60fps",
+    "Field of View": "90° diagonal — wider than C920's 78°",
+    "Zoom": "Motorized 4× digital zoom with smooth tracking",
+    "Autofocus": "Autofocus with motorized zoom",
+    "Encoding": "H.264 hardware encoding reduces CPU load on host",
+    "Microphones": "Dual omni-directional microphones with 360° pickup",
+    "Certifications": "Certified for Skype for Business, Microsoft Teams, Cisco Webex"
+  },
+  "whatWorks": [
+    "The 90° field of view captures a wider angle than the C920's 78° — practically, this means you can show more of yourself (arms, desk, whiteboard) during calls without repositioning the camera. For presentations from a desk or showing product demos, the wider FOV is a meaningful advantage.",
+    "H.264 hardware encoding offloads video compression from the host CPU to the camera's processor. In environments where the call software is competing with other applications for CPU time, this makes a visible difference in frame smoothness and reduces fan spin on laptops during extended calls.",
+    "The motorized 4× digital zoom lets you zoom in to focus on a specific area or person without changing the camera position — useful in meeting room settings where multiple participants need to be highlighted at different points in a presentation.",
+    "Business certifications for Skype for Business, Teams, and Cisco Webex mean IT departments can deploy this camera confidently in enterprise environments with managed device lists. The C920 has consumer certifications; the C930e has the business equivalents."
+  ],
+  "worthKnowing": [
+    "The 4× zoom is digital, not optical — zooming in reduces resolution. At 4× digital zoom from a 1080p source, image quality drops noticeably. The zoom is useful for framing adjustments, not for fine detail capture.",
+    "At $129 CAD versus the C920's $89, the $40 premium buys the wider 90° FOV, hardware H.264 encoding, and motorized zoom. For solo home office use without IT requirements, the C920 is the better value. The C930e earns its premium in small meeting rooms and enterprise deployments.",
+    "The C930e design is bulkier than the C920, which can look imposing on a thin monitor. The weight and size are appropriate for a conference room tripod mount but may feel over-engineered for a personal desk setup.",
+    "Like the C920, the C930e doesn't include a hardware privacy shutter. For a business-oriented camera, this is a notable omission."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Premium over C920 is hard to justify for home use…",
+      "body": "For personal home office use, the C920 does everything the C930e does for $40 less. The C930e earns its premium in enterprise environments — for solo setups it's probably overkill.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Digital zoom lowers quality…",
+      "body": "The 4× zoom sounds useful but it's digital, so image quality degrades when you zoom in. At 2× it's acceptable, at 4× the image is noticeably softer. Manage expectations.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No privacy shutter on a business camera…",
+      "body": "Business users especially want a physical shutter. Covering the lens manually on a camera meant for enterprise deployment is not a professional solution.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Bulky for a laptop clip…",
+      "body": "The camera body is noticeably larger than consumer webcams. Works fine on a monitor clip but the size is a bit much for use on a laptop lid. Designed more for fixed installations.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Logitech C930e is the right webcam for small conference rooms, IT-managed enterprise deployments, and users who specifically need the wider 90° FOV or H.264 hardware encoding. For personal home office use, the C920 at $40 less offers equivalent daily-use performance. The C930e's value is clearest when the wider field of view or business software certification requirements justify the premium — in those scenarios it's excellent.",
+  "realBuyers": [
+    {
+      "quote": "Installed in our small conference room — the 90° FOV captures all three people at the table without any adjustment. The C920 couldn't fit everyone in frame from the same position.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "H.264 hardware encoding keeps my laptop cool during long Webex calls. Noticeably less fan noise compared to my previous software-encoded webcam.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "IT approved it immediately because of the Skype for Business certification. No driver exceptions, no compatibility issues, just plug in and it works.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The build quality is noticeably more solid than consumer webcams. It feels like it'll outlast the desk it's mounted on.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Logitech C930e — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B00CRJWW2G"
+    },
+    {
+      "title": "Logitech C930e Review — PCMag",
+      "url": "https://www.pcmag.com/reviews/logitech-hd-pro-webcam-c930e"
+    },
+    {
+      "title": "Best Webcams for Video Conferencing — Tom's Guide",
+      "url": "https://www.tomsguide.com/best-picks/best-webcams"
+    }
+  ],
+  "metaDescription": "Logitech C930e business webcam review for Canada: 90° FOV, H.264 hardware encoding, motorized zoom, Teams/Webex certified. Best enterprise webcam. ~$129 CAD.",
+  "introText": "The Logitech C930e (ASIN B00CRJWW2G) is a business-grade 1080p webcam with a 90° field of view, H.264 hardware encoding, and certifications for Microsoft Teams and Cisco Webex, available on Amazon.ca at around $129 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B00CRJWW2G",
+  "verifiedPrice": "$129 CAD",
+  "similarProducts": ["logitech-c920-webcam", "jabra-evolve2-65-headset", "blue-yeti-usb-microphone"]
+}

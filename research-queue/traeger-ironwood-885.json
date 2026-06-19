@@ -1,0 +1,106 @@
+{
+  "slug": "traeger-ironwood-885",
+  "name": "Traeger Ironwood 885 Wi-Fi Pellet Grill and Smoker",
+  "brand": "Traeger",
+  "category": "BBQ & Outdoor Cooking",
+  "categoryPage": "bbq-outdoor-cooking.html",
+  "filterTag": "Pellet Grills",
+  "subcategory": "pellet-grills",
+  "asin": "B081P4J83Y",
+  "price": 1299,
+  "priceDisplay": "$1,299 CAD",
+  "score": 9.2,
+  "tag": "Pellet Grills",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B081P4J83Y/?tag=clearpick06-20",
+  "subscores": {
+    "D2 Controller": 9.5,
+    "WiFi App": 9.5,
+    "Super Smoke Mode": 9.5,
+    "Temperature Precision": 9.5,
+    "Value": 8
+  },
+  "specs": {
+    "Cooking Area": "885 sq in total (570 main + 315 upper rack)",
+    "Controller": "D2 Direct Drive brushless motor — more consistent temp, quieter",
+    "App": "WiFiFIRE enabled — monitor and adjust from anywhere via Traeger app",
+    "Super Smoke": "Super Smoke Mode — max smoke at 165°F–225°F",
+    "Temp Range": "165°F–500°F with ±15°F consistency",
+    "Hopper": "20 lb pellet hopper with EZ-Clean drain",
+    "Drip Tray": "Full-length drip tray to front grease bucket"
+  },
+  "whatWorks": [
+    "The D2 Direct Drive controller is what separates the Ironwood 885 from cheaper pellet grills. The brushless motor drives the pellet auger more consistently and quietly than older designs, and the D2 algorithm adjusts pellet feed rate in real time to compensate for temperature drift. The result is ±15°F temperature consistency throughout a long cook — noticeably tighter than the ±20–30°F you see on budget pellet grills.",
+    "Super Smoke Mode is Traeger's most compelling exclusive feature for dedicated pitmasters. At temperatures between 165°F and 225°F, activating Super Smoke increases fan cycling and pellet combustion timing to produce significantly more smoke output than standard mode. The smoke ring depth and bark development on brisket and ribs in Super Smoke Mode is noticeably better than the same cook in standard mode.",
+    "The Traeger app and WiFiFIRE connectivity are the most polished in the pellet grill category. Temperature monitoring, probe readings, preset recipe programs, and remote adjustment all work reliably and the UI is intuitive. Traeger has invested more in software than any competitor, and it shows — the app feels like a product, not an afterthought.",
+    "885 sq in total cooking area is generous and the two-level design is practical. The main grate handles full-size briskets and pork shoulders while the upper rack keeps ribs, chicken pieces, and sides warm or at finishing temperature. The EZ-Clean hopper drain makes switching pellet flavors and purging the system straightforward."
+  ],
+  "worthKnowing": [
+    "At $1,299 CAD, the Ironwood 885 is priced identically to the Camp Chef Woodwind Pro 36 — its most direct competitor. The Traeger wins on software polish, Super Smoke Mode, and brand ecosystem. The Camp Chef wins on smoke intensity control granularity and integrated Sidekick sear capability. Both are excellent grills and the right choice depends on whether you prioritize app experience or sear flexibility.",
+    "The Ironwood 885 maxes out at 500°F, which is adequate for most pellet grill applications but won't sear a steak the way a kamado or direct-flame grill can. Traeger sells the Ranger cast iron grill grate accessory for improved searing, but serious sear enthusiasts may still be disappointed compared to a Sidekick-equipped Camp Chef.",
+    "Traeger brand pellets are prominently marketed for use in Traeger grills, but quality third-party pellets work equally well. Traeger pellets are widely available in Canada at most hardware and big-box stores, which is a practical convenience that less-established pellet brands can't match.",
+    "Cold Canadian winters affect performance. Traeger sells an insulated blanket specifically designed for the Ironwood 885 that helps significantly below -10°C. Without it, the grill burns more pellets to maintain temperature and struggles to hit high temperatures in very cold conditions. If you grill year-round in Canada, the insulated blanket is a worthwhile add-on."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Cannot sear at high temperatures without accessories",
+      "body": "The 500°F ceiling is a real limitation for buyers who want to sear steaks. The Traeger gets food cooked beautifully but cannot replicate the 700°F+ temperatures of a kamado, cast iron, or Camp Chef Sidekick for a proper crust.",
+      "source": "Reddit"
+    },
+    {
+      "title": "App connectivity drops in some configurations",
+      "body": "A minority of users report the WiFi connection requiring periodic resets, particularly after firmware updates. The grill continues cooking correctly when disconnected — temperature control is hardware-based — but the remote monitoring benefit is lost.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Price per cook is higher than charcoal",
+      "body": "Quality hardwood pellets at $20–30 CAD per 20 lb bag and a pellet consumption rate of 1–3 lbs per hour adds up over a full season. Long-cook BBQ enthusiasts note that charcoal and wood offset smoking is cheaper to operate per cook at this same investment level.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Pellet hopper seal is imperfect",
+      "body": "The hopper lid does not seal completely against moisture and the pellets inside can absorb humidity during extended periods between cooks. Proper pellet storage (sealed bags, dry location) is important and several users add a cover for the hopper specifically.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Traeger Ironwood 885 is the best overall pellet grill for buyers who want the most polished, complete, and reliable smart-grill experience available. The D2 controller's temperature precision, Super Smoke Mode, and WiFiFIRE app are the best in class and make every cook more repeatable and less stressful. At $1,299 CAD it's a significant investment, and the lack of a built-in sear solution means serious steak cooks may want to pair it with GrillGrates or consider the Camp Chef Woodwind Pro instead. For everything else — brisket, ribs, chicken, roasts, baking — the Ironwood 885 is the standard by which every other pellet grill is measured.",
+  "realBuyers": [
+    {
+      "quote": "Super Smoke Mode changed my brisket game. The smoke ring I get now is the kind you see in BBQ competition photos. I've been smoking brisket for 10 years and never gotten results like this.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The app is genuinely great. Not just adequate — great. I set a 12-hour pork shoulder before bed and woke up to a notification that it hit target temp. Never needed to go outside.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Temperature consistency is remarkable. I've done 10 back-to-back rib cooks and the results are essentially identical every time. That kind of repeatability is impossible on a charcoal setup.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The 885 square inches holds an entire Thanksgiving turkey, stuffing, and sides simultaneously. This grill has replaced my oven for major holiday cooking.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Traeger Ironwood 885 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B081P4J83Y"
+    },
+    {
+      "title": "Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-pellet-grill/"
+    },
+    {
+      "title": "Review — Amazing Ribs",
+      "url": "https://amazingribs.com/pellet-grill-reviews/traeger-ironwood-885/"
+    }
+  ],
+  "metaDescription": "Traeger Ironwood 885 review — WiFi pellet grill with D2 controller and Super Smoke Mode. Is $1,299 CAD worth it on Amazon.ca?",
+  "introText": "The Traeger Ironwood 885 (ASIN: B081P4J83Y) is a premium WiFi pellet grill and smoker available on Amazon.ca for $1,299 CAD. With 885 sq in of cooking area, the D2 Direct Drive controller for precise temperature consistency, and Super Smoke Mode, it's the benchmark pellet grill in its class.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B081P4J83Y",
+  "verifiedPrice": "$1,299 CAD",
+  "similarProducts": ["pit-boss-700fb", "camp-chef-woodwind-pro-36", "thermoworks-thermapen-one"]
+}

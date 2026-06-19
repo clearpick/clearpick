@@ -1,0 +1,110 @@
+{
+  "slug": "milwaukee-m18-fuel-hammer-drill",
+  "name": "Milwaukee M18 FUEL 1/2-Inch Hammer Drill/Driver, Tool Only (2804-20)",
+  "brand": "Milwaukee",
+  "category": "Tools & Home Improvement",
+  "categoryPage": "tools-home-improvement.html",
+  "filterTag": "Drills & Drivers",
+  "subcategory": "drills-drivers",
+  "asin": "B08KDYZJV4",
+  "price": 279,
+  "priceDisplay": "$279 CAD",
+  "score": 9.2,
+  "tag": "Drills & Drivers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08KDYZJV4/?tag=clearpick06-20",
+  "subscores": {
+    "Motor Power": 9.5,
+    "POWERSTATE Motor": 9.5,
+    "Battery Runtime": 9,
+    "Torque": 9.5,
+    "Build Quality": 9.5
+  },
+  "specs": {
+    "Motor": "POWERSTATE brushless motor",
+    "Torque": "1,200 in-lbs peak — highest in class",
+    "Speed": "0-550/0-2,000/0-3,100 RPM (3-speed)",
+    "Hammering": "0-58,500 BPM max",
+    "Battery": "M18 REDLITHIUM — compatible with all M18 tools (not included)",
+    "Clutch": "Tri-power Switch between drill, hammer drill, and drive modes",
+    "Ratchet": "REDLINK PLUS intelligence system prevents damage from overloads"
+  },
+  "whatWorks": [
+    "Milwaukee's POWERSTATE brushless motor delivers 1,200 in-lbs of torque — a figure that leads the 18V hammer drill category. This peak torque translates to driving 3/8-inch structural lag bolts into dense LVL and glulam beams without the motor bogging, which is the real-world test that separates high-torque drills from spec-sheet drills that bog under load.",
+    "Three-speed gearbox (0-550/0-2,000/0-3,100 RPM) gives fine precision control in speed 1 for masonry anchors and delicate driving, middle gear (2,000 RPM) for general drilling and driving, and top gear (3,100 RPM) for speed-critical tasks like drilling large-diameter holes in softwood. Most drills offer two speeds; the third is a meaningful addition for trades doing varied drilling tasks throughout the day.",
+    "REDLINK PLUS electronics prevent motor burnout under overload conditions — if the drill encounters resistance that would damage the motor (stalls in dense material, excessive sustained load), the electronics cut power before damage occurs. This protection extends tool service life substantially beyond tools without overload electronics, which burn out under the kinds of loads contractors impose daily.",
+    "58,500 BPM in hammer mode is the highest percussion rate in this drill class, enabling faster and cleaner anchor drilling in brick, block, and light concrete. The combination of high BPM and high torque means most light masonry fastening — setting anchors in brick for ledger boards, installing masonry screws in block — doesn't require a separate SDS rotary hammer."
+  ],
+  "worthKnowing": [
+    "The 2804-20 is tool-only — no battery or charger. Milwaukee M18 batteries are premium-quality but premium-priced: a 5.0Ah REDLITHIUM is $120–$150 CAD and the M18 rapid charger adds $70–$90 CAD. All-in, a first-time Milwaukee buyer pays $470–$520 CAD for drill + battery + charger. For existing M18 users, the tool-only price is very competitive.",
+    "This is a hammer drill, not a rotary hammer. The cam-clutch percussion in a hammer drill is effective in brick, block, and mortar but generates only a fraction of the impact energy of an SDS rotary hammer. For drilling into poured-in-place structural concrete (parking structures, foundations, slabs), an SDS Plus or SDS Max rotary hammer is the appropriate tool.",
+    "At 4.9 lbs (tool only, before battery), the 2804-20 is on the heavier end for 18V drills. A 5.0Ah battery adds 1.5 lbs, putting the full assembly at 6.4 lbs. For overhead drilling over extended periods, a lighter 2.0Ah or 3.0Ah battery and planned task rotation reduces fatigue.",
+    "The REDLINK PLUS system occasionally interprets legitimate high-load tasks (driving large lag bolts into green lumber, drilling large-diameter holes in hardwood) as overload events and momentarily cuts power. This is protective behaviour, not a malfunction — completing the cut in smaller increments resolves it, and the system re-enables immediately."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Expensive tool-only purchase…",
+      "body": "Tool only at $279 is reasonable if you own M18 already. If you're starting fresh, by the time you add a real battery and a charger you're at $500. The kit pricing at Home Depot is often better for newcomers.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Still not an SDS hammer for hard concrete…",
+      "body": "Tried drilling expansion anchors into a concrete slab and burned through 3 carbide bits. An SDS did it in 10 seconds. Hammer drills and rotary hammers are not the same thing — know which you need.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Heavy with a high-capacity battery…",
+      "body": "The drill is great but the 5.0Ah battery makes it 6+ lbs. I do a lot of overhead work and had to switch to a 2.0Ah to stay comfortable. Keep battery size in mind for overhead tasks.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "REDLINK cuts power on legitimate high-load tasks…",
+      "body": "Driving a 5-inch TimberLok into old-growth doug fir and the tool kept briefly cutting out. Had to drive in stages. The protection is working as intended but it can feel frustrating mid-task.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Milwaukee M18 FUEL 2804-20 sets the benchmark for 18V cordless hammer drills. POWERSTATE brushless motor, 1,200 in-lbs peak torque, three-speed gearbox, and REDLINK overload protection combine to produce a tool that professionals trust for sustained daily use. The tool-only format is ideal for existing M18 users; newcomers should compare the kit-bundle pricing at retail versus assembling tool + battery + charger on Amazon.",
+  "realBuyers": [
+    {
+      "quote": "I frame every day. This drill goes through 3/8\" lag bolts in structural lumber like they're not there. Compared to my old 18V — not even close. This is on another level.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The three-speed gearbox is the feature that sells it for me. First gear for masonry anchors, second for general work, third for boring holes fast. No drill I owned before had three speeds.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The REDLINK system saved my motor. I was stalled in green lumber for 10 seconds — on my old drill that would have burned it out. This one just cut and re-enabled when I released pressure.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Built a post-and-beam structure this summer — 200+ lag bolts into 6x6 posts. Ran the drill hard all day every day for two weeks. Didn't miss a beat.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Milwaukee M18 FUEL 2804-20 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B08KDYZJV4"
+    },
+    {
+      "title": "Milwaukee 2804-20 Review — ToolGuyd",
+      "url": "https://toolguyd.com/milwaukee-2804-review/"
+    },
+    {
+      "title": "Best 18V Cordless Hammer Drills — Pro Tool Reviews",
+      "url": "https://www.protoolreviews.com/best-18v-cordless-hammer-drill/"
+    }
+  ],
+  "metaDescription": "Milwaukee M18 FUEL 2804-20 hammer drill review for Canada. 1200 in-lbs, POWERSTATE brushless, 3-speed. Honest on concrete limits and tool-only cost. ~$279 CAD.",
+  "introText": "The Milwaukee M18 FUEL 2804-20 is a POWERSTATE brushless hammer drill with 1,200 in-lbs peak torque and a 3-speed gearbox, sold as a tool-only unit for the M18 platform. Available on Amazon.ca (ASIN B08KDYZJV4) at around $279 CAD.",
+  "researchedAt": "2026-06-19",
+  "verifiedAt": "2026-06-19",
+  "verifiedAsin": "B08KDYZJV4",
+  "verifiedPrice": "$279 CAD",
+  "similarProducts": [
+    "makita-xph12z-hammer-drill",
+    "milwaukee-2626-20-multi-tool",
+    "dewalt-dck240c2-drill-combo-kit"
+  ]
+}
