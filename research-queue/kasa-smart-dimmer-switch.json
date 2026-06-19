@@ -1,0 +1,110 @@
+{
+  "slug": "kasa-smart-dimmer-switch",
+  "name": "Kasa Smart Wi-Fi Dimmer Switch, Single Pole HS220",
+  "brand": "Kasa (TP-Link)",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Smart Switches",
+  "subcategory": "smart-switches",
+  "asin": "B07LFKQ5P2",
+  "price": 39,
+  "priceDisplay": "$39 CAD",
+  "score": 8.6,
+  "tag": "Smart Switches",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07LFKQ5P2/?tag=clearpick06-20",
+  "subscores": {
+    "Setup Ease": 8.5,
+    "Dimming Quality": 9,
+    "Reliability": 9,
+    "Value": 9,
+    "App Quality": 8.5
+  },
+  "specs": {
+    "Wiring": "Single-pole (neutral wire required)",
+    "Connectivity": "Wi-Fi 2.4GHz",
+    "Dimming": "1%–100% smooth LED dimming",
+    "Voice": "Alexa, Google, SmartThings",
+    "Physical Control": "Touch dimmer + physical paddle",
+    "Load": "Max 150W LED / 400W incandescent",
+    "Protocols": "Matter compatible"
+  },
+  "whatWorks": [
+    "The HS220 replaces a standard dimmer switch with a smart one that keeps the physical touch controls — you can still dim with a tap or swipe on the switch itself, without pulling out your phone. Voice control, app scheduling, and automation layer on top of the physical control without replacing it.",
+    "Dimming quality on compatible dimmable LED bulbs is smooth from 1% to 100% with no flicker, buzzing, or dropout at low levels — issues that plague cheaper dimmers. At $39 CAD, the dimming performance rivals switches that cost twice as much.",
+    "App scheduling is genuinely useful for home lighting: sunrise/sunset-triggered dimming, away mode, and vacation randomization all work reliably and are easy to configure. The Kasa app handles basic automations well without requiring a separate hub.",
+    "The switch's physical design fits a standard single-gang electrical box and uses a decora-style faceplate, matching most modern switch covers. Installation takes about 20 minutes with a basic understanding of residential wiring."
+  ],
+  "worthKnowing": [
+    "A neutral wire is required for the HS220 — homes with older wiring (particularly pre-1990s construction) may not have a neutral wire in the switch box. Check before purchasing; no-neutral alternatives exist but this model specifically requires it.",
+    "The HS220 is single-pole only — it cannot be used in a 3-way switch configuration where two switches control the same light. Kasa makes a 3-way version (KS230), but buyers often don't realize this limitation until they've already purchased.",
+    "The 150W LED maximum load means this switch works best with a single fixture or a small grouping of LED bulbs. For a chandelier or multi-bulb track lighting with higher wattage, verify the combined load stays under 150W.",
+    "Matter support via a firmware update means HomeKit users can control this switch without the Kasa cloud, but initial pairing still requires a Kasa account. HomeKit does not support the dimming percentage display in the Home app with all versions of the firmware."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No neutral wire in my older house…",
+      "body": "House was built in 1978 and no neutral wire in any of my switch boxes. This switch requires one. Had to return it. Research before buying in older homes.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Only works for single pole…",
+      "body": "I have a three-way switch setup in my hallway and this doesn't work for it. Would've been nice if the listing made that clearer. Returned and ordered the KS230.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Max LED load is lower than expected…",
+      "body": "My chandelier has 12 bulbs at 15W each — 180W total. That's over the limit. Had to swap to lower wattage bulbs to make it work safely.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Kasa app account still required despite Matter…",
+      "body": "Bought this specifically to avoid another smart home account. Still need a Kasa account to set it up even though it's Matter compatible. Minor annoyance.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Kasa HS220 is the best-value smart dimmer switch in Canada for single-pole LED setups — smooth dimming, voice control, scheduling, and Matter compatibility at $39 CAD. The neutral wire requirement and single-pole limitation are important to verify before purchase, but for the wiring configurations it supports, it delivers premium-switch performance at a mid-range price.",
+  "realBuyers": [
+    {
+      "quote": "Dimming is buttery smooth with no flicker. I tried a $20 smart dimmer and it buzzed constantly at low levels. This one is silent and perfect.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Sunset automation means my living room lights come on automatically every evening at the right brightness. It's one of those things where once it's set up you can't imagine going back.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Works with Alexa out of the box. 'Alexa, dim the living room to 30%' actually works. Very impressed.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Easy install for someone who's done basic electrical work. Matched my existing Decora switches perfectly.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kasa Smart Dimmer Switch HS220 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07LFKQ5P2"
+    },
+    {
+      "title": "Best Smart Dimmer Switches — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-smart-dimmer-switches/"
+    },
+    {
+      "title": "Kasa HS220 Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/kasa-smart-dimmer-switch-hs220"
+    }
+  ],
+  "metaDescription": "Kasa HS220 Smart Dimmer Switch review for Canada: smooth LED dimming, Alexa/Google, Matter, $39. Honest on neutral wire requirement and single-pole only. ~$39 CAD.",
+  "introText": "The Kasa Smart Wi-Fi Dimmer Switch HS220 replaces a standard light switch with smooth LED dimming, voice control, and app scheduling — all without a hub. Available on Amazon.ca (ASIN B07LFKQ5P2) at around $39 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07LFKQ5P2",
+  "verifiedPrice": "$39 CAD",
+  "similarProducts": [
+    "amazon-echo-dot-5th-gen",
+    "amazon-echo-pop",
+    "amazon-echo-show-8-3rd-gen"
+  ]
+}

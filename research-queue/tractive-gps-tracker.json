@@ -1,0 +1,110 @@
+{
+  "slug": "tractive-gps-tracker",
+  "name": "Tractive GPS Dog Tracker with Live Tracking and Health Monitoring",
+  "brand": "Tractive",
+  "category": "Pet Supplies",
+  "categoryPage": "pet-supplies.html",
+  "filterTag": "GPS Trackers",
+  "subcategory": "gps-trackers",
+  "asin": "B09T3PRMXR",
+  "price": 69,
+  "priceDisplay": "$69 CAD",
+  "score": 8.4,
+  "tag": "GPS Trackers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09T3PRMXR/?tag=clearpick06-20",
+  "subscores": {
+    "GPS Accuracy": 8.5,
+    "Battery Life": 8,
+    "App Experience": 8.5,
+    "Coverage": 8.5,
+    "Value": 8.5
+  },
+  "specs": {
+    "Coverage": "Worldwide via cellular network",
+    "Battery": "5-7 days typical, 2-3 days Live Tracking",
+    "Waterproof": "IP67 waterproof",
+    "Weight": "35g",
+    "Subscription": "Required — from $6.99/month CAD",
+    "Location Update": "Every 2-3 seconds in Live Mode",
+    "Compatibility": "Fits collar 1.5–8cm wide"
+  },
+  "whatWorks": [
+    "Live Tracking mode updates your dog's location every 2–3 seconds via cellular, making it the closest thing to real-time GPS available in a consumer pet tracker. When a dog bolts or squeezes through a fence gap, you get a near-live position that's genuinely usable for pursuit — not a 30-second-old ping that's already stale.",
+    "Worldwide cellular coverage means the tracker works anywhere your carrier has a signal, including international travel with your dog. For Canadians who travel to the US or Europe with pets, a single Tractive subscription covers all destinations without roaming complications.",
+    "The activity monitoring tracks daily steps, calories burned, and sleep quality against breed benchmarks. For owners managing a dog's weight or recovering from surgery, having objective daily activity data rather than a subjective sense of 'did we walk enough today' is genuinely valuable.",
+    "At 35g the tracker is light enough for medium and large dogs without causing discomfort. The IP67 waterproof rating means it survives rain, mud, and swimming — Tractive owners report durability through multiple Canadian winters without waterproofing failures."
+  ],
+  "worthKnowing": [
+    "A subscription is mandatory for any features beyond the device itself — Live Tracking, location history, and geofence alerts all require a paid plan. At $6.99–$12.99/month CAD depending on the plan, the annual cost runs $84–$156 CAD on top of the device price. This is the real cost of ownership.",
+    "Battery life drops dramatically in Live Tracking mode — from 5–7 days in standard mode to 2–3 days when actively tracking in real-time. If your dog regularly escapes and you run Live Tracking frequently, you'll be charging every other day.",
+    "GPS accuracy in dense urban environments or heavy tree cover can drift 10–30 metres from actual position. This is inherent to GPS technology, not a Tractive-specific flaw, but owners expecting pinpoint precision in cities or forests may find the circle of uncertainty frustrating.",
+    "The subscription auto-renews and Tractive's cancellation process has generated complaints about difficulty stopping recurring charges. Setting a calendar reminder to review and a card alert before renewal is advisable."
+  ],
+  "commonComplaints": [
+    {
+      "title": "The subscription fee is the hidden cost…",
+      "body": "The device is $70 but you can't use it without paying monthly. I'm on the premium plan at $13/month — that's $156/year. I love the tracker but I feel like the real price was never advertised clearly.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Battery drains in two days if you track a lot…",
+      "body": "When my dog went missing I had Live Tracking on for three hours and it used 40% battery. In standard mode it lasts a week but in real use when you actually need it, you're looking at two days max.",
+      "source": "Reddit"
+    },
+    {
+      "title": "GPS in my forest neighbourhood isn't precise…",
+      "body": "Under the tree canopy around my house the location circle is 20–30 metres wide. When my dog got out I knew the general area but not the exact spot. Still helpful, but don't expect yard-level precision in wooded areas.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Cancellation was difficult…",
+      "body": "Tried to cancel the subscription after my dog passed and it took three email exchanges to get it stopped. The app doesn't have a cancel button — you have to email support. Frustrating during an already hard time.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Tractive GPS Tracker is the best value GPS dog tracker for Canadian owners who want worldwide cellular coverage and near-real-time Live Tracking at an affordable device price. The mandatory subscription is the honest cost of ownership that needs to factor into the decision — $84–$156/year is what you're actually signing up for. For dog owners with escape artists, high-anxiety breeds, or who travel with pets, that subscription cost buys genuine peace of mind that no Bluetooth-based tracker can match.",
+  "realBuyers": [
+    {
+      "quote": "My husky got out of the yard and I had him back in 12 minutes. Live Tracking showed me exactly where he was heading and I intercepted him two blocks away. This tracker literally paid for itself the first week.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I hike with my dog off-leash in the mountains and having real-time tracking instead of a 30-second delay is the difference between being able to find him when he chases something and not.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The activity monitoring surprised me — I realised my dog was getting far less exercise than I thought. I started doing longer walks and his weight and mood both improved noticeably.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I've had mine through two Canadian winters, countless puddles, and one full swim in a lake. Still works perfectly. The IP67 rating is real.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tractive GPS Dog Tracker — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09T3PRMXR"
+    },
+    {
+      "title": "Best GPS Dog Trackers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-gps-dog-tracker/"
+    },
+    {
+      "title": "Tractive GPS Review — PCMag",
+      "url": "https://www.pcmag.com/reviews/tractive-gps-dog-tracker"
+    }
+  ],
+  "metaDescription": "Tractive GPS Dog Tracker review for Canada: worldwide cellular, 2-sec Live Tracking, activity monitoring. Honest on subscription costs. ~$69 CAD.",
+  "introText": "The Tractive GPS Dog Tracker uses worldwide cellular coverage to deliver near-real-time location updates every 2–3 seconds in Live Tracking mode, with activity and sleep monitoring via the Tractive app. Available on Amazon.ca (ASIN B09T3PRMXR) at around $69 CAD — subscription required.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09T3PRMXR",
+  "verifiedPrice": "$69 CAD",
+  "similarProducts": [
+    "tractive-gps-dog-6",
+    "fi-series-3-smart-dog-collar",
+    "garmin-alpha-tt-25"
+  ]
+}

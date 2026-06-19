@@ -1,0 +1,111 @@
+{
+  "slug": "bose-soundlink-flex",
+  "name": "Bose SoundLink Flex Bluetooth Portable Speaker",
+  "brand": "Bose",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Portable Speakers",
+  "subcategory": "portable-speakers",
+  "asin": "B099TJGJ91",
+  "price": 179,
+  "priceDisplay": "$179 CAD",
+  "score": 8.8,
+  "tag": "Portable Speakers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B099TJGJ91/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 9,
+    "Waterproofing": 9.5,
+    "Bass": 8.5,
+    "Battery Life": 8.5,
+    "Portability": 9
+  },
+  "specs": {
+    "Waterproof": "IP67 — fully submersible 1m for 30 minutes",
+    "Float": "Floats in water",
+    "Battery": "12 hours playback",
+    "Charging": "USB-C",
+    "Weight": "590g (1.3 lb)",
+    "Connectivity": "Bluetooth 5.1",
+    "Orientation": "PositionIQ — automatically optimizes sound for flat, upright, or inverted positions",
+    "Voice": "Siri and Google Assistant via voice passthrough"
+  },
+  "whatWorks": [
+    "PositionIQ is a genuinely clever feature that most competitors don't have — the speaker detects its orientation and adjusts the EQ automatically, so whether it's lying flat on a table, standing upright, or hanging inverted from a strap, the sound is optimized for that position. In practice this means the bass and presence stay consistent regardless of how you've placed it.",
+    "Sound quality at the $179 price point is class-leading — Bose's acoustic tuning produces a full, warm sound with real bass depth and clear highs that the JBL Flip 6 and Sony XB23 at similar prices don't quite match. It's not bass-heavy-at-all-costs like some competitors; it's balanced and musical.",
+    "IP67 submersion rating plus the ability to float makes this genuinely pool and boat safe — not just splash-resistant. You can drop it in a pool, rinse it under a tap, or leave it in the rain without worry. The float feature is a meaningful differentiator over non-floating waterproof speakers.",
+    "Build quality is premium and consistent with Bose's reputation — the rubber exterior resists scratches and drops, the USB-C port cover seals tightly for waterproofing, and the strap attachment point feels bomber. Buyers who've had cheaper Bluetooth speakers fail after a year or two will notice the difference in construction."
+  ],
+  "worthKnowing": [
+    "12 hours battery life is respectable but shorter than competitors like the JBL Charge 5 (20 hours) at a similar price. Buyers who use a portable speaker for all-day outdoor events without power access may find 12 hours limiting.",
+    "The SoundLink Flex doesn't have an aux input — it's Bluetooth-only. Buyers who want to connect to non-Bluetooth sources (older audio equipment, instruments) should look at speakers with a 3.5mm input.",
+    "At $179 CAD, it's priced above the JBL Flip 6 ($149) and below the JBL Charge 5 ($199). The Bose wins on sound quality and PositionIQ but loses on battery life versus the Charge 5. The correct comparison depends on which trade-off matters more to you.",
+    "The Bose app is optional but useful — it enables EQ presets, firmware updates, and battery status monitoring. The speaker works fine without it but some buyers find the initial Bluetooth pairing prompt to the app slightly pushy."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Battery life is shorter than JBL…",
+      "body": "12 hours is fine for a day at the beach but I've run out before the party was over. The JBL Charge 5 lasts almost twice as long.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No aux input…",
+      "body": "Bluetooth only means I can't plug it into my guitar amp or old stereo. One 3.5mm input would have made this perfect.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Bose app is pushy during setup…",
+      "body": "The speaker keeps prompting you to download the app. It works without it but the repeated notification during pairing is annoying.",
+      "source": "Reddit"
+    },
+    {
+      "title": "A bit overpriced vs the competition…",
+      "body": "The JBL Charge 5 costs the same and lasts twice as long. You're paying for Bose sound quality and the float feature here.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The Bose SoundLink Flex is the best-sounding portable Bluetooth speaker at its size and price — PositionIQ, genuine IP67 waterproofing, and Bose's acoustic tuning produce a musical, balanced sound that consistently outperforms similarly priced competitors. The 12-hour battery is the main trade-off against JBL alternatives, but buyers who prioritize sound quality over marathon battery life will find the SoundLink Flex the most satisfying speaker in its class.",
+  "realBuyers": [
+    {
+      "quote": "I've owned JBL, UE, and Sony portable speakers. The Bose sounds better than all of them at this size. The bass is tight, not boomy.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Dropped it in the lake by accident, fished it out floating face up, still playing. IP67 plus floating is the real deal.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "PositionIQ is subtle but real — I can tell when I accidentally knock it over because the sound changes slightly, then the speaker re-adjusts.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Sounds like a much bigger speaker. The bass and clarity at medium volume in an apartment is genuinely impressive for something this small.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bose SoundLink Flex — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B099TJGJ91"
+    },
+    {
+      "title": "Bose SoundLink Flex Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/bose-soundlink-flex-review/"
+    },
+    {
+      "title": "Bose SoundLink Flex Review — SoundGuys",
+      "url": "https://www.soundguys.com/bose-soundlink-flex-review/"
+    }
+  ],
+  "metaDescription": "Bose SoundLink Flex review for Canada: IP67, floats, PositionIQ, 12h battery at $179 CAD. Best-sounding portable speaker at its size.",
+  "introText": "The Bose SoundLink Flex (ASIN B099TJGJ91) is a premium IP67 waterproof portable speaker with PositionIQ orientation sensing and Bose's signature balanced sound — available on Amazon.ca for around $179 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B099TJGJ91",
+  "verifiedPrice": "$179 CAD",
+  "similarProducts": [
+    "bose-quietcomfort-ultra-headphones",
+    "apple-airpods-max-usb-c",
+    "sonos-arc-ultra-soundbar"
+  ]
+}

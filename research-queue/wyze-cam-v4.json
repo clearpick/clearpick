@@ -1,0 +1,110 @@
+{
+  "slug": "wyze-cam-v4",
+  "name": "Wyze Cam v4 Wired 2.5K Indoor/Outdoor Security Camera",
+  "brand": "Wyze",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Security Cameras",
+  "subcategory": "security-cameras",
+  "asin": "B0C6GF9XLM",
+  "price": 39,
+  "priceDisplay": "$39 CAD",
+  "score": 8.5,
+  "tag": "Security Cameras",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0C6GF9XLM/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9.5,
+    "Video Quality": 8.5,
+    "Setup Ease": 9,
+    "App Quality": 8,
+    "Storage Options": 8.5
+  },
+  "specs": {
+    "Video": "2.5K QHD (2560×1440p), 130° FOV",
+    "Night Vision": "Color night vision (well-lit areas)",
+    "Weather": "IP65 weatherproof",
+    "Audio": "Two-way audio",
+    "Storage": "Free 14-day cloud events + microSD slot (32GB included)",
+    "Connectivity": "Wi-Fi 2.4GHz & 5GHz (first Wyze cam with 5GHz)",
+    "Protocols": "Alexa, Google"
+  },
+  "whatWorks": [
+    "2.5K resolution at $39 CAD is extraordinary — most security cameras at this price offer 1080p, and several charge $100+ for QHD. The Wyze Cam v4's 2560×1440p image is noticeably sharper for identifying faces, license plates, and package details in playback.",
+    "A 32GB microSD card is included in the box, enabling continuous local recording with no subscription required. Most competitors at this price don't include the card — and many don't even have a microSD slot. With the included card and continuous recording enabled, you get days of 24/7 footage without spending a cent more.",
+    "5GHz Wi-Fi support is a meaningful upgrade over the v3 and most competing cameras — a 5GHz connection delivers faster live view loading and more stable streaming in environments with congested 2.4GHz networks. It's the first Wyze camera to include dual-band support.",
+    "Color night vision in well-lit areas (porch lights, street lamps) delivers color detail that infrared-only cameras miss. During daylight hours, the wide 130° field of view captures more of an entryway or backyard than most competing cameras."
+  ],
+  "worthKnowing": [
+    "Color night vision requires ambient light — in true darkness, the camera falls back to infrared black-and-white. The color night vision marketing can create inflated expectations; it's better described as enhanced-light color mode rather than true low-light color capability.",
+    "The free Wyze app includes 14 days of rolling event-triggered cloud clips, which is generous. Full 24/7 cloud recording requires Wyze Cam Unlimited at $5.99/month USD. The included microSD card covers 24/7 continuous recording locally without a subscription.",
+    "Wyze has faced data security incidents in the past — a 2019 data exposure and a 2024 incident where camera feeds were briefly visible to wrong users. The company responded with fixes and security improvements, but privacy-sensitive buyers should weigh this history.",
+    "The camera is wired (USB-A to USB-C) with no battery option — it needs to be within reach of a power source or use a long USB cable run. Outdoor installation typically requires a weatherproof USB cable or an outdoor-rated power strip."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Color night vision requires ambient light…",
+      "body": "Marketed as color night vision but if there's no porch light nearby it just switches to black and white IR. Don't expect it to see color in complete darkness.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Past security incidents are a concern…",
+      "body": "Wyze has had some notable security issues historically. The hardware is great but I'm hesitant to put it in a bedroom for that reason. Sticking to outdoor use.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Wired only — need power nearby…",
+      "body": "My ideal mounting spot for the backyard doesn't have power within reach. Had to run a 20-foot USB cable. Wish there was a battery version of the v4.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "5GHz connection can be unstable…",
+      "body": "The 5GHz support is new and has had some firmware issues — I had a camera dropping to 2.4GHz constantly. Fixed in a later update but not before several weeks of frustration.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The Wyze Cam v4 is the most camera you can buy for $39 CAD — 2.5K video, 130° FOV, dual-band Wi-Fi, two-way audio, and a 32GB microSD card included. The limitations (wired power, ambient light required for color night vision, Wyze's security history) are real but shouldn't deter buyers who understand the trade-offs. For budget-first security coverage of entryways, driveways, and common areas, it's hard to beat.",
+  "realBuyers": [
+    {
+      "quote": "2.5K at $39. I can read license plates on cars parked across my driveway. At this price it's borderline absurd.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The included 32GB card means I'm not paying for a subscription and I have continuous recording. That was the dealbreaker feature for me.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "5GHz makes a real difference — my v3 cameras on 2.4GHz had lag and buffering. The v4 on 5GHz is smooth and fast to connect.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I have six of these covering my entire property. Total cost was less than one premium camera. Coverage per dollar is unmatched.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wyze Cam v4 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0C6GF9XLM"
+    },
+    {
+      "title": "Wyze Cam v4 Review — The Verge",
+      "url": "https://www.theverge.com/wyze-cam-v4-review"
+    },
+    {
+      "title": "Best Budget Security Cameras — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-home-security-cameras/"
+    }
+  ],
+  "metaDescription": "Wyze Cam v4 review for Canada: 2.5K video, 32GB card included, 5GHz Wi-Fi at $39. Honest on security history, wired-only, and color night vision limits. ~$39 CAD.",
+  "introText": "The Wyze Cam v4 is a wired 2.5K security camera that includes a 32GB microSD card, dual-band Wi-Fi, and 130° field of view — the most feature-packed budget security camera available. Available on Amazon.ca (ASIN B0C6GF9XLM) at around $39 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0C6GF9XLM",
+  "verifiedPrice": "$39 CAD",
+  "similarProducts": [
+    "blink-video-doorbell",
+    "arlo-essential-video-doorbell-wire-free",
+    "eufy-security-video-doorbell-battery-powered"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "google-nest-cam-wired",
+  "name": "Google Nest Cam Wired (2nd Generation) Indoor Security Camera",
+  "brand": "Google",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Security Cameras",
+  "subcategory": "security-cameras",
+  "asin": "B09F1S4YTX",
+  "price": 129,
+  "priceDisplay": "$129 CAD",
+  "score": 8.4,
+  "tag": "Security Cameras",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09F1S4YTX/?tag=clearpick06-20",
+  "subscores": {
+    "On-Device AI": 9,
+    "Google Integration": 9,
+    "Video Quality": 8.5,
+    "Value": 7.5,
+    "App Quality": 8.5
+  },
+  "specs": {
+    "Video": "1080p HD with HDR, 130° FOV",
+    "AI Detection": "On-device person/animal/vehicle detection",
+    "Night Vision": "Night Sight with color night vision",
+    "Audio": "Two-way audio with noise cancellation",
+    "Power": "Wired (USB-C, 10ft cable)",
+    "Storage": "3 hours free event history, Google Home Aware for 30 days",
+    "Protocols": "Google Home, Alexa"
+  },
+  "whatWorks": [
+    "On-device AI processing sets the Nest Cam Wired apart — person, animal, and vehicle detection happens on the camera itself rather than in the cloud, reducing latency for alerts and enabling detection even during internet outages. The distinction between a person vs. a package vs. a vehicle in alerts is accurate and reduces notification fatigue.",
+    "Google Home integration is the deepest in the category — Nest Cam footage shows natively in the Google Home app, feeds into Assistant routines, and works with Nest Hub displays for at-a-glance live view. If you're already in the Google ecosystem, this camera slots in more seamlessly than any competitor.",
+    "Night Sight color night vision leverages computational photography (similar to Pixel Night Sight) to produce color images in conditions where most cameras show grainy black-and-white infrared. Porch lights and street lamps provide enough ambient light for genuinely useful color footage.",
+    "The 10-foot USB-C cable provides meaningful placement flexibility — more than the 6-foot cables shipped with most competing cameras, allowing ceiling mounting or positioning across a room without an extension cable."
+  ],
+  "worthKnowing": [
+    "Free storage is extremely limited — just 3 hours of event history without a Google Home subscription. Meaningful storage requires Google Home Aware at $8/month (or bundled with Google One), which is among the more expensive subscription models in the category.",
+    "No microSD card slot means local storage is not an option. Nest Cam is cloud-dependent for any clip retention beyond the brief free event history. For buyers who want subscription-free storage, this camera is not a good fit.",
+    "Alexa integration is functional but limited compared to native Google Home use — you can pull up a live view on Alexa displays, but detection events and routines don't cross-integrate with Alexa the way they do within Google Home.",
+    "HDR video is good but the 1080p resolution means it doesn't offer the sharpness of higher-resolution competitors for identifying fine details at distance. For a camera at $129 CAD, 2K or better would be expected from newer entrants."
+  ],
+  "commonComplaints": [
+    {
+      "title": "3 hours of free storage is not enough…",
+      "body": "Anything over 3 hours old is gone without paying for Aware. That's the most restrictive free tier of any camera I've tried. Should be at least 7 days like Arlo.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No local storage option at all…",
+      "body": "No SD card slot means you're locked into the cloud subscription. Wyze gives you local storage for free. For a $129 camera I expected more flexibility.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Pricey with the required subscription…",
+      "body": "$129 for the camera plus $8/month for Aware — that's $225 in year one. The hardware is great but the total cost of ownership needs to be in the pitch.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Only 1080p at this price…",
+      "body": "Wyze does 2.5K for $39. Nest charges $129 for 1080p. The AI and Google integration are good but I expected higher resolution for the price in 2024.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Google Nest Cam Wired is the best camera for deep Google Home integration and on-device AI detection — if you're in the Google ecosystem and use Google Home routines, Assistant, or Nest Hub displays, this camera integrates more seamlessly than any competitor. The cloud-dependent storage and subscription cost make it less appealing for buyers who want local storage or minimal ongoing fees.",
+  "realBuyers": [
+    {
+      "quote": "The person vs. vehicle vs. animal distinction in alerts is accurate. I only get notified for things that matter. Zero false alerts in three months.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I can say 'Hey Google, show me the front door camera' on my Nest Hub and it just works. Tighter integration than anything else I've tried.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Night Sight color vision on my porch is genuinely impressive. I can see jacket colors and hair color in pitch dark with just the streetlight.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "10-foot cable meant I could mount it on the ceiling of my entryway and still reach the outlet. Every other camera I tried needed an extension.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Nest Cam Wired — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09F1S4YTX"
+    },
+    {
+      "title": "Google Nest Cam Review — The Verge",
+      "url": "https://www.theverge.com/google-nest-cam-wired-review"
+    },
+    {
+      "title": "Best Home Security Cameras — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-home-security-cameras/"
+    }
+  ],
+  "metaDescription": "Google Nest Cam Wired review for Canada: on-device AI, Night Sight, Google Home integration. Honest on limited free storage and subscription cost. ~$129 CAD.",
+  "introText": "The Google Nest Cam Wired delivers on-device AI person/vehicle/animal detection, Night Sight color night vision, and seamless Google Home integration in a wired indoor camera. Available on Amazon.ca (ASIN B09F1S4YTX) at around $129 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09F1S4YTX",
+  "verifiedPrice": "$129 CAD",
+  "similarProducts": [
+    "google-nest-doorbell-battery",
+    "arlo-essential-video-doorbell-wire-free",
+    "ring-battery-video-doorbell-2024"
+  ]
+}

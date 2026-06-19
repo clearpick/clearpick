@@ -1,0 +1,109 @@
+{
+  "slug": "sonos-era-100",
+  "name": "Sonos Era 100 Smart Speaker with True Stereo Sound and Wi-Fi",
+  "brand": "Sonos",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Portable Speakers",
+  "subcategory": "portable-speakers",
+  "asin": "B0B2TBSZ2F",
+  "price": 279,
+  "priceDisplay": "$279 CAD",
+  "score": 8.9,
+  "tag": "Portable Speakers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0B2TBSZ2F/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 9.5,
+    "Stereo Imaging": 9.5,
+    "App Experience": 9,
+    "Multi-Room": 9.5,
+    "Value": 8
+  },
+  "specs": {
+    "Audio": "True stereo with 2× class-D amplified tweeters + 1× mid-woofer",
+    "Connectivity": "Wi-Fi, Bluetooth 5.0, AirPlay 2, Spotify Connect, Alexa",
+    "Setup": "Sonos app required for setup and configuration",
+    "Multi-Room": "Integrates with any Sonos system for whole-home audio",
+    "Line-In": "USB-C line-in adapter available (sold separately)",
+    "Dimensions": "7.3\" H × 4.7\" W × 4.7\" D — compact shelf speaker"
+  },
+  "whatWorks": [
+    "The Era 100 replaces the Sonos One with true stereo sound — two tweeters angled left and right produce genuine stereo imaging from a single speaker that the mono Sonos One couldn't achieve. In a small to medium room, the soundstage feels wider than the physical footprint suggests.",
+    "Sonos' multi-room audio system remains the gold standard — the Era 100 syncs perfectly with Arc soundbars, Sub woofers, Move portable speakers, and any other Sonos product without any perceptible delay. Adding a second Era 100 creates a proper stereo pair for home theater rear surrounds.",
+    "AirPlay 2 support means iPhone and Mac users can throw audio directly from any app to the Era 100 without using the Sonos app — music, podcasts, Apple TV audio — it all works seamlessly and quickly via the iOS control center.",
+    "The Sonos app (post-2024 redesign improvements) handles EQ adjustments, Trueplay acoustic tuning to room geometry, and service linking in a genuinely polished interface. Trueplay uses the iPhone microphone to automatically optimize frequency response for the room — the before/after difference is audible in most spaces."
+  ],
+  "worthKnowing": [
+    "The Era 100 is a home Wi-Fi speaker, not a portable speaker — it requires a power outlet and Wi-Fi connection. Buyers looking for portable outdoor use should consider the Sonos Move 2 instead. The Era 100 does not have a battery.",
+    "Sonos' controversial 2024 app redesign was widely criticized and resulted in a loss of features users relied on — the company has been restoring functionality, but the period highlighted Sonos' dependency on cloud and app updates for core features. The app has improved substantially but the episode is worth knowing.",
+    "At $279 CAD, the Era 100 is premium priced — the JBL Charge 5 costs $80 less and is portable and waterproof, though it doesn't match the Wi-Fi multi-room ecosystem or stereo sound quality. The Era 100's value is specifically in the Sonos ecosystem.",
+    "Sonos products aren't backward-compatible with all older Sonos hardware — the Era 100 works with current-generation products but the company has discontinued support for older legacy speakers in ways that frustrated long-term customers. New buyers are fine, but existing Sonos owners with older hardware should check compatibility."
+  ],
+  "commonComplaints": [
+    {
+      "title": "2024 app redesign was a disaster…",
+      "body": "The new Sonos app removed features I used daily and was buggy for months. They've mostly fixed it now but it shook my trust in the company.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Not actually portable…",
+      "body": "I thought 'smart speaker' meant portable — it needs to be plugged in. The name is misleading. I wanted something I could take to the backyard.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Expensive for a single speaker…",
+      "body": "$279 for one speaker that I then need to buy a second one to get full stereo is a tough sell. You're paying for the ecosystem.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Trueplay requires an iPhone…",
+      "body": "Trueplay room calibration only works with an iPhone mic. I have an Android phone and can't use the feature that's supposedly a key selling point.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The Sonos Era 100 is the best compact Wi-Fi shelf speaker available — true stereo sound, AirPlay 2, multi-room Sonos ecosystem integration, and polished software in a small, premium package. The $279 CAD price is steep for a single non-portable speaker, and the 2024 app controversy is worth noting, but for buyers already in or planning to build a Sonos system, the Era 100 is the right entry point.",
+  "realBuyers": [
+    {
+      "quote": "Sounds bigger than it has any right to. In my home office the stereo imaging fills the room — I don't need anything else in here.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Paired two as a stereo pair with my Arc soundbar for rear surrounds. The whole-home audio is seamless and the sound is incredible.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "AirPlay 2 means I can play audio from any app on my iPhone without thinking about it. Apple Music, Podcasts, YouTube — it just works.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Trueplay adjusted the sound for my corner shelf placement and the difference was immediately obvious. The bass tightened and the highs opened up.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sonos Era 100 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0B2TBSZ2F"
+    },
+    {
+      "title": "Sonos Era 100 Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/sonos-era-100-review/"
+    },
+    {
+      "title": "Sonos Era 100 Review — The Verge",
+      "url": "https://www.theverge.com/reviews/sonos-era-100-review"
+    }
+  ],
+  "metaDescription": "Sonos Era 100 review Canada: true stereo Wi-Fi speaker, AirPlay 2, multi-room ecosystem at $279 CAD. Honest on app history and no battery.",
+  "introText": "The Sonos Era 100 (ASIN B0B2TBSZ2F) is Sonos' flagship compact smart speaker — delivering true stereo sound from a single unit with Wi-Fi, AirPlay 2, and full Sonos multi-room integration for around $279 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0B2TBSZ2F",
+  "verifiedPrice": "$279 CAD",
+  "similarProducts": [
+    "sonos-arc-ultra-soundbar",
+    "samsung-hw-q990f-soundbar",
+    "apple-tv-4k-3rd-gen"
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "arlo-essential-indoor-camera",
+  "name": "Arlo Essential Indoor Security Camera, 1080p HD",
+  "brand": "Arlo",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Security Cameras",
+  "subcategory": "security-cameras",
+  "asin": "B0BR8HMQNK",
+  "price": 89,
+  "priceDisplay": "$89 CAD",
+  "score": 8.1,
+  "tag": "Security Cameras",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BR8HMQNK/?tag=clearpick06-20",
+  "subscores": {
+    "Privacy Cover": 9,
+    "Video Quality": 8,
+    "App Quality": 8.5,
+    "Value": 7.5,
+    "Cloud Storage": 8
+  },
+  "specs": {
+    "Video": "1080p HD with 130° FOV",
+    "Privacy Cover": "Built-in physical lens shutter",
+    "Audio": "Two-way audio",
+    "Night Vision": "Infrared night vision",
+    "Power": "Wired (USB-C), no battery",
+    "Storage": "Free 7-day rolling cloud storage, Arlo Secure plan for more",
+    "Connectivity": "Wi-Fi 2.4GHz & 5GHz",
+    "Protocols": "Alexa, Google, Apple HomeKit"
+  },
+  "whatWorks": [
+    "The physical privacy shutter is the standout feature — a mechanical lens cover you can close from the app or by pressing a button, providing hardware-level privacy assurance that software-only privacy modes can't match. For cameras placed in bedrooms, offices, or spaces where temporary privacy matters, this is a genuine differentiator.",
+    "The Arlo app is among the most polished in the security camera category — person, package, vehicle, and animal detection is accurate and noticeably reduces false alerts from trees and shadows. Activity zones let you focus detection on specific areas within the frame.",
+    "HomeKit support via the Arlo Secure plan enables native integration with the Apple Home app, including HomeKit Secure Video for on-device processing and encrypted iCloud storage — appealing to Apple ecosystem users who want camera access within the Home app.",
+    "Dual-band Wi-Fi (2.4GHz and 5GHz) enables faster and more stable video streaming compared to 2.4GHz-only cameras, particularly in dense Wi-Fi environments. The 130° wide-angle field of view covers rooms and entry points effectively from a single camera position."
+  ],
+  "worthKnowing": [
+    "Free cloud storage is limited to 7 days of rolling clips — shorter than Blink's 60-day trial and Wyze's 14-day rolling free tier. After 7 days, clips are deleted unless you subscribe to Arlo Secure at $14.99/month. Without a subscription, there's no local storage option on the Essential Indoor, unlike competitors with microSD slots.",
+    "There's no microSD card slot on the Arlo Essential Indoor — local storage is not an option. This makes the subscription feel more mandatory than on competitors that offer local storage as a free alternative.",
+    "At $89 CAD, the Arlo Essential Indoor is the most expensive camera in this comparison for what you get on paper — 1080p where competitors offer 2.5K at $39. The premium is paid for the Arlo app quality, privacy shutter, and HomeKit support.",
+    "The camera requires a USB-C power source and is not battery-powered. Indoor placement is straightforward, but finding a nearby outlet may constrain mounting location. The USB-C cable included is 6 feet, which limits mounting height without an extension cable."
+  ],
+  "commonComplaints": [
+    {
+      "title": "7 days free storage isn't enough…",
+      "body": "Competing cameras give 14–60 days free. Arlo gives 7 days and then you're paying $15/month if you want to save clips. The privacy shutter is nice but I'm not paying $15/month for one camera.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No microSD slot…",
+      "body": "The Wyze at $39 has a microSD slot and comes with a 32GB card. The Arlo at $89 has no local storage option. That's backwards for the price.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "1080p for $89 feels dated…",
+      "body": "Wyze Cam v4 gives 2.5K for $39. I'm not sure what I'm paying the extra $50 for on the Arlo besides the app and the privacy cover.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "6-foot cable too short for high mounting…",
+      "body": "Wanted to mount it at ceiling height but the 6-foot USB cable doesn't reach the outlet. Had to buy a longer cable separately.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Arlo Essential Indoor is best suited for buyers who specifically want the physical privacy shutter, Arlo's class-leading detection accuracy, and deep HomeKit integration — and are willing to pay the premium for those features. If you don't need the privacy shutter or HomeKit Secure Video, the Wyze Cam v4 offers better resolution and included local storage at less than half the price.",
+  "realBuyers": [
+    {
+      "quote": "The physical privacy shutter is the reason I bought it. I can close the lens from the app and know for certain it's not recording. That peace of mind is worth the price.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Arlo's person detection actually works — it doesn't alert me every time a leaf blows past. My old camera was useless with false alerts.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "HomeKit Secure Video is the feature that sold me. Video is processed on-device and encrypted in iCloud. That's the right approach for a home camera.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "App is genuinely great. Activity zones, detection types, review by date — it's all well-designed. Worth something over the bargain cameras.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Arlo Essential Indoor Security Camera — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BR8HMQNK"
+    },
+    {
+      "title": "Arlo Essential Indoor Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/arlo-essential-indoor"
+    },
+    {
+      "title": "Best Indoor Security Cameras — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-home-security-cameras/"
+    }
+  ],
+  "metaDescription": "Arlo Essential Indoor Camera review for Canada: physical privacy shutter, HomeKit, 1080p. Honest on 7-day free storage limit and no microSD slot. ~$89 CAD.",
+  "introText": "The Arlo Essential Indoor Camera features a hardware privacy shutter, polished app with accurate AI detection, and HomeKit Secure Video support — the premium indoor camera for privacy-conscious and Apple ecosystem users. Available on Amazon.ca (ASIN B0BR8HMQNK) at around $89 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0BR8HMQNK",
+  "verifiedPrice": "$89 CAD",
+  "similarProducts": [
+    "arlo-essential-video-doorbell-wire-free",
+    "google-nest-doorbell-battery",
+    "eufy-security-video-doorbell-battery-powered"
+  ]
+}

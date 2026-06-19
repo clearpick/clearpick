@@ -1,0 +1,110 @@
+{
+  "slug": "roku-streaming-stick-4k",
+  "name": "Roku Streaming Stick 4K with Voice Remote and Private Listening",
+  "brand": "Roku",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Streaming Devices",
+  "subcategory": "streaming-devices",
+  "asin": "B09BKCDXB9",
+  "price": 69,
+  "priceDisplay": "$69 CAD",
+  "score": 8.8,
+  "tag": "Streaming Devices",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09BKCDXB9/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9.5,
+    "Ease of Use": 9.5,
+    "Content Discovery": 9,
+    "Remote": 9,
+    "Wi-Fi Range": 8.5
+  },
+  "specs": {
+    "Resolution": "4K HDR, Dolby Vision, HDR10+",
+    "Design": "Compact HDMI stick — plugs directly into TV, no box required",
+    "Remote": "Voice remote with TV controls, headphone jack for private listening",
+    "OS": "Roku OS with neutral cross-app search",
+    "Wi-Fi": "Long-range dual-band Wi-Fi optimized for distant router setups",
+    "Voice": "Alexa and Google voice control via Roku mobile app",
+    "Channels": "500,000+ movies and TV episodes across free and paid channels"
+  },
+  "whatWorks": [
+    "Roku OS is the most neutral and user-friendly streaming interface available — cross-app search finds the cheapest way to watch any title across all your subscriptions without bias toward any particular service. The search results tell you if something is free on Pluto TV, available on your Netflix plan, or pay-per-view on Apple TV+.",
+    "At $69 CAD, the Roku Streaming Stick 4K offers 4K HDR, Dolby Vision, and HDR10+ at a price that undercuts virtually every competitor. For buyers who just want to upgrade an old TV or add 4K streaming to a bedroom set, the value is exceptional.",
+    "The voice remote's private listening headphone jack is a genuinely thoughtful feature — plug in any headphones and audio plays through them instead of the TV speakers, without pairing Bluetooth or disturbing others in the room. Useful for late-night watching or apartments with thin walls.",
+    "Long-range Wi-Fi antenna is real and measurable — Roku specifically designed the Streaming Stick 4K to maintain signal in rooms where cheaper streaming sticks fail. Buyers with routers on different floors or in the opposite corner of the house report more reliable connections than competing stick devices."
+  ],
+  "worthKnowing": [
+    "The Roku Streaming Stick 4K runs warm during extended 4K streaming — not hot enough to cause problems, but it gets noticeably warm to the touch. Leaving it plugged directly into a TV in a cramped media cabinet with poor airflow has caused throttling for some users.",
+    "Roku OS doesn't support Dolby Atmos audio passthrough to the same degree as Apple TV or NVIDIA Shield — Atmos is available on some apps (Netflix, Disney+) but not universally across all Roku channels. Buyers with high-end audio systems should verify compatibility with their specific streaming services.",
+    "The included remote doesn't have backlit buttons — a persistent complaint and one area where the Google TV Streamer and Fire TV Cube remote designs are superior. Roku sells an upgraded 'Voice Remote Pro' separately with a backlit, rechargeable remote if this is important.",
+    "Roku's free streaming channel (The Roku Channel) includes ads, which can't be fully disabled. The platform is ad-supported in part, which is how they keep device prices low — this is a reasonable trade-off but worth knowing upfront."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Remote isn't backlit…",
+      "body": "Dark room, hunting for the skip button by feel every time. Roku sells a backlit remote separately but it should be standard at any price point.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Gets warm during 4K streaming…",
+      "body": "Mine gets quite hot in the HDMI port area during long 4K sessions. Hasn't caused problems but I'm keeping it in an open spot rather than behind the TV.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Ads on the home screen and The Roku Channel…",
+      "body": "The Roku Channel auto-plays ads when you scroll past it. The home screen has sponsored tiles you can't remove. It's the price of the cheap hardware.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Atmos doesn't work on all apps…",
+      "body": "Dolby Atmos works on Netflix but not on my Crave subscription through Roku. Switched some audio to HDMI ARC and it's fine now but the inconsistency is annoying.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Roku Streaming Stick 4K is the best sub-$70 streaming device in Canada — 4K Dolby Vision, neutral cross-app search, private listening via headphone jack, and strong long-range Wi-Fi at a price that makes the upgrade cost negligible. It's not the fastest or the most feature-rich, but for straightforward 4K streaming on any TV, it's excellent value and the easiest to use.",
+  "realBuyers": [
+    {
+      "quote": "I searched 'Avengers' and Roku showed me it was free on Pluto TV instead of charging me $5.99 on Prime. That cross-app search paid for the device on day one.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "My parents can use this without calling me for help. Roku is the most intuitive streaming interface I've seen.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Headphone jack on the remote is something I didn't know I needed. Watching at 2am without waking my partner is perfect.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Works perfectly in my basement where the Wi-Fi signal is weak. My old Fire Stick kept buffering, the Roku is solid.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Roku Streaming Stick 4K — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09BKCDXB9"
+    },
+    {
+      "title": "Roku Streaming Stick 4K Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-media-streamers/"
+    },
+    {
+      "title": "Roku Streaming Stick 4K Review — CNET",
+      "url": "https://www.cnet.com/tech/home-entertainment/roku-streaming-stick-4k-review/"
+    }
+  ],
+  "metaDescription": "Roku Streaming Stick 4K review for Canada: Dolby Vision, neutral search, private listening headphone jack at $69 CAD. Best budget 4K streaming stick.",
+  "introText": "The Roku Streaming Stick 4K (ASIN B09BKCDXB9) delivers 4K Dolby Vision HDR, neutral cross-service search, and private listening via headphone jack for around $69 CAD on Amazon.ca — the most affordable 4K streaming upgrade available.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09BKCDXB9",
+  "verifiedPrice": "$69 CAD",
+  "similarProducts": [
+    "apple-tv-4k-3rd-gen",
+    "samsung-q80d-65-qled-tv",
+    "sony-bravia-9-65-mini-led-tv"
+  ]
+}

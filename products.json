@@ -8205,5 +8205,1625 @@
       "Dimensions": "10.25\" W × 14\" D × 8.5\" H",
       "Weight": "7.3 lb (3.3 kg)"
     }
+  },
+  {
+    "id": "amazon-echo-4th-gen",
+    "name": "Amazon Echo (4th Generation) Smart Speaker with Alexa",
+    "category": "Smart Home",
+    "score": 8.5,
+    "tag": "Smart Speakers",
+    "icon": "🏠",
+    "image": "https://m.media-amazon.com/images/I/61avSkFDa2L._AC_SX500_.jpg",
+    "price": "~$129 CAD",
+    "page": "products/amazon-echo-4th-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07XKF5RM3/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8.5,
+      "Alexa Intelligence": 9,
+      "Smart Home Hub": 9,
+      "Value": 8.5,
+      "Design": 8.5
+    },
+    "specs": {
+      "Audio": "3\" woofer + dual 0.8\" tweeters with Dolby processing",
+      "Smart Home Hub": "Built-in Zigbee, Matter, Thread hub",
+      "Voice": "Alexa, far-field 7-microphone array",
+      "Connectivity": "Wi-Fi, Bluetooth, AUX out 3.5mm",
+      "Guard": "Alexa Guard for security sounds",
+      "Protocols": "Matter, Thread, Zigbee",
+      "Shape": "Spherical fabric design"
+    }
+  },
+  {
+    "id": "amazon-fire-tv-cube-3rd-gen",
+    "name": "Amazon Fire TV Cube (3rd Generation) 4K Streaming Media Player",
+    "category": "Home Entertainment",
+    "score": 8.7,
+    "tag": "Streaming Devices",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/71YRVDg1RCL._AC_SX500_.jpg",
+    "price": "~$179 CAD",
+    "page": "products/amazon-fire-tv-cube-3rd-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BZZ3MM7/?tag=clearpick06-20",
+    "subscores": {
+      "Alexa Integration": 9.5,
+      "Performance": 9,
+      "Hands-Free Control": 9,
+      "Value": 8.5,
+      "Content Library": 9
+    },
+    "specs": {
+      "Resolution": "4K Ultra HD, Dolby Vision, HDR10+, HDR10, HLG",
+      "Chip": "Octa-core 2.0GHz — fastest Fire TV processor",
+      "Storage": "16GB",
+      "Voice": "Hands-free Alexa with far-field microphone array",
+      "IR Control": "IR blaster controls TV, soundbar, and AV receiver",
+      "Connectivity": "Wi-Fi 6E, Bluetooth 5.0, HDMI 2.1",
+      "USB-A": "USB port for storage expansion or accessories"
+    }
+  },
+  {
+    "id": "arlo-essential-indoor-camera",
+    "name": "Arlo Essential Indoor Security Camera, 1080p HD",
+    "category": "Smart Home",
+    "score": 8.1,
+    "tag": "Security Cameras",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/arlo-essential-indoor-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BR8HMQNK/?tag=clearpick06-20",
+    "subscores": {
+      "Privacy Cover": 9,
+      "Video Quality": 8,
+      "App Quality": 8.5,
+      "Value": 7.5,
+      "Cloud Storage": 8
+    },
+    "specs": {
+      "Video": "1080p HD with 130° FOV",
+      "Privacy Cover": "Built-in physical lens shutter",
+      "Audio": "Two-way audio",
+      "Night Vision": "Infrared night vision",
+      "Power": "Wired (USB-C), no battery",
+      "Storage": "Free 7-day rolling cloud storage, Arlo Secure plan for more",
+      "Connectivity": "Wi-Fi 2.4GHz & 5GHz",
+      "Protocols": "Alexa, Google, Apple HomeKit"
+    }
+  },
+  {
+    "id": "blink-outdoor-4-camera",
+    "name": "Blink Outdoor 4 Wireless Security Camera System, 4-Camera Kit",
+    "category": "Smart Home",
+    "score": 8,
+    "tag": "Security Cameras",
+    "icon": "🏠",
+    "image": "https://m.media-amazon.com/images/I/61fMC8pY0uL._AC_SX500_.jpg",
+    "price": "~$299 CAD",
+    "page": "products/blink-outdoor-4-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0B1N5HW22/?tag=clearpick06-20",
+    "subscores": {
+      "Battery Life": 9.5,
+      "Value": 8.5,
+      "Setup Ease": 9,
+      "Video Quality": 7.5,
+      "Cloud Storage": 8
+    },
+    "specs": {
+      "Video": "1080p HD, 110° FOV",
+      "Battery": "2× AA lithium batteries per camera, ~2 years",
+      "Weather": "IP65 weatherproof",
+      "Night Vision": "Infrared night vision",
+      "Storage": "Free 60-day cloud storage trial, then $3.99/month Blink Subscription Plan",
+      "Sync Module": "Blink Sync Module 2 included",
+      "Local Storage": "USB flash drive option via Sync Module"
+    }
+  },
+  {
+    "id": "bonavita-8-cup-coffee-maker",
+    "name": "Bonavita 8-Cup One-Touch Coffee Maker BV1900TS",
+    "category": "Kitchen & Dining",
+    "score": 8.7,
+    "tag": "Coffee Makers",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/bonavita-8-cup-coffee-maker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B009LHPDWY/?tag=clearpick06-20",
+    "subscores": {
+      "Brew Temperature": 9.5,
+      "Simplicity": 9.5,
+      "Brew Quality": 9,
+      "Value": 8.5,
+      "Build Quality": 8
+    },
+    "specs": {
+      "Capacity": "8-cup stainless thermal carafe",
+      "Heater": "1500W flat-bottom showerhead heats water to 92°C–96°C (optimal extraction range)",
+      "Bloom": "Pre-infusion bloom option moistens grounds before full brew",
+      "Brewing Time": "6 minutes for full 8 cups",
+      "Filter": "Compatible with standard #8 flat-bottom filters and gold tone reusable",
+      "BPA Free": "Yes",
+      "SCAA Certified": "SCA Home Brewer Certified"
+    }
+  },
+  {
+    "id": "bose-soundlink-flex",
+    "name": "Bose SoundLink Flex Bluetooth Portable Speaker",
+    "category": "Home Entertainment",
+    "score": 8.8,
+    "tag": "Portable Speakers",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/71eLvseXOmL._AC_SX500_.jpg",
+    "price": "~$179 CAD",
+    "page": "products/bose-soundlink-flex.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B099TJGJ91/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9,
+      "Waterproofing": 9.5,
+      "Bass": 8.5,
+      "Battery Life": 8.5,
+      "Portability": 9
+    },
+    "specs": {
+      "Waterproof": "IP67 — fully submersible 1m for 30 minutes",
+      "Float": "Floats in water",
+      "Battery": "12 hours playback",
+      "Charging": "USB-C",
+      "Weight": "590g (1.3 lb)",
+      "Connectivity": "Bluetooth 5.1",
+      "Orientation": "PositionIQ — automatically optimizes sound for flat, upright, or inverted positions",
+      "Voice": "Siri and Google Assistant via voice passthrough"
+    }
+  },
+  {
+    "id": "catit-flower-pet-fountain",
+    "name": "Catit Flower Fountain 3L Cat Water Fountain",
+    "category": "Pet Supplies",
+    "score": 8.4,
+    "tag": "Pet Fountains",
+    "icon": "🐾",
+    "image": "https://m.media-amazon.com/images/I/71kvTVtnrRL._AC_SX500_.jpg",
+    "price": "~$34 CAD",
+    "page": "products/catit-flower-pet-fountain.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B004P2NG0K/?tag=clearpick06-20",
+    "subscores": {
+      "Flow Options": 9,
+      "Filter Quality": 8.5,
+      "Noise Level": 8,
+      "Value": 9,
+      "Ease of Cleaning": 8
+    },
+    "specs": {
+      "Capacity": "3 liters (100 oz)",
+      "Flow Modes": "3 modes — flower, calm stream, bubbling top",
+      "Filter": "Triple-action carbon filter included",
+      "Material": "BPA-free plastic",
+      "Cord": "5 ft power cord",
+      "Pump": "Ultra-quiet submersible pump",
+      "Cleaning": "All parts dishwasher safe"
+    }
+  },
+  {
+    "id": "chromecast-with-google-tv-4k",
+    "name": "Google TV Streamer 4K (2024) with Hands-Free Google Assistant",
+    "category": "Home Entertainment",
+    "score": 8.9,
+    "tag": "Streaming Devices",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/chromecast-with-google-tv-4k.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CZHLQ2Z5/?tag=clearpick06-20",
+    "subscores": {
+      "Google Integration": 9.5,
+      "Performance": 9,
+      "Remote": 9,
+      "Content Discovery": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Resolution": "4K HDR, Dolby Vision, HDR10+",
+      "Performance": "Quad-core CPU, 4GB RAM, 32GB storage",
+      "Smart OS": "Google TV",
+      "Voice": "Hands-free Google Assistant with far-field microphones",
+      "Remote": "Full Bluetooth remote with backlit keys, Google Assistant, TV power/volume",
+      "Connectivity": "Wi-Fi 6E, Bluetooth 5.0, HDMI 2.1, USB-C power + data port"
+    }
+  },
+  {
+    "id": "chuckit-ultra-ball-launcher",
+    "name": "Chuckit! Ultra Ball with Classic Launcher for Dogs",
+    "category": "Pet Supplies",
+    "score": 8.8,
+    "tag": "Dog Toys",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$24 CAD",
+    "page": "products/chuckit-ultra-ball-launcher.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B000CICFPW/?tag=clearpick06-20",
+    "subscores": {
+      "Throw Distance": 9,
+      "Ball Durability": 8.5,
+      "Value": 9.5,
+      "Safety": 9,
+      "Fun Factor": 9
+    },
+    "specs": {
+      "Launcher Length": "17 inches (classic launcher)",
+      "Ball Material": "High-bounce natural rubber with nylon",
+      "Ball Sizes": "Small to XL (3 sizes)",
+      "Throw Distance": "Up to 140 feet",
+      "Easy Pickup": "Launcher scoops ball without bending",
+      "Compatible": "Fits all Chuckit! brand balls"
+    }
+  },
+  {
+    "id": "crock-pot-7qt-manual-slow-cooker",
+    "name": "Crock-Pot 7-Quart Manual Slow Cooker with Locking Lid",
+    "category": "Kitchen & Dining",
+    "score": 8.6,
+    "tag": "Slow Cookers",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$69 CAD",
+    "page": "products/crock-pot-7qt-manual-slow-cooker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B009Q8EQ9A/?tag=clearpick06-20",
+    "subscores": {
+      "Simplicity": 9.5,
+      "Capacity": 9.5,
+      "Value": 9.5,
+      "Build Quality": 8.5,
+      "Performance": 8.5
+    },
+    "specs": {
+      "Capacity": "7 Qt — feeds 7+ people",
+      "Settings": "High, Low, Warm — manual dial",
+      "Lid": "Locking lid with gasket for transport",
+      "Insert": "Oval-shaped stoneware insert (dishwasher safe)",
+      "Material": "Brushed stainless exterior",
+      "Dimensions": "13.5\"L × 10\"W × 8.5\"H"
+    }
+  },
+  {
+    "id": "dash-rapid-egg-cooker",
+    "name": "Dash Rapid Egg Cooker, 6-Egg Capacity Electric Egg Cooker",
+    "category": "Kitchen & Dining",
+    "score": 9.1,
+    "tag": "Egg Cookers",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$39 CAD",
+    "page": "products/dash-rapid-egg-cooker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00DDXUEF0/?tag=clearpick06-20",
+    "subscores": {
+      "Speed": 9.5,
+      "Simplicity": 9.5,
+      "Versatility": 9,
+      "Value": 9.5,
+      "Size": 9
+    },
+    "specs": {
+      "Capacity": "6 eggs (hard/medium/soft), 2 poached, 1 omelette, or steamed vegetables",
+      "Cook Styles": "Hard Boiled, Medium Boiled, Soft Boiled, Poached, Scrambled, Omelette, Steamed",
+      "Time": "Hard boiled in ~12 min, soft boiled in ~7 min",
+      "Alert": "Auto shutoff with audible done signal",
+      "Water Measure": "Included measuring cup with egg-piercing pin",
+      "Cleanup": "All parts dishwasher safe (top rack)",
+      "Size": "6\"D × 5.5\"H — stores in a cabinet easily"
+    }
+  },
+  {
+    "id": "delonghi-magnifica-evo",
+    "name": "De'Longhi Magnifica Evo Automatic Espresso and Coffee Machine",
+    "category": "Kitchen & Dining",
+    "score": 8.8,
+    "tag": "Espresso Machines",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$799 CAD",
+    "page": "products/delonghi-magnifica-evo.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09MKRJNL2/?tag=clearpick06-20",
+    "subscores": {
+      "Automation": 9,
+      "Bean-to-Cup": 9.5,
+      "Milk Frothing": 8.5,
+      "Ease of Use": 8.5,
+      "Value": 8
+    },
+    "specs": {
+      "Grinder": "Built-in conical burr grinder (13 grind settings)",
+      "Boiler": "Thermoblock system — optimized brew and steam temperatures",
+      "Milk": "Manual Cappuccino System frothing wand",
+      "Bean Hopper": "250g capacity",
+      "Water Tank": "1.8L removable",
+      "Brewing Temperature": "Adjustable 3 levels",
+      "Display": "OLED display with intuitive icons",
+      "Cleaning": "Automatic rinsing, descaling, and cleaning cycle alerts"
+    }
+  },
+  {
+    "id": "flexi-new-classic-retractable-leash",
+    "name": "Flexi New Classic Retractable Dog Leash, 16 ft Tape",
+    "category": "Pet Supplies",
+    "score": 8.2,
+    "tag": "Dog Leashes",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$39 CAD",
+    "page": "products/flexi-new-classic-retractable-leash.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00B5RMU7G/?tag=clearpick06-20",
+    "subscores": {
+      "Extension Range": 9,
+      "Brake Mechanism": 8.5,
+      "Handle Comfort": 8,
+      "Durability": 8,
+      "Value": 8.5
+    },
+    "specs": {
+      "Length": "16 ft (5m) — also available in 10ft and 26ft",
+      "Tape Style": "Wide tape (vs thin cord) — tangle-safer",
+      "Brake": "One-thumb brake and lock",
+      "Max Weight": "Up to 44 lbs (Medium)",
+      "Colors": "Multiple",
+      "Retraction": "Auto-retract mechanism"
+    }
+  },
+  {
+    "id": "frisco-4-panel-dog-exercise-pen",
+    "name": "MidWest Foldable Metal Dog Exercise Pen, 4 Panel 36-Inch",
+    "category": "Pet Supplies",
+    "score": 8.1,
+    "tag": "Dog Exercise Pens",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$49 CAD",
+    "page": "products/frisco-4-panel-dog-exercise-pen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07MJ2S9F8/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 8.5,
+      "Setup Ease": 9,
+      "Portability": 8.5,
+      "Security": 8,
+      "Value": 9
+    },
+    "specs": {
+      "Panels": "4 panels, each 24\" wide",
+      "Height": "36 inches",
+      "Folds": "Accordion fold for storage",
+      "Material": "Wire mesh with powder coat",
+      "Gate": "Includes one walk-through gate panel",
+      "Max Space": "Configurable — straight, square, or L-shape",
+      "Indoor/Outdoor": "Both"
+    }
+  },
+  {
+    "id": "furbo-360-dog-camera",
+    "name": "Furbo 360° Dog Camera with Treat Tossing and Barking Alert",
+    "category": "Pet Supplies",
+    "score": 8.2,
+    "tag": "Pet Cameras",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/furbo-360-dog-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09HWFMFXM/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 8.5,
+      "App Experience": 8,
+      "Treat Tossing": 8.5,
+      "Value": 7.5,
+      "Motion Detection": 8
+    },
+    "specs": {
+      "Video": "1080p HD, 360° pan rotation",
+      "Night Vision": "Infrared night vision",
+      "Audio": "Two-way audio",
+      "Treat Capacity": "~100 small treats",
+      "Alert Types": "Barking, person, dog alerts",
+      "Connectivity": "Wi-Fi 2.4GHz & 5GHz",
+      "Storage": "Cloud subscription or local microSD"
+    }
+  },
+  {
+    "id": "furhaven-orthopedic-dog-sofa-bed",
+    "name": "FurHaven Orthopedic Dog Sofa Bed with Removable Washable Cover",
+    "category": "Pet Supplies",
+    "score": 8.6,
+    "tag": "Dog Beds",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/furhaven-orthopedic-dog-sofa-bed.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B086DFR4NV/?tag=clearpick06-20",
+    "subscores": {
+      "Orthopedic Support": 8.5,
+      "Washability": 9,
+      "Value": 9,
+      "Size Options": 9,
+      "Durability": 8
+    },
+    "specs": {
+      "Fill": "Egg-crate orthopedic foam base",
+      "Cover": "Plush sherpa or velvet (removable, machine washable)",
+      "Sizes": "Small to Jumbo Plus (8 sizes)",
+      "Bolster": "Three-sided bolster for head support",
+      "Base": "Non-slip bottom",
+      "Frame": "Sofa-style raised sides"
+    }
+  },
+  {
+    "id": "google-nest-cam-wired",
+    "name": "Google Nest Cam Wired (2nd Generation) Indoor Security Camera",
+    "category": "Smart Home",
+    "score": 8.4,
+    "tag": "Security Cameras",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/google-nest-cam-wired.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09F1S4YTX/?tag=clearpick06-20",
+    "subscores": {
+      "On-Device AI": 9,
+      "Google Integration": 9,
+      "Video Quality": 8.5,
+      "Value": 7.5,
+      "App Quality": 8.5
+    },
+    "specs": {
+      "Video": "1080p HD with HDR, 130° FOV",
+      "AI Detection": "On-device person/animal/vehicle detection",
+      "Night Vision": "Night Sight with color night vision",
+      "Audio": "Two-way audio with noise cancellation",
+      "Power": "Wired (USB-C, 10ft cable)",
+      "Storage": "3 hours free event history, Google Home Aware for 30 days",
+      "Protocols": "Google Home, Alexa"
+    }
+  },
+  {
+    "id": "google-nest-learning-thermostat-4th-gen",
+    "name": "Google Nest Learning Thermostat (4th Generation)",
+    "category": "Smart Home",
+    "score": 9,
+    "tag": "Smart Thermostats",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$329 CAD",
+    "page": "products/google-nest-learning-thermostat-4th-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BPVSSH1Y/?tag=clearpick06-20",
+    "subscores": {
+      "Auto-Learning": 9.5,
+      "Energy Savings": 9.5,
+      "Display": 9.5,
+      "App Quality": 9,
+      "Value": 8
+    },
+    "specs": {
+      "Display": "2.08\" 24-bit color LCD",
+      "Auto-Schedule": "Learns your preferences automatically over 1 week",
+      "Remote Sensing": "Works with Nest Temperature Sensors (sold separately)",
+      "Connectivity": "Wi-Fi 802.11b/g/n/ac (2.4GHz/5GHz)",
+      "Voice": "Google Assistant, Alexa, Apple HomeKit",
+      "HVAC": "Works with most 24V heating/cooling systems",
+      "Wiring": "C-wire or Nest Power Connector (included)"
+    }
+  },
+  {
+    "id": "govee-rgbic-led-strip",
+    "name": "Govee RGBIC LED Strip Lights 5m with App and Voice Control",
+    "category": "Smart Home",
+    "score": 8,
+    "tag": "LED Strip Lights",
+    "icon": "🏠",
+    "image": "https://m.media-amazon.com/images/I/51RJ7c1d4PL._AC_SX500_.jpg",
+    "price": "~$49 CAD",
+    "page": "products/govee-rgbic-led-strip.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07CL2RMR7/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9,
+      "Color Effects": 8.5,
+      "App Quality": 8,
+      "Music Sync": 8.5,
+      "Installation": 8.5
+    },
+    "specs": {
+      "Length": "5 meters (16.4 ft)",
+      "Colors": "RGBIC — multiple colors simultaneously on one strip",
+      "Connectivity": "Wi-Fi 2.4GHz + Bluetooth",
+      "App": "Govee Home app (iOS/Android)",
+      "Voice": "Alexa, Google",
+      "Music Sync": "Built-in microphone for music mode",
+      "Cutting": "Cuttable every 5 segments"
+    }
+  },
+  {
+    "id": "hamilton-beach-electric-kettle",
+    "name": "Hamilton Beach 1.7-Litre Variable Temperature Electric Kettle",
+    "category": "Kitchen & Dining",
+    "score": 8.6,
+    "tag": "Kitchen Gadgets",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$39 CAD",
+    "page": "products/hamilton-beach-electric-kettle.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B007THHFT0/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Temperature Accuracy": 8.5,
+      "Speed": 9,
+      "Build Quality": 8,
+      "Usability": 9
+    },
+    "specs": {
+      "Capacity": "1.7L (7 cups)",
+      "Power": "1500W for fast boiling",
+      "Temperature": "5 presets: 160°F, 175°F, 185°F, 190°F, 212°F (Green Tea, White Tea, Oolong, Coffee, Boiling) + Keep Warm",
+      "Display": "LED indicator with temperature selection",
+      "Material": "Stainless steel interior and lid",
+      "Cord": "Cordless — 360° swivel base",
+      "Auto Shutoff": "Boil-dry protection + auto shutoff"
+    }
+  },
+  {
+    "id": "hisense-u6n-65-tv",
+    "name": "Hisense U6N 65-Inch 4K ULED Smart TV (2024)",
+    "category": "Home Entertainment",
+    "score": 8.7,
+    "tag": "Budget TVs",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/hisense-u6n-65-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CNHFKYXZ/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Picture Quality": 8.5,
+      "HDR Performance": 8.5,
+      "Smart TV": 8.5,
+      "Gaming": 8
+    },
+    "specs": {
+      "Resolution": "4K UHD",
+      "Panel": "ULED with local dimming",
+      "HDR": "Dolby Vision, HDR10+, HLG",
+      "Refresh Rate": "60Hz native (120Hz effective with motion processing)",
+      "Smart OS": "Google TV",
+      "Gaming": "ALLM, eARC HDMI",
+      "Audio": "Dolby Atmos — 2.0 40W"
+    }
+  },
+  {
+    "id": "hisense-u8n-65-tv",
+    "name": "Hisense U8N 65-Inch 4K Mini-LED ULED Smart TV (2024)",
+    "category": "Home Entertainment",
+    "score": 9.1,
+    "tag": "Budget TVs",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$999 CAD",
+    "page": "products/hisense-u8n-65-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CNHHB77L/?tag=clearpick06-20",
+    "subscores": {
+      "Picture Quality": 9.5,
+      "Brightness": 9.5,
+      "Value": 9,
+      "Gaming": 9,
+      "HDR": 9.5
+    },
+    "specs": {
+      "Resolution": "4K UHD",
+      "Panel": "Mini-LED with 1000+ dimming zones",
+      "HDR": "Dolby Vision IQ, HDR10+, HLG — up to 3000 nits peak",
+      "Refresh Rate": "144Hz native",
+      "Smart OS": "Google TV",
+      "Gaming": "ALLM, VRR, 4 HDMI 2.1 inputs",
+      "Audio": "Dolby Atmos — 2.1 60W with subwoofer channel"
+    }
+  },
+  {
+    "id": "instant-pot-duo-plus-6qt",
+    "name": "Instant Pot Duo Plus 9-in-1 Electric Pressure Cooker, 6 Quart",
+    "category": "Kitchen & Dining",
+    "score": 8.5,
+    "tag": "Multi-Cookers",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/71nx65qZq6L._AC_SX500_.jpg",
+    "price": "~$149 CAD",
+    "page": "products/instant-pot-duo-plus-6qt.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01NBKTPTS/?tag=clearpick06-20",
+    "subscores": {
+      "Versatility": 9,
+      "Ease of Use": 8.5,
+      "Cook Quality": 8.5,
+      "Value": 8.5,
+      "Extra Features": 8.5
+    },
+    "specs": {
+      "Functions": "9 — Pressure Cook, Slow Cook, Rice, Sauté, Steam, Sterilize, Yogurt, Sous Vide, Keep Warm",
+      "Programs": "15 smart programs",
+      "Display": "Blue LCD display with progress indicator",
+      "Venting": "Advanced steam-release valve",
+      "Capacity": "6 Qt",
+      "Included": "Steam rack, rice paddle, soup spoon, measuring cup, silicone mitt"
+    }
+  },
+  {
+    "id": "instant-vortex-plus-6qt-air-fryer",
+    "name": "Instant Vortex Plus 6-Quart Air Fryer with ClearCook Window",
+    "category": "Kitchen & Dining",
+    "score": 8.4,
+    "tag": "Air Fryers",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/instant-vortex-plus-6qt-air-fryer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08NFRSQV9/?tag=clearpick06-20",
+    "subscores": {
+      "Cooking Performance": 8.5,
+      "Capacity": 8.5,
+      "Ease of Use": 9,
+      "Value": 8.5,
+      "Cleanup": 8.5
+    },
+    "specs": {
+      "Capacity": "6 Qt — fits up to 5 lb whole chicken",
+      "Window": "ClearCook transparent viewing window",
+      "Functions": "7 — Air Fry, Bake, Roast, Dehydrate, Reheat, Broil, Rotisserie-style",
+      "Temperature": "95°F–400°F (35°C–205°C)",
+      "Preheat": "EvenCrisp Technology with preheat function",
+      "Tray": "Dishwasher-safe air fry tray and drip pan",
+      "Display": "LED touchscreen"
+    }
+  },
+  {
+    "id": "jbl-charge-5",
+    "name": "JBL Charge 5 Portable Bluetooth Speaker with IP67 and Powerbank",
+    "category": "Home Entertainment",
+    "score": 8.6,
+    "tag": "Portable Speakers",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/jbl-charge-5.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B098NJGJZK/?tag=clearpick06-20",
+    "subscores": {
+      "Battery Life": 9,
+      "Powerbank Feature": 9,
+      "Sound": 8.5,
+      "Waterproofing": 9,
+      "Value": 8.5
+    },
+    "specs": {
+      "Battery": "20 hours playback",
+      "Powerbank": "USB-A output to charge phones and other devices while playing",
+      "Waterproof": "IP67 — submersible 1m for 30 minutes",
+      "Weight": "960g (2.1 lb)",
+      "Connectivity": "Bluetooth 5.1 + USB-C charge port",
+      "PartyBoost": "Link multiple JBL PartyBoost-compatible speakers",
+      "Charging": "USB-C fast charge — 4 hours to full"
+    }
+  },
+  {
+    "id": "jbl-flip-6",
+    "name": "JBL Flip 6 Portable Bluetooth Speaker with IP67 and PartyBoost",
+    "category": "Home Entertainment",
+    "score": 8.5,
+    "tag": "Portable Speakers",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/jbl-flip-6.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09K53GDRC/?tag=clearpick06-20",
+    "subscores": {
+      "Portability": 9.5,
+      "Sound Quality": 8.5,
+      "Bass": 8.5,
+      "Waterproofing": 9,
+      "Value": 9
+    },
+    "specs": {
+      "Battery": "12 hours playback",
+      "Waterproof": "IP67 — fully submersible 1m for 30 minutes",
+      "Weight": "550g (1.2 lb)",
+      "Connectivity": "Bluetooth 5.1",
+      "PartyBoost": "Link multiple JBL PartyBoost-compatible speakers for party or stereo modes",
+      "Charging": "USB-C",
+      "Dual Passive Radiators": "Two passive radiators for enhanced bass response at low frequencies"
+    }
+  },
+  {
+    "id": "kasa-smart-dimmer-switch",
+    "name": "Kasa Smart Wi-Fi Dimmer Switch, Single Pole HS220",
+    "category": "Smart Home",
+    "score": 8.6,
+    "tag": "Smart Switches",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$39 CAD",
+    "page": "products/kasa-smart-dimmer-switch.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07LFKQ5P2/?tag=clearpick06-20",
+    "subscores": {
+      "Setup Ease": 8.5,
+      "Dimming Quality": 9,
+      "Reliability": 9,
+      "Value": 9,
+      "App Quality": 8.5
+    },
+    "specs": {
+      "Wiring": "Single-pole (neutral wire required)",
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "Dimming": "1%–100% smooth LED dimming",
+      "Voice": "Alexa, Google, SmartThings",
+      "Physical Control": "Touch dimmer + physical paddle",
+      "Load": "Max 150W LED / 400W incandescent",
+      "Protocols": "Matter compatible"
+    }
+  },
+  {
+    "id": "kasa-smart-led-strip-kl430",
+    "name": "Tapo L930-5 Smart Wi-Fi Light Strip with Matter Support, 5m",
+    "category": "Smart Home",
+    "score": 8.3,
+    "tag": "LED Strip Lights",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$69 CAD",
+    "page": "products/kasa-smart-led-strip-kl430.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09NY4JXXV/?tag=clearpick06-20",
+    "subscores": {
+      "Color Accuracy": 9,
+      "App Control": 8.5,
+      "Matter Support": 9,
+      "Value": 8.5,
+      "Installation": 8.5
+    },
+    "specs": {
+      "Length": "5 meters (16.4 ft)",
+      "Colors": "RGBIC multicolor — multiple colors simultaneously",
+      "Zones": "50 individually addressable segments",
+      "Brightness": "2000 lumens max",
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "Protocols": "Matter, Alexa, Google, HomeKit",
+      "Music Sync": "Music rhythm mode via app"
+    }
+  },
+  {
+    "id": "kasa-smart-plug-mini-ep25",
+    "name": "Kasa Smart Plug Mini EP25, Matter Compatible Energy Monitoring",
+    "category": "Smart Home",
+    "score": 8.9,
+    "tag": "Smart Plugs",
+    "icon": "🏠",
+    "image": "https://m.media-amazon.com/images/I/51L3mlb5BXL._AC_SX500_.jpg",
+    "price": "~$29 CAD",
+    "page": "products/kasa-smart-plug-mini-ep25.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B091FXLMS8/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Setup Ease": 9.5,
+      "Energy Monitoring": 9,
+      "Reliability": 9,
+      "App Quality": 8.5
+    },
+    "specs": {
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "Protocols": "Matter over Wi-Fi",
+      "Energy": "Real-time energy monitoring in app",
+      "Load Rating": "15A / 1800W max",
+      "Voice": "Alexa, Google, SmartThings, HomeKit",
+      "Size": "Compact — doesn't block second outlet",
+      "USB": "No"
+    }
+  },
+  {
+    "id": "kitchenaid-khm512-hand-mixer",
+    "name": "KitchenAid KHM512 5-Speed Ultra Power Hand Mixer",
+    "category": "Kitchen & Dining",
+    "score": 8.7,
+    "tag": "Hand Mixers",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/615kwOY9+3L._AC_SX500_.jpg",
+    "price": "~$89 CAD",
+    "page": "products/kitchenaid-khm512-hand-mixer.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00005UP2P/?tag=clearpick06-20",
+    "subscores": {
+      "Power": 9,
+      "Speed Control": 8.5,
+      "Durability": 9.5,
+      "Attachments": 8.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Motor": "Ultra Power motor — peak power at the beater",
+      "Speeds": "5 speeds with Soft Start feature",
+      "Attachments": "Turbo Beater II Accessories + 5-wire whisk",
+      "Ejection": "One-touch accessory ejection button",
+      "Handle": "Ergonomic soft-grip handle",
+      "Cord": "5-ft swivel cord",
+      "Weight": "2.1 lbs (light for hand mixing)"
+    }
+  },
+  {
+    "id": "kong-classic-dog-toy",
+    "name": "KONG Classic Dog Toy for Chewing and Treat Stuffing",
+    "category": "Pet Supplies",
+    "score": 9,
+    "tag": "Dog Toys",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$19 CAD",
+    "page": "products/kong-classic-dog-toy.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B000FC5JJY/?tag=clearpick06-20",
+    "subscores": {
+      "Durability": 9.5,
+      "Engagement": 9,
+      "Chew Safety": 9.5,
+      "Value": 9.5,
+      "Versatility": 9
+    },
+    "specs": {
+      "Material": "Natural red rubber (durable formula)",
+      "Sizes": "XS to XXL (6 sizes)",
+      "Fill Options": "Treats, peanut butter, kibble, KONG paste",
+      "Dishwasher Safe": "Yes, top rack",
+      "Best For": "Moderate to heavy chewers",
+      "Shape": "Snowman-shape with off-center bounce"
+    }
+  },
+  {
+    "id": "lg-qned80-65-tv",
+    "name": "LG QNED80 65-Inch 4K Smart TV with NanoCell, 2024",
+    "category": "Home Entertainment",
+    "score": 8.8,
+    "tag": "Budget TVs",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1099 CAD",
+    "page": "products/lg-qned80-65-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BTLZQ7M1/?tag=clearpick06-20",
+    "subscores": {
+      "Color Accuracy": 9,
+      "Gaming Mode": 9.5,
+      "webOS": 9,
+      "HDR": 8.5,
+      "Value": 8
+    },
+    "specs": {
+      "Resolution": "4K UHD",
+      "Panel": "NanoCell QNED (Quantum NanoCell Diode)",
+      "HDR": "Dolby Vision IQ, HDR10 Pro, HLG",
+      "Refresh Rate": "120Hz native",
+      "Gaming": "ALLM, VRR, G-Sync compatible, FreeSync Premium",
+      "Smart OS": "webOS 24",
+      "Audio": "Dolby Atmos — 2.0 40W"
+    }
+  },
+  {
+    "id": "lifx-a19-smart-bulb",
+    "name": "LIFX A19 Smart Wi-Fi Bulb, No Hub Required",
+    "category": "Smart Home",
+    "score": 8.4,
+    "tag": "Smart Bulbs",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$49 CAD",
+    "page": "products/lifx-a19-smart-bulb.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01KY02MS0/?tag=clearpick06-20",
+    "subscores": {
+      "Color Range": 9,
+      "Setup Ease": 9.5,
+      "App Quality": 8.5,
+      "Value": 8,
+      "Reliability": 8
+    },
+    "specs": {
+      "Connectivity": "Direct Wi-Fi (2.4GHz) — no hub needed",
+      "Light": "1100 lumen, 2500K–9000K + full RGB color",
+      "Voice": "Alexa, Google, Siri, HomeKit",
+      "Base": "E26 standard base",
+      "Wattage": "11W (75W equivalent)",
+      "Protocols": "Matter compatible via firmware update"
+    }
+  },
+  {
+    "id": "litter-robot-4",
+    "name": "Litter-Robot 4 Automatic Self-Cleaning Cat Litter Box",
+    "category": "Pet Supplies",
+    "score": 8.9,
+    "tag": "Automatic Litter Boxes",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/litter-robot-4.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BFF37FC9/?tag=clearpick06-20",
+    "subscores": {
+      "Automation": 9.5,
+      "Odor Control": 9,
+      "Cat Acceptance": 8.5,
+      "App Control": 8.5,
+      "Value": 7.5
+    },
+    "specs": {
+      "Capacity": "Single cat best, up to 4 cats",
+      "Dimensions": "22\"W×27\"D×29.5\"H with cover",
+      "Weight": "27 lbs",
+      "Cycle Time": "30 min default after use",
+      "App": "WhiskerApp for iOS/Android",
+      "Connectivity": "Wi-Fi + Bluetooth",
+      "Litter Type": "Clumping only"
+    }
+  },
+  {
+    "id": "midwest-icrate-single-door-42in",
+    "name": "MidWest iCrate Single Door Dog Crate, 42-Inch",
+    "category": "Pet Supplies",
+    "score": 8.7,
+    "tag": "Dog Crates",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/midwest-icrate-single-door-42in.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B002QJBOO6/?tag=clearpick06-20",
+    "subscores": {
+      "Build Quality": 9,
+      "Setup Ease": 8.5,
+      "Security": 8.5,
+      "Portability": 8.5,
+      "Value": 9
+    },
+    "specs": {
+      "Size": "42\"L×28\"W×30\"H — fits large dogs up to 90 lbs",
+      "Door": "Single front door with two-bolt latch",
+      "Divider": "Removable divider panel included",
+      "Fold": "Folds flat for storage or travel",
+      "Material": "Heavy-gauge wire construction",
+      "Tray": "Removable plastic leak-proof tray",
+      "Feet": "Rubber feet protect floors"
+    }
+  },
+  {
+    "id": "moccamaster-kbgv-select",
+    "name": "Technivorm Moccamaster KBGV Select 10-Cup Coffee Brewer",
+    "category": "Kitchen & Dining",
+    "score": 9.2,
+    "tag": "Coffee Makers",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$399 CAD",
+    "page": "products/moccamaster-kbgv-select.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09ZSDQ1W7/?tag=clearpick06-20",
+    "subscores": {
+      "Brew Temperature": 9.5,
+      "Build Quality": 9.5,
+      "Brew Speed": 9.5,
+      "Value": 7,
+      "Simplicity": 9
+    },
+    "specs": {
+      "Capacity": "1.25L (10 cups) — available with glass or thermal carafe",
+      "Brew Time": "~6 minutes for full 10-cup batch",
+      "Temperature": "92°C–96°C optimal extraction, copper heating element",
+      "Heater": "1520W copper heating element",
+      "Carafe": "KBGV Select can switch between glass carafe with hot plate or thermal carafe",
+      "Flow Rate": "Flow rate manually adjustable via drip stop switch",
+      "Made": "Hand-assembled in the Netherlands",
+      "Warranty": "5-year manufacturer warranty"
+    }
+  },
+  {
+    "id": "nespresso-essenza-mini",
+    "name": "Nespresso Essenza Mini Espresso Machine by De'Longhi",
+    "category": "Kitchen & Dining",
+    "score": 8.4,
+    "tag": "Espresso Machines",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/nespresso-essenza-mini.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07Q6MSFZC/?tag=clearpick06-20",
+    "subscores": {
+      "Size": 9.5,
+      "Ease of Use": 9.5,
+      "Espresso Quality": 8.5,
+      "Value": 8,
+      "Pod Cost": 7
+    },
+    "specs": {
+      "Footprint": "Smallest Nespresso machine — 3.3\"W × 12.8\"D",
+      "Pressure": "19-bar pump pressure",
+      "Tank": "0.6L removable water tank",
+      "Buttons": "2 buttons — Espresso (40ml) and Lungo (110ml), programmable volume",
+      "Heat-up": "25 seconds to first cup",
+      "Compatibility": "Nespresso Original Line pods only",
+      "Auto Off": "Automatic shutoff after 9 minutes"
+    }
+  },
+  {
+    "id": "nutribullet-pro-900",
+    "name": "NutriBullet Pro 900W Personal Blender",
+    "category": "Kitchen & Dining",
+    "score": 8.8,
+    "tag": "Blenders",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/nutribullet-pro-900.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07RQ1C7SQ/?tag=clearpick06-20",
+    "subscores": {
+      "Smoothie Power": 9,
+      "Ease of Use": 9.5,
+      "Cleanup": 9.5,
+      "Value": 9,
+      "Size": 9
+    },
+    "specs": {
+      "Motor": "900W extraction motor",
+      "Capacity": "32 oz large cup + 24 oz cup",
+      "Blade": "Stainless steel extractor blade",
+      "Speed": "Single speed",
+      "Cups": "Shatter and stain-resistant Tritan plastic",
+      "Cleanup": "Cups are dishwasher safe (top rack)",
+      "Lids": "Comfort lip ring + stay-fresh lid included"
+    }
+  },
+  {
+    "id": "nvidia-shield-tv-pro",
+    "name": "NVIDIA SHIELD TV Pro 4K HDR Streaming Media Player with AI Upscaling",
+    "category": "Home Entertainment",
+    "score": 9.1,
+    "tag": "Streaming Devices",
+    "icon": "📺",
+    "image": "https://m.media-amazon.com/images/I/51ZGCIbrgFL._AC_SX500_.jpg",
+    "price": "~$299 CAD",
+    "page": "products/nvidia-shield-tv-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07YP9FBMM/?tag=clearpick06-20",
+    "subscores": {
+      "Android TV Performance": 9.5,
+      "Gaming": 9.5,
+      "AI Upscaling": 9.5,
+      "Plex & Media Server": 9.5,
+      "Value": 7.5
+    },
+    "specs": {
+      "Chip": "NVIDIA Tegra X1+ — purpose-built GPU-accelerated media chip",
+      "Storage": "16GB internal + USB 3.0 expansion + microSD",
+      "Resolution": "4K HDR, Dolby Vision, HDR10, Dolby Atmos",
+      "AI Upscaling": "NVIDIA AI upscaling converts HD/SD to near-4K quality",
+      "OS": "Android TV (full Google Play Store access)",
+      "Gaming": "GeForce NOW cloud gaming, SHIELD Game streaming, SHIELD controller",
+      "Connectivity": "Wi-Fi 5 (802.11ac), Gigabit Ethernet, Bluetooth 5.0, HDMI 2.0b, 2× USB 3.0"
+    }
+  },
+  {
+    "id": "oxo-good-grips-salad-spinner",
+    "name": "OXO Good Grips Large Salad Spinner, 6.22-Quart",
+    "category": "Kitchen & Dining",
+    "score": 9.2,
+    "tag": "Kitchen Gadgets",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/61txfa10m3L._AC_SX500_.jpg",
+    "price": "~$49 CAD",
+    "page": "products/oxo-good-grips-salad-spinner.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00004OCNJ/?tag=clearpick06-20",
+    "subscores": {
+      "Spinning Mechanism": 9.5,
+      "Bowl Utility": 9.5,
+      "Lid Design": 9,
+      "Value": 9,
+      "Durability": 9.5
+    },
+    "specs": {
+      "Capacity": "6.22 Qt bowl — serves 4–6",
+      "Mechanism": "One-touch pump mechanism + brake button stops spinning instantly",
+      "Bowl": "Clear bowl doubles as mixing and serving bowl",
+      "Lid": "Non-slip base on lid; lid stays on while spinning",
+      "Colander": "Removable perforated basket inserts inside bowl",
+      "Material": "BPA-free clear plastic body",
+      "Lid Lock": "Lid lock button for compact storage"
+    }
+  },
+  {
+    "id": "petfusion-ultimate-cat-scratcher",
+    "name": "PetFusion Ultimate Cat Scratcher Lounge in Premium Cardboard",
+    "category": "Pet Supplies",
+    "score": 8.8,
+    "tag": "Cat Scratchers",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$59 CAD",
+    "page": "products/petfusion-ultimate-cat-scratcher.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00AH1Z26W/?tag=clearpick06-20",
+    "subscores": {
+      "Durability": 9,
+      "Cat Acceptance": 9,
+      "Design": 8.5,
+      "Value": 9,
+      "Lounge Comfort": 8.5
+    },
+    "specs": {
+      "Material": "Recycled cardboard with corn starch glue",
+      "Dimensions": "34\"L×10.5\"W×10.5\"H",
+      "Shape": "Curved lounge doubles as a cat bed",
+      "Catnip": "Catnip sample included",
+      "Reversible": "Flip when one side wears down",
+      "Weight": "4.9 lbs"
+    }
+  },
+  {
+    "id": "petsafe-scoopfree-crystal-pro",
+    "name": "PetSafe ScoopFree Crystal Pro Automatic Self-Cleaning Cat Litter Box",
+    "category": "Pet Supplies",
+    "score": 8.3,
+    "tag": "Automatic Litter Boxes",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$219 CAD",
+    "page": "products/petsafe-scoopfree-crystal-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07CBZC2B2/?tag=clearpick06-20",
+    "subscores": {
+      "Odor Control": 9,
+      "Ease of Setup": 8.5,
+      "Cat Acceptance": 8,
+      "Value": 8,
+      "Maintenance": 8.5
+    },
+    "specs": {
+      "Litter Type": "Crystal (silica gel) — 30-day supply included",
+      "Rake Mechanism": "Automatic 20-min delayed rake cycle",
+      "Tray": "Disposable or washable reusable tray",
+      "Dimensions": "24.5\"L×15\"W×5.5\"H",
+      "Hood": "Optional privacy hood included",
+      "Sensors": "Health counter tracks visits"
+    }
+  },
+  {
+    "id": "petsafe-smart-feed-2-automatic-feeder",
+    "name": "PetSafe Smart Feed 2 Automatic Dog and Cat Feeder, 24-Cup",
+    "category": "Pet Supplies",
+    "score": 8.3,
+    "tag": "Automatic Feeders",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$189 CAD",
+    "page": "products/petsafe-smart-feed-2-automatic-feeder.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08G9QDTMM/?tag=clearpick06-20",
+    "subscores": {
+      "App Control": 8.5,
+      "Portion Accuracy": 9,
+      "Scheduling": 8.5,
+      "Build Quality": 8,
+      "Value": 7.5
+    },
+    "specs": {
+      "Capacity": "24 cups (6 lbs dry kibble)",
+      "Feedings": "Up to 12 meals/day",
+      "Portion Size": "1/8 cup increments (1/8 to 4 cups)",
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "App": "PetSafe app for iOS/Android",
+      "Slow Feed": "Slow feed option disperses food over 15 minutes",
+      "Power": "AC adapter + backup batteries"
+    }
+  },
+  {
+    "id": "philips-hue-color-starter-kit",
+    "name": "Philips Hue White and Color Ambiance A19 Starter Kit (4 Bulbs + Bridge)",
+    "category": "Smart Home",
+    "score": 8.7,
+    "tag": "Smart Bulbs",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/philips-hue-color-starter-kit.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0793H8ML8/?tag=clearpick06-20",
+    "subscores": {
+      "Color Range": 9.5,
+      "App Quality": 9,
+      "Ecosystem": 9.5,
+      "Value": 7.5,
+      "Reliability": 9
+    },
+    "specs": {
+      "Bulbs": "4× A19 E26 base, 800 lumen, 2000K–6500K + full color",
+      "Bridge": "Required — connects up to 50 bulbs per bridge",
+      "Connectivity": "Zigbee via bridge (works offline)",
+      "Voice": "Alexa, Google, Siri, HomeKit",
+      "Protocols": "Matter compatible",
+      "Wattage": "9W (60W equivalent)",
+      "Dimming": "1%–100% via app"
+    }
+  },
+  {
+    "id": "roku-streaming-stick-4k",
+    "name": "Roku Streaming Stick 4K with Voice Remote and Private Listening",
+    "category": "Home Entertainment",
+    "score": 8.8,
+    "tag": "Streaming Devices",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$69 CAD",
+    "page": "products/roku-streaming-stick-4k.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BKCDXB9/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Ease of Use": 9.5,
+      "Content Discovery": 9,
+      "Remote": 9,
+      "Wi-Fi Range": 8.5
+    },
+    "specs": {
+      "Resolution": "4K HDR, Dolby Vision, HDR10+",
+      "Design": "Compact HDMI stick — plugs directly into TV, no box required",
+      "Remote": "Voice remote with TV controls, headphone jack for private listening",
+      "OS": "Roku OS with neutral cross-app search",
+      "Wi-Fi": "Long-range dual-band Wi-Fi optimized for distant router setups",
+      "Voice": "Alexa and Google voice control via Roku mobile app",
+      "Channels": "500,000+ movies and TV episodes across free and paid channels"
+    }
+  },
+  {
+    "id": "schlage-encode-plus-deadbolt",
+    "name": "Schlage Encode Plus Smart Wi-Fi Deadbolt with Apple Home Key",
+    "category": "Smart Home",
+    "score": 8.8,
+    "tag": "Smart Locks",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$339 CAD",
+    "page": "products/schlage-encode-plus-deadbolt.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09MTK3J75/?tag=clearpick06-20",
+    "subscores": {
+      "Security": 9.5,
+      "HomeKit Integration": 9.5,
+      "App Quality": 8.5,
+      "Value": 8,
+      "Build Quality": 9.5
+    },
+    "specs": {
+      "Connectivity": "Wi-Fi (no hub needed) + Bluetooth",
+      "Protocols": "Apple Home Key, HomeKit, Alexa, Google",
+      "Codes": "Up to 100 access codes",
+      "Keys": "Tap-to-unlock with iPhone or Apple Watch",
+      "Power": "4 AA batteries (~6 months)",
+      "Grade": "ANSI Grade 1 security rating",
+      "Installation": "Standard deadbolt replacement (about 30 min)"
+    }
+  },
+  {
+    "id": "sony-srs-xb43-speaker",
+    "name": "Sony SRS-XB43 Extra Bass Portable Bluetooth Speaker",
+    "category": "Home Entertainment",
+    "score": 8.3,
+    "tag": "Portable Speakers",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/sony-srs-xb43-speaker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B095B4D98Z/?tag=clearpick06-20",
+    "subscores": {
+      "Bass Impact": 9.5,
+      "Battery Life": 9.5,
+      "Sound Volume": 9,
+      "Portability": 7.5,
+      "Value": 8
+    },
+    "specs": {
+      "Battery": "24 hours (Extra Bass mode reduces to ~16 hours)",
+      "Speaker": "3-way speaker system: full-range driver + tweeter + passive radiator",
+      "LED": "Line Light LED lighting with party effects and color sync",
+      "Waterproof": "IP67 — fully waterproof and dustproof",
+      "Weight": "1.5 kg (3.3 lb)",
+      "Connectivity": "Bluetooth 5.0, NFC tap-to-pair, USB-C charging",
+      "Extra Bass": "Dedicated Extra Bass boost button for enhanced low-frequency emphasis",
+      "Party Connect": "Pair up to 100 compatible Sony speakers"
+    }
+  },
+  {
+    "id": "tcl-5-series-55-tv",
+    "name": "TCL 55S555 S5 QLED 4K Smart TV, 55-inch (2024)",
+    "category": "Home Entertainment",
+    "score": 8.5,
+    "tag": "Budget TVs",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$499 CAD",
+    "page": "products/tcl-5-series-55-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BKQ5F3YW/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Picture Quality": 8.5,
+      "HDR": 8,
+      "Smart TV": 8.5,
+      "Ease of Setup": 9
+    },
+    "specs": {
+      "Resolution": "4K UHD",
+      "Panel": "QLED (quantum dot, no Mini-LED)",
+      "HDR": "Dolby Vision, HDR10, HLG",
+      "Refresh Rate": "60Hz",
+      "Smart OS": "Google TV",
+      "Audio": "Dolby Atmos — 2.0 35W",
+      "HDMI": "3× HDMI (1 HDMI 2.1)"
+    }
+  },
+  {
+    "id": "tcl-6-series-65-tv",
+    "name": "TCL 65Q650G Q6 QLED 4K Smart TV, 65-inch (2024)",
+    "category": "Home Entertainment",
+    "score": 8.9,
+    "tag": "Budget TVs",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$799 CAD",
+    "page": "products/tcl-6-series-65-tv.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CTXY8NPN/?tag=clearpick06-20",
+    "subscores": {
+      "Picture Quality": 9,
+      "Value": 9.5,
+      "Gaming Performance": 8.5,
+      "HDR": 8.5,
+      "Sound": 7.5
+    },
+    "specs": {
+      "Resolution": "4K UHD (3840×2160)",
+      "Panel": "QLED with Mini-LED backlight (100+ dimming zones)",
+      "HDR": "Dolby Vision IQ, HDR10+, HLG",
+      "Refresh Rate": "120Hz VRR",
+      "Gaming": "ALLM, VRR, 4 HDMI 2.1 ports",
+      "Smart OS": "Google TV",
+      "Audio": "Dolby Atmos, DTS:X — 2.0 40W built-in"
+    }
+  },
+  {
+    "id": "tractive-gps-tracker",
+    "name": "Tractive GPS Dog Tracker with Live Tracking and Health Monitoring",
+    "category": "Pet Supplies",
+    "score": 8.4,
+    "tag": "GPS Trackers",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$69 CAD",
+    "page": "products/tractive-gps-tracker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09T3PRMXR/?tag=clearpick06-20",
+    "subscores": {
+      "GPS Accuracy": 8.5,
+      "Battery Life": 8,
+      "App Experience": 8.5,
+      "Coverage": 8.5,
+      "Value": 8.5
+    },
+    "specs": {
+      "Coverage": "Worldwide via cellular network",
+      "Battery": "5-7 days typical, 2-3 days Live Tracking",
+      "Waterproof": "IP67 waterproof",
+      "Weight": "35g",
+      "Subscription": "Required — from $6.99/month CAD",
+      "Location Update": "Every 2-3 seconds in Live Mode",
+      "Compatibility": "Fits collar 1.5–8cm wide"
+    }
+  },
+  {
+    "id": "ue-hyperboom-speaker",
+    "name": "Ultimate Ears HYPERBOOM Portable Bluetooth Party Speaker",
+    "category": "Home Entertainment",
+    "score": 8.7,
+    "tag": "Portable Speakers",
+    "icon": "📺",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$499 CAD",
+    "page": "products/ue-hyperboom-speaker.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07WZQB4K2/?tag=clearpick06-20",
+    "subscores": {
+      "Volume Output": 9.5,
+      "360 Sound": 9.5,
+      "Battery Life": 9,
+      "Party Features": 9.5,
+      "Value": 8
+    },
+    "specs": {
+      "Battery": "24 hours at moderate volume (varies significantly with volume level)",
+      "Volume": "Extremely loud — designed for outdoor parties and large gatherings",
+      "Weight": "3.17 kg (7 lb) with carry handle",
+      "Connections": "Bluetooth × 4 simultaneous sources + optical input + 3.5mm AUX input",
+      "Waterproof": "IP67 — waterproof and dustproof",
+      "Magic Button": "Adaptive EQ that adjusts for indoor/outdoor environments",
+      "Dimensions": "17.3\" H × 9.7\" W × 9.7\" D",
+      "Multilink": "Pair up to two HYPERBOOM speakers together"
+    }
+  },
+  {
+    "id": "vitamix-one-series-blender",
+    "name": "Vitamix S30 Personal Blender with 20 oz and 40 oz Containers",
+    "category": "Kitchen & Dining",
+    "score": 8.5,
+    "tag": "Blenders",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/81qFbcUzqmL._AC_SX500_.jpg",
+    "price": "~$399 CAD",
+    "page": "products/vitamix-one-series-blender.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00JS8S2IC/?tag=clearpick06-20",
+    "subscores": {
+      "Power": 9.5,
+      "Compact Design": 9,
+      "Build Quality": 9.5,
+      "Value": 7.5,
+      "Versatility": 9
+    },
+    "specs": {
+      "Motor": "900W (2.0 peak HP)",
+      "Containers": "20 oz and 40 oz containers included — Tritan BPA-free plastic",
+      "Blades": "Hardened stainless steel laser-cut blades",
+      "Speed": "Variable speed dial + pulse",
+      "Self-Cleaning": "Self-cleaning in 30–60 seconds — soap + warm water + run",
+      "Height": "14.5\" tall — fits under standard kitchen cabinets",
+      "Made": "Assembled in the USA",
+      "Warranty": "5-year full machine warranty"
+    }
+  },
+  {
+    "id": "wiz-smart-color-bulb-4pack",
+    "name": "WiZ A19 RGBW Smart Wi-Fi LED Bulbs, 4-Pack, No Hub Required",
+    "category": "Smart Home",
+    "score": 8.2,
+    "tag": "Smart Bulbs",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$49 CAD",
+    "page": "products/wiz-smart-color-bulb-4pack.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08HJLMSJQ/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9,
+      "Setup Ease": 9.5,
+      "Color Range": 8.5,
+      "Reliability": 8,
+      "App Quality": 8
+    },
+    "specs": {
+      "Bulbs": "4× A19 E26 base, 806 lumen, 2200K–6500K + full color",
+      "Connectivity": "Direct Wi-Fi (2.4GHz) — no hub needed",
+      "Voice": "Alexa, Google, Siri Shortcuts",
+      "Matter": "Matter compatible via firmware",
+      "Wattage": "8.8W (60W equivalent)",
+      "Dimming": "1%–100%"
+    }
+  },
+  {
+    "id": "wopet-automatic-cat-feeder",
+    "name": "WOPET Automatic Cat Feeder with HD Camera and App Control",
+    "category": "Pet Supplies",
+    "score": 8,
+    "tag": "Automatic Feeders",
+    "icon": "🐾",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/wopet-automatic-cat-feeder.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07N4DZ6PM/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9,
+      "Video Quality": 7.5,
+      "Scheduling": 8,
+      "App Experience": 7.5,
+      "Reliability": 8
+    },
+    "specs": {
+      "Capacity": "6L hopper (dry food only)",
+      "Meals": "Up to 6 meals/day programmable",
+      "Portion": "1–10 portions per meal",
+      "Camera": "720p with night vision",
+      "Audio": "Record 10s voice message per meal",
+      "Connectivity": "Wi-Fi 2.4GHz",
+      "Power": "AC adapter"
+    }
+  },
+  {
+    "id": "wyze-cam-v4",
+    "name": "Wyze Cam v4 Wired 2.5K Indoor/Outdoor Security Camera",
+    "category": "Smart Home",
+    "score": 8.5,
+    "tag": "Security Cameras",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$39 CAD",
+    "page": "products/wyze-cam-v4.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C6GF9XLM/?tag=clearpick06-20",
+    "subscores": {
+      "Value": 9.5,
+      "Video Quality": 8.5,
+      "Setup Ease": 9,
+      "App Quality": 8,
+      "Storage Options": 8.5
+    },
+    "specs": {
+      "Video": "2.5K QHD (2560×1440p), 130° FOV",
+      "Night Vision": "Color night vision (well-lit areas)",
+      "Weather": "IP65 weatherproof",
+      "Audio": "Two-way audio",
+      "Storage": "Free 14-day cloud events + microSD slot (32GB included)",
+      "Connectivity": "Wi-Fi 2.4GHz & 5GHz (first Wyze cam with 5GHz)",
+      "Protocols": "Alexa, Google"
+    }
+  },
+  {
+    "id": "yale-assure-lock-2-plus",
+    "name": "Yale Assure Lock 2 Plus with Wi-Fi and Matter",
+    "category": "Smart Home",
+    "score": 8.6,
+    "tag": "Smart Locks",
+    "icon": "🏠",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/yale-assure-lock-2-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09CDNG63N/?tag=clearpick06-20",
+    "subscores": {
+      "Matter Support": 9.5,
+      "App Quality": 8.5,
+      "Value": 8.5,
+      "Build Quality": 8.5,
+      "Setup Ease": 8.5
+    },
+    "specs": {
+      "Connectivity": "Wi-Fi built-in (no hub needed) + Bluetooth",
+      "Protocols": "Matter, Alexa, Google, HomeKit, SmartThings",
+      "Codes": "250 access codes",
+      "Keypad": "Touchscreen + physical keypad",
+      "Power": "4 AA batteries",
+      "Key Backup": "Traditional key override included",
+      "Installation": "Standard deadbolt replacement"
+    }
+  },
+  {
+    "id": "cuisinart-toa-65-airfryer-toaster-oven",
+    "name": "Cuisinart TOA-65 Digital AirFryer Toaster Oven with Convection",
+    "category": "Kitchen & Dining",
+    "score": 8.6,
+    "tag": "Toaster Ovens",
+    "icon": "🍽️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/cuisinart-toa-65-airfryer-toaster-oven.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07P24W6GV/?tag=clearpick06-20",
+    "subscores": {
+      "Versatility": 9.5,
+      "Cooking Quality": 9,
+      "Capacity": 9,
+      "Value": 8,
+      "Ease of Use": 8.5
+    },
+    "specs": {
+      "Capacity": "0.6 cu ft interior — fits 12\" pizza or 6 slices toast",
+      "Functions": "8 — Air Fry, Convection Bake, Convection Broil, Bake, Broil, Warm, Toast, Speed Convection",
+      "Temperature": "Bake: 175°F–450°F, Air Fry: 200°F–450°F",
+      "Accessories": "Air fry rack, baking pan, broiling rack, oven rack",
+      "Display": "Digital LCD with 60-min timer",
+      "Material": "Stainless steel exterior",
+      "Interior Light": "Interior oven light"
+    }
+  },
+  {
+    "id": "keurig-k-mini-plus",
+    "name": "Keurig K-Mini Plus Single Serve K-Cup Pod Coffee Maker",
+    "category": "Kitchen & Dining",
+    "score": 8.5,
+    "tag": "Coffee Makers",
+    "icon": "🍽️",
+    "image": "https://m.media-amazon.com/images/I/61UTFJux1pL._AC_SX500_.jpg",
+    "price": "~$119 CAD",
+    "page": "products/keurig-k-mini-plus.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07GV2S1GS/?tag=clearpick06-20",
+    "subscores": {
+      "Compact Design": 9.5,
+      "Ease of Use": 9.5,
+      "Brew Options": 8,
+      "Value": 8,
+      "Speed": 9
+    },
+    "specs": {
+      "Width": "Less than 5 inches wide — fits anywhere",
+      "Tank": "Single-serve fresh fill OR removable 12oz reservoir for multiple cups",
+      "Cup Size": "6, 8, 10, or 12 oz",
+      "K-Cup": "Compatible with all K-Cup pods including reusable My K-Cup",
+      "Brew Time": "~2 minutes per cup",
+      "Strong Mode": "Strong Brew button for bolder, more concentrated taste",
+      "Auto Off": "Auto On/Off button"
+    }
   }
 ]

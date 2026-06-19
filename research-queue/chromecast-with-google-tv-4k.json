@@ -1,0 +1,109 @@
+{
+  "slug": "chromecast-with-google-tv-4k",
+  "name": "Google TV Streamer 4K (2024) with Hands-Free Google Assistant",
+  "brand": "Google",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Streaming Devices",
+  "subcategory": "streaming-devices",
+  "asin": "B0CZHLQ2Z5",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.9,
+  "tag": "Streaming Devices",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CZHLQ2Z5/?tag=clearpick06-20",
+  "subscores": {
+    "Google Integration": 9.5,
+    "Performance": 9,
+    "Remote": 9,
+    "Content Discovery": 9,
+    "Value": 8.5
+  },
+  "specs": {
+    "Resolution": "4K HDR, Dolby Vision, HDR10+",
+    "Performance": "Quad-core CPU, 4GB RAM, 32GB storage",
+    "Smart OS": "Google TV",
+    "Voice": "Hands-free Google Assistant with far-field microphones",
+    "Remote": "Full Bluetooth remote with backlit keys, Google Assistant, TV power/volume",
+    "Connectivity": "Wi-Fi 6E, Bluetooth 5.0, HDMI 2.1, USB-C power + data port"
+  },
+  "whatWorks": [
+    "The 2024 Google TV Streamer replaces the discontinued Chromecast with a full processor upgrade — 4GB RAM and 32GB storage versus the old 2GB/8GB spec means apps launch faster, multitasking is smoother, and the device doesn't slow down over time like older Chromecasts did.",
+    "Hands-free Google Assistant with far-field microphones means you can control playback, ask questions, and navigate without picking up the remote. Combined with the new backlit Bluetooth remote, this is the most convenient home theater control experience outside of a universal remote system.",
+    "Google TV's content discovery is genuinely excellent — a unified 'For You' feed recommends content across Netflix, Disney+, Crave, Prime, and Apple TV+ based on your watch history, without requiring you to open each app separately. The integration between Google services (YouTube, Google Photos) is seamless.",
+    "Wi-Fi 6E support gives the Streamer access to the 6GHz band if your router supports it — in crowded apartment buildings where 2.4GHz and 5GHz bands are congested, the 6GHz connection is dramatically more reliable for 4K streaming without buffering."
+  ],
+  "worthKnowing": [
+    "The Google TV Streamer is a set-top box, not a stick — it requires a HDMI cable and a separate power source, unlike stick-style devices that plug directly into the TV. The USB-C port also doubles as data for accessories. This isn't a dealbreaker but changes the cable management situation.",
+    "At $149 CAD, the Google TV Streamer costs twice the Roku Streaming Stick 4K. The performance gap is real, but buyers who primarily stream Netflix and Disney+ without hands-free control needs may find the $80 Roku sufficient.",
+    "Google's hands-free microphones are always listening for the hotword — buyers with privacy concerns about always-on microphones should know this is enabled by default, though it can be disabled with a hardware mute button on the device.",
+    "Dolby Atmos audio passthrough requires a compatible soundbar or receiver — the device itself doesn't produce Atmos spatially, it passes the bitstream through. Buyers with TV speakers only won't notice a difference from standard stereo."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Expensive compared to Roku…",
+      "body": "It's great but $149 for a streaming box when the Roku Stick 4K does 90% of the same thing for $69 is a tough sell unless you're deep in the Google ecosystem.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Not a stick — requires cable…",
+      "body": "I wanted to hide it behind my TV but the box form factor with a separate HDMI cable is harder to conceal than a stick. Minor issue but worth knowing.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Microphone always listening concerns…",
+      "body": "The far-field mics are on by default. You can mute them with a button but this is something Google should make opt-in at setup.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Home screen still shows promoted content…",
+      "body": "Google TV home screen pushes sponsored content in the recommended rows. The 'For You' section is useful but the ads are annoying.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The 2024 Google TV Streamer is the best Android/Google TV streaming device available — faster than its Chromecast predecessor in every measurable way, with hands-free Google Assistant, Wi-Fi 6E, and genuine 4K HDR performance. The $149 price is steep against a $69 Roku, but for Google ecosystem users, households that want voice control without a smart speaker, and anyone who values seamless cross-service content discovery, it's worth the premium.",
+  "realBuyers": [
+    {
+      "quote": "I replaced my old Chromecast Ultra and the difference is massive. Apps open instantly and it's never stuttered once.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Asking it 'what should I watch tonight' and getting real cross-app recommendations is genuinely useful. I didn't expect to like it this much.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Wi-Fi 6E is a game changer in my apartment building where the 5GHz band is constantly congested. Streaming has been flawless.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The backlit remote alone is worth it. I watched TV in the dark for years squinting at an unlit remote. Simple upgrade, massive quality of life.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google TV Streamer 4K — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CZHLQ2Z5"
+    },
+    {
+      "title": "Google TV Streamer Review — The Verge",
+      "url": "https://www.theverge.com/google/google-tv-streamer-review"
+    },
+    {
+      "title": "Best Streaming Devices — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-media-streamers/"
+    }
+  ],
+  "metaDescription": "Google TV Streamer 4K 2024 review for Canada: Wi-Fi 6E, hands-free Google Assistant, Dolby Vision at $149 CAD. Successor to discontinued Chromecast.",
+  "introText": "The Google TV Streamer 4K (ASIN B0CZHLQ2Z5) is the 2024 successor to the discontinued Chromecast — a full streaming box with Wi-Fi 6E, hands-free Google Assistant, and Google TV for around $149 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0CZHLQ2Z5",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": [
+    "apple-tv-4k-3rd-gen",
+    "samsung-q80d-65-qled-tv",
+    "sony-bravia-9-65-mini-led-tv"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "kasa-smart-plug-mini-ep25",
+  "name": "Kasa Smart Plug Mini EP25, Matter Compatible Energy Monitoring",
+  "brand": "Kasa (TP-Link)",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Smart Plugs",
+  "subcategory": "smart-plugs",
+  "asin": "B091FXLMS8",
+  "price": 29,
+  "priceDisplay": "$29 CAD",
+  "score": 8.9,
+  "tag": "Smart Plugs",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B091FXLMS8/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9.5,
+    "Setup Ease": 9.5,
+    "Energy Monitoring": 9,
+    "Reliability": 9,
+    "App Quality": 8.5
+  },
+  "specs": {
+    "Connectivity": "Wi-Fi 2.4GHz",
+    "Protocols": "Matter over Wi-Fi",
+    "Energy": "Real-time energy monitoring in app",
+    "Load Rating": "15A / 1800W max",
+    "Voice": "Alexa, Google, SmartThings, HomeKit",
+    "Size": "Compact — doesn't block second outlet",
+    "USB": "No"
+  },
+  "whatWorks": [
+    "The EP25 includes real-time energy monitoring at $29 CAD, a feature that typically costs $50+ on competing smart plugs. The Kasa app breaks down daily, weekly, and monthly kWh consumption with estimated cost — genuinely useful for identifying energy hogs like space heaters and older appliances.",
+    "Matter compatibility means the EP25 works natively with HomeKit, Alexa, Google, and SmartThings without needing a Kasa account for local control. For users building a Matter-first smart home, this plug integrates cleanly with any Matter controller.",
+    "The compact form factor doesn't block the second outlet on a standard duplex receptacle — a detail that sounds minor until you've used an oversized smart plug that makes your second outlet unusable. Kasa's flat-profile design solves this correctly.",
+    "Setup via the Kasa app takes under two minutes and requires no QR scanning or account linking for basic use. The app's scheduling and away-mode features (random on/off to simulate occupancy) work reliably and are accessible to non-technical users."
+  ],
+  "worthKnowing": [
+    "The EP25 requires a 2.4GHz Wi-Fi network — it does not support 5GHz. This is common across smart plugs but worth noting if your router broadcasts only a combined network. Most routers handle this automatically, but some users on Wi-Fi 6E setups need to verify their 2.4GHz band is active.",
+    "Matter local control bypasses the Kasa cloud, but initial setup still requires the Kasa app and a Kasa account. After Matter pairing is established, you can control it without the account — but the setup process isn't entirely cloud-free.",
+    "There's no USB port on the EP25, unlike some competing smart plugs that add a USB-A or USB-C charging port. If you need to charge a device through the smart plug outlet, the EP25 can do it, but you can't charge via USB separately from the controlled outlet.",
+    "The Kasa app occasionally pushes firmware updates that require a brief reconnection period. Most users don't notice, but automations relying on precise timing may miss a trigger during an update window."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No 5GHz support…",
+      "body": "My router broadcasts a combined 2.4/5GHz network with the same name and this plug would not connect. Had to dig into router settings to split the bands.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Still need a Kasa account for Matter setup…",
+      "body": "I thought Matter meant I could skip creating yet another account. Nope — still had to make a Kasa account just to onboard it. After that, HomeKit works fine though.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No USB charging port…",
+      "body": "Every other smart plug I've used has a USB port. This one doesn't. Not a dealbreaker but I miss having it for phone charging.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Firmware updates disconnect briefly…",
+      "body": "Lost my lamp automation at 2am three times now due to firmware updates. Wish there was a way to schedule updates for daytime.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Kasa EP25 is the best value smart plug in Canada — $29 CAD buys you real-time energy monitoring, Matter compatibility, compact design, and rock-solid Wi-Fi reliability. Competing plugs charge $50–80 for similar feature sets. It's the straightforward answer for anyone who wants to make any outlet smart without overthinking it.",
+  "realBuyers": [
+    {
+      "quote": "Energy monitoring showed my space heater was costing me $40/month. I had no idea. Already paid for itself.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Connected to HomeKit without issues. My lamp, coffee maker, and fan are all on automations now. Works every time.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Compact design is the big thing — I can use both outlets on the same faceplate. My old smart plug made me lose the second outlet.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Setup was two minutes. I've set up six of these across the house. Zero issues in a year of daily use.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Kasa Smart Plug Mini EP25 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B091FXLMS8"
+    },
+    {
+      "title": "Best Smart Plugs — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-smart-plug/"
+    },
+    {
+      "title": "Kasa EP25 Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/kasa-smart-plug-mini-ep25"
+    }
+  ],
+  "metaDescription": "Kasa EP25 Smart Plug review for Canada: Matter compatible, real-time energy monitoring, compact design, $29. Honest on 2.4GHz limit and setup. ~$29 CAD.",
+  "introText": "The Kasa Smart Plug Mini EP25 packs real-time energy monitoring and Matter compatibility into a compact outlet form factor at $29 CAD — one of the most feature-rich smart plugs at this price point. Available on Amazon.ca (ASIN B091FXLMS8) at around $29 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B091FXLMS8",
+  "verifiedPrice": "$29 CAD",
+  "similarProducts": [
+    "amazon-echo-dot-5th-gen",
+    "amazon-echo-pop",
+    "amazon-echo-show-8-3rd-gen"
+  ]
+}

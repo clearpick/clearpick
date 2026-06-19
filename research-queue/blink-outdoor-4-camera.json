@@ -1,0 +1,110 @@
+{
+  "slug": "blink-outdoor-4-camera",
+  "name": "Blink Outdoor 4 Wireless Security Camera System, 4-Camera Kit",
+  "brand": "Blink (Amazon)",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Security Cameras",
+  "subcategory": "security-cameras",
+  "asin": "B0B1N5HW22",
+  "price": 299,
+  "priceDisplay": "$299 CAD",
+  "score": 8.0,
+  "tag": "Security Cameras",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0B1N5HW22/?tag=clearpick06-20",
+  "subscores": {
+    "Battery Life": 9.5,
+    "Value": 8.5,
+    "Setup Ease": 9,
+    "Video Quality": 7.5,
+    "Cloud Storage": 8
+  },
+  "specs": {
+    "Video": "1080p HD, 110° FOV",
+    "Battery": "2× AA lithium batteries per camera, ~2 years",
+    "Weather": "IP65 weatherproof",
+    "Night Vision": "Infrared night vision",
+    "Storage": "Free 60-day cloud storage trial, then $3.99/month Blink Subscription Plan",
+    "Sync Module": "Blink Sync Module 2 included",
+    "Local Storage": "USB flash drive option via Sync Module"
+  },
+  "whatWorks": [
+    "Two-year battery life per camera is the category-defining feature of Blink Outdoor 4 — most competing battery cameras need charging every 1–4 months, making Blink's two-year claim (using Energizer Ultimate Lithium batteries as specified) a genuine differentiator for hard-to-reach mounting locations.",
+    "The 4-camera kit at $299 CAD delivers cost-per-camera coverage that's hard to match in the wired or subscription-free category. Covering four entry points, corners, or parking areas with a single purchase significantly reduces the cost-per-coverage-zone versus individual camera purchases.",
+    "Setup is entirely wireless and app-guided — no drilling for power cables, no NVR to configure. The Sync Module connects to your router via Ethernet or Wi-Fi, cameras pair by scanning a QR code, and the whole system is typically operational in under 30 minutes for all four cameras.",
+    "Local storage via a USB flash drive plugged into the Sync Module is a genuinely useful subscription-free option — motion clips are stored locally without a monthly fee, making Blink viable long-term without ongoing cloud costs."
+  ],
+  "worthKnowing": [
+    "After the 60-day free trial, cloud storage requires a Blink Subscription Plan at $3.99/month per camera or $10/month for unlimited cameras. Without a subscription, the only storage option is local via USB — motion alert previews still appear in the app, but full clips require a subscription or USB retrieval.",
+    "1080p video quality is functional but not class-leading — the 110° field of view is narrow compared to competitors offering 130°+ FOV, and night vision performance in low-light conditions is adequate but not exceptional. For license plate reading or fine detail at distance, these cameras underperform.",
+    "The Blink app has improved significantly but still lags behind Arlo and Google Nest apps in features and responsiveness. Live view can take 5–8 seconds to connect — slower than wired cameras — and there's no 24/7 continuous recording option.",
+    "Battery life of two years assumes Energizer Ultimate Lithium batteries and typical motion detection frequency. Heavy motion activity (high-traffic areas, windy locations with constant motion) can reduce battery life dramatically — as little as 3–4 months in some high-activity environments."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Cloud storage requires a subscription after 60 days…",
+      "body": "The free trial is 60 days, then you're paying $3.99/camera/month. They don't make that very obvious before you buy. USB local storage works but is inconvenient to access.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Live view takes forever to connect…",
+      "body": "Every time I tap to view live, I wait 6–8 seconds for the stream to start. My Ring camera connects in 2 seconds. It's technically functional but frustrating.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Battery life drops in cold Canadian winters…",
+      "body": "Two years of battery life is in ideal conditions. My outdoor cameras in Canadian winters lasted about 8 months before needing new batteries.",
+      "source": "Reddit"
+    },
+    {
+      "title": "FOV is narrower than I expected…",
+      "body": "110° isn't enough to cover my driveway without two cameras. I needed 5 cameras for coverage I thought 4 would handle.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Blink Outdoor 4 Camera Kit is the right choice for buyers who want maximum coverage at minimum per-camera cost and don't want to run power cables. The two-year battery life and local storage option make it genuinely low-maintenance. Video quality and app experience trail Arlo and Google Nest, but for basic motion detection and deterrence at $299 for four cameras, Blink delivers solid value.",
+  "realBuyers": [
+    {
+      "quote": "I installed all four cameras in an afternoon with no electrician, no wiring, just screws and the Sync Module. Two years and I haven't touched the batteries.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Coverage across four corners of my house for $300 is genuinely incredible. Would've cost $800+ for wired cameras installed.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "USB local storage is the key for me — I don't pay for any subscription and I have clips saved whenever there's motion. Works perfectly.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Motion alerts are fast and the night vision is good enough to see what's happening in the driveway. Does what I need for the price.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Blink Outdoor 4 Security Camera System — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0B1N5HW22"
+    },
+    {
+      "title": "Best Wireless Security Cameras — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-wireless-home-security-camera/"
+    },
+    {
+      "title": "Blink Outdoor 4 Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/blink-outdoor-4"
+    }
+  ],
+  "metaDescription": "Blink Outdoor 4-Camera Kit review for Canada: 2-year battery, 4-camera coverage at $299. Honest on subscription costs, FOV limits, and winter battery life. ~$299 CAD.",
+  "introText": "The Blink Outdoor 4 is a four-camera wireless security system that runs on AA batteries for up to two years, with no power wiring required and an optional local storage path that avoids cloud subscription fees. Available on Amazon.ca (ASIN B0B1N5HW22) at around $299 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0B1N5HW22",
+  "verifiedPrice": "$299 CAD",
+  "similarProducts": [
+    "blink-video-doorbell",
+    "arlo-essential-video-doorbell-wire-free",
+    "ring-battery-video-doorbell-2024"
+  ]
+}

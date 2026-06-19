@@ -1,0 +1,110 @@
+{
+  "slug": "lg-qned80-65-tv",
+  "name": "LG QNED80 65-Inch 4K Smart TV with NanoCell, 2024",
+  "brand": "LG",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Budget TVs",
+  "subcategory": "budget-tvs",
+  "asin": "B0BTLZQ7M1",
+  "price": 1099,
+  "priceDisplay": "$1,099 CAD",
+  "score": 8.8,
+  "tag": "Budget TVs",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BTLZQ7M1/?tag=clearpick06-20",
+  "subscores": {
+    "Color Accuracy": 9,
+    "Gaming Mode": 9.5,
+    "webOS": 9,
+    "HDR": 8.5,
+    "Value": 8
+  },
+  "specs": {
+    "Resolution": "4K UHD",
+    "Panel": "NanoCell QNED (Quantum NanoCell Diode)",
+    "HDR": "Dolby Vision IQ, HDR10 Pro, HLG",
+    "Refresh Rate": "120Hz native",
+    "Gaming": "ALLM, VRR, G-Sync compatible, FreeSync Premium",
+    "Smart OS": "webOS 24",
+    "Audio": "Dolby Atmos — 2.0 40W"
+  },
+  "whatWorks": [
+    "LG's QNED80 combines NanoCell color filtering with quantum dots for wide color gamut coverage — skin tones, natural colors, and saturated content like animation and sport graphics are all handled accurately and vividly. LG's color science is among the best in the industry.",
+    "webOS 24 remains one of the most polished smart TV platforms — the Magic Remote with point-and-click cursor control makes navigation genuinely fast, the interface is clean and uncluttered, and LG's app support is comprehensive including all major Canadian streaming services.",
+    "True 120Hz native refresh rate with G-Sync and FreeSync Premium makes this a legitimately excellent gaming TV. Input lag in Game Optimizer mode drops to under 5ms, VRR runs smooth, and ALLM switches to game mode automatically when a console is detected.",
+    "LG's Dolby Vision IQ implementation is one of the best available — it reads ambient light via built-in sensor and adjusts tone mapping continuously, so the picture looks correct whether you're watching at noon in a sunlit room or at midnight with everything dark."
+  ],
+  "worthKnowing": [
+    "NanoCell panels have limited local dimming compared to Mini-LED TVs — blacks in dark scenes aren't as deep as TCL's Q6 Mini-LED at a lower price. LG wins on color accuracy and gaming features but loses on pure contrast performance.",
+    "At $1,099 CAD, the QNED80 is priced significantly above the TCL Q6 and Hisense U8N — both of which offer Mini-LED panels with potentially better contrast for less money. LG's advantages are webOS, gaming features, and build quality, not peak picture performance.",
+    "The Magic Remote is excellent but the LR1000 replacement remote sold separately is expensive if lost or broken. LG's ThinQ app can be used as a backup but the experience is inferior to the physical remote.",
+    "webOS collects viewing data for ad targeting by default — users should opt out during initial setup or in settings. The option is available but buried, and the default-on setting is worth being aware of."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Blacks aren't as deep as Mini-LED…",
+      "body": "I returned a TCL Q6 thinking LG would have better picture but the contrast is actually worse. The QNED80 wins on color but not on black levels.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Expensive for what you get vs Hisense…",
+      "body": "The U8N Mini-LED is $100 less and has better contrast. You're paying for webOS and the LG name here.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Data collection is on by default…",
+      "body": "Had to dig into settings to turn off ACR and ad targeting. Should be opt-in, not opt-out on a $1100 TV.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Magic Remote battery life is short…",
+      "body": "Magic Remote dies faster than I expected and AAA batteries aren't rechargeable. I replaced it with a rechargeable version from third-party.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The LG QNED80 is the best choice for gamers and webOS fans who want a premium mid-range TV — true 120Hz, G-Sync/FreeSync, sub-5ms input lag, and LG's exceptional color science make it the top gaming TV under $1,200 CAD. It's beaten on raw contrast by Mini-LED competitors at lower prices, so buyers who prioritize cinematic dark-room performance should compare carefully. For gaming, sports, and daily mixed use, the QNED80 is excellent.",
+  "realBuyers": [
+    {
+      "quote": "Gaming on this with PS5 is incredible. VRR, 120Hz, G-Sync — everything is buttery smooth and the colors are gorgeous.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The Magic Remote makes navigating apps so much faster than a regular TV remote. webOS is the best smart TV interface I've used.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Color accuracy for photography and video editing content is exceptional — skin tones are natural in a way that Samsung TVs never quite nail.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Switched from a Samsung and the webOS difference is night and day. LG's smart TV software is just better.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "LG QNED80 65-inch — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BTLZQ7M1"
+    },
+    {
+      "title": "LG QNED80 Review — Rtings.com",
+      "url": "https://www.rtings.com/tv/reviews/lg/qned80"
+    },
+    {
+      "title": "Best Gaming TVs — Digital Trends",
+      "url": "https://www.digitaltrends.com/home-theater/best-gaming-tvs/"
+    }
+  ],
+  "metaDescription": "LG QNED80 65-inch review for Canada: 120Hz, G-Sync, webOS 24, Dolby Vision IQ at $1099 CAD. Honest on contrast vs Mini-LED competitors.",
+  "introText": "The LG QNED80 65-inch (ASIN B0BTLZQ7M1) pairs NanoCell QNED color with 120Hz native, G-Sync/FreeSync gaming, and webOS 24 for around $1,099 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0BTLZQ7M1",
+  "verifiedPrice": "$1,099 CAD",
+  "similarProducts": [
+    "lg-c5-oled-65-tv",
+    "lg-g4-oled-65-tv",
+    "samsung-qn90d-neo-qled-65-tv"
+  ]
+}

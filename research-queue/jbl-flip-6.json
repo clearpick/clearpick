@@ -1,0 +1,110 @@
+{
+  "slug": "jbl-flip-6",
+  "name": "JBL Flip 6 Portable Bluetooth Speaker with IP67 and PartyBoost",
+  "brand": "JBL",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Portable Speakers",
+  "subcategory": "portable-speakers",
+  "asin": "B09K53GDRC",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.5,
+  "tag": "Portable Speakers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09K53GDRC/?tag=clearpick06-20",
+  "subscores": {
+    "Portability": 9.5,
+    "Sound Quality": 8.5,
+    "Bass": 8.5,
+    "Waterproofing": 9,
+    "Value": 9
+  },
+  "specs": {
+    "Battery": "12 hours playback",
+    "Waterproof": "IP67 — fully submersible 1m for 30 minutes",
+    "Weight": "550g (1.2 lb)",
+    "Connectivity": "Bluetooth 5.1",
+    "PartyBoost": "Link multiple JBL PartyBoost-compatible speakers for party or stereo modes",
+    "Charging": "USB-C",
+    "Dual Passive Radiators": "Two passive radiators for enhanced bass response at low frequencies"
+  },
+  "whatWorks": [
+    "At 550 grams and a compact cylindrical form, the Flip 6 is one of the most packable waterproof speakers in its class — it fits in a jacket pocket, slips into a day pack without taking up meaningful space, and the rubber exterior survives the bumps and drops of active use without visible damage.",
+    "Dual passive radiators on each end generate bass output well beyond what the physical size suggests — the low-end presence on music with drums or synthesized bass is impressive for a speaker this compact. In outdoor environments with ambient noise, the Flip 6 projects sound clearly without becoming muddy.",
+    "IP67 waterproofing makes the Flip 6 genuinely pool, lake, and rain safe — not just splash resistant. The Flip series' long track record of surviving submersion incidents gives the rating credibility that cheaper speaker certifications sometimes lack.",
+    "JBL's PartyBoost multilink allows chaining with other JBL PartyBoost speakers — two units in stereo mode create convincing left-right separation that a single speaker can't achieve. This makes starting small (one Flip 6) and expanding later a practical option."
+  ],
+  "worthKnowing": [
+    "12 hours battery life is half that of the JBL Charge 5 at only $50 more. Buyers who frequently use a speaker for longer than a day without charging should consider the Charge 5 instead — the Flip 6 is optimized for portability over endurance.",
+    "The Flip 6 dropped the aux input that the Flip 5 had — it's now Bluetooth only. JBL removed the 3.5mm jack to improve waterproofing, but buyers who needed that connection point are now without it.",
+    "Sound at very high volumes can develop distortion on the low end — the passive radiators work hard at max volume and the speaker's small size has physical limits. Outdoor use at 70-80% volume sounds better than cranking it to 100%.",
+    "JBL's sound signature is pronounced and bass-forward — listeners who prefer neutral or treble-forward sound (classical, jazz, podcasts) may find the EQ app necessary to dial the bass back to a balanced profile."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No aux input anymore…",
+      "body": "Flip 5 had a 3.5mm jack. Flip 6 doesn't. I had an old amp I liked using it with and now I can't. Bluetooth-only is a regression.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Distorts a bit at max volume…",
+      "body": "At 100% volume outdoors on bass-heavy music you can hear it straining. Keep it at 80% and it sounds much better.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "12 hours isn't enough for a weekend trip…",
+      "body": "I camp for 3-day weekends and I'm charging it every night. Wish it had the Charge 5's battery in the Flip's size.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Bass heavy by default…",
+      "body": "Podcasts and acoustic music sound muddy out of the box. The JBL app lets you EQ it but the default tuning is clearly for dance and hip-hop.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The JBL Flip 6 is the best compact waterproof Bluetooth speaker for buyers who prioritize portability — at 550g and pocket-sized, it's the easiest daily-carry speaker with IP67 protection. Sound is excellent for the size, though the removed aux input is a downgrade from the Flip 5 and 12-hour battery requires nightly charging on longer trips. For day hikes, beach days, and casual outdoor use, it's the right balance of size, sound, and durability.",
+  "realBuyers": [
+    {
+      "quote": "Fits in my jacket pocket and sounds louder than any speaker this size has a right to. Flip 6 goes everywhere with me.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "IP67 is legitimate. Left it in the rain for two hours by accident — still works perfectly.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Linked two Flip 6s in stereo mode for a house party. The sound filled the room in a way one speaker can't — genuinely impressive.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The passive radiators make the bass feel physical. For EDM at the beach it's unbeatable at this size and price.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "JBL Flip 6 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09K53GDRC"
+    },
+    {
+      "title": "JBL Flip 6 Review — SoundGuys",
+      "url": "https://www.soundguys.com/jbl-flip-6-review/"
+    },
+    {
+      "title": "Best Portable Speakers — TechRadar",
+      "url": "https://www.techradar.com/best/best-portable-bluetooth-speakers"
+    }
+  ],
+  "metaDescription": "JBL Flip 6 review for Canada: IP67, 12h battery, PartyBoost, 550g compact at $149 CAD. Best portable waterproof speaker under $150.",
+  "introText": "The JBL Flip 6 (ASIN B09K53GDRC) is a compact IP67 waterproof Bluetooth speaker with dual passive radiators and PartyBoost multilink — available on Amazon.ca for around $149 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09K53GDRC",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": [
+    "bose-quietcomfort-ultra-headphones",
+    "apple-airpods-pro-2nd-gen",
+    "sennheiser-momentum-4-wireless"
+  ]
+}

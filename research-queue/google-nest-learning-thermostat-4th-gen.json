@@ -1,0 +1,110 @@
+{
+  "slug": "google-nest-learning-thermostat-4th-gen",
+  "name": "Google Nest Learning Thermostat (4th Generation)",
+  "brand": "Google",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Smart Thermostats",
+  "subcategory": "smart-thermostats",
+  "asin": "B0BPVSSH1Y",
+  "price": 329,
+  "priceDisplay": "$329 CAD",
+  "score": 9.0,
+  "tag": "Smart Thermostats",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BPVSSH1Y/?tag=clearpick06-20",
+  "subscores": {
+    "Auto-Learning": 9.5,
+    "Energy Savings": 9.5,
+    "Display": 9.5,
+    "App Quality": 9,
+    "Value": 8
+  },
+  "specs": {
+    "Display": "2.08\" 24-bit color LCD",
+    "Auto-Schedule": "Learns your preferences automatically over 1 week",
+    "Remote Sensing": "Works with Nest Temperature Sensors (sold separately)",
+    "Connectivity": "Wi-Fi 802.11b/g/n/ac (2.4GHz/5GHz)",
+    "Voice": "Google Assistant, Alexa, Apple HomeKit",
+    "HVAC": "Works with most 24V heating/cooling systems",
+    "Wiring": "C-wire or Nest Power Connector (included)"
+  },
+  "whatWorks": [
+    "Auto-learning is the Nest Learning Thermostat's signature capability and it genuinely works — within one week, the thermostat observes your adjustments and builds a schedule that reflects when you're actually home and what temperatures you prefer. Most users report setting it once and never touching it again.",
+    "The 4th generation adds a full-color display that shows the current temperature, set point, and ambient conditions at a glance from across the room. The display also shows the current time and weather, making the thermostat useful as a room display rather than just a temperature control.",
+    "Energy History in the Nest app provides detailed heating and cooling usage breakdowns with a leaf icon when you hit energy-efficient temperatures. Google's estimates suggest 10–15% savings on heating and 15% on cooling — consistent with third-party studies showing meaningful energy reduction for users who weren't previously on programmable schedules.",
+    "Farsight technology detects when someone approaches and wakes the display to show the current temperature — a small detail that makes the interface feel polished and responsive rather than passive."
+  ],
+  "worthKnowing": [
+    "The learning feature requires active use to work properly — the thermostat learns from manual adjustments. Users who rarely change temperatures (set once and leave it) won't see meaningful learning. The auto-schedule only improves when given behavioral data to learn from.",
+    "Nest Temperature Sensors extend remote sensing to multiple rooms but are sold separately at $49 CAD each. For homes with multiple zones or rooms that heat and cool unevenly, the sensor investment adds up quickly and was expected to be included at this price point.",
+    "A C-wire (common wire) is required for stable operation. If your HVAC system doesn't have a C-wire available, Nest includes a Power Connector adapter, but the installation is more involved and may require professional help in some wiring configurations.",
+    "At $329 CAD, this is significantly more expensive than the Google Nest Thermostat at around $149 CAD or the ecobee at around $229 CAD. The additional cost buys the color display and learning capability — features that are genuinely useful but not essential for all buyers."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Temperature sensors sold separately…",
+      "body": "For a $329 thermostat, I expected at least one remote sensor to be included. ecobee includes one and costs $100 less. Feels like an oversight.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Learning requires consistent behavior to work…",
+      "body": "If you work from home some days and not others, the learning gets confused. It took about three weeks before it settled into something useful for my irregular schedule.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "C-wire installation was complicated…",
+      "body": "My old house didn't have a C-wire. The Power Connector adapter works but the installation was confusing enough that I paid an HVAC tech $75 to do it. Add that to the $329 price.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Expensive compared to ecobee…",
+      "body": "ecobee does everything this does plus includes a remote sensor for $100 less. I went Nest because I'm all Google, but the value proposition is hard to defend objectively.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The Google Nest Learning Thermostat 4th Gen is the most intuitive smart thermostat for people who don't want to program anything — it observes your habits and builds a schedule automatically. The color display, learning engine, and Google ecosystem integration are class-leading. The price premium over the ecobee and standard Nest Thermostat is real, and remote sensors being sold separately stings at this price point — but for Google-first households, it's the best thermostat available.",
+  "realBuyers": [
+    {
+      "quote": "I adjusted it twice on day one. By day five it was running the schedule I would have programmed myself. By day ten it was running a better schedule than I would have.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Energy report shows I cut my heating bill by 18% versus last winter. That's real money in a Canadian winter.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The color display actually looks good on the wall. Not a plastic box — it looks like something designed to be seen.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Works perfectly with my Nest Hub. I can see the temperature from the kitchen display and adjust it with my voice without crossing the room.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Google Nest Learning Thermostat 4th Gen — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BPVSSH1Y"
+    },
+    {
+      "title": "Nest Learning Thermostat Review — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/the-nest-learning-thermostat/"
+    },
+    {
+      "title": "Google Nest Learning Thermostat 4th Gen Review — The Verge",
+      "url": "https://www.theverge.com/google-nest-learning-thermostat-4th-gen-review"
+    }
+  ],
+  "metaDescription": "Google Nest Learning Thermostat 4th Gen review for Canada: auto-learning schedule, color display, energy savings. Honest on sensor cost and C-wire needs. ~$329 CAD.",
+  "introText": "The Google Nest Learning Thermostat (4th Generation) automatically learns your temperature preferences and builds a schedule without any manual programming, now with a 24-bit color display. Available on Amazon.ca (ASIN B0BPVSSH1Y) at around $329 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0BPVSSH1Y",
+  "verifiedPrice": "$329 CAD",
+  "similarProducts": [
+    "ecobee-smart-thermostat-premium",
+    "google-nest-thermostat",
+    "honeywell-home-t9-wifi-smart-thermostat"
+  ]
+}

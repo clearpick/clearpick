@@ -1,0 +1,110 @@
+{
+  "slug": "petsafe-smart-feed-2-automatic-feeder",
+  "name": "PetSafe Smart Feed 2 Automatic Dog and Cat Feeder, 24-Cup",
+  "brand": "PetSafe",
+  "category": "Pet Supplies",
+  "categoryPage": "pet-supplies.html",
+  "filterTag": "Automatic Feeders",
+  "subcategory": "automatic-feeders",
+  "asin": "B08G9QDTMM",
+  "price": 189,
+  "priceDisplay": "$189 CAD",
+  "score": 8.3,
+  "tag": "Automatic Feeders",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08G9QDTMM/?tag=clearpick06-20",
+  "subscores": {
+    "App Control": 8.5,
+    "Portion Accuracy": 9,
+    "Scheduling": 8.5,
+    "Build Quality": 8,
+    "Value": 7.5
+  },
+  "specs": {
+    "Capacity": "24 cups (6 lbs dry kibble)",
+    "Feedings": "Up to 12 meals/day",
+    "Portion Size": "1/8 cup increments (1/8 to 4 cups)",
+    "Connectivity": "Wi-Fi 2.4GHz",
+    "App": "PetSafe app for iOS/Android",
+    "Slow Feed": "Slow feed option disperses food over 15 minutes",
+    "Power": "AC adapter + backup batteries"
+  },
+  "whatWorks": [
+    "Portion accuracy is the Smart Feed 2's standout strength — the auger-driven dispensing mechanism is consistent to within 1–2 pieces of kibble per feeding, which matters significantly for dogs on strict dietary management or weight loss programs. Gravity-based dispensers can vary by 20–30%, making them unusable for precise feeding.",
+    "The PetSafe app allows manual feeding, schedule adjustment, and meal pausing from anywhere with internet access. The feed-now button is particularly useful for owners whose routines change frequently — you can push a meal from your phone mid-commute without coming home early.",
+    "The slow-feed dispersion mode spreads a single meal over 15 minutes, releasing small amounts continuously rather than dumping the full portion at once. For dogs that eat too fast and then vomit or experience bloat, this feature alone can resolve a chronic problem without requiring a specialized slow-feed bowl.",
+    "The 24-cup hopper capacity covers about 4–6 days for a medium dog eating 2 cups per day — enough to cover a long weekend without topping up. Backup batteries keep the feeding schedule intact during power outages, which is particularly important for Canadian winters."
+  ],
+  "worthKnowing": [
+    "The hopper is not airtight when sealed — dry kibble exposed to air goes stale faster than in a sealed container. For owners who buy kibble in large bags, transferring what fits into the hopper and keeping the rest sealed elsewhere is recommended.",
+    "Wi-Fi connectivity is limited to 2.4GHz only. Newer routers that primarily broadcast 5GHz may require specific configuration to get the Smart Feed 2 connected. This trips up owners with modern mesh network setups.",
+    "The app has received mixed reviews for reliability — firmware update notifications occasionally break feeding schedules, and the app has had periods of server-side instability. Most core issues eventually get patched, but it's not as rock-solid as some competitors.",
+    "The dispenser bowl is not dishwasher safe, and the internal auger mechanism requires occasional manual cleaning with a brush to prevent kibble dust buildup. Monthly cleaning is recommended, which takes about 15 minutes."
+  ],
+  "commonComplaints": [
+    {
+      "title": "App firmware update killed my schedule…",
+      "body": "After an automatic firmware update my scheduled meals stopped firing. I didn't notice until I got home and my dog was obviously hungry. PetSafe support resolved it but I now double-check after any app update.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Won't connect to my 5GHz network…",
+      "body": "Spent 45 minutes trying to connect it before reading the fine print — 2.4GHz only. My router needed a separate SSID for 2.4GHz and the setup process was frustrating for what should be a simple pairing.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Kibble goes stale faster than expected…",
+      "body": "I noticed my dog was less interested in his food after a few days. The hopper isn't truly airtight and the kibble exposure to air affects freshness. Fine for 2-3 day fills but I wouldn't load it for a full week.",
+      "source": "Reddit"
+    },
+    {
+      "title": "The bowl is hard to clean properly…",
+      "body": "Kibble dust and oils build up in the bowl corners and the dispenser chute. It's not dishwasher safe and hand-cleaning the inside requires a small brush. Took me 20 minutes the first time I deep cleaned it.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The PetSafe Smart Feed 2 is the best app-controlled automatic feeder for dogs on strict portion management, with genuinely accurate dispensing and useful features like slow-feed mode and manual push-feeding. The Wi-Fi setup limitations and occasional app reliability issues are real friction points, and the price is high for what you get versus simpler mechanical feeders. Buyers who specifically need precise portion control, remote feeding capability, or slow-feed functionality will find the Smart Feed 2 worth the premium.",
+  "realBuyers": [
+    {
+      "quote": "My dog is on a strict 1.5 cup diet for weight loss and this dispenses exactly 1.5 cups every time. After three months she's lost 4 lbs and her joint pain has improved. The accuracy is what makes it worth the price.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I travel for work regularly and being able to push a feeding from the airport if my flight is delayed has been a lifesaver. My dog gets fed on time and I don't have to call in favors from neighbours.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The slow feed mode fixed my dog's fast-eating vomiting problem completely. He used to inhale his food and vomit within 10 minutes. Now he gets it dispensed over 15 minutes and keeps every meal down.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Four-day weekends covered without a pet sitter. Load the hopper Friday morning, set the schedule, and my dog gets her meals on time all weekend while I'm at the cottage.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "PetSafe Smart Feed 2 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B08G9QDTMM"
+    },
+    {
+      "title": "Best Automatic Pet Feeders — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-automatic-pet-feeder/"
+    },
+    {
+      "title": "PetSafe Smart Feed 2 Review — PetMD",
+      "url": "https://www.petmd.com/dog/care/best-automatic-dog-feeders"
+    }
+  ],
+  "metaDescription": "PetSafe Smart Feed 2 review for Canada: precise portioning, app-controlled, slow-feed mode. Honest on Wi-Fi limits and app reliability. ~$189 CAD.",
+  "introText": "The PetSafe Smart Feed 2 is an app-controlled automatic pet feeder with accurate auger-based dispensing, 12 meals per day scheduling, and a slow-feed mode that disperses meals over 15 minutes. Available on Amazon.ca (ASIN B08G9QDTMM) at around $189 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B08G9QDTMM",
+  "verifiedPrice": "$189 CAD",
+  "similarProducts": [
+    "petlibro-granary-wifi",
+    "petkit-yumshare-solo",
+    "petsafe-eatwell-5-meal"
+  ]
+}

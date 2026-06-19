@@ -1,0 +1,110 @@
+{
+  "slug": "amazon-fire-tv-cube-3rd-gen",
+  "name": "Amazon Fire TV Cube (3rd Generation) 4K Streaming Media Player",
+  "brand": "Amazon",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Streaming Devices",
+  "subcategory": "streaming-devices",
+  "asin": "B09BZZ3MM7",
+  "price": 179,
+  "priceDisplay": "$179 CAD",
+  "score": 8.7,
+  "tag": "Streaming Devices",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09BZZ3MM7/?tag=clearpick06-20",
+  "subscores": {
+    "Alexa Integration": 9.5,
+    "Performance": 9,
+    "Hands-Free Control": 9,
+    "Value": 8.5,
+    "Content Library": 9
+  },
+  "specs": {
+    "Resolution": "4K Ultra HD, Dolby Vision, HDR10+, HDR10, HLG",
+    "Chip": "Octa-core 2.0GHz — fastest Fire TV processor",
+    "Storage": "16GB",
+    "Voice": "Hands-free Alexa with far-field microphone array",
+    "IR Control": "IR blaster controls TV, soundbar, and AV receiver",
+    "Connectivity": "Wi-Fi 6E, Bluetooth 5.0, HDMI 2.1",
+    "USB-A": "USB port for storage expansion or accessories"
+  },
+  "whatWorks": [
+    "The Fire TV Cube's IR blaster lets it control not just streaming but your entire home theater — power on the TV, switch inputs, control a soundbar's volume, all with Alexa voice commands. For households with aging parents or anyone who struggles with multiple remotes, this integration is genuinely life-changing.",
+    "Octa-core performance makes this the fastest Fire TV device available — app launches are near-instant, 4K HDR streams load without the spin wheel that budget streaming sticks suffer from, and the device remains responsive even with background app downloads running.",
+    "Alexa hands-free with far-field mics works reliably across a room even during playback at moderate volume — 'Alexa, pause', 'Alexa, turn up the volume', 'Alexa, skip forward 10 minutes' all work without reaching for a remote. The integration with Echo devices also means multi-room audio announcements reach the TV.",
+    "Amazon's Prime Video library in Canada is extensive, and the Fire TV Cube naturally surfaces Prime content prominently — useful for Prime subscribers who want to get full value from their membership. Other streaming apps (Netflix, Disney+, Crave) all run well and load quickly."
+  ],
+  "worthKnowing": [
+    "Amazon's Fire TV OS is built around Prime Video and aggressively surfaces Amazon content on the home screen. Buyers who primarily use Netflix or Disney+ will find the homepage slightly annoying — there's no way to fully remove Amazon promotions from the interface.",
+    "Wi-Fi 6E requires a compatible router to benefit — buyers on older routers will default to Wi-Fi 6 or 5, which is still fine for streaming but doesn't unlock the 6GHz congestion advantage.",
+    "The USB-A port is for accessories and storage only — it doesn't support Ethernet without a separate USB-C to Ethernet adapter. Buyers who want wired Ethernet should note this requires an adapter, unlike the NVIDIA Shield which has built-in Gigabit Ethernet.",
+    "At $179 CAD, the Fire TV Cube is priced above the Google TV Streamer's core feature set for buyers outside the Alexa ecosystem. The Alexa IR control and hands-free integration are the key differentiators — if those features aren't priorities, the Google TV Streamer or Roku may be more appropriate."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Amazon content is everywhere on the UI…",
+      "body": "I use Netflix 90% of the time but the Fire TV home screen is basically a Prime Video ad. You can customize it but Amazon's content follows you everywhere.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No Ethernet without adapter…",
+      "body": "I wanted wired connection for stability and discovered the USB port doesn't do Ethernet without buying a separate adapter. Should be included at $180.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Always-on mics are a privacy concern…",
+      "body": "Far-field mics are active by default and I've had it respond to TV dialogue a couple of times. I know you can mute them but the default should be opt-in.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Overkill if you don't use Alexa…",
+      "body": "I bought this for the hands-free control but barely use Alexa. Honestly the $100 Fire Stick 4K Max does the same streaming for less money.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The Amazon Fire TV Cube 3rd Gen is the best choice for Alexa-centric households — IR blaster control of an entire home theater, hands-free voice commands, and the fastest Fire TV performance available. It's harder to recommend to buyers who don't already use Alexa, as Amazon's Prime Video-focused interface can feel pushy for Netflix-first households. For smart home users with Echo devices, this is the most seamlessly integrated TV streaming experience available.",
+  "realBuyers": [
+    {
+      "quote": "I can say 'Alexa, turn on the TV and play The Boys' and it powers on, switches input, opens Prime Video, and plays — all with my voice. My parents can't believe it.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The IR blaster replaced three remotes in my living room. One voice command controls everything.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Fastest streaming device I've owned. 4K HDR Netflix loads in under 3 seconds from the home screen.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The Alexa integration with my Echo speakers is seamless — music announcements, intercom, and TV control all tied together.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Amazon Fire TV Cube (3rd Gen) — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09BZZ3MM7"
+    },
+    {
+      "title": "Fire TV Cube Review — CNET",
+      "url": "https://www.cnet.com/tech/home-entertainment/amazon-fire-tv-cube-3rd-gen-review/"
+    },
+    {
+      "title": "Best Streaming Devices — TechRadar",
+      "url": "https://www.techradar.com/best/best-streaming-device"
+    }
+  ],
+  "metaDescription": "Amazon Fire TV Cube 3rd Gen review for Canada: hands-free Alexa, IR blaster, Wi-Fi 6E, 4K Dolby Vision at $179 CAD.",
+  "introText": "The Amazon Fire TV Cube 3rd Generation (ASIN B09BZZ3MM7) is Amazon's most powerful streaming device — featuring an octa-core chip, hands-free Alexa, and an IR blaster for full home theater control, available on Amazon.ca for around $179 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09BZZ3MM7",
+  "verifiedPrice": "$179 CAD",
+  "similarProducts": [
+    "apple-tv-4k-3rd-gen",
+    "sony-bravia-9-65-mini-led-tv",
+    "samsung-hw-q990f-soundbar"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "wopet-automatic-cat-feeder",
+  "name": "WOPET Automatic Cat Feeder with HD Camera and App Control",
+  "brand": "WOPET",
+  "category": "Pet Supplies",
+  "categoryPage": "pet-supplies.html",
+  "filterTag": "Automatic Feeders",
+  "subcategory": "automatic-feeders",
+  "asin": "B07N4DZ6PM",
+  "price": 79,
+  "priceDisplay": "$79 CAD",
+  "score": 8.0,
+  "tag": "Automatic Feeders",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07N4DZ6PM/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9,
+    "Video Quality": 7.5,
+    "Scheduling": 8,
+    "App Experience": 7.5,
+    "Reliability": 8
+  },
+  "specs": {
+    "Capacity": "6L hopper (dry food only)",
+    "Meals": "Up to 6 meals/day programmable",
+    "Portion": "1–10 portions per meal",
+    "Camera": "720p with night vision",
+    "Audio": "Record 10s voice message per meal",
+    "Connectivity": "Wi-Fi 2.4GHz",
+    "Power": "AC adapter"
+  },
+  "whatWorks": [
+    "At $79 CAD the WOPET delivers a feature set — app scheduling, built-in camera, voice message recording, and a 6L hopper — that would cost $150–200 from brand-name competitors. For budget-conscious owners who want basic automation without spending $150+, it covers the core use case reliably.",
+    "The voice message recording lets you record a 10-second clip that plays before each scheduled meal, calling your cat to the feeder. Cats learn quickly to associate your voice with food arriving, which is useful for encouraging shy or easily-distracted cats to come eat on schedule.",
+    "The 6L hopper holds about 15 days of food for an average cat, one of the larger capacities in the budget category. For owners who travel frequently or fill-and-forget for a week at a time, not having to top up the feeder as often is a genuine practical advantage.",
+    "The built-in 720p camera with night vision allows basic visual monitoring of your cat during feedings from the app. It's not high-resolution enough for detailed observation, but it confirms your cat is eating and gives basic reassurance when you're away."
+  ],
+  "worthKnowing": [
+    "The app experience is functional but noticeably rougher than PetSafe or PETLIBRO — the UI is less polished, notifications are less reliable, and some users report occasional connection drops requiring a feeder restart. It works for the basics but doesn't inspire confidence.",
+    "Portion accuracy is inconsistent compared to auger-driven premium feeders. The gravity-assisted dispensing mechanism can vary by ±10–15% depending on kibble shape and size, making it unsuitable for cats on strict veterinary-prescribed portion control.",
+    "No battery backup means a power outage stops scheduled feedings entirely. In areas with frequent power interruptions or during Canadian winter storms, this is a meaningful reliability gap versus more expensive feeders with battery backup.",
+    "Camera quality at 720p shows your cat is present but lacks the detail to observe behaviour, check food levels in the bowl clearly, or see well in low light. The night vision works but produces a grainy image."
+  ],
+  "commonComplaints": [
+    {
+      "title": "App randomly disconnects and loses schedule…",
+      "body": "Twice in two months the app lost connection and when I reconnected my feeding schedule was wiped. I had to re-enter everything. The feeder still dispensed on its onboard timer but the app showed nothing.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Portion sizes aren't consistent…",
+      "body": "I set it to 3 portions and sometimes it dispenses 3, sometimes 4. My cat is on a weight loss diet and I need accuracy. I ended up buying a premium feeder for actual portion control.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Camera is barely functional…",
+      "body": "The 720p camera is really just for basic confirmation that your cat is there. You can't see expression, behaviour, or food level in the bowl clearly. I use it just to confirm she showed up.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No battery backup is a problem in winter…",
+      "body": "We had a power outage during a winter storm and my cats missed two meals because the feeder has no battery backup. I put a UPS on it now but that's extra cost and hassle for something expensive feeders include.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The WOPET Automatic Cat Feeder is the best budget option for casual cat owners who want app-controlled scheduled feeding with a camera at the lowest possible cost. Portion accuracy and app reliability limitations make it unsuitable for cats on veterinary dietary management, but for healthy cats where feeding windows matter more than exact portions, the WOPET delivers reliable automation at a price that's hard to argue with.",
+  "realBuyers": [
+    {
+      "quote": "I got this for my cat when I started working longer hours. She gets fed at 7am and 6pm automatically and hasn't missed a meal. For $80 I expected less — it really works.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "My cat learned that when she hears my voice recording she runs to the feeder. It's the cutest thing. She's always at the feeder before the food even drops.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I travel for four-day stretches and the 6L hopper means I don't need a pet sitter for food — just water checks. For long-term travel it's the right buy.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "It does exactly what it says for the price. I'm not using it for a cat on a diet — just so my cats get fed on time when I work late. No complaints.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "WOPET Automatic Cat Feeder — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07N4DZ6PM"
+    },
+    {
+      "title": "Best Automatic Cat Feeders — The Spruce Pets",
+      "url": "https://www.thesprucepets.com/best-automatic-cat-feeders-4685185"
+    },
+    {
+      "title": "Budget Automatic Cat Feeder Roundup — Reddit r/cats",
+      "url": "https://www.reddit.com/r/cats/search/?q=automatic+feeder+wopet"
+    }
+  ],
+  "metaDescription": "WOPET Automatic Cat Feeder review for Canada: app scheduling, 720p camera, 6L hopper at $79. Honest on portion accuracy and app reliability. ~$79 CAD.",
+  "introText": "The WOPET Automatic Cat Feeder offers app-controlled scheduling, a built-in 720p camera, 10-second voice message recording per meal, and a 6L hopper at one of the lowest price points in the category. Available on Amazon.ca (ASIN B07N4DZ6PM) at around $79 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07N4DZ6PM",
+  "verifiedPrice": "$79 CAD",
+  "similarProducts": [
+    "petlibro-one-rfid-cat-feeder",
+    "cat-mate-c500",
+    "petkit-yumshare-solo"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "amazon-echo-4th-gen",
+  "name": "Amazon Echo (4th Generation) Smart Speaker with Alexa",
+  "brand": "Amazon",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Smart Speakers",
+  "subcategory": "smart-speakers",
+  "asin": "B07XKF5RM3",
+  "price": 129,
+  "priceDisplay": "$129 CAD",
+  "score": 8.5,
+  "tag": "Smart Speakers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07XKF5RM3/?tag=clearpick06-20",
+  "subscores": {
+    "Sound Quality": 8.5,
+    "Alexa Intelligence": 9,
+    "Smart Home Hub": 9,
+    "Value": 8.5,
+    "Design": 8.5
+  },
+  "specs": {
+    "Audio": "3\" woofer + dual 0.8\" tweeters with Dolby processing",
+    "Smart Home Hub": "Built-in Zigbee, Matter, Thread hub",
+    "Voice": "Alexa, far-field 7-microphone array",
+    "Connectivity": "Wi-Fi, Bluetooth, AUX out 3.5mm",
+    "Guard": "Alexa Guard for security sounds",
+    "Protocols": "Matter, Thread, Zigbee",
+    "Shape": "Spherical fabric design"
+  },
+  "whatWorks": [
+    "The built-in Zigbee, Matter, and Thread hub is the 4th Gen's most distinctive feature — this Echo replaces a separate smart home hub, allowing direct control of Zigbee devices (Philips Hue without a Bridge, certain smart plugs) and Matter devices without any additional hardware. For building a Zigbee smart home, this Echo eliminates a $50–100 hub purchase.",
+    "Sound quality for the price is genuinely good — the 3-inch woofer and Dolby audio processing produce bass and mid-range response that beats most competitors at the same price point. It's not a premium speaker, but it's the best-sounding smart speaker in the $129 CAD range.",
+    "Alexa's smart home control capability is the broadest in the category — compatibility with over 100,000 devices across every major smart home ecosystem means virtually any smart device you buy will work with voice control through this Echo. Setting up routines, controlling groups of devices, and checking device status all work reliably.",
+    "The spherical design fits naturally on nightstands, shelves, and kitchen counters without looking like a tech product. The fabric cover is available in multiple colors to match decor, and the low-profile base keeps it stable without taking up much horizontal space."
+  ],
+  "worthKnowing": [
+    "Amazon has historically featured heavy advertising in Alexa responses and on Echo displays — users may encounter Amazon-promoted content alongside utility responses. This is more noticeable on Echo Show devices but extends to audio Echo speakers with some types of queries.",
+    "The 4th Gen Echo lacks a screen, which limits it compared to Echo Show devices for visual smart home control, video calls, and recipe guidance. Users who want those features need to spend more on an Echo Show 8 or 10.",
+    "Alexa privacy settings require active management — by default, Alexa retains voice recordings. Users who are privacy-conscious should review and configure voice history deletion in the Alexa app and consider enabling the microphone mute hardware button habitually.",
+    "The AUX out port enables using the Echo as a Bluetooth-to-wired speaker bridge or connecting to a more capable speaker system, but it outputs only in stereo and doesn't carry the spatial audio processing the built-in speakers use."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Alexa pushes Amazon promotions…",
+      "body": "Ask for a recipe and you get the Amazon Fresh plug first. Ask about a product and it recommends the Amazon choice. It's subtle but it accumulates into an annoyance.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No screen limits daily utility…",
+      "body": "I ask about recipes and get audio instructions. I ask about the weather and get audio. For $129 I wish I'd spent the extra for an Echo Show with a screen.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Privacy requires manual configuration…",
+      "body": "Out of the box it keeps your voice recordings indefinitely. You have to manually turn on auto-deletion. It should be the default, not an opt-in.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Spherical shape can roll off surfaces…",
+      "body": "The base keeps it in place on flat surfaces but I've had it roll when bumped. The flat-bottomed old Echo design was more stable.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Amazon Echo 4th Gen is the best all-around smart speaker for Alexa households — class-leading sound for the price, the broadest smart home device compatibility, and a built-in Zigbee/Matter/Thread hub that saves buying a separate smart home controller. Privacy-conscious users will want to adjust settings out of the box, and anyone who wants visual smart home feedback should consider an Echo Show instead.",
+  "realBuyers": [
+    {
+      "quote": "This Echo replaced my separate Zigbee hub. My Hue bulbs connect directly to it without the Bridge. That alone was worth the upgrade from my old Echo.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Sound is way better than I expected. I stream music in the kitchen all day. Clear highs, actual bass. Not audiophile-grade but excellent for a smart speaker.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I have 40+ smart devices in my house and Alexa controls all of them. Groups, routines, scenes — it handles everything. Central hub of my whole smart home.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Alexa Guard is underrated. Set it to Away mode when we leave and it alerts us if it hears a smoke alarm or glass breaking. Actually useful.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Amazon Echo (4th Generation) — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07XKF5RM3"
+    },
+    {
+      "title": "Amazon Echo 4th Gen Review — The Verge",
+      "url": "https://www.theverge.com/amazon-echo-4th-gen-review"
+    },
+    {
+      "title": "Best Smart Speakers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-smart-speakers/"
+    }
+  ],
+  "metaDescription": "Amazon Echo 4th Gen review for Canada: built-in Zigbee/Matter hub, great sound, Alexa. Honest on privacy defaults and Amazon promotion. ~$129 CAD.",
+  "introText": "The Amazon Echo 4th Generation is a spherical smart speaker with a built-in Zigbee, Matter, and Thread hub, 3-inch woofer audio, and the most comprehensive Alexa smart home control of any Echo device. Available on Amazon.ca (ASIN B07XKF5RM3) at around $129 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07XKF5RM3",
+  "verifiedPrice": "$129 CAD",
+  "similarProducts": [
+    "amazon-echo-dot-5th-gen",
+    "amazon-echo-pop",
+    "amazon-echo-show-8-3rd-gen"
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "slug": "nvidia-shield-tv-pro",
+  "name": "NVIDIA SHIELD TV Pro 4K HDR Streaming Media Player with AI Upscaling",
+  "brand": "NVIDIA",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Streaming Devices",
+  "subcategory": "streaming-devices",
+  "asin": "B07YP9FBMM",
+  "price": 299,
+  "priceDisplay": "$299 CAD",
+  "score": 9.1,
+  "tag": "Streaming Devices",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07YP9FBMM/?tag=clearpick06-20",
+  "subscores": {
+    "Android TV Performance": 9.5,
+    "Gaming": 9.5,
+    "AI Upscaling": 9.5,
+    "Plex & Media Server": 9.5,
+    "Value": 7.5
+  },
+  "specs": {
+    "Chip": "NVIDIA Tegra X1+ — purpose-built GPU-accelerated media chip",
+    "Storage": "16GB internal + USB 3.0 expansion + microSD",
+    "Resolution": "4K HDR, Dolby Vision, HDR10, Dolby Atmos",
+    "AI Upscaling": "NVIDIA AI upscaling converts HD/SD to near-4K quality",
+    "OS": "Android TV (full Google Play Store access)",
+    "Gaming": "GeForce NOW cloud gaming, SHIELD Game streaming, SHIELD controller",
+    "Connectivity": "Wi-Fi 5 (802.11ac), Gigabit Ethernet, Bluetooth 5.0, HDMI 2.0b, 2× USB 3.0"
+  },
+  "whatWorks": [
+    "NVIDIA's AI upscaling is genuinely impressive — HD content from streaming services gets upscaled to near-4K quality using machine learning, noticeably sharper than the simple upscaling built into most TVs. 1080p Blu-ray rips and older HD content look dramatically better on large screens.",
+    "For Plex users, the SHIELD TV Pro is the definitive home media server client — it handles virtually every codec natively without transcoding, streaming 4K HDR files directly even when the Plex server is low-powered. The Plex team specifically recommends SHIELD hardware for demanding libraries.",
+    "GeForce NOW cloud gaming and Android TV's Google Play Store give the SHIELD access to a game library that no other streaming device can match. Controllers connect via Bluetooth and the SHIELD controller includes a built-in microphone and headphone jack for gaming convenience.",
+    "Gigabit Ethernet built-in means wired network connections don't require adapters — critical for 4K home server streaming where Wi-Fi can introduce dropouts. The two USB 3.0 ports allow external drive connection for direct local playback without a NAS."
+  ],
+  "worthKnowing": [
+    "At $299 CAD, the SHIELD TV Pro costs roughly twice the Google TV Streamer and four times the Roku Streaming Stick. The premium is justified for power users, Plex enthusiasts, and GeForce NOW gamers — but buyers who primarily use Netflix and Disney+ will be overpaying significantly.",
+    "The NVIDIA Tegra X1+ chip, while exceptional, is now several years old — it remains capable but lacks Wi-Fi 6E support that newer competitors offer. For most use cases this is irrelevant, but future-proofing buyers should note this.",
+    "NVIDIA's SHIELD firmware update cadence has been excellent historically, but the company occasionally releases updates that introduce regressions — YouTube app compatibility issues and audio sync problems have appeared in updates and been fixed in subsequent patches.",
+    "The SHIELD remote is Bluetooth-based and requires batteries (not rechargeable built-in) — some users find it less convenient than USB-C rechargeable remotes on newer devices. The SHIELD controller is sold separately."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Too expensive for basic streaming…",
+      "body": "If you just want Netflix and Disney+ there's no reason to spend $300. The Roku does the same thing for $69. The SHIELD is for power users only.",
+      "source": "Reddit"
+    },
+    {
+      "title": "No Wi-Fi 6E is a miss at this price…",
+      "body": "For $300 I expected Wi-Fi 6E. The older Wi-Fi works fine but competitors at half the price now ship with Wi-Fi 6E.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Occasional update regressions…",
+      "body": "A firmware update last year broke YouTube for a week. NVIDIA fixed it but it's frustrating when a $300 device regresses on basic apps.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Remote batteries die too fast…",
+      "body": "The SHIELD remote eats batteries. I'm replacing them every couple of months. Wish it was USB-C rechargeable like the Roku remote.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The NVIDIA SHIELD TV Pro is the most capable streaming device ever made — AI upscaling, Plex server performance, GeForce NOW gaming, Gigabit Ethernet, and the full Android TV app library in one package. It's definitively overkill for straightforward Netflix streaming, but for Plex enthusiasts, 4K HDR media collectors, and cloud gamers, nothing else comes close. The $299 CAD price is steep but has remained consistent since launch — it earns its premium for the right buyer.",
+  "realBuyers": [
+    {
+      "quote": "My entire Blu-ray rip library plays flawlessly through Plex with zero transcoding. I've been searching for a device this capable for years.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The AI upscaling makes my HD content look better than 4K on lesser devices. My entire old movie collection looks new again.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "GeForce NOW plus a SHIELD controller is the best cloud gaming experience on a TV. Better than any console streaming I've tried.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Been running mine for 4 years and it's still faster than any streaming stick I've tested. NVIDIA's hardware ages like fine wine.",
+      "source": "Reddit"
+    }
+  ],
+  "sources": [
+    {
+      "title": "NVIDIA SHIELD TV Pro — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07YP9FBMM"
+    },
+    {
+      "title": "NVIDIA SHIELD TV Pro Review — Android Authority",
+      "url": "https://www.androidauthority.com/nvidia-shield-tv-pro-review/"
+    },
+    {
+      "title": "Best Streaming Devices — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-media-streamers/"
+    }
+  ],
+  "metaDescription": "NVIDIA SHIELD TV Pro review for Canada: AI upscaling, Plex powerhouse, GeForce NOW gaming, Gigabit Ethernet at $299 CAD.",
+  "introText": "The NVIDIA SHIELD TV Pro (ASIN B07YP9FBMM) is the most powerful streaming media player available — featuring NVIDIA AI upscaling, Gigabit Ethernet, GeForce NOW gaming, and the full Android TV app library, available on Amazon.ca for around $299 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B07YP9FBMM",
+  "verifiedPrice": "$299 CAD",
+  "similarProducts": [
+    "apple-tv-4k-3rd-gen",
+    "samsung-hw-q990f-soundbar",
+    "sonos-arc-ultra-soundbar"
+  ]
+}

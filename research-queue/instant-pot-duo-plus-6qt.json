@@ -1,0 +1,109 @@
+{
+  "slug": "instant-pot-duo-plus-6qt",
+  "name": "Instant Pot Duo Plus 9-in-1 Electric Pressure Cooker, 6 Quart",
+  "brand": "Instant Pot",
+  "category": "Kitchen & Dining",
+  "categoryPage": "kitchen-dining.html",
+  "filterTag": "Multi-Cookers",
+  "subcategory": "multi-cookers",
+  "asin": "B01NBKTPTS",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.5,
+  "tag": "Multi-Cookers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01NBKTPTS/?tag=clearpick06-20",
+  "subscores": {
+    "Versatility": 9,
+    "Ease of Use": 8.5,
+    "Cook Quality": 8.5,
+    "Value": 8.5,
+    "Extra Features": 8.5
+  },
+  "specs": {
+    "Functions": "9 — Pressure Cook, Slow Cook, Rice, Sauté, Steam, Sterilize, Yogurt, Sous Vide, Keep Warm",
+    "Programs": "15 smart programs",
+    "Display": "Blue LCD display with progress indicator",
+    "Venting": "Advanced steam-release valve",
+    "Capacity": "6 Qt",
+    "Included": "Steam rack, rice paddle, soup spoon, measuring cup, silicone mitt"
+  },
+  "whatWorks": [
+    "The Duo Plus adds sterilize and sous vide functions over the base Duo model — sterilize is genuinely useful for home canning, baby bottles, and fermentation equipment; sous vide works at lower wattages than a dedicated circulator but produces good results for thick cuts cooked at precise temperatures.",
+    "The blue LCD display with a progress indicator shows remaining cook time and pressure status at a glance — clearer than the base Duo's simpler readout. For owners who walk in and out of the kitchen mid-cook, knowing where the pressure cycle is at any moment is useful.",
+    "Fifteen smart programs cover the most common pressure cooking tasks with tested default times — ribs, beans, chili, rice, oatmeal all have one-touch programs that work well without manual time adjustment. The community cookbook ecosystem for Instant Pot Duo Plus is enormous.",
+    "The advanced steam-release valve is a design improvement over the original Duo — it has a more controlled release rate that reduces sputtering of thick liquids (stews, soups) during quick release, which was a minor but real mess issue on earlier Instant Pot models."
+  ],
+  "worthKnowing": [
+    "At $149 vs $129 for the base Duo, the upgrade to Duo Plus is primarily for the sterilize and sous vide functions. If you don't plan to can, sterilize equipment, or cook sous vide, the base Duo at $20 less does everything else identically.",
+    "Sous vide performance in the Instant Pot is limited — the pot can only maintain temperatures within ±2°C of the target and doesn't circulate water. For steak and fish where 0.5°C matters, a dedicated circulator is significantly more precise. For chicken breasts and pork, it works fine.",
+    "The sealing ring odor issue that affects the base Duo is identical here — curry and garlic aromas absorb into the silicone ring and transfer to subsequent cooks. Buying a second dedicated ring for sweet/dairy cooks is recommended.",
+    "The silicone mitt included with the Duo Plus is genuinely useful for handling the inner pot after pressure cooking — the stainless steel pot retains heat and the mitt allows safe handling without a towel. Many users overlook this accessory entirely."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Not worth $20 more than the Duo if you don't can…",
+      "body": "I bought this over the base Duo for the extra features but I've never used sterilize or sous vide. In hindsight I'd save the $20.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Sous vide isn't precise enough for steak…",
+      "body": "The sous vide function runs about 2 degrees inconsistent. For chicken it's fine but I wouldn't use it for steak — I'll stick to my dedicated circulator.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Same sealing ring smell issue as base Duo…",
+      "body": "Cooked chili last week, yogurt this week. Could taste the chili in the yogurt. Same ring problem as every other Instant Pot. Buy a second ring immediately.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "LCD harder to read at an angle…",
+      "body": "The blue LCD display is hard to read unless you're looking at it straight on. From across the kitchen I can't tell what's on the screen.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Instant Pot Duo Plus is a strong upgrade from the base Duo for home canners and anyone who wants sous vide functionality in a pot they already own. For everyone else, the $20 premium over the base Duo buys functions most users won't use regularly. As a standalone product it's an excellent 9-in-1 multi-cooker at a fair price — the pressure cooking, slow cooking, and sauté functions are identical in performance to the base model, and the LCD display is a genuine improvement.",
+  "realBuyers": [
+    {
+      "quote": "The sterilize function is the reason I bought this over the base Duo. I use it for canning and baby bottle sterilizing. Worth every cent of the upgrade.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "LCD display is much clearer than my old Duo. Being able to see time remaining from across the kitchen is actually useful.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Made chicken breast sous vide in it. Not as precise as my Anova but for weeknight cooking the result was perfectly juicy at 145°F.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "The steam release valve is less messy than my old Instant Pot — no more soup splattering on the cabinet above it during quick release.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Instant Pot Duo Plus 9-in-1 6Qt — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B01NBKTPTS"
+    },
+    {
+      "title": "Best Instant Pot — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-instant-pot/"
+    },
+    {
+      "title": "Instant Pot Duo Plus Review — Serious Eats",
+      "url": "https://www.seriouseats.com/instant-pot-duo-plus-review"
+    }
+  ],
+  "metaDescription": "Instant Pot Duo Plus 9-in-1 6Qt review for Canada: sterilize, sous vide, LCD display. Honest on sous vide precision limits and upgrade value over base Duo. ~$149 CAD.",
+  "introText": "The Instant Pot Duo Plus is a 9-in-1 electric pressure cooker that adds sterilize and sous vide functions to the popular Duo lineup, with a blue LCD display and advanced steam-release valve. Available on Amazon.ca (ASIN B01NBKTPTS) at around $149 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B01NBKTPTS",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": [
+    "instant-pot-duo-6qt",
+    "instant-pot-pro-6qt",
+    "ninja-foodi-14-in-1"
+  ]
+}

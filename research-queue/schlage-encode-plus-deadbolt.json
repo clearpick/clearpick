@@ -1,0 +1,110 @@
+{
+  "slug": "schlage-encode-plus-deadbolt",
+  "name": "Schlage Encode Plus Smart Wi-Fi Deadbolt with Apple Home Key",
+  "brand": "Schlage",
+  "category": "Smart Home",
+  "categoryPage": "smart-home.html",
+  "filterTag": "Smart Locks",
+  "subcategory": "smart-locks",
+  "asin": "B09MTK3J75",
+  "price": 339,
+  "priceDisplay": "$339 CAD",
+  "score": 8.8,
+  "tag": "Smart Locks",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09MTK3J75/?tag=clearpick06-20",
+  "subscores": {
+    "Security": 9.5,
+    "HomeKit Integration": 9.5,
+    "App Quality": 8.5,
+    "Value": 8,
+    "Build Quality": 9.5
+  },
+  "specs": {
+    "Connectivity": "Wi-Fi (no hub needed) + Bluetooth",
+    "Protocols": "Apple Home Key, HomeKit, Alexa, Google",
+    "Codes": "Up to 100 access codes",
+    "Keys": "Tap-to-unlock with iPhone or Apple Watch",
+    "Power": "4 AA batteries (~6 months)",
+    "Grade": "ANSI Grade 1 security rating",
+    "Installation": "Standard deadbolt replacement (about 30 min)"
+  },
+  "whatWorks": [
+    "Apple Home Key support is the standout feature — you can unlock the door with a tap of your iPhone or Apple Watch on the lock, even when offline. The NFC-based tap is faster and more reliable than Bluetooth or Wi-Fi unlocking, and it works when your phone is face-down in your pocket.",
+    "Schlage's ANSI Grade 1 rating is the highest residential security classification — the same grade specified in most homeowner insurance policies that offer discounts for deadbolt security. Competing smart locks at this price point rarely achieve Grade 1.",
+    "Wi-Fi is built directly into the lock with no hub required, giving you full remote access — lock/unlock, guest code management, access logs — without buying a separate smart home hub or Z-Wave bridge. Checking whether you left the door unlocked from across town is seamless.",
+    "The keypad and build quality feel premium — metal construction, backlit keypad with anti-pick features, and a satisfying mechanical throw. At $339 CAD, this is one of the few smart locks where the hardware quality matches the smart features."
+  ],
+  "worthKnowing": [
+    "Apple Home Key is the marquee feature, but it only works with Apple devices — Android users get Bluetooth and Wi-Fi app control but no tap-to-unlock equivalent. This is an Apple ecosystem lock first; Android users should consider the Yale Assure Lock 2 Plus instead.",
+    "Battery life is approximately 6 months with typical use (10–20 operations per day). The lock sends low-battery alerts via the Home app, but CR123A batteries — which some competing locks use for better cold-weather performance — aren't an option here.",
+    "The Encode Plus requires a standard door prep with a 2-3/8\" or 2-3/4\" backset. It doesn't fit doors with non-standard prep or doors thinner than 1-3/8\". Measure before purchasing if you have a non-standard door configuration.",
+    "At $339 CAD, this is among the most expensive smart deadbolts on the market. Buyers who don't need Apple Home Key can get comparable security and remote access from the Yale Assure Lock 2 Plus for $60 less."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Home Key is Apple-only…",
+      "body": "My partner uses Android and can't use the tap feature at all. We're an Apple household except for him and it's become a minor point of contention.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Battery life shorter than advertised…",
+      "body": "I get about 4 months per set of batteries with maybe 15 unlocks a day. The claimed 6 months is optimistic.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Expensive compared to non-Apple alternatives…",
+      "body": "If you don't need Home Key this is overpriced. The Yale does the same thing for less. But if you're all-in on Apple, the tap unlock is genuinely great.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Door prep requirements are strict…",
+      "body": "My older door had a slightly non-standard bore hole placement and the lock didn't sit flush. Had to call a locksmith to adjust the door prep.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Schlage Encode Plus is the best smart deadbolt for Apple households — ANSI Grade 1 security, Apple Home Key tap-to-unlock, built-in Wi-Fi, and metal construction at a premium price that reflects genuine quality. Android users should look elsewhere, and budget-conscious buyers can find comparable remote access for less. But for iPhone and Apple Watch users who want the smoothest smart lock experience available, the Encode Plus delivers it.",
+  "realBuyers": [
+    {
+      "quote": "Tap my Apple Watch on the lock and it opens. That's it. No fiddling, no app, no lag. Best smart home purchase I've made.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Gave my dog walker a code through the Home app in 30 seconds. Checked the access log when I got home to confirm she came and went. Exactly what I needed.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The build quality alone justifies part of the price. This thing feels like a real lock, not a gadget bolted onto a flimsy housing.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Works offline. Power outage, router down — still opens with the keypad and the iPhone tap. That's the right design priority for a door lock.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Schlage Encode Plus Smart Deadbolt — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09MTK3J75"
+    },
+    {
+      "title": "Best Smart Locks — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-smart-locks/"
+    },
+    {
+      "title": "Schlage Encode Plus Review — Tom's Guide",
+      "url": "https://www.tomsguide.com/reviews/schlage-encode-plus"
+    }
+  ],
+  "metaDescription": "Schlage Encode Plus review for Canada: Apple Home Key, ANSI Grade 1, Wi-Fi deadbolt at $339. Honest on Apple-only tap unlock and battery life. ~$339 CAD.",
+  "introText": "The Schlage Encode Plus Smart Wi-Fi Deadbolt brings ANSI Grade 1 security and Apple Home Key tap-to-unlock to your front door with no hub required. Available on Amazon.ca (ASIN B09MTK3J75) at around $339 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09MTK3J75",
+  "verifiedPrice": "$339 CAD",
+  "similarProducts": [
+    "ecobee-smart-thermostat-premium",
+    "google-nest-thermostat",
+    "honeywell-home-t9-wifi-smart-thermostat"
+  ]
+}

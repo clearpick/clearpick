@@ -1,0 +1,110 @@
+{
+  "slug": "furbo-360-dog-camera",
+  "name": "Furbo 360° Dog Camera with Treat Tossing and Barking Alert",
+  "brand": "Furbo",
+  "category": "Pet Supplies",
+  "categoryPage": "pet-supplies.html",
+  "filterTag": "Pet Cameras",
+  "subcategory": "pet-cameras",
+  "asin": "B09HWFMFXM",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.2,
+  "tag": "Pet Cameras",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09HWFMFXM/?tag=clearpick06-20",
+  "subscores": {
+    "Video Quality": 8.5,
+    "App Experience": 8,
+    "Treat Tossing": 8.5,
+    "Value": 7.5,
+    "Motion Detection": 8
+  },
+  "specs": {
+    "Video": "1080p HD, 360° pan rotation",
+    "Night Vision": "Infrared night vision",
+    "Audio": "Two-way audio",
+    "Treat Capacity": "~100 small treats",
+    "Alert Types": "Barking, person, dog alerts",
+    "Connectivity": "Wi-Fi 2.4GHz & 5GHz",
+    "Storage": "Cloud subscription or local microSD"
+  },
+  "whatWorks": [
+    "The 360° pan rotation is the killer feature over standard fixed pet cameras — you can track your dog anywhere in the room remotely, follow them from their bed to the window, and check every corner without physically repositioning the camera. The motor is quiet enough that most dogs don't react to the movement.",
+    "Treat tossing works reliably for most owners, and the range is surprisingly good — treats land 1–2 feet from the device consistently. Tossing a treat from a work meeting while watching your dog on the app is a genuinely fun way to interact with your pet remotely, and many dogs learn quickly that a certain notification sound means a treat is coming.",
+    "Barking alerts are faster than competing cameras — most owners report a 10–20 second delay between barking starting and the push notification arriving. For separation anxiety management or monitoring a dog prone to nuisance barking while you're away, this near-real-time alert is more useful than cameras that notify 60+ seconds later.",
+    "1080p video quality holds up well in daylight and adequate in medium-lit rooms. Night vision switches automatically and provides enough resolution to see what your dog is doing clearly, though colour depth is lost in full darkness as expected."
+  ],
+  "worthKnowing": [
+    "Furbo's cloud features — extended video history, smart alerts, and Doggy Diary summaries — require a subscription. The basic live view is free, but most of the differentiated features cost $8–12/month CAD. Without a subscription the Furbo is a functional but expensive basic camera.",
+    "Treat capacity is only around 100 small treats, and the opening only accepts treats up to a specific small size. Many standard dog treats are too large — owners need to buy specific small training treats, and the hopper needs refilling every few days for frequent users.",
+    "The 360° motor occasionally produces a soft whirring noise when panning that sensitive dogs notice. Dogs that are already anxious may find the moving camera unsettling rather than comforting.",
+    "Wi-Fi reliability matters significantly for this device — a weak or unstable Wi-Fi signal in the room where you place it leads to buffering, failed treat tosses, and missed alerts. Placement near a router or a Wi-Fi extender is recommended."
+  ],
+  "commonComplaints": [
+    {
+      "title": "The subscription makes it too expensive long-term…",
+      "body": "I bought it for $200 and then discovered all the smart features I wanted require a $10/month subscription. Over two years that's $240 more. I wish Furbo was upfront about this before purchase.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Treats jam inside the dispenser…",
+      "body": "Certain treats get stuck in the mechanism and I've had to reach inside to dislodge them twice. The treat size requirements are very specific — you need to buy their recommended treats or deal with jams.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "App notification delay is inconsistent…",
+      "body": "Sometimes I get the barking alert in 15 seconds, sometimes it takes over a minute. The inconsistency makes it less useful for monitoring separation anxiety — I never know if I can trust it.",
+      "source": "Reddit"
+    },
+    {
+      "title": "My dog ignores it completely…",
+      "body": "My dog doesn't respond to my voice through it at all. He doesn't look at the camera when I talk and the treat tossing startles him rather than exciting him. Some dogs just don't engage with the concept.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Furbo 360° Dog Camera is the best pet camera for dog owners who want interactive monitoring — the pan rotation, treat tossing, and fast bark alerts are genuinely useful features that fixed cameras can't match. The subscription cost is a real consideration that should factor into the buying decision, and it works best for dogs that are food-motivated and responsive to remote interaction. Budget-focused buyers wanting basic monitoring can find cheaper options, but for engaged pet owners the Furbo's interactivity is worth the premium.",
+  "realBuyers": [
+    {
+      "quote": "I toss my dog a treat from my work desk and she runs to the camera with her tail wagging. She absolutely knows what the sound means now. This has completely changed how I feel about leaving her alone.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "I have separation anxiety about leaving my dog and this solved it. I can check on him any time, see he's fine, toss a treat, and get back to work. Worth every penny for my peace of mind.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The 360 pan is the best feature. I can track him anywhere in the living room. My old camera had a fixed view and I spent half my time wondering where he was.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Barking alert came through while I was in a meeting and I was able to check immediately. Turned out he was barking at a squirrel, not stressed — knowing that instantly was exactly what I needed.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Furbo 360° Dog Camera — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09HWFMFXM"
+    },
+    {
+      "title": "Best Pet Cameras — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-pet-camera/"
+    },
+    {
+      "title": "Furbo 360 Review — PCMag",
+      "url": "https://www.pcmag.com/reviews/furbo-360-dog-camera"
+    }
+  ],
+  "metaDescription": "Furbo 360° Dog Camera review for Canada: pan tracking, treat tossing, bark alerts. Honest on subscription costs and treat jams. ~$199 CAD.",
+  "introText": "The Furbo 360° Dog Camera lets you pan the room remotely, toss treats, and receive bark alerts from your phone — purpose-built for dog owners who want to interact with their dog while away, not just watch. Available on Amazon.ca (ASIN B09HWFMFXM) at around $199 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B09HWFMFXM",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": [
+    "apple-airtag-dog-collar-holder",
+    "fi-series-3-smart-dog-collar",
+    "petlibro-granary-wifi"
+  ]
+}

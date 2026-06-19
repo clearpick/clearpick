@@ -1,0 +1,110 @@
+{
+  "slug": "hisense-u6n-65-tv",
+  "name": "Hisense U6N 65-Inch 4K ULED Smart TV (2024)",
+  "brand": "Hisense",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Budget TVs",
+  "subcategory": "budget-tvs",
+  "asin": "B0CNHFKYXZ",
+  "price": 699,
+  "priceDisplay": "$699 CAD",
+  "score": 8.7,
+  "tag": "Budget TVs",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CNHFKYXZ/?tag=clearpick06-20",
+  "subscores": {
+    "Value": 9.5,
+    "Picture Quality": 8.5,
+    "HDR Performance": 8.5,
+    "Smart TV": 8.5,
+    "Gaming": 8
+  },
+  "specs": {
+    "Resolution": "4K UHD",
+    "Panel": "ULED with local dimming",
+    "HDR": "Dolby Vision, HDR10+, HLG",
+    "Refresh Rate": "60Hz native (120Hz effective with motion processing)",
+    "Smart OS": "Google TV",
+    "Gaming": "ALLM, eARC HDMI",
+    "Audio": "Dolby Atmos — 2.0 40W"
+  },
+  "whatWorks": [
+    "At $699 CAD, the U6N delivers ULED local dimming and Dolby Vision support that most sub-$700 TVs can't match. Colors are vibrant and punchy — streaming HDR content on Disney+ or Netflix looks noticeably better than flat VA panel competitors at this price.",
+    "Google TV handles content discovery well, with a unified search bar across streaming services, Chromecast built in, and responsive app performance. For cord-cutters managing multiple subscriptions, the 'For You' feed surfaces relevant content without extra effort.",
+    "The 40W Dolby Atmos speaker system is genuinely above-average for a TV in this price range — dialogue is clear, sound staging is wider than typical, and at normal listening volumes there's acceptable bass presence without an external speaker.",
+    "Hisense's calibration out of the box is better than it used to be — the Filmmaker Mode and Movie preset both land close to accurate without manual adjustment, which is useful for buyers who don't want to dig into picture settings."
+  ],
+  "worthKnowing": [
+    "The 60Hz native panel with motion processing is not the same as a true 120Hz display — fast motion in sports and action sequences can show judder or soap-opera effect depending on how motion smoothing is set. Buyers who watch live sports should test the motion settings carefully.",
+    "Local dimming on the U6N uses fewer zones than the U8N — contrast performance is good for the price but not exceptional. Side-by-side with a Mini-LED TV at the same price, the blacks are noticeably greyer in dark scenes.",
+    "Hisense's software updates have improved but the company's long-term support record for older models is inconsistent. Buyers planning to keep this TV for 7+ years may find app support and OS updates drop off sooner than they'd like.",
+    "The remote is basic — no backlight, a few too many shortcut buttons for services you may not use (Peacock, for example, is US-only). A universal or voice remote upgrade improves the experience."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Motion on sports is blurry…",
+      "body": "Fast pans in hockey and soccer show motion blur that my old 120Hz TV didn't have. You can tune it out with motion processing but then it looks like a soap opera.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Blacks are grayish in dark rooms…",
+      "body": "Watching in a dark room you can see that deep blacks are actually dark grey. Not terrible but my friend's OLED puts it to shame.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Remote has Peacock button for no reason…",
+      "body": "Peacock isn't even available in Canada. The remote wastes a button on a US-only service. Minor annoyance but feels like it wasn't finished for the Canadian market.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Software updates slowed down after a year…",
+      "body": "My U6G from two years ago barely gets updates now. Hope Hisense improves their support cadence because the hardware is solid but the software trails.",
+      "source": "Reddit"
+    }
+  ],
+  "verdict": "The Hisense U6N is the best sub-$700 TV you can buy in Canada right now — ULED local dimming, Dolby Vision, and Google TV at a price most 4K TVs can't touch. The 60Hz native panel is a real limitation for sports fans and fast-paced gaming, and blacks aren't class-leading, but for everyday streaming and casual viewing it delivers excellent picture quality for the money.",
+  "realBuyers": [
+    {
+      "quote": "I replaced a 10-year-old 1080p TV and couldn't believe the difference. HDR on Netflix is stunning for $699.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Google TV is way better than the Samsung smart TV I had before. Everything is just faster and easier to find.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "For a bedroom TV this is incredible. Sharp picture, clear sound, Google TV — I don't need anything else.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Hisense has quietly become the best bang-for-buck TV brand. The U6N at this price is genuinely excellent.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hisense U6N 65-inch — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CNHFKYXZ"
+    },
+    {
+      "title": "Hisense U6N Review — Rtings.com",
+      "url": "https://www.rtings.com/tv/reviews/hisense/u6n"
+    },
+    {
+      "title": "Best Budget TVs — CNET",
+      "url": "https://www.cnet.com/tech/home-entertainment/best-budget-tv/"
+    }
+  ],
+  "metaDescription": "Hisense U6N 65-inch review Canada: ULED, Dolby Vision, Google TV at $699 CAD. Honest on 60Hz limits and local dimming vs Mini-LED.",
+  "introText": "The Hisense U6N 65-inch (ASIN B0CNHFKYXZ) brings ULED local dimming, Dolby Vision IQ, and Google TV to the sub-$700 CAD market — available on Amazon.ca at around $699 CAD.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0CNHFKYXZ",
+  "verifiedPrice": "$699 CAD",
+  "similarProducts": [
+    "hisense-u88qg-65-mini-led-tv",
+    "samsung-q80d-65-qled-tv",
+    "sony-bravia-8-oled-65-tv"
+  ]
+}

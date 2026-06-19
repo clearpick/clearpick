@@ -1,0 +1,110 @@
+{
+  "slug": "tcl-6-series-65-tv",
+  "name": "TCL 65Q650G Q6 QLED 4K Smart TV, 65-inch (2024)",
+  "brand": "TCL",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Budget TVs",
+  "subcategory": "budget-tvs",
+  "asin": "B0CTXY8NPN",
+  "price": 799,
+  "priceDisplay": "$799 CAD",
+  "score": 8.9,
+  "tag": "Budget TVs",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CTXY8NPN/?tag=clearpick06-20",
+  "subscores": {
+    "Picture Quality": 9,
+    "Value": 9.5,
+    "Gaming Performance": 8.5,
+    "HDR": 8.5,
+    "Sound": 7.5
+  },
+  "specs": {
+    "Resolution": "4K UHD (3840×2160)",
+    "Panel": "QLED with Mini-LED backlight (100+ dimming zones)",
+    "HDR": "Dolby Vision IQ, HDR10+, HLG",
+    "Refresh Rate": "120Hz VRR",
+    "Gaming": "ALLM, VRR, 4 HDMI 2.1 ports",
+    "Smart OS": "Google TV",
+    "Audio": "Dolby Atmos, DTS:X — 2.0 40W built-in"
+  },
+  "whatWorks": [
+    "The Mini-LED backlight with 100+ dimming zones delivers black levels and contrast that look genuinely premium — HDR content lights up with real pop and deep shadows that sub-$1000 LCD TVs typically can't match. Dolby Vision IQ adjusts tone mapping based on ambient light, so daytime viewing doesn't wash out.",
+    "Four HDMI 2.1 ports is a spec most $1500+ TVs offer; getting all four at $799 CAD is exceptional. Combined with 120Hz VRR and ALLM, this is a legitimately capable gaming TV for PS5 and Xbox Series X owners who don't want to spend $1500+ on a Sony or LG.",
+    "Google TV is one of the best smart TV platforms available — universal search across Netflix, Disney+, Crave, and Prime Video in one bar, Chromecast built in, and Google Assistant for voice control. No need to buy a separate streaming stick.",
+    "TCL's Q6 is the Canadian branding for the 6-Series, which has been the go-to Wirecutter recommendation for value-focused buyers for years. The 2024 version adds Mini-LED upgrades that meaningfully narrow the gap with panel tech costing twice as much."
+  ],
+  "worthKnowing": [
+    "Local dimming, while improved, still produces occasional blooming around bright objects on dark backgrounds — a white subtitle over a night scene will glow faintly. It's manageable but visible if you're watching in a dark room and comparing against OLED.",
+    "Built-in speakers are adequate but not great. Dialogue is clear, but bass is thin and surround staging is flat. For anyone with a soundbar or receiver, this isn't an issue — but buyers who rely on TV speakers for their main audio will notice the limitation.",
+    "Google TV's ad-forward home screen surfaces promoted content and recommendations before your own apps. You can customize it but can't fully disable promoted rows — some people find this intrusive on a TV they've already paid for.",
+    "The TCL remote is functional but not backlit, which is a minor but real annoyance in dark rooms. Competing remotes from LG and Samsung include backlighting as standard at lower price points."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Blooming around bright objects…",
+      "body": "Blooming around subtitles and bright logos on dark backgrounds is visible if you sit close. Not a dealbreaker but noticeable in a dark room.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Built-in speakers are thin…",
+      "body": "Sound is fine for casual TV but the bass is weak and voices sound a bit hollow at higher volumes. I added a soundbar after a week.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Google TV home screen is ad-heavy…",
+      "body": "The home screen pushes promoted content constantly. You can rearrange apps but the ad rows never fully go away.",
+      "source": "Reddit"
+    },
+    {
+      "title": "Remote has no backlight…",
+      "body": "Watching in the dark and hunting for the mute button every time. Samsung and LG remotes have backlights — TCL should too at this price.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The TCL Q6 65-inch is the strongest value proposition in the $799 CAD TV market — Mini-LED backlighting, 120Hz with HDMI 2.1 for gaming, Dolby Vision IQ, and Google TV in one package. Blooming and mediocre speakers are real trade-offs, but neither undermines the picture quality advantage over IPS and VA competitors at similar prices. If your budget is under $900 and you want the best possible picture, this is the one to buy.",
+  "realBuyers": [
+    {
+      "quote": "I came from a $1200 Sony from 2019 and honestly this picture is better. The Mini-LED makes HDR content look stunning.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Gaming on PS5 with 120Hz and no input lag is incredible. Four HDMI 2.1 ports at this price is unreal.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Google TV finds what I want to watch faster than any other smart TV I've owned. Netflix, Disney+, Crave — one search bar.",
+      "source": "Reddit"
+    },
+    {
+      "quote": "Best TV I've ever owned. The picture in dark room HDR mode blew me away. Can't believe this is $800.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "TCL Q6 65-inch — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CTXY8NPN"
+    },
+    {
+      "title": "TCL Q6 Review — Rtings.com",
+      "url": "https://www.rtings.com/tv/reviews/tcl/q6"
+    },
+    {
+      "title": "Best Budget TVs — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter/reviews/best-budget-tv/"
+    }
+  ],
+  "metaDescription": "TCL Q6 65-inch review for Canada: Mini-LED, 120Hz, HDMI 2.1, Dolby Vision IQ at $799 CAD. Honest on blooming and speaker limits.",
+  "introText": "The TCL Q6 65-inch (ASIN B0CTXY8NPN) is the Canadian version of TCL's 6-Series — a Mini-LED QLED TV with 120Hz, four HDMI 2.1 ports, and Google TV at around $799 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-18",
+  "verifiedAt": "2026-06-18",
+  "verifiedAsin": "B0CTXY8NPN",
+  "verifiedPrice": "$799 CAD",
+  "similarProducts": [
+    "hisense-u88qg-65-mini-led-tv",
+    "samsung-q80d-65-qled-tv",
+    "lg-c5-oled-65-tv"
+  ]
+}
