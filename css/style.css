@@ -1260,6 +1260,24 @@ a:hover { color: var(--color-primary-hover); }
   text-align: right;
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-top: 12px;
+}
+
+.social-link {
+  color: #5C6080;
+  transition: color 0.2s ease;
+  display: flex;
+  align-items: center;
+}
+
+.social-link:hover {
+  color: #1A8CFF;
+}
+
 /* ─── Responsive ─── */
 @media (max-width: 768px) {
   .nav { display: none; }
