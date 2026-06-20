@@ -11,7 +11,7 @@
   "priceDisplay": "$449.95 CAD",
   "score": 8.7,
   "tag": "Best Entry-Level Vitamix Blender",
-  "image": "https://images-na.ssl-images-amazon.com/images/P/B0758JHZM3.01._AC_SX500_.jpg",
+  "image": "https://m.media-amazon.com/images/I/71lMUuj9RtL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0758JHZM3/?tag=clearpick06-20",
   "subscores": {
     "Blending Power": 9.5,
@@ -93,5 +93,10 @@
     "ninja-creami-deluxe",
     "breville-barista-express-impress",
     "ninja-foodi-xl-pro-dt201"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/vitamix-e310-explorian/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,14 +11,14 @@
   "priceDisplay": "$199.99 CAD",
   "score": 8.9,
   "tag": "Best Dedicated Baby Monitor",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://infantoptics.com/wp-content/uploads/2022/01/Home-1.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B07VZRS3GG/?tag=clearpick06-20",
   "subscores": {
-    "Safety & Build Quality": 9.0,
-    "Ease of Use": 9.0,
+    "Safety & Build Quality": 9,
+    "Ease of Use": 9,
     "Comfort": 8.5,
-    "Value for Money": 9.0,
-    "Video Clarity": 9.0
+    "Value for Money": 9,
+    "Video Clarity": 9
   },
   "specs": {
     "Resolution": "1080p Full HD camera",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07VZRS3GG",
   "verifiedPrice": "$199.99 CAD",
-  "similarProducts": ["eufy-baby-e110-monitor", "hatch-rest-plus-sound-machine", "4moms-mamaroo-4-swing"]
+  "similarProducts": [
+    "eufy-baby-e110-monitor",
+    "hatch-rest-plus-sound-machine",
+    "4moms-mamaroo-4-swing"
+  ],
+  "images": {
+    "hero": "/images/products/infant-optics-dxr-8-pro/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

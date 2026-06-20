@@ -11,7 +11,7 @@
   "priceDisplay": "$599 CAD",
   "score": 8.5,
   "tag": "Pellet Grills",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.pitboss-grills.com/cdn/shop/files/PIT-BOSS-GRILLS.jpg?v=1740154403",
   "affiliateUrl": "https://www.amazon.ca/dp/B083T3Q31G/?tag=clearpick06-20",
   "subscores": {
     "Flame Broiler": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B083T3Q31G",
   "verifiedPrice": "$599 CAD",
-  "similarProducts": ["napoleon-prestige-500", "camp-chef-woodwind-pro-36", "masterbuilt-gravity-series-800"]
+  "similarProducts": [
+    "napoleon-prestige-500",
+    "camp-chef-woodwind-pro-36",
+    "masterbuilt-gravity-series-800"
+  ],
+  "images": {
+    "hero": "/images/products/pit-boss-700fb/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

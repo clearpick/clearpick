@@ -11,14 +11,14 @@
   "priceDisplay": "$149.99 CAD",
   "score": 8.7,
   "tag": "Best Mid-Range Carry-On",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/81Efh1QJxwL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0BH6T841Z/?tag=clearpick06-20",
   "subscores": {
-    "Build Quality": 9.0,
+    "Build Quality": 9,
     "Storage & Organization": 8.5,
     "Ease of Use": 8.5,
     "Value for Money": 8.5,
-    "Spinner Performance": 9.0
+    "Spinner Performance": 9
   },
   "specs": {
     "Size": "20 inches (standard carry-on fit)",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0BH6T841Z",
   "verifiedPrice": "$149.99 CAD",
-  "similarProducts": ["american-tourister-moonlight-carry-on", "rockland-fusion-softside-luggage", "delsey-chatelet-air-carry-on"]
+  "similarProducts": [
+    "american-tourister-moonlight-carry-on",
+    "rockland-fusion-softside-luggage",
+    "delsey-chatelet-air-carry-on"
+  ],
+  "images": {
+    "hero": "/images/products/samsonite-omni-max-carry-on/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

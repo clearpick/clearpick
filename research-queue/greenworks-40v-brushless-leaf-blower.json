@@ -11,7 +11,7 @@
   "priceDisplay": "$179 CAD",
   "score": 8.3,
   "tag": "Best Mid-Range Cordless Blower",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0593/9537/5264/files/R0102066-00.png?v=1781662493",
   "affiliateUrl": "https://www.amazon.ca/dp/B07YNKC7RW/?tag=clearpick06-20",
   "subscores": {
     "Value": 8.5,
@@ -109,5 +109,10 @@
     "ego-power-lb6504",
     "dewalt-2100-psi-pressure-washer",
     "dewalt-60v-flexvolt-leaf-blower"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/greenworks-40v-brushless-leaf-blower/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

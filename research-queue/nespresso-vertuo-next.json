@@ -11,7 +11,7 @@
   "priceDisplay": "$229 CAD",
   "score": 7.6,
   "tag": "Best One-Button Espresso Machine",
-  "image": "https://images-na.ssl-images-amazon.com/images/P/B08XZS8G7K.01._AC_SX500_.jpg",
+  "image": "https://m.media-amazon.com/images/I/51Adr7Rc43L._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B08XZS8G7K/?tag=clearpick06-20",
   "subscores": {
     "Brew Quality": 8,
@@ -111,5 +111,10 @@
     "keurig-k-elite",
     "breville-bambino-plus",
     "delonghi-la-specialista-maestro"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/nespresso-vertuo-next/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

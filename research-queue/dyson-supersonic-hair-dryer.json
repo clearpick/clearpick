@@ -9,9 +9,9 @@
   "asin": "B0CLQMJ2YH",
   "price": 699,
   "priceDisplay": "$699 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Hair Dryers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/61VbimI6WuL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0CLQMJ2YH/?tag=clearpick06-20",
   "subscores": {
     "Drying Speed": 9.5,
@@ -104,5 +104,10 @@
     "dyson-airwrap-multi-styler",
     "conair-infinitipro-1875w-dryer",
     "babylisspro-nano-titanium-flat-iron"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/dyson-supersonic-hair-dryer/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

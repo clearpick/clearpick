@@ -11,7 +11,7 @@
   "priceDisplay": "$299 CAD",
   "score": 8.5,
   "tag": "Best Adjustable Weight Bench",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0574/1215/7598/files/Men_s_Blueprint_Tri-Blend_Crew_Ghost_Black-thumbnail.jpg?v=1781215732",
   "affiliateUrl": "https://www.amazon.ca/dp/B07CMLGQR9/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9.5,
@@ -106,5 +106,10 @@
     "concept2-rowerg",
     "triggerpoint-grid-foam-roller",
     "iron-gym-pull-up-bar"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/rep-fitness-fid-weight-bench/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

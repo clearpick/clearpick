@@ -11,7 +11,7 @@
   "priceDisplay": "$599 CAD",
   "score": 8.7,
   "tag": "Massage Guns",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0671/4097/6867/files/CryoTherm-Palm-PLP-Thumbnail-1.webp?v=1780360544",
   "affiliateUrl": "https://www.amazon.ca/dp/B0C2G5LPKS/?tag=clearpick06-20",
   "subscores": {
     "Quiet": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0C2G5LPKS",
   "verifiedPrice": "$599 CAD",
-  "similarProducts": ["hyperice-hypervolt-2-pro", "stanley-quencher-40oz", "hydro-flask-40oz-wide-mouth"]
+  "similarProducts": [
+    "hyperice-hypervolt-2-pro",
+    "stanley-quencher-40oz",
+    "hydro-flask-40oz-wide-mouth"
+  ],
+  "images": {
+    "hero": "/images/products/theragun-elite-5th-gen/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

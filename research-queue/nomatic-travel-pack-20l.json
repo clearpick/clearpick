@@ -11,12 +11,12 @@
   "priceDisplay": "$329.99 CAD",
   "score": 8.6,
   "tag": "Best Minimalist Travel Backpack",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0745/1299/files/RLMDMD-BLK-01_METHODLuggageCheckIn_MEDIUM_BLACK_NOMATIC_02.png?v=1781029063",
   "affiliateUrl": "https://www.amazon.ca/dp/B06Y4DBJZC/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9.5,
     "Storage & Organization": 9.5,
-    "Ease of Use": 8.0,
+    "Ease of Use": 8,
     "Value for Money": 7.5,
     "Organization System": 9.5
   },
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B06Y4DBJZC",
   "verifiedPrice": "$329.99 CAD",
-  "similarProducts": ["matein-travel-laptop-backpack", "nike-brasilia-95-duffel", "eagle-creek-pack-it-reveal-set"]
+  "similarProducts": [
+    "matein-travel-laptop-backpack",
+    "nike-brasilia-95-duffel",
+    "eagle-creek-pack-it-reveal-set"
+  ],
+  "images": {
+    "hero": "/images/products/nomatic-travel-pack-20l/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

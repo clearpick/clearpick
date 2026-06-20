@@ -11,7 +11,7 @@
   "priceDisplay": "$399 CAD",
   "score": 8.8,
   "tag": "Bike Computers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/51WMm-ncVTL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B07QBDG3TR/?tag=clearpick06-20",
   "subscores": {
     "Navigation": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07QBDG3TR",
   "verifiedPrice": "$399 CAD",
-  "similarProducts": ["fitbit-charge-6", "apple-watch-ultra-2", "camelbak-chute-mag-32oz"]
+  "similarProducts": [
+    "fitbit-charge-6",
+    "apple-watch-ultra-2",
+    "camelbak-chute-mag-32oz"
+  ],
+  "images": {
+    "hero": "/images/products/garmin-edge-530/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

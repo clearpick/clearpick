@@ -11,7 +11,7 @@
   "priceDisplay": "$149 CAD",
   "score": 9.2,
   "tag": "Camping Gear",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0627/4986/8125/files/trac_knife_sheath_20260402201853.jpg?v=1777551591",
   "affiliateUrl": "https://www.amazon.ca/dp/B01H5TDHVC/?tag=clearpick06-20",
   "subscores": {
     "Tool Count": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B01H5TDHVC",
   "verifiedPrice": "$149 CAD",
-  "similarProducts": ["hyperice-hypervolt-2-pro", "hydro-flask-40oz-wide-mouth", "camelbak-chute-mag-32oz"]
+  "similarProducts": [
+    "hyperice-hypervolt-2-pro",
+    "hydro-flask-40oz-wide-mouth",
+    "camelbak-chute-mag-32oz"
+  ],
+  "images": {
+    "hero": "/images/products/leatherman-wave-plus/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,13 +11,13 @@
   "priceDisplay": "$59.99 CAD",
   "score": 8.7,
   "tag": "Best MagSafe Car Mount",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0808/0067/files/title_web_apple_watch_se3_40mm_thin_fit_360_01_a847f8f7-1fa7-4c08-b68f-ac961373e0b7.jpg?v=1777917575",
   "affiliateUrl": "https://www.amazon.ca/dp/B0BPFM8YQZ/?tag=clearpick06-20",
   "subscores": {
     "Magnet Strength": 9.5,
     "Ease of Use": 9.5,
-    "Build Quality": 9.0,
-    "Phone Compatibility": 8.0,
+    "Build Quality": 9,
+    "Phone Compatibility": 8,
     "Value for Money": 8.5
   },
   "specs": {
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0BPFM8YQZ",
   "verifiedPrice": "$59.99 CAD",
-  "similarProducts": ["iottie-easy-one-touch-5-mount", "ryobi-pcl520b-cordless-inflator", "noco-boost-plus-gb40"]
+  "similarProducts": [
+    "iottie-easy-one-touch-5-mount",
+    "ryobi-pcl520b-cordless-inflator",
+    "noco-boost-plus-gb40"
+  ],
+  "images": {
+    "hero": "/images/products/spigen-onetap-pro-magsafe-mount/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

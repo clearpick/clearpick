@@ -9,9 +9,9 @@
   "asin": "B01E6V5S44",
   "price": 449,
   "priceDisplay": "$449 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Flat Top Griddles",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://blackstoneproducts.com/cdn/shop/files/og-image-index_1a477f27-999a-42dc-b0af-1f264a8ee869.jpg?crop=center&height=1200&v=1589588540&width=1200",
   "affiliateUrl": "https://www.amazon.ca/dp/B01E6V5S44/?tag=clearpick06-20",
   "subscores": {
     "Cooking Surface": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B01E6V5S44",
   "verifiedPrice": "$449 CAD",
-  "similarProducts": ["traeger-woodridge", "weber-genesis-e-325s", "jabra-elite-10"]
+  "similarProducts": [
+    "traeger-woodridge",
+    "weber-genesis-e-325s",
+    "jabra-elite-10"
+  ],
+  "images": {
+    "hero": "/images/products/blackstone-36-flat-top-griddle/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,7 +11,7 @@
   "priceDisplay": "$299 CAD",
   "score": 7.9,
   "tag": "Best Budget Recumbent Bike",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.marcypro.com/cdn/shop/files/MARCY-SOCIAL-SHARING---1200x628.jpg?v=1743184585",
   "affiliateUrl": "https://www.amazon.ca/dp/B073JW65PT/?tag=clearpick06-20",
   "subscores": {
     "Value": 9.5,
@@ -106,5 +106,10 @@
     "concept2-rowerg",
     "triggerpoint-grid-foam-roller",
     "iron-gym-pull-up-bar"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/marcy-me709-recumbent-bike/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

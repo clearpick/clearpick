@@ -11,7 +11,7 @@
   "priceDisplay": "$999 CAD",
   "score": 9.2,
   "tag": "GPS Watches",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://share-assets.fe.garmin.com/facebook-default.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B09NVNQKPN/?tag=clearpick06-20",
   "subscores": {
     "Multi-Sport": 9.5,
@@ -106,5 +106,10 @@
     "garmin-edge-530",
     "fitbit-charge-6",
     "apple-watch-ultra-2"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/garmin-fenix-7-solar/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

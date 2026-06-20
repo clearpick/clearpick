@@ -11,7 +11,7 @@
   "priceDisplay": "$399 CAD",
   "score": 8.8,
   "tag": "Massage Guns",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0786/1852/5910/files/WarmUpPack1.png?v=1780699648",
   "affiliateUrl": "https://www.amazon.ca/dp/B09HKPJWQ2/?tag=clearpick06-20",
   "subscores": {
     "Power": 9.5,
@@ -103,5 +103,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09HKPJWQ2",
   "verifiedPrice": "$399 CAD",
-  "similarProducts": ["hydro-flask-40oz-wide-mouth", "hoka-clifton-9", "theragun-prime-5th-gen"]
+  "similarProducts": [
+    "hydro-flask-40oz-wide-mouth",
+    "hoka-clifton-9",
+    "theragun-prime-5th-gen"
+  ],
+  "images": {
+    "hero": "/images/products/hyperice-hypervolt-2-pro/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

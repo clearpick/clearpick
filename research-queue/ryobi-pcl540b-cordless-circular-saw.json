@@ -11,7 +11,7 @@
   "priceDisplay": "$229 CAD",
   "score": 8.7,
   "tag": "Circular Saws",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/71izGBuuJHL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B099CHFN88/?tag=clearpick06-20",
   "subscores": {
     "Brushless Motor": 9.5,
@@ -106,5 +106,10 @@
     "ryobi-18v-pcl206k2-drill-kit",
     "dewalt-dwe575sb-circular-saw",
     "milwaukee-m18-fuel-hammer-drill"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/ryobi-pcl540b-cordless-circular-saw/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

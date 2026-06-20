@@ -9,9 +9,9 @@
   "asin": "B07TZ4L3BR",
   "price": 449,
   "priceDisplay": "$449 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Countertop Oven",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.breville.com/content/breville/us/en.thumb.800.480.png?ck=1774944860",
   "affiliateUrl": "https://www.amazon.ca/dp/B07TZ4L3BR/?tag=clearpick06-20",
   "subscores": {
     "Cook Performance": 9.5,
@@ -106,5 +106,10 @@
     "instant-pot-pro-6qt",
     "vitamix-e310-explorian",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/breville-smart-oven-air-fryer-pro/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

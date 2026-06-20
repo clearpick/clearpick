@@ -11,7 +11,7 @@
   "priceDisplay": "$399 CAD",
   "score": 9.2,
   "tag": "Coffee Makers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://us.moccamaster.com/cdn/shopifycloud/storefront/assets/no-image-2048-a2addb12_1200x.gif",
   "affiliateUrl": "https://www.amazon.ca/dp/B09ZSDQ1W7/?tag=clearpick06-20",
   "subscores": {
     "Brew Temperature": 9.5,
@@ -107,5 +107,10 @@
     "bonavita-8-cup-coffee-maker",
     "cuisinart-dcc-3200-coffee-maker",
     "baratza-encore-grinder"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/moccamaster-kbgv-select/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

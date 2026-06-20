@@ -11,13 +11,13 @@
   "priceDisplay": "$89.99 CAD",
   "score": 8.7,
   "tag": "Best Premium Packing Cubes",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0554/0115/2649/files/Expanse4WheelInternationalSet_Blue_Blue.jpg?v=1747419870",
   "affiliateUrl": "https://www.amazon.ca/dp/B0BFXYMB9M/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9.5,
-    "Storage & Organization": 9.0,
+    "Storage & Organization": 9,
     "Ease of Use": 8.5,
-    "Value for Money": 8.0,
+    "Value for Money": 8,
     "Sustainability": 9.5
   },
   "specs": {
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0BFXYMB9M",
   "verifiedPrice": "$89.99 CAD",
-  "similarProducts": ["amazon-basics-packing-cubes", "anker-powercore-20000-power-bank", "delsey-chatelet-air-carry-on"]
+  "similarProducts": [
+    "amazon-basics-packing-cubes",
+    "anker-powercore-20000-power-bank",
+    "delsey-chatelet-air-carry-on"
+  ],
+  "images": {
+    "hero": "/images/products/eagle-creek-pack-it-reveal-set/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

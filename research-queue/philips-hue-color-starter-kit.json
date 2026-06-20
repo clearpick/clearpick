@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 8.7,
   "tag": "Smart Bulbs",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.philips-hue.com/content/dam/hue/masters/search/search-16-9.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0793H8ML8/?tag=clearpick06-20",
   "subscores": {
     "Color Range": 9.5,
@@ -106,5 +106,10 @@
     "amazon-echo-dot-5th-gen",
     "google-nest-thermostat",
     "amazon-echo-show-8-3rd-gen"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/philips-hue-color-starter-kit/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

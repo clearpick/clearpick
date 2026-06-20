@@ -11,7 +11,7 @@
   "priceDisplay": "$449 CAD",
   "score": 8.4,
   "tag": "Kamado Grills",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.chargriller.com/cdn/shop/files/94135787_2823205494441953_7620232191762497536_o.png?v=1589901386",
   "affiliateUrl": "https://www.amazon.ca/dp/B004AP4ETW/?tag=clearpick06-20",
   "subscores": {
     "Temperature Retention": 9,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B004AP4ETW",
   "verifiedPrice": "$449 CAD",
-  "similarProducts": ["camp-chef-woodwind-pro-36", "camp-chef-flat-top-600", "blackstone-36-flat-top-griddle"]
+  "similarProducts": [
+    "camp-chef-woodwind-pro-36",
+    "camp-chef-flat-top-600",
+    "blackstone-36-flat-top-griddle"
+  ],
+  "images": {
+    "hero": "/images/products/char-griller-akorn-kamado/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

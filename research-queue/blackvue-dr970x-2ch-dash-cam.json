@@ -11,14 +11,14 @@
   "priceDisplay": "$599.99 CAD",
   "score": 9.1,
   "tag": "Best Premium Dual-Channel Dash Cam",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0659/7233/8777/files/CPL-2-1-thumb-1.webp?v=1776750594",
   "affiliateUrl": "https://www.amazon.ca/dp/B09TT29KZV/?tag=clearpick06-20",
   "subscores": {
     "Video Quality": 9.5,
-    "Build Quality": 9.0,
-    "Feature Set": 9.0,
-    "App & Connectivity": 9.0,
-    "Value for Money": 8.0
+    "Build Quality": 9,
+    "Feature Set": 9,
+    "App & Connectivity": 9,
+    "Value for Money": 8
   },
   "specs": {
     "Front Resolution": "4K UHD (3840×2160) at 30fps",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09TT29KZV",
   "verifiedPrice": "$599.99 CAD",
-  "similarProducts": ["black-decker-20v-handheld-vacuum", "bissell-aeroslim-cordless-vacuum", "autel-maxicom-mk808-scanner"]
+  "similarProducts": [
+    "black-decker-20v-handheld-vacuum",
+    "bissell-aeroslim-cordless-vacuum",
+    "autel-maxicom-mk808-scanner"
+  ],
+  "images": {
+    "hero": "/images/products/blackvue-dr970x-2ch-dash-cam/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

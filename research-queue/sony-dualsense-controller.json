@@ -11,7 +11,7 @@
   "priceDisplay": "$89 CAD",
   "score": 9.4,
   "tag": "Gaming Controllers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/61uQKdWCfAL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B08FC6C75Y/?tag=clearpick06-20",
   "subscores": {
     "Haptic Feedback": 9.5,
@@ -103,5 +103,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B08FC6C75Y",
   "verifiedPrice": "$89 CAD",
-  "similarProducts": ["8bitdo-ultimate-2-controller", "razer-deathadder-v3-hyperspeed", "razer-blackshark-v2-pro-2023"]
+  "similarProducts": [
+    "8bitdo-ultimate-2-controller",
+    "razer-deathadder-v3-hyperspeed",
+    "razer-blackshark-v2-pro-2023"
+  ],
+  "images": {
+    "hero": "/images/products/sony-dualsense-controller/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

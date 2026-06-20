@@ -11,7 +11,7 @@
   "priceDisplay": "$549 CAD",
   "score": 8.4,
   "tag": "Pellet Grills",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0103/1923/3081/files/20260610-105215.jpg?v=1781059965",
   "affiliateUrl": "https://www.amazon.ca/dp/B07FXZN5G4/?tag=clearpick06-20",
   "subscores": {
     "Value for Price": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07FXZN5G4",
   "verifiedPrice": "$549 CAD",
-  "similarProducts": ["pit-boss-700fb", "weber-spirit-ii-e-310", "traeger-ironwood-885"]
+  "similarProducts": [
+    "pit-boss-700fb",
+    "weber-spirit-ii-e-310",
+    "traeger-ironwood-885"
+  ],
+  "images": {
+    "hero": "/images/products/z-grills-700d4e/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

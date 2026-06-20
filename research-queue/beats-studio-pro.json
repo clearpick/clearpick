@@ -11,7 +11,7 @@
   "priceDisplay": "$399 CAD",
   "score": 8.3,
   "tag": "Best Over-Ear for Apple Users",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.beatsbydre.com/content/dam/beats/web/seo/beats_seo_card_1200x630-3.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0CLHH7JNZ/?tag=clearpick06-20",
   "subscores": {
     "Sound Quality": 8.5,
@@ -111,5 +111,10 @@
     "sony-wf-1000xm5",
     "sony-wh-1000xm6",
     "apple-airpods-pro-2nd-gen"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/beats-studio-pro/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

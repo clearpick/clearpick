@@ -11,7 +11,7 @@
   "priceDisplay": "$279 CAD",
   "score": 9.2,
   "tag": "Gaming Keyboards",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://assets.corsair.com/image/upload/f_auto/q_auto/v1690325467/akamai/content/images/corsair-social-default-image.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B08HR5XNJT/?tag=clearpick06-20",
   "subscores": {
     "Switch Speed": 9.5,
@@ -103,5 +103,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B08HR5XNJT",
   "verifiedPrice": "$279 CAD",
-  "similarProducts": ["asus-rog-swift-pg279qm", "astro-a50-gen5-wireless", "8bitdo-ultimate-2-controller"]
+  "similarProducts": [
+    "asus-rog-swift-pg279qm",
+    "astro-a50-gen5-wireless",
+    "8bitdo-ultimate-2-controller"
+  ],
+  "images": {
+    "hero": "/images/products/corsair-k100-rgb-keyboard/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

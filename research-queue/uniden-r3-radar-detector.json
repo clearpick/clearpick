@@ -9,16 +9,16 @@
   "asin": "B07CTDB5Q8",
   "price": 399,
   "priceDisplay": "$399.99 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Long-Range Radar Detector",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://uniden.com/cdn/shop/files/Uniden-Logo-2025-Black-1200x600.jpg?v=1738705354",
   "affiliateUrl": "https://www.amazon.ca/dp/B07CTDB5Q8/?tag=clearpick06-20",
   "subscores": {
     "Detection Range": 9.5,
-    "False Alert Filtering": 9.0,
+    "False Alert Filtering": 9,
     "Build Quality": 8.5,
     "Ease of Use": 8.5,
-    "Value for Money": 9.0
+    "Value for Money": 9
   },
   "specs": {
     "Band Coverage": "X-band, K-band, Ka-band, Laser/Lidar",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07CTDB5Q8",
   "verifiedPrice": "$399.99 CAD",
-  "similarProducts": ["thinkware-u1000-dash-cam", "garmin-dash-cam-67w", "blackvue-dr970x-2ch-dash-cam"]
+  "similarProducts": [
+    "thinkware-u1000-dash-cam",
+    "garmin-dash-cam-67w",
+    "blackvue-dr970x-2ch-dash-cam"
+  ],
+  "images": {
+    "hero": "/images/products/uniden-r3-radar-detector/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,12 +11,12 @@
   "priceDisplay": "$199.99 CAD",
   "score": 8.8,
   "tag": "Best Value 4K Dual Dash Cam",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0569/8905/7087/files/viofo_product_line.jpg?v=1775690729",
   "affiliateUrl": "https://www.amazon.ca/dp/B09BLBH4FB/?tag=clearpick06-20",
   "subscores": {
-    "Video Quality": 9.0,
+    "Video Quality": 9,
     "Build Quality": 8.5,
-    "Night Vision": 9.0,
+    "Night Vision": 9,
     "Features": 8.5,
     "Value for Money": 9.5
   },
@@ -88,5 +88,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09BLBH4FB",
   "verifiedPrice": "$199.99 CAD",
-  "similarProducts": ["vantrue-n4-3-channel-dash-cam", "garmin-dash-cam-67w", "thinkware-u1000-dash-cam"]
+  "similarProducts": [
+    "vantrue-n4-3-channel-dash-cam",
+    "garmin-dash-cam-67w",
+    "thinkware-u1000-dash-cam"
+  ],
+  "images": {
+    "hero": "/images/products/viofo-a139-pro-dash-cam/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

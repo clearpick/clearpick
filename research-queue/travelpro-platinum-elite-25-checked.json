@@ -11,14 +11,14 @@
   "priceDisplay": "$449.99 CAD",
   "score": 9.1,
   "tag": "Best Premium Checked Luggage",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0080/0984/2786/files/B409186108_SET.jpg?v=1771512964",
   "affiliateUrl": "https://www.amazon.ca/dp/B07BFLMYBD/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9.5,
     "Storage & Organization": 9.5,
     "Ease of Use": 9.5,
     "Spinner Performance": 9.5,
-    "Value for Money": 8.0
+    "Value for Money": 8
   },
   "specs": {
     "Size": "25-inch mid-size checked",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07BFLMYBD",
   "verifiedPrice": "$449.99 CAD",
-  "similarProducts": ["samsonite-omni-max-checked-28", "travelpro-maxlite-5-carry-on", "samsonite-omni-max-carry-on"]
+  "similarProducts": [
+    "samsonite-omni-max-checked-28",
+    "travelpro-maxlite-5-carry-on",
+    "samsonite-omni-max-carry-on"
+  ],
+  "images": {
+    "hero": "/images/products/travelpro-platinum-elite-25-checked/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

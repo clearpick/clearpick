@@ -11,7 +11,7 @@
   "priceDisplay": "$699 CAD",
   "score": 8.9,
   "tag": "Charcoal Smokers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/71TYhCzhZ6L._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B08XXDQTGZ/?tag=clearpick06-20",
   "subscores": {
     "Temperature Consistency": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B08XXDQTGZ",
   "verifiedPrice": "$699 CAD",
-  "similarProducts": ["kamado-joe-classic-iii", "char-griller-akorn-kamado", "grillgrates-set"]
+  "similarProducts": [
+    "kamado-joe-classic-iii",
+    "char-griller-akorn-kamado",
+    "grillgrates-set"
+  ],
+  "images": {
+    "hero": "/images/products/masterbuilt-gravity-series-800/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

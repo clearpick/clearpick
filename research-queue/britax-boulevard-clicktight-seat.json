@@ -11,13 +11,13 @@
   "priceDisplay": "$449.99 CAD",
   "score": 8.9,
   "tag": "Best Premium Convertible Car Seat",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdne1britaxus.azureedge.net/bri/uploads/_1200x630_crop_center-center_82_none/Britax-Safety-You-Can-Trust-Car-Seats-Strollers.png?mtime=1684854959",
   "affiliateUrl": "https://www.amazon.ca/dp/B0195LQC6O/?tag=clearpick06-20",
   "subscores": {
     "Safety & Build Quality": 9.5,
     "Ease of Use": 9.5,
-    "Comfort": 9.0,
-    "Value for Money": 8.0,
+    "Comfort": 9,
+    "Value for Money": 8,
     "Installation Confidence": 9.5
   },
   "specs": {
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0195LQC6O",
   "verifiedPrice": "$449.99 CAD",
-  "similarProducts": ["4moms-mamaroo-4-swing", "babybjorn-baby-carrier-one", "babybjorn-bouncer-bliss"]
+  "similarProducts": [
+    "4moms-mamaroo-4-swing",
+    "babybjorn-baby-carrier-one",
+    "babybjorn-bouncer-bliss"
+  ],
+  "images": {
+    "hero": "/images/products/britax-boulevard-clicktight-seat/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

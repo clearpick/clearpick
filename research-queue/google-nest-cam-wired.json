@@ -11,7 +11,7 @@
   "priceDisplay": "$129 CAD",
   "score": 8.4,
   "tag": "Security Cameras",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://lh3.googleusercontent.com/1p6dZbpoAp4NlmsBxuXvcLDKM7cDhmQmiAd9QJLV_cBbeBoybfMtggUTC2ZNF7wonm82CJvyCzUEtKu8NRIF=rj-sc0xffffffff",
   "affiliateUrl": "https://www.amazon.ca/dp/B09F1S4YTX/?tag=clearpick06-20",
   "subscores": {
     "On-Device AI": 9,
@@ -106,5 +106,10 @@
     "google-nest-doorbell-battery",
     "arlo-essential-video-doorbell-wire-free",
     "ring-battery-video-doorbell-2024"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/google-nest-cam-wired/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

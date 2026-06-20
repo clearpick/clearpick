@@ -11,13 +11,13 @@
   "priceDisplay": "$1,399.99 CAD",
   "score": 9.2,
   "tag": "Best Premium Full-Size Stroller",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/61I2t08Sa4L._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0D9X92CJS/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9.5,
-    "Ease of Use": 9.0,
+    "Ease of Use": 9,
     "Comfort": 9.5,
-    "Value for Money": 8.0,
+    "Value for Money": 8,
     "Grow-With System": 9.5
   },
   "specs": {
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0D9X92CJS",
   "verifiedPrice": "$1,399.99 CAD",
-  "similarProducts": ["baby-jogger-city-mini-gt2", "graco-modes-pramette-stroller", "stokke-tripp-trapp-high-chair"]
+  "similarProducts": [
+    "baby-jogger-city-mini-gt2",
+    "graco-modes-pramette-stroller",
+    "stokke-tripp-trapp-high-chair"
+  ],
+  "images": {
+    "hero": "/images/products/uppababy-vista-v3-stroller/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

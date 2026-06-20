@@ -11,7 +11,7 @@
   "priceDisplay": "$139 CAD",
   "score": 9.2,
   "tag": "Mice",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/61ni3t1ryQL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B09HMKFDXC/?tag=clearpick06-20",
   "subscores": {
     "Scroll Wheel": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09HMKFDXC",
   "verifiedPrice": "$139 CAD",
-  "similarProducts": ["logitech-mx-keys-s-keyboard", "logitech-lift-vertical-mouse", "keychron-k2-pro-keyboard"]
+  "similarProducts": [
+    "logitech-mx-keys-s-keyboard",
+    "logitech-lift-vertical-mouse",
+    "keychron-k2-pro-keyboard"
+  ],
+  "images": {
+    "hero": "/images/products/logitech-mx-master-3s-mouse/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

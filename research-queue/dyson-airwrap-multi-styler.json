@@ -11,7 +11,7 @@
   "priceDisplay": "$699 CAD",
   "score": 9.1,
   "tag": "Hair Stylers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/61hgx9VjjjL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0CLQPN1DL/?tag=clearpick06-20",
   "subscores": {
     "Curl Quality": 9.5,
@@ -105,5 +105,10 @@
     "conair-infinitipro-1875w-dryer",
     "babylisspro-nano-titanium-flat-iron",
     "braun-series-7-shaver"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/dyson-airwrap-multi-styler/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

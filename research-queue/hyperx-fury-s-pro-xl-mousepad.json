@@ -9,9 +9,9 @@
   "asin": "B073P39QQK",
   "price": 29,
   "priceDisplay": "$29 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Gaming Mice",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://hyperx.com/cdn/shop/files/Shopify_social_sharing_ea89cf45-9db6-46e3-9b2b-dd641e5f203c.gif?v=1631254312",
   "affiliateUrl": "https://www.amazon.ca/dp/B073P39QQK/?tag=clearpick06-20",
   "subscores": {
     "Surface Speed": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B073P39QQK",
   "verifiedPrice": "$29 CAD",
-  "similarProducts": ["hyperx-cloud-alpha-wireless", "elgato-hd60-x-capture-card", "corsair-k100-rgb-keyboard"]
+  "similarProducts": [
+    "hyperx-cloud-alpha-wireless",
+    "elgato-hd60-x-capture-card",
+    "corsair-k100-rgb-keyboard"
+  ],
+  "images": {
+    "hero": "/images/products/hyperx-fury-s-pro-xl-mousepad/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

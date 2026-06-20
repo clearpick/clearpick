@@ -11,7 +11,7 @@
   "priceDisplay": "$89 CAD",
   "score": 8.4,
   "tag": "Best Weighted Jump Rope Set",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0316/7810/3691/files/ProductImage_BeadedGray820x.jpg?v=1781194023",
   "affiliateUrl": "https://www.amazon.ca/dp/B07MQ3V1GN/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9,
@@ -105,5 +105,10 @@
     "concept2-rowerg",
     "triggerpoint-grid-foam-roller",
     "iron-gym-pull-up-bar"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/crossrope-get-lean-jump-rope/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

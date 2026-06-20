@@ -11,7 +11,7 @@
   "priceDisplay": "$25 CAD",
   "score": 8.1,
   "tag": "Best Compact Waffle Maker",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://bydash.com/cdn/shop/files/Dash-MultiMaker-Waffle-Maker-Removable-Plates.jpg?v=1735684522",
   "affiliateUrl": "https://www.amazon.ca/dp/B01N58KRVW/?tag=clearpick06-20",
   "subscores": {
     "Waffle Quality": 8,
@@ -104,5 +104,10 @@
     "instant-pot-pro-6qt",
     "vitamix-e310-explorian",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/dash-mini-waffle-maker/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

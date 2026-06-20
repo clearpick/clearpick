@@ -11,7 +11,7 @@
   "priceDisplay": "$699 CAD",
   "score": 8.7,
   "tag": "Gas Grills",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/617Ej5IZYPL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B09BNN9WY6/?tag=clearpick06-20",
   "subscores": {
     "Canadian Build Quality": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09BNN9WY6",
   "verifiedPrice": "$699 CAD",
-  "similarProducts": ["blackstone-36-flat-top-griddle", "weber-genesis-e-325s", "traeger-woodridge"]
+  "similarProducts": [
+    "blackstone-36-flat-top-griddle",
+    "weber-genesis-e-325s",
+    "traeger-woodridge"
+  ],
+  "images": {
+    "hero": "/images/products/broil-king-baron-420/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

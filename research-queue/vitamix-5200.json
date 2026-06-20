@@ -11,7 +11,7 @@
   "priceDisplay": "$649 CAD",
   "score": 9.1,
   "tag": "Best Professional-Grade Blender",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.vitamix.com/content/dam/vitamix/migration/img/noimageimage.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B001I2KX0M/?tag=clearpick06-20",
   "subscores": {
     "Blending Power": 10,
@@ -106,5 +106,10 @@
     "instant-pot-pro-6qt",
     "vitamix-e310-explorian",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/vitamix-5200/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

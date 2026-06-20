@@ -11,10 +11,10 @@
   "priceDisplay": "$29.99 CAD",
   "score": 8.4,
   "tag": "Best Budget Packing Cubes",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/61vXywM781L._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B014VBGRR8/?tag=clearpick06-20",
   "subscores": {
-    "Build Quality": 8.0,
+    "Build Quality": 8,
     "Storage & Organization": 8.5,
     "Ease of Use": 8.5,
     "Value for Money": 9.5,
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B014VBGRR8",
   "verifiedPrice": "$29.99 CAD",
-  "similarProducts": ["osprey-atmos-ag-65", "osprey-talon-22-daypack", "big-agnes-copper-spur-hv-ul2"]
+  "similarProducts": [
+    "osprey-atmos-ag-65",
+    "osprey-talon-22-daypack",
+    "big-agnes-copper-spur-hv-ul2"
+  ],
+  "images": {
+    "hero": "/images/products/amazon-basics-packing-cubes/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

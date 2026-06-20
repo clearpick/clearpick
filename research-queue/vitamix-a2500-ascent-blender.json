@@ -9,9 +9,9 @@
   "asin": "B01MY2NYRN",
   "price": 799,
   "priceDisplay": "$799 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Smart Blender",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.vitamix.com/content/dam/vitamix/migration/img/noimageimage.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B01MY2NYRN/?tag=clearpick06-20",
   "subscores": {
     "Blending Performance": 9.5,
@@ -104,5 +104,10 @@
     "instant-pot-pro-6qt",
     "vitamix-e310-explorian",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/vitamix-a2500-ascent-blender/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

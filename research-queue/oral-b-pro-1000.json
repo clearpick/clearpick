@@ -11,7 +11,7 @@
   "priceDisplay": "$79 CAD",
   "score": 8.7,
   "tag": "Electric Toothbrushes",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://images.ctfassets.net/iy5ifr0uwt25/2wPgLuymCyMgfYINj1lHxB/cdeeb60808173bc391723ca6e7561f71/file.png?fm=webp&q=85",
   "affiliateUrl": "https://www.amazon.ca/dp/B0722WDRJ8/?tag=clearpick06-20",
   "subscores": {
     "Cleaning Power": 9,
@@ -106,5 +106,10 @@
     "oral-b-io-series-9",
     "nuface-trinity-plus",
     "foreo-luna-4"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/oral-b-pro-1000/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

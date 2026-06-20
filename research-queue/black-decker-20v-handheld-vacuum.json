@@ -11,14 +11,14 @@
   "priceDisplay": "$89.99 CAD",
   "score": 8.3,
   "tag": "Best Value Car Vacuum",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://bynder.sbdinc.com/m/cac9b4d5c441e81d/Drupal_Large-BD_category-fallback-center_GEB1.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B09Y1GDSN7/?tag=clearpick06-20",
   "subscores": {
-    "Suction Power": 8.0,
-    "Battery Life": 8.0,
-    "Build Quality": 8.0,
-    "Portability": 9.0,
-    "Value for Money": 9.0
+    "Suction Power": 8,
+    "Battery Life": 8,
+    "Build Quality": 8,
+    "Portability": 9,
+    "Value for Money": 9
   },
   "specs": {
     "Battery": "20V MAX lithium-ion (included)",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09Y1GDSN7",
   "verifiedPrice": "$89.99 CAD",
-  "similarProducts": ["bissell-aeroslim-cordless-vacuum", "autel-maxicom-mk808-scanner", "avid-power-tire-inflator"]
+  "similarProducts": [
+    "bissell-aeroslim-cordless-vacuum",
+    "autel-maxicom-mk808-scanner",
+    "avid-power-tire-inflator"
+  ],
+  "images": {
+    "hero": "/images/products/black-decker-20v-handheld-vacuum/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

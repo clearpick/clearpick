@@ -9,16 +9,16 @@
   "asin": "B015TKUPIC",
   "price": 149,
   "priceDisplay": "$149.99 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Compact Jump Starter",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/71hJgp07X1L._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B015TKUPIC/?tag=clearpick06-20",
   "subscores": {
-    "Jump Starting Power": 9.0,
+    "Jump Starting Power": 9,
     "Safety Features": 9.5,
     "Portability": 9.5,
     "Battery Life": 8.5,
-    "Value for Money": 9.0
+    "Value for Money": 9
   },
   "specs": {
     "Peak Amps": "1000 peak amps",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B015TKUPIC",
   "verifiedPrice": "$149.99 CAD",
-  "similarProducts": ["noco-boost-hd-gb70", "clore-jump-n-carry-jnc660", "meguiars-gold-class-car-wash"]
+  "similarProducts": [
+    "noco-boost-hd-gb70",
+    "clore-jump-n-carry-jnc660",
+    "meguiars-gold-class-car-wash"
+  ],
+  "images": {
+    "hero": "/images/products/noco-boost-plus-gb40/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

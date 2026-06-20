@@ -11,7 +11,7 @@
   "priceDisplay": "$39 CAD",
   "score": 8.6,
   "tag": "Kitchen Gadgets",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://hamiltonbeach.com/media/hamilton_beach_social.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B007THHFT0/?tag=clearpick06-20",
   "subscores": {
     "Value": 9.5,
@@ -106,5 +106,10 @@
     "fellow-stagg-ekg-kettle",
     "aeropress-coffee-maker",
     "oxo-brew-9-cup-pour-over"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/hamilton-beach-electric-kettle/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

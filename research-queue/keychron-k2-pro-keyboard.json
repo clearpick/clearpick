@@ -11,7 +11,7 @@
   "priceDisplay": "$149 CAD",
   "score": 8.9,
   "tag": "Keyboards",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0059/0630/1017/files/Keychron-K5-Ultra-8K-Wireless-Custom-Mechanical-Keyboard-1.jpg?v=1781234092",
   "affiliateUrl": "https://www.amazon.ca/dp/B0BJNCM8HF/?tag=clearpick06-20",
   "subscores": {
     "QMK/VIA Customization": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0BJNCM8HF",
   "verifiedPrice": "$149 CAD",
-  "similarProducts": ["jabra-evolve2-65-headset", "flexispot-e7-standing-desk", "blue-yeti-usb-microphone"]
+  "similarProducts": [
+    "jabra-evolve2-65-headset",
+    "flexispot-e7-standing-desk",
+    "blue-yeti-usb-microphone"
+  ],
+  "images": {
+    "hero": "/images/products/keychron-k2-pro-keyboard/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,7 +11,7 @@
   "priceDisplay": "$1,089 CAD",
   "score": 9,
   "tag": "Best Sub-250g Drone for Canadians",
-  "image": "https://images-na.ssl-images-amazon.com/images/P/B0CFF1SJ3P.01._AC_SX500_.jpg",
+  "image": "https://m.media-amazon.com/images/I/61XpGOFVAKL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0CFF1SJ3P/?tag=clearpick06-20",
   "subscores": {
     "Video Quality": 9,
@@ -116,5 +116,10 @@
     "canon-eos-r50",
     "gopro-hero-13-black",
     "sony-zv-e10-ii-mirrorless-camera"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/dji-mini-4-pro/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

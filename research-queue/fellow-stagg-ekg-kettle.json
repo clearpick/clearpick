@@ -9,9 +9,9 @@
   "asin": "B0765DQY3W",
   "price": 199,
   "priceDisplay": "$199 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Pour-Over Kettle",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0057/6235/1219/files/0006139923ea491f9106f10e73d8ecdf.png?v=1757442639",
   "affiliateUrl": "https://www.amazon.ca/dp/B0765DQY3W/?tag=clearpick06-20",
   "subscores": {
     "Pour Control": 10,
@@ -106,5 +106,10 @@
     "instant-pot-pro-6qt",
     "vitamix-e310-explorian",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/fellow-stagg-ekg-kettle/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

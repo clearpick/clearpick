@@ -11,7 +11,7 @@
   "priceDisplay": "$49 CAD",
   "score": 8.8,
   "tag": "Meat Thermometers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://temppro.com/cdn/shop/files/SHOP_ALL-1_1.jpg?v=1747185360",
   "affiliateUrl": "https://www.amazon.ca/dp/B073N8B7F4/?tag=clearpick06-20",
   "subscores": {
     "4 Simultaneous Probes": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B073N8B7F4",
   "verifiedPrice": "$49 CAD",
-  "similarProducts": ["meater-plus-thermometer", "pit-boss-700fb", "napoleon-prestige-500"]
+  "similarProducts": [
+    "meater-plus-thermometer",
+    "pit-boss-700fb",
+    "napoleon-prestige-500"
+  ],
+  "images": {
+    "hero": "/images/products/thermopro-tp25-thermometer/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

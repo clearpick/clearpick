@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 8.5,
   "tag": "Fitness Trackers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://lh3.googleusercontent.com/Ryn5CPnVpUO0kjJxz1ns5qp-xVpqs5q7yhd9oYiF05oqC8qUiGjeQAeJ99JrfpWswXIL344vrW0ALUYOiRqv8akLNhoEGiay3A=rw-e365-w1200-rj-sc0xffffffff",
   "affiliateUrl": "https://www.amazon.ca/dp/B0CF2G9V5T/?tag=clearpick06-20",
   "subscores": {
     "Google Integration": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0CF2G9V5T",
   "verifiedPrice": "$199 CAD",
-  "similarProducts": ["camelbak-chute-mag-32oz", "apple-watch-ultra-2", "black-diamond-trail-ergo-cork-poles"]
+  "similarProducts": [
+    "camelbak-chute-mag-32oz",
+    "apple-watch-ultra-2",
+    "black-diamond-trail-ergo-cork-poles"
+  ],
+  "images": {
+    "hero": "/images/products/fitbit-charge-6/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

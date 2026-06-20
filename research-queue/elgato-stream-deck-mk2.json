@@ -9,9 +9,9 @@
   "asin": "B09738CV2G",
   "price": 229,
   "priceDisplay": "$229 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Stream Decks",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/71WEp9nBMbL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B09738CV2G/?tag=clearpick06-20",
   "subscores": {
     "Versatility": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09738CV2G",
   "verifiedPrice": "$229 CAD",
-  "similarProducts": ["blue-yeti-usb-microphone", "dell-s2722qc-monitor", "benq-screenbar-plus"]
+  "similarProducts": [
+    "blue-yeti-usb-microphone",
+    "dell-s2722qc-monitor",
+    "benq-screenbar-plus"
+  ],
+  "images": {
+    "hero": "/images/products/elgato-stream-deck-mk2/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

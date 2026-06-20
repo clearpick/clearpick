@@ -11,7 +11,7 @@
   "priceDisplay": "$299 CAD",
   "score": 8.6,
   "tag": "Best Battery Life in ANC Headphones",
-  "image": "https://images-na.ssl-images-amazon.com/images/P/B0B6GHW1SX.01._AC_SX500_.jpg",
+  "image": "https://m.media-amazon.com/images/I/517OveHVjZL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0B6GHW1SX/?tag=clearpick06-20",
   "subscores": {
     "Noise Cancellation": 7.5,
@@ -99,5 +99,10 @@
     "bose-quietcomfort-ultra-headphones",
     "apple-airpods-max-usb-c",
     "sony-wh-1000xm6"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/sennheiser-momentum-4-wireless/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

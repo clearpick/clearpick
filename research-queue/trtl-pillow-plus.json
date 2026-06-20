@@ -11,11 +11,11 @@
   "priceDisplay": "$79.99 CAD",
   "score": 8.5,
   "tag": "Best Travel Neck Pillow",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0071/0911/6022/files/trtl-pillow1___Color--Grey.png?v=1737461529",
   "affiliateUrl": "https://www.amazon.ca/dp/B07RSTRHGK/?tag=clearpick06-20",
   "subscores": {
     "Neck Support": 9.5,
-    "Packability": 8.0,
+    "Packability": 8,
     "Comfort": 8.5,
     "Ease of Use": 8.5,
     "Value for Money": 8.5
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07RSTRHGK",
   "verifiedPrice": "$79.99 CAD",
-  "similarProducts": ["travelpro-maxlite-5-carry-on", "travelpro-platinum-elite-25-checked", "rfid-passport-holder-wallet"]
+  "similarProducts": [
+    "travelpro-maxlite-5-carry-on",
+    "travelpro-platinum-elite-25-checked",
+    "rfid-passport-holder-wallet"
+  ],
+  "images": {
+    "hero": "/images/products/trtl-pillow-plus/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

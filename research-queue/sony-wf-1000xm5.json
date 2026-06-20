@@ -11,7 +11,7 @@
   "priceDisplay": "$299 CAD",
   "score": 8.7,
   "tag": "Best ANC Earbuds for Commuters",
-  "image": "https://images-na.ssl-images-amazon.com/images/P/B0C33XXS56.01._AC_SX500_.jpg",
+  "image": "https://sony.scene7.com/is/image/sonyglobalsolutions/TV_65_A80K_756x756?$S7Product$&fmt=png-alpha",
   "affiliateUrl": "https://www.amazon.ca/dp/B0C33XXS56/?tag=clearpick06-20",
   "subscores": {
     "ANC Performance": 9.2,
@@ -111,5 +111,10 @@
     "apple-airpods-pro-2nd-gen",
     "samsung-galaxy-buds-3-pro",
     "apple-airpods-max-usb-c"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/sony-wf-1000xm5/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

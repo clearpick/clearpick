@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 8.9,
   "tag": "Trekking Poles",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0880/2195/8973/files/011592_0000_Distance_Z_Lower_No_Color_01.jpg?v=1765477272",
   "affiliateUrl": "https://www.amazon.ca/dp/B006DFKPHG/?tag=clearpick06-20",
   "subscores": {
     "Cork Grip": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B006DFKPHG",
   "verifiedPrice": "$199 CAD",
-  "similarProducts": ["apple-watch-ultra-2", "jabra-elite-10", "theragun-prime-5th-gen"]
+  "similarProducts": [
+    "apple-watch-ultra-2",
+    "jabra-elite-10",
+    "theragun-prime-5th-gen"
+  ],
+  "images": {
+    "hero": "/images/products/black-diamond-trail-ergo-cork-poles/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

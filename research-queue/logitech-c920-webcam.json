@@ -9,9 +9,9 @@
   "asin": "B006JH8T3S",
   "price": 89,
   "priceDisplay": "$89 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Webcams",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/71eGb1FcyiL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B006JH8T3S/?tag=clearpick06-20",
   "subscores": {
     "Value": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B006JH8T3S",
   "verifiedPrice": "$89 CAD",
-  "similarProducts": ["lg-34-ultrawide-monitor", "lg-27-4k-ips-monitor", "jabra-evolve2-65-headset"]
+  "similarProducts": [
+    "lg-34-ultrawide-monitor",
+    "lg-27-4k-ips-monitor",
+    "jabra-evolve2-65-headset"
+  ],
+  "images": {
+    "hero": "/images/products/logitech-c920-webcam/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

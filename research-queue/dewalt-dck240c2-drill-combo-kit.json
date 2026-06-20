@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 8.5,
   "tag": "Drills & Drivers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/81XPDrUh9sL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B00IJ0ALYS/?tag=clearpick06-20",
   "subscores": {
     "Value": 9.5,
@@ -105,5 +105,10 @@
     "bosch-glm-50c-laser-measure",
     "bosch-gll-50g-laser-level",
     "jabra-elite-10"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/dewalt-dck240c2-drill-combo-kit/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

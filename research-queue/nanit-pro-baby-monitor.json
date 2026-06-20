@@ -9,15 +9,15 @@
   "asin": "B07F2J5D5B",
   "price": 329,
   "priceDisplay": "$329.99 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Smart Baby Monitor",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/1354/7173/files/Nanit_Favicon_Logomark_32x32_b0971a46_7b1c_40fe_a7e1_d1171986b1d4_6a0f7eae8635.png?v=1781238804",
   "affiliateUrl": "https://www.amazon.ca/dp/B07F2J5D5B/?tag=clearpick06-20",
   "subscores": {
-    "Safety & Build Quality": 9.0,
+    "Safety & Build Quality": 9,
     "Ease of Use": 8.5,
     "Comfort": 8.5,
-    "Value for Money": 8.0,
+    "Value for Money": 8,
     "Smart Features & Insights": 9.5
   },
   "specs": {
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07F2J5D5B",
   "verifiedPrice": "$329.99 CAD",
-  "similarProducts": ["infant-optics-dxr-8-pro", "eufy-baby-e110-monitor", "hatch-rest-plus-sound-machine"]
+  "similarProducts": [
+    "infant-optics-dxr-8-pro",
+    "eufy-baby-e110-monitor",
+    "hatch-rest-plus-sound-machine"
+  ],
+  "images": {
+    "hero": "/images/products/nanit-pro-baby-monitor/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

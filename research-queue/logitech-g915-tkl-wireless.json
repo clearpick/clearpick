@@ -11,7 +11,7 @@
   "priceDisplay": "$229 CAD",
   "score": 9.3,
   "tag": "Gaming Keyboards",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/61aezyfO5cL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B085RMD5TP/?tag=clearpick06-20",
   "subscores": {
     "Low Profile Design": 9.5,
@@ -103,5 +103,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B085RMD5TP",
   "verifiedPrice": "$229 CAD",
-  "similarProducts": ["corsair-k100-rgb-keyboard", "logitech-g502-x-plus", "logitech-g-pro-x-superlight-2"]
+  "similarProducts": [
+    "corsair-k100-rgb-keyboard",
+    "logitech-g502-x-plus",
+    "logitech-g-pro-x-superlight-2"
+  ],
+  "images": {
+    "hero": "/images/products/logitech-g915-tkl-wireless/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,7 +11,7 @@
   "priceDisplay": "$599 CAD",
   "score": 8.1,
   "tag": "Best Under-Desk Walking Treadmill",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.walkingpad.com/cdn/shop/files/walkingpad-google-home-page.jpg?v=1767147777",
   "affiliateUrl": "https://www.amazon.ca/dp/B09BVDK56S/?tag=clearpick06-20",
   "subscores": {
     "Noise Level": 9,
@@ -106,5 +106,10 @@
     "concept2-rowerg",
     "triggerpoint-grid-foam-roller",
     "iron-gym-pull-up-bar"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/walkingpad-a1-pro-under-desk-treadmill/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

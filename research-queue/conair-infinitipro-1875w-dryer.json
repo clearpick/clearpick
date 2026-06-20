@@ -11,7 +11,7 @@
   "priceDisplay": "$49 CAD",
   "score": 8.3,
   "tag": "Hair Dryers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.conair.com/on/demandware.static/Sites-us-conair-sfra-Site/-/default/dw93f0a1db/images/default-thumbnail.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B07GQ8RTWB/?tag=clearpick06-20",
   "subscores": {
     "Power": 8.5,
@@ -105,5 +105,10 @@
     "babylisspro-nano-titanium-flat-iron",
     "braun-series-7-shaver",
     "jabra-elite-10"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/conair-infinitipro-1875w-dryer/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

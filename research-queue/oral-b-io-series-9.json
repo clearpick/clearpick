@@ -9,9 +9,9 @@
   "asin": "B088CK6XJ4",
   "price": 229,
   "priceDisplay": "$229 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Electric Toothbrushes",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/716qtBBFBoL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B088CK6XJ4/?tag=clearpick06-20",
   "subscores": {
     "Cleaning Power": 9.5,
@@ -106,5 +106,10 @@
     "nuface-trinity-plus",
     "foreo-luna-4",
     "braun-series-9-pro-shaver"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/oral-b-io-series-9/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

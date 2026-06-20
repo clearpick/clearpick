@@ -9,9 +9,9 @@
   "asin": "B07KSVBC2Q",
   "price": 169,
   "priceDisplay": "$169 CAD",
-  "score": 8.0,
+  "score": 8,
   "tag": "Best Compact Electric Pressure Washer",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0593/9537/5264/files/R0102066-00.png?v=1781662493",
   "affiliateUrl": "https://www.amazon.ca/dp/B07KSVBC2Q/?tag=clearpick06-20",
   "subscores": {
     "Value": 9,
@@ -109,5 +109,10 @@
     "ego-power-lb6504",
     "dewalt-2100-psi-pressure-washer",
     "dewalt-60v-flexvolt-leaf-blower"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/greenworks-1800-psi-pressure-washer/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

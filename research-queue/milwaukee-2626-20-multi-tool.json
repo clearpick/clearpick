@@ -11,7 +11,7 @@
   "priceDisplay": "$149 CAD",
   "score": 8.6,
   "tag": "Multi-Tools",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.milwaukeetool.com/--/web-images/sc/0d214d981fd64106981ca5bb450d45eb?hash=903a55c18e4a4d622900871b45704083&amp;lang=en",
   "affiliateUrl": "https://www.amazon.ca/dp/B00BUDBH1S/?tag=clearpick06-20",
   "subscores": {
     "Variable Speed": 9,
@@ -105,5 +105,10 @@
     "dewalt-dcs356d1-oscillating-multi-tool",
     "makita-xph12z-hammer-drill",
     "makita-bo5041-random-orbit-sander"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/milwaukee-2626-20-multi-tool/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

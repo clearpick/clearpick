@@ -11,7 +11,7 @@
   "priceDisplay": "$1,099 CAD",
   "score": 8.8,
   "tag": "Best Indoor Cycling Bike",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.schwinnfitness.com/cdn/shop/files/Schwinn_Brand_CoverImage_3840x2160_b9fd95cd-b499-4a52-8636-a18dad2b6c9b.jpg?v=1773896982",
   "affiliateUrl": "https://www.amazon.ca/dp/B07P3JS6K1/?tag=clearpick06-20",
   "subscores": {
     "Ride Quality": 9,
@@ -106,5 +106,10 @@
     "concept2-rowerg",
     "triggerpoint-grid-foam-roller",
     "iron-gym-pull-up-bar"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/schwinn-ic4-indoor-bike/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

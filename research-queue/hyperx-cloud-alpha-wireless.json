@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 9.3,
   "tag": "Gaming Headsets",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://hyperx.com/cdn/shop/files/Shopify_social_sharing_ea89cf45-9db6-46e3-9b2b-dd641e5f203c.gif?v=1631254312",
   "affiliateUrl": "https://www.amazon.ca/dp/B09DPMTZCH/?tag=clearpick06-20",
   "subscores": {
     "Battery Life": 9.5,
@@ -103,5 +103,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09DPMTZCH",
   "verifiedPrice": "$199 CAD",
-  "similarProducts": ["astro-a50-gen5-wireless", "elgato-hd60-x-capture-card", "elgato-4k60-pro-mk2"]
+  "similarProducts": [
+    "astro-a50-gen5-wireless",
+    "elgato-hd60-x-capture-card",
+    "elgato-4k60-pro-mk2"
+  ],
+  "images": {
+    "hero": "/images/products/hyperx-cloud-alpha-wireless/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

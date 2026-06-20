@@ -11,7 +11,7 @@
   "priceDisplay": "$129 CAD",
   "score": 9.5,
   "tag": "Meat Thermometers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.thermoworks.com/cdn/shop/files/Thermapen_ONE_-_RED_-_Angle_2-1.webp?v=1773247034",
   "affiliateUrl": "https://www.amazon.ca/dp/B092YF5TBH/?tag=clearpick06-20",
   "subscores": {
     "Read Speed": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B092YF5TBH",
   "verifiedPrice": "$129 CAD",
-  "similarProducts": ["thermopro-tp25-thermometer", "meater-plus-thermometer", "pit-boss-700fb"]
+  "similarProducts": [
+    "thermopro-tp25-thermometer",
+    "meater-plus-thermometer",
+    "pit-boss-700fb"
+  ],
+  "images": {
+    "hero": "/images/products/thermoworks-thermapen-one/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

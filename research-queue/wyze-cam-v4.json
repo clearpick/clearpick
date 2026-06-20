@@ -11,7 +11,7 @@
   "priceDisplay": "$39 CAD",
   "score": 8.5,
   "tag": "Security Cameras",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.wyze.com/cdn/shop/files/Wyze_Ecosystem_Share.png?v=1781726389",
   "affiliateUrl": "https://www.amazon.ca/dp/B0C6GF9XLM/?tag=clearpick06-20",
   "subscores": {
     "Value": 9.5,
@@ -106,5 +106,10 @@
     "blink-video-doorbell",
     "arlo-essential-video-doorbell-wire-free",
     "eufy-security-video-doorbell-battery-powered"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/wyze-cam-v4/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

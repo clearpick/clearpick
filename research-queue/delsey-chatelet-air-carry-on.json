@@ -11,13 +11,13 @@
   "priceDisplay": "$299.99 CAD",
   "score": 8.7,
   "tag": "Best Premium Style Carry-On",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0607/5786/8791/files/delsey-freestyle-00385982104BT-01.jpg?v=1781614171",
   "affiliateUrl": "https://www.amazon.ca/dp/B08K9RV5H2/?tag=clearpick06-20",
   "subscores": {
-    "Build Quality": 9.0,
+    "Build Quality": 9,
     "Storage & Organization": 8.5,
     "Ease of Use": 8.5,
-    "Value for Money": 8.0,
+    "Value for Money": 8,
     "Style & Aesthetics": 9.5
   },
   "specs": {
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B08K9RV5H2",
   "verifiedPrice": "$299.99 CAD",
-  "similarProducts": ["american-tourister-moonlight-carry-on", "amazon-basics-packing-cubes", "anker-powercore-20000-power-bank"]
+  "similarProducts": [
+    "american-tourister-moonlight-carry-on",
+    "amazon-basics-packing-cubes",
+    "anker-powercore-20000-power-bank"
+  ],
+  "images": {
+    "hero": "/images/products/delsey-chatelet-air-carry-on/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

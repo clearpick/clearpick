@@ -9,15 +9,15 @@
   "asin": "B073QKDRK1",
   "price": 1995,
   "priceDisplay": "$1,995.00 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Smart Baby Bassinet",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.happiestbaby.com/opengraph-image?b95477c6a192eba4",
   "affiliateUrl": "https://www.amazon.ca/dp/B073QKDRK1/?tag=clearpick06-20",
   "subscores": {
     "Sleep Effectiveness": 9.5,
     "Safety": 9.5,
-    "Ease of Use": 9.0,
-    "Value for Money": 7.0,
+    "Ease of Use": 9,
+    "Value for Money": 7,
     "Smart Features": 9.5
   },
   "specs": {
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B073QKDRK1",
   "verifiedPrice": "$1,995.00 CAD",
-  "similarProducts": ["hatch-rest-plus-sound-machine", "nanit-pro-baby-monitor", "4moms-mamaroo-4-swing"]
+  "similarProducts": [
+    "hatch-rest-plus-sound-machine",
+    "nanit-pro-baby-monitor",
+    "4moms-mamaroo-4-swing"
+  ],
+  "images": {
+    "hero": "/images/products/snoo-smart-sleeper-bassinet/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

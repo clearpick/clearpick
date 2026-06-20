@@ -11,7 +11,7 @@
   "priceDisplay": "$469 CAD",
   "score": 9,
   "tag": "Best Stand Mixer for Home Bakers",
-  "image": "https://images-na.ssl-images-amazon.com/images/P/B00005UP2P.01._AC_SX500_.jpg",
+  "image": "https://m.media-amazon.com/images/I/61XQAbC2C-L._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B00005UP2P/?tag=clearpick06-20",
   "subscores": {
     "Mixing Power": 8.5,
@@ -111,5 +111,10 @@
     "vitamix-e310-explorian",
     "ninja-creami-deluxe",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/kitchenaid-artisan-5qt-stand-mixer/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

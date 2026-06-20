@@ -11,7 +11,7 @@
   "priceDisplay": "$299 CAD",
   "score": 8.6,
   "tag": "GPS Watches",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://share-assets.fe.garmin.com/facebook-default.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0953HHQY7/?tag=clearpick06-20",
   "subscores": {
     "Value": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0953HHQY7",
   "verifiedPrice": "$299 CAD",
-  "similarProducts": ["garmin-forerunner-265", "garmin-fenix-7-solar", "garmin-edge-530"]
+  "similarProducts": [
+    "garmin-forerunner-265",
+    "garmin-fenix-7-solar",
+    "garmin-edge-530"
+  ],
+  "images": {
+    "hero": "/images/products/garmin-forerunner-55/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

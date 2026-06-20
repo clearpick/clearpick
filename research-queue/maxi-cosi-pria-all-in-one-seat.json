@@ -11,12 +11,12 @@
   "priceDisplay": "$399.99 CAD",
   "score": 8.7,
   "tag": "Best Convertible Car Seat for Small Cars",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://maxicosi.com/cdn/shop/files/mc_LOG.png?crop=center&height=1200&v=1724954832&width=1200",
   "affiliateUrl": "https://www.amazon.ca/dp/B07Y3W23CC/?tag=clearpick06-20",
   "subscores": {
-    "Safety & Build Quality": 9.0,
+    "Safety & Build Quality": 9,
     "Ease of Use": 8.5,
-    "Comfort": 9.0,
+    "Comfort": 9,
     "Value for Money": 8.5,
     "Compact Fit": 9.5
   },
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07Y3W23CC",
   "verifiedPrice": "$399.99 CAD",
-  "similarProducts": ["britax-boulevard-clicktight-seat", "graco-4ever-dlx-car-seat", "chicco-keyfit-35-infant-seat"]
+  "similarProducts": [
+    "britax-boulevard-clicktight-seat",
+    "graco-4ever-dlx-car-seat",
+    "chicco-keyfit-35-infant-seat"
+  ],
+  "images": {
+    "hero": "/images/products/maxi-cosi-pria-all-in-one-seat/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,7 +11,7 @@
   "priceDisplay": "$399 CAD",
   "score": 8.1,
   "tag": "Best Budget Cordless Mower",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0593/9537/5264/files/R0102066-00.png?v=1781662493",
   "affiliateUrl": "https://www.amazon.ca/dp/B07YNKC4LQ/?tag=clearpick06-20",
   "subscores": {
     "Value": 9.5,
@@ -109,5 +109,10 @@
     "ego-power-lb6504",
     "dewalt-2100-psi-pressure-washer",
     "dewalt-60v-flexvolt-leaf-blower"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/greenworks-40v-17-cordless-mower/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

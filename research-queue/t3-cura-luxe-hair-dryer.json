@@ -11,7 +11,7 @@
   "priceDisplay": "$299 CAD",
   "score": 8.7,
   "tag": "Hair Dryers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://t3micro.com/cdn/shop/collections/claims_2400x2400_72dpi_eng-us7.webp?v=1740693605",
   "affiliateUrl": "https://www.amazon.ca/dp/B08THP6WT1/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9.5,
@@ -106,5 +106,10 @@
     "shark-hyperair-hair-dryer",
     "dyson-supersonic-hair-dryer",
     "revlon-one-step-volumizer-plus"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/t3-cura-luxe-hair-dryer/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

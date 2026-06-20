@@ -9,9 +9,9 @@
   "asin": "B09Q1LV8YD",
   "price": 79,
   "priceDisplay": "$79 CAD",
-  "score": 8.0,
+  "score": 8,
   "tag": "Best Budget ANC Over-Ear",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://new-edifier-us-oss.edifier.com/files/20241118/48a5f90019ef6e20d2ddaeecd1477d0a.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B09Q1LV8YD/?tag=clearpick06-20",
   "subscores": {
     "Sound Quality": 8,
@@ -111,5 +111,10 @@
     "sony-wf-1000xm5",
     "sony-wh-1000xm6",
     "apple-airpods-pro-2nd-gen"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/edifier-w820nb-plus/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

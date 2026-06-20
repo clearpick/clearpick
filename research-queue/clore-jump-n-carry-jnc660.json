@@ -11,14 +11,14 @@
   "priceDisplay": "$149.99 CAD",
   "score": 8.7,
   "tag": "Best Professional Jump Starter",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cloreautomotive.com/wp-content/uploads/2022/06/iATN-waveform.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B00028WHKQ/?tag=clearpick06-20",
   "subscores": {
     "Jump Starting Power": 9.5,
-    "Build Quality": 9.0,
+    "Build Quality": 9,
     "Ease of Use": 8.5,
-    "Battery Life": 8.0,
-    "Value for Money": 8.0
+    "Battery Life": 8,
+    "Value for Money": 8
   },
   "specs": {
     "Peak Amps": "1700 peak amps",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B00028WHKQ",
   "verifiedPrice": "$149.99 CAD",
-  "similarProducts": ["blackvue-dr970x-2ch-dash-cam", "black-decker-20v-handheld-vacuum", "autel-maxicom-mk808-scanner"]
+  "similarProducts": [
+    "blackvue-dr970x-2ch-dash-cam",
+    "black-decker-20v-handheld-vacuum",
+    "autel-maxicom-mk808-scanner"
+  ],
+  "images": {
+    "hero": "/images/products/clore-jump-n-carry-jnc660/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,14 +11,14 @@
   "priceDisplay": "$79.99 CAD",
   "score": 8.2,
   "tag": "Best Entry-Level Spinner Luggage",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/71f-m9vTzBL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B00FB4X75U/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 7.5,
-    "Storage & Organization": 8.0,
+    "Storage & Organization": 8,
     "Ease of Use": 8.5,
     "Value for Money": 9.5,
-    "Spinner Performance": 8.0
+    "Spinner Performance": 8
   },
   "specs": {
     "Size": "19 inches",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B00FB4X75U",
   "verifiedPrice": "$79.99 CAD",
-  "similarProducts": ["american-tourister-moonlight-carry-on", "rfid-passport-holder-wallet", "amazon-basics-packing-cubes"]
+  "similarProducts": [
+    "american-tourister-moonlight-carry-on",
+    "rfid-passport-holder-wallet",
+    "amazon-basics-packing-cubes"
+  ],
+  "images": {
+    "hero": "/images/products/rockland-fusion-softside-luggage/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

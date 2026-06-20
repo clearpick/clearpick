@@ -11,7 +11,7 @@
   "priceDisplay": "$89 CAD",
   "score": 8.1,
   "tag": "Security Cameras",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://ca.arlo.com/cdn/shop/files/arlo-shopify-homepage-lifestyle-2025.jpg?v=1774455005",
   "affiliateUrl": "https://www.amazon.ca/dp/B0BR8HMQNK/?tag=clearpick06-20",
   "subscores": {
     "Privacy Cover": 9,
@@ -107,5 +107,10 @@
     "arlo-essential-video-doorbell-wire-free",
     "google-nest-doorbell-battery",
     "eufy-security-video-doorbell-battery-powered"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/arlo-essential-indoor-camera/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

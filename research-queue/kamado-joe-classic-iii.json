@@ -11,7 +11,7 @@
   "priceDisplay": "$1,999 CAD",
   "score": 9.3,
   "tag": "Kamado Grills",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.kamadojoe.com/cdn/shop/files/kj-grill-dark-light-closeup.jpg?v=1652297054",
   "affiliateUrl": "https://www.amazon.ca/dp/B082JGXJ63/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B082JGXJ63",
   "verifiedPrice": "$1,999 CAD",
-  "similarProducts": ["char-griller-akorn-kamado", "grillgrates-set", "camp-chef-woodwind-pro-36"]
+  "similarProducts": [
+    "char-griller-akorn-kamado",
+    "grillgrates-set",
+    "camp-chef-woodwind-pro-36"
+  ],
+  "images": {
+    "hero": "/images/products/kamado-joe-classic-iii/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

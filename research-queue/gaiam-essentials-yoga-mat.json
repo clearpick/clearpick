@@ -9,9 +9,9 @@
   "asin": "B07N4RPSNS",
   "price": 29,
   "priceDisplay": "$29 CAD",
-  "score": 8.0,
+  "score": 8,
   "tag": "Best Budget Yoga Mat",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/1728/2157/products/610-6002RTL_BBC_Charcoal_A_grande_e1812a2a-67f9-4a76-bde8-4c9ade80a211.jpg?v=1569110039",
   "affiliateUrl": "https://www.amazon.ca/dp/B07N4RPSNS/?tag=clearpick06-20",
   "subscores": {
     "Cushioning": 8.5,
@@ -105,5 +105,10 @@
     "concept2-rowerg",
     "triggerpoint-grid-foam-roller",
     "iron-gym-pull-up-bar"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/gaiam-essentials-yoga-mat/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

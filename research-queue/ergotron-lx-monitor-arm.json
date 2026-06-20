@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 9.3,
   "tag": "Monitor Lights",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/812GADpM3DL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B00358RIRC/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B00358RIRC",
   "verifiedPrice": "$199 CAD",
-  "similarProducts": ["elgato-stream-deck-mk2", "benq-screenbar-plus", "dell-s2722qc-monitor"]
+  "similarProducts": [
+    "elgato-stream-deck-mk2",
+    "benq-screenbar-plus",
+    "dell-s2722qc-monitor"
+  ],
+  "images": {
+    "hero": "/images/products/ergotron-lx-monitor-arm/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,7 +11,7 @@
   "priceDisplay": "$119 CAD",
   "score": 8.2,
   "tag": "Best Quiet Air Fryer Under $120",
-  "image": "https://images-na.ssl-images-amazon.com/images/P/B0D1KQKZM2.01._AC_SX500_.jpg",
+  "image": "https://m.media-amazon.com/images/I/81YlVdZBmaL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0D1KQKZM2/?tag=clearpick06-20",
   "subscores": {
     "Cook Quality": 8,
@@ -111,5 +111,10 @@
     "cosori-pro-le-5-8-qt",
     "ninja-af161-max-xl-air-fryer",
     "philips-airfryer-xxl"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/cosori-turbo-blaze-6qt/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

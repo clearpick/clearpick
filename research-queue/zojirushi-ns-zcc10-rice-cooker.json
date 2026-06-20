@@ -11,7 +11,7 @@
   "priceDisplay": "$229 CAD",
   "score": 8.9,
   "tag": "Best Rice Cooker for Asian Varieties",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.zojirushi.com/user/images/prod_category/1.1.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B00003CHEJ/?tag=clearpick06-20",
   "subscores": {
     "Rice Quality": 10,
@@ -106,5 +106,10 @@
     "instant-pot-pro-6qt",
     "vitamix-e310-explorian",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/zojirushi-ns-zcc10-rice-cooker/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

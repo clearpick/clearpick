@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 8.6,
   "tag": "Best Bone Conduction Headphones",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0857/5574/files/WirelessCharger.png?v=1766558952",
   "affiliateUrl": "https://www.amazon.ca/dp/B09BJ5LKGJ/?tag=clearpick06-20",
   "subscores": {
     "Situational Awareness": 10,
@@ -111,5 +111,10 @@
     "sony-wf-1000xm5",
     "sony-wh-1000xm6",
     "apple-airpods-pro-2nd-gen"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/shokz-openrun-pro/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

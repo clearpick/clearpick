@@ -11,7 +11,7 @@
   "priceDisplay": "$699 CAD",
   "score": 8.3,
   "tag": "Best Mid-Range Rowing Machine",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://sunnyhealthfitness.com/cdn/shop/files/sunny-health-fitness-og-image-2024-01.jpg?v=1705943189",
   "affiliateUrl": "https://www.amazon.ca/dp/B07PPYKNRG/?tag=clearpick06-20",
   "subscores": {
     "Resistance Range": 8,
@@ -106,5 +106,10 @@
     "concept2-rowerg",
     "triggerpoint-grid-foam-roller",
     "iron-gym-pull-up-bar"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/sunny-health-sf-rw5515-rower/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

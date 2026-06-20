@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 8.2,
   "tag": "Pet Cameras",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/1362/5949/files/mini360_adapter_-_us_ca_tw.png?v=1755854127",
   "affiliateUrl": "https://www.amazon.ca/dp/B09HWFMFXM/?tag=clearpick06-20",
   "subscores": {
     "Video Quality": 8.5,
@@ -106,5 +106,10 @@
     "apple-airtag-dog-collar-holder",
     "fi-series-3-smart-dog-collar",
     "petlibro-granary-wifi"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/furbo-360-dog-camera/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

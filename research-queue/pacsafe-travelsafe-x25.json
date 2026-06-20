@@ -11,14 +11,14 @@
   "priceDisplay": "$89.99 CAD",
   "score": 8.5,
   "tag": "Best Portable Travel Safe",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0041/7638/0013/files/PacsafeW_MicroSling_20467661_SerenityBlue_01.jpg?v=1769879954",
   "affiliateUrl": "https://www.amazon.ca/dp/B01MSL2OYJ/?tag=clearpick06-20",
   "subscores": {
-    "Build Quality": 9.0,
+    "Build Quality": 9,
     "Storage & Organization": 8.5,
     "Ease of Use": 8.5,
     "Value for Money": 8.5,
-    "Security Features": 9.0
+    "Security Features": 9
   },
   "specs": {
     "Capacity": "25L / 1,527 cu in",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B01MSL2OYJ",
   "verifiedPrice": "$89.99 CAD",
-  "similarProducts": ["osprey-farpoint-40-backpack", "nomatic-travel-pack-20l", "north-face-base-camp-duffel-small"]
+  "similarProducts": [
+    "osprey-farpoint-40-backpack",
+    "nomatic-travel-pack-20l",
+    "north-face-base-camp-duffel-small"
+  ],
+  "images": {
+    "hero": "/images/products/pacsafe-travelsafe-x25/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

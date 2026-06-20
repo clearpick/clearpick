@@ -11,7 +11,7 @@
   "priceDisplay": "$129 CAD",
   "score": 8.7,
   "tag": "Webcams",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/81InfD3OGVL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B00CRJWW2G/?tag=clearpick06-20",
   "subscores": {
     "Wide FOV": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B00CRJWW2G",
   "verifiedPrice": "$129 CAD",
-  "similarProducts": ["logitech-c920-webcam", "jabra-evolve2-65-headset", "blue-yeti-usb-microphone"]
+  "similarProducts": [
+    "logitech-c920-webcam",
+    "jabra-evolve2-65-headset",
+    "blue-yeti-usb-microphone"
+  ],
+  "images": {
+    "hero": "/images/products/logitech-c930e-webcam/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

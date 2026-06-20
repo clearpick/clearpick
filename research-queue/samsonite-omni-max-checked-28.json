@@ -11,14 +11,14 @@
   "priceDisplay": "$199.99 CAD",
   "score": 8.6,
   "tag": "Best Mid-Range Checked Bag",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/81g22eatTWL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0DHPW5Y6S/?tag=clearpick06-20",
   "subscores": {
-    "Build Quality": 9.0,
+    "Build Quality": 9,
     "Storage & Organization": 8.5,
     "Ease of Use": 8.5,
     "Value for Money": 8.5,
-    "Spinner Performance": 9.0
+    "Spinner Performance": 9
   },
   "specs": {
     "Size": "28 inches (standard checked bag)",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0DHPW5Y6S",
   "verifiedPrice": "$199.99 CAD",
-  "similarProducts": ["samsonite-omni-max-carry-on", "american-tourister-moonlight-carry-on", "delsey-chatelet-air-carry-on"]
+  "similarProducts": [
+    "samsonite-omni-max-carry-on",
+    "american-tourister-moonlight-carry-on",
+    "delsey-chatelet-air-carry-on"
+  ],
+  "images": {
+    "hero": "/images/products/samsonite-omni-max-checked-28/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

@@ -11,7 +11,7 @@
   "priceDisplay": "$179 CAD",
   "score": 8.3,
   "tag": "Best Mid-Range True Wireless",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/0376/5420/0459/products/ear2.png?v=1679052056",
   "affiliateUrl": "https://www.amazon.ca/dp/B0BQFLTR4P/?tag=clearpick06-20",
   "subscores": {
     "Sound Quality": 8.5,
@@ -111,5 +111,10 @@
     "sony-wf-1000xm5",
     "sony-wh-1000xm6",
     "apple-airpods-pro-2nd-gen"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/nothing-ear-2/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

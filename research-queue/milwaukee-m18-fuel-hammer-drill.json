@@ -11,7 +11,7 @@
   "priceDisplay": "$279 CAD",
   "score": 9.2,
   "tag": "Drills & Drivers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.milwaukeetool.com/--/web-images/sc/0d214d981fd64106981ca5bb450d45eb?hash=903a55c18e4a4d622900871b45704083&amp;lang=en",
   "affiliateUrl": "https://www.amazon.ca/dp/B08KDYZJV4/?tag=clearpick06-20",
   "subscores": {
     "Motor Power": 9.5,
@@ -106,5 +106,10 @@
     "makita-xph12z-hammer-drill",
     "milwaukee-2626-20-multi-tool",
     "dewalt-dck240c2-drill-combo-kit"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/milwaukee-m18-fuel-hammer-drill/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

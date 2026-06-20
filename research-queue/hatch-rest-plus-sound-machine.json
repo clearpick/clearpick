@@ -11,14 +11,14 @@
   "priceDisplay": "$99.99 CAD",
   "score": 8.8,
   "tag": "Best Smart Baby Sound Machine",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.hatch.co/opengraph-image.jpg?opengraph-image.03efiyl3akc45.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B07VFX59Q3/?tag=clearpick06-20",
   "subscores": {
     "Safety & Build Quality": 8.5,
-    "Ease of Use": 9.0,
-    "Comfort": 9.0,
+    "Ease of Use": 9,
+    "Comfort": 9,
     "Value for Money": 8.5,
-    "App & Smart Features": 9.0
+    "App & Smart Features": 9
   },
   "specs": {
     "App Control": "Yes — Hatch Sleep app (iOS and Android)",
@@ -87,5 +87,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07VFX59Q3",
   "verifiedPrice": "$99.99 CAD",
-  "similarProducts": ["eufy-baby-e110-monitor", "4moms-mamaroo-4-swing", "amazon-echo-dot-5th-gen"]
+  "similarProducts": [
+    "eufy-baby-e110-monitor",
+    "4moms-mamaroo-4-swing",
+    "amazon-echo-dot-5th-gen"
+  ],
+  "images": {
+    "hero": "/images/products/hatch-rest-plus-sound-machine/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

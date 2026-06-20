@@ -11,7 +11,7 @@
   "priceDisplay": "$299 CAD",
   "score": 9.3,
   "tag": "Tool Storage",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.milwaukeetool.com/--/web-images/sc/0d214d981fd64106981ca5bb450d45eb?hash=903a55c18e4a4d622900871b45704083&amp;lang=en",
   "affiliateUrl": "https://www.amazon.ca/dp/B07KQFCZM4/?tag=clearpick06-20",
   "subscores": {
     "Durability": 9.5,
@@ -106,5 +106,10 @@
     "dewalt-tstak-tool-storage",
     "milwaukee-2626-20-multi-tool",
     "milwaukee-m18-fuel-hammer-drill"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/milwaukee-packout-rolling-tool-box/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

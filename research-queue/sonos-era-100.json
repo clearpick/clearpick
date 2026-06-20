@@ -11,7 +11,7 @@
   "priceDisplay": "$279 CAD",
   "score": 8.9,
   "tag": "Portable Speakers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://media.sonos.com/images/znqtjj88/production/c730c924a2d9fe4d3a3b9b9cb7432b7afd0ab392-2000x2000.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B0B2TBSZ2F/?tag=clearpick06-20",
   "subscores": {
     "Sound Quality": 9.5,
@@ -105,5 +105,10 @@
     "sonos-arc-ultra-soundbar",
     "samsung-hw-q990f-soundbar",
     "apple-tv-4k-3rd-gen"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/sonos-era-100/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

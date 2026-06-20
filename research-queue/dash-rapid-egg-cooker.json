@@ -11,7 +11,7 @@
   "priceDisplay": "$39 CAD",
   "score": 9.1,
   "tag": "Egg Cookers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://bydash.com/cdn/shop/files/Dash-MultiMaker-Waffle-Maker-Removable-Plates.jpg?v=1735684522",
   "affiliateUrl": "https://www.amazon.ca/dp/B00DDXUEF0/?tag=clearpick06-20",
   "subscores": {
     "Speed": 9.5,
@@ -106,5 +106,10 @@
     "lodge-cast-iron-skillet",
     "tfal-ultimate-hard-anodized-cookware-set",
     "instant-pot-duo-6qt"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/dash-rapid-egg-cooker/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

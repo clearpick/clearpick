@@ -9,9 +9,9 @@
   "asin": "B09VP2NV53",
   "price": 139,
   "priceDisplay": "$139 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Gaming Mice",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://m.media-amazon.com/images/I/61Ibl7dJyUL._AC_SL1500_.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B09VP2NV53/?tag=clearpick06-20",
   "subscores": {
     "Weight": 9.5,
@@ -103,5 +103,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B09VP2NV53",
   "verifiedPrice": "$139 CAD",
-  "similarProducts": ["razer-deathadder-v3-hyperspeed", "logitech-g-pro-x-superlight-2", "steelseries-apex-pro-tkl-wireless"]
+  "similarProducts": [
+    "razer-deathadder-v3-hyperspeed",
+    "logitech-g-pro-x-superlight-2",
+    "steelseries-apex-pro-tkl-wireless"
+  ],
+  "images": {
+    "hero": "/images/products/steelseries-rival-650-wireless/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

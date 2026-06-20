@@ -11,7 +11,7 @@
   "priceDisplay": "$79 CAD",
   "score": 8.3,
   "tag": "Best Dual-Brew Coffee Maker",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://hamiltonbeach.com/media/hamilton_beach_social.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B011WFEBSI/?tag=clearpick06-20",
   "subscores": {
     "Versatility": 9.5,
@@ -104,5 +104,10 @@
     "instant-pot-pro-6qt",
     "vitamix-e310-explorian",
     "keurig-k-elite"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/hamilton-beach-2-way-brewer/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

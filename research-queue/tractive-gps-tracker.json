@@ -11,7 +11,7 @@
   "priceDisplay": "$69 CAD",
   "score": 8.4,
   "tag": "GPS Trackers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://assets.tractive.com/assets/image/shop-frontend/og-images/tractive-dog-4-og.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B09T3PRMXR/?tag=clearpick06-20",
   "subscores": {
     "GPS Accuracy": 8.5,
@@ -106,5 +106,10 @@
     "tractive-gps-dog-6",
     "fi-series-3-smart-dog-collar",
     "garmin-alpha-tt-25"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/tractive-gps-tracker/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

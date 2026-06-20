@@ -9,9 +9,9 @@
   "asin": "B0BVF9S5TM",
   "price": 599,
   "priceDisplay": "$599 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "GPS Watches",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://share-assets.fe.garmin.com/facebook-default.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0BVF9S5TM/?tag=clearpick06-20",
   "subscores": {
     "AMOLED Display": 9.5,
@@ -101,5 +101,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B0BVF9S5TM",
   "verifiedPrice": "$599 CAD",
-  "similarProducts": ["garmin-fenix-7-solar", "garmin-edge-530", "fitbit-charge-6"]
+  "similarProducts": [
+    "garmin-fenix-7-solar",
+    "garmin-edge-530",
+    "fitbit-charge-6"
+  ],
+  "images": {
+    "hero": "/images/products/garmin-forerunner-265/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

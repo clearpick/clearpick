@@ -9,9 +9,9 @@
   "asin": "B0BPVSSH1Y",
   "price": 329,
   "priceDisplay": "$329 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Smart Thermostats",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://lh3.googleusercontent.com/1p6dZbpoAp4NlmsBxuXvcLDKM7cDhmQmiAd9QJLV_cBbeBoybfMtggUTC2ZNF7wonm82CJvyCzUEtKu8NRIF=rj-sc0xffffffff",
   "affiliateUrl": "https://www.amazon.ca/dp/B0BPVSSH1Y/?tag=clearpick06-20",
   "subscores": {
     "Auto-Learning": 9.5,
@@ -106,5 +106,10 @@
     "ecobee-smart-thermostat-premium",
     "google-nest-thermostat",
     "honeywell-home-t9-wifi-smart-thermostat"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/google-nest-learning-thermostat-4th-gen/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

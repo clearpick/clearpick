@@ -11,7 +11,7 @@
   "priceDisplay": "$159 CAD",
   "score": 8.4,
   "tag": "Best Air Fryer for Crispy Results",
-  "image": "https://images-na.ssl-images-amazon.com/images/P/B07S6529ZZ.01._AC_SX500_.jpg",
+  "image": "https://assets.sharkninja.com/image/upload/dpr_1.0,f_auto,q_60/v1/SharkNinja-NA/OG951BK_01?_i=AH",
   "affiliateUrl": "https://www.amazon.ca/dp/B07S6529ZZ/?tag=clearpick06-20",
   "subscores": {
     "Cook Quality": 9,
@@ -110,5 +110,10 @@
     "cosori-turbo-blaze-6qt",
     "cosori-pro-le-5-8-qt",
     "philips-airfryer-xxl"
-  ]
+  ],
+  "images": {
+    "hero": "/images/products/ninja-air-fryer-max-xl/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

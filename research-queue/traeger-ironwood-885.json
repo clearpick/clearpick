@@ -11,7 +11,7 @@
   "priceDisplay": "$1,299 CAD",
   "score": 9.2,
   "tag": "Pellet Grills",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://i8.amplience.net/i/traeger/Westwood_Food-on-grill_007?scaleFit=poi%26%24poi2%24&amp;fmt=auto&amp;w=600&amp;sm=aspect&amp;aspect=724%3A612&amp;qlt=default",
   "affiliateUrl": "https://www.amazon.ca/dp/B081P4J83Y/?tag=clearpick06-20",
   "subscores": {
     "D2 Controller": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B081P4J83Y",
   "verifiedPrice": "$1,299 CAD",
-  "similarProducts": ["pit-boss-700fb", "camp-chef-woodwind-pro-36", "thermoworks-thermapen-one"]
+  "similarProducts": [
+    "pit-boss-700fb",
+    "camp-chef-woodwind-pro-36",
+    "thermoworks-thermapen-one"
+  ],
+  "images": {
+    "hero": "/images/products/traeger-ironwood-885/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }
