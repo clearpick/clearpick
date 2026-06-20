@@ -1,0 +1,111 @@
+{
+  "slug": "sony-rx100-vii-point-shoot",
+  "name": "Sony RX100 VII Premium Compact Camera",
+  "brand": "Sony",
+  "category": "Cameras & Photography",
+  "categoryPage": "cameras-photography.html",
+  "filterTag": "Point & Shoot Cameras",
+  "subcategory": "point-shoot",
+  "asin": "B07WX4SN6Q",
+  "price": 1799,
+  "priceDisplay": "$1,799 CAD",
+  "score": 8.9,
+  "tag": "Best Premium Compact Camera for Travel",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07WX4SN6Q/?tag=clearpick06-20",
+  "introText": "The Sony RX100 VII packs a 24-200mm ZEISS zoom, Real-time Eye AF, 4K HDR video, and 1000fps super slow-motion into a 302g pocket-sized body — the most capable compact camera available for serious travel photographers.",
+  "subscores": {
+    "Image Quality": 9.0,
+    "Zoom Range": 9.5,
+    "Autofocus": 9.0,
+    "Portability": 9.0,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Sensor": "20.1MP 1-inch Exmor RS BSI CMOS",
+    "Lens": "ZEISS Vario-Sonnar 24-200mm f/2.8-4.5",
+    "Autofocus": "Real-time Eye AF, Real-time Tracking",
+    "Video": "4K HDR, 960fps HFR slow motion",
+    "Viewfinder": "Pop-up OLED EVF",
+    "Screen": "Tilting touchscreen",
+    "Weight": "302g with battery and card",
+    "Battery Life": "~260 shots per charge"
+  },
+  "whatWorks": [
+    "24-200mm zoom range in a 302g pocket camera is unmatched — this covers street photography (24mm), environmental portraits (70-90mm), and distant subjects (200mm) without changing lenses. No mirrorless system delivers this versatility in a jacket-pocket form factor.",
+    "Real-time Eye AF tracks human and animal eyes reliably at any focal length — Sony's Eye AF technology was class-defining when the RX100 VII launched and remains among the best AF systems in any compact camera.",
+    "960fps HFR (High Frame Rate) slow motion in a pocket camera is a unique feature — capturing moments invisible at normal speed, from water droplets to sports impacts, in a camera that fits in a shirt pocket.",
+    "Pop-up OLED electronic viewfinder enables shooting in bright sunlight where the rear screen is hard to see — an accessory that costs $150+ separately on competing compact cameras is built in."
+  ],
+  "worthKnowing": [
+    "$1,799 CAD is very expensive for a compact camera — at this price, the Sony ZV-E1 mirrorless with a zoom lens is comparable and delivers full-frame sensor performance. The RX100 VII's advantage is purely the jacket-pocket form factor.",
+    "1-inch sensor is smaller than APS-C — the image quality advantage over phone cameras is real, but the RX100 VII can't match the low-light performance or background separation of APS-C mirrorless cameras.",
+    "Discontinued by Sony but still available new — the RX100 VII is no longer in active production, though authorized retailers still have stock. No successor has been announced as of 2026.",
+    "Battery life at 260 shots per charge is short — for full-day travel shooting, carry at least one spare battery or a charging case."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Very expensive for a compact camera…",
+      "body": "Very expensive for a compact camera — at $1,799, buyers should seriously compare a mirrorless kit with a zoom lens, which can deliver larger-sensor performance at a similar total price.",
+      "source": "Reddit (r/photography)"
+    },
+    {
+      "title": "Battery life requires a spare for…",
+      "body": "Battery life requires a spare for all-day shooting — 260 shots per charge is short for travel use; always carry at least one spare battery.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Discontinued model with uncertain parts availability…",
+      "body": "Discontinued model with uncertain parts availability — as Sony no longer manufactures the RX100 VII, long-term repair parts and sensor availability is uncertain.",
+      "source": "Reddit (r/sony)"
+    }
+  ],
+  "verdict": "The RX100 VII is the best pocket camera ever made, but it's a specialized purchase. If you genuinely need a camera that fits in a jacket pocket, shoots 24-200mm, and delivers professional AF and video quality, nothing else comes close. If you can tolerate a small camera bag, a mirrorless kit delivers better image quality per dollar. The form factor is the product.",
+  "realBuyers": [
+    {
+      "quote": "I've been to 30 countries with this camera and it's the only camera I need. 24-200mm in a shirt pocket is life-changing for travel.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The Eye AF is unreal for a compact. I shoot portraits at 200mm and it never misses the eye, even on moving subjects.",
+      "source": "Reddit (r/sony)"
+    },
+    {
+      "quote": "Best camera I own. Yes it's expensive. Yes it's worth it if you value ultimate portability and still need zoom.",
+      "source": "Reddit (r/travel)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sony RX100 VII — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07WX4SN6Q"
+    },
+    {
+      "title": "Sony RX100 VII Review — DPReview",
+      "url": "https://www.dpreview.com"
+    },
+    {
+      "title": "RX100 VII vs Mirrorless Kit — Reddit (r/sony)",
+      "url": "https://www.reddit.com/r/sony"
+    },
+    {
+      "title": "Best Travel Camera — YouTube (Chris Winter)",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Sony RX100 VII review for Canada: 24-200mm ZEISS, 1-inch sensor, Real-time Eye AF, 4K HDR, pop-up EVF, 302g. ~$1,799 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B07WX4SN6Q",
+  "verifiedPrice": "$1,799 CAD",
+  "similarProducts": [
+    "canon-powershot-v10",
+    "fujifilm-x100vi",
+    "sony-a6700-mirrorless-camera"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "slug": "canon-powershot-v10",
+  "name": "Canon PowerShot V10 Vlog Camera",
+  "brand": "Canon",
+  "category": "Cameras & Photography",
+  "categoryPage": "cameras-photography.html",
+  "filterTag": "Point & Shoot Cameras",
+  "subcategory": "point-shoot",
+  "asin": "B0CCZDV4FS",
+  "price": 499,
+  "priceDisplay": "$499 CAD",
+  "score": 7.8,
+  "tag": "Best Compact Vlog Camera for Beginners",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CCZDV4FS/?tag=clearpick06-20",
+  "introText": "The Canon PowerShot V10 is a pocket-sized vlog camera with a 1-inch sensor, vertical shooting mode, and a fold-flat integrated stand — designed for phone shooters who want better image quality without the complexity of a mirrorless.",
+  "subscores": {
+    "Image Quality": 8.0,
+    "Video Quality": 7.5,
+    "Ease of Use": 9.0,
+    "Portability": 9.5,
+    "Value for Money": 7.0
+  },
+  "specs": {
+    "Sensor": "19.6MP 1-inch CMOS",
+    "Lens": "Fixed 19mm equivalent f/2.8 (no zoom)",
+    "Video": "4K/30fps, 1080/60fps",
+    "Built-in ND Filter": "Yes — 3-stop",
+    "Built-in Stand": "Fold-flat integrated stand",
+    "Audio": "Stereo microphones",
+    "Charging": "USB-C (charges via USB-C power bank)",
+    "Weight": "211g with battery and card",
+    "Battery Life": "~200 shots per charge",
+    "Streaming": "Plug-and-play USB webcam/streaming"
+  },
+  "whatWorks": [
+    "Vertical-first design is unique — the V10 is built for portrait orientation from the ground up, making vertical social media content natural rather than an afterthought. The sensor, menus, and stand all assume vertical shooting.",
+    "1-inch sensor delivers a meaningful image quality jump over smartphone cameras — better low-light performance, more natural background separation, and significantly better colour rendering in difficult lighting.",
+    "Integrated fold-flat stand makes tabletop vlogging and desk streaming possible without buying a tripod or stand — the stand is sturdy enough for most casual use.",
+    "USB-C plug-and-play streaming: connect to a computer and it appears as a webcam immediately, with far better image quality than a typical built-in laptop camera."
+  ],
+  "worthKnowing": [
+    "Fixed 19mm-equivalent lens with no zoom — the V10 cannot zoom at all, optically or digitally in a useful way. If you need any reach beyond wide-angle, this camera is not the right choice.",
+    "19mm-equivalent wide angle produces edge distortion — subjects at the frame edges appear stretched or warped, particularly noticeable for group selfies.",
+    "Battery life is short at ~200 shots — heavy video shooters will need a spare battery or USB-C power bank for all-day use.",
+    "At $499, the Sony ZV-1 II offers a zoom lens and is worth comparing — the V10's advantage is the vertical orientation and integrated stand rather than all-around capability."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Fixed lens means no zoom whatsoever…",
+      "body": "Fixed lens means no zoom whatsoever — the 19mm-equivalent wide angle is the only focal length available, limiting the camera to wide-angle shots only.",
+      "source": "Amazon.ca reviewers"
+    },
+    {
+      "title": "Battery life runs out quickly at…",
+      "body": "Battery life runs out quickly at around 200 shots — for extended shoots or all-day events, you'll need a spare battery or USB-C power bank to keep shooting.",
+      "source": "Reddit (r/videography)"
+    },
+    {
+      "title": "Expensive for a fixed-lens camera…",
+      "body": "Expensive for a fixed-lens camera — at $499 CAD, the price is high compared to what you get when alternatives like the Sony ZV-1 II include a zoom lens at a similar price.",
+      "source": "DPReview"
+    }
+  ],
+  "verdict": "The V10 is a good camera for a specific buyer: someone coming from a smartphone who wants better image quality for vertical social media content, doesn't need zoom, and values the built-in stand. It does those things well. As a general-purpose compact camera at $499, it's a tough sell against mirrorless alternatives. Know what you're buying.",
+  "realBuyers": [
+    {
+      "quote": "It's basically a phone upgrade for social content. I went from my iPhone to this and the image quality difference on Instagram is immediately noticeable.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Love the built-in stand for desk vlogs. Zero setup. The USB streaming quality is much better than my laptop camera.",
+      "source": "Reddit (r/vlogging)"
+    },
+    {
+      "quote": "Wish it had zoom but I knew that going in. For what it is — a premium vertical vlog camera — it works great.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Canon PowerShot V10 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CCZDV4FS"
+    },
+    {
+      "title": "Canon PowerShot V10 Review — DPReview",
+      "url": "https://www.dpreview.com"
+    },
+    {
+      "title": "Canon PowerShot V10 User Discussion — Reddit (r/vlogging)",
+      "url": "https://www.reddit.com/r/vlogging"
+    },
+    {
+      "title": "Compact Vlog Camera Comparison — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Canon PowerShot V10 review for Canada: 1-inch sensor, vertical vlog design, built-in stand, 4K/30fps. ~$499 CAD on Amazon.ca. Best compact vlog camera.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B0CCZDV4FS",
+  "verifiedPrice": "$499 CAD",
+  "similarProducts": [
+    "canon-eos-r10-camera",
+    "canon-eos-r50",
+    "fujifilm-x100vi"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

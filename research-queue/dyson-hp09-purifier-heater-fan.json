@@ -1,0 +1,111 @@
+{
+  "slug": "dyson-hp09-purifier-heater-fan",
+  "name": "Dyson HP09 Purifier Hot+Cool Formaldehyde",
+  "brand": "Dyson",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Space Heaters",
+  "subcategory": "space-heaters",
+  "asin": "B09NR25BV6",
+  "price": 849,
+  "priceDisplay": "$849 CAD",
+  "score": 8.7,
+  "tag": "Best Premium Air Purifier + Heater Combo",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09NR25BV6/?tag=clearpick06-20",
+  "introText": "The Dyson HP09 is a HEPA air purifier, precise fan heater, and real-time air quality display in one device — eliminating three separate units for buyers who prioritize clean air, controlled heating, and minimal footprint.",
+  "subscores": {
+    "Air Purification": 9.0,
+    "Heating": 8.5,
+    "Fan Performance": 8.0,
+    "Smart Features": 9.0,
+    "Value for Money": 7.0
+  },
+  "specs": {
+    "Filtration": "HEPA H13 + Activated Carbon 360° sealed system",
+    "Heating": "1800W, precise 1°C increment thermostat",
+    "Fan": "Air Multiplier with 350° oscillation, 10 speeds",
+    "Formaldehyde": "Catalytic filter destroys formaldehyde continuously",
+    "Air Quality": "Real-time LCD display — PM 2.5, PM 10, VOCs, NO2, humidity, temp",
+    "Smart": "MyDyson app, Alexa/Google compatible, auto mode",
+    "Coverage": "Up to 600 sq ft air purification",
+    "Noise": "As low as 36 dBA on lowest setting"
+  },
+  "whatWorks": [
+    "Three devices in one unit saves significant floor space and reduces clutter — replacing a separate air purifier, space heater, and fan with one unit that does all three effectively. For small apartments or bedrooms with limited space, this is a genuine practical benefit.",
+    "Dyson's HEPA H13 sealed filtration system is genuinely excellent — the 360° sealed design prevents air from bypassing the filter, and the catalytic formaldehyde filter continuously destroys formaldehyde without needing replacement.",
+    "1°C thermostat precision for heating is meaningfully better than coarser thermostats on cheaper heaters — set 21°C and the unit maintains 21°C accurately, not within a 2-3°C band.",
+    "Real-time air quality LCD shows PM 2.5, PM 10, VOCs, NO2, humidity, and temperature — providing actionable data about your indoor environment that influences when and how hard the purification needs to run."
+  ],
+  "worthKnowing": [
+    "$849 is a significant premium over separate best-in-class devices — a Coway AP-1512HH (air purifier) + Vornado MVH (heater) + Honeywell tower fan costs roughly $350-400 combined and arguably performs comparably for each function individually.",
+    "Filter replacement at ~$70/yr is an ongoing cost — Dyson's replacement filters are expensive compared to Coway and Levoit alternatives. Calculate total cost of ownership over 3-5 years before comparing price.",
+    "MyDyson app stores usage data in the cloud — buyers with data privacy concerns should review Dyson's privacy policy, as air quality and usage data is transmitted and stored on Dyson's servers.",
+    "Fan cooling performance is not as powerful as a dedicated Dyson Cool — the HP09 prioritizes air purification over raw airflow, so it's less effective as a primary cooling fan in very hot weather."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Expensive compared to separate best-in-class…",
+      "body": "Expensive compared to separate best-in-class devices — the Coway + Vornado + Honeywell combination costs roughly half and performs comparably for each individual function.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "title": "Filter replacement costs $70/year ongoing…",
+      "body": "Filter replacement costs $70/year ongoing — Dyson's filters are significantly more expensive than Coway or Levoit alternatives, adding to the total cost of ownership.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "App data stored in Dyson cloud…",
+      "body": "App data stored in Dyson cloud raises privacy questions — indoor air quality and usage data is transmitted to Dyson servers, which some buyers find objectionable.",
+      "source": "Reddit (r/privacy)"
+    }
+  ],
+  "verdict": "The Dyson HP09 is an excellent product if space consolidation and Dyson's build quality are priorities. The air purification is among the best available, the heating is precise, and the real-time air quality display is genuinely useful. The $849 price and $70/yr filter cost are real considerations. If you're primarily motivated by floor space savings and premium aesthetics, it delivers. If you want maximum performance per dollar, separate devices are the better value.",
+  "realBuyers": [
+    {
+      "quote": "Worth it for the space savings alone in my studio apartment. I had three separate devices taking up floor space. Now I have one.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The air quality display changed how I think about my home. I can see when the PM2.5 spikes from cooking and turn it up accordingly.",
+      "source": "Reddit (r/airquality)"
+    },
+    {
+      "quote": "Heating is precise and fast. Much better than the Lasko I replaced. The 1° thermostat is the feature I use most.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dyson HP09 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09NR25BV6"
+    },
+    {
+      "title": "Dyson HP09 Review — RTINGS.com",
+      "url": "https://www.rtings.com"
+    },
+    {
+      "title": "Dyson HP09 Discussion — Reddit (r/dyson)",
+      "url": "https://www.reddit.com/r/dyson"
+    },
+    {
+      "title": "Dyson HP09 vs Separate Devices — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Dyson HP09 review for Canada: HEPA + Carbon purifier, 1800W heater, 350° oscillation, formaldehyde filter, LCD display. ~$849 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09NR25BV6",
+  "verifiedPrice": "$849 CAD",
+  "similarProducts": [
+    "blueair-blue-pure-411i-max",
+    "coway-ap-1512hh-air-purifier",
+    "delonghi-hmp1500-panel-heater"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

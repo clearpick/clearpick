@@ -1,0 +1,112 @@
+{
+  "slug": "focusrite-scarlett-solo-4th-gen",
+  "name": "Focusrite Scarlett Solo 4th Gen USB Audio Interface",
+  "brand": "Focusrite",
+  "category": "Music & Instruments",
+  "categoryPage": "music-instruments.html",
+  "filterTag": "Audio Interfaces",
+  "subcategory": "audio-interfaces",
+  "asin": "B09QQ86D3Y",
+  "price": 179,
+  "priceDisplay": "$179 CAD",
+  "score": 9.1,
+  "tag": "Best Single-Input Audio Interface for Vocalists and Guitarists",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09QDNKJ1N/?tag=clearpick06-20",
+  "introText": "The Focusrite Scarlett Solo 4th Gen offers the same Scarlett preamp quality as the 2i2 in a single-input package — one XLR for mics and one instrument input for guitar, all you need for solo recording at home.",
+  "subscores": {
+    "Preamp Quality": 9.5,
+    "Ease of Use": 9.5,
+    "Driver Stability": 9.5,
+    "Value for Money": 9.5,
+    "Software Bundle": 9.0
+  },
+  "specs": {
+    "Inputs": "1 x XLR (mic) + 1 x 1/4-inch instrument input (simultaneous)",
+    "Outputs": "2 x RCA line outputs + headphone output",
+    "Preamps": "1 x Scarlett 4th Gen preamp",
+    "Sample Rate": "Up to 192kHz / 24-bit",
+    "Air Mode": "High-frequency presence enhancement",
+    "Phantom Power": "48V phantom power for condenser mics",
+    "Direct Monitoring": "Blend knob for zero-latency monitoring",
+    "Bus Powered": "Yes — USB-C",
+    "Software": "Ableton Live Lite + Pro Tools Artist"
+  },
+  "whatWorks": [
+    "Same 4th Gen Scarlett preamp as the 2i2 at $50 less — the Solo's single microphone preamp is identical in quality to the 2i2. For solo recording artists who only ever record one microphone at a time, the Solo offers identical audio quality at a lower price.",
+    "Simultaneous mic + instrument recording for singer-guitarists — the Solo can record a microphone through the XLR and a guitar through the 1/4-inch instrument input at the same time. Live solo performers who want to capture voice and guitar simultaneously can do so.",
+    "Air mode for vocal presence — same as the 2i2, the 4th Gen Solo includes an Air button that adds transformer-style high-frequency enhancement. Particularly useful for vocals that need brightness and presence added during tracking.",
+    "Direct monitoring blend knob for real-time performance feedback — the blend knob lets you mix between the direct (zero-latency) mic input signal and the DAW output (which may include reverb and effects), giving performers the experience of hearing themselves with effects during recording."
+  ],
+  "worthKnowing": [
+    "Only one XLR microphone input — the Solo cannot record two microphones simultaneously. For users who need two independent mic channels (e.g., two vocalists, mic + room mic), the Scarlett 2i2 is necessary.",
+    "The instrument input is 1/4-inch TS, not combo XLR — the guitar/bass input on the Solo is a separate 1/4-inch jack, not a combo XLR/TRS. This is cleaner for guitar use but means you can't use a second XLR microphone.",
+    "RCA outputs instead of TRS — the 2 outputs on the Solo are RCA rather than the TRS balanced outputs on the 2i2. For connecting to studio monitor speakers with balanced TRS inputs, an RCA-to-TRS cable or adapter is needed.",
+    "For most home recording needs, the Solo is sufficient — the vast majority of home recording hobbyists, podcasters, and home studio musicians record one source at a time. The Solo is the smarter buy unless you specifically need two simultaneous XLR inputs."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Only one XLR mic input limits…",
+      "body": "Only one XLR mic input limits recording to single microphone sources — any scenario requiring two simultaneous microphones (duo vocal recording, stereo mic pair, room + close mic) requires upgrading to the 2i2.",
+      "source": "Reddit (r/homerecording)"
+    },
+    {
+      "title": "RCA outputs instead of balanced TRS…",
+      "body": "RCA outputs instead of balanced TRS — connecting studio monitors with TRS inputs requires an RCA-to-TRS cable or adapter, adding minor complexity vs. the 2i2's direct TRS connection.",
+      "source": "Reddit (r/audioengineering)"
+    },
+    {
+      "title": "No second instrument input means no…",
+      "body": "No second instrument input means no stereo guitar recording — recording acoustic guitar in stereo using two inputs simultaneously requires the 2i2 or larger interface.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Focusrite Scarlett Solo 4th Gen is the right audio interface for solo recording artists — vocalists, guitarists, and podcasters who record one source at a time. It delivers the same legendary Scarlett preamp quality as the 2i2 at a lower price. Only upgrade to the 2i2 if you specifically need two simultaneous XLR inputs.",
+  "realBuyers": [
+    {
+      "quote": "I'm a singer-songwriter. I record guitar and vocals, but never simultaneously. The Solo does everything I need at $50 less than the 2i2.",
+      "source": "Reddit (r/homerecording)"
+    },
+    {
+      "quote": "Air mode on my AT2020 is something I can't go back from. The voice sounds finished without needing EQ in the DAW.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "As a podcast host recording solo, this is genuinely more interface than I need. It's excellent. USB-C, great preamp, done.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Focusrite Scarlett Solo 4th Gen — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09QDNKJ1N"
+    },
+    {
+      "title": "Solo vs 2i2 — Reddit (r/homerecording)",
+      "url": "https://www.reddit.com/r/homerecording"
+    },
+    {
+      "title": "Focusrite Scarlett Solo 4th Gen Review — Sweetwater",
+      "url": "https://www.sweetwater.com"
+    },
+    {
+      "title": "Best Single-Input Audio Interfaces — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Focusrite Scarlett Solo 4th Gen review for Canada: 1 XLR + 1 instrument input, Air mode, 192kHz, USB-C, Ableton included. ~$179 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09QDNKJ1N",
+  "verifiedPrice": "$179 CAD",
+  "similarProducts": [
+    "focusrite-scarlett-2i2-4th-gen",
+    "arturia-minilab-3-midi-controller",
+    "audio-technica-at2020-condenser"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

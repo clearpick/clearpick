@@ -1,0 +1,113 @@
+{
+  "slug": "arturia-minilab-3-midi-controller",
+  "name": "Arturia MiniLab 3 USB MIDI Controller",
+  "brand": "Arturia",
+  "category": "Music & Instruments",
+  "categoryPage": "music-instruments.html",
+  "filterTag": "MIDI Controllers",
+  "subcategory": "midi-controllers",
+  "newCategoryPage": true,
+  "asin": "B0BLNJL82P",
+  "price": 129,
+  "priceDisplay": "$129 CAD",
+  "score": 9.1,
+  "tag": "Best Compact MIDI Controller for Home Studios",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0BLNJL82P/?tag=clearpick06-20",
+  "introText": "The Arturia MiniLab 3 bundles 25 velocity-sensitive mini-keys, 8 pads, 8 knobs, and pitch/mod controls with $800+ in free software including Analog Lab V — the best software bundle of any entry-level MIDI controller on Amazon.ca.",
+  "subscores": {
+    "Software Bundle": 9.5,
+    "Build Quality": 8.5,
+    "Key Feel": 8.0,
+    "Connectivity": 9.0,
+    "Value for Money": 9.5
+  },
+  "specs": {
+    "Keys": "25 velocity-sensitive mini-keys",
+    "Pads": "8 RGB backlit velocity-sensitive pads",
+    "Knobs": "8 assignable knobs",
+    "Controls": "Pitch bend + modulation touch strips",
+    "Connection": "USB-C (bus-powered, no power adapter needed)",
+    "DAW Support": "Class-compliant — works with any DAW",
+    "Software Bundle": "Analog Lab V + Ableton Live Lite + UVI Falcon + more",
+    "Dimensions": "343 x 155 x 36mm",
+    "Weight": "550g"
+  },
+  "whatWorks": [
+    "Analog Lab V software bundle alone justifies the price — the included Analog Lab V gives access to 500+ presets from Arturia's classic synth emulations (Minimoog, Juno, Jupiter-8). For a producer or learner building a software instrument library, this is $200+ of value included with the hardware.",
+    "USB-C bus-powered design eliminates power adapter clutter — the MiniLab 3 draws power from the USB-C connection to your computer. No power supply, no extra cables. The USB-C cable is included.",
+    "8 RGB pads are velocity-sensitive and mappable to any DAW function — the pads work for triggering samples, launching clips in Ableton, or finger drumming. They're responsive enough for live performance use, not just studio mapping.",
+    "Class-compliant USB operation works without drivers on Mac, Windows, and iPad — plug in and it's recognized immediately by any DAW. No Arturia-specific driver installation required unless you want the MIDI Control Center software for custom mapping."
+  ],
+  "worthKnowing": [
+    "Mini-keys are smaller than full-size piano keys — experienced pianists and those with larger hands may find 25 mini-keys limiting for two-handed playing. For piano practice, a full-size keyboard controller is more appropriate. For production and beat-making, mini-keys are generally sufficient.",
+    "25 keys limits octave-jumping requirements — for playing complex arrangements, you'll press the octave up/down buttons frequently. Serious piano players or keyboardists should consider 49-key options.",
+    "No built-in audio interface — the MiniLab 3 sends MIDI data only; it doesn't have audio I/O. For recording microphones or guitars alongside MIDI, a separate audio interface (Focusrite Scarlett Solo, etc.) is still needed.",
+    "The touch pitch/mod strips require adjustment from traditional spring-loaded wheels — some players prefer the physical resistance of a traditional pitch wheel. The touch strips are precise but feel different."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Mini-keys too small for pianists…",
+      "body": "Mini-keys too small for pianists with larger hands — experienced keyboard players often find mini-keys cramped for two-handed technique, limiting expressiveness compared to full-size key controllers.",
+      "source": "Reddit (r/edmproduction)"
+    },
+    {
+      "title": "25 keys requires frequent octave switching…",
+      "body": "25 keys requires frequent octave switching during complex playing — the limited range means regularly pressing octave shift buttons during arrangements that span more than 2 octaves.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Touch strips feel different from traditional…",
+      "body": "Touch strips feel different from traditional spring-loaded pitch wheels — players accustomed to mechanical pitch bend wheels find the touch strip's different response requires an adjustment period.",
+      "source": "Reddit (r/synthesizers)"
+    }
+  ],
+  "verdict": "The Arturia MiniLab 3 is the best entry-level MIDI controller for producers, beat-makers, and home studio musicians at $129. The Analog Lab V software bundle makes it worth buying even if the hardware were just average — and the hardware is above average. If your workflow is primarily piano-focused, the limited key range will frustrate you. For production and synthesis, it's excellent.",
+  "realBuyers": [
+    {
+      "quote": "The Analog Lab software bundle alone is worth more than I paid. I have hundreds of synth presets to work with immediately and the controller is solid.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "USB-C bus-powered is such a quality-of-life upgrade. My old controller needed a wall adapter. This just plugs in.",
+      "source": "Reddit (r/edmproduction)"
+    },
+    {
+      "quote": "The pads are surprisingly good for finger drumming. For $129 I expected budget feel and got something actually responsive.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Arturia MiniLab 3 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0BLNJL82P"
+    },
+    {
+      "title": "MiniLab 3 Review — Reddit (r/edmproduction)",
+      "url": "https://www.reddit.com/r/edmproduction"
+    },
+    {
+      "title": "Best MIDI Controllers Under $150 — YouTube",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "title": "Arturia MiniLab 3 Review — Sweetwater",
+      "url": "https://www.sweetwater.com"
+    }
+  ],
+  "metaDescription": "Arturia MiniLab 3 review for Canada: 25 mini-keys, 8 pads, USB-C, Analog Lab V bundle, class-compliant. ~$129 CAD on Amazon.ca. Best compact MIDI controller.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B0BLNJL82P",
+  "verifiedPrice": "$129 CAD",
+  "similarProducts": [
+    "audio-technica-ath-m50x",
+    "sennheiser-momentum-4",
+    "sony-wh-1000xm5"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

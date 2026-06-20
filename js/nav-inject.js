@@ -26,6 +26,9 @@
     { slug: 'baby-kids',              icon: '🍼', label: 'Baby & Kids',                count: 20                    ,  desc: 'Safety, toys & essentials'           },
     { slug: 'luggage-travel',         icon: '🧳', label: 'Luggage & Travel',           count: 19                   ,  desc: 'Bags, cases & accessories'           },
     { slug: 'automotive',             icon: '🚗', label: 'Automotive',                 count: 19                   ,  desc: 'Accessories & car tech'              },
+    { slug: 'music-instruments', icon: '🎸', label: 'Music & Instruments', count: 20                      },
+    { slug: 'home-comfort', icon: '🌡️', label: 'Home Comfort', count: 18                    },
+    { slug: 'cameras-photography', icon: '📸', label: 'Cameras & Photography', count: 19                     },
   ];
 
   var GROUPS = [
@@ -35,7 +38,7 @@
     },
     {
       label: 'Tech & Entertainment',
-      slugs: ['home-entertainment', 'gaming', 'headphones', 'smart-home', 'office-work'],
+      slugs: ['home-entertainment', 'gaming', 'headphones', 'smart-home', 'office-work', 'cameras-photography'],
     },
     {
       label: 'Health & Wellness',
@@ -43,11 +46,11 @@
     },
     {
       label: 'Home & Garden',
-      slugs: ['tools-home-improvement', 'lawn-garden', 'robot-vacuums', 'pet-supplies'],
+      slugs: ['tools-home-improvement', 'lawn-garden', 'robot-vacuums', 'pet-supplies', 'home-comfort'],
     },
     {
       label: 'Lifestyle',
-      slugs: ['camping', 'software', 'baby-kids', 'luggage-travel', 'automotive'],
+      slugs: ['camping', 'software', 'baby-kids', 'luggage-travel', 'automotive', 'music-instruments'],
     },
   ];
 

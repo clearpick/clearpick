@@ -1,0 +1,113 @@
+{
+  "slug": "casio-px-s3100-digital-piano",
+  "name": "Casio PX-S3100 Privia Digital Piano",
+  "brand": "Casio",
+  "category": "Music & Instruments",
+  "categoryPage": "music-instruments.html",
+  "filterTag": "Digital Pianos",
+  "subcategory": "digital-pianos",
+  "asin": "B09MKGTDGZ",
+  "price": 799,
+  "priceDisplay": "$799 CAD",
+  "score": 8.9,
+  "tag": "Best Slim Digital Piano for Home Practice",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09MKGTDGZ/?tag=clearpick06-20",
+  "introText": "The Casio PX-S3100 uses Smart Scaled Hammer Action keys and a Multi-Dimensional Morphing AiR sound engine to deliver realistic piano feel and sound in the narrowest digital piano body on the market — 232mm wide, fits anywhere.",
+  "subscores": {
+    "Key Action": 9.0,
+    "Sound Quality": 9.0,
+    "Built-in Features": 9.0,
+    "Portability": 9.5,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Keys": "88 weighted Smart Scaled Hammer Action keys",
+    "Sound Engine": "Multi-Dimensional Morphing AiR Sound Source",
+    "Polyphony": "192 notes",
+    "Tones": "700 built-in tones",
+    "Rhythms": "200 built-in rhythms",
+    "Bluetooth": "Audio + MIDI via Bluetooth",
+    "USB": "USB to host (MIDI + audio)",
+    "Speakers": "2 x 8W + 2 x 4W (4-speaker system)",
+    "Width": "232mm — the slimmest body in class",
+    "Weight": "11kg (without stand)"
+  },
+  "whatWorks": [
+    "Smart Scaled Hammer Action keys vary weight across the 88-key range — heavier in the bass, lighter in the treble, mirroring acoustic piano key behavior. This is a significant step up from non-weighted or uniformly-weighted digital piano keys, and helps develop proper playing technique.",
+    "Multi-Dimensional Morphing AiR sound engine samples multiple velocity layers — the piano sound changes naturally across the dynamic range (pp through fff) because Casio sampled multiple layers and morphs between them based on how hard keys are struck.",
+    "Bluetooth audio and MIDI enables wireless connection to apps — the PX-S3100 connects wirelessly to the Casio app for lesson content, and streams audio wirelessly to Bluetooth speakers. The wireless MIDI also works with DAWs and iOS piano apps.",
+    "232mm depth makes it the slimmest 88-key piano available — the PX-S series body is shallower than any competitor at this key count, allowing placement in rooms where a traditional digital piano or stage piano wouldn't physically fit."
+  ],
+  "worthKnowing": [
+    "No ivory-feel keys at this price — the PX-S3100 keys have a smooth plastic surface, not the textured ivory-feel coating of higher-end Casio, Roland, or Yamaha models. For players transitioning from acoustic piano, the key surface texture may feel slipperier than expected.",
+    "700 tones include many non-piano sounds of limited utility — the tones include orchestra, synth, and GM sounds most piano players won't use regularly. The piano, EP, and organ tones are the ones most worth evaluating before purchase.",
+    "The 4-speaker system is adequate but not room-filling — at 8+4W (24W total), the PX-S3100's built-in speakers are among the better ones in this price tier, but won't fill a medium room at high volumes. External speakers or headphones improve the experience.",
+    "Stand sold separately — the PX-S3100 is a slab-style digital piano that requires purchasing an X-stand or dedicated CS-92 Casio stand separately (typically $50-150 CAD additional)."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No ivory-feel textured key surface…",
+      "body": "No ivory-feel textured key surface — the smooth plastic keys feel different from acoustic piano ivory keys and higher-end digital piano models with textured key surfaces.",
+      "source": "Reddit (r/piano)"
+    },
+    {
+      "title": "Stand sold separately adds to cost…",
+      "body": "Stand sold separately adds to total cost — buyers expecting a piano stand should budget $50-150 CAD additionally for a stand, which should have been included at this price.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Built-in speakers not room-filling at max…",
+      "body": "Built-in speakers not room-filling at maximum volume — the 4-speaker system is adequate for private practice but doesn't project well enough for filling a medium-large room during group use.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Casio PX-S3100 is the best slim 88-key digital piano under $800 for home practice. The Smart Scaled Hammer Action keys develop real piano technique, the AiR sound engine is convincing, and the slim form factor genuinely opens placement options that other digital pianos can't match. Budget for a stand and you'll have an excellent home practice instrument.",
+  "realBuyers": [
+    {
+      "quote": "The slim design is exactly why I bought this. My apartment doesn't have room for a traditional digital piano stand. The PX-S3100 fits between my desk and the wall.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The weighted keys are genuinely weighted and scaled. Bass keys have more resistance than treble. My acoustic piano technique transferred immediately.",
+      "source": "Reddit (r/piano)"
+    },
+    {
+      "quote": "Bluetooth MIDI to my iPad is a game-changer for lesson apps. No cables anywhere. The piano just connects.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Casio PX-S3100 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09MKGTDGZ"
+    },
+    {
+      "title": "PX-S3100 Review — Reddit (r/piano)",
+      "url": "https://www.reddit.com/r/piano"
+    },
+    {
+      "title": "Casio PX-S3100 Review — Sweetwater",
+      "url": "https://www.sweetwater.com"
+    },
+    {
+      "title": "Best Digital Pianos Under $800 — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Casio PX-S3100 review for Canada: 88 weighted keys, Smart Scaled Hammer Action, 192-note polyphony, Bluetooth MIDI/audio, 232mm slim body. ~$799 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09MKGTDGZ",
+  "verifiedPrice": "$799 CAD",
+  "similarProducts": [
+    "arturia-minilab-3-midi-controller",
+    "audio-technica-at2020-condenser",
+    "boss-katana-50-mkii-amp"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

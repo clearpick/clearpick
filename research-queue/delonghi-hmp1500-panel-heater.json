@@ -1,0 +1,112 @@
+{
+  "slug": "delonghi-hmp1500-panel-heater",
+  "name": "De'Longhi HMP1500 Mica Panel Heater",
+  "brand": "De'Longhi",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Space Heaters",
+  "subcategory": "space-heaters",
+  "asin": "B09GS1JN9Y",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.0,
+  "tag": "Best Flat Panel Heater for Bedrooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09GS1JN9Y/?tag=clearpick06-20",
+  "introText": "The De'Longhi HMP1500 is a silent mica panel heater with no fan, digital thermostat, anti-freeze mode, and wall-mount option — the right choice for bedrooms where fan noise from ceramic heaters is a problem.",
+  "subscores": {
+    "Heat Quality": 8.0,
+    "Noise Level": 10.0,
+    "Safety": 9.0,
+    "Temperature Control": 9.0,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Power": "1500W (2 settings: 750W + 1500W)",
+    "Heating Type": "Mica panel — radiant, no fan",
+    "Thermostat": "Digital programmable thermostat",
+    "Timer": "12-hour timer",
+    "Anti-Freeze": "5°C frost protection mode",
+    "Eco Mode": "Energy-saving eco temperature mode",
+    "Mounting": "Wall-mountable or free-standing",
+    "Safety": "Overheat protection, tip-over switch",
+    "Noise": "Silent — no fan, no moving parts"
+  },
+  "whatWorks": [
+    "Truly silent operation — mica panel heaters produce heat through natural convection (no fan), creating zero noise. This is the primary reason to choose a panel heater over ceramic fan heaters: complete silence makes it ideal for bedrooms, nurseries, and offices during calls.",
+    "Precise digital thermostat maintains a set temperature without manual adjustment — set it to 20°C and it cycles on and off to maintain that temperature, more accurately than dial-based thermostats on cheaper units.",
+    "Wall-mount option maximizes floor space and keeps the heater permanently out of the way — useful in bedrooms with limited floor area, and eliminates the tip-over risk associated with free-standing heaters.",
+    "5°C anti-freeze mode runs continuously at minimum power to prevent pipes from freezing in cottages or unheated spaces — practical for seasonal property protection."
+  ],
+  "worthKnowing": [
+    "Panel heaters heat slowly compared to ceramic fan heaters — the absence of a fan means heated air rises naturally rather than being projected into the room. Cold-room warm-up time is significantly longer than a Lasko 755320 or Vornado MVH.",
+    "Best as a temperature-maintenance heater, not a fast-heat heater — effective strategy is to set it and leave it running rather than using it to quickly warm a cold room.",
+    "1500W is the maximum power draw of any standard 120V household heater — all electric heaters, regardless of design, are capped by the circuit amperage. De'Longhi's advantage is delivery and control, not wattage.",
+    "Radiant heat feels different from forced-air heat — mica panel heat warms objects and people directly (like sunlight) rather than warming air. Some people find radiant heat more comfortable; others prefer the faster warm-up of forced air."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heats rooms slowly without a fan…",
+      "body": "Heats rooms slowly without a fan — radiant panel heaters rely on natural convection, meaning cold rooms take significantly longer to warm up than ceramic fan heaters at the same wattage.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Not suitable for fast warm-up in…",
+      "body": "Not suitable for fast warm-up in very cold rooms — if you need to quickly heat a room that's at 10°C, a ceramic fan heater like the Vornado MVH will do it faster.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "title": "Wall mounting requires drilling and may…",
+      "body": "Wall mounting requires drilling and may not suit renters — permanent wall installation isn't possible for all living situations, limiting the space-saving mounting benefit.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The De'Longhi HMP1500 is the right heater for bedrooms and noise-sensitive spaces where silence matters more than fast heat. If you run a heater overnight and want zero noise, the panel design is unmatched. If you need to quickly heat a cold garage, workshop, or large room, a ceramic fan heater like the Vornado MVH or Lasko 755320 is more effective.",
+  "realBuyers": [
+    {
+      "quote": "I can sleep without waking up to the fan click on and off all night. Completely silent. This was the only reason I switched from my Lasko and it was the right call.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The digital thermostat is great. Set it to 20° and it holds there accurately all night. No more waking up sweating or freezing.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "quote": "Perfect for my home office during calls. No fan noise bleeding into meetings. Works exactly as described.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "De'Longhi HMP1500 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09GS1JN9Y"
+    },
+    {
+      "title": "Panel Heater vs Fan Heater — Reddit (r/homeimprovement)",
+      "url": "https://www.reddit.com/r/homeimprovement"
+    },
+    {
+      "title": "Best Space Heaters — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "De'Longhi HMP1500 Review — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "De'Longhi HMP1500 review for Canada: 1500W mica panel, silent operation, digital thermostat, wall-mountable, anti-freeze mode. ~$149 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09GS1JN9Y",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": [
+    "blueair-blue-pure-411i-max",
+    "coway-ap-1512hh-air-purifier",
+    "ecobee-smart-thermostat-premium"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

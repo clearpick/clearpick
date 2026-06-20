@@ -1,177 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Cameras & Photography':         '📸',
-  'Home Comfort':                  '🌡️',
-  'Music & Instruments':           '🎸',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Epiphone Les Paul Standard '50s Electric Guitar Review 2026 | ClearPick</title>
+<meta name="description" content="Epiphone Les Paul Standard '50s review for Canada: mahogany, ProBucker pickups, CTS pots, Grover tuners, LockTone bridge. ~$599 CAD on Amazon.ca." />
+<meta property="og:title" content="Epiphone Les Paul Standard '50s Electric Guitar Review 2026 | ClearPick" />
+<meta property="og:description" content="Epiphone Les Paul Standard '50s review for Canada: mahogany, ProBucker pickups, CTS pots, Grover tuners, LockTone bridge. ~$599 CAD on Amazon.ca." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/epiphone-les-paul-standard-50s.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/epiphone-les-paul-standard-50s.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Epiphone Les Paul Standard '50s Electric Guitar",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "9", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The Epiphone Les Paul Standard '50s is the best sub-$600 electric guitar for players who want Les Paul tone and character. The combination of ProBucker pickups, CTS electronics, Grover tuners, and LockTone bridge hardware represents a genuine value gap versus prior generations of budget Les Pauls. At this price, it plays and sounds like a guitar worth significantly more."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "9",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -271,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../music-instruments.html">Music &amp; Instruments</a> <span>›</span>
+<span>Epiphone Les Paul Standard '50s Electric Guitar</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Music &amp; Instruments</div>
+<h1 class="product-hero__title">Epiphone Les Paul Standard '50s Electric Guitar</h1>
+<div class="product-hero__tag">Best Les Paul-Style Electric Guitar Under $600</div>
+<p class="product-hero__desc">The Epiphone Les Paul Standard '50s is the closest thing to a real Gibson Les Paul at $599 — mahogany body and neck, ProBucker humbuckers, CTS pots, and Gibson-standard nut width that gives it the feel and tone of guitars three times the price.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -290,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">9 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Excellent</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Tone Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Hardware Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Playability</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Build Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Body</td><td class="spec-table__value">Mahogany with maple cap</td></tr><tr><td class="spec-table__label">Neck</td><td class="spec-table__value">Mahogany, SlimTaper D profile</td></tr><tr><td class="spec-table__label">Fingerboard</td><td class="spec-table__value">Indian Laurel, 22 frets, 12-inch radius</td></tr><tr><td class="spec-table__label">Nut Width</td><td class="spec-table__value">43mm (Gibson-standard)</td></tr><tr><td class="spec-table__label">Pickups</td><td class="spec-table__value">ProBucker-2 (neck) + ProBucker-3 (bridge)</td></tr><tr><td class="spec-table__label">Controls</td><td class="spec-table__value">2 volume + 2 tone (CTS 500k pots), 3-way toggle</td></tr><tr><td class="spec-table__label">Bridge</td><td class="spec-table__value">LockTone ABR bridge + stopbar</td></tr><tr><td class="spec-table__label">Tuners</td><td class="spec-table__value">Grover Rotomatic 18:1 ratio</td></tr><tr><td class="spec-table__label">Finish</td><td class="spec-table__value">Gloss nitro-look finish</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -309,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Epiphone Les Paul Standard '50s Electric Guitar product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best Les Paul-Style Electric Guitar Under $600</div>
+<div class="product-cta-box__name">Epiphone Les Paul Standard '50s Electric Guitar</div>
+<div class="product-cta-box__price">~$599 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B084YW6JQR/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -333,39 +223,109 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>ProBucker humbuckers with CTS 500k pots deliver genuine vintage Les Paul tone — Epiphone upgraded the pickups and electronics on the Standard '50s from the previous generation, and the difference is audible. The ProBuckers are comparable to many boutique humbuckers at their price point.</li>
+<li>Grover Rotomatic 18:1 tuners hold tune significantly better than budget die-cast tuners — the 18:1 gear ratio provides finer adjustment when tuning and holds pitch more securely during bends and behind the nut. This is an upgrade typically only seen on guitars costing $400+ more.</li>
+<li>LockTone ABR bridge and stopbar eliminates the primary intonation complaint on budget Les Pauls — the locking system on both the bridge and tailpiece prevents movement during string changes, maintaining intonation and improving sustain.</li>
+<li>Mahogany body and neck produces genuine Les Paul resonance — the tonal character of a Les Paul comes primarily from the mahogany construction. The Epiphone Standard '50s uses real mahogany, not basswood or alder substitutes, giving it the warm, sustaining character Les Paul players expect.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>Weight is significant — Les Pauls are heavy guitars at 4-4.5kg due to the solid mahogany body. Extended standing play can fatigue the shoulder for lighter players or those with physical considerations. This is inherent to the design, not a flaw.</li>
+<li>Setup quality varies and may need adjustment from the factory — Canadian climate and shipping conditions mean the truss rod and action may need minor adjustment. A qualified guitar tech setup ($50-80) brings the guitar to optimal playability if factory setup isn't to your specifications.</li>
+<li>Indian Laurel fretboard is functionally equivalent to rosewood — Indian Laurel (Terminalia elliptica) replaced rosewood on many guitars due to CITES export restrictions. The tonal and tactile difference is negligible in real use, despite the name change.</li>
+<li>The '50s neck profile is a C/D oval profile — thicker than a contemporary slim neck profile. Players who prefer thin, fast necks may prefer a different guitar. Players who value stability and a chunkier feel will prefer it.</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Played my friend's Gibson LP Standard at a jam. Went home and played my Epiphone. Honestly can't hear the difference through my amp on the recordings."</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/guitar)</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The Grover tuners are the first thing people notice when I tell them it's $599. They assume it's a $1,200 guitar based on the hardware."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Got a pro setup done for $60 after arrival and it plays perfectly. Stock setup was a bit high but the guitar itself is excellent."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Factory setup quality inconsistent…</p>
+<p class="real-buyers-say__text">Factory setup quality inconsistent between units — some players receive guitars with high action or slightly off intonation from the factory. A professional tech setup resolves this but adds $50-80 to the purchase.</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/guitar)</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Weight strains shoulder during long sessions…</p>
+<p class="real-buyers-say__text">Weight strains shoulder during long sessions — at 4-4.5kg, the solid mahogany Les Paul body is heavy for extended standing play. This is a design characteristic, not a defect, but is worth knowing for players with physical sensitivities.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">50s profile neck feels chunky to…</p>
+<p class="real-buyers-say__text">50s profile neck feels chunky to players used to thin modern necks — the thicker D/oval profile is authentic to vintage Les Pauls but may require adjustment for players from thin-profile guitar backgrounds.</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/guitar)</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The Epiphone Les Paul Standard '50s is the best sub-$600 electric guitar for players who want Les Paul tone and character. The combination of ProBucker pickups, CTS electronics, Grover tuners, and LockTone bridge hardware represents a genuine value gap versus prior generations of budget Les Pauls. At this price, it plays and sounds like a guitar worth significantly more.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="boss-katana-50-mkii-amp.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Boss Katana-50 MkII 50W Guitar Amplifier" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Practice Amp for Home and Stage</span>
+<h3 class="product-card__name">Boss Katana-50 MkII 50W Guitar Amplifier</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="arturia-minilab-3-midi-controller.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Arturia MiniLab 3 USB MIDI Controller" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Compact MIDI Controller for Home Studios</span>
+<h3 class="product-card__name">Arturia MiniLab 3 USB MIDI Controller</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="audio-technica-at2020-condenser.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Audio-Technica AT2020 Cardioid Condenser Microphone" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Entry-Level Condenser Mic for Home Studios</span>
+<h3 class="product-card__name">Audio-Technica AT2020 Cardioid Condenser Microphone</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -384,7 +344,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

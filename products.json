@@ -14637,5 +14637,1714 @@
       "Storage": "MicroSD up to 256GB (not included)",
       "Parking Mode": "Hardwire kit compatible (sold separately)"
     }
+  },
+  {
+    "id": "arturia-minilab-3-midi-controller",
+    "name": "Arturia MiniLab 3 USB MIDI Controller",
+    "category": "Music & Instruments",
+    "score": 9.1,
+    "tag": "Best Compact MIDI Controller for Home Studios",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$129 CAD",
+    "page": "products/arturia-minilab-3-midi-controller.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BLNJL82P/?tag=clearpick06-20",
+    "subscores": {
+      "Software Bundle": 9.5,
+      "Build Quality": 8.5,
+      "Key Feel": 8,
+      "Connectivity": 9,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Keys": "25 velocity-sensitive mini-keys",
+      "Pads": "8 RGB backlit velocity-sensitive pads",
+      "Knobs": "8 assignable knobs",
+      "Controls": "Pitch bend + modulation touch strips",
+      "Connection": "USB-C (bus-powered, no power adapter needed)",
+      "DAW Support": "Class-compliant — works with any DAW",
+      "Software Bundle": "Analog Lab V + Ableton Live Lite + UVI Falcon + more",
+      "Dimensions": "343 x 155 x 36mm",
+      "Weight": "550g"
+    }
+  },
+  {
+    "id": "audio-technica-at2020-condenser",
+    "name": "Audio-Technica AT2020 Cardioid Condenser Microphone",
+    "category": "Music & Instruments",
+    "score": 9,
+    "tag": "Best Entry-Level Condenser Mic for Home Studios",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/audio-technica-at2020-condenser.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0006H92QK/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9.5,
+      "Build Quality": 9,
+      "Self-Noise": 8.5,
+      "Value for Money": 9.5,
+      "Longevity": 9.5
+    },
+    "specs": {
+      "Type": "Fixed-charge back-plate, permanently polarized condenser",
+      "Pattern": "Cardioid",
+      "Frequency Response": "20Hz – 20kHz",
+      "Self-Noise": "20 dB SPL",
+      "Maximum SPL": "144 dB SPL (154 dB with 10 dB pad)",
+      "Connection": "XLR (requires phantom power 48V)",
+      "Sensitivity": "-37 dB (14.1 mV) re 1V at 1 Pa",
+      "Weight": "340g",
+      "Included": "Pivoting stand mount + protective pouch"
+    }
+  },
+  {
+    "id": "blueair-blue-pure-411i-max",
+    "name": "Blueair Blue Pure 411i Max Air Purifier",
+    "category": "Home Comfort",
+    "score": 8.5,
+    "tag": "Best Budget Air Purifier for Small Rooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$199 CAD",
+    "page": "products/blueair-blue-pure-411i-max.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09B4M7KMX/?tag=clearpick06-20",
+    "subscores": {
+      "Air Purification": 8.5,
+      "Noise Level": 9,
+      "Coverage": 7.5,
+      "Smart Features": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Coverage": "190 sq ft (ACH 5 at this room size)",
+      "Technology": "HEPASilent — electrostatic + HEPA mechanical filtration",
+      "Pre-filter": "Washable fabric pre-filter (multiple colours available)",
+      "Speeds": "3 fan speeds",
+      "Noise": "As low as 29 dBA on lowest setting",
+      "Power": "8W on lowest setting",
+      "Smart Control": "WiFi + Blueair Friend app",
+      "Filter Type": "Combination HEPA + Carbon filter"
+    }
+  },
+  {
+    "id": "boss-katana-50-mkii-amp",
+    "name": "Boss Katana-50 MkII 50W Guitar Amplifier",
+    "category": "Music & Instruments",
+    "score": 9.3,
+    "tag": "Best Practice Amp for Home and Stage",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$449 CAD",
+    "page": "products/boss-katana-50-mkii-amp.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07MH5CCRB/?tag=clearpick06-20",
+    "subscores": {
+      "Tone Quality": 9.5,
+      "Built-in Effects": 9.5,
+      "Versatility": 9.5,
+      "Value for Money": 9.5,
+      "Build Quality": 8.5
+    },
+    "specs": {
+      "Power": "50W (0.5W / 25W / 50W switchable)",
+      "Speaker": "12-inch Waza speaker",
+      "Amp Characters": "5 (Clean / Crunch / Lead / Brown / Acoustic)",
+      "Built-in Effects": "60+ effects (3 simultaneous effect slots)",
+      "Headphone Output": "Yes — with cab simulation",
+      "Effects Loop": "Series",
+      "USB Recording": "Yes — direct to DAW via USB",
+      "Editor Software": "Boss Tone Studio (free, Mac/Windows/iOS)",
+      "Weight": "14kg"
+    }
+  },
+  {
+    "id": "canon-eos-r10-camera",
+    "name": "Canon EOS R10 Mirrorless Camera with RF-S 18-45mm Lens",
+    "category": "Cameras & Photography",
+    "score": 8.4,
+    "tag": "Best Value APS-C Mirrorless for Beginners",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$979 CAD",
+    "page": "products/canon-eos-r10-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0B1M3YHR8/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 8.5,
+      "Autofocus": 9,
+      "Video Quality": 7.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensor": "24.2MP APS-C CMOS",
+      "Processor": "DIGIC X",
+      "Autofocus": "Dual Pixel CMOS AF II — subject tracking for people, animals, vehicles",
+      "4K Video": "4K/30fps (with 1.56x crop); 4K/24fps full-width",
+      "Slow Motion": "1080/120fps",
+      "Max Burst": "15 fps mechanical, 23 fps electronic",
+      "Stabilization": "None — relies on lens IS",
+      "Weight": "429g body only",
+      "Mount": "Canon RF",
+      "Screen": "Fully articulating 3-inch touchscreen",
+      "Battery Life": "~430 shots per charge (CIPA)",
+      "Weather Sealing": "None"
+    }
+  },
+  {
+    "id": "canon-powershot-v10",
+    "name": "Canon PowerShot V10 Vlog Camera",
+    "category": "Cameras & Photography",
+    "score": 7.8,
+    "tag": "Best Compact Vlog Camera for Beginners",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$499 CAD",
+    "page": "products/canon-powershot-v10.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CCZDV4FS/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 8,
+      "Video Quality": 7.5,
+      "Ease of Use": 9,
+      "Portability": 9.5,
+      "Value for Money": 7
+    },
+    "specs": {
+      "Sensor": "19.6MP 1-inch CMOS",
+      "Lens": "Fixed 19mm equivalent f/2.8 (no zoom)",
+      "Video": "4K/30fps, 1080/60fps",
+      "Built-in ND Filter": "Yes — 3-stop",
+      "Built-in Stand": "Fold-flat integrated stand",
+      "Audio": "Stereo microphones",
+      "Charging": "USB-C (charges via USB-C power bank)",
+      "Weight": "211g with battery and card",
+      "Battery Life": "~200 shots per charge",
+      "Streaming": "Plug-and-play USB webcam/streaming"
+    }
+  },
+  {
+    "id": "casio-px-s3100-digital-piano",
+    "name": "Casio PX-S3100 Privia Digital Piano",
+    "category": "Music & Instruments",
+    "score": 8.9,
+    "tag": "Best Slim Digital Piano for Home Practice",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$799 CAD",
+    "page": "products/casio-px-s3100-digital-piano.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09MKGTDGZ/?tag=clearpick06-20",
+    "subscores": {
+      "Key Action": 9,
+      "Sound Quality": 9,
+      "Built-in Features": 9,
+      "Portability": 9.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Keys": "88 weighted Smart Scaled Hammer Action keys",
+      "Sound Engine": "Multi-Dimensional Morphing AiR Sound Source",
+      "Polyphony": "192 notes",
+      "Tones": "700 built-in tones",
+      "Rhythms": "200 built-in rhythms",
+      "Bluetooth": "Audio + MIDI via Bluetooth",
+      "USB": "USB to host (MIDI + audio)",
+      "Speakers": "2 x 8W + 2 x 4W (4-speaker system)",
+      "Width": "232mm — the slimmest body in class",
+      "Weight": "11kg (without stand)"
+    }
+  },
+  {
+    "id": "coway-ap-1512hh-air-purifier",
+    "name": "Coway AP-1512HH Mighty Air Purifier",
+    "category": "Home Comfort",
+    "score": 9,
+    "tag": "Best Air Purifier for Mid-Size Rooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/coway-ap-1512hh-air-purifier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01728NLRG/?tag=clearpick06-20",
+    "subscores": {
+      "Air Purification": 9.5,
+      "CADR Efficiency": 9.5,
+      "Reliability": 9.5,
+      "Smart Features": 7.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Coverage": "360 sq ft at 2 ACH, 180 sq ft at 5 ACH",
+      "Filtration": "4-stage: Pre-filter + Carbon + True HEPA + Ionizer (optional)",
+      "CADR": "246 dust / 240 pollen / 233 smoke (cubic feet per minute)",
+      "Air Quality": "Real-time air quality indicator (LED colour)",
+      "Auto Mode": "Yes — adjusts fan speed based on air quality",
+      "Eco Mode": "Shuts fan off when air quality is clean",
+      "Speeds": "4 fan speeds",
+      "Max Power": "45W",
+      "Ionizer": "On/off toggle (default recommended off)"
+    }
+  },
+  {
+    "id": "delonghi-hmp1500-panel-heater",
+    "name": "De'Longhi HMP1500 Mica Panel Heater",
+    "category": "Home Comfort",
+    "score": 8,
+    "tag": "Best Flat Panel Heater for Bedrooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/delonghi-hmp1500-panel-heater.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09GS1JN9Y/?tag=clearpick06-20",
+    "subscores": {
+      "Heat Quality": 8,
+      "Noise Level": 10,
+      "Safety": 9,
+      "Temperature Control": 9,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Power": "1500W (2 settings: 750W + 1500W)",
+      "Heating Type": "Mica panel — radiant, no fan",
+      "Thermostat": "Digital programmable thermostat",
+      "Timer": "12-hour timer",
+      "Anti-Freeze": "5°C frost protection mode",
+      "Eco Mode": "Energy-saving eco temperature mode",
+      "Mounting": "Wall-mountable or free-standing",
+      "Safety": "Overheat protection, tip-over switch",
+      "Noise": "Silent — no fan, no moving parts"
+    }
+  },
+  {
+    "id": "dji-action-5-pro",
+    "name": "DJI Action 5 Pro Action Camera",
+    "category": "Cameras & Photography",
+    "score": 9,
+    "tag": "Best Action Camera for 4K/120fps",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/dji-action-5-pro.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0D5SMQNJD/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9.5,
+      "Stabilization": 9,
+      "Battery Life": 9.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensor": "1/1.3-inch CMOS",
+      "Max Video": "4K/120fps, 10-bit D-Log M",
+      "Stabilization": "RockSteady 3.0 EIS + HorizonSteady 360° horizon lock",
+      "Waterproof": "20m without housing",
+      "Battery Life": "47 minutes (class-leading)",
+      "Screens": "Dual-screen (front touch + rear touch)",
+      "Audio": "Wind-resistant microphones",
+      "Weight": "145g",
+      "Charging": "USB-C magnetic fast charge"
+    }
+  },
+  {
+    "id": "dji-air-3-drone",
+    "name": "DJI Air 3 Drone with RC-N2 Remote",
+    "category": "Cameras & Photography",
+    "score": 9,
+    "tag": "Best All-Around Consumer Drone Under $1,500",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1379 CAD",
+    "page": "products/dji-air-3-drone.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C9J1HQ9K/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9.5,
+      "Flight Time": 9.5,
+      "Obstacle Avoidance": 9,
+      "Portability": 8,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Cameras": "Dual — 24mm f/1.7 wide + 70mm f/2.8 medium tele",
+      "Sensor": "Two 1/1.3-inch CMOS",
+      "Max Video": "4K/60fps 10-bit HDR",
+      "Flight Time": "46 minutes maximum",
+      "Obstacle Sensing": "Omnidirectional (APAS 5.0)",
+      "Transmission": "DJI O4 — up to 20km",
+      "Weight": "720g",
+      "Wind Resistance": "Level 7 (up to 61 km/h)",
+      "Subject Tracking": "ActiveTrack 360"
+    }
+  },
+  {
+    "id": "dji-mini-3-pro-drone",
+    "name": "DJI Mini 3 Pro Drone with RC-N1 Remote",
+    "category": "Cameras & Photography",
+    "score": 8.7,
+    "tag": "Best Compact Drone with Obstacle Sensing",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$959 CAD",
+    "page": "products/dji-mini-3-pro-drone.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C1M5WWQK/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9,
+      "Flight Time": 8,
+      "Obstacle Avoidance": 8,
+      "Portability": 9.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensor": "1/1.3-inch CMOS",
+      "Max Video": "4K/60fps 10-bit HDR",
+      "Obstacle Sensing": "Tri-directional (forward, backward, downward)",
+      "Transmission": "DJI O3",
+      "Weight": "249g (under Transport Canada registration threshold)",
+      "Flight Time": "34 minutes",
+      "Vertical Shooting": "Yes — sensor rotates for portrait orientation",
+      "Wind Resistance": "Level 5 (38 km/h)"
+    }
+  },
+  {
+    "id": "dyson-hp09-purifier-heater-fan",
+    "name": "Dyson HP09 Purifier Hot+Cool Formaldehyde",
+    "category": "Home Comfort",
+    "score": 8.7,
+    "tag": "Best Premium Air Purifier + Heater Combo",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$849 CAD",
+    "page": "products/dyson-hp09-purifier-heater-fan.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09NR25BV6/?tag=clearpick06-20",
+    "subscores": {
+      "Air Purification": 9,
+      "Heating": 8.5,
+      "Fan Performance": 8,
+      "Smart Features": 9,
+      "Value for Money": 7
+    },
+    "specs": {
+      "Filtration": "HEPA H13 + Activated Carbon 360° sealed system",
+      "Heating": "1800W, precise 1°C increment thermostat",
+      "Fan": "Air Multiplier with 350° oscillation, 10 speeds",
+      "Formaldehyde": "Catalytic filter destroys formaldehyde continuously",
+      "Air Quality": "Real-time LCD display — PM 2.5, PM 10, VOCs, NO2, humidity, temp",
+      "Smart": "MyDyson app, Alexa/Google compatible, auto mode",
+      "Coverage": "Up to 600 sq ft air purification",
+      "Noise": "As low as 36 dBA on lowest setting"
+    }
+  },
+  {
+    "id": "dyson-pure-cool-dp04-desk-fan",
+    "name": "Dyson Pure Cool DP04 Desk Air Purifier Fan",
+    "category": "Home Comfort",
+    "score": 8.2,
+    "tag": "Best Desk Air Purifier Fan",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$479 CAD",
+    "page": "products/dyson-pure-cool-dp04-desk-fan.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07JFK8NZP/?tag=clearpick06-20",
+    "subscores": {
+      "Air Purification": 9,
+      "Fan Cooling": 7.5,
+      "Design": 9.5,
+      "Safety": 9.5,
+      "Value for Money": 7
+    },
+    "specs": {
+      "Filtration": "HEPA H13 + Activated Carbon",
+      "Height": "61cm (personal/desk size)",
+      "Fan Speeds": "10 speeds",
+      "Oscillation": "350° programmable",
+      "Display": "LCD air quality display",
+      "Smart": "MyDyson app + remote control",
+      "Timer": "Sleep timer",
+      "Airflow": "Up to 2400L per second",
+      "Noise": "As low as 37 dBA on lowest"
+    }
+  },
+  {
+    "id": "dyson-purifier-cool-tp09",
+    "name": "Dyson Purifier Cool TP09 Formaldehyde",
+    "category": "Home Comfort",
+    "score": 8.8,
+    "tag": "Best Air Purifier Floor Fan for Large Rooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$799 CAD",
+    "page": "products/dyson-purifier-cool-tp09.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09NPTG1BS/?tag=clearpick06-20",
+    "subscores": {
+      "Air Purification": 9.5,
+      "Fan Performance": 8.5,
+      "Coverage": 9.5,
+      "Smart Features": 9,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Coverage": "800 sq ft air purification",
+      "Filtration": "HEPA H13 + Activated Carbon 360° sealed system",
+      "Formaldehyde": "Catalytic filter — continuously destroys formaldehyde",
+      "Fan": "Air Multiplier 10-speed, 350° oscillation",
+      "Air Quality": "Real-time LCD — PM 2.5, PM 10, VOCs, NO2, formaldehyde, humidity, temp",
+      "Auto Mode": "Yes — AI responds to pollution events automatically",
+      "Smart": "MyDyson app, Alexa/Google, voice control",
+      "Noise": "As low as 42 dBA at lowest setting"
+    }
+  },
+  {
+    "id": "epiphone-les-paul-standard-50s",
+    "name": "Epiphone Les Paul Standard '50s Electric Guitar",
+    "category": "Music & Instruments",
+    "score": 9,
+    "tag": "Best Les Paul-Style Electric Guitar Under $600",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$599 CAD",
+    "page": "products/epiphone-les-paul-standard-50s.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B084YW6JQR/?tag=clearpick06-20",
+    "subscores": {
+      "Tone Quality": 9,
+      "Hardware Quality": 9,
+      "Playability": 9,
+      "Build Quality": 8.5,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Body": "Mahogany with maple cap",
+      "Neck": "Mahogany, SlimTaper D profile",
+      "Fingerboard": "Indian Laurel, 22 frets, 12-inch radius",
+      "Nut Width": "43mm (Gibson-standard)",
+      "Pickups": "ProBucker-2 (neck) + ProBucker-3 (bridge)",
+      "Controls": "2 volume + 2 tone (CTS 500k pots), 3-way toggle",
+      "Bridge": "LockTone ABR bridge + stopbar",
+      "Tuners": "Grover Rotomatic 18:1 ratio",
+      "Finish": "Gloss nitro-look finish"
+    }
+  },
+  {
+    "id": "fender-cd-60s-acoustic-guitar",
+    "name": "Fender CD-60S Solid Top Acoustic Guitar",
+    "category": "Music & Instruments",
+    "score": 8.8,
+    "tag": "Best Beginner Acoustic Guitar with Solid Top",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$329 CAD",
+    "page": "products/fender-cd-60s-acoustic-guitar.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01C93WMF4/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8.5,
+      "Playability": 8.5,
+      "Build Quality": 8.5,
+      "Brand Credibility": 9,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Top": "Solid Sitka Spruce (not laminate)",
+      "Back & Sides": "Mahogany (laminate)",
+      "Neck": "Mahogany with easy-to-play neck profile",
+      "Fingerboard": "Walnut, 20 frets",
+      "Scale Length": "648mm",
+      "Nut Width": "43mm",
+      "Body Style": "Dreadnought",
+      "Bridge": "Walnut",
+      "Tuners": "Chrome die-cast"
+    }
+  },
+  {
+    "id": "fender-frontman-10g-amp",
+    "name": "Fender Frontman 10G Electric Guitar Amplifier",
+    "category": "Music & Instruments",
+    "score": 7.8,
+    "tag": "Best Budget Amp for First-Time Electric Guitar Players",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/fender-frontman-10g-amp.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07KDYTGTM/?tag=clearpick06-20",
+    "subscores": {
+      "Ease of Use": 9.5,
+      "Value for Money": 9,
+      "Features for Price": 8.5,
+      "Tone Quality": 7,
+      "Build Quality": 7.5
+    },
+    "specs": {
+      "Power": "10W solid-state",
+      "Speaker": "6-inch speaker",
+      "Channels": "Clean + Overdrive (separate gain control)",
+      "Controls": "Gain, Volume, Treble, Bass, Overdrive",
+      "Headphone Output": "Yes — silent practice",
+      "Input": "1 x 1/4-inch instrument input",
+      "Dimensions": "30 x 25 x 17cm",
+      "Weight": "4.5kg"
+    }
+  },
+  {
+    "id": "fender-player-stratocaster",
+    "name": "Fender Player Stratocaster Electric Guitar",
+    "category": "Music & Instruments",
+    "score": 9.2,
+    "tag": "Best Intermediate Electric Guitar for Rock and Blues",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$999 CAD",
+    "page": "products/fender-player-stratocaster.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07FBNJMRS/?tag=clearpick06-20",
+    "subscores": {
+      "Tone Quality": 9,
+      "Build Quality": 9,
+      "Playability": 9.5,
+      "Brand Credibility": 9.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Body": "Alder",
+      "Neck": "Maple, Modern C profile",
+      "Fingerboard": "Maple or Pau Ferro (color-dependent), 22 frets, 9.5-inch radius",
+      "Pickups": "3 Player Series Alnico 5 single-coil pickups",
+      "Controls": "Master volume, tone 1, tone 2, 5-way blade switch",
+      "Bridge": "2-Point synchronized tremolo with bent-steel saddles",
+      "Tuners": "Standard die-cast with vintage Fender button",
+      "Nut Width": "42mm",
+      "Origin": "Made in Mexico (Ensenada, Baja California)"
+    }
+  },
+  {
+    "id": "focusrite-scarlett-2i2-4th-gen",
+    "name": "Focusrite Scarlett 2i2 4th Gen USB Audio Interface",
+    "category": "Music & Instruments",
+    "score": 9.3,
+    "tag": "Best 2-Input Audio Interface for Home Studios",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$229 CAD",
+    "page": "products/focusrite-scarlett-2i2-4th-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09QQ86D3Y/?tag=clearpick06-20",
+    "subscores": {
+      "Preamp Quality": 9.5,
+      "Gain Range": 9.5,
+      "Driver Stability": 9.5,
+      "Software Bundle": 9,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Inputs": "2 x Combo XLR/TRS inputs (mic/line/instrument)",
+      "Outputs": "2 x TRS line outputs + headphone output",
+      "Preamps": "2 x Scarlett 4th Gen preamps",
+      "Gain Range": "69 dB",
+      "Sample Rate": "Up to 192kHz / 24-bit",
+      "Latency": "Round-trip < 2.7ms at 96kHz (USB 2.0)",
+      "Air Mode": "Transformer-style high-frequency presence enhancement",
+      "Phantom Power": "48V phantom power for condenser mics",
+      "Bus Powered": "Yes — USB-C bus powered",
+      "Software": "Ableton Live Lite + Pro Tools Artist + more"
+    }
+  },
+  {
+    "id": "focusrite-scarlett-solo-4th-gen",
+    "name": "Focusrite Scarlett Solo 4th Gen USB Audio Interface",
+    "category": "Music & Instruments",
+    "score": 9.1,
+    "tag": "Best Single-Input Audio Interface for Vocalists and Guitarists",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$179 CAD",
+    "page": "products/focusrite-scarlett-solo-4th-gen.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09QDNKJ1N/?tag=clearpick06-20",
+    "subscores": {
+      "Preamp Quality": 9.5,
+      "Ease of Use": 9.5,
+      "Driver Stability": 9.5,
+      "Value for Money": 9.5,
+      "Software Bundle": 9
+    },
+    "specs": {
+      "Inputs": "1 x XLR (mic) + 1 x 1/4-inch instrument input (simultaneous)",
+      "Outputs": "2 x RCA line outputs + headphone output",
+      "Preamps": "1 x Scarlett 4th Gen preamp",
+      "Sample Rate": "Up to 192kHz / 24-bit",
+      "Air Mode": "High-frequency presence enhancement",
+      "Phantom Power": "48V phantom power for condenser mics",
+      "Direct Monitoring": "Blend knob for zero-latency monitoring",
+      "Bus Powered": "Yes — USB-C",
+      "Software": "Ableton Live Lite + Pro Tools Artist"
+    }
+  },
+  {
+    "id": "frigidaire-ffad5033w1-dehumidifier",
+    "name": "Frigidaire FFAD5033W1 50-Pint Dehumidifier",
+    "category": "Home Comfort",
+    "score": 8.5,
+    "tag": "Best Dehumidifier for Basements & Large Spaces",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$329 CAD",
+    "page": "products/frigidaire-ffad5033w1-dehumidifier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09G6DJW4T/?tag=clearpick06-20",
+    "subscores": {
+      "Moisture Removal": 9,
+      "Reliability": 9.5,
+      "Energy Efficiency": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Capacity": "50 pints per day (new DOE 2020 test standard)",
+      "Coverage": "Up to 4,500 sq ft",
+      "Drain": "Continuous drain via gravity (hose included)",
+      "Bucket": "2.3L bucket with full indicator",
+      "eFrost": "Automatic coil defrost prevents icing",
+      "Energy": "Energy Star certified",
+      "Speeds": "3 fan speeds",
+      "Auto Restart": "Resumes after power outage at previous settings",
+      "Humidity Range": "35–85% RH setable"
+    }
+  },
+  {
+    "id": "fujifilm-x-s20-camera",
+    "name": "Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens",
+    "category": "Cameras & Photography",
+    "score": 8.8,
+    "tag": "Best Mirrorless for Video Creators",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1399 CAD",
+    "page": "products/fujifilm-x-s20-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0C5VDDXWB/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9,
+      "Video Quality": 9.5,
+      "Autofocus": 8,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensor": "26.1MP X-Trans BSI CMOS 4",
+      "IBIS": "7-stop 5-axis in-body stabilization",
+      "Max Video": "6.2K/30fps (open gate 3:2), 4K/60fps",
+      "Log Profile": "F-Log2 10-bit internal",
+      "Film Simulations": "20 Fujifilm film simulations",
+      "Streaming": "USB-C live streaming (plug-and-play)",
+      "Autofocus": "Subject Tracking AF 3rd-gen (people, animals, vehicles)",
+      "Weight": "491g with battery and card",
+      "Mount": "Fujifilm X-mount",
+      "Screen": "Fully articulating 3-inch touchscreen"
+    }
+  },
+  {
+    "id": "fujifilm-x-t30-ii-camera",
+    "name": "Fujifilm X-T30 II Mirrorless Camera Body",
+    "category": "Cameras & Photography",
+    "score": 8.3,
+    "tag": "Best Compact Mirrorless for Enthusiast Photographers",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1249 CAD",
+    "page": "products/fujifilm-x-t30-ii-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09FKXTDPL/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9,
+      "Autofocus": 8,
+      "Video Quality": 7.5,
+      "Ease of Use": 8,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Sensor": "26.1MP X-Trans CMOS 4",
+      "4K Video": "4K/30fps oversampled",
+      "Autofocus": "Phase-detect AF, 18fps burst",
+      "IBIS": "None — lens IS only",
+      "Screen": "Tilt-only 3-inch touchscreen (not fully articulating)",
+      "Film Simulations": "19 film simulations",
+      "Viewfinder": "2.36M-dot OLED EVF",
+      "Weight": "383g body only",
+      "Mount": "Fujifilm X-mount",
+      "Build": "No weather sealing"
+    }
+  },
+  {
+    "id": "homelabs-4500-sqft-dehumidifier",
+    "name": "hOmeLabs 4,500 Sq Ft Energy Star Dehumidifier",
+    "category": "Home Comfort",
+    "score": 8.3,
+    "tag": "Best Value Large-Capacity Dehumidifier",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$329 CAD",
+    "page": "products/homelabs-4500-sqft-dehumidifier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07VVB7N8C/?tag=clearpick06-20",
+    "subscores": {
+      "Moisture Removal": 8.5,
+      "Reliability": 8,
+      "Energy Efficiency": 8.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Capacity": "50 pints per day (DOE 2020)",
+      "Coverage": "4,500 sq ft",
+      "Drain": "Continuous drain port (gravity feed)",
+      "Bucket": "1.8L with full-indicator auto-shutoff",
+      "Auto Restart": "Resumes at previous settings after power outage",
+      "Energy": "Energy Star certified",
+      "Turbo Mode": "High-speed dehumidification mode",
+      "Timer": "24-hour programmable timer",
+      "Filter": "Washable air filter"
+    }
+  },
+  {
+    "id": "honeywell-hcm-350-humidifier",
+    "name": "Honeywell HCM350W Germ Free Cool Mist Humidifier",
+    "category": "Home Comfort",
+    "score": 8.5,
+    "tag": "Best Evaporative Humidifier for Bedrooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$79 CAD",
+    "page": "products/honeywell-hcm-350-humidifier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01N4SPJMS/?tag=clearpick06-20",
+    "subscores": {
+      "Air Quality Impact": 9,
+      "Noise Level": 8.5,
+      "Coverage": 8,
+      "Maintenance": 7.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Technology": "Evaporative (not ultrasonic) — invisible moisture output",
+      "Tank": "1 US gallon (3.8L)",
+      "Runtime": "Up to 24 hours per fill",
+      "Speeds": "2 fan speeds",
+      "Filter": "Wicking filter (HW14 compatible)",
+      "Auto-Shutoff": "When tank is empty",
+      "Coverage": "500 sq ft",
+      "Self-Regulating": "Yes — adds less moisture as humidity rises"
+    }
+  },
+  {
+    "id": "honeywell-hyf290b-tower-fan",
+    "name": "Honeywell HYF290B QuietSet 40-inch Tower Fan",
+    "category": "Home Comfort",
+    "score": 8,
+    "tag": "Best Budget Tower Fan with Remote",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/honeywell-hyf290b-tower-fan.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B016H0N49G/?tag=clearpick06-20",
+    "subscores": {
+      "Noise Level": 9,
+      "Airflow": 7.5,
+      "Features": 8,
+      "Build Quality": 7.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Height": "40-inch tower",
+      "Speeds": "8 speeds (QuietSet 1-8)",
+      "Oscillation": "90° automatic",
+      "Timer": "1, 2, 4, 8 hour sleep timer",
+      "Remote": "Full-function remote included",
+      "Touch Controls": "Capacitive touch panel",
+      "Modes": "Normal / Sleep (gradually decreases speed)",
+      "Noise": "As low as ~35 dBA on speed 1"
+    }
+  },
+  {
+    "id": "insta360-x4-360-camera",
+    "name": "Insta360 X4 360° Action Camera",
+    "category": "Cameras & Photography",
+    "score": 9,
+    "tag": "Best 360 Camera for Content Creators",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$699 CAD",
+    "page": "products/insta360-x4-360-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CZL1HL9J/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 8.5,
+      "Battery Life": 9.5,
+      "Ease of Use": 9,
+      "Waterproofing": 9,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensors": "Two 1/2-inch CMOS (front + rear)",
+      "Max Video": "8K 360° at 30fps",
+      "Single Lens Mode": "4K at 60fps",
+      "Battery Life": "135 minutes",
+      "Waterproof": "IPX8 rated to 10m without housing",
+      "Stabilization": "FlowState — 360° horizon leveling",
+      "Subject Tracking": "ActiveTrack 5.0",
+      "Weight": "203g",
+      "Storage": "microSD up to 2TB"
+    }
+  },
+  {
+    "id": "joby-gorillpod-3k-pro-tripod",
+    "name": "JOBY GorillaPod 3K Pro Rig",
+    "category": "Cameras & Photography",
+    "score": 8.5,
+    "tag": "Best Flexible Tripod for Travel & Vlogging",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/joby-gorillpod-3k-pro-tripod.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07BT1KR97/?tag=clearpick06-20",
+    "subscores": {
+      "Flexibility": 9.5,
+      "Build Quality": 9,
+      "Portability": 9.5,
+      "Stability": 7.5,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Payload": "3kg maximum",
+      "Legs": "Flexible 10-segment ball-and-socket aluminum",
+      "Ball Head": "Pan-and-tilt locking ball head included",
+      "Magnetic Feet": "Yes — magnetic foot pads for metal surface attachment",
+      "Weight": "540g",
+      "Folded Length": "30.5cm",
+      "Mount": "Standard 1/4-20 screw",
+      "Compatibility": "Mirrorless, compact, and lightweight DSLR cameras"
+    }
+  },
+  {
+    "id": "kala-ka-c-concert-ukulele",
+    "name": "Kala KA-C Concert Ukulele",
+    "category": "Music & Instruments",
+    "score": 8.7,
+    "tag": "Best Concert Ukulele for Beginners",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/kala-ka-c-concert-ukulele.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B003BBSHNA/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 8.5,
+      "Playability": 9,
+      "Build Quality": 8.5,
+      "Brand Reputation": 9.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Size": "Concert (15 frets, 38cm scale)",
+      "Top": "Mahogany",
+      "Back & Sides": "Mahogany",
+      "Neck": "Mahogany",
+      "Fingerboard": "Walnut, 15 frets",
+      "Strings": "Aquila Nylgut (pre-installed)",
+      "Tuners": "Chrome die-cast",
+      "Binding": "Black body binding",
+      "Finish": "Gloss"
+    }
+  },
+  {
+    "id": "lasko-755320-ceramic-tower-heater",
+    "name": "Lasko 755320 Ceramic Tower Heater with Remote",
+    "category": "Home Comfort",
+    "score": 8.5,
+    "tag": "Best Ceramic Tower Heater for Living Rooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/lasko-755320-ceramic-tower-heater.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0009X2OGG/?tag=clearpick06-20",
+    "subscores": {
+      "Heat Output": 8.5,
+      "Safety": 9.5,
+      "Features": 8.5,
+      "Reliability": 9.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Power": "1500W ceramic (2 heat settings + fan-only)",
+      "Height": "42-inch tower",
+      "Oscillation": "Automatic oscillating tower",
+      "Exterior": "Cool-touch housing",
+      "Safety": "Overheat protection + tip-over auto-shutoff",
+      "Timer": "8-hour timer",
+      "Remote": "Full-function remote control",
+      "Modes": "High heat / Low heat / Fan-only"
+    }
+  },
+  {
+    "id": "levoit-core-300-air-purifier",
+    "name": "Levoit Core 300 True HEPA Air Purifier",
+    "category": "Home Comfort",
+    "score": 8.7,
+    "tag": "Best Compact Air Purifier for Bedrooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$119 CAD",
+    "page": "products/levoit-core-300-air-purifier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08ZDZ3KKN/?tag=clearpick06-20",
+    "subscores": {
+      "Noise Level": 9.5,
+      "Air Purification": 8.5,
+      "Coverage": 7.5,
+      "Filter Variety": 9,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Coverage": "219 sq ft at ACH 5 (219 sq ft recommended room size)",
+      "Filtration": "True HEPA H13 + Activated Carbon + pre-filter",
+      "Sleep Mode": "24 dBA (ultra-quiet)",
+      "Speeds": "3 fan speeds + sleep mode",
+      "Intake": "360° — draws air from all sides",
+      "Filter Options": "Original / Pet Allergy / Toxin Absorber / Smoke Stopper (interchangeable)",
+      "Design": "Compact cylinder, fits on nightstand",
+      "Display": "Touch LED display (dimmable)"
+    }
+  },
+  {
+    "id": "levoit-core-400s-air-purifier",
+    "name": "Levoit Core 400S Smart True HEPA Air Purifier",
+    "category": "Home Comfort",
+    "score": 8.8,
+    "tag": "Best Smart Air Purifier for Living Rooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$249 CAD",
+    "page": "products/levoit-core-400s-air-purifier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08JPBPC7P/?tag=clearpick06-20",
+    "subscores": {
+      "Air Purification": 9,
+      "Smart Features": 9,
+      "Coverage": 8.5,
+      "Auto Mode": 9,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Coverage": "403 sq ft at ACH 2 / 200 sq ft at ACH 5",
+      "Filtration": "True HEPA H13 + Activated Carbon + pre-filter",
+      "AQI Sensor": "Built-in laser PM2.5 sensor",
+      "Auto Mode": "AI auto mode — adjusts based on real-time AQI",
+      "Sleep Mode": "24 dBA ultra-quiet",
+      "Speeds": "6 fan speeds",
+      "App": "VeSync app — iOS and Android",
+      "Voice": "Alexa and Google Assistant",
+      "Schedule": "Programmable schedule in app"
+    }
+  },
+  {
+    "id": "levoit-lv600hh-humidifier",
+    "name": "Levoit LV600HH Hybrid Ultrasonic Humidifier",
+    "category": "Home Comfort",
+    "score": 8.4,
+    "tag": "Best Large-Capacity Humidifier for Bedrooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/levoit-lv600hh-humidifier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07VCKLL6M/?tag=clearpick06-20",
+    "subscores": {
+      "Moisture Output": 9,
+      "Coverage": 8.5,
+      "Features": 8.5,
+      "Maintenance": 7.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Tank": "6L (1.6 gallons)",
+      "Runtime": "Up to 36 hours (low cool mist setting)",
+      "Mist Modes": "Warm mist + Cool mist (switchable)",
+      "Hygrometer": "Built-in humidity sensor",
+      "Auto Mode": "Maintains target humidity automatically",
+      "Sleep Mode": "25 dBA ultra-quiet",
+      "Aromatherapy": "Essential oil tray",
+      "Coverage": "500 sq ft",
+      "Output": "360° dual nozzle mist output"
+    }
+  },
+  {
+    "id": "lowepro-protactic-bp-350-backpack",
+    "name": "Lowepro ProTactic BP 350 AW II Camera Backpack",
+    "category": "Cameras & Photography",
+    "score": 8.3,
+    "tag": "Best Camera Backpack for Mirrorless Systems",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$289 CAD",
+    "page": "products/lowepro-protactic-bp-350-backpack.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01DQPA5J6/?tag=clearpick06-20",
+    "subscores": {
+      "Camera Protection": 9.5,
+      "Comfort": 8,
+      "Accessibility": 9,
+      "Build Quality": 9,
+      "Value for Money": 8
+    },
+    "specs": {
+      "Capacity": "35L total",
+      "Camera Access": "Side-opening + back-panel access",
+      "Laptop": "Fits up to 15-inch laptop",
+      "Dividers": "CustomFit padded dividers (fully reconfigurable)",
+      "Weather Cover": "All-weather rain cover included",
+      "Attachment Points": "SlipLock accessory attachment points",
+      "Weight": "1.8kg empty",
+      "Drone Storage": "Optional Quadcopter insert available"
+    }
+  },
+  {
+    "id": "manfrotto-compact-action-tripod",
+    "name": "Manfrotto Compact Action Tripod with Ball Head",
+    "category": "Cameras & Photography",
+    "score": 8,
+    "tag": "Best Entry-Level Travel Tripod",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$89 CAD",
+    "page": "products/manfrotto-compact-action-tripod.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00MAULMN8/?tag=clearpick06-20",
+    "subscores": {
+      "Stability": 8.5,
+      "Value for Money": 9,
+      "Portability": 8,
+      "Build Quality": 8,
+      "Video Capability": 8.5
+    },
+    "specs": {
+      "Payload": "5kg maximum",
+      "Head": "Fluid pan-and-tilt head (included)",
+      "Max Height": "146cm",
+      "Folded Length": "38cm",
+      "Weight": "1.3kg",
+      "Legs": "Two-section with quick-lock flip levers",
+      "Material": "Aluminum",
+      "Mount": "1/4-20 standard screw"
+    }
+  },
+  {
+    "id": "nikon-z50-ii-camera",
+    "name": "Nikon Z50 II Mirrorless Camera with Z DX 16-50mm Lens",
+    "category": "Cameras & Photography",
+    "score": 8.5,
+    "tag": "Best APS-C Mirrorless for Photo-First Shooters",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1099 CAD",
+    "page": "products/nikon-z50-ii-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CZ6KM4GB/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9,
+      "Autofocus": 9,
+      "Video Quality": 7.5,
+      "Ease of Use": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensor": "20.9MP APS-C BSI CMOS",
+      "Processor": "EXPEED 7",
+      "Autofocus": "Subject Detection AF — people, animals, vehicles",
+      "4K Video": "4K/30fps no crop, 4K/60fps (1.5x crop)",
+      "Burst": "11fps continuous with subject tracking",
+      "IBIS": "None",
+      "Screen": "Tilting touchscreen with selfie position",
+      "Weight": "429g with battery and card",
+      "Mount": "Nikon Z DX",
+      "Battery Life": "~570 shots (CIPA)"
+    }
+  },
+  {
+    "id": "om-system-om-5-camera",
+    "name": "OM System OM-5 Mirrorless Camera Body",
+    "category": "Cameras & Photography",
+    "score": 8.6,
+    "tag": "Best Weather-Sealed Mirrorless for Adventure Photography",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1299 CAD",
+    "page": "products/om-system-om-5-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BFJ3CT36/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 8.5,
+      "IBIS Stabilization": 9.5,
+      "Weather Sealing": 9.5,
+      "Video Quality": 8,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensor": "20.4MP Live MOS Micro Four Thirds",
+      "IBIS": "7.5-stop 5-axis (class-leading)",
+      "Weather Sealing": "IP53 — dust and splashproof",
+      "Operating Temp": "-10°C to 40°C",
+      "4K Video": "4K/30fps and 4K/60fps",
+      "Computational Photo": "Live ND filter, Handheld Hi-Res Shot, Live Composite",
+      "Weight": "366g body only",
+      "Mount": "Micro Four Thirds (MFT)",
+      "Battery Life": "~520 shots (CIPA)"
+    }
+  },
+  {
+    "id": "peak-design-everyday-backpack-20l",
+    "name": "Peak Design Everyday Backpack 20L",
+    "category": "Cameras & Photography",
+    "score": 9,
+    "tag": "Best Camera Backpack for Everyday Carry",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$319 CAD",
+    "page": "products/peak-design-everyday-backpack-20l.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07DPLS5H7/?tag=clearpick06-20",
+    "subscores": {
+      "Design": 9.5,
+      "Camera Access": 9.5,
+      "Build Quality": 9.5,
+      "Versatility": 9,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Capacity": "20L",
+      "Closure": "MagLatch — one-handed magnetic open/close",
+      "Dividers": "FlexFold — fold flat or configure as padded camera dividers",
+      "Camera Access": "Side zip access while wearing",
+      "Laptop": "13-inch sleeve",
+      "Material": "Weather-resistant 400D nylon",
+      "Weight": "1.01kg",
+      "Attachment": "Tripod carry system (loop + strap)"
+    }
+  },
+  {
+    "id": "pelonis-40-inch-tower-fan",
+    "name": "Pelonis 40-Inch Tower Fan with Remote",
+    "category": "Home Comfort",
+    "score": 7.8,
+    "tag": "Best Budget Tower Fan for Bedrooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$69 CAD",
+    "page": "products/pelonis-40-inch-tower-fan.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07YD37P9R/?tag=clearpick06-20",
+    "subscores": {
+      "Noise Level": 8.5,
+      "Features": 7.5,
+      "Airflow": 7,
+      "Build Quality": 7,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Height": "40 inches",
+      "Speeds": "3 fan speeds",
+      "Modes": "Normal / Nature / Sleep",
+      "Oscillation": "70° automatic",
+      "Timer": "8-hour programmable timer",
+      "Remote": "Included",
+      "Touch Panel": "LED touch control",
+      "Noise": "Up to 39 dBA maximum"
+    }
+  },
+  {
+    "id": "rode-nt-usb-mini-microphone",
+    "name": "Rode NT-USB Mini USB Condenser Microphone",
+    "category": "Music & Instruments",
+    "score": 8.9,
+    "tag": "Best USB Microphone for Podcasters and Home Studios",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/rode-nt-usb-mini-microphone.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08G3NQBRR/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9,
+      "Ease of Use": 9.5,
+      "Build Quality": 9.5,
+      "Convenience": 9.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Connection": "USB-C (compatible with USB-A via included adapter)",
+      "Capsule": "Rode-made condenser capsule",
+      "Polar Pattern": "Cardioid",
+      "Frequency Response": "20Hz – 20kHz",
+      "Sample Rate": "48kHz / 24-bit",
+      "Headphone Output": "Zero-latency headphone monitoring (3.5mm)",
+      "Monitoring": "Mix control — blend direct input and computer playback",
+      "Mount": "Magnetic desk mount included",
+      "Compatibility": "Class-compliant — Mac, Windows, iPad, no drivers"
+    }
+  },
+  {
+    "id": "roland-fp-30x-digital-piano",
+    "name": "Roland FP-30X Digital Piano",
+    "category": "Music & Instruments",
+    "score": 9.4,
+    "tag": "Best 88-Key Digital Piano Under $1,200",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1099 CAD",
+    "page": "products/roland-fp-30x-digital-piano.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BTYP5T4/?tag=clearpick06-20",
+    "subscores": {
+      "Key Action": 9.5,
+      "Sound Quality": 9.5,
+      "Connectivity": 9,
+      "Portability": 8.5,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Keys": "88 weighted PHA-4 Standard Ivory Feel keys",
+      "Key Action": "PHA-4 Standard with Ivory and Ebony Feel surfaces",
+      "Escapement": "Key escapement mechanism (mimics grand piano action)",
+      "Sound Engine": "SuperNATURAL Piano Modelling",
+      "Polyphony": "256 notes",
+      "Tones": "56 built-in tones",
+      "Bluetooth": "Bluetooth MIDI and Audio",
+      "USB": "USB to Host (MIDI + class-compliant audio)",
+      "Speakers": "2 x 11W (4 speakers with side-firing tweeters)",
+      "Weight": "14.6kg"
+    }
+  },
+  {
+    "id": "sandisk-extreme-pro-128gb-sdxc",
+    "name": "SanDisk Extreme PRO 128GB SDXC Memory Card",
+    "category": "Cameras & Photography",
+    "score": 9,
+    "tag": "Best SD Card for 4K Video Shooting",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$35 CAD",
+    "page": "products/sandisk-extreme-pro-128gb-sdxc.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B08GY9NYRM/?tag=clearpick06-20",
+    "subscores": {
+      "Write Speed": 9,
+      "Read Speed": 9,
+      "Reliability": 9.5,
+      "Value for Money": 9,
+      "Compatibility": 9.5
+    },
+    "specs": {
+      "Capacity": "128GB",
+      "Speed Class": "V30 / U3 / Class 10",
+      "Read Speed": "200MB/s",
+      "Write Speed": "90MB/s",
+      "Interface": "UHS-I",
+      "Temperature": "-25°C to 85°C",
+      "Durability": "Shock, waterproof, X-ray, and magnet proof",
+      "Recovery Software": "RescuePRO Deluxe included (1-year subscription)"
+    }
+  },
+  {
+    "id": "seagull-s6-original-acoustic",
+    "name": "Seagull S6 Original Acoustic Guitar",
+    "category": "Music & Instruments",
+    "score": 9.2,
+    "tag": "Best Canadian-Made Acoustic Guitar Under $600",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$599 CAD",
+    "page": "products/seagull-s6-original-acoustic.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0002E2OMU/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9.5,
+      "Build Quality": 9.5,
+      "Playability": 9,
+      "Intonation": 9.5,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Top": "Solid Cedar",
+      "Back & Sides": "Wild Cherry (solid)",
+      "Neck": "Silver Leaf Maple",
+      "Fingerboard": "Rosewood, 21 frets",
+      "Scale Length": "647mm (shorter than Fender 648mm)",
+      "Nut Width": "44mm (wider than standard 43mm)",
+      "Nut": "Custom polished Tusq nut",
+      "Saddle": "Compensated bone saddle",
+      "Bridge": "Rosewood",
+      "Manufacturer": "Godin Guitars, Lasalle, Quebec"
+    }
+  },
+  {
+    "id": "shure-sm7db-dynamic-mic",
+    "name": "Shure SM7dB Active Dynamic Microphone",
+    "category": "Music & Instruments",
+    "score": 9.1,
+    "tag": "Best Dynamic Microphone for Broadcast and Podcasting",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$479 CAD",
+    "page": "products/shure-sm7db-dynamic-mic.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0BJHM1PC8/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9.5,
+      "Built-in Preamp": 9.5,
+      "Interface Compatibility": 9.5,
+      "Brand Credibility": 10,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Type": "Active dynamic (with built-in preamp)",
+      "Pattern": "Cardioid",
+      "Frequency Response": "50Hz – 20kHz",
+      "Built-in Preamp": "+18 or +28 dB switchable active preamp",
+      "Sensitivity (active)": "-47 dBV/Pa (-29 dBV/Pa at +18 dB, -19 dBV/Pa at +28 dB)",
+      "High-Pass Filter": "Switchable high-pass filter",
+      "Presence Boost": "Switchable high-frequency presence boost",
+      "Connection": "XLR (48V phantom power or internal battery)",
+      "Mounting": "Yoke mount included",
+      "Weight": "950g"
+    }
+  },
+  {
+    "id": "sony-a6700-mirrorless-camera",
+    "name": "Sony Alpha a6700 Mirrorless Camera with 18-135mm Lens",
+    "category": "Cameras & Photography",
+    "score": 9.2,
+    "tag": "Best APS-C Mirrorless Camera Overall",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1699 CAD",
+    "page": "products/sony-a6700-mirrorless-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CCZP65GS/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9.5,
+      "Autofocus": 9.5,
+      "Video Quality": 9.5,
+      "Stabilization": 9,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Sensor": "26MP APS-C Exmor R BSI CMOS",
+      "AI Autofocus": "Subject recognition — people, animals, insects, vehicles, trains, planes",
+      "Max Video": "4K/120fps 10-bit, 4K/60fps full-width",
+      "Log Profile": "S-Log3 / HLG",
+      "IBIS": "5-stop 5-axis in-body stabilization",
+      "ISO Range": "ISO 100–51200 (expandable)",
+      "Burst": "100fps electronic with pre-burst buffer",
+      "Screen": "Fully articulating 3-inch touchscreen",
+      "Weight": "493g with battery and card",
+      "Mount": "Sony E-mount"
+    }
+  },
+  {
+    "id": "sony-e-55-210mm-lens",
+    "name": "Sony E 55-210mm F4.5-6.3 OSS Telephoto Zoom Lens",
+    "category": "Cameras & Photography",
+    "score": 8.2,
+    "tag": "Best Budget Telephoto for Sony APS-C",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$499 CAD",
+    "page": "products/sony-e-55-210mm-lens.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00I8BIBSQ/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 8,
+      "Reach": 8.5,
+      "Stabilization": 8.5,
+      "Autofocus": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Focal Length": "55-210mm (82-315mm full-frame equivalent on APS-C)",
+      "Aperture": "f/4.5-6.3",
+      "Stabilization": "OSS (Optical SteadyShot)",
+      "Aperture Blades": "7",
+      "Filter Thread": "49mm",
+      "Autofocus": "Linear AF motor",
+      "Weight": "345g",
+      "Mount": "Sony E-mount (APS-C only)"
+    }
+  },
+  {
+    "id": "sony-rx100-vii-point-shoot",
+    "name": "Sony RX100 VII Premium Compact Camera",
+    "category": "Cameras & Photography",
+    "score": 8.9,
+    "tag": "Best Premium Compact Camera for Travel",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1799 CAD",
+    "page": "products/sony-rx100-vii-point-shoot.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B07WX4SN6Q/?tag=clearpick06-20",
+    "subscores": {
+      "Image Quality": 9,
+      "Zoom Range": 9.5,
+      "Autofocus": 9,
+      "Portability": 9,
+      "Value for Money": 7.5
+    },
+    "specs": {
+      "Sensor": "20.1MP 1-inch Exmor RS BSI CMOS",
+      "Lens": "ZEISS Vario-Sonnar 24-200mm f/2.8-4.5",
+      "Autofocus": "Real-time Eye AF, Real-time Tracking",
+      "Video": "4K HDR, 960fps HFR slow motion",
+      "Viewfinder": "Pop-up OLED EVF",
+      "Screen": "Tilting touchscreen",
+      "Weight": "302g with battery and card",
+      "Battery Life": "~260 shots per charge"
+    }
+  },
+  {
+    "id": "sony-zv-e10-ii-vlog-camera",
+    "name": "Sony ZV-E10 II Vlog Camera with 16-50mm Lens",
+    "category": "Cameras & Photography",
+    "score": 8.9,
+    "tag": "Best Mirrorless Vlog Camera Under $1,000",
+    "icon": "📸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$999 CAD",
+    "page": "products/sony-zv-e10-ii-vlog-camera.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0CW3BXBZB/?tag=clearpick06-20",
+    "subscores": {
+      "Video Quality": 9.5,
+      "Autofocus": 9,
+      "Stabilization": 9,
+      "Ease of Use": 9,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Sensor": "26MP APS-C Exmor R BSI CMOS",
+      "Autofocus": "AI subject recognition — face, eye, body, animal",
+      "Max Video": "4K/60fps 10-bit",
+      "Log Profile": "S-Log3 / HLG",
+      "IBIS": "5-stop 5-axis",
+      "Microphone": "Directional 3-capsule mic with wind noise reduction",
+      "Product Showcase": "Auto-shifts focus to objects held up to camera",
+      "Streaming": "USB-C live streaming (plug-and-play)",
+      "Screen": "Fully articulating 3-inch touchscreen",
+      "Weight": "377g body only",
+      "Mount": "Sony E-mount"
+    }
+  },
+  {
+    "id": "squier-classic-vibe-50s-strat",
+    "name": "Squier Classic Vibe '50s Stratocaster Electric Guitar",
+    "category": "Music & Instruments",
+    "score": 9,
+    "tag": "Best Value Stratocaster for Beginners and Intermediate Players",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$649 CAD",
+    "page": "products/squier-classic-vibe-50s-strat.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B081RP7L7F/?tag=clearpick06-20",
+    "subscores": {
+      "Tone Quality": 8.5,
+      "Build Quality": 9,
+      "Playability": 9,
+      "Value for Money": 9.5,
+      "Hardware": 8.5
+    },
+    "specs": {
+      "Body": "Poplar",
+      "Neck": "Maple, Soft V profile",
+      "Fingerboard": "Maple, 21 frets, 9.5-inch radius",
+      "Nut Width": "42mm",
+      "Pickups": "3 x Alnico single-coil pickups (vintage-voiced)",
+      "Controls": "Master volume, 2 tone, 5-way blade switch",
+      "Bridge": "Vintage-style 6-saddle synchronized tremolo",
+      "Tuners": "Vintage-style covered tuners",
+      "Finish": "Gloss polyurethane"
+    }
+  },
+  {
+    "id": "taylor-114ce-acoustic-electric",
+    "name": "Taylor 114ce Acoustic-Electric Guitar",
+    "category": "Music & Instruments",
+    "score": 9.3,
+    "tag": "Best Acoustic-Electric Guitar for Performing Musicians",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$1099 CAD",
+    "page": "products/taylor-114ce-acoustic-electric.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B002X1SXGE/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9.5,
+      "Playability": 9.5,
+      "Electronics": 9,
+      "Build Quality": 9,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Top": "Solid Sitka Spruce",
+      "Back & Sides": "Layered Walnut",
+      "Neck": "Tropical Mahogany",
+      "Fingerboard": "West African Ebony, 20 frets",
+      "Scale Length": "650mm",
+      "Nut Width": "44mm",
+      "Body Style": "Grand Auditorium (GA)",
+      "Electronics": "Taylor ES2 (Expression System 2)",
+      "Cutaway": "Yes (single cutaway for upper fret access)",
+      "Case": "Taylor Deluxe Hardshell Case included"
+    }
+  },
+  {
+    "id": "universal-audio-volt-276",
+    "name": "Universal Audio Volt 276 USB Audio Interface",
+    "category": "Music & Instruments",
+    "score": 9,
+    "tag": "Best Audio Interface with Vintage Compressor Emulation",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$299 CAD",
+    "page": "products/universal-audio-volt-276.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B09BRLXL1G/?tag=clearpick06-20",
+    "subscores": {
+      "Preamp Quality": 9,
+      "Vintage Mode": 9.5,
+      "Driver Stability": 8.5,
+      "Sound Quality": 9.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Inputs": "2 x Combo XLR/TRS inputs (mic/line/instrument)",
+      "Outputs": "2 x TRS line outputs + headphone output",
+      "Preamps": "2 x Volt 76 preamps",
+      "76 Compressor": "Analogue 76-style compressor (hardware, not plugin)",
+      "Sample Rate": "Up to 192kHz / 24-bit",
+      "Vintage Mode": "Transformer-voiced preamp coloration",
+      "Bus Powered": "USB-C bus powered",
+      "Software": "Ableton Live Lite + Melodyne + UA plugins",
+      "LUNA Integration": "Deep integration with Universal Audio LUNA recording software"
+    }
+  },
+  {
+    "id": "vornado-630-air-circulator",
+    "name": "Vornado 630 Mid-Size Whole Room Air Circulator",
+    "category": "Home Comfort",
+    "score": 9,
+    "tag": "Best Air Circulator for Whole-Room Cooling",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$149 CAD",
+    "page": "products/vornado-630-air-circulator.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B00FXNF5HC/?tag=clearpick06-20",
+    "subscores": {
+      "Whole-Room Airflow": 9.5,
+      "Noise Level": 8.5,
+      "Reliability": 9.5,
+      "Value for Money": 8.5,
+      "Design": 8
+    },
+    "specs": {
+      "Airflow Technology": "Vortex circulation — whole-room air movement",
+      "Speeds": "3 fan speeds",
+      "Blade": "7-inch deep-pitch blade",
+      "Design": "Deep-dish bowl design directs airflow upward and outward",
+      "Oscillation": "None — vortex circulation covers whole room without oscillating",
+      "Airflow": "70 CFM",
+      "Guarantee": "5-year satisfaction guarantee",
+      "Weight": "2.7kg",
+      "Tilt": "Adjustable tilt head"
+    }
+  },
+  {
+    "id": "vornado-mvh-space-heater",
+    "name": "Vornado MVH Whole Room Vortex Heater",
+    "category": "Home Comfort",
+    "score": 8.8,
+    "tag": "Best Compact Space Heater for Any Room",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$99 CAD",
+    "page": "products/vornado-mvh-space-heater.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B017HCZF9E/?tag=clearpick06-20",
+    "subscores": {
+      "Heat Distribution": 9.5,
+      "Safety": 9.5,
+      "Reliability": 9.5,
+      "Noise Level": 8.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Power": "1500W (2 heat settings: 750W + 1500W + fan-only)",
+      "Circulation": "Vortex whole-room heat distribution",
+      "Safety": "Auto tip-over shutoff + auto overheat shutoff",
+      "Exterior": "Cool-touch",
+      "Warranty": "5-year Vornado warranty",
+      "Guarantee": "5-year satisfaction guarantee",
+      "Footprint": "21cm x 18cm",
+      "Cord": "1.8m power cord"
+    }
+  },
+  {
+    "id": "winix-5500-2-air-purifier",
+    "name": "Winix 5500-2 True HEPA Air Purifier with PlasmaWave",
+    "category": "Home Comfort",
+    "score": 9,
+    "tag": "Best Air Purifier for Large Living Rooms",
+    "icon": "🌡️",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$269 CAD",
+    "page": "products/winix-5500-2-air-purifier.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01ES9FKWK/?tag=clearpick06-20",
+    "subscores": {
+      "Air Purification": 9.5,
+      "Coverage": 9,
+      "Auto Mode": 9.5,
+      "Filter Cost": 8.5,
+      "Value for Money": 8.5
+    },
+    "specs": {
+      "Coverage": "360 sq ft at ACH 4 / 2140 sq ft at ACH 0.5",
+      "Filtration": "True HEPA 99.97% + Activated Carbon + Washable AOC Carbon pre-filter",
+      "CADR": "243 CFM dust / 246 CFM smoke / 232 CFM pollen",
+      "PlasmaWave": "Ionization technology (can be disabled)",
+      "Auto Mode": "AQI sensor — automatically adjusts fan speed",
+      "Sleep Mode": "27.8 dBA (near-silent)",
+      "Speeds": "4 fan speeds",
+      "Filter Life": "12 months for HEPA/Carbon filters",
+      "Washable Pre-filter": "Yes — reduces filter replacement cost"
+    }
+  },
+  {
+    "id": "yamaha-fg800-acoustic-guitar",
+    "name": "Yamaha FG800 Solid Top Acoustic Guitar",
+    "category": "Music & Instruments",
+    "score": 8.9,
+    "tag": "Best Entry Acoustic Guitar with Proven Track Record",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$349 CAD",
+    "page": "products/yamaha-fg800-acoustic-guitar.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B01MQYYF7B/?tag=clearpick06-20",
+    "subscores": {
+      "Sound Quality": 9,
+      "Reliability": 9.5,
+      "Brand Support": 9.5,
+      "Build Quality": 9,
+      "Value for Money": 9.5
+    },
+    "specs": {
+      "Top": "Solid Sitka Spruce",
+      "Back & Sides": "Nato (Eastern Mahogany laminate)",
+      "Neck": "Nato",
+      "Fingerboard": "Rosewood, 20 frets",
+      "Scale Length": "648mm",
+      "Nut Width": "43mm",
+      "Body Style": "Dreadnought",
+      "Bracing": "Scalloped X-bracing (allows top to vibrate freely)",
+      "Bridge": "Rosewood"
+    }
+  },
+  {
+    "id": "yamaha-p125a-digital-piano",
+    "name": "Yamaha P-125a Digital Piano",
+    "category": "Music & Instruments",
+    "score": 9,
+    "tag": "Best Slim Digital Piano for Beginners and Students",
+    "icon": "🎸",
+    "image": "VERIFY_IMAGE_ID",
+    "price": "~$899 CAD",
+    "page": "products/yamaha-p125a-digital-piano.html",
+    "amazonUrl": "https://www.amazon.ca/dp/B0B3BP87DC/?tag=clearpick06-20",
+    "subscores": {
+      "Key Action": 9,
+      "Sound Quality": 9.5,
+      "Portability": 8.5,
+      "Features": 8.5,
+      "Value for Money": 9
+    },
+    "specs": {
+      "Keys": "88 Graded Hammer Standard (GHS) weighted keys",
+      "Key Surface": "Matte (simulates black key texture)",
+      "Sound Engine": "CFX Sampling (Yamaha's flagship concert grand) + Bösendorfer Imperial",
+      "Polyphony": "192 notes",
+      "Tones": "24 voices",
+      "Bluetooth": "Bluetooth MIDI (iOS/Android)",
+      "USB": "USB to host (MIDI)",
+      "Speakers": "2 x 7W",
+      "Weight": "11.5kg",
+      "Included": "Sustain pedal"
+    }
   }
 ]

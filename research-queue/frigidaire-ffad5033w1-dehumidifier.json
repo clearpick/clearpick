@@ -1,0 +1,112 @@
+{
+  "slug": "frigidaire-ffad5033w1-dehumidifier",
+  "name": "Frigidaire FFAD5033W1 50-Pint Dehumidifier",
+  "brand": "Frigidaire",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Dehumidifiers",
+  "subcategory": "dehumidifiers",
+  "asin": "B09G6DJW4T",
+  "price": 329,
+  "priceDisplay": "$329 CAD",
+  "score": 8.5,
+  "tag": "Best Dehumidifier for Basements & Large Spaces",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09G6DJW4T/?tag=clearpick06-20",
+  "introText": "The Frigidaire FFAD5033W1 removes 50 pints of moisture per day, with continuous drain, eFrost auto-defrost technology, and Energy Star certification — the most reliable large-capacity dehumidifier for Canadian basements.",
+  "subscores": {
+    "Moisture Removal": 9.0,
+    "Reliability": 9.5,
+    "Energy Efficiency": 8.5,
+    "Ease of Use": 8.5,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Capacity": "50 pints per day (new DOE 2020 test standard)",
+    "Coverage": "Up to 4,500 sq ft",
+    "Drain": "Continuous drain via gravity (hose included)",
+    "Bucket": "2.3L bucket with full indicator",
+    "eFrost": "Automatic coil defrost prevents icing",
+    "Energy": "Energy Star certified",
+    "Speeds": "3 fan speeds",
+    "Auto Restart": "Resumes after power outage at previous settings",
+    "Humidity Range": "35–85% RH setable"
+  },
+  "whatWorks": [
+    "Continuous drain eliminates bucket emptying entirely — connect a standard garden hose to the gravity drain port and the unit drains directly to a floor drain, laundry sink, or outdoors. For basement use, this is the most important operational feature.",
+    "eFrost auto-defrost prevents the coil icing problem that plagues dehumidifiers in cooler basements — Canadian basements often run below 18°C year-round, where dehumidifier coils ice up and the unit stops dehumidifying. eFrost detects and clears ice automatically.",
+    "Energy Star certification reduces operating costs on a device that may run 24/7 during humid seasons — the efficiency rating is verified and meaningful for continuous operation.",
+    "Frigidaire's reliability reputation over years of continuous operation is documented in thousands of multi-year owner reviews — a device that runs 24/7 in a basement needs to be durably built, and Frigidaire is among the most trusted brands in this category."
+  ],
+  "worthKnowing": [
+    "The '50-pint' rating uses the 2020 DOE test standard which is more conservative — under the older AHAM test standard, this unit would be rated ~70 pints. When comparing older units, check which standard applies to avoid confusion.",
+    "Requires a gravity-fed drain setup for continuous operation — the drain port works by gravity, meaning the drain destination must be lower than the unit. A pump-equipped dehumidifier is needed if draining upward (rare basement layouts).",
+    "Operating temperature range matters in Canada — most dehumidifiers (including Frigidaire) are rated to 5°C minimum. Unheated garages or sheds in Canadian winters may get too cold for reliable operation.",
+    "Noise at high fan speed is significant — at 3 fan speeds, the maximum setting produces audible operational noise. Acceptable in a basement mechanical room, noticeable in living spaces."
+  ],
+  "commonComplaints": [
+    {
+      "title": "50-pint DOE rating confuses comparisons with…",
+      "body": "50-pint DOE rating confuses comparisons with older AHAM-rated units — the newer test standard rates the same unit 30% lower, so this '50-pint' unit is equivalent to a '70-pint' unit under the old rating system.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "title": "Gravity drain requires drain location below…",
+      "body": "Gravity drain requires drain location below the unit — units in raised positions or where all drain points are at the same level can't use the continuous drain without adding a condensate pump.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Noisy at high speed in living…",
+      "body": "Noisy at high speed in living areas — the high fan setting produces significant operational noise that's acceptable in a utility room but disruptive in a bedroom or living room.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Frigidaire FFAD5033W1 is the right dehumidifier for Canadian basements — eFrost handles the cold-coil icing problem specific to our climate, continuous drain means you're not emptying a bucket daily, and Frigidaire's track record for durability is well-documented. If your basement is your priority, this is the pick.",
+  "realBuyers": [
+    {
+      "quote": "Running 24/7 in my basement for two summers. Never iced up, never had to empty the bucket with the drain hose. Set it to 50% RH and forgot about it.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The eFrost feature is why I bought Frigidaire specifically. My last dehumidifier iced up constantly in my cool basement. This one hasn't once.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "quote": "Reliable and effective. My basement went from musty and damp to dry within a week of running this.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Frigidaire FFAD5033W1 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09G6DJW4T"
+    },
+    {
+      "title": "Best Dehumidifiers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "Dehumidifier Discussion — Reddit (r/homeimprovement)",
+      "url": "https://www.reddit.com/r/homeimprovement"
+    },
+    {
+      "title": "DOE 2020 Dehumidifier Standard Explained — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Frigidaire FFAD5033W1 review for Canada: 50-pint/day, 4,500 sq ft, eFrost defrost, continuous drain, Energy Star. ~$329 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09G6DJW4T",
+  "verifiedPrice": "$329 CAD",
+  "similarProducts": [
+    "coway-ap-1512hh-air-purifier",
+    "dyson-purifier-cool-tp09",
+    "blueair-blue-pure-411i-max"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

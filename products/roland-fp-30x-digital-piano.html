@@ -1,177 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Cameras & Photography':         '📸',
-  'Home Comfort':                  '🌡️',
-  'Music & Instruments':           '🎸',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Roland FP-30X Digital Piano Review 2026 | ClearPick</title>
+<meta name="description" content="Roland FP-30X review for Canada: PHA-4 Standard escapement action, 256-note polyphony, Bluetooth MIDI, SuperNATURAL sound. ~$1,099 CAD on Amazon.ca." />
+<meta property="og:title" content="Roland FP-30X Digital Piano Review 2026 | ClearPick" />
+<meta property="og:description" content="Roland FP-30X review for Canada: PHA-4 Standard escapement action, 256-note polyphony, Bluetooth MIDI, SuperNATURAL sound. ~$1,099 CAD on Amazon.ca." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/roland-fp-30x-digital-piano.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/roland-fp-30x-digital-piano.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Roland FP-30X Digital Piano",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "9.4", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The Roland FP-30X is the best digital piano under $1,200 for serious piano students and adult pianists. The PHA-4 Standard action with escapement is the most realistic key feel available at this price, and the SuperNATURAL sound engine's dynamic behavior makes practice musical rather than mechanical. The total cost of ownership (piano + stand + pedal unit) is closer to $1,350-1,400, but the result is a home practice piano that doesn't make you wish for an acoustic."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "9.4",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -271,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../music-instruments.html">Music &amp; Instruments</a> <span>›</span>
+<span>Roland FP-30X Digital Piano</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Music &amp; Instruments</div>
+<h1 class="product-hero__title">Roland FP-30X Digital Piano</h1>
+<div class="product-hero__tag">Best 88-Key Digital Piano Under $1,200</div>
+<p class="product-hero__desc">The Roland FP-30X is the most recommended portable digital piano in the $1,000-1,200 CAD range — PHA-4 Standard weighted action that mirrors acoustic piano feel, Bluetooth MIDI for wireless app connectivity, and Roland's premium piano sound engine.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -290,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">9.4 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Excellent</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Key Action</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Sound Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Connectivity</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Portability</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Keys</td><td class="spec-table__value">88 weighted PHA-4 Standard Ivory Feel keys</td></tr><tr><td class="spec-table__label">Key Action</td><td class="spec-table__value">PHA-4 Standard with Ivory and Ebony Feel surfaces</td></tr><tr><td class="spec-table__label">Escapement</td><td class="spec-table__value">Key escapement mechanism (mimics grand piano action)</td></tr><tr><td class="spec-table__label">Sound Engine</td><td class="spec-table__value">SuperNATURAL Piano Modelling</td></tr><tr><td class="spec-table__label">Polyphony</td><td class="spec-table__value">256 notes</td></tr><tr><td class="spec-table__label">Tones</td><td class="spec-table__value">56 built-in tones</td></tr><tr><td class="spec-table__label">Bluetooth</td><td class="spec-table__value">Bluetooth MIDI and Audio</td></tr><tr><td class="spec-table__label">USB</td><td class="spec-table__value">USB to Host (MIDI + class-compliant audio)</td></tr><tr><td class="spec-table__label">Speakers</td><td class="spec-table__value">2 x 11W (4 speakers with side-firing tweeters)</td></tr><tr><td class="spec-table__label">Weight</td><td class="spec-table__value">14.6kg</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -309,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Roland FP-30X Digital Piano product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best 88-Key Digital Piano Under $1,200</div>
+<div class="product-cta-box__name">Roland FP-30X Digital Piano</div>
+<div class="product-cta-box__price">~$1,099 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B09BTYP5T4/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -333,39 +223,109 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>PHA-4 Standard action with key escapement simulates acoustic grand piano feel — the escapement mechanism is a mechanical simulation of the grand piano escapement that lets a pianist &quot;feel&quot; the repetition threshold of the key. No other portable digital piano at this price includes escapement, which matters for developing proper classical piano technique.</li>
+<li>Ivory Feel and Ebony Feel key surfaces absorb moisture and improve grip — the texture of the PHA-4 Standard keys matches the feel of real ivory and ebony key surfaces, reducing the slipperiness that plastic keys exhibit during warm or prolonged playing sessions.</li>
+<li>SuperNATURAL Piano Modelling produces dynamic tonal behavior — the Roland sound engine models the physical behavior of piano strings (sympathetic resonance, damper resonance, string resonance) rather than just playing back static samples. The result is more natural and musical.</li>
+<li>256-note polyphony handles the most complex orchestral piano passages — maximum polyphony matters when sustain pedal is depressed and notes accumulate. 256 notes eliminates note dropouts in demanding classical repertoire.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>14.6kg is heavy for a portable piano — the FP-30X is marketed as portable but requires a keyboard stand and weighs enough that moving it regularly is inconvenient. It's best thought of as a home piano with the option to transport for performances.</li>
+<li>56 tones is conservative compared to Casio's 700 — Roland focused on quality over quantity. The 56 tones include high-quality piano, electric piano, organ, strings, and choir patches. Players who need hundreds of synth and GM sounds should consider Casio's offerings.</li>
+<li>Bluetooth audio streaming works but with latency — streaming audio wirelessly to Bluetooth headphones introduces 50-200ms delay. For active playing, wired headphones are recommended; Bluetooth audio is only appropriate for playback.</li>
+<li>Stand and pedal unit sold separately — the FP-30X is typically purchased with the KPD-90 triple pedal unit and KSC-90 stand for a complete setup. Budget $200-300 additional for these accessories.</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Former acoustic piano owner who couldn't bring it to a condo. The FP-30X is the first digital piano I've played where I didn't feel like I was practicing on a toy. The escapement action is real."</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/piano)</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"My piano teacher approved this specific model. She said the key action was good enough to not develop bad habits. Coming from her, that's the highest praise."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"256-note polyphony means no note cutoffs during complex passages with sustain pedal. Playing Chopin with a 64-note piano sounds broken. This doesn't."</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/piano)</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Stand and pedal unit not included…</p>
+<p class="real-buyers-say__text">Stand and pedal unit not included in base price — a complete home piano setup requires the KPD-90 pedal unit and KSC-90 stand, adding $200-300 to the purchase. Should be included at $1,099.</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/piano)</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Bluetooth audio latency too high for…</p>
+<p class="real-buyers-say__text">Bluetooth audio latency too high for active playing use — wireless headphone latency makes real-time playing uncomfortable. Wired headphones are required for practice; Bluetooth audio is only useful for passive playback.</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/piano)</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">14.6kg difficult to move without help…</p>
+<p class="real-buyers-say__text">14.6kg difficult to move without help — despite the &quot;portable&quot; designation, moving the FP-30X for performances or between rooms is a two-person job at this weight.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The Roland FP-30X is the best digital piano under $1,200 for serious piano students and adult pianists. The PHA-4 Standard action with escapement is the most realistic key feel available at this price, and the SuperNATURAL sound engine's dynamic behavior makes practice musical rather than mechanical. The total cost of ownership (piano + stand + pedal unit) is closer to $1,350-1,400, but the result is a home practice piano that doesn't make you wish for an acoustic.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="casio-px-s3100-digital-piano.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Casio PX-S3100 Privia Digital Piano" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Slim Digital Piano for Home Practice</span>
+<h3 class="product-card__name">Casio PX-S3100 Privia Digital Piano</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="arturia-minilab-3-midi-controller.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Arturia MiniLab 3 USB MIDI Controller" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Compact MIDI Controller for Home Studios</span>
+<h3 class="product-card__name">Arturia MiniLab 3 USB MIDI Controller</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="focusrite-scarlett-solo-4th-gen.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Focusrite Scarlett Solo 4th Gen USB Audio Interface" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Single-Input Audio Interface for Vocalists and Guitarists</span>
+<h3 class="product-card__name">Focusrite Scarlett Solo 4th Gen USB Audio Interface</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -384,7 +344,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

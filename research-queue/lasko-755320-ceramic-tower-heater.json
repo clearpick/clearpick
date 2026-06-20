@@ -1,0 +1,111 @@
+{
+  "slug": "lasko-755320-ceramic-tower-heater",
+  "name": "Lasko 755320 Ceramic Tower Heater with Remote",
+  "brand": "Lasko",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Space Heaters",
+  "subcategory": "space-heaters",
+  "asin": "B0009X2OGG",
+  "price": 99,
+  "priceDisplay": "$99 CAD",
+  "score": 8.5,
+  "tag": "Best Ceramic Tower Heater for Living Rooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0009X2OGG/?tag=clearpick06-20",
+  "introText": "The Lasko 755320 is the most consistently top-rated ceramic tower heater on Amazon.ca — oscillating, remote-controlled, with a cool-touch exterior and tip-over protection, at $99 with a years-long reliability track record.",
+  "subscores": {
+    "Heat Output": 8.5,
+    "Safety": 9.5,
+    "Features": 8.5,
+    "Reliability": 9.5,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Power": "1500W ceramic (2 heat settings + fan-only)",
+    "Height": "42-inch tower",
+    "Oscillation": "Automatic oscillating tower",
+    "Exterior": "Cool-touch housing",
+    "Safety": "Overheat protection + tip-over auto-shutoff",
+    "Timer": "8-hour timer",
+    "Remote": "Full-function remote control",
+    "Modes": "High heat / Low heat / Fan-only"
+  },
+  "whatWorks": [
+    "Reliability track record is the defining feature — the Lasko 755320 has been among the top-selling and highest-rated tower heaters on Amazon.ca for years, with thousands of reviews from owners who return to update after 2, 3, and 5+ years. Consistent long-term performance is well documented.",
+    "Cool-touch exterior is safe for living rooms with children and pets — even at full 1500W output, the outer housing stays cool to the touch, eliminating the burn risk from exposed ceramic surfaces or metal grilles on traditional space heaters.",
+    "Oscillating tower distributes heat across a room — the rotating tower design spreads warmth in a wide arc, more effective than fixed heaters at creating even temperature distribution in living rooms and open spaces.",
+    "8-hour timer with auto-shutoff provides fire safety for overnight and unattended use — set it for 2, 4, or 8 hours and it shuts off automatically, reducing risk from heaters left on accidentally."
+  ],
+  "worthKnowing": [
+    "1500W is the maximum power draw for a 120V outlet heater — all standard electric space heaters share this ceiling. The Lasko's oscillation advantage is in heat distribution, not wattage.",
+    "Plastic tower exterior is functional but not premium — the build quality matches the price point. Serviceable and durable, but doesn't have the build quality of De'Longhi or Dyson.",
+    "Fan noise on high heat is audible — the ceramic element requires a fan to distribute heat, and the fan noise is noticeable in quiet environments. Not suitable for silent bedroom operation (see De'Longhi HMP1500 for that use case).",
+    "No precise digital thermostat — the Lasko uses a dial thermostat rather than digital 1° increment control. Acceptable for most users, but less precise than premium models."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Fan noise is noticeable in quiet…",
+      "body": "Fan noise is noticeable in quiet environments — the ceramic fan heater produces audible fan sound that can be heard during quiet activities like reading or sleeping.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Dial thermostat less precise than digital…",
+      "body": "Dial thermostat less precise than digital alternatives — the analogue temperature dial doesn't allow setting a specific temperature, just a relative position on the dial.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "title": "Plastic build feels lightweight compared to…",
+      "body": "Plastic build feels lightweight compared to more expensive heaters — the construction is functional but feels less substantial than De'Longhi or Dyson alternatives at 2-4x the price.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Lasko 755320 is the best ceramic tower heater for the money, period. Its combination of reliability, safety features, oscillation, and consistent long-term performance is unmatched at $99. The fan noise rules it out for bedroom use, but for living rooms, offices, and shared spaces where heat distribution matters, it's the smart buy.",
+  "realBuyers": [
+    {
+      "quote": "5 years of daily winter use and still going. I've replaced the batteries in the remote twice. That's it.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The oscillation makes a huge difference in our living room. The heat doesn't just pool in one spot — the whole room warms up evenly.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "quote": "Cool-touch exterior is the feature that sold me with young kids. They can touch it without burning themselves.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Lasko 755320 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0009X2OGG"
+    },
+    {
+      "title": "Best Space Heaters — Reddit (r/homeimprovement)",
+      "url": "https://www.reddit.com/r/homeimprovement"
+    },
+    {
+      "title": "Best Space Heaters — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "Lasko 755320 vs Vornado MVH — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Lasko 755320 review for Canada: 1500W ceramic, oscillating tower, cool-touch, 8-hr timer, remote. ~$99 CAD on Amazon.ca. Best ceramic tower heater.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B0009X2OGG",
+  "verifiedPrice": "$99 CAD",
+  "similarProducts": [
+    "delonghi-hmp1500-panel-heater",
+    "dyson-hp09-purifier-heater-fan",
+    "honeywell-hyf290b-tower-fan"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

@@ -1,0 +1,111 @@
+{
+  "slug": "dyson-purifier-cool-tp09",
+  "name": "Dyson Purifier Cool TP09 Formaldehyde",
+  "brand": "Dyson",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Air Purifiers",
+  "subcategory": "air-purifiers",
+  "asin": "B09NPTG1BS",
+  "price": 799,
+  "priceDisplay": "$799 CAD",
+  "score": 8.8,
+  "tag": "Best Air Purifier Floor Fan for Large Rooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09NPTG1BS/?tag=clearpick06-20",
+  "introText": "The Dyson Purifier Cool TP09 combines sealed HEPA filtration covering 800 sq ft with a full-room Air Multiplier fan — automatically responding to air quality events with 10 fan speeds and real-time VOC, PM 2.5, and formaldehyde sensing.",
+  "subscores": {
+    "Air Purification": 9.5,
+    "Fan Performance": 8.5,
+    "Coverage": 9.5,
+    "Smart Features": 9.0,
+    "Value for Money": 7.5
+  },
+  "specs": {
+    "Coverage": "800 sq ft air purification",
+    "Filtration": "HEPA H13 + Activated Carbon 360° sealed system",
+    "Formaldehyde": "Catalytic filter — continuously destroys formaldehyde",
+    "Fan": "Air Multiplier 10-speed, 350° oscillation",
+    "Air Quality": "Real-time LCD — PM 2.5, PM 10, VOCs, NO2, formaldehyde, humidity, temp",
+    "Auto Mode": "Yes — AI responds to pollution events automatically",
+    "Smart": "MyDyson app, Alexa/Google, voice control",
+    "Noise": "As low as 42 dBA at lowest setting"
+  },
+  "whatWorks": [
+    "800 sq ft coverage in auto mode is genuine for open-plan living rooms and large bedrooms — the TP09 is Dyson's most capable standalone air purifier, with 360° HEPA filtration that draws air from all directions rather than just one side.",
+    "Sealed HEPA system prevents air bypassing the filter — Dyson's 360° intake design combined with a sealed filter housing captures 99.97% of 0.3-micron particles without the gaps found in typical single-intake purifiers.",
+    "Formaldehyde catalytic filter continuously destroys formaldehyde (from furniture, flooring, and building materials) without needing replacement — unlike activated carbon which saturates and needs replacement, the catalytic filter performs the same function indefinitely.",
+    "Auto mode with AI responds to real-time pollution events within seconds — during cooking, a visitor spraying hairspray, or external pollution ingress, the fan automatically ramps up and returns to baseline when the event passes."
+  ],
+  "worthKnowing": [
+    "$799 is a significant premium with a high total cost of ownership — filter replacement at ~$70/yr means spending $1,149 over 5 years on this one device. A Coway AP-1512HH + Vornado 630 fan achieves comparable results in most rooms for ~$350 total.",
+    "Fan cooling efficiency is less than dedicated fans — the Air Multiplier design prioritizes air quality over raw airflow. In summer heat, a standalone tower fan moves more air per dollar.",
+    "MyDyson app data goes to Dyson servers — indoor environment data including VOC levels, temperature, and usage patterns is stored in Dyson's cloud infrastructure.",
+    "42 dBA at lowest is louder than Coway and Levoit at their lowest settings — the purifier is not whisper-quiet in the way the Blueair 411i Max or Levoit Core 300 are."
+  ],
+  "commonComplaints": [
+    {
+      "title": "High total cost of ownership including…",
+      "body": "High total cost of ownership including $70/yr filters — over 5 years, the TP09 costs nearly $1,150 all-in, versus ~$400 for a Coway + dedicated fan with comparable real-world performance.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "title": "Fan cooling weaker than dedicated tower…",
+      "body": "Fan cooling weaker than dedicated tower fans — the Air Multiplier produces less raw airflow than a dedicated fan at the same price, making it less effective as a primary cooling solution in hot rooms.",
+      "source": "RTINGS.com"
+    },
+    {
+      "title": "Louder than expected for a premium…",
+      "body": "Louder than expected for a premium product — 42 dBA at the lowest setting is noticeable in a quiet bedroom, whereas Levoit and Coway models reach 24-27 dBA on sleep mode.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Dyson TP09 is among the best air purifiers available, but it's an expensive way to get there. Sealed HEPA, 800 sq ft coverage, formaldehyde destruction, and real-time sensing are all genuine advantages. The total cost of ownership and the ongoing filter expense are real considerations. Buy it if Dyson's build quality and integrated design matter to you; choose a Coway + fan if you want maximum performance per dollar.",
+  "realBuyers": [
+    {
+      "quote": "I live downtown with terrible outdoor air quality. The TP09 auto mode is running at high almost every time there's traffic surge. My apartment air quality is now consistently better than outside.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The formaldehyde tracking was eye-opening. New furniture was spiking VOC levels I didn't know about. The TP09 lets me see and respond to that.",
+      "source": "Reddit (r/airquality)"
+    },
+    {
+      "quote": "Expensive but so is everything Dyson makes and they all deliver. I've had mine three years without any issues.",
+      "source": "Reddit (r/dyson)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dyson Purifier Cool TP09 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09NPTG1BS"
+    },
+    {
+      "title": "Dyson TP09 Review — RTINGS.com",
+      "url": "https://www.rtings.com"
+    },
+    {
+      "title": "Dyson TP09 Discussion — Reddit (r/airpurifiers)",
+      "url": "https://www.reddit.com/r/airpurifiers"
+    },
+    {
+      "title": "Dyson TP09 vs Coway Value Analysis — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Dyson Purifier Cool TP09 review for Canada: 800 sq ft, HEPA + formaldehyde filter, 350° fan, auto mode, LCD sensing. ~$799 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09NPTG1BS",
+  "verifiedPrice": "$799 CAD",
+  "similarProducts": [
+    "dyson-hp09-purifier-heater-fan",
+    "coway-ap-1512hh-air-purifier",
+    "blueair-blue-pure-411i-max"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

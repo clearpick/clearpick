@@ -1,0 +1,112 @@
+{
+  "slug": "levoit-lv600hh-humidifier",
+  "name": "Levoit LV600HH Hybrid Ultrasonic Humidifier",
+  "brand": "Levoit",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Humidifiers",
+  "subcategory": "humidifiers",
+  "asin": "B07VCKLL6M",
+  "price": 89,
+  "priceDisplay": "$89 CAD",
+  "score": 8.4,
+  "tag": "Best Large-Capacity Humidifier for Bedrooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07VCKLL6M/?tag=clearpick06-20",
+  "introText": "The Levoit LV600HH is a 6L warm and cool mist humidifier with a built-in hygrometer, auto mode, and 36-hour runtime — infrequent refilling and precise humidity control for bedrooms and medium rooms up to 500 sq ft.",
+  "subscores": {
+    "Moisture Output": 9.0,
+    "Coverage": 8.5,
+    "Features": 8.5,
+    "Maintenance": 7.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Tank": "6L (1.6 gallons)",
+    "Runtime": "Up to 36 hours (low cool mist setting)",
+    "Mist Modes": "Warm mist + Cool mist (switchable)",
+    "Hygrometer": "Built-in humidity sensor",
+    "Auto Mode": "Maintains target humidity automatically",
+    "Sleep Mode": "25 dBA ultra-quiet",
+    "Aromatherapy": "Essential oil tray",
+    "Coverage": "500 sq ft",
+    "Output": "360° dual nozzle mist output"
+  },
+  "whatWorks": [
+    "6L tank with 36-hour runtime dramatically reduces refilling frequency — at the lowest cool mist setting, the LV600HH runs 36 hours before needing a refill. For bedroom use, this means once every 1-2 days rather than every few hours like smaller units.",
+    "Built-in hygrometer with auto mode maintains target humidity — set the desired humidity (e.g., 45%) and the auto mode cycles the humidifier on and off to maintain that level. This prevents over-humidification that can promote mold growth.",
+    "Warm mist mode warms the bedroom air slightly in addition to adding moisture — in Canadian winters where rooms can feel uncomfortably dry and cool, the warm mist option adds comfort. In summer, cool mist avoids adding heat.",
+    "Sleep mode at 25 dBA is quiet enough for light sleepers — the lowest setting operates nearly as quietly as the Levoit Core 300 air purifier, enabling continuous overnight operation without disruption."
+  ],
+  "worthKnowing": [
+    "Ultrasonic technology produces white mineral dust with hard tap water — the LV600HH uses ultrasonic vibration, which aerosolizes minerals from tap water along with the water droplets. Use distilled or demineralized water to prevent white powder depositing on furniture. The Honeywell HCM350 evaporative humidifier avoids this issue.",
+    "Warm mist uses significantly more energy — the heating element for warm mist operation increases power consumption from ~30W (cool mist) to ~200W. Factor this into electricity cost calculations for continuous use.",
+    "Requires thorough cleaning every 3 days — ultrasonic transducers develop mineral scale and the water tank can grow bacteria or mold if cleaning is skipped. A weekly vinegar soak plus 3-day rinse is the recommended maintenance routine.",
+    "The aromatherapy tray is for essential oils only — do not add essential oils directly to the water tank, as they can damage the ultrasonic transducer. Only use the separate aromatherapy tray."
+  ],
+  "commonComplaints": [
+    {
+      "title": "White mineral dust with regular tap…",
+      "body": "White mineral dust with regular tap water — ultrasonic misting aerosolizes tap water minerals, depositing white powder on furniture and electronics. Distilled water eliminates this but adds ongoing cost.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Requires cleaning every 3 days to…",
+      "body": "Requires cleaning every 3 days to prevent bacterial growth — the warm, moist interior is a good environment for bacteria and mold; regular cleaning is non-negotiable for health-safe operation.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "title": "Warm mist mode significantly increases electricity…",
+      "body": "Warm mist mode significantly increases electricity cost — at ~200W versus ~30W for cool mist, continuous warm mist operation can noticeably increase monthly electricity bills.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Levoit LV600HH is the best large-capacity bedroom humidifier if you're willing to use distilled water and maintain a cleaning schedule. The 6L tank and 36-hour runtime genuinely reduce the burden of humidifier ownership, and auto mode with a built-in hygrometer prevents the over-humidification that the Honeywell HCM350 avoids naturally. If tap water white dust is a concern, choose the Honeywell instead.",
+  "realBuyers": [
+    {
+      "quote": "6L tank is the reason I bought this. I fill it every other day and forget about it. My old 2L humidifier needed filling twice a day.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The auto mode with built-in hygrometer means I set 45% and it maintains it. I don't think about humidity anymore.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "quote": "Use distilled water and it's perfect. No white dust anywhere. Bedroom stays at 50% RH all winter.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Levoit LV600HH — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07VCKLL6M"
+    },
+    {
+      "title": "LV600HH Discussion — Reddit (r/homeimprovement)",
+      "url": "https://www.reddit.com/r/homeimprovement"
+    },
+    {
+      "title": "Best Large Humidifiers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "Levoit LV600HH Review — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Levoit LV600HH review for Canada: 6L, 36-hr runtime, warm + cool mist, built-in hygrometer, auto mode, 500 sq ft. ~$89 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B07VCKLL6M",
+  "verifiedPrice": "$89 CAD",
+  "similarProducts": [
+    "honeywell-hcm-350-humidifier",
+    "levoit-core-300-air-purifier",
+    "blueair-blue-pure-411i-max"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

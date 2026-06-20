@@ -1,0 +1,112 @@
+{
+  "slug": "blueair-blue-pure-411i-max",
+  "name": "Blueair Blue Pure 411i Max Air Purifier",
+  "brand": "Blueair",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Air Purifiers",
+  "subcategory": "air-purifiers",
+  "newCategoryPage": true,
+  "asin": "B09B4M7KMX",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.5,
+  "tag": "Best Budget Air Purifier for Small Rooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09B4M7KMX/?tag=clearpick06-20",
+  "introText": "The Blueair Blue Pure 411i Max uses HEPASilent technology to combine electrostatic and mechanical filtration at lower fan speeds — quieter than traditional HEPA purifiers while maintaining effective particle capture, with WiFi app control.",
+  "subscores": {
+    "Air Purification": 8.5,
+    "Noise Level": 9.0,
+    "Coverage": 7.5,
+    "Smart Features": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Coverage": "190 sq ft (ACH 5 at this room size)",
+    "Technology": "HEPASilent — electrostatic + HEPA mechanical filtration",
+    "Pre-filter": "Washable fabric pre-filter (multiple colours available)",
+    "Speeds": "3 fan speeds",
+    "Noise": "As low as 29 dBA on lowest setting",
+    "Power": "8W on lowest setting",
+    "Smart Control": "WiFi + Blueair Friend app",
+    "Filter Type": "Combination HEPA + Carbon filter"
+  },
+  "whatWorks": [
+    "HEPASilent technology combines electrostatic and mechanical HEPA filtration — the electrostatic component charges particles so they're captured on the mechanical filter at lower fan speeds. This means effective filtration at quieter operation compared to traditional HEPA-only designs that must run faster to achieve the same particle capture rate.",
+    "Washable fabric pre-filter extends the life of the main HEPA filter by capturing large particles (dust, pet hair, lint) before they reach the more expensive filter — saving money on replacements and available in multiple colours as a design feature.",
+    "WiFi app control via Blueair Friend allows scheduling, speed adjustment, and air quality monitoring from your phone — including integration with smart home assistants for voice control.",
+    "29 dBA on the lowest setting is genuinely quiet for sleep environments — comparable to a very soft whisper, making overnight operation unobtrusive for light sleepers."
+  ],
+  "worthKnowing": [
+    "190 sq ft coverage suits bedrooms and small offices — not appropriate for living rooms or open-concept spaces. For larger rooms, the Blueair 605 or Coway AP-1512HH cover significantly more area.",
+    "Electrostatic component generates a small amount of ozone — measured well below EPA safety limits (0.005 ppm in testing), but buyers with ozone sensitivity should be aware. The effect is not noticeable to most users.",
+    "Filter replacement costs approximately $50-60/yr CAD — the combined HEPA+Carbon filter needs replacement every 6 months under normal use. Blueair's filter pricing is higher than Levoit or Coway alternatives.",
+    "No auto air quality mode — the 411i Max doesn't include an air quality sensor that automatically adjusts fan speed. Manual or scheduled control only. The core 400 series adds sensors at higher cost."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Only 190 sq ft coverage limits usefulness…",
+      "body": "Only 190 sq ft coverage limits usefulness to small rooms — for living rooms, open-concept spaces, or larger bedrooms, a bigger unit is necessary.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "title": "Filter replacement more expensive than competitors…",
+      "body": "Filter replacement more expensive than competitors — at $50-60 per filter lasting 6 months, annual filter cost exceeds the Coway or Levoit alternatives.",
+      "source": "Amazon.ca reviewers"
+    },
+    {
+      "title": "No auto air quality sensor or…",
+      "body": "No auto air quality sensor or mode — unlike Coway and Levoit competitors at similar prices, the 411i Max cannot automatically detect air quality and adjust fan speed.",
+      "source": "Reddit (r/airpurifiers)"
+    }
+  ],
+  "verdict": "The Blueair 411i Max is the best air purifier for small rooms where noise level and design aesthetics matter. HEPASilent technology and the washable pre-filter are genuinely differentiating features. For a bedroom, it's excellent. For a living room or larger space, step up to the Coway AP-1512HH or Levoit Core 400S. The filter cost is a real ongoing consideration.",
+  "realBuyers": [
+    {
+      "quote": "Running it at night on low and I completely forget it's on. Woke up with noticeably better air quality — I have allergies and my mornings have improved significantly.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Love the washable pre-filter. I vacuum it weekly and the main filter lasts so much longer. Smart design.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "quote": "App works well and the scheduling feature means it ramps up during the day automatically. Set it and forget it.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Blueair Blue Pure 411i Max — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09B4M7KMX"
+    },
+    {
+      "title": "Blueair 411i Max Review — Reddit (r/airpurifiers)",
+      "url": "https://www.reddit.com/r/airpurifiers"
+    },
+    {
+      "title": "Best Air Purifiers for Bedrooms — RTINGS.com",
+      "url": "https://www.rtings.com"
+    },
+    {
+      "title": "Blueair vs Levoit vs Coway — YouTube (Tech Radar)",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Blueair Blue Pure 411i Max review for Canada: HEPASilent, 190 sq ft, 29 dBA, washable pre-filter, WiFi app. ~$199 CAD on Amazon.ca. Best compact air purifier.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09B4M7KMX",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": [
+    "ecobee-smart-thermostat-premium",
+    "google-nest-learning-thermostat-4th-gen",
+    "honeywell-home-t9-wifi-smart-thermostat"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

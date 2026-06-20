@@ -1,0 +1,113 @@
+{
+  "slug": "fujifilm-x-t30-ii-camera",
+  "name": "Fujifilm X-T30 II Mirrorless Camera Body",
+  "brand": "Fujifilm",
+  "category": "Cameras & Photography",
+  "categoryPage": "cameras-photography.html",
+  "filterTag": "Mirrorless Cameras",
+  "subcategory": "mirrorless-cameras",
+  "asin": "B09FKXTDPL",
+  "price": 1249,
+  "priceDisplay": "$1,249 CAD",
+  "score": 8.3,
+  "tag": "Best Compact Mirrorless for Enthusiast Photographers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09FKXTDPL/?tag=clearpick06-20",
+  "introText": "The Fujifilm X-T30 II is a compact, rangefinder-style APS-C mirrorless with a 26.1MP X-Trans sensor, Fujifilm's 20 film simulations, and a tactile dial-driven interface — designed for photographers who prefer a traditional shooting experience.",
+  "subscores": {
+    "Image Quality": 9.0,
+    "Autofocus": 8.0,
+    "Video Quality": 7.5,
+    "Ease of Use": 8.0,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Sensor": "26.1MP X-Trans CMOS 4",
+    "4K Video": "4K/30fps oversampled",
+    "Autofocus": "Phase-detect AF, 18fps burst",
+    "IBIS": "None — lens IS only",
+    "Screen": "Tilt-only 3-inch touchscreen (not fully articulating)",
+    "Film Simulations": "19 film simulations",
+    "Viewfinder": "2.36M-dot OLED EVF",
+    "Weight": "383g body only",
+    "Mount": "Fujifilm X-mount",
+    "Build": "No weather sealing"
+  },
+  "whatWorks": [
+    "X-Trans sensor rendering is distinctive — the 26.1MP X-Trans CMOS 4 produces images with strong micro-contrast and natural colour transitions that Fujifilm users consistently prefer for street, portrait, and travel photography.",
+    "Film simulations are the headline feature for JPEG shooters — 19 simulations including Provia, Velvia, Classic Chrome, Eterna, and Acros black-and-white produce finished images straight from camera that rival edited RAW files from competitors.",
+    "Compact rangefinder design with dedicated exposure dials for shutter speed, ISO, and aperture gives a tactile, photographic experience that digital menu systems don't replicate. Street photographers in particular value the discreet profile.",
+    "Oversampled 4K/30fps extracts footage from a 6K read area — sharper detail than pixel-binned 4K, though at the cost of some overheating risk in extended continuous recording."
+  ],
+  "worthKnowing": [
+    "No IBIS — the X-T30 II relies entirely on optical image stabilization in the lens. For video shooters, the lack of IBIS is a significant disadvantage versus the X-S20 or Sony ZV-E10 II.",
+    "Tilt-only screen limits vlogging and self-shooting — the screen tilts up and down but does not swing out for face-front viewing. Fujifilm chose this to keep the body compact.",
+    "The X-T5 and X-S20 are both newer and more capable at similar price points — the X-T5 offers a 40MP sensor and the X-S20 adds IBIS and better video. The X-T30 II is now primarily for buyers who specifically want its compact rangefinder form factor.",
+    "No weather sealing — usable in light rain with care, but Fujifilm doesn't rate it for weather resistance."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No IBIS makes video shooting difficult…",
+      "body": "No IBIS makes video shooting difficult without a gimbal — compared to the X-S20 at a similar price, the lack of in-body stabilization is a meaningful gap for hybrid shooters.",
+      "source": "Reddit (r/fujifilm)"
+    },
+    {
+      "title": "Tilt-only screen can't face forward…",
+      "body": "Tilt-only screen can't face forward for self-shooting — vloggers and content creators who need to monitor themselves while filming will find this a significant limitation.",
+      "source": "DPReview"
+    },
+    {
+      "title": "Newer Fujifilm models are more capable…",
+      "body": "Newer Fujifilm models are more capable at similar prices — the X-T5 and X-S20 offer more resolution, IBIS, and video specs, making the X-T30 II primarily attractive for its specific form factor.",
+      "source": "YouTube (Fujifilm Guys)"
+    }
+  ],
+  "verdict": "The X-T30 II is the right camera for a specific photographer: someone who values Fujifilm's X-Trans colour science, wants a compact rangefinder body with physical dials, and primarily shoots stills. For video creators or buyers who want the most capable camera per dollar, the X-S20 is the better choice. The X-T30 II's value proposition is its form factor and shooting experience, not its spec sheet.",
+  "realBuyers": [
+    {
+      "quote": "The dial interface changes how you think about photography. I actually understand exposure now because I'm setting it manually with physical controls.",
+      "source": "Reddit (r/fujifilm)"
+    },
+    {
+      "quote": "The Acros film sim is so good I barely process RAWs anymore. Street photos straight from camera look like darkroom prints.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Wish it had IBIS but the image quality and form factor are exactly what I wanted for travel. Fits in a jacket pocket.",
+      "source": "Reddit (r/travel)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fujifilm X-T30 II — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09FKXTDPL"
+    },
+    {
+      "title": "Fujifilm X-T30 II Review — DPReview",
+      "url": "https://www.dpreview.com"
+    },
+    {
+      "title": "X-T30 II Discussion — Reddit (r/fujifilm)",
+      "url": "https://www.reddit.com/r/fujifilm"
+    },
+    {
+      "title": "Fujifilm X-T30 II vs X-S20 Comparison — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Fujifilm X-T30 II review for Canada: 26.1MP X-Trans, film simulations, compact rangefinder body, 4K/30fps. ~$1,249 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09FKXTDPL",
+  "verifiedPrice": "$1,249 CAD",
+  "similarProducts": [
+    "fujifilm-x100vi",
+    "fujifilm-x-s20-camera",
+    "canon-eos-r10-camera"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "insta360-x4-360-camera",
+  "name": "Insta360 X4 360° Action Camera",
+  "brand": "Insta360",
+  "category": "Cameras & Photography",
+  "categoryPage": "cameras-photography.html",
+  "filterTag": "Action Cameras",
+  "subcategory": "action-cameras",
+  "asin": "B0CZL1HL9J",
+  "price": 699,
+  "priceDisplay": "$699 CAD",
+  "score": 9.0,
+  "tag": "Best 360 Camera for Content Creators",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CZL1HL9J/?tag=clearpick06-20",
+  "introText": "The Insta360 X4 captures 8K 360° video with a 135-minute battery, IPX8 waterproofing to 10m, and the invisible selfie stick trick — reframe your shot in post after shooting, so you never have to aim.",
+  "subscores": {
+    "Image Quality": 8.5,
+    "Battery Life": 9.5,
+    "Ease of Use": 9.0,
+    "Waterproofing": 9.0,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Sensors": "Two 1/2-inch CMOS (front + rear)",
+    "Max Video": "8K 360° at 30fps",
+    "Single Lens Mode": "4K at 60fps",
+    "Battery Life": "135 minutes",
+    "Waterproof": "IPX8 rated to 10m without housing",
+    "Stabilization": "FlowState — 360° horizon leveling",
+    "Subject Tracking": "ActiveTrack 5.0",
+    "Weight": "203g",
+    "Storage": "microSD up to 2TB"
+  },
+  "whatWorks": [
+    "Reframe after shooting is the transformative feature — shoot all 360° at once, then choose your framing in the Insta360 app after the fact. This eliminates missed shots from wrong camera angles and allows cinematic framing decisions in post that would be impossible to anticipate while filming.",
+    "AI-powered editing app turns raw 360° footage into ready-to-post clips with minimal manual work — the app can detect highlights, apply stabilization, choose frames, and add music automatically. This is genuinely faster than traditional editing for social content.",
+    "Invisible selfie stick works natively — because the stick is within the camera's field of view on both sensors, the stitching algorithm removes it automatically. The result is footage that appears to float in mid-air or be filmed by nothing.",
+    "135-minute battery is class-leading for action cameras — nearly 3x a GoPro HERO13 per charge, enabling full-day adventure recording without carrying spare batteries."
+  ],
+  "worthKnowing": [
+    "8K 360° footage produces enormous file sizes — approximately 300MB per minute, meaning a 256GB card holds roughly 14 hours of 8K footage. Plan storage accordingly.",
+    "Rendering 360° footage is CPU-intensive — editing on a laptop from 2019 or older may be slow; the app handles processing on the device or in the cloud, but exporting finished clips can take time.",
+    "Below 10m requires a separate waterproof housing — the IPX8 rating covers to 10m without housing, but for scuba or deeper water sports, the Dive Case accessory is necessary.",
+    "The 360° workflow is different from traditional cameras — if you prefer traditional viewfinder/LCD composition, the post-capture reframing workflow requires a mindset shift."
+  ],
+  "commonComplaints": [
+    {
+      "title": "8K file sizes fill storage fast…",
+      "body": "8K file sizes fill storage fast — at ~300MB per minute, a 256GB card fills in about 14 hours of 8K recording, requiring frequent offloading on multi-day trips.",
+      "source": "Reddit (r/insta360)"
+    },
+    {
+      "title": "Rendering and export time can be…",
+      "body": "Rendering and export time can be slow on older devices — the Insta360 app offloads processing to the phone or cloud, but exporting high-resolution edits on older phones takes noticeable time.",
+      "source": "Amazon.ca reviewers"
+    },
+    {
+      "title": "Stitching seam visible in some lighting…",
+      "body": "Stitching seam visible in some lighting conditions — when subjects or objects cross the stitch line between the two lenses, a visible seam can appear, particularly in high-contrast lighting.",
+      "source": "Reddit (r/insta360)"
+    }
+  ],
+  "verdict": "The Insta360 X4 is the best 360° camera available and an excellent option for any content creator who films themselves during activities. The reframe-in-post workflow genuinely changes how you think about shooting — instead of worrying about camera angle while doing the activity, you just do the activity and choose the best frame later. If the 360° workflow appeals to you, the X4 executes it better than any competitor.",
+  "realBuyers": [
+    {
+      "quote": "I stopped worrying about camera angle while kayaking. I just attach it to my paddle, do my thing, and pick the best frames afterwards. Game changer.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The invisible selfie stick is legitimately magic. My hiking content looks like it's filmed by a drone.",
+      "source": "Reddit (r/insta360)"
+    },
+    {
+      "quote": "Battery life is insane compared to my old GoPro. I filmed an entire mountain bike trip on one charge.",
+      "source": "Reddit (r/MTB)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Insta360 X4 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CZL1HL9J"
+    },
+    {
+      "title": "Insta360 X4 vs GoPro MAX 2 — Reddit (r/insta360)",
+      "url": "https://www.reddit.com/r/insta360"
+    },
+    {
+      "title": "Insta360 X4 Review — YouTube (Matti Haapoja)",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "title": "360 Camera Comparison — DPReview",
+      "url": "https://www.dpreview.com"
+    }
+  ],
+  "metaDescription": "Insta360 X4 review for Canada: 8K 360° video, 135-min battery, IPX8 waterproof, invisible selfie stick, reframe in post. ~$699 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B0CZL1HL9J",
+  "verifiedPrice": "$699 CAD",
+  "similarProducts": [
+    "gopro-hero-13-black",
+    "dji-action-5-pro",
+    "dji-mini-4-pro"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

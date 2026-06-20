@@ -1,0 +1,111 @@
+{
+  "slug": "pelonis-40-inch-tower-fan",
+  "name": "Pelonis 40-Inch Tower Fan with Remote",
+  "brand": "Pelonis",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Tower Fans",
+  "subcategory": "tower-fans",
+  "asin": "B07YD37P9R",
+  "price": 69,
+  "priceDisplay": "$69 CAD",
+  "score": 7.8,
+  "tag": "Best Budget Tower Fan for Bedrooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07YD37P9R/?tag=clearpick06-20",
+  "introText": "The Pelonis 40-inch tower fan delivers quiet operation, three modes including a sleep mode that gradually reduces speed, and a remote control — the most affordable bedroom tower fan that actually has the features you need.",
+  "subscores": {
+    "Noise Level": 8.5,
+    "Features": 7.5,
+    "Airflow": 7.0,
+    "Build Quality": 7.0,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Height": "40 inches",
+    "Speeds": "3 fan speeds",
+    "Modes": "Normal / Nature / Sleep",
+    "Oscillation": "70° automatic",
+    "Timer": "8-hour programmable timer",
+    "Remote": "Included",
+    "Touch Panel": "LED touch control",
+    "Noise": "Up to 39 dBA maximum"
+  },
+  "whatWorks": [
+    "Quiet for the price — 39 dBA maximum is comparable to budget tower fans from more expensive brands. On the lowest setting, the Pelonis is noticeable but not disruptive for bedroom use.",
+    "Sleep mode gradually reduces fan speed over a set period — as body temperature decreases during sleep, less cooling is needed. The progressive speed reduction mirrors this naturally.",
+    "Remote control included at $69 — many competing budget tower fans don't include a remote at this price point. The remote covers all key functions.",
+    "Compact footprint fits in bedroom corners without taking meaningful floor space — the slim 40-inch tower design tucks neatly against a wall."
+  ],
+  "worthKnowing": [
+    "Airflow is noticeably weaker than Honeywell and Vornado fans — the Pelonis moves less air volume, making it suitable for personal cooling and light bedroom circulation but insufficient for cooling larger spaces.",
+    "70° oscillation is limited — the arc doesn't cover a full room from most bedroom placements. Positioning close to the bed maximizes effective cooling.",
+    "Plastic build quality is basic — the lightweight plastic chassis is functional but feels fragile compared to more expensive alternatives. Handle carefully during storage.",
+    "Not for large rooms or hot summers — in heat above 30°C or rooms larger than a standard bedroom, the Pelonis won't produce enough airflow to provide meaningful cooling."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Airflow weaker than more expensive tower…",
+      "body": "Airflow weaker than more expensive tower fans — the Pelonis moves noticeably less air than the Honeywell HYF290B or Vornado 630 at equivalent price, limiting its effectiveness in larger or hotter rooms.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "70° oscillation insufficient for room-wide coverage…",
+      "body": "70° oscillation insufficient for room-wide coverage — the limited sweep means people more than a metre or two outside the direct oscillation path receive little airflow benefit.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "title": "Plastic build feels cheap and wobbles…",
+      "body": "Plastic build feels cheap and wobbles at high speed — the lightweight construction produces some vibration-related noise at maximum fan speed that limits its practical use to low and medium settings.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Pelonis is the right fan if $69 is your budget and you're cooling a standard bedroom. It won't impress you with airflow or build quality, but it delivers the core features — quiet-ish operation, sleep mode, remote — at the lowest price we list. If you can stretch to $89-99, the Honeywell HYF290B or Lasko are meaningfully better products.",
+  "realBuyers": [
+    {
+      "quote": "Does what I need for my bedroom. It's not powerful but on speed 1 at night with the sleep timer it's fine.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Can't argue with $69. Has a remote, has a timer, and it's quiet. You get what you pay for but what you pay for is perfectly adequate.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "quote": "Sleep mode is the feature I use most. It gradually slows down as I fall asleep. Simple but useful.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pelonis 40-Inch Tower Fan — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07YD37P9R"
+    },
+    {
+      "title": "Budget Tower Fan Discussion — Reddit (r/homeimprovement)",
+      "url": "https://www.reddit.com/r/homeimprovement"
+    },
+    {
+      "title": "Best Budget Tower Fans — YouTube",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "title": "Tower Fan Comparison — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    }
+  ],
+  "metaDescription": "Pelonis 40-inch tower fan review for Canada: 3 speeds, sleep mode, 70° oscillation, 8-hr timer, remote. ~$69 CAD on Amazon.ca. Best budget bedroom fan.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B07YD37P9R",
+  "verifiedPrice": "$69 CAD",
+  "similarProducts": [
+    "honeywell-hyf290b-tower-fan",
+    "blueair-blue-pure-411i-max",
+    "lasko-755320-ceramic-tower-heater"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

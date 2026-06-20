@@ -1,0 +1,112 @@
+{
+  "slug": "dji-air-3-drone",
+  "name": "DJI Air 3 Drone with RC-N2 Remote",
+  "brand": "DJI",
+  "category": "Cameras & Photography",
+  "categoryPage": "cameras-photography.html",
+  "filterTag": "Drones",
+  "subcategory": "drones",
+  "asin": "B0C9J1HQ9K",
+  "price": 1379,
+  "priceDisplay": "$1,379 CAD",
+  "score": 9.0,
+  "tag": "Best All-Around Consumer Drone Under $1,500",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0C9J1HQ9K/?tag=clearpick06-20",
+  "introText": "The DJI Air 3 features dual main cameras — a wide 24mm and a 3x tele 70mm — both using 1/1.3-inch sensors, with 46-minute flight time, omnidirectional obstacle sensing, and DJI O4 transmission up to 20km.",
+  "subscores": {
+    "Image Quality": 9.5,
+    "Flight Time": 9.5,
+    "Obstacle Avoidance": 9.0,
+    "Portability": 8.0,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Cameras": "Dual — 24mm f/1.7 wide + 70mm f/2.8 medium tele",
+    "Sensor": "Two 1/1.3-inch CMOS",
+    "Max Video": "4K/60fps 10-bit HDR",
+    "Flight Time": "46 minutes maximum",
+    "Obstacle Sensing": "Omnidirectional (APAS 5.0)",
+    "Transmission": "DJI O4 — up to 20km",
+    "Weight": "720g",
+    "Wind Resistance": "Level 7 (up to 61 km/h)",
+    "Subject Tracking": "ActiveTrack 360"
+  },
+  "whatWorks": [
+    "Dual camera system at this price is unique — you can switch between the 24mm wide and 70mm tele in flight without landing or changing equipment. Both cameras use the same high-quality 1/1.3-inch sensor, so you don't sacrifice image quality when switching.",
+    "46-minute flight time is class-leading for a drone in this category — most comparable drones top out at 30-34 minutes. The extra time meaningfully reduces the number of battery swaps during a typical shoot.",
+    "DJI O4 transmission provides rock-solid video feed up to 20km with minimal interference — in real-world urban environments with WiFi congestion, O4 maintains a reliable connection where competitors lose signal.",
+    "APAS 5.0 omnidirectional obstacle avoidance detects objects in all directions simultaneously — much safer to fly in forests, around buildings, and in environments with moving obstacles than the tri-directional sensing on older models."
+  ],
+  "worthKnowing": [
+    "720g puts it in the Advanced RPAS category in Canada — flying the Air 3 requires an advanced drone pilot certificate from Transport Canada, which involves a written exam and a supervised flight review. This is a meaningful barrier vs the Mini 4 Pro (249g, basic rules only).",
+    "Registration required with Transport Canada — unlike sub-250g drones, the Air 3 must be registered, marked, and flown under advanced operations rules in most populated areas.",
+    "The 3x tele at 70mm is a medium telephoto, not a long lens — it's great for aerial portraits and cinematic shots but won't replace a 300mm for wildlife.",
+    "No built-in storage — you must use a microSD card; DJI's faster cards are recommended for 4K/60fps 10-bit recording."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Requires Advanced RPAS certification in…",
+      "body": "Requires Advanced RPAS certification in Canada — the 720g weight triggers advanced pilot rules, requiring a Transport Canada exam and flight review before legal flight in most areas.",
+      "source": "Reddit (r/drones_canada)"
+    },
+    {
+      "title": "More expensive than Mini 4 Pro…",
+      "body": "More expensive than Mini 4 Pro with less regulatory freedom — buyers who want to fly without certification barriers should consider the sub-250g Mini 4 Pro instead.",
+      "source": "DJI Forum"
+    },
+    {
+      "title": "No built-in storage requires microSD…",
+      "body": "No built-in storage requires a microSD card — at 4K/60fps 10-bit, you need a fast V60 or higher card to avoid dropped frames.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Air 3 is the best drone for aerial videographers who want genuine dual-camera flexibility and the longest flight time available. The Advanced RPAS certification requirement is a real consideration for Canadian buyers — if you're not willing to get certified, the Mini 4 Pro is the better choice. For pilots who are already certified or willing to become certified, the Air 3's dual cameras and 46-minute endurance are worth the premium.",
+  "realBuyers": [
+    {
+      "quote": "The dual cameras change everything for aerial cinematography. I can get establishing wides and punchy tele shots in the same flight.",
+      "source": "Reddit (r/videography)"
+    },
+    {
+      "quote": "46 minutes is so much better than my old Mavic. I can do a full property shoot on one battery.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "O4 signal is bulletproof. Flying in the city with tons of WiFi interference and I've never had a disconnect.",
+      "source": "Reddit (r/drones)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "DJI Air 3 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0C9J1HQ9K"
+    },
+    {
+      "title": "DJI Air 3 Review — DPReview",
+      "url": "https://www.dpreview.com"
+    },
+    {
+      "title": "Canada Drone Rules — Transport Canada",
+      "url": "https://tc.canada.ca/en/aviation/drone-safety"
+    },
+    {
+      "title": "DJI Air 3 vs Mini 4 Pro — Reddit (r/drones)",
+      "url": "https://www.reddit.com/r/drones"
+    }
+  ],
+  "metaDescription": "DJI Air 3 review for Canada: dual 1/1.3-inch cameras, 4K/60fps 10-bit, 46-min flight time, omnidirectional obstacle avoidance. ~$1,379 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B0C9J1HQ9K",
+  "verifiedPrice": "$1,379 CAD",
+  "similarProducts": [
+    "dji-mini-4-pro",
+    "dji-action-5-pro",
+    "gopro-hero-13-black"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

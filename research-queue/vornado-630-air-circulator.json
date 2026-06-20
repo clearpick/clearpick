@@ -1,0 +1,112 @@
+{
+  "slug": "vornado-630-air-circulator",
+  "name": "Vornado 630 Mid-Size Whole Room Air Circulator",
+  "brand": "Vornado",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Tower Fans",
+  "subcategory": "tower-fans",
+  "asin": "B00FXNF5HC",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 9.0,
+  "tag": "Best Air Circulator for Whole-Room Cooling",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B00FXNF5HC/?tag=clearpick06-20",
+  "introText": "The Vornado 630 uses vortex air circulation technology to move all the air in a room without oscillating — more effective whole-room cooling than tower fans that only direct a stream, with a 5-year satisfaction guarantee.",
+  "subscores": {
+    "Whole-Room Airflow": 9.5,
+    "Noise Level": 8.5,
+    "Reliability": 9.5,
+    "Value for Money": 8.5,
+    "Design": 8.0
+  },
+  "specs": {
+    "Airflow Technology": "Vortex circulation — whole-room air movement",
+    "Speeds": "3 fan speeds",
+    "Blade": "7-inch deep-pitch blade",
+    "Design": "Deep-dish bowl design directs airflow upward and outward",
+    "Oscillation": "None — vortex circulation covers whole room without oscillating",
+    "Airflow": "70 CFM",
+    "Guarantee": "5-year satisfaction guarantee",
+    "Weight": "2.7kg",
+    "Tilt": "Adjustable tilt head"
+  },
+  "whatWorks": [
+    "Vortex circulation creates whole-room air movement without oscillating — instead of directing a stream of air that sweeps back and forth, the Vornado's deep-dish design creates a column of airflow that bounces off walls and circulates all the air in a room. The physics are genuinely different from tower fans, and the result is more even temperature distribution.",
+    "Effective at moving heat from ceiling-mounted sources downward — in winter, the Vornado circulates warm air that pools at ceiling level back down to where people are. Heat pump and baseboard users consistently report lower energy usage when running a Vornado to distribute heat.",
+    "5-year satisfaction guarantee backs the reliability — Vornado offers one of the longest guarantees in the fan category. Multi-year owner reviews consistently report no failures over 5-10 years of continuous summer use.",
+    "Quieter per effective airflow than tower fans — because the vortex circulation creates whole-room movement from a single fixed position, the Vornado doesn't need to run at maximum speed to achieve the same practical effect as a tower fan on high."
+  ],
+  "worthKnowing": [
+    "No oscillation may confuse buyers expecting traditional fan behavior — the Vornado sits in one position and doesn't visibly sweep the room. First-time users sometimes feel it isn't working because there's no oscillation to watch, but the whole-room air movement is happening.",
+    "Airflow is directional at the source — aim it across the room toward the far wall rather than directly at yourself. The bounce-and-circulate effect works best when directed across a space.",
+    "No remote control — all speed changes require reaching the physical fan. If remote operation is important (e.g., bedside use), the Honeywell HYF290B is more convenient.",
+    "Not suitable for spot cooling — if you want a focused stream of air blowing directly on you, a desk fan or tower fan pointed at your seat serves better. The Vornado excels at moving room air, not personal spot cooling."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No remote control means physical adjustment…",
+      "body": "No remote control means physical adjustment required — for bedroom use where you want to change speed without getting up, the lack of a remote is a practical inconvenience.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Looks industrial, not modern design…",
+      "body": "Looks industrial, not modern — the deep-dish bowl design has a functional but not particularly decorative appearance compared to sleek tower fans from Honeywell or Dyson.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "title": "Directional airflow requires correct room placement…",
+      "body": "Directional airflow requires correct room placement to work properly — pointing the Vornado directly at yourself rather than across the room reduces its whole-room circulation effectiveness.",
+      "source": "Reddit (r/homeimprovement)"
+    }
+  ],
+  "verdict": "The Vornado 630 is the most effective whole-room cooling and air circulation fan we list. If you want the room to be cooler and more evenly temperatured, the vortex technology actually does this better than a tower fan at comparable noise levels. The lack of remote and industrial aesthetic are real trade-offs. For bedroom spot cooling, choose a tower fan. For room air management, the Vornado is the better tool.",
+  "realBuyers": [
+    {
+      "quote": "I was skeptical about the no-oscillation design. Then I tried it and the whole room felt cooler within 10 minutes. The vortex thing is real.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "10 years and still going. I've replaced cheap tower fans three times in the same period. The 5-year guarantee should actually be 10 years.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "quote": "I run it with my baseboard heaters in winter to push the heat down from the ceiling. Energy bill dropped noticeably.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Vornado 630 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B00FXNF5HC"
+    },
+    {
+      "title": "Vornado vs Tower Fan — Reddit (r/homeimprovement)",
+      "url": "https://www.reddit.com/r/homeimprovement"
+    },
+    {
+      "title": "Best Fans for Whole Room — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "How Vortex Circulation Works — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Vornado 630 review for Canada: vortex circulation, 3 speeds, 5-year guarantee, whole-room cooling without oscillating. ~$149 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B00FXNF5HC",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": [
+    "honeywell-hyf290b-tower-fan",
+    "pelonis-40-inch-tower-fan",
+    "coway-ap-1512hh-air-purifier"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

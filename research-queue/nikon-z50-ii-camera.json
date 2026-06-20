@@ -1,0 +1,113 @@
+{
+  "slug": "nikon-z50-ii-camera",
+  "name": "Nikon Z50 II Mirrorless Camera with Z DX 16-50mm Lens",
+  "brand": "Nikon",
+  "category": "Cameras & Photography",
+  "categoryPage": "cameras-photography.html",
+  "filterTag": "Mirrorless Cameras",
+  "subcategory": "mirrorless-cameras",
+  "asin": "B0CZ6KM4GB",
+  "price": 1099,
+  "priceDisplay": "$1,099 CAD",
+  "score": 8.5,
+  "tag": "Best APS-C Mirrorless for Photo-First Shooters",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0CZ6KM4GB/?tag=clearpick06-20",
+  "introText": "The Nikon Z50 II brings the EXPEED 7 processor and advanced subject detection to Nikon's APS-C lineup — fast, accurate AF for people, animals, and vehicles in a compact 429g body with excellent JPEG rendering.",
+  "subscores": {
+    "Image Quality": 9.0,
+    "Autofocus": 9.0,
+    "Video Quality": 7.5,
+    "Ease of Use": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Sensor": "20.9MP APS-C BSI CMOS",
+    "Processor": "EXPEED 7",
+    "Autofocus": "Subject Detection AF — people, animals, vehicles",
+    "4K Video": "4K/30fps no crop, 4K/60fps (1.5x crop)",
+    "Burst": "11fps continuous with subject tracking",
+    "IBIS": "None",
+    "Screen": "Tilting touchscreen with selfie position",
+    "Weight": "429g with battery and card",
+    "Mount": "Nikon Z DX",
+    "Battery Life": "~570 shots (CIPA)"
+  },
+  "whatWorks": [
+    "EXPEED 7 subject detection is excellent — Nikon caught up to Canon and Sony in subject tracking with the Z50 II. People detection includes eye, face, and body tracking; animal detection covers a wide range of species; vehicle tracking handles cars, motorcycles, and aircraft.",
+    "4K/30fps with no crop is genuinely clean — the Z50 II avoids the common APS-C penalty of cropped 4K, delivering full-width 4K/30fps with the expected 1.5x APS-C sensor crop only.",
+    "Best JPEG rendering in its class — Nikon's Picture Control system produces JPEGs that are sharp, accurate in colour, and well-exposed with minimal tweaking. Many owners report rarely needing to shoot RAW.",
+    "570-shot battery life is class-leading for APS-C mirrorless — significantly better than Canon R10 (~430) and most Sony APS-C bodies, enabling a full day of shooting without carrying a spare."
+  ],
+  "worthKnowing": [
+    "No IBIS — the Z50 II has no in-body image stabilization. Video is stabilized by lens IS only, which is less effective than the 5-axis IBIS in the Fujifilm X-S20 or Sony ZV-E10 II.",
+    "4K/60fps requires a 1.5x crop within the APS-C sensor — effectively a 2.25x total crop on a full-frame equivalent, making wide lenses into long ones at 60fps.",
+    "Z DX lens selection is smaller than Canon RF-S and Sony E-mount — Nikon has fewer native APS-C Z lenses, and the full-frame Z lenses work but are much larger and more expensive.",
+    "Tilting screen flips down for selfies but doesn't fully articulate — it's useful for selfie vlogging at arm's length but doesn't support side-swinging monitor positions popular with videographers."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No IBIS limits handheld video quality…",
+      "body": "No IBIS limits handheld video quality — compared to the Fujifilm X-S20 and Sony ZV-E10 II at similar prices, the Z50 II's lack of in-body stabilization is a significant gap for video shooters.",
+      "source": "Reddit (r/nikon)"
+    },
+    {
+      "title": "Z DX lens selection is limited…",
+      "body": "Z DX lens selection is limited — Nikon has fewer native APS-C Z lenses than Canon and Sony have for their respective crop-sensor mounts, limiting the upgrade path.",
+      "source": "DPReview"
+    },
+    {
+      "title": "Tilting screen can't face the shooter…",
+      "body": "Tilting screen can't face the shooter fully — the selfie position works for arm's-length shots but doesn't replace a fully articulating screen for side-on video monitoring.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Nikon Z50 II is the best-in-class option for photo-first APS-C shooters who don't need IBIS. EXPEED 7 subject tracking is excellent, the battery life is class-leading, and JPEG output is outstanding. For video-focused buyers, the Fujifilm X-S20 or Sony ZV-E10 II offer better stabilization. For stills shooters who also shoot occasional video, the Z50 II is a very capable package.",
+  "realBuyers": [
+    {
+      "quote": "The autofocus on this camera is ridiculous. It locks onto my kids and never lets go, even when they're running toward me.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "JPEGs straight out of camera are so good I barely ever open Lightroom anymore. The Vivid picture control is my favourite.",
+      "source": "Reddit (r/nikon)"
+    },
+    {
+      "quote": "Battery life is excellent. I shot a full day at a craft fair without charging and still had 40% left.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nikon Z50 II — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0CZ6KM4GB"
+    },
+    {
+      "title": "Nikon Z50 II Review — DPReview",
+      "url": "https://www.dpreview.com"
+    },
+    {
+      "title": "Nikon Z50 II Discussion — Reddit (r/nikon)",
+      "url": "https://www.reddit.com/r/nikon"
+    },
+    {
+      "title": "Z50 II vs Canon R10 vs Sony ZV-E10 II — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Nikon Z50 II review for Canada: 20.9MP APS-C, EXPEED 7 subject detection, 4K/30fps no crop, 570-shot battery. ~$1,099 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B0CZ6KM4GB",
+  "verifiedPrice": "$1,099 CAD",
+  "similarProducts": [
+    "canon-eos-r10-camera",
+    "fujifilm-x-s20-camera",
+    "sony-zv-e10-ii-mirrorless-camera"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

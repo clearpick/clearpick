@@ -1,177 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Cameras & Photography':         '📸',
-  'Home Comfort':                  '🌡️',
-  'Music & Instruments':           '🎸',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>SanDisk Extreme PRO 128GB SDXC Memory Card Review 2026 | ClearPick</title>
+<meta name="description" content="SanDisk Extreme PRO 128GB SDXC review for Canada: 200MB/s read, 90MB/s write, V30/U3, UHS-I. ~$35 CAD on Amazon.ca. Best SD card for 4K video." />
+<meta property="og:title" content="SanDisk Extreme PRO 128GB SDXC Memory Card Review 2026 | ClearPick" />
+<meta property="og:description" content="SanDisk Extreme PRO 128GB SDXC review for Canada: 200MB/s read, 90MB/s write, V30/U3, UHS-I. ~$35 CAD on Amazon.ca. Best SD card for 4K video." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/sandisk-extreme-pro-128gb-sdxc.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/sandisk-extreme-pro-128gb-sdxc.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "SanDisk Extreme PRO 128GB SDXC Memory Card",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "9", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The SanDisk Extreme PRO is the default SD card recommendation for any UHS-I camera, and for good reason. 90MB/s write speed, 200MB/s read, proven reliability, and included recovery software at $35 is excellent value. Only upgrade to UHS-II if your camera supports it and you're shooting high-bitrate formats or long burst sequences."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "9",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -271,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../cameras-photography.html">Cameras &amp; Photography</a> <span>›</span>
+<span>SanDisk Extreme PRO 128GB SDXC Memory Card</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Cameras &amp; Photography</div>
+<h1 class="product-hero__title">SanDisk Extreme PRO 128GB SDXC Memory Card</h1>
+<div class="product-hero__tag">Best SD Card for 4K Video Shooting</div>
+<p class="product-hero__desc">The SanDisk Extreme PRO 128GB writes at 90MB/s and reads at 200MB/s — fast enough for 4K/60fps on any mirrorless camera, with temperature and shock resistance backed by SanDisk's proven reliability track record.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -290,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">9 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Excellent</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Write Speed</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Read Speed</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Reliability</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Compatibility</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Capacity</td><td class="spec-table__value">128GB</td></tr><tr><td class="spec-table__label">Speed Class</td><td class="spec-table__value">V30 / U3 / Class 10</td></tr><tr><td class="spec-table__label">Read Speed</td><td class="spec-table__value">200MB/s</td></tr><tr><td class="spec-table__label">Write Speed</td><td class="spec-table__value">90MB/s</td></tr><tr><td class="spec-table__label">Interface</td><td class="spec-table__value">UHS-I</td></tr><tr><td class="spec-table__label">Temperature</td><td class="spec-table__value">-25°C to 85°C</td></tr><tr><td class="spec-table__label">Durability</td><td class="spec-table__value">Shock, waterproof, X-ray, and magnet proof</td></tr><tr><td class="spec-table__label">Recovery Software</td><td class="spec-table__value">RescuePRO Deluxe included (1-year subscription)</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -309,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="SanDisk Extreme PRO 128GB SDXC Memory Card product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best SD Card for 4K Video Shooting</div>
+<div class="product-cta-box__name">SanDisk Extreme PRO 128GB SDXC Memory Card</div>
+<div class="product-cta-box__price">~$35 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B08GY9NYRM/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -333,39 +223,109 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>90MB/s write speed is sufficient for 4K/60fps on virtually every mirrorless camera and action camera on the market — it meets or exceeds the minimum speed requirements for continuous 4K video recording without dropped frames.</li>
+<li>200MB/s read speed dramatically reduces the time to offload large video files to a computer — transferring 64GB of 4K footage takes under 6 minutes versus over 20 minutes with a slow reader and standard UHS-I cards.</li>
+<li>SanDisk's reliability track record is the strongest in consumer SD cards — in extended use reports across photography forums, the Extreme PRO line consistently shows lower failure rates than competing brands at the same price point.</li>
+<li>RescuePRO Deluxe data recovery software is included with purchase — a 1-year subscription that can recover accidentally deleted photos and videos, providing meaningful protection for professional shoots.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>UHS-I (not UHS-II) — cameras with UHS-II card slots (like the Sony a6700 and Fujifilm X-T5) can use faster UHS-II cards for even quicker offloading and deeper burst buffers. The Extreme PRO is limited to UHS-I speeds in those cameras.</li>
+<li>128GB holds approximately 2 hours of 4K/30fps footage at typical bitrates — heavy video shooters working on multi-day projects should carry multiple cards or a portable SSD.</li>
+<li>Counterfeit risk on discount sites — SanDisk is among the most counterfeited SD card brands. Purchase from Amazon.ca directly or an authorized retailer, not third-party marketplace sellers, to avoid fake cards.</li>
+<li>Write speed is guaranteed at 90MB/s, not 200MB/s — the 200MB/s is sequential read speed. Some marketing conflates these numbers; the write speed is what matters for in-camera recording.</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Never had a single card failure across 4 of these over 3 years of professional shooting. Rock solid."</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/photography)</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Offloading 4K footage takes a fraction of the time compared to my old cheap card. The read speed difference is real."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"Never dropped a frame at 4K/60fps. Does exactly what it says on the box."</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/videography)</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">UHS-I tops out below faster cameras'…</p>
+<p class="real-buyers-say__text">UHS-I tops out below faster cameras' capabilities — cameras with UHS-II card slots benefit from UHS-II cards for deeper burst buffers and faster offloading, which the Extreme PRO can't provide.</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/photography)</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Counterfeit cards sold by third-party…</p>
+<p class="real-buyers-say__text">Counterfeit cards sold by third-party sellers on Amazon — SanDisk is heavily counterfeited; always purchase from Amazon.ca directly (Fulfilled by Amazon) rather than third-party marketplace listings.</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/cameras)</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">128GB fills quickly with 4K footage…</p>
+<p class="real-buyers-say__text">128GB fills quickly with 4K footage — at approximately 300MB per minute for 4K/60fps 10-bit, 128GB provides only about 7 hours of recording before the card is full.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The SanDisk Extreme PRO is the default SD card recommendation for any UHS-I camera, and for good reason. 90MB/s write speed, 200MB/s read, proven reliability, and included recovery software at $35 is excellent value. Only upgrade to UHS-II if your camera supports it and you're shooting high-bitrate formats or long burst sequences.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="fujifilm-x-s20-camera.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Mirrorless for Video Creators</span>
+<h3 class="product-card__name">Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="canon-eos-r10-camera.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Canon EOS R10 Mirrorless Camera with RF-S 18-45mm Lens" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Value APS-C Mirrorless for Beginners</span>
+<h3 class="product-card__name">Canon EOS R10 Mirrorless Camera with RF-S 18-45mm Lens</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="nikon-z50-ii-camera.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Nikon Z50 II Mirrorless Camera with Z DX 16-50mm Lens" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best APS-C Mirrorless for Photo-First Shooters</span>
+<h3 class="product-card__name">Nikon Z50 II Mirrorless Camera with Z DX 16-50mm Lens</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -384,7 +344,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

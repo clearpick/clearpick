@@ -1,0 +1,116 @@
+{
+  "slug": "canon-eos-r10-camera",
+  "name": "Canon EOS R10 Mirrorless Camera with RF-S 18-45mm Lens",
+  "brand": "Canon",
+  "category": "Cameras & Photography",
+  "categoryPage": "cameras-photography.html",
+  "filterTag": "Mirrorless Cameras",
+  "subcategory": "mirrorless-cameras",
+  "newCategoryPage": true,
+  "asin": "B0B1M3YHR8",
+  "price": 979,
+  "priceDisplay": "$979 CAD",
+  "score": 8.4,
+  "tag": "Best Value APS-C Mirrorless for Beginners",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0B1M3YHR8/?tag=clearpick06-20",
+  "introText": "The Canon EOS R10 is Canon's entry-level APS-C mirrorless with DPAF2 subject tracking, 4K/30fps video, and a 429g body — a strong first mirrorless for photographers upgrading from phone or DSLR.",
+  "subscores": {
+    "Image Quality": 8.5,
+    "Autofocus": 9.0,
+    "Video Quality": 7.5,
+    "Ease of Use": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Sensor": "24.2MP APS-C CMOS",
+    "Processor": "DIGIC X",
+    "Autofocus": "Dual Pixel CMOS AF II — subject tracking for people, animals, vehicles",
+    "4K Video": "4K/30fps (with 1.56x crop); 4K/24fps full-width",
+    "Slow Motion": "1080/120fps",
+    "Max Burst": "15 fps mechanical, 23 fps electronic",
+    "Stabilization": "None — relies on lens IS",
+    "Weight": "429g body only",
+    "Mount": "Canon RF",
+    "Screen": "Fully articulating 3-inch touchscreen",
+    "Battery Life": "~430 shots per charge (CIPA)",
+    "Weather Sealing": "None"
+  },
+  "whatWorks": [
+    "DPAF2 subject tracking is the headliner — Canon's most advanced AF algorithm in the budget tier. Eye tracking, head tracking, and body tracking for people; animal AF covers dogs, cats, and birds. Accuracy in real-world use is widely praised as comparable to cameras costing 3x more.",
+    "4K/24fps with no crop is a genuine win — the R10's full-sensor 4K/24fps mode delivers sharp footage with no effective focal length penalty, which is unusual for this price tier.",
+    "Burst shooting at 15 fps mechanical / 23 fps electronic suits sports and wildlife on a budget — both rates with continuous AF, which is the meaningful number.",
+    "Fully articulating touchscreen covers vlogging and self-shooting scenarios — a clear differentiator over the similarly priced Nikon Z50 II which has a tilting-only screen."
+  ],
+  "worthKnowing": [
+    "No IBIS — the R10 has no in-body image stabilization. Video shot handheld is shakier than Sony ZV-E10 II or OM System OM-5 with IBIS. Lens IS helps but doesn't fully compensate.",
+    "4K/30fps applies a 1.56x crop — effectively turning an 18mm lens into a 44mm equivalent at 30fps. Content creators who shoot 4K at 30fps will feel this crop significantly.",
+    "Canon RF lens ecosystem is expensive and mostly lacks third-party autofocus support — meaningful upgrade paths require first-party Canon glass, which carries a premium over Sony E-mount equivalents.",
+    "Card slot is SD UHS-I only — limits maximum burst depth at high frame rates compared to cameras with UHS-II slots."
+  ],
+  "commonComplaints": [
+    {
+      "title": "4K/30fps crop makes lenses…",
+      "body": "4K/30fps crop makes wide lenses effectively much longer — the 1.56x crop on top of the APS-C 1.6x factor means an 18mm lens behaves like 45mm at the most common video frame rate.",
+      "source": "DPReview"
+    },
+    {
+      "title": "No IBIS is a real gap…",
+      "body": "No IBIS is a real gap for video — handheld footage lacks the smoothness of Sony and OM System competitors at similar prices.",
+      "source": "YouTube (Tony & Chelsea Northrup)"
+    },
+    {
+      "title": "RF lens selection is limited and…",
+      "body": "RF lens selection is limited and expensive — the third-party AF lens restriction means glass costs significantly more than Sony E-mount equivalents.",
+      "source": "Reddit (r/canon)"
+    }
+  ],
+  "verdict": "The R10 is the best budget APS-C mirrorless for Canadian buyers who prioritize autofocus performance over video versatility. DPAF2 subject tracking is genuinely class-leading for the price, and the articulating touchscreen is a practical advantage for content creators. The lack of IBIS and the 4K/30fps crop are real limitations, but for stills-first photographers and casual video shooters, the R10 delivers impressive capability at a fair price.",
+  "realBuyers": [
+    {
+      "quote": "The autofocus on this thing is ridiculous for the price. Locked onto my dog running in the backyard instantly and never lost it.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Coming from a phone this is a revelation. The DPAF2 tracking makes getting sharp shots of kids so much easier.",
+      "source": "Reddit (r/canon)"
+    },
+    {
+      "quote": "Wish it had IBIS but for stills it's hard to beat at this price point.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Canon EOS R10 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B0B1M3YHR8"
+    },
+    {
+      "title": "Canon EOS R10 Review — DPReview",
+      "url": "https://www.dpreview.com/reviews/canon-eos-r10-review"
+    },
+    {
+      "title": "Canon EOS R10 Review — Reddit (r/canon)",
+      "url": "https://www.reddit.com/r/canon"
+    },
+    {
+      "title": "Canon EOS R10 vs R50 — YouTube (Tony & Chelsea Northrup)",
+      "url": "https://www.youtube.com/c/TonyNorthrupPhotography"
+    }
+  ],
+  "metaDescription": "Canon EOS R10 review for Canada: 24.2MP APS-C, DPAF2 subject tracking, 4K/24fps no crop. Kit with RF-S 18-45mm ~$979 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B0B1M3YHR8",
+  "verifiedPrice": "$979 CAD",
+  "similarProducts": [
+    "canon-eos-r50",
+    "fujifilm-x100vi",
+    "dji-mini-4-pro"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

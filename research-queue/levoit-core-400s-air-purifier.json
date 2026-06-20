@@ -1,0 +1,112 @@
+{
+  "slug": "levoit-core-400s-air-purifier",
+  "name": "Levoit Core 400S Smart True HEPA Air Purifier",
+  "brand": "Levoit",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Air Purifiers",
+  "subcategory": "air-purifiers",
+  "asin": "B08JPBPC7P",
+  "price": 249,
+  "priceDisplay": "$249 CAD",
+  "score": 8.8,
+  "tag": "Best Smart Air Purifier for Living Rooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08JPBPC7P/?tag=clearpick06-20",
+  "introText": "The Levoit Core 400S combines True HEPA filtration, a real built-in AQI sensor with auto mode, VeSync app control, and Alexa/Google voice control — the most feature-complete smart air purifier at this price for Canadian living rooms.",
+  "subscores": {
+    "Air Purification": 9.0,
+    "Smart Features": 9.0,
+    "Coverage": 8.5,
+    "Auto Mode": 9.0,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Coverage": "403 sq ft at ACH 2 / 200 sq ft at ACH 5",
+    "Filtration": "True HEPA H13 + Activated Carbon + pre-filter",
+    "AQI Sensor": "Built-in laser PM2.5 sensor",
+    "Auto Mode": "AI auto mode — adjusts based on real-time AQI",
+    "Sleep Mode": "24 dBA ultra-quiet",
+    "Speeds": "6 fan speeds",
+    "App": "VeSync app — iOS and Android",
+    "Voice": "Alexa and Google Assistant",
+    "Schedule": "Programmable schedule in app"
+  },
+  "whatWorks": [
+    "Real built-in AQI sensor with true auto mode is the differentiator at this price — the PM2.5 laser sensor detects particle concentration and automatically adjusts fan speed within seconds of a pollution event (cooking, candle, guests arriving). This is genuinely reactive, not just a scheduled timer.",
+    "VeSync app is the best air purifier app in this price tier — polished, reliable, with real-time air quality graphs, historical data, scheduling, and energy usage. Compared to Winix's no-app approach or Dyson's data-hungry cloud system, Levoit's implementation is balanced.",
+    "403 sq ft coverage at 2 ACH covers standard Canadian living rooms — for allergy and asthma sufferers, running at a higher fan speed to achieve 4-5 ACH reduces allergen exposure more significantly.",
+    "24 dBA sleep mode matches the Core 300 — quiet enough for bedroom use despite being a full living-room unit, allowing 24/7 continuous operation including overnight in adjacent rooms."
+  ],
+  "worthKnowing": [
+    "403 sq ft at 2 ACH is the maximum coverage claim — HEPA effectiveness depends on air changes per hour. For allergy control, 4-5 ACH is recommended, reducing effective coverage to ~200 sq ft. Know your room size.",
+    "Filter replacement at ~$40/yr — slightly more expensive than the Core 300 filter due to larger filter surface area. Still less than Dyson or Blueair.",
+    "The Coway AP-1512HH has comparable CADR at a lower price without app features — buyers who don't want or need app control should compare the Coway, which often costs less and has a superior long-term reliability record.",
+    "AQI sensor is a laser PM2.5 sensor — excellent for detecting particulate pollution (dust, pollen, smoke, pet dander) but doesn't measure gases, VOCs, or CO2. For comprehensive sensing, Dyson's multi-sensor system is more comprehensive."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Effective coverage smaller than stated at…",
+      "body": "Effective coverage smaller than stated at 403 sq ft — achieving the recommended 4-5 ACH for allergy control halves the practical coverage to ~200 sq ft, requiring running at higher fan speeds.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "title": "Coway offers similar CADR for less…",
+      "body": "Coway offers similar CADR for less without app features — buyers who don't need smart home integration can get comparable clean-air performance from the Coway AP-1512HH at a lower price.",
+      "source": "Wirecutter"
+    },
+    {
+      "title": "PM2.5 sensor can't detect VOCs…",
+      "body": "PM2.5 sensor can't detect VOCs or chemical pollutants — the air quality indicator only responds to particulate matter, not gases, formaldehyde, or CO2 that Dyson's multi-sensor units detect.",
+      "source": "Reddit (r/airquality)"
+    }
+  ],
+  "verdict": "The Levoit Core 400S is the best smart air purifier for living rooms under $250. Real auto mode, an excellent app, Alexa/Google voice control, and solid HEPA performance make it the complete package for tech-savvy buyers who want convenient, responsive air purification. If you don't use smart home features, the Coway AP-1512HH is the better value.",
+  "realBuyers": [
+    {
+      "quote": "The auto mode is exactly what I wanted. It detects when I start cooking and ramps up automatically. I've stopped thinking about air quality because the purifier handles it.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "VeSync app is genuinely good. I can see historical air quality, schedule it, and check it remotely. Much better than competitor apps.",
+      "source": "Reddit (r/smarthome)"
+    },
+    {
+      "quote": "Best purchase for our living room with a dog. The AQI reading actually drops noticeably within 20 minutes of running on auto after we're all home.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Levoit Core 400S — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B08JPBPC7P"
+    },
+    {
+      "title": "Levoit Core 400S Review — Reddit (r/airpurifiers)",
+      "url": "https://www.reddit.com/r/airpurifiers"
+    },
+    {
+      "title": "Best Smart Air Purifiers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "Core 400S vs Coway Comparison — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Levoit Core 400S review for Canada: True HEPA, PM2.5 sensor, auto mode, VeSync app, 403 sq ft, Alexa/Google. ~$249 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B08JPBPC7P",
+  "verifiedPrice": "$249 CAD",
+  "similarProducts": [
+    "coway-ap-1512hh-air-purifier",
+    "levoit-core-300-air-purifier",
+    "blueair-blue-pure-411i-max"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

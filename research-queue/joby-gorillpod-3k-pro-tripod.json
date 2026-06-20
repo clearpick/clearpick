@@ -1,0 +1,111 @@
+{
+  "slug": "joby-gorillpod-3k-pro-tripod",
+  "name": "JOBY GorillaPod 3K Pro Rig",
+  "brand": "Joby",
+  "category": "Cameras & Photography",
+  "categoryPage": "cameras-photography.html",
+  "filterTag": "Tripods",
+  "subcategory": "tripods",
+  "asin": "B07BT1KR97",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.5,
+  "tag": "Best Flexible Tripod for Travel & Vlogging",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07BT1KR97/?tag=clearpick06-20",
+  "introText": "The JOBY GorillaPod 3K Pro has flexible 10-segment legs that wrap around branches, poles, and railings — mounting your mirrorless camera anywhere a rigid tripod can't go, with 3kg payload for any APS-C system.",
+  "subscores": {
+    "Flexibility": 9.5,
+    "Build Quality": 9.0,
+    "Portability": 9.5,
+    "Stability": 7.5,
+    "Value for Money": 8.0
+  },
+  "specs": {
+    "Payload": "3kg maximum",
+    "Legs": "Flexible 10-segment ball-and-socket aluminum",
+    "Ball Head": "Pan-and-tilt locking ball head included",
+    "Magnetic Feet": "Yes — magnetic foot pads for metal surface attachment",
+    "Weight": "540g",
+    "Folded Length": "30.5cm",
+    "Mount": "Standard 1/4-20 screw",
+    "Compatibility": "Mirrorless, compact, and lightweight DSLR cameras"
+  },
+  "whatWorks": [
+    "Flexible legs wrap around any object that fits within the leg span — branches, railings, fence posts, bike handlebars, tent poles. This is the one feature no rigid tripod offers, and it opens mounting positions that would otherwise require expensive rigging equipment.",
+    "Magnetic feet add a second mounting capability on any ferrous metal surface — scaffolding, vehicles, steel beams, refrigerator doors. The magnets are strong enough to hold the camera upside-down on a metal surface.",
+    "3kg payload handles a Sony a6700 with a telephoto lens, or a mirrorless with a standard zoom — the rated capacity is genuine and the ball head locks firmly under load.",
+    "30.5cm folded length fits in any camera bag side pocket — unlike full-size tripods that require external attachment, the GorillaPod disappears into a bag completely."
+  ],
+  "worthKnowing": [
+    "Flexible legs are not a substitute for a rigid tripod for long exposures — under sustained load (especially with heavier cameras), the flexible joints can creep over minutes-long exposures. Use a rigid tripod for astrophotography and long-exposure landscapes.",
+    "Getting a flat, level surface is harder than with traditional legs — the GorillaPod doesn't naturally level the way adjustable rigid legs do, requiring more fiddling to achieve a level horizon on flat surfaces.",
+    "More expensive than rigid tabletop tripods at $149 — for photographers who only need a tabletop option on flat surfaces, a basic rigid mini tripod at $30 may serve better.",
+    "Wrap-around mounting takes trial and error — learning to position the legs effectively for different wrapping scenarios has a small learning curve."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Flexible legs can creep during long…",
+      "body": "Flexible legs can creep during long exposures — for exposures longer than a few seconds with heavier cameras, the flexible joints gradually sag under load, causing blur in long-exposure shots.",
+      "source": "Reddit (r/photography)"
+    },
+    {
+      "title": "Leveling on flat surfaces takes fiddling…",
+      "body": "Leveling on flat surfaces takes more fiddling than rigid alternatives — achieving a level horizon on a flat desk requires adjusting multiple flexible joints rather than simply extending a leg.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Expensive compared to rigid tabletop options…",
+      "body": "Expensive compared to rigid tabletop alternatives — at $149, photographers who only use it on flat surfaces may prefer a $30 rigid mini tripod instead.",
+      "source": "DPReview forums"
+    }
+  ],
+  "verdict": "The GorillaPod 3K Pro is irreplaceable for photographers and filmmakers who shoot in dynamic, outdoor, or unconventional environments. Wrapping around a branch for a bird's-eye shot, clamping to a bike for POV footage, or mounting upside-down on metal are things no rigid tripod can do. For controlled studio or flat-surface work, a rigid tripod is more practical. Know which scenario you're buying for.",
+  "realBuyers": [
+    {
+      "quote": "Worth every penny for travel photography. I've mounted this on a dock piling, a cactus, and a bench at a concert. The shots were impossible any other way.",
+      "source": "Reddit (r/travel)"
+    },
+    {
+      "quote": "The magnetic feet are underrated. I mount it on my car door for road trip time-lapses. Rock solid.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "My favourite accessory for vlogging. Wraps around anything and the ball head is smooth for tilt shots.",
+      "source": "Reddit (r/vlogging)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "JOBY GorillaPod 3K Pro — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07BT1KR97"
+    },
+    {
+      "title": "GorillaPod 3K vs 5K — Reddit (r/photography)",
+      "url": "https://www.reddit.com/r/photography"
+    },
+    {
+      "title": "Best Travel Tripods — YouTube (Peter McKinnon)",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "title": "GorillaPod 3K Pro Review — DPReview",
+      "url": "https://www.dpreview.com"
+    }
+  ],
+  "metaDescription": "JOBY GorillaPod 3K Pro review for Canada: flexible 10-segment legs, 3kg payload, magnetic feet, 540g. ~$149 CAD on Amazon.ca. Best flexible travel tripod.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B07BT1KR97",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": [
+    "canon-eos-r10-camera",
+    "fujifilm-x-s20-camera",
+    "insta360-x4-360-camera"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

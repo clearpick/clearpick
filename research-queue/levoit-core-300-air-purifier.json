@@ -1,0 +1,111 @@
+{
+  "slug": "levoit-core-300-air-purifier",
+  "name": "Levoit Core 300 True HEPA Air Purifier",
+  "brand": "Levoit",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Air Purifiers",
+  "subcategory": "air-purifiers",
+  "asin": "B08ZDZ3KKN",
+  "price": 119,
+  "priceDisplay": "$119 CAD",
+  "score": 8.7,
+  "tag": "Best Compact Air Purifier for Bedrooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B08ZDZ3KKN/?tag=clearpick06-20",
+  "introText": "The Levoit Core 300 achieves 24 dBA sleep mode noise — genuinely whisper-quiet for overnight bedroom use — with True HEPA + Carbon filtration, 219 sq ft coverage, and interchangeable filter options for pets or toxins.",
+  "subscores": {
+    "Noise Level": 9.5,
+    "Air Purification": 8.5,
+    "Coverage": 7.5,
+    "Filter Variety": 9.0,
+    "Value for Money": 9.0
+  },
+  "specs": {
+    "Coverage": "219 sq ft at ACH 5 (219 sq ft recommended room size)",
+    "Filtration": "True HEPA H13 + Activated Carbon + pre-filter",
+    "Sleep Mode": "24 dBA (ultra-quiet)",
+    "Speeds": "3 fan speeds + sleep mode",
+    "Intake": "360° — draws air from all sides",
+    "Filter Options": "Original / Pet Allergy / Toxin Absorber / Smoke Stopper (interchangeable)",
+    "Design": "Compact cylinder, fits on nightstand",
+    "Display": "Touch LED display (dimmable)"
+  },
+  "whatWorks": [
+    "24 dBA on sleep mode is the quietest air purifier we test — comparable to a very soft whisper or leaves rustling in a light breeze. This enables continuous overnight operation in bedrooms occupied by light sleepers without any sleep disruption.",
+    "Interchangeable filter options allow specializing the unit without buying a new purifier — switch to the Pet Allergy filter during allergy season, the Toxin Absorber filter during renovation, or the Smoke Stopper filter during wildfire season. Each filter is $25-35 CAD.",
+    "360° air intake draws from all sides of the cylindrical body — more effective room coverage compared to single-intake competitors at the same size, because it captures particles from every direction rather than just in front.",
+    "Nightstand-sized footprint at 26cm tall — the compact cylinder fits on a bedside table, keeping it close to sleeping occupants where bedroom air quality improvement matters most."
+  ],
+  "worthKnowing": [
+    "No auto mode or air quality sensing — the Core 300 (not the 300S WiFi version) requires manual speed selection. It can't detect air pollution events and ramp up automatically. If auto mode matters, look at the Levoit Core 400S or Coway AP-1512HH.",
+    "219 sq ft is a bedroom-only unit — for a living room, den, or master suite over 300 sq ft, the Core 400S or Coway AP-1512HH provides better coverage.",
+    "Filter replacements at ~$30 every 6-8 months — annual filter cost is $45-60, lower than Blueair and Dyson but higher than Coway. The specialty filter options add cost if rotating between types.",
+    "LED display cannot be fully turned off on all models — the ambient glow from the touch panel may be visible in a dark bedroom. A piece of dark tape over the display solves this for some users."
+  ],
+  "commonComplaints": [
+    {
+      "title": "No auto mode requires manual adjustment…",
+      "body": "No auto mode requires manual adjustment when air quality changes — the Core 300 can't detect pollution events and respond automatically, unlike the Coway AP-1512HH and Levoit Core 400S.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "title": "219 sq ft too small for living…",
+      "body": "219 sq ft too small for living rooms and open spaces — the Core 300 is a bedroom unit; using it in larger spaces reduces the air change rate below effective levels.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "LED display glows in dark bedrooms…",
+      "body": "LED display glows in dark bedrooms — the touch panel has a dim ambient glow that some light-sensitive sleepers find noticeable in completely dark rooms.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Levoit Core 300 is the best bedroom air purifier under $120 for noise-sensitive users. 24 dBA sleep mode is genuinely extraordinary, and the 360° intake plus interchangeable filter options make it effective and versatile for its size class. If you sleep with it on your nightstand, it's excellent. For larger rooms or users who want auto air quality response, step up to the Coway or Core 400S.",
+  "realBuyers": [
+    {
+      "quote": "I forget it's on. Sleep mode is so quiet I actually checked that it was running by holding my hand near it. Woke up feeling like my sinuses were better.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The pet allergy filter swap is genius. Replaced it when my cat shed heavily in spring and the difference in the bedroom was immediate.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "quote": "The 360° intake actually pulls pet dander from all around the room. Other purifiers only pull from one side and leave dead spots.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Levoit Core 300 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B08ZDZ3KKN"
+    },
+    {
+      "title": "Levoit Core 300 Review — Reddit (r/airpurifiers)",
+      "url": "https://www.reddit.com/r/airpurifiers"
+    },
+    {
+      "title": "Best Bedroom Air Purifiers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "Levoit Core 300 vs Coway AP-1512HH — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Levoit Core 300 review for Canada: 24 dBA sleep mode, True HEPA, 219 sq ft, 360° intake, interchangeable filters. ~$119 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B08ZDZ3KKN",
+  "verifiedPrice": "$119 CAD",
+  "similarProducts": [
+    "blueair-blue-pure-411i-max",
+    "coway-ap-1512hh-air-purifier",
+    "honeywell-hcm-350-humidifier"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

@@ -1,177 +1,33 @@
-'use strict';
-
-function getVerdictLabel(score) {
-  if (score >= 9.5) return 'Outstanding';
-  if (score >= 9.0) return 'Excellent';
-  if (score >= 8.0) return 'Very Good';
-  if (score >= 7.0) return 'Solid';
-  if (score >= 6.0) return 'Decent';
-  return null;
-}
-
-const CAT_ALIASES = {
-  'Fitness': 'Fitness Equipment',
-};
-
-const CAT_ICONS = {
-  'Headphones':                    '🎧',
-  'Kitchen Appliances':            '🍳',
-  'Outdoor & Camping':             '⛺',
-  'Software':                      '💻',
-  'Smart Home':                    '🏠',
-  'Robot Vacuums':                 '🤖',
-  'Fitness Equipment':             '💪',
-  'Pet Supplies':                  '🐾',
-  'Gaming':                        '🎮',
-  'Lawn & Garden':                 '🌿',
-  'Home Entertainment':            '📺',
-  'Outdoor Cooking':               '🔥',
-  'Cameras & Content Creation':    '📷',
-  'Kitchen & Dining':              '🍽️',
-  'Sports & Fitness':              '🏃',
-  'Outdoor & Garden':              '🌳',
-  'Photography & Video':           '📷',
-  'Cameras & Photography':         '📸',
-  'Home Comfort':                  '🌡️',
-  'Music & Instruments':           '🎸',
-  'Health & Beauty':               '💄',
-  'Office & Work':                 '💼',
-  'Tools & Home Improvement':      '🔧',
-  'BBQ & Outdoor Cooking':         '🍖',
-  'Sports & Outdoors':             '⛰️',
-  'Baby & Kids':                   '👶',
-  'Luggage & Travel':              '🧳',
-  'Automotive':                    '🚗',
-};
-
-const esc = s => String(s)
-  .replace(/&/g, '&amp;')
-  .replace(/</g, '&lt;')
-  .replace(/>/g, '&gt;')
-  .replace(/"/g, '&quot;');
-
-const escJson = s => String(s).replace(/\\/g, '\\\\').replace(/"/g, '\\"');
-
-const truncate = (s, n) => {
-  if (s.length <= n) return s;
-  const cut = s.lastIndexOf(' ', n);
-  return s.slice(0, cut > 0 ? cut : n) + '…';
-};
-
-function renderProductPage(p, products) {
-  const category = CAT_ALIASES[p.category] || p.category;
-  const catIcon  = CAT_ICONS[category] || '📦';
-  const catPage  = p.categoryPage;
-
-  // ── Score bars ────────────────────────────────────────────────────────────────
-  const scoreBarsHtml = Object.entries(p.subscores).map(([label, score]) =>
-    `<div class="clearpick-score-bar">
-<span class="clearpick-score-bar__label">${esc(label)}</span>
-<div class="clearpick-score-bar__track">
-<div class="clearpick-score-bar__fill" style="width:${(score * 10).toFixed(0)}%"></div>
-</div>
-<span class="clearpick-score-bar__value">${Number(score).toFixed(1)}</span>
-</div>`
-  ).join('\n');
-
-  // ── Spec table ────────────────────────────────────────────────────────────────
-  const specsHtml = Object.entries(p.specs).map(([k, v]) =>
-    `<tr><td class="spec-table__label">${esc(k)}</td><td class="spec-table__value">${esc(v)}</td></tr>`
-  ).join('');
-
-  // ── Pros / cons lists ─────────────────────────────────────────────────────────
-  const prosHtml = (p.whatWorks || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-  const consHtml = (p.worthKnowing || []).map(item => `<li>${esc(item)}</li>`).join('\n');
-
-  // ── Real buyers — good cards ──────────────────────────────────────────────────
-  const goodCardsHtml = (p.realBuyers || []).map(b =>
-    `<blockquote class="real-buyers-say__card real-buyers-say__card--good">
-<p class="real-buyers-say__text">"${esc(b.quote)}"</p>
-<cite class="real-buyers-say__source">Source: ${esc(b.source)}</cite>
-</blockquote>`
-  ).join('\n');
-
-  // ── Common complaints — bad cards ─────────────────────────────────────────────
-  // Supports both {title, body, source} and legacy {complaint, source} schemas
-  const badCardsHtml = (p.commonComplaints || []).map(c => {
-    const words = (c.complaint || '').split(/\s+/);
-    const title = c.title || (words.slice(0, 6).join(' ') + (words.length > 6 ? '…' : ''));
-    const body  = c.body  || c.complaint || '';
-    return `<article class="real-buyers-say__card real-buyers-say__card--bad">
-<p class="real-buyers-say__complaint-title">${esc(title)}</p>
-<p class="real-buyers-say__text">${esc(body)}</p>
-<cite class="real-buyers-say__source">Source: ${esc(c.source)}</cite>
-</article>`;
-  }).join('\n');
-
-  const verdictLabel = getVerdictLabel(p.score);
-
-  // ── Sources analyzed pills ────────────────────────────────────────────────────
-  const sourcesAnalyzedHtml = Array.isArray(p.sources_analyzed) && p.sources_analyzed.length
-    ? `<p class="score-sources">
-  <span class="score-sources__label">Sources analyzed:</span>
-    ${p.sources_analyzed.map(s => `<span class="source-pill">${esc(s)}</span>`).join('\n    ')}
-    <a class="score-sources__method-link" href="../methodology.html">· Why you can trust this score →</a>
-</p>`
-    : '';
-
-  // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
-  const similarSection = similar.length ? `<section class="section--similar">
-<div class="container">
-<div class="section__header">
-<span class="section__label">You Might Also Like</span>
-<h2 class="section__title">Similar Products</h2>
-</div>
-<div class="gear-grid">
-${similar.map(s => {
-  const itemSlug = s.page.replace('products/', '');
-  return `<a class="product-card product-card--related" href="${itemSlug}">
-<div class="product-card__inner">
-<div class="product-card__img-wrap"><img alt="${esc(s.name)}" class="product-card__img" loading="lazy" src="${esc(s.image)}"/></div>
-<div class="product-card__body">
-<span class="product-card__tag">${esc(s.tag)}</span>
-<h3 class="product-card__name">${esc(s.name)}</h3>
-<span class="product-card__cta product-card__cta--inline">View Review →</span>
-</div>
-</div>
-</a>`;
-}).join('\n')}
-</div>
-</div>
-</section>` : '';
-
-  // ── Full page HTML ────────────────────────────────────────────────────────────
-  return `<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
 <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>${esc(p.name)} Review 2026 | ClearPick</title>
-<meta name="description" content="${esc(p.metaDescription)}" />
-<meta property="og:title" content="${esc(p.name)} Review 2026 | ClearPick" />
-<meta property="og:description" content="${esc(p.metaDescription)}" />
+<title>Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens Review 2026 | ClearPick</title>
+<meta name="description" content="Fujifilm X-S20 review for Canada: 26.1MP APS-C, 6.2K open-gate video, 5-axis IBIS, 20 film simulations, USB-C streaming. ~$1,399 CAD on Amazon.ca." />
+<meta property="og:title" content="Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens Review 2026 | ClearPick" />
+<meta property="og:description" content="Fujifilm X-S20 review for Canada: 26.1MP APS-C, 6.2K open-gate video, 5-axis IBIS, 20 film simulations, USB-C streaming. ~$1,399 CAD on Amazon.ca." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://clearpick.ca/products/${p.slug}.html" />
-<meta property="og:image" content="${esc((p.images && p.images.hero) || p.image)}" />
-<link rel="canonical" href="https://clearpick.ca/products/${p.slug}.html" />
+<meta property="og:url" content="https://clearpick.ca/products/fujifilm-x-s20-camera.html" />
+<meta property="og:image" content="VERIFY_IMAGE_ID" />
+<link rel="canonical" href="https://clearpick.ca/products/fujifilm-x-s20-camera.html" />
 <meta name="robots" content="index, follow" />
 <link rel="stylesheet" href="../css/style.css" />
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Product",
-  "name": "${escJson(p.name)}",
+  "name": "Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens",
   "review": {
     "@type": "Review",
-    "reviewRating": { "@type": "Rating", "ratingValue": "${p.score}", "bestRating": "10" },
+    "reviewRating": { "@type": "Rating", "ratingValue": "8.8", "bestRating": "10" },
     "author": { "@type": "Organization", "name": "ClearPick" },
-    "reviewBody": "${escJson(p.verdict)}"
+    "reviewBody": "The X-S20 is the best video-oriented APS-C mirrorless under $1,500, period. 6.2K open-gate, strong IBIS, 20 film sims, and USB streaming are hard to beat as a package for content creators and hybrid shooters. If you're primarily a sports or action photographer, Canon's DPAF2 system is more reliable. But for video-first creators who value colour science and maximum recording quality, the X-S20 is outstanding."
   },
   "aggregateRating": {
     "@type": "AggregateRating",
-    "ratingValue": "${p.score}",
+    "ratingValue": "8.8",
     "bestRating": "10",
     "worstRating": "1",
     "reviewCount": "1"
@@ -271,18 +127,18 @@ window.addEventListener('load', () => {
 <div class="breadcrumb">
 <div class="container">
 <a href="../index.html">Home</a> <span>›</span>
-<a href="../${catPage}">${esc(category)}</a> <span>›</span>
-<span>${esc(p.name)}</span>
+<a href="../cameras-photography.html">Cameras &amp; Photography</a> <span>›</span>
+<span>Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens</span>
 </div>
 </div>
 <section class="product-hero section">
 <div class="container">
 <div class="product-hero__inner">
 <div class="product-hero__content">
-<div class="product-hero__category">${esc(category)}</div>
-<h1 class="product-hero__title">${esc(p.name)}</h1>
-<div class="product-hero__tag">${esc(p.tag)}</div>
-<p class="product-hero__desc">${esc(p.introText)}</p>
+<div class="product-hero__category">Cameras &amp; Photography</div>
+<h1 class="product-hero__title">Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens</h1>
+<div class="product-hero__tag">Best Mirrorless for Video Creators</div>
+<p class="product-hero__desc">The Fujifilm X-S20 packs 6.2K/30fps open-gate recording, 5-axis IBIS, 20 film simulations, and USB-C live streaming into a compact APS-C body — the most video-capable camera Fujifilm has offered at this price.</p>
 <div class="clearpick-score-section">
 <div class="clearpick-score-header">
 <div class="clearpick-score-lockup">
@@ -290,18 +146,52 @@ window.addEventListener('load', () => {
 <span class="clearpick-score-lockup__label">ClearPick Score</span>
 </div>
 <div class="clearpick-score-right">
-<span class="clearpick-score-number">${p.score} <span class="clearpick-score-denominator">/ 10</span></span>
-${verdictLabel ? `<div class="clearpick-score-verdict">${verdictLabel}</div>` : ''}
+<span class="clearpick-score-number">8.8 <span class="clearpick-score-denominator">/ 10</span></span>
+<div class="clearpick-score-verdict">Very Good</div>
 </div>
 </div>
 <div class="clearpick-score-bars">
-${scoreBarsHtml}
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Image Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:90%"></div>
 </div>
-${sourcesAnalyzedHtml}
+<span class="clearpick-score-bar__value">9.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Video Quality</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:95%"></div>
+</div>
+<span class="clearpick-score-bar__value">9.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Autofocus</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:80%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.0</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Ease of Use</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+<div class="clearpick-score-bar">
+<span class="clearpick-score-bar__label">Value for Money</span>
+<div class="clearpick-score-bar__track">
+<div class="clearpick-score-bar__fill" style="width:85%"></div>
+</div>
+<span class="clearpick-score-bar__value">8.5</span>
+</div>
+</div>
+
 </div>
 <details class="product-hero__specs">
 <summary>Full Specs</summary>
-<table class="spec-table"><tbody>${specsHtml}</tbody></table>
+<table class="spec-table"><tbody><tr><td class="spec-table__label">Sensor</td><td class="spec-table__value">26.1MP X-Trans BSI CMOS 4</td></tr><tr><td class="spec-table__label">IBIS</td><td class="spec-table__value">7-stop 5-axis in-body stabilization</td></tr><tr><td class="spec-table__label">Max Video</td><td class="spec-table__value">6.2K/30fps (open gate 3:2), 4K/60fps</td></tr><tr><td class="spec-table__label">Log Profile</td><td class="spec-table__value">F-Log2 10-bit internal</td></tr><tr><td class="spec-table__label">Film Simulations</td><td class="spec-table__value">20 Fujifilm film simulations</td></tr><tr><td class="spec-table__label">Streaming</td><td class="spec-table__value">USB-C live streaming (plug-and-play)</td></tr><tr><td class="spec-table__label">Autofocus</td><td class="spec-table__value">Subject Tracking AF 3rd-gen (people, animals, vehicles)</td></tr><tr><td class="spec-table__label">Weight</td><td class="spec-table__value">491g with battery and card</td></tr><tr><td class="spec-table__label">Mount</td><td class="spec-table__value">Fujifilm X-mount</td></tr><tr><td class="spec-table__label">Screen</td><td class="spec-table__value">Fully articulating 3-inch touchscreen</td></tr></tbody></table>
 </details>
 <div class="gear-disclosure" style="margin-top:var(--space-6)">
 <svg fill="none" height="14" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" width="14"><circle cx="12" cy="12" r="10"></circle><line x1="12" x2="12" y1="8" y2="12"></line><line x1="12" x2="12.01" y1="16" y2="16"></line></svg>
@@ -309,11 +199,11 @@ As an Amazon Associate, ClearPick earns from qualifying purchases at no extra co
 </div>
 </div>
 <div class="product-cta-box">
-<img alt="${esc(p.name)} product photo" class="product-cta-box__img" loading="lazy" src="${esc((p.images && p.images.hero) || p.image)}" />
-<div class="product-cta-box__badge">🏆 ${esc(p.tag)}</div>
-<div class="product-cta-box__name">${esc(p.name)}</div>
-<div class="product-cta-box__price">~${esc(p.priceDisplay)} <span>est. on Amazon.ca</span></div>
-<a class="product-cta-main" href="${esc(p.affiliateUrl)}" rel="nofollow noopener noreferrer sponsored" target="_blank">
+<img alt="Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens product photo" class="product-cta-box__img" loading="lazy" src="VERIFY_IMAGE_ID" />
+<div class="product-cta-box__badge">🏆 Best Mirrorless for Video Creators</div>
+<div class="product-cta-box__name">Fujifilm X-S20 Mirrorless Camera with XC 15-45mm Lens</div>
+<div class="product-cta-box__price">~$1,399 CAD <span>est. on Amazon.ca</span></div>
+<a class="product-cta-main" href="https://www.amazon.ca/dp/B0C5VDDXWB/?tag=clearpick06-20" rel="nofollow noopener noreferrer sponsored" target="_blank">
 View on Amazon.ca →
 </a>
 <span class="product-cta-sub">Opens Amazon.ca · Affiliate link</span>
@@ -333,39 +223,109 @@ View on Amazon.ca →
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--pros">✅ What Works</h3>
 <ul class="product-review__list product-review__list--pros">
-${prosHtml}
+<li>6.2K open-gate recording in 3:2 aspect ratio is unique in this price tier — it captures maximum sensor area without crops, giving editors flexibility to reframe in post to any aspect ratio including vertical. No other APS-C camera under $1,500 offers this.</li>
+<li>7-stop 5-axis IBIS is highly effective for both stills and video — handheld video at 1/30s is achievable in many conditions, and the stabilization meaningfully reduces the need for a gimbal for casual video shooting.</li>
+<li>20 Fujifilm film simulations produce out-of-camera JPEG and video output that requires minimal post-processing — Provia, Velvia, Eterna, and others are faithful recreations of classic Fujifilm film stocks beloved by professional photographers.</li>
+<li>USB-C live streaming makes the X-S20 a direct webcam replacement without capture card software — plug into a Mac or Windows PC and it appears as a high-quality camera input immediately.</li>
 </ul>
 </div>
 <div class="product-review__col">
 <h3 class="product-review__col-title product-review__col-title--cons">⚠️ Worth Knowing</h3>
 <ul class="product-review__list product-review__list--cons">
-${consHtml}
+<li>Phase-detect AF is good but trails Sony ZV-E10 II and Canon R10 in fast-action tracking — in sports and wildlife scenarios, subject acquisition speed and lock retention are slightly behind Canon's DPAF2 and Sony's AI subject recognition.</li>
+<li>X-mount has excellent third-party lens support — Sigma and Viltrox both make AF lenses for X-mount that autofocus reliably, giving better upgrade path economics than Canon RF.</li>
+<li>APS-C sensor is smaller than full-frame — not a practical limitation at most ISOs, but worth understanding if you're comparing against full-frame alternatives.</li>
+<li>491g body is slightly heavier than Canon R10 or Nikon Z50 II — still compact, but not the lightest APS-C mirrorless available.</li>
 </ul>
 </div>
 </div>
-${(p.images && p.images.lifestyle) ? `<div class="product-lifestyle-image"><img src="${esc(p.images.lifestyle)}" alt="${esc(p.name)} in use" loading="lazy" /></div>` : ''}
+
 <section class="real-buyers-say">
 <div class="container">
 <h2 class="real-buyers-say__title">What Real Buyers Are Saying</h2>
 <h3 class="real-buyers-say__half-label">What buyers love</h3>
 <div class="real-buyers-say__grid">
-${goodCardsHtml}
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The film simulations alone make it worth it. I'm delivering content straight from camera to clients without colour grading."</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/fujifilm)</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"6.2K open gate is incredible for reframing in edit. I shoot everything at 6.2K and deliver whatever aspect ratio the client needs."</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</blockquote>
+<blockquote class="real-buyers-say__card real-buyers-say__card--good">
+<p class="real-buyers-say__text">"The IBIS is so good I've stopped using my gimbal for walking shots. Handheld looks better than it has any right to."</p>
+<cite class="real-buyers-say__source">Source: YouTube (Fujifilm Guys)</cite>
+</blockquote>
 </div>
 <hr class="real-buyers-say__divider">
 <h3 class="real-buyers-say__half-label">Common complaints</h3>
 <div class="real-buyers-say__grid">
-${badCardsHtml}
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">AF tracking loses subjects in fast…</p>
+<p class="real-buyers-say__text">AF tracking loses subjects in fast-action sports scenarios more often than Canon DPAF2 or Sony's AI recognition — the X-S20 is better suited to controlled shoots than unpredictable action.</p>
+<cite class="real-buyers-say__source">Source: DPReview</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">6.2K recording produces large file sizes…</p>
+<p class="real-buyers-say__text">6.2K recording produces large file sizes that require fast cards and significant storage — a 64GB card fills up in roughly 30 minutes of 6.2K F-Log2 recording.</p>
+<cite class="real-buyers-say__source">Source: Reddit (r/fujifilm)</cite>
+</article>
+<article class="real-buyers-say__card real-buyers-say__card--bad">
+<p class="real-buyers-say__complaint-title">Heavier than expected for an APS-C…</p>
+<p class="real-buyers-say__text">Heavier than expected for an APS-C mirrorless at 491g — smaller alternatives like the Nikon Z50 II come in lighter if portability is the priority.</p>
+<cite class="real-buyers-say__source">Source: Amazon.ca reviewer</cite>
+</article>
 </div>
 </div>
 </section>
-${(p.images && p.images.detail) ? `<div class="product-detail-image"><img src="${esc(p.images.detail)}" alt="${esc(p.name)} detail" loading="lazy" /></div>` : ''}
+
 <div class="product-review__verdict">
 <span class="product-review__verdict-label">ClearPick Verdict</span>
-<p class="product-review__verdict-text">${esc(p.verdict)}</p>
+<p class="product-review__verdict-text">The X-S20 is the best video-oriented APS-C mirrorless under $1,500, period. 6.2K open-gate, strong IBIS, 20 film sims, and USB streaming are hard to beat as a package for content creators and hybrid shooters. If you're primarily a sports or action photographer, Canon's DPAF2 system is more reliable. But for video-first creators who value colour science and maximum recording quality, the X-S20 is outstanding.</p>
 </div>
 </div>
 </section>
-${similarSection}
+<section class="section--similar">
+<div class="container">
+<div class="section__header">
+<span class="section__label">You Might Also Like</span>
+<h2 class="section__title">Similar Products</h2>
+</div>
+<div class="gear-grid">
+<a class="product-card product-card--related" href="fujifilm-x100vi.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Fujifilm X100VI Compact Digital Camera" class="product-card__img" loading="lazy" src="/images/products/fujifilm-x100vi/hero.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Compact Camera for Street Photography</span>
+<h3 class="product-card__name">Fujifilm X100VI Compact Digital Camera</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="canon-eos-r10-camera.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Canon EOS R10 Mirrorless Camera with RF-S 18-45mm Lens" class="product-card__img" loading="lazy" src="VERIFY_IMAGE_ID"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Value APS-C Mirrorless for Beginners</span>
+<h3 class="product-card__name">Canon EOS R10 Mirrorless Camera with RF-S 18-45mm Lens</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+<a class="product-card product-card--related" href="sony-zv-e10-ii-mirrorless-camera.html">
+<div class="product-card__inner">
+<div class="product-card__img-wrap"><img alt="Sony ZV-E10 II Mirrorless Vlogging Camera (Kit with 16-50mm Lens)" class="product-card__img" loading="lazy" src="/images/products/sony-zv-e10-ii-mirrorless-camera/hero.jpg"/></div>
+<div class="product-card__body">
+<span class="product-card__tag">Best Mirrorless Vlogging Camera for Beginners</span>
+<h3 class="product-card__name">Sony ZV-E10 II Mirrorless Vlogging Camera (Kit with 16-50mm Lens)</h3>
+<span class="product-card__cta product-card__cta--inline">View Review →</span>
+</div>
+</div>
+</a>
+</div>
+</div>
+</section>
 <footer class="site-footer">
 <div class="container">
 <div class="footer-bottom">
@@ -384,7 +344,4 @@ document.addEventListener('click', e => { const dd = document.querySelector('.na
 <script src="../js/search.js"></script>
 <script src="../js/compare.js"></script>
 </body>
-</html>`;
-}
-
-module.exports = { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate };
+</html>

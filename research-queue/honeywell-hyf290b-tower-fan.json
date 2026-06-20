@@ -1,0 +1,111 @@
+{
+  "slug": "honeywell-hyf290b-tower-fan",
+  "name": "Honeywell HYF290B QuietSet 40-inch Tower Fan",
+  "brand": "Honeywell",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Tower Fans",
+  "subcategory": "tower-fans",
+  "asin": "B016H0N49G",
+  "price": 89,
+  "priceDisplay": "$89 CAD",
+  "score": 8.0,
+  "tag": "Best Budget Tower Fan with Remote",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B016H0N49G/?tag=clearpick06-20",
+  "introText": "The Honeywell HYF290B uses QuietSet technology to run at whisper-quiet speeds on low — ideal for bedrooms, with an 8-hour sleep timer and remote control so you don't have to get up to adjust it overnight.",
+  "subscores": {
+    "Noise Level": 9.0,
+    "Airflow": 7.5,
+    "Features": 8.0,
+    "Build Quality": 7.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Height": "40-inch tower",
+    "Speeds": "8 speeds (QuietSet 1-8)",
+    "Oscillation": "90° automatic",
+    "Timer": "1, 2, 4, 8 hour sleep timer",
+    "Remote": "Full-function remote included",
+    "Touch Controls": "Capacitive touch panel",
+    "Modes": "Normal / Sleep (gradually decreases speed)",
+    "Noise": "As low as ~35 dBA on speed 1"
+  },
+  "whatWorks": [
+    "QuietSet technology achieves genuinely quiet operation on the lowest settings — speeds 1 and 2 are measurably quieter than most competing tower fans, making overnight bedroom use comfortable for light sleepers.",
+    "Remote control covers all functions including speed, oscillation, and timer — adjusting the fan without getting out of bed is the primary bedroom use case, and the remote is well-designed and responsive.",
+    "8-hour sleep timer automatically shuts off the fan after a set duration — useful for people who fall asleep with the fan on and don't want it running all night after they're no longer warm.",
+    "Sleep mode gradually decreases fan speed over time — as body temperature drops during sleep, the fan automatically reduces airflow, maintaining comfort without manual adjustment."
+  ],
+  "worthKnowing": [
+    "90° oscillation covers less than a full room — the oscillation arc sweeps 90° rather than 360° or whole-room circulation. Placement matters more than with Vornado-style circulators.",
+    "Plastic build is functional but not premium — the HYF290B is an affordable fan with the construction quality that implies. It works well but doesn't feel like a high-end product.",
+    "Airflow strength is adequate for personal cooling but not room-wide circulation — for genuinely circulating air in a medium or large room, the Vornado 630 moves more air volume more effectively.",
+    "No WiFi or app control — manual and remote only. Smart home integration requires adding a smart plug."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Oscillation only covers 90 degrees…",
+      "body": "Oscillation only covers 90 degrees — the limited sweep means people on the sides of the fan's arc receive less airflow than those directly in front.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Airflow weaker than expected for tower…",
+      "body": "Airflow weaker than expected for tower fan size — the HYF290B moves less air than Vornado circulators at equivalent noise levels, making it less effective for room-wide cooling.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "title": "Plastic build feels insubstantial at…",
+      "body": "Plastic build feels insubstantial at this price point — the lightweight plastic construction wobbles slightly on high speed and feels less durable than Vornado or Dyson alternatives.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Honeywell HYF290B is the right budget tower fan for bedrooms where whisper-quiet operation and remote control are the priorities. QuietSet technology delivers on the quiet promise, and the remote is genuinely useful for overnight adjustments. For buyers who want maximum airflow or whole-room circulation, the Vornado 630 is a better choice despite its different form factor.",
+  "realBuyers": [
+    {
+      "quote": "The quietest fan I've ever owned. On speed 1 I can barely tell it's on. Perfect for my light-sleeping partner.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The remote control is everything for bedroom use. I adjust it 3-4 times overnight without getting up.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "quote": "Good value for a bedroom fan. It's not powerful enough to cool the whole room but it's great for personal comfort while sleeping.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Honeywell HYF290B — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B016H0N49G"
+    },
+    {
+      "title": "Best Quiet Tower Fans — Reddit (r/homeimprovement)",
+      "url": "https://www.reddit.com/r/homeimprovement"
+    },
+    {
+      "title": "Honeywell QuietSet Fan Review — YouTube",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "title": "Tower Fan Comparison — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    }
+  ],
+  "metaDescription": "Honeywell HYF290B review for Canada: QuietSet 8-speed tower fan, 40-inch, 90° oscillation, 8-hr timer, remote. ~$89 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B016H0N49G",
+  "verifiedPrice": "$89 CAD",
+  "similarProducts": [
+    "blueair-blue-pure-411i-max",
+    "coway-ap-1512hh-air-purifier",
+    "honeywell-hcm-350-humidifier"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

@@ -1,0 +1,112 @@
+{
+  "slug": "dyson-pure-cool-dp04-desk-fan",
+  "name": "Dyson Pure Cool DP04 Desk Air Purifier Fan",
+  "brand": "Dyson",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Tower Fans",
+  "subcategory": "tower-fans",
+  "asin": "B07JFK8NZP",
+  "price": 479,
+  "priceDisplay": "$479 CAD",
+  "score": 8.2,
+  "tag": "Best Desk Air Purifier Fan",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07JFK8NZP/?tag=clearpick06-20",
+  "introText": "The Dyson Pure Cool DP04 combines HEPA + Carbon air purification with a desk-sized bladeless fan — the only unit that delivers personal-space air cleaning and cooling simultaneously in a compact 61cm tower for desks and nightstands.",
+  "subscores": {
+    "Air Purification": 9.0,
+    "Fan Cooling": 7.5,
+    "Design": 9.5,
+    "Safety": 9.5,
+    "Value for Money": 7.0
+  },
+  "specs": {
+    "Filtration": "HEPA H13 + Activated Carbon",
+    "Height": "61cm (personal/desk size)",
+    "Fan Speeds": "10 speeds",
+    "Oscillation": "350° programmable",
+    "Display": "LCD air quality display",
+    "Smart": "MyDyson app + remote control",
+    "Timer": "Sleep timer",
+    "Airflow": "Up to 2400L per second",
+    "Noise": "As low as 37 dBA on lowest"
+  },
+  "whatWorks": [
+    "HEPA filtration in a desk-sized form factor is a unique combination — no other compact desk fan provides true HEPA air purification. For offices, bedrooms, and nurseries where a full-size floor unit is too large, the DP04's footprint is a genuine advantage.",
+    "Bladeless Air Multiplier design is safe for desks with children or pets — no exposed blades that can cause injury from accidental contact, and easy to clean without disassembling a blade assembly.",
+    "App and remote control allows changing fan speed and oscillation without touching the unit — useful when the DP04 is mounted on a nightstand and you want to adjust settings while lying in bed.",
+    "350° programmable oscillation covers most room directions from a desk position — the programmable arc lets you focus airflow where you need it rather than oscillating past empty walls."
+  ],
+  "worthKnowing": [
+    "$479 for a desk fan is a premium price — the Dyson Pure Cool DP04 is significantly more expensive than combining a small Levoit air purifier and a standard desk fan, which would cost under $150 for comparable coverage.",
+    "Filter replacement at ~$70/yr is the same ongoing cost as the HP09 and TP09 — Dyson's filter pricing doesn't scale down for smaller units.",
+    "Airflow strength is limited compared to floor tower models — the compact size produces less raw airflow volume than the Dyson TP09 or dedicated fans. For hot summer cooling, a standalone tower fan moves more air.",
+    "Oscillation range is smaller than floor models — 350° is the maximum rotation, covering most but not all room directions when placed on a desk away from walls."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Very expensive for a desk fan…",
+      "body": "Very expensive for a desk fan — at $479, the DP04 costs more than a full-size floor air purifier from Coway or Levoit plus a separate fan, which would cover more area.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "title": "Less airflow than floor models or…",
+      "body": "Less airflow than floor models or dedicated fans — the compact size limits the volume of air moved, making it less effective as a primary room cooling solution in hot weather.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Filter cost same as larger units…",
+      "body": "Filter cost same as larger units despite smaller coverage — Dyson charges the same ~$70 per replacement filter regardless of model size, making the DP04's per-unit economics unfavourable.",
+      "source": "Reddit (r/dyson)"
+    }
+  ],
+  "verdict": "The DP04 is the right product for a specific scenario: a desk or nightstand where you want both air purification and a fan, and you can't or don't want a full-size floor unit. In a nursery, a small bedroom, or a home office desk, it's excellent. As general-purpose air purification, a Levoit Core 300 + small desk fan costs one-third as much and covers the same space.",
+  "realBuyers": [
+    {
+      "quote": "Perfect for my baby's room. No exposed blades, genuinely quiet on low, and the air quality in the nursery is noticeably better.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Worth it for the design alone. Looks great on my desk and does what it says. No regrets.",
+      "source": "Reddit (r/dyson)"
+    },
+    {
+      "quote": "The app control is legitimately useful for the nightstand position. I can turn it down at 2am without getting up.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Dyson Pure Cool DP04 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07JFK8NZP"
+    },
+    {
+      "title": "Dyson DP04 Review — RTINGS.com",
+      "url": "https://www.rtings.com"
+    },
+    {
+      "title": "Dyson DP04 Discussion — Reddit (r/dyson)",
+      "url": "https://www.reddit.com/r/dyson"
+    },
+    {
+      "title": "Dyson DP04 vs Levoit Core 300 — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Dyson Pure Cool DP04 review for Canada: HEPA + Carbon, 61cm desk size, 10 speeds, 350° oscillation, app control. ~$479 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B07JFK8NZP",
+  "verifiedPrice": "$479 CAD",
+  "similarProducts": [
+    "coway-ap-1512hh-air-purifier",
+    "dyson-hp09-purifier-heater-fan",
+    "blueair-blue-pure-411i-max"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

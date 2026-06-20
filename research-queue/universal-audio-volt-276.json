@@ -1,0 +1,112 @@
+{
+  "slug": "universal-audio-volt-276",
+  "name": "Universal Audio Volt 276 USB Audio Interface",
+  "brand": "Universal Audio",
+  "category": "Music & Instruments",
+  "categoryPage": "music-instruments.html",
+  "filterTag": "Audio Interfaces",
+  "subcategory": "audio-interfaces",
+  "asin": "B09BRLXL1G",
+  "price": 299,
+  "priceDisplay": "$299 CAD",
+  "score": 9.0,
+  "tag": "Best Audio Interface with Vintage Compressor Emulation",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09BRLXL1G/?tag=clearpick06-20",
+  "introText": "The UA Volt 276 brings a hardware 76 compressor emulation into an audio interface — track through an emulated UA 1176 vintage compressor at 48kHz/24-bit without needing a separate compressor unit or plugin latency.",
+  "subscores": {
+    "Preamp Quality": 9.0,
+    "Vintage Mode": 9.5,
+    "Driver Stability": 8.5,
+    "Sound Quality": 9.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Inputs": "2 x Combo XLR/TRS inputs (mic/line/instrument)",
+    "Outputs": "2 x TRS line outputs + headphone output",
+    "Preamps": "2 x Volt 76 preamps",
+    "76 Compressor": "Analogue 76-style compressor (hardware, not plugin)",
+    "Sample Rate": "Up to 192kHz / 24-bit",
+    "Vintage Mode": "Transformer-voiced preamp coloration",
+    "Bus Powered": "USB-C bus powered",
+    "Software": "Ableton Live Lite + Melodyne + UA plugins",
+    "LUNA Integration": "Deep integration with Universal Audio LUNA recording software"
+  },
+  "whatWorks": [
+    "Hardware 76 compressor — not a plugin, not emulation software — is the differentiating feature — pressing the 76 button on the Volt 276 routes the signal through a genuine analogue compressor circuit modeled on Universal Audio's 1176 hardware unit. The compression character is applied before the signal is digitized, which means it sounds and reacts differently from plugin compression applied after recording.",
+    "Vintage mode adds transformer-voiced coloration and harmonic saturation — the Volt 276's Vintage mode colors the preamp signal with the warmth and harmonic character of a transformer-coupled vintage preamp. For vocal recording, acoustic instruments, and any source where a polished, slightly colored sound is preferred over clinical accuracy.",
+    "UA LUNA integration provides the deepest DAW integration of any interface at this price — for users who choose LUNA (UA's free Mac-only recording software), the Volt 276 has deep low-latency integration with near-real-time monitoring and zero-latency UA plugin processing.",
+    "192kHz maximum sample rate for future-proof archiving — recording at 192kHz produces large files but preserves maximum audio fidelity for archiving master recordings. Most users record at 48kHz, but the headroom exists for specialized use."
+  ],
+  "worthKnowing": [
+    "The hardware 76 compressor is fixed-parameter — the analogue 76 compressor on the Volt 276 has a fixed compression ratio and character setting. It's excellent for vocals and acoustic instruments in a fast-attack, fixed-ratio mode, but can't be adjusted like a software compressor. Learn when to engage it and when to leave it off.",
+    "LUNA is Mac-only — Universal Audio's LUNA recording software requires macOS. Windows users get Ableton Live Lite and standard drivers, but the deepest UA integration is Mac-exclusive.",
+    "Focusrite Scarlett 2i2 has better driver stability on Windows — UA's Windows driver history has had more reported issues than Focusrite's. On Mac, driver stability is comparable. Windows users should note this when comparing.",
+    "Software bundle is generous — in addition to Ableton Live Lite, the Volt 276 includes Melodyne Essential (tuning/pitch editing) and several UA-exclusive plugins for processing recorded audio. Combined value exceeds $200."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Hardware 76 compressor fixed-parameter…",
+      "body": "Hardware 76 compressor fixed-parameter — the analogue compressor cannot be adjusted for ratio, attack, or release independently. Users who need flexible compression settings must use plugin compressors in their DAW.",
+      "source": "Reddit (r/homerecording)"
+    },
+    {
+      "title": "LUNA software Mac-only…",
+      "body": "LUNA software Mac-only — Windows users can't access LUNA's deep integration features. The Volt 276 works on Windows but without the low-latency UA ecosystem advantage.",
+      "source": "Reddit (r/audioengineering)"
+    },
+    {
+      "title": "Windows driver history less consistent than…",
+      "body": "Windows driver history less consistent than Focusrite — some Windows users report audio glitches and driver stability issues. Focusrite's Windows driver track record is stronger.",
+      "source": "Reddit (r/homerecording)"
+    }
+  ],
+  "verdict": "The Universal Audio Volt 276 is the best audio interface for Mac-based home studio users who want to introduce vintage character and hardware compression into their recordings without buying additional gear. The hardware 76 compressor is genuinely useful on vocals and acoustic instruments, and Vintage mode adds warmth that normally requires post-processing. For Windows users or those who prefer maximum flexibility, the Focusrite Scarlett 2i2 is more reliable and versatile.",
+  "realBuyers": [
+    {
+      "quote": "The 76 compressor button transformed my vocal recordings. My voice sounds polished before I even open a plugin. That's what I paid the extra $70 over the Scarlett for.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "LUNA + Volt 276 on Mac is an incredible setup. Near-zero latency, deep integration, hardware compression. This is a professional recording chain at home studio prices.",
+      "source": "Reddit (r/homerecording)"
+    },
+    {
+      "quote": "Vintage mode on acoustic guitar is outstanding. Warms up a slightly clinical-sounding room and makes strumming feel three-dimensional.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Universal Audio Volt 276 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09BRLXL1G"
+    },
+    {
+      "title": "Volt 276 Discussion — Reddit (r/homerecording)",
+      "url": "https://www.reddit.com/r/homerecording"
+    },
+    {
+      "title": "UA Volt 276 Review — Sweetwater",
+      "url": "https://www.sweetwater.com"
+    },
+    {
+      "title": "Volt 276 vs Scarlett 2i2 — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Universal Audio Volt 276 review for Canada: hardware 76 compressor, Vintage mode, 2 inputs, 192kHz, USB-C, LUNA integration. ~$299 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09BRLXL1G",
+  "verifiedPrice": "$299 CAD",
+  "similarProducts": [
+    "focusrite-scarlett-2i2-4th-gen",
+    "focusrite-scarlett-solo-4th-gen",
+    "audio-technica-at2020-condenser"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

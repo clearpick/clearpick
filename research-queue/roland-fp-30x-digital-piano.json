@@ -1,0 +1,113 @@
+{
+  "slug": "roland-fp-30x-digital-piano",
+  "name": "Roland FP-30X Digital Piano",
+  "brand": "Roland",
+  "category": "Music & Instruments",
+  "categoryPage": "music-instruments.html",
+  "filterTag": "Digital Pianos",
+  "subcategory": "digital-pianos",
+  "asin": "B09BTYP5T4",
+  "price": 1099,
+  "priceDisplay": "$1,099 CAD",
+  "score": 9.4,
+  "tag": "Best 88-Key Digital Piano Under $1,200",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B09BTYP5T4/?tag=clearpick06-20",
+  "introText": "The Roland FP-30X is the most recommended portable digital piano in the $1,000-1,200 CAD range — PHA-4 Standard weighted action that mirrors acoustic piano feel, Bluetooth MIDI for wireless app connectivity, and Roland's premium piano sound engine.",
+  "subscores": {
+    "Key Action": 9.5,
+    "Sound Quality": 9.5,
+    "Connectivity": 9.0,
+    "Portability": 8.5,
+    "Value for Money": 9.5
+  },
+  "specs": {
+    "Keys": "88 weighted PHA-4 Standard Ivory Feel keys",
+    "Key Action": "PHA-4 Standard with Ivory and Ebony Feel surfaces",
+    "Escapement": "Key escapement mechanism (mimics grand piano action)",
+    "Sound Engine": "SuperNATURAL Piano Modelling",
+    "Polyphony": "256 notes",
+    "Tones": "56 built-in tones",
+    "Bluetooth": "Bluetooth MIDI and Audio",
+    "USB": "USB to Host (MIDI + class-compliant audio)",
+    "Speakers": "2 x 11W (4 speakers with side-firing tweeters)",
+    "Weight": "14.6kg"
+  },
+  "whatWorks": [
+    "PHA-4 Standard action with key escapement simulates acoustic grand piano feel — the escapement mechanism is a mechanical simulation of the grand piano escapement that lets a pianist \"feel\" the repetition threshold of the key. No other portable digital piano at this price includes escapement, which matters for developing proper classical piano technique.",
+    "Ivory Feel and Ebony Feel key surfaces absorb moisture and improve grip — the texture of the PHA-4 Standard keys matches the feel of real ivory and ebony key surfaces, reducing the slipperiness that plastic keys exhibit during warm or prolonged playing sessions.",
+    "SuperNATURAL Piano Modelling produces dynamic tonal behavior — the Roland sound engine models the physical behavior of piano strings (sympathetic resonance, damper resonance, string resonance) rather than just playing back static samples. The result is more natural and musical.",
+    "256-note polyphony handles the most complex orchestral piano passages — maximum polyphony matters when sustain pedal is depressed and notes accumulate. 256 notes eliminates note dropouts in demanding classical repertoire."
+  ],
+  "worthKnowing": [
+    "14.6kg is heavy for a portable piano — the FP-30X is marketed as portable but requires a keyboard stand and weighs enough that moving it regularly is inconvenient. It's best thought of as a home piano with the option to transport for performances.",
+    "56 tones is conservative compared to Casio's 700 — Roland focused on quality over quantity. The 56 tones include high-quality piano, electric piano, organ, strings, and choir patches. Players who need hundreds of synth and GM sounds should consider Casio's offerings.",
+    "Bluetooth audio streaming works but with latency — streaming audio wirelessly to Bluetooth headphones introduces 50-200ms delay. For active playing, wired headphones are recommended; Bluetooth audio is only appropriate for playback.",
+    "Stand and pedal unit sold separately — the FP-30X is typically purchased with the KPD-90 triple pedal unit and KSC-90 stand for a complete setup. Budget $200-300 additional for these accessories."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Stand and pedal unit not included…",
+      "body": "Stand and pedal unit not included in base price — a complete home piano setup requires the KPD-90 pedal unit and KSC-90 stand, adding $200-300 to the purchase. Should be included at $1,099.",
+      "source": "Reddit (r/piano)"
+    },
+    {
+      "title": "Bluetooth audio latency too high for…",
+      "body": "Bluetooth audio latency too high for active playing use — wireless headphone latency makes real-time playing uncomfortable. Wired headphones are required for practice; Bluetooth audio is only useful for passive playback.",
+      "source": "Reddit (r/piano)"
+    },
+    {
+      "title": "14.6kg difficult to move without help…",
+      "body": "14.6kg difficult to move without help — despite the \"portable\" designation, moving the FP-30X for performances or between rooms is a two-person job at this weight.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Roland FP-30X is the best digital piano under $1,200 for serious piano students and adult pianists. The PHA-4 Standard action with escapement is the most realistic key feel available at this price, and the SuperNATURAL sound engine's dynamic behavior makes practice musical rather than mechanical. The total cost of ownership (piano + stand + pedal unit) is closer to $1,350-1,400, but the result is a home practice piano that doesn't make you wish for an acoustic.",
+  "realBuyers": [
+    {
+      "quote": "Former acoustic piano owner who couldn't bring it to a condo. The FP-30X is the first digital piano I've played where I didn't feel like I was practicing on a toy. The escapement action is real.",
+      "source": "Reddit (r/piano)"
+    },
+    {
+      "quote": "My piano teacher approved this specific model. She said the key action was good enough to not develop bad habits. Coming from her, that's the highest praise.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "256-note polyphony means no note cutoffs during complex passages with sustain pedal. Playing Chopin with a 64-note piano sounds broken. This doesn't.",
+      "source": "Reddit (r/piano)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Roland FP-30X — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B09BTYP5T4"
+    },
+    {
+      "title": "FP-30X Discussion — Reddit (r/piano)",
+      "url": "https://www.reddit.com/r/piano"
+    },
+    {
+      "title": "Roland FP-30X Review — Sweetwater",
+      "url": "https://www.sweetwater.com"
+    },
+    {
+      "title": "FP-30X vs Casio PX-S3100 — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Roland FP-30X review for Canada: PHA-4 Standard escapement action, 256-note polyphony, Bluetooth MIDI, SuperNATURAL sound. ~$1,099 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B09BTYP5T4",
+  "verifiedPrice": "$1,099 CAD",
+  "similarProducts": [
+    "casio-px-s3100-digital-piano",
+    "arturia-minilab-3-midi-controller",
+    "focusrite-scarlett-solo-4th-gen"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

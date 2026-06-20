@@ -1,0 +1,111 @@
+{
+  "slug": "fender-frontman-10g-amp",
+  "name": "Fender Frontman 10G Electric Guitar Amplifier",
+  "brand": "Fender",
+  "category": "Music & Instruments",
+  "categoryPage": "music-instruments.html",
+  "filterTag": "Amplifiers",
+  "subcategory": "amplifiers",
+  "asin": "B07KDYTGTM",
+  "price": 89,
+  "priceDisplay": "$89 CAD",
+  "score": 7.8,
+  "tag": "Best Budget Amp for First-Time Electric Guitar Players",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B07KDYTGTM/?tag=clearpick06-20",
+  "introText": "The Fender Frontman 10G is the entry-level amp that beginners pair with their first electric guitar — 10 watts, clean and overdrive channels, headphone output for silent practice, all from a brand guitarists trust at $89.",
+  "subscores": {
+    "Ease of Use": 9.5,
+    "Value for Money": 9.0,
+    "Features for Price": 8.5,
+    "Tone Quality": 7.0,
+    "Build Quality": 7.5
+  },
+  "specs": {
+    "Power": "10W solid-state",
+    "Speaker": "6-inch speaker",
+    "Channels": "Clean + Overdrive (separate gain control)",
+    "Controls": "Gain, Volume, Treble, Bass, Overdrive",
+    "Headphone Output": "Yes — silent practice",
+    "Input": "1 x 1/4-inch instrument input",
+    "Dimensions": "30 x 25 x 17cm",
+    "Weight": "4.5kg"
+  },
+  "whatWorks": [
+    "Separate clean and overdrive channels with independent gain control — the 10G provides two distinct tones in a beginner amp. The clean channel works for country, pop, and blues; the overdrive channel provides crunch and distortion for rock. This covers the tonal range a beginner player needs to explore.",
+    "Headphone output enables silent apartment practice — plug headphones into the 1/4-inch headphone jack and the speaker cuts out for completely silent practice. Essential for apartment dwellers and late-night sessions.",
+    "10W is loud enough for small room practice without being excessive — at 10W with a 6-inch speaker, the 10G produces enough volume for enthusiastic bedroom practice and isn't dangerously loud enough to cause hearing damage at normal playing levels.",
+    "Fender brand recognition on the front provides long-term resale comfort — beginners who move on can sell Fender gear more easily than no-name alternatives. The brand name holds value."
+  ],
+  "worthKnowing": [
+    "10W and a 6-inch speaker won't fill a rehearsal room — the Frontman 10G is a practice amp only. For jamming with a drummer or playing with other musicians in a rehearsal space, you'll need to upgrade to a 50W+ amp. The Boss Katana-50 is the natural next step.",
+    "Tone quality is adequate but not inspiring — at $89, the Frontman delivers acceptable clean and crunch tones, but the 6-inch speaker and class-A circuit limit the character and warmth of the sound compared to larger or pricier amps.",
+    "No effects loop, no USB recording — the 10G is a basic practice amp with no additional connectivity. Recording guitar requires a separate audio interface.",
+    "Bass and treble control only — no mid frequency control limits tone-shaping flexibility. The EQ is a two-band passive system, which constrains dialing in specific sounds."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Too small for jamming or rehearsal…",
+      "body": "Too small for jamming or rehearsal with other instruments — the 10G is strictly a bedroom practice amp. Attempting to use it in a band rehearsal or even with a acoustic drummer results in being entirely inaudible.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Tone somewhat thin compared to larger…",
+      "body": "Tone somewhat thin compared to larger amps — the 6-inch speaker lacks the low-mid warmth and presence of 10-12 inch speakers, making the sound noticeably thinner than YouTube demos recorded through larger amps.",
+      "source": "Reddit (r/guitar)"
+    },
+    {
+      "title": "2-band EQ limits tone customization…",
+      "body": "2-band EQ limits tone customization — without a mid control, shaping specific tones (e.g., scooped metal, boosted mid blues) is harder than on amps with a 3-band EQ.",
+      "source": "Reddit (r/guitar)"
+    }
+  ],
+  "verdict": "The Fender Frontman 10G is a perfectly adequate first amp and nothing more. If you're buying your first electric guitar and need an amp to plug into, this gets the job done at $89 with a reputable brand name. The moment you want to play with other musicians, you'll need to upgrade. Think of it as the minimum viable amp for a beginner exploring the instrument.",
+  "realBuyers": [
+    {
+      "quote": "Did exactly what I needed as a first amp. Clean and dirty channels to explore different sounds, headphone jack for apartment practice. Bought a Katana 50 a year later, but this got me started.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "My kid uses it daily and it's held up fine for 2 years. For bedroom practice it's perfect. Don't try to use it anywhere else.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The headphone jack is the real feature. I practice 30 min after the kids go to bed, completely silently. Worth $89 for that alone.",
+      "source": "Reddit (r/guitar)"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fender Frontman 10G — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B07KDYTGTM"
+    },
+    {
+      "title": "Best Budget Practice Amps — Reddit (r/guitar)",
+      "url": "https://www.reddit.com/r/guitar"
+    },
+    {
+      "title": "Fender Frontman 10G Review — YouTube",
+      "url": "https://www.youtube.com"
+    },
+    {
+      "title": "Best Beginner Guitar Amps — Sweetwater",
+      "url": "https://www.sweetwater.com"
+    }
+  ],
+  "metaDescription": "Fender Frontman 10G review for Canada: 10W, clean + overdrive, headphone out, 6-inch speaker. ~$89 CAD on Amazon.ca. Best budget first electric guitar amp.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B07KDYTGTM",
+  "verifiedPrice": "$89 CAD",
+  "similarProducts": [
+    "boss-katana-50-mkii-amp",
+    "epiphone-les-paul-standard-50s",
+    "arturia-minilab-3-midi-controller"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

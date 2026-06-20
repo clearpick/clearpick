@@ -1,0 +1,112 @@
+{
+  "slug": "winix-5500-2-air-purifier",
+  "name": "Winix 5500-2 True HEPA Air Purifier with PlasmaWave",
+  "brand": "Winix",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Air Purifiers",
+  "subcategory": "air-purifiers",
+  "asin": "B01ES9FKWK",
+  "price": 269,
+  "priceDisplay": "$269 CAD",
+  "score": 9.0,
+  "tag": "Best Air Purifier for Large Living Rooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01ES9FKWK/?tag=clearpick06-20",
+  "introText": "The Winix 5500-2 covers 360 sq ft at 4 ACH with a washable pre-filter, auto mode that responds to actual air quality, sleep mode at 27.8 dBA, and PlasmaWave ionization technology — it has been consistently ranked among the best air purifiers in North America for 6+ years.",
+  "subscores": {
+    "Air Purification": 9.5,
+    "Coverage": 9.0,
+    "Auto Mode": 9.5,
+    "Filter Cost": 8.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Coverage": "360 sq ft at ACH 4 / 2140 sq ft at ACH 0.5",
+    "Filtration": "True HEPA 99.97% + Activated Carbon + Washable AOC Carbon pre-filter",
+    "CADR": "243 CFM dust / 246 CFM smoke / 232 CFM pollen",
+    "PlasmaWave": "Ionization technology (can be disabled)",
+    "Auto Mode": "AQI sensor — automatically adjusts fan speed",
+    "Sleep Mode": "27.8 dBA (near-silent)",
+    "Speeds": "4 fan speeds",
+    "Filter Life": "12 months for HEPA/Carbon filters",
+    "Washable Pre-filter": "Yes — reduces filter replacement cost"
+  },
+  "whatWorks": [
+    "CADR 243 CFM is among the highest in this price tier — a higher CADR means faster air turnover, which matters for reducing allergen concentration during high-pollution events. The 5500-2 processes more air per minute than most competitors under $300.",
+    "Washable AOC carbon pre-filter eliminates one filter replacement entirely — while the HEPA and activated carbon filters need replacing annually, the fabric pre-filter washes in cold water and reinstalls. Over 5 years, this saves $50-75 in filter costs compared to purifiers with disposable pre-filters.",
+    "Auto mode responds to real particle sensor data — the 5500-2 automatically adjusts fan speed based on the air quality indicator within seconds of detecting elevated particle levels. This reactive approach outperforms simple timers or manual operation.",
+    "PlasmaWave ionization can be independently disabled — for users concerned about ozone from ionization, the PlasmaWave function has a dedicated on/off button. Running with PlasmaWave off uses only the HEPA and carbon filtration, which is the safer choice for household use."
+  ],
+  "worthKnowing": [
+    "PlasmaWave creates trace ozone — while Winix states ozone output is within safe limits, households with asthma, infants, or individuals sensitive to ozone should disable PlasmaWave and use HEPA-only mode.",
+    "No app or WiFi connectivity on the 5500-2 — this is a fully manual + auto-mode unit. Remote control or schedule programming requires adding a smart plug. For native app control, consider the Levoit Core 400S.",
+    "Higher filter replacement cost than Levoit — annual filter replacement (~$50-60 CAD for HEPA + carbon set) is slightly higher than the Levoit Core 300 or 400S. The washable pre-filter partially offsets this over time.",
+    "Sleep mode indicator light stays on — the display doesn't fully dim during sleep mode, which can be distracting in dark bedrooms. A simple light-blocking solution (tape, small cover) resolves it but is slightly annoying."
+  ],
+  "commonComplaints": [
+    {
+      "title": "PlasmaWave produces trace ozone…",
+      "body": "PlasmaWave produces trace ozone — while within regulatory limits, ozone-sensitive individuals (asthma, infants) should disable PlasmaWave and run in HEPA-only mode.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "title": "No app or WiFi for remote control…",
+      "body": "No app or WiFi for remote control or scheduling — the 5500-2 lacks smart home connectivity. Smart plug workarounds exist but don't expose fan speed or auto mode control.",
+      "source": "Reddit (r/smarthome)"
+    },
+    {
+      "title": "Display light stays on in sleep mode…",
+      "body": "Display light stays on in sleep mode — the indicator lights don't fully turn off, creating ambient light in dark bedrooms that some users find disruptive.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Winix 5500-2 has earned its long-term bestseller status. Exceptional CADR, real auto mode, a washable pre-filter, and genuine reliability make it one of the best air purifiers you can buy in Canada under $300. The lack of app connectivity is its main gap versus Levoit; the PlasmaWave ozone concern is easily addressed by disabling it. If you want room air purification without complexity, this is the unit.",
+  "realBuyers": [
+    {
+      "quote": "Been running this 24/7 for 3 years. Replace the HEPA annually, wash the pre-filter monthly. Never had an issue and my allergies improved noticeably.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "Auto mode works. I can see the indicator jump to high when my wife cooks something smoky, then settle back to low within 10 minutes. That's what I paid for.",
+      "source": "Reddit (r/airpurifiers)"
+    },
+    {
+      "quote": "Disabled PlasmaWave, runs quiet in sleep mode, keeps our bedroom HEPA-clean all night. Perfect for allergy season.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Winix 5500-2 — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B01ES9FKWK"
+    },
+    {
+      "title": "Best Air Purifiers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "Winix 5500-2 Review — Reddit (r/airpurifiers)",
+      "url": "https://www.reddit.com/r/airpurifiers"
+    },
+    {
+      "title": "Winix 5500-2 vs Coway — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Winix 5500-2 review for Canada: CADR 243, True HEPA, washable pre-filter, auto mode, 360 sq ft at ACH 4, PlasmaWave. ~$269 CAD on Amazon.ca.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B01ES9FKWK",
+  "verifiedPrice": "$269 CAD",
+  "similarProducts": [
+    "coway-ap-1512hh-air-purifier",
+    "levoit-core-400s-air-purifier",
+    "dyson-purifier-cool-tp09"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}

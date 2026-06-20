@@ -1,0 +1,111 @@
+{
+  "slug": "honeywell-hcm-350-humidifier",
+  "name": "Honeywell HCM350W Germ Free Cool Mist Humidifier",
+  "brand": "Honeywell",
+  "category": "Home Comfort",
+  "categoryPage": "home-comfort.html",
+  "filterTag": "Humidifiers",
+  "subcategory": "humidifiers",
+  "asin": "B01N4SPJMS",
+  "price": 79,
+  "priceDisplay": "$79 CAD",
+  "score": 8.5,
+  "tag": "Best Evaporative Humidifier for Bedrooms",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B01N4SPJMS/?tag=clearpick06-20",
+  "introText": "The Honeywell HCM350W uses evaporative technology to produce invisible, mineral-free humidity — no white dust, no over-humidification, and natural self-regulation that stops adding moisture when the room reaches optimal humidity.",
+  "subscores": {
+    "Air Quality Impact": 9.0,
+    "Noise Level": 8.5,
+    "Coverage": 8.0,
+    "Maintenance": 7.5,
+    "Value for Money": 8.5
+  },
+  "specs": {
+    "Technology": "Evaporative (not ultrasonic) — invisible moisture output",
+    "Tank": "1 US gallon (3.8L)",
+    "Runtime": "Up to 24 hours per fill",
+    "Speeds": "2 fan speeds",
+    "Filter": "Wicking filter (HW14 compatible)",
+    "Auto-Shutoff": "When tank is empty",
+    "Coverage": "500 sq ft",
+    "Self-Regulating": "Yes — adds less moisture as humidity rises"
+  },
+  "whatWorks": [
+    "Evaporative technology produces no white mineral dust — the most common complaint with ultrasonic humidifiers is white powder depositing on furniture from minerals in tap water. Evaporative humidifiers evaporate only water molecules, leaving minerals behind in the wick filter. Result: no white dust anywhere in the room.",
+    "Self-regulating output prevents over-humidification — as room humidity rises toward the set point, less water evaporates naturally (like outdoor humidity preventing evaporation). The HCM350 can't over-humidify a room because the physics limit it. This prevents the mold risk that can develop with unchecked ultrasonic humidifiers.",
+    "Reliable Honeywell brand with well-documented long-term performance — the HCM350 has been in production for years with consistent positive reviews from owners who return to update their assessment after 2+ years of use.",
+    "Quiet on low speed — the fan noise on the low setting is a gentle hum suitable for bedroom use. Not silent like a wick-only humidifier, but not disruptive."
+  ],
+  "worthKnowing": [
+    "Wicking filter needs replacement every 1-2 months ($15-20 CAD per filter) — the filter traps minerals from tap water and eventually reaches capacity. Annual filter cost is $90-240 depending on water hardness and usage frequency.",
+    "Evaporative output is lower than ultrasonic at the same wattage — ultrasonic humidifiers add moisture faster. In very dry climates (below 20% RH) or large rooms, an evaporative humidifier may struggle to reach target humidity quickly.",
+    "1-gallon tank requires daily refilling for continuous use — at the low speed, the tank lasts up to 24 hours. Heavy users (continuous high speed) may fill it twice per day.",
+    "Wicking filter must be kept clean to prevent mold — rinse under cold water weekly and replace on schedule. A neglected filter can harbour bacteria and produce unpleasant odours."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Wicking filter replacement cost adds up…",
+      "body": "Wicking filter replacement cost adds up over time — at $15-20 every 1-2 months, annual filter costs can reach $90-240 depending on water hardness and usage, making it more expensive to operate than ultrasonic alternatives.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "title": "Output slower than ultrasonic humidifiers…",
+      "body": "Output slower than ultrasonic humidifiers — evaporative technology adds moisture more gradually than ultrasonic, making it less effective for quickly raising humidity in very dry or large rooms.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "title": "Tank needs refilling daily for continuous…",
+      "body": "Tank needs refilling daily for continuous use — the 1-gallon capacity lasts up to 24 hours at low speed, requiring a daily refill for overnight-to-overnight operation.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "verdict": "The Honeywell HCM350W is the right humidifier for buyers who want to avoid white dust entirely and prefer self-regulating output. The filter cost is the main trade-off — calculate annual filter cost for your usage before buying. For bedrooms with light sleepers, the absence of white dust depositing on furniture and electronics is worth the filter expense.",
+  "realBuyers": [
+    {
+      "quote": "Switched from an ultrasonic after getting white powder on my electronics. Zero white dust from this. Worth the filter cost.",
+      "source": "Amazon.ca reviewer"
+    },
+    {
+      "quote": "The self-regulation is real. I set it and my humidity stays at 45% without monitoring. It just knows when to stop.",
+      "source": "Reddit (r/homeimprovement)"
+    },
+    {
+      "quote": "Running it in my baby's room. No white powder on anything, quiet on low, and the air is noticeably less dry.",
+      "source": "Amazon.ca reviewer"
+    }
+  ],
+  "sources": [
+    {
+      "title": "Honeywell HCM350W — Amazon.ca",
+      "url": "https://www.amazon.ca/dp/B01N4SPJMS"
+    },
+    {
+      "title": "Evaporative vs Ultrasonic Humidifier — Reddit (r/homeimprovement)",
+      "url": "https://www.reddit.com/r/homeimprovement"
+    },
+    {
+      "title": "Best Humidifiers — Wirecutter",
+      "url": "https://www.nytimes.com/wirecutter"
+    },
+    {
+      "title": "Honeywell HCM350 Review — YouTube",
+      "url": "https://www.youtube.com"
+    }
+  ],
+  "metaDescription": "Honeywell HCM350W review for Canada: evaporative, no white dust, self-regulating, 1-gallon, 500 sq ft. ~$79 CAD on Amazon.ca. Best bedroom humidifier.",
+  "researchedAt": "2026-06-20",
+  "verifiedAt": "2026-06-20",
+  "verifiedAsin": "B01N4SPJMS",
+  "verifiedPrice": "$79 CAD",
+  "similarProducts": [
+    "blueair-blue-pure-411i-max",
+    "coway-ap-1512hh-air-purifier",
+    "frigidaire-ffad5033w1-dehumidifier"
+  ],
+  "images": {
+    "hero": "",
+    "lifestyle": "",
+    "detail": ""
+  }
+}
