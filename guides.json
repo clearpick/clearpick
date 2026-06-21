@@ -215,6 +215,78 @@
       "type": "top5",
       "typeLabel": "Buying Guide",
       "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-smart-home-security-canada",
+      "title": "Best Smart Home Security in Canada: Cameras and Locks Ranked by Real Owners (2025)",
+      "description": "Best smart home security in Canada — video doorbells, smart locks, and cameras ranked by what owners say about reliability, privacy, and Canadian compatibility.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-lawn-mowers-canada",
+      "title": "Best Lawn Mowers in Canada: Gas, Electric, and Robot — Ranked by Real Owners (2025)",
+      "description": "Best lawn mowers in Canada — EGO, Mammotion, and more ranked by what Canadian homeowners say after a full mowing season.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-running-shoes-canada",
+      "title": "Best Running Shoes in Canada: Ranked by What Runners Actually Report (2025)",
+      "description": "Best running shoes in Canada — HOKA, Brooks, Salomon ranked by real runner data. What road runners, trail runners, and casual joggers say about durability, comfort, and fit.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-ergonomic-office-chairs-canada",
+      "title": "Best Ergonomic Office Chairs in Canada: Ranked by Remote Workers Who Sit All Day (2025)",
+      "description": "Best ergonomic office chairs in Canada -- Herman Miller, Steelcase, Branch ranked by what remote workers say after 1 to 2 years of all-day sitting.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-acoustic-guitars-canada",
+      "title": "Best Acoustic Guitars for Beginners in Canada: Ranked by Real Player Sentiment (2025)",
+      "description": "Best acoustic guitars for beginners in Canada — Yamaha, Fender, Seagull ranked by what new players say about playability, tone, and whether they kept playing.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-bluetooth-speakers-canada",
+      "title": "Best Portable Bluetooth Speakers in Canada: Ranked by Real Owner Sentiment (2025)",
+      "description": "Best Bluetooth speakers in Canada -- JBL, Bose, UE ranked by what owners say about sound quality, durability, and whether they actually take it outside.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-mirrorless-cameras-under-1500-canada",
+      "title": "Best Mirrorless Cameras Under approximately 1500 in Canada: Ranked by Real Photographers (2025)",
+      "description": "Best mirrorless cameras under 1500 CAD in Canada — Sony, Canon, Nikon, and OM System ranked by what photographers say after 6 months of real shooting.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-automatic-pet-feeders-canada",
+      "title": "Best Automatic Pet Feeders in Canada: Ranked by What Cat and Dog Owners Report (2025)",
+      "description": "Best automatic pet feeders in Canada — PetLibro, PetSafe, WOPET ranked by what owners say about portion accuracy, app reliability, and whether their pets figured it out.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-mechanical-keyboards-canada",
+      "title": "Best Mechanical Keyboards in Canada: Ranked by Typists and Gamers Who Own Them (2025)",
+      "description": "Best mechanical keyboards in Canada -- SteelSeries, Logitech, Keychron ranked by what daily typists and gamers actually report. Switches, feel, and long-term durability.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
     }
   ]
 }
