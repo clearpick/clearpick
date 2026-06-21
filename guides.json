@@ -143,6 +143,78 @@
       "type": "comparison",
       "typeLabel": "Comparison",
       "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-robot-vacuums-under-500-canada",
+      "title": "Best Robot Vacuums Under $500 in Canada: Ranked by Real Owner Sentiment (2025)",
+      "description": "Best robot vacuums under $500 in Canada — ranked by real owner data. Who handles pet hair, who has the best app, and which one Canadians actually keep.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-noise-cancelling-headphones-canada",
+      "title": "Best Noise-Cancelling Headphones in Canada: Ranked by Real Owner Sentiment (2025)",
+      "description": "Best noise-cancelling headphones in Canada — ranked by owner data across 20,000+ reviews. What commuters, remote workers, and travellers actually buy and keep.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-dash-cams-canada",
+      "title": "Best Dash Cams for Canadian Drivers: Ranked by Real Owner Sentiment (2025)",
+      "description": "Best dash cams in Canada — what Canadian drivers say about winter performance, image quality, and reliability. Ranked by real owner data.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-portable-power-stations-canada",
+      "title": "Best Portable Power Stations for Camping in Canada: Ranked by Real Owners (2025)",
+      "description": "Best portable power stations in Canada — ranked by owner sentiment. What campers, cottage owners, and preppers say about EcoFlow, Jackery, and Bluetti in real Canadian conditions.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-mattresses-canada",
+      "title": "Best Mattresses in Canada: What Real Buyers Say After 1 Year (2025)",
+      "description": "Best mattresses in Canada — Endy, Douglas, Casper, and more ranked by real owner sentiment after 1 year. What Canadians say about comfort, durability, and whether the trial period is real.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-standing-desks-canada",
+      "title": "Best Standing Desks in Canada Under $1,000: Ranked by Real Owner Sentiment (2025)",
+      "description": "Best standing desks in Canada — Flexispot, Uplift, and more ranked by real owner data. What remote workers say about stability, motor noise, and whether they actually stand.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-baby-monitors-canada",
+      "title": "Best Baby Monitors in Canada: What New Parents Actually Report (2025)",
+      "description": "Best baby monitors in Canada — Nanit, Owlet, and more ranked by what new parents say after 6 months. Video quality, app reliability, and what matters most at 3am.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-air-fryers-under-150-canada",
+      "title": "Best Air Fryers Under $150 in Canada: Ranked by Real Owner Sentiment (2025)",
+      "description": "Best air fryers under $150 in Canada — what owners say about cooking performance, ease of cleaning, and which one they actually use daily. Ranked by real data.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "best-coffee-makers-under-200-canada",
+      "title": "Best Coffee Makers Under $200 in Canada: Ranked by Real Owner Sentiment (2025)",
+      "description": "Best coffee makers under $200 in Canada — drip, pod, and espresso ranked by what owners say about daily use. What they love, what breaks, and what they would buy again.",
+      "type": "top5",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
     }
   ]
 }
