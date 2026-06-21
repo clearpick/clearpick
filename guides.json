@@ -1,1 +1,76 @@
-{ "guides": [] }
+{
+  "guides": [
+    {
+      "slug": "sony-wh-1000xm6-vs-bose-quietcomfort-ultra",
+      "title": "Sony WH-1000XM6 vs Bose QuietComfort Ultra: What 14,000+ Owners Actually Say",
+      "description": "Sony XM6 vs Bose QCU head-to-head — based on real owner data. Who buys which, who regrets it, and what actually separates them.",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "sony-wh-1000xm4-vs-xm6-upgrade",
+      "title": "Sony WH-1000XM4 to XM6: Owners Who Upgraded Report Back",
+      "description": "XM4 owners who upgraded to the XM6 — what they actually found. Is it worth the jump? Data from real switchers.",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "roborock-qrevo-s-vs-qrevo-curv",
+      "title": "Roborock Qrevo S vs Qrevo Curv: Is the  Price Difference Worth It?",
+      "description": "Qrevo S vs Qrevo Curv — what owners say about the real-world performance gap. Is the Curv's extra cost justified?",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "roborock-vs-eufy-robot-vacuum",
+      "title": "Roborock vs Eufy Robot Vacuums: What Owners Say After 6 Months",
+      "description": "Roborock vs Eufy — a real owner comparison. Who handles pet hair better, who has better app support, who lasts longer.",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "nespresso-vertuo-plus-vs-delonghi-magnifica-evo",
+      "title": "Nespresso Vertuo Plus vs De'Longhi Magnifica Evo: Two Different Coffees, Two Different Buyers",
+      "description": "Nespresso pods vs bean-to-cup espresso — what owners say about long-term cost, taste, and regret. Which one fits your life?",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "delonghi-magnifica-evo-vs-breville-barista-express-impress",
+      "title": "De'Longhi Magnifica Evo vs Breville Barista Express Impress: Which Bean-to-Cup Machine Do Owners Prefer?",
+      "description": "Both grind fresh beans — but owners describe very different experiences. What espresso machine owners say about taste, reliability, and learning curve.",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "sony-a6700-vs-canon-eos-r10",
+      "title": "Sony A6700 vs Canon EOS R10: What Photographers Actually Say After Buying",
+      "description": "Sony A6700 vs Canon R10 — real owner take on autofocus, image quality, video, and which one people wish they'd chosen.",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "sony-zv-e10-ii-vs-canon-powershot-v10",
+      "title": "Sony ZV-E10 II vs Canon PowerShot V10: What Video Creators Actually Report",
+      "description": "ZV-E10 II vs PowerShot V10 — what YouTubers and content creators say about real-world vlogging use. Who should buy which.",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "weber-spirit-ii-e310-vs-napoleon-prestige-500",
+      "title": "Weber Spirit II E-310 vs Napoleon Prestige 500: What Backyard Grillers Actually Say",
+      "description": "Weber Spirit II vs Napoleon Prestige — two of Canada's most-compared gas grills. What long-term owners report about heat, build, and whether either is worth the price.",
+      "type": "comparison",
+      "typeLabel": "Comparison",
+      "publishedAt": "2026-06-21"
+    }
+  ]
+}
