@@ -287,6 +287,78 @@
       "type": "top5",
       "typeLabel": "Buying Guide",
       "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-litter-robot-4-worth-it",
+      "title": "Is the Litter-Robot 4 Worth It? What Owners Say After 1 Year",
+      "description": "Is the Litter-Robot 4 worth its premium price? What real owners say after 1 year -- what it fixes, what it does not, and who should skip it.",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-theragun-worth-it",
+      "title": "Is the Theragun Worth It? What Owners Who Use It and Don't Actually Report",
+      "description": "Is the Theragun worth the price? Owners who use it daily vs owners who put it in a drawer -- what separates them, and which are you?",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-apple-watch-ultra-2-worth-it",
+      "title": "Is the Apple Watch Ultra 2 Worth It? What Owners Say vs the Standard Apple Watch",
+      "description": "Is the Apple Watch Ultra 2 worth it at a premium price over a standard Apple Watch? What outdoor athletes and daily wearers actually report after 6 months.",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-dyson-hp09-worth-it",
+      "title": "Is the Dyson Purifier Hot+Cool HP09 Worth It? What Owners Report After a Full Year",
+      "description": "Is the Dyson HP09 worth its premium price? Real owners report on whether it purifies air, heats rooms, and cools effectively or whether cheaper alternatives do the same.",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-nuface-trinity-plus-worth-it",
+      "title": "Is the NuFace Trinity Plus Worth It? What Regular Users Actually Report",
+      "description": "Is NuFace Trinity Plus worth its premium price? What women who use it consistently for 3-6 months say about visible results and what those who returned it say.",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-ego-self-propelled-mower-worth-it",
+      "title": "Is the EGO Self-Propelled Mower Worth It vs Gas? What Homeowners Report After 2 Seasons",
+      "description": "Is the EGO LM2156SP worth it over a gas mower? What Canadian homeowners say after 2 full mowing seasons -- runtime, power, and total cost.",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-vitamix-worth-it",
+      "title": "Is the Vitamix Worth It? What Owners Say After 3 Years of Daily Use",
+      "description": "Is the Vitamix worth its premium price? Owners who have had one for 3 or more years answer honestly -- what it does that cheaper blenders cannot, and who does not need one.",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-breville-barista-express-impress-worth-it",
+      "title": "Is the Breville Barista Express Impress Worth It? What Home Baristas Say After 1 Year",
+      "description": "Is the Breville Barista Express Impress worth it? What owners say after pulling hundreds of shots -- what they got right, what they still struggle with, and who should buy a different machine.",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "is-nikon-z50-ii-worth-it",
+      "title": "Is the Nikon Z50 II Worth It? What Photographers Say After 6 Months of Shooting",
+      "description": "Is the Nikon Z50 II worth it vs the Sony A6700 or Canon R10? What real photographers say about autofocus, image quality, and whether buying into the Nikon system was worth it.",
+      "type": "worthit",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
     }
   ]
 }
