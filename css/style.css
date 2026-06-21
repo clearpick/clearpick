@@ -4717,3 +4717,132 @@ body.mob-nav-open {
   .guide-article .container { padding: 0 var(--space-4); }
   .guide-article__body h2 { font-size: 1.2rem; }
 }
+
+/* ─── Guide blockquotes ─── */
+.guide-article__body blockquote {
+  margin: var(--space-6) 0;
+  padding: var(--space-5) var(--space-6);
+  background: var(--color-surface-2);
+  border-left: 3px solid var(--color-accent);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+.guide-article__body blockquote p {
+  margin: 0 0 var(--space-2);
+  font-style: italic;
+  color: var(--color-text);
+  line-height: 1.7;
+}
+
+.guide-article__body blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+.guide-article__body blockquote cite {
+  display: block;
+  font-size: var(--text-sm);
+  color: var(--color-text-muted);
+  font-style: normal;
+  margin-top: var(--space-2);
+}
+
+.guide-article__body blockquote cite::before {
+  content: "— ";
+}
+
+/* ─── Guide comparison tables ─── */
+.guide-article__body .owner-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-6) 0;
+  font-size: var(--text-sm);
+  overflow: hidden;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
+}
+
+.guide-article__body .owner-table th {
+  background: var(--color-surface-2);
+  color: var(--color-text);
+  font-weight: 600;
+  text-align: left;
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 2px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.guide-article__body .owner-table td {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+  color: var(--color-text);
+}
+
+.guide-article__body .owner-table tr:last-child td {
+  border-bottom: none;
+}
+
+.guide-article__body .owner-table tr:hover td {
+  background: var(--color-surface-offset, var(--color-surface-2));
+}
+
+.guide-article__body .owner-table td:first-child,
+.guide-article__body .owner-table th:first-child {
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Pros/cons table for Is It Worth It? pieces */
+.guide-article__body .pros-cons-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: var(--space-6) 0;
+  font-size: var(--text-sm);
+}
+
+.guide-article__body .pros-cons-table th {
+  padding: var(--space-3) var(--space-4);
+  font-weight: 700;
+  font-size: var(--text-sm);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.guide-article__body .pros-cons-table th:first-child {
+  background: oklch(0.35 0.12 142);
+  color: #fff;
+  border-radius: var(--radius-md) 0 0 0;
+}
+
+.guide-article__body .pros-cons-table th:last-child {
+  background: oklch(0.35 0.12 25);
+  color: #fff;
+  border-radius: 0 var(--radius-md) 0 0;
+}
+
+.guide-article__body .pros-cons-table td {
+  padding: var(--space-3) var(--space-4);
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.guide-article__body .pros-cons-table td:first-child {
+  background: oklch(0.35 0.12 142 / 0.06);
+}
+
+.guide-article__body .pros-cons-table td:last-child {
+  background: oklch(0.35 0.12 25 / 0.06);
+}
+
+.guide-article__body .pros-cons-table tr:last-child td {
+  border-bottom: none;
+}
+
+@media (max-width: 600px) {
+  .guide-article__body .owner-table,
+  .guide-article__body .pros-cons-table { font-size: 0.8rem; }
+  .guide-article__body .owner-table th,
+  .guide-article__body .owner-table td,
+  .guide-article__body .pros-cons-table th,
+  .guide-article__body .pros-cons-table td { padding: var(--space-2) var(--space-3); }
+}
