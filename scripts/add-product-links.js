@@ -102,7 +102,7 @@ for (const filePath of guideFiles) {
   totalAdded  += added;
   filesChanged++;
 
-  const updated = original.replace(bodyRe, openTag + linkedBody + closeTag);
+  const updated = original.replace(bodyRe, () => openTag + linkedBody + closeTag);
   fs.writeFileSync(filePath, updated, 'utf8');
   console.log(`  +${added} links: ${path.basename(filePath)}`);
 }
