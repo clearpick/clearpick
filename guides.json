@@ -551,6 +551,22 @@
       "type": "sentiment",
       "typeLabel": "Buying Guide",
       "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "herman-miller-aeron-2-year-report",
+      "title": "Herman Miller Aeron After 2 Years: Is the Price Justified? Owner Report",
+      "description": "A 2-year Herman Miller Aeron owner report -- what changed after the honeymoon, what held up, and whether remote workers who bought one say it was worth it.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "ghd-vs-dyson-airwrap-switcher-report",
+      "title": "GHD Platinum Plus vs Dyson Airwrap: What Women Who Own Both Actually Say",
+      "description": "A report from women who have owned both GHD and Dyson Airwrap -- what each does better, who switches and why, and whether the Dyson premium is justified for your hair type.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
     }
   ]
 }
