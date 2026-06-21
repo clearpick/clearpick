@@ -12,12 +12,12 @@
   "priceDisplay": "$199 CAD",
   "score": 8.5,
   "tag": "Best Budget Air Purifier for Small Rooms",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.blueair.com/cdn/shop/files/Blue_Signature_Midnight.png?v=1773257342",
   "affiliateUrl": "https://www.amazon.ca/dp/B09B4M7KMX/?tag=clearpick06-20",
   "introText": "The Blueair Blue Pure 411i Max uses HEPASilent technology to combine electrostatic and mechanical filtration at lower fan speeds — quieter than traditional HEPA purifiers while maintaining effective particle capture, with WiFi app control.",
   "subscores": {
     "Air Purification": 8.5,
-    "Noise Level": 9.0,
+    "Noise Level": 9,
     "Coverage": 7.5,
     "Smart Features": 8.5,
     "Value for Money": 8.5
@@ -105,7 +105,7 @@
     "honeywell-home-t9-wifi-smart-thermostat"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/blueair-blue-pure-411i-max/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

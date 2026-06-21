@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { width: 1080px; height: 1920px; font-family: 'Inter', sans-serif; background: #F8F9FC; overflow: hidden; }
+    #root { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: #F8F9FC; }
+
+    .scene {
+      position: absolute; inset: 0;
+      width: 1080px; height: 1920px;
+      background: #F8F9FC;
+    }
+    .sc {
+      position: relative; display: flex; flex-direction: column;
+      width: 100%; height: 100%; box-sizing: border-box; z-index: 1;
+    }
+    .bg-glow {
+      position: absolute; border-radius: 50%;
+      pointer-events: none; z-index: 0;
+    }
+
+    /* ── Scene z-indexes ── */
+    #s1 { z-index: 1; }
+    #s2 { z-index: 2; opacity: 0; }
+    #s3 { z-index: 3; opacity: 0; }
+    #s4 { z-index: 4; opacity: 0; }
+    #s6 { z-index: 5; opacity: 0; }
+    #s7 { z-index: 6; opacity: 0; }
+
+    /* ═══════════ SCENE 1 — Amazon hook ═══════════ */
+    #s1-glow {
+      width: 860px; height: 860px;
+      background: radial-gradient(ellipse, rgba(26,140,255,0.06) 0%, rgba(248,249,252,0) 65%);
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+    }
+    #s1 .sc {
+      justify-content: center; align-items: center;
+      padding: 200px 80px; gap: 44px;
+    }
+    #s1-product {
+      width: 260px; height: 260px;
+      object-fit: contain; border-radius: 12px;
+      flex-shrink: 0;
+    }
+    #s1-headline {
+      font-size: 64px; font-weight: 700;
+      color: #14162A; line-height: 1.1;
+      letter-spacing: -0.025em; text-align: center;
+    }
+    .star-row {
+      display: flex; flex-direction: column;
+      align-items: center; gap: 18px;
+    }
+    .stars-wrap {
+      position: relative; display: inline-block;
+      font-size: 76px; line-height: 1; letter-spacing: 6px;
+    }
+    .stars-bg { color: #8A8A8A; white-space: nowrap; }
+    #stars-fill {
+      position: absolute; top: 0; left: 0;
+      color: #F6A800; width: 0%;
+      overflow: hidden; white-space: nowrap;
+    }
+    .star-label {
+      font-size: 28px; font-weight: 400; color: #5C6080;
+      letter-spacing: 0.01em;
+    }
+
+    /* ═══════════ SCENE 2 — Month 8 ═══════════ */
+    #s2 .sc {
+      justify-content: center; align-items: center;
+      padding: 200px 80px;
+    }
+    #s2-text {
+      font-size: 56px; font-weight: 700;
+      color: #14162A; text-align: center;
+      line-height: 1.2; letter-spacing: -0.025em;
+      max-width: 760px;
+    }
+
+    /* ═══════════ SCENE 3 — Complaints ═══════════ */
+    #s3-glow {
+      width: 600px; height: 600px;
+      background: radial-gradient(ellipse, rgba(220,38,38,0.04) 0%, rgba(248,249,252,0) 65%);
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+    }
+    #s3 .sc {
+      justify-content: center; align-items: stretch;
+      padding: 240px 72px; gap: 26px;
+    }
+    .cmp-card {
+      background: #EEF0F6; border-radius: 10px;
+      padding: 34px 36px 34px 32px;
+      border-left: 3px solid #DC2626;
+      display: flex; flex-direction: column; gap: 14px;
+    }
+    .cmp-quote {
+      font-size: 27px; font-weight: 400;
+      color: #14162A; font-style: italic; line-height: 1.44;
+    }
+    .cmp-src {
+      font-size: 19px; font-weight: 700; color: #1A8CFF;
+    }
+
+    /* ═══════════ SCENE 4 — Score card + verdict ═══════════ */
+    #s4-glow {
+      width: 700px; height: 700px;
+      background: radial-gradient(ellipse, rgba(26,140,255,0.06) 0%, rgba(248,249,252,0) 65%);
+      top: 50%; left: 50%; transform: translate(-50%, -50%);
+    }
+    #s4 .sc {
+      justify-content: center; align-items: center;
+      padding: 160px 72px; gap: 28px;
+    }
+    #sc-card {
+      background: #FFFFFF; border-radius: 14px;
+      border: 1px solid #E2E4EE;
+      padding: 44px 48px; width: 100%;
+      display: flex; flex-direction: column; gap: 28px;
+    }
+    .sc-hdr-row {
+      display: flex; align-items: center; gap: 14px;
+    }
+    .sc-check-s {
+      width: 42px; height: 42px;
+      background: #1A8CFF; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; position: relative;
+    }
+    .sc-check-s::after {
+      content: '';
+      display: block; width: 13px; height: 7px;
+      border-left: 3px solid #FFFFFF;
+      border-bottom: 3px solid #FFFFFF;
+      transform: rotate(-45deg) translateY(-2px);
+    }
+    .sc-lbl-s {
+      font-size: 17px; font-weight: 500; color: #5C6080;
+      letter-spacing: 0.14em; text-transform: uppercase;
+    }
+    .sc-score-row {
+      display: flex; align-items: baseline; gap: 14px;
+    }
+    #score-val {
+      font-size: 100px; font-weight: 700; color: #1A8CFF;
+      font-variant-numeric: tabular-nums; line-height: 1;
+    }
+    .sc-denom {
+      display: flex; flex-direction: column; gap: 4px;
+    }
+    .sc-ten-s { font-size: 36px; font-weight: 400; color: #5C6080; }
+    .sc-desc-s { font-size: 22px; font-weight: 400; color: #5C6080; }
+
+    /* Subscore bars */
+    .sub-rows { display: flex; flex-direction: column; gap: 18px; }
+    .sub-row { display: flex; align-items: center; gap: 14px; }
+    .sub-lbl {
+      font-size: 19px; font-weight: 500; color: #14162A;
+      width: 192px; flex-shrink: 0;
+    }
+    .sub-lbl--bad { color: #DC2626; }
+    .bar-track {
+      flex: 1; height: 10px; background: #E2E4EE;
+      border-radius: 5px; overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%; background: #1A8CFF;
+      border-radius: 5px; transform-origin: left center;
+    }
+    .bar-fill--bad { background: #DC2626; }
+    .sub-val {
+      font-size: 19px; font-weight: 700; color: #14162A;
+      width: 36px; text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    .sub-val--bad { color: #DC2626; }
+
+    #leak-stat {
+      font-size: 20px; font-weight: 600;
+      color: #DC2626; text-align: center; line-height: 1.3;
+    }
+
+    /* Verdict card */
+    #sc-verdict {
+      background: #FEE2E2; border-radius: 14px;
+      padding: 30px 40px;
+      display: flex; flex-direction: column; gap: 10px;
+      width: 100%;
+    }
+    .verdict-lbl {
+      font-size: 13px; font-weight: 700;
+      color: #991B1B; letter-spacing: 0.14em;
+      text-transform: uppercase;
+    }
+    .verdict-body {
+      font-size: 24px; font-weight: 400;
+      color: #991B1B; line-height: 1.48;
+    }
+
+    /* ═══════════ SCENE 6 — CTA ═══════════ */
+    #s6 .sc {
+      justify-content: center; align-items: center;
+      padding: 200px 80px;
+    }
+    #s6-text {
+      font-size: 34px; font-weight: 400;
+      color: #5C6080; text-align: center;
+    }
+
+    /* ═══════════ SCENE 7 — Logo ═══════════ */
+    #s7 .sc {
+      justify-content: center; align-items: center;
+      padding: 200px 80px; gap: 36px;
+    }
+    #s7-logo {
+      display: flex; align-items: center; gap: 20px;
+    }
+    .logo-circle-s {
+      width: 62px; height: 62px;
+      background: #1A8CFF; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; position: relative;
+    }
+    .logo-circle-s::after {
+      content: '';
+      display: block; width: 16px; height: 9px;
+      border-left: 3px solid #FFFFFF;
+      border-bottom: 3px solid #FFFFFF;
+      transform: rotate(-45deg) translateY(-2px);
+    }
+    .logo-word-s {
+      font-size: 54px; font-weight: 700;
+      color: #14162A; letter-spacing: -0.02em;
+    }
+    #s7-tagline {
+      font-size: 32px; font-weight: 400;
+      color: #5C6080; text-align: center;
+    }
+  </style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-width="1080" data-height="1920" data-start="0" data-duration="18">
+
+  <!-- ═══ S1: Amazon hook ═══ -->
+  <div id="s1" class="scene">
+    <div id="s1-glow" class="bg-glow" data-layout-ignore></div>
+    <div class="sc" id="s1c">
+      <img id="s1-product" src="assets/nespresso-vertuo-next.jpg" alt="" />
+      <p id="s1-headline">This coffee maker has</p>
+      <div class="star-row" id="s1-starrow">
+        <div class="stars-wrap">
+          <div class="stars-bg">★★★★★</div>
+          <div id="stars-fill">★★★★★</div>
+        </div>
+        <span class="star-label">4.1 stars · 1,389 reviews</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ S2: Month 8 ═══ -->
+  <div id="s2" class="scene">
+    <div class="sc" id="s2c">
+      <p id="s2-text">Here's what owners say at month 8.</p>
+    </div>
+  </div>
+
+  <!-- ═══ S3: Complaint cards ═══ -->
+  <div id="s3" class="scene">
+    <div id="s3-glow" class="bg-glow" data-layout-ignore></div>
+    <div class="sc" id="s3c">
+      <div id="cmp1" class="cmp-card">
+        <p class="cmp-quote">"Machine leaks from the base after a few months of use."</p>
+        <p class="cmp-src">Amazon reviewer · r/nespresso</p>
+      </div>
+      <div id="cmp2" class="cmp-card">
+        <p class="cmp-quote">"Hopefully the fifth machine will do its job."</p>
+        <p class="cmp-src">r/nespresso</p>
+      </div>
+      <div id="cmp3" class="cmp-card">
+        <p class="cmp-quote">"Do not gift a Nespresso Vertuo Next — the intended recipient may no longer be your friend."</p>
+        <p class="cmp-src">r/nespresso</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ S4: Score card + verdict pill ═══ -->
+  <div id="s4" class="scene">
+    <div id="s4-glow" class="bg-glow" data-layout-ignore></div>
+    <div class="sc" id="s4c">
+
+      <div id="sc-card">
+        <div class="sc-hdr-row">
+          <div class="sc-check-s"></div>
+          <div class="sc-lbl-s">ClearPick Score</div>
+        </div>
+        <div class="sc-score-row">
+          <div id="score-val">0.0</div>
+          <div class="sc-denom">
+            <div class="sc-ten-s">/ 10</div>
+            <div class="sc-desc-s">Good, but…</div>
+          </div>
+        </div>
+        <div class="sub-rows">
+          <div class="sub-row">
+            <span class="sub-lbl">Brew Quality</span>
+            <div class="bar-track"><div class="bar-fill" id="b-brew"></div></div>
+            <span class="sub-val">8.0</span>
+          </div>
+          <div class="sub-row">
+            <span class="sub-lbl">Ease of Use</span>
+            <div class="bar-track"><div class="bar-fill" id="b-ease"></div></div>
+            <span class="sub-val">9.0</span>
+          </div>
+          <div class="sub-row">
+            <span class="sub-lbl">Speed</span>
+            <div class="bar-track"><div class="bar-fill" id="b-speed"></div></div>
+            <span class="sub-val">8.5</span>
+          </div>
+          <div class="sub-row">
+            <span class="sub-lbl sub-lbl--bad">Machine Build</span>
+            <div class="bar-track"><div class="bar-fill bar-fill--bad" id="b-build"></div></div>
+            <span class="sub-val sub-val--bad">6.5</span>
+          </div>
+        </div>
+        <p id="leak-stat">42% of 1-star reviews cite leaking</p>
+      </div>
+
+      <div id="sc-verdict">
+        <p class="verdict-lbl">Our Take</p>
+        <p class="verdict-body">Only buy on sale — and keep your return window open. Reliability issues aren't worth full price.</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══ S6: CTA ═══ -->
+  <div id="s6" class="scene">
+    <div class="sc" id="s6c">
+      <p id="s6-text">Full breakdown at clearpick.ca</p>
+    </div>
+  </div>
+
+  <!-- ═══ S7: Logo ═══ -->
+  <div id="s7" class="scene">
+    <div class="sc" id="s7c">
+      <div id="s7-logo">
+        <div class="logo-circle-s"></div>
+        <div class="logo-word-s" id="s7-word">ClearPick</div>
+      </div>
+      <p id="s7-tagline">We read the threads.</p>
+    </div>
+  </div>
+
+</div><!-- #root -->
+
+<script>
+window.__timelines = window.__timelines || {};
+var tl = gsap.timeline({ paused: true });
+var scoreObj = { val: 0 };
+
+// ─────────────────────────────────────────────────────
+// S1 ENTRANCES
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s1-product',  { opacity: 0, scale: 0.88 },           { opacity: 1, scale: 1, duration: 0.5, ease: 'back.out(1.5)' }, 0.1);
+tl.fromTo('#s1-headline', { opacity: 0, y: 38, scale: 0.97 },   { opacity: 1, y: 0, scale: 1, duration: 0.65, ease: 'power3.out' }, 0.38);
+tl.fromTo('#s1-starrow',  { opacity: 0, y: 24 },                  { opacity: 1, y: 0, duration: 0.5, ease: 'power2.out' }, 0.75);
+tl.fromTo('#stars-fill',  { width: '0%' },                        { width: '82%', duration: 0.75, ease: 'power2.out' }, 0.92);
+
+// ─────────────────────────────────────────────────────
+// S1 → S2: BLUR CROSSFADE at t=2.5
+// ─────────────────────────────────────────────────────
+tl.to('#s1',   { opacity: 0, filter: 'blur(10px)', scale: 1.02, duration: 0.35, ease: 'power2.inOut' }, 2.5);
+tl.fromTo('#s2', { opacity: 0, filter: 'blur(10px)', scale: 0.98 }, { opacity: 1, filter: 'blur(0px)', scale: 1, duration: 0.35, ease: 'power2.inOut' }, 2.56);
+tl.set('#s1',  { opacity: 0, filter: 'blur(0px)', scale: 1 }, 2.94);
+
+// ─────────────────────────────────────────────────────
+// S2 ENTRANCE
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s2-text', { opacity: 0, y: 26 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out' }, 2.72);
+
+// ─────────────────────────────────────────────────────
+// S2 → S3: BLUR CROSSFADE at t=4.5
+// ─────────────────────────────────────────────────────
+tl.to('#s2',   { opacity: 0, filter: 'blur(10px)', scale: 1.02, duration: 0.4, ease: 'power2.inOut' }, 4.5);
+tl.fromTo('#s3', { opacity: 0, filter: 'blur(10px)', scale: 0.98 }, { opacity: 1, filter: 'blur(0px)', scale: 1, duration: 0.4, ease: 'power2.inOut' }, 4.56);
+tl.set('#s2',  { opacity: 0, filter: 'blur(0px)', scale: 1 }, 4.98);
+
+// ─────────────────────────────────────────────────────
+// S3 ENTRANCES — complaint cards, stagger 500ms, slide from left
+// ─────────────────────────────────────────────────────
+tl.fromTo('#cmp1', { opacity: 0, x: -34 }, { opacity: 1, x: 0, duration: 0.5, ease: 'expo.out' }, 4.78);
+tl.fromTo('#cmp2', { opacity: 0, x: -34 }, { opacity: 1, x: 0, duration: 0.5, ease: 'expo.out' }, 5.28);
+tl.fromTo('#cmp3', { opacity: 0, x: -34 }, { opacity: 1, x: 0, duration: 0.5, ease: 'expo.out' }, 5.78);
+
+// ─────────────────────────────────────────────────────
+// S3 → S4: BLUR CROSSFADE at t=8.0
+// ─────────────────────────────────────────────────────
+tl.to('#s3',   { opacity: 0, filter: 'blur(10px)', scale: 1.02, duration: 0.45, ease: 'power2.inOut' }, 8.0);
+tl.fromTo('#s4', { opacity: 0, filter: 'blur(10px)', scale: 0.98 }, { opacity: 1, filter: 'blur(0px)', scale: 1, duration: 0.45, ease: 'power2.inOut' }, 8.06);
+tl.set('#s3',  { opacity: 0, filter: 'blur(0px)', scale: 1 }, 8.55);
+
+// ─────────────────────────────────────────────────────
+// S4 ENTRANCES — score card
+// ─────────────────────────────────────────────────────
+tl.fromTo('#sc-card',   { opacity: 0, y: 30, scale: 0.97 }, { opacity: 1, y: 0, scale: 1, duration: 0.6, ease: 'power3.out' }, 8.22);
+tl.fromTo('#score-val', { scale: 0.78, opacity: 0 },        { scale: 1, opacity: 1, duration: 0.42, ease: 'back.out(1.3)' }, 8.48);
+
+// Score counter 0.0 → 7.6
+tl.to(scoreObj, {
+  val: 7.6, duration: 1.2, ease: 'power2.out',
+  onUpdate: function() {
+    document.getElementById('score-val').textContent = scoreObj.val.toFixed(1);
+  }
+}, 8.52);
+
+// Subscore bars, staggered 150ms. Machine Build fills slower and shorter
+tl.fromTo('#b-brew',  { scaleX: 0 }, { scaleX: 0.80, duration: 0.6, ease: 'power3.out' }, 8.78);
+tl.fromTo('#b-ease',  { scaleX: 0 }, { scaleX: 0.90, duration: 0.6, ease: 'power3.out' }, 8.93);
+tl.fromTo('#b-speed', { scaleX: 0 }, { scaleX: 0.85, duration: 0.6, ease: 'power3.out' }, 9.08);
+tl.fromTo('#b-build', { scaleX: 0 }, { scaleX: 0.65, duration: 0.95, ease: 'power2.out' }, 9.23);
+
+tl.fromTo('#leak-stat',  { opacity: 0 }, { opacity: 1, duration: 0.45, ease: 'power1.out' }, 9.85);
+
+// ─────────────────────────────────────────────────────
+// S5 — Verdict pill appears at t=11.5
+// ─────────────────────────────────────────────────────
+tl.fromTo('#sc-verdict', { opacity: 0, y: 36, scale: 0.92 }, { opacity: 1, y: 0, scale: 1, duration: 0.55, ease: 'back.out(1.4)' }, 11.62);
+
+// ─────────────────────────────────────────────────────
+// S4 → S6: BLUR CROSSFADE at t=14.0
+// ─────────────────────────────────────────────────────
+tl.to('#s4',   { opacity: 0, filter: 'blur(10px)', scale: 1.02, duration: 0.4, ease: 'power2.inOut' }, 14.0);
+tl.fromTo('#s6', { opacity: 0, filter: 'blur(10px)', scale: 0.98 }, { opacity: 1, filter: 'blur(0px)', scale: 1, duration: 0.4, ease: 'power2.inOut' }, 14.06);
+tl.set('#s4',  { opacity: 0, filter: 'blur(0px)', scale: 1 }, 14.5);
+
+// ─────────────────────────────────────────────────────
+// S6 ENTRANCE
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s6-text', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 14.24);
+
+// ─────────────────────────────────────────────────────
+// S6 → S7: CROSSFADE at t=15.5
+// ─────────────────────────────────────────────────────
+tl.to('#s6',   { opacity: 0, duration: 0.3, ease: 'power1.inOut' }, 15.5);
+tl.fromTo('#s7', { opacity: 0 }, { opacity: 1, duration: 0.3, ease: 'power1.inOut' }, 15.56);
+tl.set('#s6',  { opacity: 0 }, 15.88);
+
+// ─────────────────────────────────────────────────────
+// S7 ENTRANCES
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s7-logo',    { opacity: 0, scale: 0.88 }, { opacity: 1, scale: 1, duration: 0.44, ease: 'back.out(1.5)' }, 15.7);
+tl.fromTo('#s7-tagline', { opacity: 0, y: 18 },       { opacity: 1, y: 0, duration: 0.42, ease: 'power2.out' }, 15.9);
+
+window.__timelines['main'] = tl;
+</script>
+</body>
+</html>

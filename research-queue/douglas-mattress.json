@@ -1,0 +1,82 @@
+{
+  "slug": "douglas-mattress",
+  "name": "Douglas Mattress",
+  "brand": "Douglas",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Budget Options",
+  "asin": "NOT_ON_AMAZON_CA",
+  "price": 699,
+  "priceDisplay": "$699 CAD (Queen)",
+  "score": 8.4,
+  "tag": "Best Budget Canadian Mattress",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://douglasbed.ca",
+  "introText": "The Douglas Mattress is a Canadian foam mattress with a 120-night trial and 15-year warranty at $699 CAD (Queen) — the best value mattress from a Canadian brand.",
+  "subscores": {
+    "Comfort": 8.3,
+    "Support": 8.5,
+    "Motion Isolation": 8.5,
+    "Edge Support": 7.8,
+    "Value": 9.5
+  },
+  "specs": {
+    "Type": "Foam",
+    "Firmness": "Medium-Firm",
+    "Height": "25cm",
+    "Trial": "120 nights",
+    "Warranty": "15 years",
+    "Ships To": "Canada only"
+  },
+  "whatWorks": [
+    "Longest trial and warranty at this price — 120 nights (vs. Endy's 100) and a 15-year warranty (vs. 10) make the Douglas the lowest-risk mattress purchase in Canada.",
+    "Medium-firm feel suits back and stomach sleepers better than most foam mattresses — slightly firmer than the Endy, which is the better choice for those who prefer a firmer surface."
+  ],
+  "worthKnowing": [
+    "Medium-firm is firmer than average — side sleepers with shoulder or hip pressure points may find the Douglas less comfortable than medium-feel alternatives.",
+    "Brand recognition is lower than Endy — Douglas is owned by GoodMorning.com; quality is comparable but customer support infrastructure is smaller."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Too firm for strict side sleepers",
+      "body": "The medium-firm feel causes shoulder and hip pressure for dedicated side sleepers. Side sleepers should try the Endy Original (medium) instead.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Less brand awareness than competitors",
+      "body": "Douglas doesn't have Endy's marketing footprint — fewer user reviews make it harder to research comprehensively before buying.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Edge support is average",
+      "body": "Like all foam mattresses, the Douglas compresses at the edge. Not a significant issue for most sleepers.",
+      "source": "Douglas review"
+    }
+  ],
+  "verdict": "The Douglas Mattress is the best value Canadian mattress — $176 less than the Endy Original with a longer trial and warranty. If you prefer medium-firm over medium, the Douglas is the right choice. Side sleepers should consider the Endy Original instead.",
+  "realBuyers": [
+    {
+      "quote": "Best mattress I've ever bought and I've owned five. The medium-firm keeps my back happy.",
+      "source": "Douglas review"
+    },
+    {
+      "quote": "Canadian company, fast delivery, and the price is unbeatable. Sleep better than on any hotel mattress.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "quote": "120 nights trial is great — didn't need it because I loved it immediately, but the peace of mind helps.",
+      "source": "Douglas review"
+    }
+  ],
+  "sources": [
+    { "title": "Douglas Mattress — douglasbed.ca", "url": "https://douglasbed.ca" },
+    { "title": "Douglas Mattress Review — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Douglas Mattress review: foam, medium-firm, 120-night trial, 15-year warranty. $699 CAD (Queen). Best budget Canadian mattress.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "NOT_ON_AMAZON_CA",
+  "verifiedPrice": "$699 CAD (Queen)",
+  "similarProducts": ["endy-original-mattress", "zinus-green-tea-mattress", "casper-original-hybrid-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

@@ -9,15 +9,15 @@
   "asin": "B016H0N49G",
   "price": 89,
   "priceDisplay": "$89 CAD",
-  "score": 8.0,
+  "score": 8,
   "tag": "Best Budget Tower Fan with Remote",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.honeywellhome.com/cdn/shop/files/T6_Living_Room_Wide_72.jpg?crop=center&height=1200&v=1757600586&width=1200",
   "affiliateUrl": "https://www.amazon.ca/dp/B016H0N49G/?tag=clearpick06-20",
   "introText": "The Honeywell HYF290B uses QuietSet technology to run at whisper-quiet speeds on low — ideal for bedrooms, with an 8-hour sleep timer and remote control so you don't have to get up to adjust it overnight.",
   "subscores": {
-    "Noise Level": 9.0,
+    "Noise Level": 9,
     "Airflow": 7.5,
-    "Features": 8.0,
+    "Features": 8,
     "Build Quality": 7.5,
     "Value for Money": 8.5
   },
@@ -104,7 +104,7 @@
     "honeywell-hcm-350-humidifier"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/honeywell-hyf290b-tower-fan/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

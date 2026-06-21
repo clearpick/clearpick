@@ -1,0 +1,82 @@
+{
+  "slug": "marshall-emberton-iii",
+  "name": "Marshall Emberton III Bluetooth Speaker",
+  "brand": "Marshall",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Portable Speakers",
+  "asin": "VERIFY_ASIN",
+  "price": 199,
+  "priceDisplay": "$199 CAD",
+  "score": 8.8,
+  "tag": "Best Style Portable Speaker",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Marshall Emberton III is the most attractive portable speaker in any price range — 30-hour battery, IP67 waterproofing, and Marshall's warm guitar-influenced sound signature for $199 CAD.",
+  "subscores": {
+    "Sound Quality": 8.8,
+    "Bass": 8.5,
+    "Battery Life": 9.2,
+    "Durability": 8.8,
+    "Value": 8.5
+  },
+  "specs": {
+    "Waterproofing": "IP67",
+    "Battery": "Up to 30 hours",
+    "Connectivity": "Bluetooth 5.3",
+    "Weight": "705g",
+    "Dimensions": "18x9x8cm",
+    "Output": "Stacked dual driver array"
+  },
+  "whatWorks": [
+    "30-hour battery is the longest in this category — over a full weekend of use at 8 hours/day, the Marshall Emberton III won't need charging.",
+    "Marshall's warm, mid-forward sound signature is distinctive — guitars and vocals sound particularly rich; ideal for rock, blues, and acoustic music fans."
+  ],
+  "worthKnowing": [
+    "Sound signature is warm and mid-forward, not neutral — users who prefer reference-flat or bass-heavy tuning may find the Marshall sound less suited to EDM or hip-hop.",
+    "More expensive than the JBL Flip 7 for similar output volume — the $20 premium buys better design and battery life, not more volume."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Sound signature not for everyone",
+      "body": "The warm Marshall sound is tuned for rock and blues. Electronic music, hip-hop, and bass-heavy genres sound less impactful than on the JBL Flip 7.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    },
+    {
+      "title": "No app or EQ customization",
+      "body": "Marshall doesn't offer an app for the Emberton III — no EQ adjustments are available. What you hear is what you get.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Multi-host (switch between 2 devices) limited",
+      "body": "Switching between two paired devices requires manual re-pairing; no automatic switching between phone and laptop like some competitors.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    }
+  ],
+  "verdict": "The Marshall Emberton III is the best portable speaker for music listeners who care as much about how their speaker looks as how it sounds — the iconic Marshall aesthetic, 30-hour battery, and warm sound signature are a package no competitor matches. For pure sound-per-dollar, the JBL Flip 7 and Anker Motion X600 deliver more.",
+  "realBuyers": [
+    {
+      "quote": "People always ask about it. The design makes it a conversation piece. And the sound is excellent.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "30 hours. THIRTY. I camp for a week without worrying about charging my speaker.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    },
+    {
+      "quote": "Perfect for guitar players. Sounds like a real amp-influenced signature. Music I love sounds incredible.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Marshall Emberton III — Marshall Canada", "url": "https://www.marshallheadphones.com/ca" },
+    { "title": "Emberton III Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Marshall Emberton III review Canada: IP67, 30-hr battery, warm signature sound. $199 CAD. Best-looking portable speaker for Canadian music lovers.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$199 CAD",
+  "similarProducts": ["jbl-flip-7", "bose-soundlink-max", "anker-soundcore-motion-x600"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

@@ -11,15 +11,15 @@
   "priceDisplay": "$99 CAD",
   "score": 8.7,
   "tag": "Best Concert Ukulele for Beginners",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://kalabrand.com/cdn/shop/products/KAC2006_20_R_1024x1024.jpg?v=1610062084",
   "affiliateUrl": "https://www.amazon.ca/dp/B003BBSHNA/?tag=clearpick06-20",
   "introText": "The Kala KA-C is the most recommended concert ukulele under $100 — mahogany top, back and sides, Aquila Nylgut strings, and a 38cm scale length that's comfortable for adult players transitioning from guitar or starting fresh.",
   "subscores": {
     "Sound Quality": 8.5,
-    "Playability": 9.0,
+    "Playability": 9,
     "Build Quality": 8.5,
     "Brand Reputation": 9.5,
-    "Value for Money": 9.0
+    "Value for Money": 9
   },
   "specs": {
     "Size": "Concert (15 frets, 38cm scale)",
@@ -105,7 +105,7 @@
     "arturia-minilab-3-midi-controller"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/kala-ka-c-concert-ukulele/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

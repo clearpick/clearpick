@@ -11,15 +11,15 @@
   "priceDisplay": "$119 CAD",
   "score": 8.7,
   "tag": "Best Compact Air Purifier for Bedrooms",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://levoit.com/cdn/shop/files/71ea9ab02fa043e7c724b952405e677dcdaba0ce.jpg?v=1764042625",
   "affiliateUrl": "https://www.amazon.ca/dp/B08ZDZ3KKN/?tag=clearpick06-20",
   "introText": "The Levoit Core 300 achieves 24 dBA sleep mode noise — genuinely whisper-quiet for overnight bedroom use — with True HEPA + Carbon filtration, 219 sq ft coverage, and interchangeable filter options for pets or toxins.",
   "subscores": {
     "Noise Level": 9.5,
     "Air Purification": 8.5,
     "Coverage": 7.5,
-    "Filter Variety": 9.0,
-    "Value for Money": 9.0
+    "Filter Variety": 9,
+    "Value for Money": 9
   },
   "specs": {
     "Coverage": "219 sq ft at ACH 5 (219 sq ft recommended room size)",
@@ -104,7 +104,7 @@
     "honeywell-hcm-350-humidifier"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/levoit-core-300-air-purifier/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

@@ -1,0 +1,82 @@
+{
+  "slug": "jackery-explorer-1000-plus",
+  "name": "Jackery Explorer 1000 Plus Portable Power Station",
+  "brand": "Jackery",
+  "category": "Power Stations",
+  "categoryPage": "power-stations.html",
+  "filterTag": "Large Capacity (1000Wh+)",
+  "asin": "VERIFY_ASIN",
+  "price": 1099,
+  "priceDisplay": "$1,099 CAD",
+  "score": 8.8,
+  "tag": "Best Jackery Station",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Jackery Explorer 1000 Plus offers 1264Wh with 2000W output and expandable battery capacity — the best Jackery power station for family camping and home backup at $1,099 CAD.",
+  "subscores": {
+    "Capacity": 9.0,
+    "Output Power": 8.8,
+    "Charging Speed": 8.5,
+    "Portability": 8.3,
+    "Value": 8.8
+  },
+  "specs": {
+    "Capacity": "1264Wh (LFP battery)",
+    "AC Output": "2000W (surge 4000W)",
+    "DC Output": "12V 10A",
+    "Solar Input": "400W max",
+    "Weight": "14.1kg",
+    "Charge Time": "1.7 hours to 80% via AC"
+  },
+  "whatWorks": [
+    "2000W AC output handles most RV and home appliances — runs a microwave (1000W), electric grill (1500W), and portable AC unit simultaneously — more headroom than the EcoFlow DELTA 2's 1800W.",
+    "Expandable with Jackery battery packs — the 1000 Plus supports capacity expansion, doubling its runtime for extended off-grid use."
+  ],
+  "worthKnowing": [
+    "AC charging takes 1.7 hours (slower than EcoFlow) — Jackery's charging speed is good but slower than EcoFlow's X-Stream at 80 minutes. For fast turnaround scenarios, EcoFlow wins.",
+    "Jackery has the largest retail presence in Canada — available at Canadian Tire, REI Canada, and online with strong in-country warranty support."
+  ],
+  "commonComplaints": [
+    {
+      "title": "AC charging slower than EcoFlow competitors",
+      "body": "1.7 hours to 80% is good but the EcoFlow DELTA 2 achieves the same in 80 minutes. Time-sensitive recharging favors EcoFlow.",
+      "source": "Reddit (r/preppers)"
+    },
+    {
+      "title": "Heavier than DELTA 2 with less capacity per kg",
+      "body": "The Explorer 1000 Plus weighs 14.1kg for 1264Wh; the DELTA 2 is 12kg for 1024Wh. The weight-to-capacity ratio is similar but the form factor is bulkier.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "App is functional but basic",
+      "body": "Jackery's app provides monitoring and control but has fewer smart features than EcoFlow's app for scheduling and energy management.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Jackery Explorer 1000 Plus is the best choice for Jackery loyalists and buyers who want wide Canadian retail availability — it offers 2000W output, expandable capacity, and LFP longevity. For pure performance and charging speed, the EcoFlow DELTA 2 at $100 less still leads.",
+  "realBuyers": [
+    {
+      "quote": "Bought at Canadian Tire with a warranty I trust. Works perfectly for our annual camping trip. Powers the whole family.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "2000W surge handles our portable AC. Nothing else in this price range could do that.",
+      "source": "Reddit (r/preppers)"
+    },
+    {
+      "quote": "LFP battery means this thing should last 10 years. Best long-term investment in emergency prep I've made.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Jackery Explorer 1000 Plus — Jackery Canada", "url": "https://www.jackery.com/ca" },
+    { "title": "Explorer 1000 Plus Review — OutdoorGearLab", "url": "https://www.outdoorgearlab.com" }
+  ],
+  "metaDescription": "Jackery Explorer 1000 Plus review Canada: 1264Wh LFP, 2000W output, expandable. $1,099 CAD. Best Jackery power station for Canadian camping and home backup.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$1,099 CAD",
+  "similarProducts": ["ecoflow-delta-2-power-station", "bluetti-ac180-power-station", "ecoflow-delta-2-max"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

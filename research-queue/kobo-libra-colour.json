@@ -1,0 +1,82 @@
+{
+  "slug": "kobo-libra-colour",
+  "name": "Kobo Libra Colour",
+  "brand": "Kobo",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "E-Readers",
+  "asin": "NOT_ON_AMAZON_CA",
+  "price": 219,
+  "priceDisplay": "$219 CAD",
+  "score": 8.8,
+  "tag": "Best Canadian E-Reader",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.kobo.com/ca/en/ebook-readers/kobo-libra-colour",
+  "introText": "The Kobo Libra Colour is a 7-inch color E-ink e-reader with stylus support, OverDrive library borrowing, and open ePub format support — the best e-reader for Canadians who use public library e-books.",
+  "subscores": {
+    "Display": 9.0,
+    "Battery Life": 9.2,
+    "Software": 8.8,
+    "Build Quality": 9.0,
+    "Value": 9.2
+  },
+  "specs": {
+    "Display": "7\" Color E-ink (300 PPI)",
+    "Storage": "32GB",
+    "Waterproofing": "IPX8",
+    "Lighting": "ComfortLight PRO warm/cool",
+    "Battery": "Up to 6 weeks",
+    "Charging": "USB-C"
+  },
+  "whatWorks": [
+    "Native OverDrive/Libby library support — borrow free e-books from Canadian public libraries directly on the device, without sideloading or workarounds that Kindle requires.",
+    "Open ePub support — the Kobo accepts ePub files from any source including Project Gutenberg and Smashwords, without Amazon's DRM restrictions."
+  ],
+  "worthKnowing": [
+    "6-week battery is shorter than Kindle Paperwhite (12 weeks) — color E-ink draws more power. Still excellent compared to any tablet.",
+    "Kobo's book store is smaller than Amazon Kindle — major releases are available, but book selection for niche topics and older titles can be more limited."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Smaller book store than Amazon",
+      "body": "Kobo's store has millions of titles but Amazon Kindle has more, especially for self-published and independent titles.",
+      "source": "Reddit (r/ebooks)"
+    },
+    {
+      "title": "Battery shorter than Paperwhite",
+      "body": "The Libra Colour's 6-week battery vs. Paperwhite's 12 weeks means charging twice as often. Still excellent but a notable difference.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Interface less polished than Kindle",
+      "body": "Kobo's software is good but Kindle's interface is more refined and faster in some navigational tasks. Subjective but consistent feedback.",
+      "source": "Reddit (r/ebooks)"
+    }
+  ],
+  "verdict": "The Kobo Libra Colour is the best e-reader for Canadians who borrow library e-books through Libby or OverDrive — native library support is the killer feature that Kindle doesn't match. At $219, it's also cheaper than the Kindle Colorsoft. If you buy from Amazon, the Kindle ecosystem is better; if you use a public library, Kobo wins.",
+  "realBuyers": [
+    {
+      "quote": "Library card plus Kobo = free books forever. Borrowed 200 books without spending a dollar on the book store.",
+      "source": "Reddit (r/ebooks)"
+    },
+    {
+      "quote": "Used a Kindle for 5 years. Switched to Kobo for the library support. Never going back.",
+      "source": "Kobo review"
+    },
+    {
+      "quote": "Color display is great for illustrated books. My kids' books actually look good on it.",
+      "source": "Kobo review"
+    }
+  ],
+  "sources": [
+    { "title": "Kobo Libra Colour — Kobo Canada", "url": "https://www.kobo.com/ca/en/ebook-readers/kobo-libra-colour" },
+    { "title": "Kobo Libra Colour Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Kobo Libra Colour review Canada: 7\" color E-ink, OverDrive library support, IPX8. $219 CAD. Best e-reader for Canadians with a library card.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "NOT_ON_AMAZON_CA",
+  "verifiedPrice": "$219 CAD",
+  "similarProducts": ["kindle-paperwhite-signature-edition", "kindle-colorsoft", "kobo-clara-colour"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

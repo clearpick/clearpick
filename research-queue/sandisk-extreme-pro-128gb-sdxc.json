@@ -9,16 +9,16 @@
   "asin": "B08GY9NYRM",
   "price": 35,
   "priceDisplay": "$35 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best SD Card for 4K Video Shooting",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.sandisk.com/content/dam/store/en-us/assets/products/memory-cards/extreme-pro-uhs-i-sd/gallery/200mbs/extreme-pro-uhs-i-sd-100mbs-32gb-front.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B08GY9NYRM/?tag=clearpick06-20",
   "introText": "The SanDisk Extreme PRO 128GB writes at 90MB/s and reads at 200MB/s — fast enough for 4K/60fps on any mirrorless camera, with temperature and shock resistance backed by SanDisk's proven reliability track record.",
   "subscores": {
-    "Write Speed": 9.0,
-    "Read Speed": 9.0,
+    "Write Speed": 9,
+    "Read Speed": 9,
     "Reliability": 9.5,
-    "Value for Money": 9.0,
+    "Value for Money": 9,
     "Compatibility": 9.5
   },
   "specs": {
@@ -104,7 +104,7 @@
     "nikon-z50-ii-camera"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/sandisk-extreme-pro-128gb-sdxc/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

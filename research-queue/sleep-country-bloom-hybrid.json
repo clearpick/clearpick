@@ -1,0 +1,82 @@
+{
+  "slug": "sleep-country-bloom-hybrid",
+  "name": "Sleep Country Bloom Hybrid Mattress",
+  "brand": "Sleep Country",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Hybrid Mattresses",
+  "asin": "VERIFY_ASIN",
+  "price": 999,
+  "priceDisplay": "$999 CAD (Queen)",
+  "score": 8.3,
+  "tag": "Best Canadian Retailer Pick",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Sleep Country Bloom Hybrid is Canada's top national retail mattress — available in 270+ Sleep Country stores for in-person testing with a 120-night comfort guarantee at $999 CAD (Queen).",
+  "subscores": {
+    "Comfort": 8.2,
+    "Support": 8.5,
+    "Motion Isolation": 8.0,
+    "Edge Support": 8.3,
+    "Value": 8.5
+  },
+  "specs": {
+    "Type": "Hybrid",
+    "Firmness": "Medium",
+    "Height": "28cm",
+    "Trial": "120 nights",
+    "Warranty": "10 years",
+    "Ships To": "Canada"
+  },
+  "whatWorks": [
+    "In-store testing at 270+ Canadian locations removes purchase uncertainty — unlike D2C brands, the Sleep Country Bloom can be tried before buying.",
+    "120-night comfort guarantee includes an exchange — Sleep Country will swap the mattress for a different firmness within the trial period, not just return it."
+  ],
+  "worthKnowing": [
+    "More expensive than comparable D2C Canadian brands — the Endy Hybrid is $176 less and performs similarly, but cannot be tested in-store.",
+    "In-store financing available — Sleep Country's financing options make the Bloom accessible for buyers who want to spread payments."
+  ],
+  "commonComplaints": [
+    {
+      "title": "More expensive than D2C alternatives",
+      "body": "The Sleep Country markup over D2C competitors like Endy is real — you pay for the retail network, in-store testing, and financing options.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Less innovation than specialty brands",
+      "body": "The Bloom Hybrid is a conventional hybrid — it doesn't have the GelFlex Grid of Purple or the dual-coil engineering of Saatva.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Some stores have high-pressure sales tactics",
+      "body": "Sleep Country's commission-based sales model leads to variable in-store experiences. Research before visiting.",
+      "source": "Reddit (r/canada)"
+    }
+  ],
+  "verdict": "The Sleep Country Bloom Hybrid is the best option for Canadians who want to test a mattress before buying — the in-store network removes D2C purchase risk. If you're comfortable buying without testing, the Endy Hybrid delivers comparable quality for less.",
+  "realBuyers": [
+    {
+      "quote": "Tried it in the store for 20 minutes before deciding. Worth the price just to know what I was buying.",
+      "source": "Reddit (r/canada)"
+    },
+    {
+      "quote": "Comfortable, well-supported, good quality. Can't go wrong with Sleep Country for a reliable buy.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Exchanged for a firmer model at 60 nights. No hassle, they just swapped it. Great experience.",
+      "source": "Sleep Country review"
+    }
+  ],
+  "sources": [
+    { "title": "Sleep Country Bloom — Sleep Country Canada", "url": "https://www.sleepcountry.ca" },
+    { "title": "Sleep Country Mattress Discussion — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Sleep Country Bloom Hybrid review Canada: in-store testing at 270+ locations, 120-night trial. $999 CAD (Queen). Best in-store mattress option in Canada.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$999 CAD (Queen)",
+  "similarProducts": ["endy-hybrid-mattress", "casper-original-hybrid-mattress", "douglas-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

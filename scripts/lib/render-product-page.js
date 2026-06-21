@@ -42,6 +42,10 @@ const CAT_ICONS = {
   'Baby & Kids':                   '👶',
   'Luggage & Travel':              '🧳',
   'Automotive':                    '🚗',
+  'Laptops':                       '💻',
+  'Mattresses & Sleep':            '🛏️',
+  'Tablets':                       '📱',
+  'Power Stations':                '⚡',
 };
 
 const esc = s => String(s)
@@ -116,7 +120,7 @@ function renderProductPage(p, products) {
     : '';
 
   // ── Similar products section ──────────────────────────────────────────────────
-  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s));
+  const similar = (p.similarProducts || []).map(s => products.find(x => x.id === s)).filter(Boolean);
   const similarSection = similar.length ? `<section class="section--similar">
 <div class="container">
 <div class="section__header">

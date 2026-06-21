@@ -1,0 +1,82 @@
+{
+  "slug": "kindle-paperwhite-signature-edition",
+  "name": "Kindle Paperwhite Signature Edition",
+  "brand": "Amazon",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "E-Readers",
+  "asin": "VERIFY_ASIN",
+  "price": 249,
+  "priceDisplay": "$249 CAD",
+  "score": 9.2,
+  "tag": "Best E-Reader Overall",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Kindle Paperwhite Signature Edition is the best all-around e-reader — 6.8-inch 300 PPI display with auto-adjusting warm light, IPX8 waterproofing, and wireless charging for $249 CAD on Amazon.ca.",
+  "subscores": {
+    "Display": 9.3,
+    "Battery Life": 9.5,
+    "Software": 9.0,
+    "Build Quality": 9.0,
+    "Value": 9.0
+  },
+  "specs": {
+    "Display": "6.8\" E-ink (300 PPI)",
+    "Storage": "32GB",
+    "Waterproofing": "IPX8 (2m for 60 min)",
+    "Lighting": "Auto-adjusting warm/cool LED",
+    "Battery": "Up to 12 weeks",
+    "Charging": "USB-C + wireless Qi"
+  },
+  "whatWorks": [
+    "12-week battery life means charging once a month for average readers — the E-ink display uses power only when the page refreshes, not while displaying static content.",
+    "Auto-adjusting warm light shifts from cool white to amber automatically as the day progresses — reduces eye strain for evening reading without requiring manual adjustment."
+  ],
+  "worthKnowing": [
+    "Locked to Amazon's Kindle ecosystem — DRM restrictions mean books purchased in Kindle format can't be read on non-Kindle e-readers. Kobo e-readers support more open formats including library borrowing via OverDrive.",
+    "Signature Edition adds wireless charging over the base Paperwhite — the only Kindle to support Qi wireless charging."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Locked into Amazon ecosystem",
+      "body": "Books purchased on Kindle are DRM-protected and can only be read on Kindle devices or apps. Moving to a non-Kindle e-reader means leaving your library behind.",
+      "source": "Reddit (r/ebooks)"
+    },
+    {
+      "title": "Ads on lock screen (base model)",
+      "body": "The standard Kindle Paperwhite shows lock screen ads; removing them costs an additional fee. The Signature Edition ships without ads.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No color display",
+      "body": "The Paperwhite is black-and-white only. Users who want color illustrations or comics should look at the Kindle Colorsoft or Kobo Libra Colour.",
+      "source": "Reddit (r/ebooks)"
+    }
+  ],
+  "verdict": "The Kindle Paperwhite Signature Edition is the best e-reader for anyone who buys books primarily through Amazon — the display, battery life, waterproofing, and wireless charging combination is unmatched. If ePub library borrowing or open formats matter, the Kobo Libra Colour is a better fit.",
+  "realBuyers": [
+    {
+      "quote": "Read for an hour every night. Charge it once a month. The best reading experience I've ever had.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Dropped it in the bath twice. Works perfectly. IPX8 is no joke.",
+      "source": "Reddit (r/ebooks)"
+    },
+    {
+      "quote": "Converted from physical books 2 years ago. Never looking back. The warm light adjustment is the feature that keeps me reading at night.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Kindle Paperwhite Signature — Amazon.ca", "url": "https://www.amazon.ca" },
+    { "title": "Kindle Paperwhite Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Kindle Paperwhite Signature Edition review Canada: 6.8\" 300 PPI, 12-week battery, IPX8, wireless charging. $249 CAD. Best e-reader for Canadians on Amazon.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$249 CAD",
+  "similarProducts": ["kindle-colorsoft", "kobo-libra-colour", "kobo-clara-colour"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

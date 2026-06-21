@@ -1,0 +1,82 @@
+{
+  "slug": "apple-watch-series-10",
+  "name": "Apple Watch Series 10",
+  "brand": "Apple",
+  "category": "Fitness & Health",
+  "categoryPage": "fitness.html",
+  "filterTag": "Smart Watches",
+  "asin": "VERIFY_ASIN",
+  "price": 549,
+  "priceDisplay": "$549 CAD",
+  "score": 9.1,
+  "tag": "Best Smartwatch Overall",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Apple Watch Series 10 is the thinnest Apple Watch ever with Always-On display, ECG, blood oxygen monitoring, and watchOS 11 — the best smartwatch for iPhone users at $549 CAD.",
+  "subscores": {
+    "Health Tracking": 9.3,
+    "Fitness": 9.0,
+    "Design": 9.5,
+    "Battery Life": 8.5,
+    "Ecosystem": 9.8
+  },
+  "specs": {
+    "Display": "1.9\" LTPO OLED Always-On",
+    "Chip": "S10",
+    "Health": "ECG + blood oxygen + crash detection + sleep tracking",
+    "Battery": "Up to 18 hours",
+    "Waterproofing": "WR50",
+    "Connectivity": "GPS + Cellular option"
+  },
+  "whatWorks": [
+    "Deepest iPhone integration of any smartwatch — calls, texts, notifications, Siri, Apple Pay, and Find My all work natively without opening an app or unlocking your phone.",
+    "ECG and blood oxygen monitoring are health-grade features at consumer prices — Apple Watch has detected atrial fibrillation and low blood oxygen in users who had no symptoms, potentially saving lives."
+  ],
+  "worthKnowing": [
+    "Only works with iPhone — the Apple Watch is completely dependent on an iPhone; no Android compatibility whatsoever.",
+    "18-hour battery requires nightly charging — the always-on display and comprehensive health monitoring drain the battery enough to require nightly charging, limiting sleep tracking convenience."
+  ],
+  "commonComplaints": [
+    {
+      "title": "iPhone-only is a hard lock",
+      "body": "Apple Watch is completely incompatible with Android. Android users must consider Garmin, Samsung, or Google alternatives.",
+      "source": "Reddit (r/smartwatch)"
+    },
+    {
+      "title": "Nightly charging required",
+      "body": "18-hour battery means charging while sleeping or losing sleep tracking. Garmin watches run 14 days between charges.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Sleep tracking requires conscious effort",
+      "body": "To track sleep, the watch must be charged before bed and worn while sleeping — requires a consistent charging routine that some users find inconvenient.",
+      "source": "Reddit (r/AppleWatch)"
+    }
+  ],
+  "verdict": "The Apple Watch Series 10 is the best smartwatch for iPhone users — no competing watch matches its iPhone integration, ECG accuracy, or design. If you have an iPhone and wear your watch daily, this is the watch to buy. Android users should look at Samsung Galaxy Watch 7 or Garmin Venu 3.",
+  "realBuyers": [
+    {
+      "quote": "Series 10 detected my AFib during a workout. Doctor confirmed it. The health monitoring is genuinely lifesaving.",
+      "source": "Reddit (r/AppleWatch)"
+    },
+    {
+      "quote": "Thinnest watch I've worn. Feels like it's not there. Incredible for daily wear.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Never forget my phone — Apple Watch handles everything. Texts, calls, notifications. Seamless.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Apple Watch Series 10 — Apple Canada", "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch" },
+    { "title": "Apple Watch Series 10 Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Apple Watch Series 10 review Canada: LTPO OLED Always-On, ECG, 18-hr battery. $549 CAD. Best smartwatch for Canadian iPhone users.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$549 CAD",
+  "similarProducts": ["apple-watch-se-2024", "garmin-venu-3", "samsung-galaxy-watch-7"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

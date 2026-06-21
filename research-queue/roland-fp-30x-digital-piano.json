@@ -11,13 +11,13 @@
   "priceDisplay": "$1,099 CAD",
   "score": 9.4,
   "tag": "Best 88-Key Digital Piano Under $1,200",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://static.roland.com/global/images/og.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B09BTYP5T4/?tag=clearpick06-20",
   "introText": "The Roland FP-30X is the most recommended portable digital piano in the $1,000-1,200 CAD range — PHA-4 Standard weighted action that mirrors acoustic piano feel, Bluetooth MIDI for wireless app connectivity, and Roland's premium piano sound engine.",
   "subscores": {
     "Key Action": 9.5,
     "Sound Quality": 9.5,
-    "Connectivity": 9.0,
+    "Connectivity": 9,
     "Portability": 8.5,
     "Value for Money": 9.5
   },
@@ -106,7 +106,7 @@
     "focusrite-scarlett-solo-4th-gen"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/roland-fp-30x-digital-piano/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

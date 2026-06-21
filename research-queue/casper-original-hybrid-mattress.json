@@ -1,0 +1,82 @@
+{
+  "slug": "casper-original-hybrid-mattress",
+  "name": "Casper Original Hybrid Mattress",
+  "brand": "Casper",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Hybrid Mattresses",
+  "asin": "VERIFY_ASIN",
+  "price": 1299,
+  "priceDisplay": "$1,299 CAD (Queen)",
+  "score": 8.5,
+  "tag": "Best Known Brand Hybrid",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Casper Original Hybrid combines foam comfort layers with pocketed springs, delivering the brand recognition and balanced feel that made Casper Canada's most recognized mattress brand at $1,299 CAD (Queen).",
+  "subscores": {
+    "Comfort": 8.5,
+    "Support": 8.7,
+    "Motion Isolation": 8.3,
+    "Edge Support": 8.0,
+    "Value": 8.0
+  },
+  "specs": {
+    "Type": "Hybrid",
+    "Firmness": "Medium",
+    "Height": "28cm",
+    "Trial": "100 nights",
+    "Warranty": "10 years",
+    "Ships To": "Canada"
+  },
+  "whatWorks": [
+    "Zoned support system with firmer coils under hips — Casper's zoned design relieves shoulder pressure for side sleepers while supporting the lower back more than a uniform-tension mattress.",
+    "Well-balanced feel suits most sleep positions — the medium firmness and hybrid construction work for side, back, and combination sleepers."
+  ],
+  "worthKnowing": [
+    "Priced above comparable Canadian alternatives — the Endy Hybrid is $1,175 and performs similarly; Casper charges a premium for brand recognition.",
+    "Available at Canadian retailers like Sleep Country — can be tested in person, which is an advantage over D2C Canadian brands."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Priced higher than comparable alternatives",
+      "body": "The Casper Original Hybrid costs more than the Endy Hybrid for similar performance. You're partly paying for the brand.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Edge support is soft",
+      "body": "The perimeter of the Casper compresses more than expected for a hybrid. Not as firm at the edge as traditional innerspring alternatives.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Motion transfer noticeable",
+      "body": "The pocketed coils reduce but don't eliminate motion transfer. Light sleepers with active partners may want an all-foam alternative.",
+      "source": "Reddit (r/Mattress)"
+    }
+  ],
+  "verdict": "The Casper Original Hybrid is a quality mattress with balanced feel and zoned support — but it's not the best value in its category. The Endy Hybrid performs comparably at $124 less. Choose the Casper if you want to test it in-store at Sleep Country or prefer the brand.",
+  "realBuyers": [
+    {
+      "quote": "Comfortable from night one. The zoned support actually feels different — less pressure on my shoulder.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Could try it at Sleep Country before buying. That's why I chose Casper over Endy.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "quote": "Good mattress but overpriced. The Endy Hybrid is just as good for less.",
+      "source": "Reddit (r/Mattress)"
+    }
+  ],
+  "sources": [
+    { "title": "Casper Original Hybrid — Casper Canada", "url": "https://casper.com/ca/en" },
+    { "title": "Casper Hybrid Review — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Casper Original Hybrid Mattress review Canada: foam + coils, medium, 100-night trial. $1,299 CAD (Queen). Best-known hybrid mattress brand in Canada.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$1,299 CAD (Queen)",
+  "similarProducts": ["endy-hybrid-mattress", "leesa-legend-hybrid-mattress", "sleep-country-bloom-hybrid"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

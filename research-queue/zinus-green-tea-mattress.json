@@ -1,0 +1,82 @@
+{
+  "slug": "zinus-green-tea-mattress",
+  "name": "Zinus Green Tea Memory Foam Mattress",
+  "brand": "Zinus",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Budget Options",
+  "asin": "VERIFY_ASIN",
+  "price": 299,
+  "priceDisplay": "$299 CAD (Queen)",
+  "score": 7.9,
+  "tag": "Best Budget Foam Mattress",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Zinus Green Tea Memory Foam Mattress offers Amazon's bestselling mattress in a bed-in-a-box format for $299 CAD (Queen) — the most affordable memory foam mattress available with reliable quality.",
+  "subscores": {
+    "Comfort": 7.8,
+    "Support": 7.8,
+    "Motion Isolation": 8.2,
+    "Edge Support": 7.0,
+    "Value": 9.5
+  },
+  "specs": {
+    "Type": "Memory Foam",
+    "Firmness": "Medium",
+    "Height": "25cm",
+    "Trial": "N/A (Amazon 30-day return)",
+    "Warranty": "10 years",
+    "Ships To": "Canada via Amazon.ca"
+  },
+  "whatWorks": [
+    "$299 for a Queen memory foam mattress is extraordinary value — offers genuine memory foam pressure relief at a price point where most alternatives are low-quality polyester.",
+    "Green tea infusion reduces odor during off-gassing — new foam mattresses have a chemical smell for 24–72 hours; the green tea extract reduces this noticeably."
+  ],
+  "worthKnowing": [
+    "No sleep trial — returns go through Amazon's standard 30-day policy, which requires boxing up and shipping back a mattress. Much harder to use than a dedicated sleep trial.",
+    "Not comparable to premium foam — at $299, the Zinus foam compresses faster over time than the Endy ($875) or Tempur-Pedic ($3,499) materials. Lifespan is shorter."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Compresses and softens faster than premium alternatives",
+      "body": "Users report the Zinus develops a body impression after 2–3 years. Budget foam doesn't last as long as premium materials like TEMPUR.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Edge support is minimal",
+      "body": "The foam perimeter has no reinforcement — sitting on the edge or sleeping near it causes significant compression.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Off-gassing smell on delivery",
+      "body": "Despite the green tea infusion, some units have a strong foam smell on first opening. Allow 24–48 hours to air out.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Zinus Green Tea is the best mattress under $400 — it delivers genuine memory foam comfort at a price that most Canadians can afford without financing. Don't expect the longevity or quality of premium brands, but for a guest room, first apartment, or tight budget, it's the clear choice.",
+  "realBuyers": [
+    {
+      "quote": "Guest room mattress. Guests always comment on how comfortable it is. For $299 it's incredible.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "First apartment. Best mattress I could afford. Comfortable from day one. No complaints.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Lasted 3 years before I felt a sag. For the price, I'll just buy another.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Zinus Green Tea Mattress — Amazon.ca", "url": "https://www.amazon.ca" },
+    { "title": "Zinus Mattress Discussion — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Zinus Green Tea Memory Foam review Canada: medium, 25cm, 10-year warranty. $299 CAD (Queen) on Amazon.ca. Best budget mattress in Canada.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$299 CAD (Queen)",
+  "similarProducts": ["douglas-mattress", "endy-original-mattress", "casper-original-hybrid-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

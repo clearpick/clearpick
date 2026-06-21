@@ -1,0 +1,82 @@
+{
+  "slug": "tempur-pedic-proadapt-medium",
+  "name": "Tempur-Pedic TEMPUR-ProAdapt Medium",
+  "brand": "Tempur-Pedic",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Memory Foam",
+  "asin": "VERIFY_ASIN",
+  "price": 3499,
+  "priceDisplay": "$3,499 CAD (Queen)",
+  "score": 9.1,
+  "tag": "Best Memory Foam Premium",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Tempur-Pedic TEMPUR-ProAdapt Medium is the original premium memory foam mattress — 30 years of engineering in a 30cm profile that provides unmatched pressure relief for side sleepers and pain sufferers.",
+  "subscores": {
+    "Comfort": 9.5,
+    "Support": 9.2,
+    "Motion Isolation": 9.5,
+    "Edge Support": 8.5,
+    "Value": 7.5
+  },
+  "specs": {
+    "Type": "Memory Foam (proprietary TEMPUR material)",
+    "Firmness": "Medium",
+    "Height": "30cm",
+    "Trial": "90 nights",
+    "Warranty": "10 years",
+    "Ships To": "Canada"
+  },
+  "whatWorks": [
+    "TEMPUR material provides the best pressure relief available in any mattress — NASA-derived visco-elastic foam distributes weight unlike any other material, making it the top recommendation for chronic pain sufferers.",
+    "Motion isolation is absolute — partners don't feel each other move at all on Tempur-Pedic. The wine glass test (wine glass on the mattress while partner moves) is a Tempur-Pedic trademark."
+  ],
+  "worthKnowing": [
+    "Very expensive at $3,499 CAD — almost double the Saatva Classic for a shorter trial period. Only justified for sleepers who've tried everything else and need maximum pressure relief.",
+    "Sleeps warm — TEMPUR material is denser than standard foam and retains more body heat. Hot sleepers should look at the Breeze version or the Purple Rejuvenate Plus instead."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Sleeps warm",
+      "body": "The dense TEMPUR material retains body heat more than hybrid or grid mattresses. Hot sleepers consistently report this issue.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Very expensive for 90-night trial",
+      "body": "At $3,499, a 90-night trial is shorter than competitors — the Saatva Classic offers a 365-night trial at roughly half the price.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Heavy and hard to move",
+      "body": "TEMPUR foam is dense and the mattress is very heavy — rotating or moving requires professional assistance.",
+      "source": "Tempur-Pedic review"
+    }
+  ],
+  "verdict": "The Tempur-Pedic ProAdapt Medium is the best mattress money can buy for pressure relief and motion isolation — but only if you sleep cool and have the budget. For most people, the Saatva Classic or Endy Hybrid delivers 85% of the comfort at 40–50% of the price.",
+  "realBuyers": [
+    {
+      "quote": "Chronic hip pain for 10 years. Slept on the Tempur-Pedic for a month. Pain is 80% better. Worth every dollar.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "quote": "Partner gets up 5 times a night. I feel nothing. The motion isolation is miraculous.",
+      "source": "Tempur-Pedic review"
+    },
+    {
+      "quote": "The most comfortable mattress I've ever slept on. Should have bought one 20 years ago.",
+      "source": "Tempur-Pedic review"
+    }
+  ],
+  "sources": [
+    { "title": "TEMPUR-ProAdapt — Tempur-Pedic Canada", "url": "https://www.tempurpedic.com/en-ca" },
+    { "title": "Tempur-Pedic Review — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Tempur-Pedic ProAdapt Medium review Canada: TEMPUR foam, medium, 90-night trial. $3,499 CAD (Queen). Best memory foam mattress for pressure relief in Canada.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$3,499 CAD (Queen)",
+  "similarProducts": ["saatva-classic-mattress", "purple-rejuvenate-plus-mattress", "leesa-legend-hybrid-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "endy-original-mattress",
+  "name": "Endy Original Mattress",
+  "brand": "Endy",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Foam Mattresses",
+  "asin": "NOT_ON_AMAZON_CA",
+  "price": 875,
+  "priceDisplay": "$875 CAD (Queen)",
+  "score": 8.8,
+  "tag": "Best Canadian Mattress",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://endy.com",
+  "introText": "The Endy Original is Canada's best-reviewed foam mattress, designed specifically for Canadian sleepers with a 100-night trial and free shipping across Canada for $875 CAD (Queen).",
+  "subscores": {
+    "Comfort": 9.0,
+    "Support": 8.5,
+    "Motion Isolation": 9.0,
+    "Edge Support": 8.0,
+    "Value": 9.2
+  },
+  "specs": {
+    "Type": "Foam (3-layer)",
+    "Firmness": "Medium",
+    "Height": "25cm",
+    "Trial": "100 nights",
+    "Warranty": "10 years",
+    "Ships To": "Canada only"
+  },
+  "whatWorks": [
+    "Medium firmness suits the widest range of sleep positions — the Endy's proprietary foam layer provides enough give for side sleepers and enough support for back sleepers, making it versatile across couples.",
+    "Excellent motion isolation for couples — foam construction absorbs movement effectively, so one partner turning won't disturb the other."
+  ],
+  "worthKnowing": [
+    "Edge support is softer than spring or hybrid mattresses — sitting or sleeping near the edge has less resistance; couples who use the full mattress width may want to consider the Endy Hybrid instead.",
+    "Firmer first week — the Endy typically softens slightly after 30 nights of use. The 100-night trial accounts for this break-in period."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Edge support less than spring competitors",
+      "body": "All-foam mattresses lack the perimeter spring support of hybrid or innerspring designs. The Endy compresses more at the edge than hybrid alternatives.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Can sleep warm for hot sleepers",
+      "body": "Some hot sleepers report the foam retains more heat than hybrid or spring alternatives. Endy's copper-infused foam mitigates this but doesn't eliminate it.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No luxury feel at this price",
+      "body": "The Endy is comfortable and supportive but lacks the plush hotel feel of premium options like the Saatva. You're buying value, not luxury.",
+      "source": "Reddit (r/Mattress)"
+    }
+  ],
+  "verdict": "The Endy Original is the best Canadian mattress for most people — it's comfortable, well-supported, Canadian-made, and backed by a 100-night risk-free trial. At $875 for a Queen, it competes with mattresses costing twice as much. If you sleep warm or want better edge support, look at the Endy Hybrid.",
+  "realBuyers": [
+    {
+      "quote": "Best sleep I've had in years. The medium firmness works perfectly for my back. Woke up without back pain for the first time in months.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "quote": "Tried for 100 nights. Kept it. It's comfortable, Canadian, and the price is fair. Nothing negative to say.",
+      "source": "Endy review"
+    },
+    {
+      "quote": "My partner moves a lot at night. I barely notice with the Endy. The motion isolation is excellent.",
+      "source": "Endy review"
+    }
+  ],
+  "sources": [
+    { "title": "Endy Original — Endy.com", "url": "https://endy.com" },
+    { "title": "Endy Mattress Review — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Endy Original Mattress review: 3-layer foam, medium firmness, 100-night trial. $875 CAD (Queen). Best Canadian foam mattress for most sleepers.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "NOT_ON_AMAZON_CA",
+  "verifiedPrice": "$875 CAD (Queen)",
+  "similarProducts": ["endy-hybrid-mattress", "douglas-mattress", "casper-original-hybrid-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

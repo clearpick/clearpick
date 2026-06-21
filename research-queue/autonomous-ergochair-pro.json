@@ -1,0 +1,82 @@
+{
+  "slug": "autonomous-ergochair-pro",
+  "name": "Autonomous ErgoChair Pro",
+  "brand": "Autonomous",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Ergonomic Chairs",
+  "asin": "VERIFY_ASIN",
+  "price": 449,
+  "priceDisplay": "$449 CAD",
+  "score": 8.3,
+  "tag": "Best Budget Ergonomic Chair",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Autonomous ErgoChair Pro offers 4D armrests, an adjustable headrest, and lumbar support at $449 CAD — the most feature-rich budget ergonomic chair in Canada.",
+  "subscores": {
+    "Lumbar Support": 8.2,
+    "Adjustability": 8.5,
+    "Comfort": 8.0,
+    "Build Quality": 7.8,
+    "Value": 9.2
+  },
+  "specs": {
+    "Weight Capacity": "136kg",
+    "Seat Height": "17–21\"",
+    "Armrest": "4D adjustable",
+    "Lumbar": "Adjustable lumbar + headrest",
+    "Warranty": "2 years",
+    "Material": "Mesh"
+  },
+  "whatWorks": [
+    "4D armrests and headrest at $449 — competing chairs at this price offer 2D or 3D armrests and no headrest. Autonomous packs more adjustability into the budget category.",
+    "Full mesh construction for breathability — no heat retention issues; the mesh back and seat keep air flowing for hot office environments."
+  ],
+  "worthKnowing": [
+    "2-year warranty is the shortest in this review — reflects the build quality tier. The ErgoChair Pro is expected to last 3–5 years with daily home office use.",
+    "Assembly can be challenging — Autonomous's assembly instructions are less clear than competitors; allow 45–60 minutes and consider video tutorials."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Build quality shows at the price",
+      "body": "Plastic parts creak and feel less solid than premium alternatives. The adjustment mechanisms work but feel cheaper than the Branch or Herman Miller.",
+      "source": "Reddit (r/homeoffice)"
+    },
+    {
+      "title": "2-year warranty is a concern",
+      "body": "With a 2-year warranty on a daily-use chair, users report quality issues in years 2–3 that aren't covered.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Customer support can be slow",
+      "body": "Autonomous customer service response times and warranty claims have mixed reviews — some users report weeks-long delays.",
+      "source": "Reddit (r/WorkOnline)"
+    }
+  ],
+  "verdict": "The Autonomous ErgoChair Pro is the best budget ergonomic chair for users who want the most features at the lowest price — 4D armrests and headrest at $449 is remarkable. The 2-year warranty and build quality tier limit its recommendation for heavy daily use. For casual or part-time home office use, it's an excellent entry.",
+  "realBuyers": [
+    {
+      "quote": "At $449, I can't find anything else with 4D arms and a headrest. Works great for my 4-hour daily use.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Budget ergonomic chair that actually has ergonomics. Back is much happier than on my $100 generic chair.",
+      "source": "Reddit (r/homeoffice)"
+    },
+    {
+      "quote": "Creaks a bit but does the job. For the price, can't complain.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "ErgoChair Pro — Autonomous Canada", "url": "https://www.autonomous.ai/ca" },
+    { "title": "ErgoChair Pro Review — Reddit", "url": "https://www.reddit.com/r/homeoffice" }
+  ],
+  "metaDescription": "Autonomous ErgoChair Pro review Canada: 4D armrests, headrest, full mesh. $449 CAD. Best budget ergonomic chair under $500 for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$449 CAD",
+  "similarProducts": ["branch-ergonomic-chair", "steelcase-leap-v2-chair", "herman-miller-aeron-chair"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

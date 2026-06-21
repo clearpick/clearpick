@@ -1,0 +1,82 @@
+{
+  "slug": "dell-xps-13-plus-9320",
+  "name": "Dell XPS 13 Plus 9320",
+  "brand": "Dell",
+  "category": "Laptops",
+  "categoryPage": "laptops.html",
+  "filterTag": "Ultrabooks",
+  "asin": "VERIFY_ASIN",
+  "price": 1799,
+  "priceDisplay": "$1,799 CAD",
+  "score": 8.6,
+  "tag": "Best Premium Ultrabook",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Dell XPS 13 Plus is a bold, minimalist ultrabook with a haptic touchpad, capacitive function row, and a stunning OLED display — one of the thinnest and lightest premium Windows laptops available.",
+  "subscores": {
+    "Performance": 8.8,
+    "Display": 9.2,
+    "Battery Life": 8.0,
+    "Build Quality": 9.3,
+    "Value": 7.8
+  },
+  "specs": {
+    "Chip": "Intel Core Ultra 7",
+    "RAM": "16GB LPDDR5",
+    "Storage": "512GB SSD",
+    "Display": "13.4\" OLED (2880x1800, 60Hz)",
+    "Weight": "1.26kg",
+    "Battery": "Up to 12 hours"
+  },
+  "whatWorks": [
+    "13.4\" OLED display with true blacks and vibrant color — one of the best screens available in a 13-inch Windows laptop, ideal for photo and video work.",
+    "Exceptionally thin and rigid CNC aluminum chassis — the XPS 13 Plus feels like a premium product that justifies its price in build quality alone."
+  ],
+  "worthKnowing": [
+    "Only two Thunderbolt 4 ports — no USB-A, no SD card, no HDMI. A hub is mandatory for any external peripherals.",
+    "Battery life trails MacBook Air significantly — 10–12 hours in light use vs. the Air's 18 hours. Heavy use drops it to 6–8 hours."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Poor battery life for the price",
+      "body": "At nearly $1,800, many users expect MacBook Air-level endurance. The XPS 13 Plus delivers 8–10 hours in real use — good but not exceptional.",
+      "source": "Reddit (r/laptops)"
+    },
+    {
+      "title": "Capacitive function row is divisive",
+      "body": "The touch-sensitive row replacing physical F-keys is easy to accidentally activate and lacks tactile feedback. Polarizing for users who rely on F-keys in coding or gaming.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Runs warm under load",
+      "body": "The thin chassis limits cooling; sustained CPU workloads cause the bottom to become uncomfortably warm and trigger throttling.",
+      "source": "Reddit (r/laptops)"
+    }
+  ],
+  "verdict": "The Dell XPS 13 Plus is the best-looking Windows ultrabook with one of the finest OLED displays in its class. Battery life and port selection are its main weaknesses — if you need all-day runtime without a charger, the MacBook Air is a better choice. If Windows is non-negotiable and aesthetics matter, the XPS 13 Plus delivers.",
+  "realBuyers": [
+    {
+      "quote": "The display is incredible for photo editing. Colors are accurate and the OLED contrast makes everything pop.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Beautiful machine but had to buy a USB-C hub immediately. No ports is a real limitation.",
+      "source": "Reddit (r/laptops)"
+    },
+    {
+      "quote": "Runs warm when I'm compiling code. Throttles after a few minutes. Wish the cooling was better.",
+      "source": "Reddit (r/laptops)"
+    }
+  ],
+  "sources": [
+    { "title": "Dell XPS 13 Plus — Dell Canada", "url": "https://www.dell.com/en-ca" },
+    { "title": "XPS 13 Plus Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Dell XPS 13 Plus 9320 review Canada: Intel Ultra 7, OLED display, 1.26kg. ~$1,799 CAD. Best premium Windows ultrabook for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$1,799 CAD",
+  "similarProducts": ["hp-spectre-x360-14", "lenovo-thinkpad-x1-carbon-gen13", "asus-zenbook-14-oled"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

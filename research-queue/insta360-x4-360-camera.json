@@ -9,16 +9,16 @@
   "asin": "B0CZL1HL9J",
   "price": 699,
   "priceDisplay": "$699 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best 360 Camera for Content Creators",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://res.insta360.com/static/090a8e529ad559cd3e6fccb0b83e52e3/X4.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B0CZL1HL9J/?tag=clearpick06-20",
   "introText": "The Insta360 X4 captures 8K 360° video with a 135-minute battery, IPX8 waterproofing to 10m, and the invisible selfie stick trick — reframe your shot in post after shooting, so you never have to aim.",
   "subscores": {
     "Image Quality": 8.5,
     "Battery Life": 9.5,
-    "Ease of Use": 9.0,
-    "Waterproofing": 9.0,
+    "Ease of Use": 9,
+    "Waterproofing": 9,
     "Value for Money": 8.5
   },
   "specs": {
@@ -105,7 +105,7 @@
     "dji-mini-4-pro"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/insta360-x4-360-camera/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

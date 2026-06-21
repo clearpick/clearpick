@@ -11,11 +11,11 @@
   "priceDisplay": "$89 CAD",
   "score": 8.4,
   "tag": "Best Large-Capacity Humidifier for Bedrooms",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://levoit.com/cdn/shop/files/71ea9ab02fa043e7c724b952405e677dcdaba0ce.jpg?v=1764042625",
   "affiliateUrl": "https://www.amazon.ca/dp/B07VCKLL6M/?tag=clearpick06-20",
   "introText": "The Levoit LV600HH is a 6L warm and cool mist humidifier with a built-in hygrometer, auto mode, and 36-hour runtime — infrequent refilling and precise humidity control for bedrooms and medium rooms up to 500 sq ft.",
   "subscores": {
-    "Moisture Output": 9.0,
+    "Moisture Output": 9,
     "Coverage": 8.5,
     "Features": 8.5,
     "Maintenance": 7.5,
@@ -105,7 +105,7 @@
     "blueair-blue-pure-411i-max"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/levoit-lv600hh-humidifier/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

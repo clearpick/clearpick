@@ -223,7 +223,9 @@ function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 function isGoodImage(u) {
   if (!u || u.length < 20) return false;
   const bad = ['logo', 'favicon', 'placeholder', 'transparent', 'default', 'no-image',
-               'noimage', 'missing', 'icon', '1x1', 'spinner', 'loading'];
+               'noimage', 'missing', 'icon', '1x1', 'spinner', 'loading',
+               'freepik', 'shutterstock', 'dreamstime', 'alamy', 'gettyimages',
+               'istockphoto', 'depositphotos', 'adobe.com/stock', 'bigstockphoto'];
   return !bad.some(b => u.toLowerCase().includes(b));
 }
 
@@ -277,7 +279,12 @@ function downloadBinary(reqUrl, destPath) {
       const parsed = new urlMod.URL(u);
       const mod = parsed.protocol === 'http:' ? http : https;
       mod.get({ hostname: parsed.hostname, path: parsed.pathname + parsed.search,
-        headers: { 'User-Agent': 'Mozilla/5.0' }, timeout: 20000 }, res => {
+        headers: {
+          'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36',
+          'Accept': 'image/avif,image/webp,image/apng,image/*,*/*;q=0.8',
+          'Accept-Language': 'en-US,en;q=0.9',
+          'Referer': 'https://www.bing.com/',
+        }, timeout: 20000 }, res => {
         if ([301, 302, 303, 307, 308].includes(res.statusCode) && res.headers.location)
           return doReq(new urlMod.URL(res.headers.location, u).href);
         if (res.statusCode !== 200) {
@@ -411,26 +418,19 @@ async function sourceAmazonPuppeteer(asin) {
   }
 }
 
-// ── Source 3: DuckDuckGo image search ────────────────────────────────────────
-const ddgCache = new Map(); // vqd cache per session
-async function sourceDDG(query) {
+// ── Source 3: Bing Image web scraping (no API key needed) ────────────────────
+async function sourceBingWeb(query) {
   try {
-    await sleep(1500);
-    // Step 1: get vqd token
-    const searchHtml = await httpGet(`https://duckduckgo.com/?q=${encodeURIComponent(query)}&iax=images&ia=images`);
-    const vqd = searchHtml.match(/vqd=([\d-]+)/)?.[1] ||
-                searchHtml.match(/vqd="([^"]+)"/)?.[1] ||
-                searchHtml.match(/vqd=([^&"'\s]+)/)?.[1];
-    if (!vqd) return null;
-
-    // Step 2: image results
-    const imgUrl = `https://duckduckgo.com/i.js?q=${encodeURIComponent(query)}&vqd=${encodeURIComponent(vqd)}&p=1&o=json&l=us-en&s=0&f=,,,,,&b=ff`;
-    const raw = await httpGet(imgUrl, { 'Referer': 'https://duckduckgo.com/' });
-    const data = JSON.parse(raw);
-    const results = data.results || [];
-    for (const r of results.slice(0, 5)) {
-      const url = r.image || r.thumbnail;
-      if (url && isGoodImage(url)) return url;
+    await sleep(800);
+    const url = `https://www.bing.com/images/search?q=${encodeURIComponent(query)}&form=HDRSC2&first=1&tsc=ImageHoverTitle`;
+    const body = await httpGet(url, { 'Referer': 'https://www.bing.com/' });
+    // Bing HTML-encodes the JSON: &quot;murl&quot;:&quot;URL&quot;
+    const re = /&quot;murl&quot;:&quot;(https?:\/\/[^&]+)&quot;/g;
+    let m;
+    const murls = [];
+    while ((m = re.exec(body)) !== null) murls.push(m[1].replace(/&amp;/g, '&'));
+    for (const u of murls.slice(0, 15)) {
+      if (isGoodImage(u)) return u;
     }
     return null;
   } catch(_) {
@@ -524,7 +524,7 @@ async function main() {
 
   console.log(`Processing ${targets.length} product(s)…\n`);
 
-  const tally = { 'pa-api': 0, 'amazon': 0, 'manufacturer': 0, 'google': 0, 'ddg': 0, 'wayback': 0 };
+  const tally = { 'pa-api': 0, 'amazon': 0, 'manufacturer': 0, 'google': 0, 'bing-web': 0, 'wayback': 0 };
   let fixed = 0, failed = 0;
 
   for (let i = 0; i < targets.length; i++) {
@@ -575,10 +575,10 @@ async function main() {
       if (u) { found = u; source = 'google'; }
     }
 
-    // Source 5: DuckDuckGo
+    // Source 5: Bing web scraping
     if (!found) {
-      const u = await sourceDDG(searchQuery).catch(() => null);
-      if (u) { found = u; source = 'ddg'; }
+      const u = await sourceBingWeb(searchQuery).catch(() => null);
+      if (u) { found = u; source = 'bing-web'; }
     }
 
     // Source 6: Wayback Machine

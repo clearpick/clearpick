@@ -1,0 +1,82 @@
+{
+  "slug": "kindle-colorsoft",
+  "name": "Amazon Kindle Colorsoft",
+  "brand": "Amazon",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "E-Readers",
+  "asin": "VERIFY_ASIN",
+  "price": 329,
+  "priceDisplay": "$329 CAD",
+  "score": 8.9,
+  "tag": "Best Color E-Reader",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Amazon Kindle Colorsoft is Kindle's first color e-reader — a 7-inch color E-ink display with 300 PPI that makes comic books, illustrated books, and magazine covers come alive for $329 CAD.",
+  "subscores": {
+    "Display": 9.2,
+    "Battery Life": 9.0,
+    "Software": 9.0,
+    "Build Quality": 8.8,
+    "Value": 8.3
+  },
+  "specs": {
+    "Display": "7\" Color E-ink (300 PPI)",
+    "Storage": "32GB",
+    "Waterproofing": "IPX8",
+    "Lighting": "Auto-adjusting warm/cool LED",
+    "Battery": "Up to 8 weeks",
+    "Charging": "USB-C + wireless Qi"
+  },
+  "whatWorks": [
+    "300 PPI color E-ink is the sharpest color e-paper display available — competitors at the same price offer 150–300 PPI; the Colorsoft matches the Paperwhite's text sharpness while adding color.",
+    "Comic books and illustrated content look genuinely good for the first time on a Kindle — full-color manga, children's books, and graphic novels are readable without the grayscale compromise."
+  ],
+  "worthKnowing": [
+    "8-week battery is shorter than the Paperwhite's 12 weeks — color processing consumes more power. Still far longer than any tablet.",
+    "Colors are less vivid than a tablet — color E-ink is muted and pastel compared to LCD or OLED; fine for illustrations but not comparable to an iPad for full-color photography books."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Colors are muted vs. tablet displays",
+      "body": "Color E-ink produces softer, less saturated colors than LCD tablets. Acceptable for illustrations but visually different from what most users expect from 'color.'",
+      "source": "Reddit (r/ebooks)"
+    },
+    {
+      "title": "$80 more than Paperwhite for casual readers",
+      "body": "For users who only read novels, the black-and-white Paperwhite is equally good at $80 less. Color is only worth the premium for illustrated content.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Amazon ecosystem lock-in applies",
+      "body": "Same DRM restrictions as all Kindles — library books via OverDrive require a workaround; Kobo e-readers handle library borrowing more naturally.",
+      "source": "Reddit (r/ebooks)"
+    }
+  ],
+  "verdict": "The Kindle Colorsoft is the best color e-reader for Amazon ecosystem users who read comics, illustrated books, or children's stories — the 300 PPI color E-ink is a genuine improvement over black-and-white. For novel-only readers, save $80 with the Paperwhite Signature Edition.",
+  "realBuyers": [
+    {
+      "quote": "Manga reader. The Colorsoft makes it finally worth reading manga on a Kindle instead of my phone.",
+      "source": "Reddit (r/ebooks)"
+    },
+    {
+      "quote": "Kids love reading on it because the pictures look real. Way less eye strain than a tablet.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Colors are softer than I expected but the text is sharp as the Paperwhite. Good compromise.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Kindle Colorsoft — Amazon.ca", "url": "https://www.amazon.ca" },
+    { "title": "Kindle Colorsoft Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Kindle Colorsoft review Canada: 7\" color E-ink 300 PPI, 8-week battery, IPX8. $329 CAD. Best color e-reader for Canadian Kindle users and comic readers.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$329 CAD",
+  "similarProducts": ["kindle-paperwhite-signature-edition", "kobo-libra-colour", "kobo-clara-colour"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

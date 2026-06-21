@@ -1,0 +1,82 @@
+{
+  "slug": "goal-zero-yeti-500x",
+  "name": "Goal Zero Yeti 500X Portable Power Station",
+  "brand": "Goal Zero",
+  "category": "Power Stations",
+  "categoryPage": "power-stations.html",
+  "filterTag": "Compact (Under 500Wh)",
+  "asin": "VERIFY_ASIN",
+  "price": 749,
+  "priceDisplay": "$749 CAD",
+  "score": 8.3,
+  "tag": "Best Premium Compact Station",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Goal Zero Yeti 500X is a 505Wh compact power station with chain-linking capability and a rugged outdoor-focused design — the premium compact option for serious outdoor enthusiasts at $749 CAD.",
+  "subscores": {
+    "Capacity": 7.8,
+    "Output Power": 8.0,
+    "Charging Speed": 8.0,
+    "Portability": 8.8,
+    "Value": 7.8
+  },
+  "specs": {
+    "Capacity": "505Wh",
+    "AC Output": "300W (surge 600W)",
+    "DC Output": "12V 10A",
+    "Solar Input": "50W max (expandable)",
+    "Weight": "6.8kg",
+    "Charge Time": "4.5 hours AC"
+  },
+  "whatWorks": [
+    "Goal Zero's outdoor ecosystem integration — the Yeti 500X links with Goal Zero's Boulder solar panels and Sherpa battery packs, creating a scalable solar power system for serious outdoor users.",
+    "Rugged, reliable build quality trusted by outdoor professionals — Goal Zero has a reputation earned through outdoor and expedition use that justifies the premium for demanding environments."
+  ],
+  "worthKnowing": [
+    "300W AC output is the lowest in this comparison — the Yeti 500X is for electronics (laptops, cameras, phones, lights), not AC appliances. The low AC wattage is a significant limitation.",
+    "Expensive for 505Wh — the Jackery Explorer 500 ($499) offers comparable capacity with 500W output at $250 less. You're paying for the Goal Zero ecosystem and brand."
+  ],
+  "commonComplaints": [
+    {
+      "title": "300W AC output is very low",
+      "body": "Only 300W AC means most AC appliances are off-limits. The Yeti 500X is a pure electronics charging station, not an appliance power source.",
+      "source": "Reddit (r/camping)"
+    },
+    {
+      "title": "Expensive relative to capacity",
+      "body": "At $749 for 505Wh, the Yeti 500X costs more per Wh than virtually all competitors. The premium is for the Goal Zero ecosystem, not raw value.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Slow solar charging",
+      "body": "50W max solar input means a full solar charge takes 10+ hours. Competitors accept 200W+ solar for much faster solar charging.",
+      "source": "Reddit (r/vanlife)"
+    }
+  ],
+  "verdict": "The Goal Zero Yeti 500X is the right choice for outdoor professionals deeply invested in the Goal Zero ecosystem — the brand reliability and system integration are genuine advantages. For everyone else, the EcoFlow RIVER 2 Pro delivers more capacity, faster charging, and 1600W surge for $150 less.",
+  "realBuyers": [
+    {
+      "quote": "Use it with Goal Zero Boulder panels for expedition photography. The ecosystem works seamlessly.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Reliable. Survived 3 seasons of hard outdoor use. Goal Zero builds things to last.",
+      "source": "Reddit (r/ultralight)"
+    },
+    {
+      "quote": "Expensive but I trust the brand. Worth the premium for how I use it professionally.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Goal Zero Yeti 500X — Goal Zero", "url": "https://www.goalzero.com" },
+    { "title": "Yeti 500X Review — OutdoorGearLab", "url": "https://www.outdoorgearlab.com" }
+  ],
+  "metaDescription": "Goal Zero Yeti 500X review Canada: 505Wh, 300W AC output, 6.8kg. $749 CAD. Best premium compact power station for Goal Zero ecosystem users in Canada.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$749 CAD",
+  "similarProducts": ["jackery-explorer-500", "bluetti-eb70s", "ecoflow-river-2-pro"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

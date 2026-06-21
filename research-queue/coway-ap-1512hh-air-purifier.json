@@ -9,9 +9,9 @@
   "asin": "B01728NLRG",
   "price": 249,
   "priceDisplay": "$249 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Air Purifier for Mid-Size Rooms",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "/images/products/coway-ap-1512hh-air-purifier/hero.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B01728NLRG/?tag=clearpick06-20",
   "introText": "The Coway AP-1512HH has delivered the best CADR per dollar of any air purifier for years — True HEPA + Carbon + real-time air quality sensing with auto speed adjustment, covering 360 sq ft with a track record of 5-year+ reliability.",
   "subscores": {
@@ -19,7 +19,7 @@
     "CADR Efficiency": 9.5,
     "Reliability": 9.5,
     "Smart Features": 7.5,
-    "Value for Money": 9.0
+    "Value for Money": 9
   },
   "specs": {
     "Coverage": "360 sq ft at 2 ACH, 180 sq ft at 5 ACH",

@@ -6,9 +6,11 @@ const path = require('path');
 const { renderProductPage, CAT_ALIASES, CAT_ICONS, esc, truncate } = require('./lib/render-product-page');
 
 // ── CLI arg ───────────────────────────────────────────────────────────────────
-const [,, jsonArg] = process.argv;
+const args    = process.argv.slice(2);
+const jsonArg = args.find(a => !a.startsWith('--'));
+const SKIP_SIMILAR_CHECK = args.includes('--skip-similar-check');
 if (!jsonArg) {
-  console.error('Usage: node scripts/add-product.js <path-to-research-json>');
+  console.error('Usage: node scripts/add-product.js <path-to-research-json> [--skip-similar-check]');
   process.exit(1);
 }
 
@@ -44,7 +46,7 @@ if (!Array.isArray(p.similarProducts) || p.similarProducts.length !== 3) {
   console.error('✗ "similarProducts" must be an array of exactly 3 product slugs.');
   process.exit(1);
 }
-{
+if (!SKIP_SIMILAR_CHECK) {
   const errs = [];
   for (const s of p.similarProducts) {
     if (s === p.slug)               errs.push(`"${s}" is the same as the new product slug`);

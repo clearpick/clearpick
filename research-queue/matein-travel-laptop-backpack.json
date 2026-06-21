@@ -11,7 +11,7 @@
   "priceDisplay": "$45.99 CAD",
   "score": 8.3,
   "tag": "Best Budget Travel Backpack",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "/images/products/matein-travel-laptop-backpack/hero.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B077ZHXNVG/?tag=clearpick06-20",
   "subscores": {
     "Build Quality": 7.5,
@@ -87,5 +87,9 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B077ZHXNVG",
   "verifiedPrice": "$45.99 CAD",
-  "similarProducts": ["eagle-creek-pack-it-reveal-set", "anker-powercore-20000-power-bank", "osprey-talon-22-daypack"]
+  "similarProducts": [
+    "eagle-creek-pack-it-reveal-set",
+    "anker-powercore-20000-power-bank",
+    "osprey-talon-22-daypack"
+  ]
 }

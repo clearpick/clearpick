@@ -1,0 +1,82 @@
+{
+  "slug": "endy-hybrid-mattress",
+  "name": "Endy Hybrid Mattress",
+  "brand": "Endy",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Hybrid Mattresses",
+  "asin": "NOT_ON_AMAZON_CA",
+  "price": 1175,
+  "priceDisplay": "$1,175 CAD (Queen)",
+  "score": 8.6,
+  "tag": "Best Canadian Hybrid",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://endy.com/products/hybrid-mattress",
+  "introText": "The Endy Hybrid combines individually wrapped coils with Endy's signature foam layers, adding better edge support and airflow to the original foam design for $1,175 CAD (Queen).",
+  "subscores": {
+    "Comfort": 8.8,
+    "Support": 8.8,
+    "Motion Isolation": 8.5,
+    "Edge Support": 8.8,
+    "Value": 8.5
+  },
+  "specs": {
+    "Type": "Hybrid (foam + coils)",
+    "Firmness": "Medium",
+    "Height": "30cm",
+    "Trial": "100 nights",
+    "Warranty": "10 years",
+    "Ships To": "Canada only"
+  },
+  "whatWorks": [
+    "Individually wrapped coils improve edge support dramatically over the foam original — couples who use the full width of the mattress and side-sleepers who sit on the edge benefit significantly.",
+    "Coil layer increases airflow and reduces heat retention — the hybrid sleeps notably cooler than all-foam alternatives, making it the better choice for hot sleepers."
+  ],
+  "worthKnowing": [
+    "Slightly less motion isolation than all-foam — coil springs transmit some movement between partners, though less than traditional innerspring mattresses.",
+    "$300 more than the Endy Original — if you sleep cool and don't need edge support, the Original provides similar comfort at lower cost."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Motion transfer greater than foam original",
+      "body": "Individually wrapped coils still transfer more motion than the all-foam Endy Original. Light sleepers may prefer the foam.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Price jump over the Original",
+      "body": "At $300 more, the Hybrid's improvements (edge support, cooling) may not justify the cost for solo sleepers or those who sleep cool.",
+      "source": "Endy review"
+    },
+    {
+      "title": "Heavier to move",
+      "body": "The coil layer adds significant weight — moving or rotating the mattress requires two people.",
+      "source": "Endy review"
+    }
+  ],
+  "verdict": "The Endy Hybrid is the better choice for couples, hot sleepers, and those who sleep near the edge — the coil layer solves the main limitations of the foam Original. If you sleep solo and sleep cool, save $300 with the Original.",
+  "realBuyers": [
+    {
+      "quote": "Switched from the Endy Original to the Hybrid. The edge support difference is night and day. Actually use the full width of the bed now.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "quote": "Sleep so much cooler than on our old foam mattress. The hybrid airflow is a big improvement.",
+      "source": "Endy review"
+    },
+    {
+      "quote": "Canadian made, fast delivery, great trial. The hybrid is worth the extra money for two people.",
+      "source": "Endy review"
+    }
+  ],
+  "sources": [
+    { "title": "Endy Hybrid — Endy.com", "url": "https://endy.com/products/hybrid-mattress" },
+    { "title": "Endy Hybrid Review — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Endy Hybrid Mattress review: foam + coils, medium firmness, 100-night trial. $1,175 CAD (Queen). Best Canadian hybrid mattress for couples and hot sleepers.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "NOT_ON_AMAZON_CA",
+  "verifiedPrice": "$1,175 CAD (Queen)",
+  "similarProducts": ["endy-original-mattress", "casper-original-hybrid-mattress", "leesa-legend-hybrid-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

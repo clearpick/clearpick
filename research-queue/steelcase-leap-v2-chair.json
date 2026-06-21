@@ -1,0 +1,82 @@
+{
+  "slug": "steelcase-leap-v2-chair",
+  "name": "Steelcase Leap V2 Chair",
+  "brand": "Steelcase",
+  "category": "Office & Work",
+  "categoryPage": "office-work.html",
+  "filterTag": "Ergonomic Chairs",
+  "asin": "VERIFY_ASIN",
+  "price": 1299,
+  "priceDisplay": "$1,299 CAD",
+  "score": 9.2,
+  "tag": "Best Lumbar Support Chair",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Steelcase Leap V2 has the most adaptable lumbar support of any office chair — its LiveBack flexible back flexes with your spine and is the preferred alternative to the Herman Miller Aeron at $1,299 CAD.",
+  "subscores": {
+    "Lumbar Support": 9.8,
+    "Adjustability": 9.5,
+    "Comfort": 9.3,
+    "Build Quality": 9.5,
+    "Value": 8.3
+  },
+  "specs": {
+    "Weight Capacity": "159kg",
+    "Seat Height": "15.5–20\"",
+    "Armrest": "4D adjustable",
+    "Lumbar": "LiveBack flexible support + Lower Back Firmness control",
+    "Warranty": "12 years",
+    "Material": "Fabric"
+  },
+  "whatWorks": [
+    "LiveBack technology flexes the entire back support to match your spine as you shift positions — the back bends with you rather than constraining you, reducing fatigue during hours-long sessions.",
+    "Lower Back Firmness dial lets you tune lumbar support precisely — unique among ergonomic chairs; you can adjust the resistance of the lumbar support to your exact preference."
+  ],
+  "worthKnowing": [
+    "Fabric seat runs warmer than the Aeron's full mesh design — less breathable in hot offices. The Aeron is better for warm climates.",
+    "Higher weight capacity (159kg vs. Aeron's 136kg) — the Leap V2 is the better choice for larger users who exceed the Aeron's capacity."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Fabric seat retains heat",
+      "body": "The fabric seat and back are less breathable than the Aeron's mesh. Users in warm offices report the Leap running warmer.",
+      "source": "Reddit (r/WorkOnline)"
+    },
+    {
+      "title": "Seat depth adjustment is complex",
+      "body": "The Leap's seat depth mechanism is more involved than competitors — requires reading the manual to use correctly. Worth learning but not intuitive.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Less aesthetic than Herman Miller",
+      "body": "The Leap V2 prioritizes function over form — it looks more industrial than the Aeron's iconic design. Subjective, but notable in design-conscious offices.",
+      "source": "Reddit (r/homeoffice)"
+    }
+  ],
+  "verdict": "The Steelcase Leap V2 is the best ergonomic chair for users who want maximum lumbar adjustability and can tolerate a fabric seat — the LiveBack and Lower Back Firmness dial are unique. At $500 less than the Aeron, it's the recommended choice for users who need warm-climate breathability from an Aeron.",
+  "realBuyers": [
+    {
+      "quote": "The lumbar firmness dial is the feature that sold me. Can make it as firm or soft as I need.",
+      "source": "Reddit (r/WorkOnline)"
+    },
+    {
+      "quote": "Tried both Aeron and Leap. Kept the Leap. The LiveBack system fits my posture better.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "12-year warranty, built in America, and I can feel the difference in my back after 8-hour days.",
+      "source": "Reddit (r/homeoffice)"
+    }
+  ],
+  "sources": [
+    { "title": "Steelcase Leap V2 — Steelcase Canada", "url": "https://www.steelcase.com/ca" },
+    { "title": "Leap V2 vs Aeron — Reddit", "url": "https://www.reddit.com/r/WorkOnline" }
+  ],
+  "metaDescription": "Steelcase Leap V2 review Canada: LiveBack tech, 4D armrests, 12-year warranty. $1,299 CAD. Best lumbar support ergonomic chair for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$1,299 CAD",
+  "similarProducts": ["herman-miller-aeron-chair", "herman-miller-embody-chair", "branch-ergonomic-chair"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

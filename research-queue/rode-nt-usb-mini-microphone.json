@@ -11,15 +11,15 @@
   "priceDisplay": "$149 CAD",
   "score": 8.9,
   "tag": "Best USB Microphone for Podcasters and Home Studios",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://edge.rode.com//images/page/77/modules/3685/RODE_NT-USB_Mini_FRONT_DEEP_ETCHED-2000x2000-ecf456c.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B08G3NQBRR/?tag=clearpick06-20",
   "introText": "The Rode NT-USB Mini delivers condenser microphone audio quality via direct USB-C connection — no audio interface required. Plug-and-play for Mac, Windows, and iPad with a magnetic desk mount included, making it the most convenient high-quality USB mic.",
   "subscores": {
-    "Sound Quality": 9.0,
+    "Sound Quality": 9,
     "Ease of Use": 9.5,
     "Build Quality": 9.5,
     "Convenience": 9.5,
-    "Value for Money": 9.0
+    "Value for Money": 9
   },
   "specs": {
     "Connection": "USB-C (compatible with USB-A via included adapter)",
@@ -105,7 +105,7 @@
     "arturia-minilab-3-midi-controller"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/rode-nt-usb-mini-microphone/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

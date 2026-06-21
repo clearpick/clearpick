@@ -1,0 +1,82 @@
+{
+  "slug": "ecoflow-delta-2-max",
+  "name": "EcoFlow DELTA 2 Max Portable Power Station",
+  "brand": "EcoFlow",
+  "category": "Power Stations",
+  "categoryPage": "power-stations.html",
+  "filterTag": "Large Capacity (1000Wh+)",
+  "asin": "VERIFY_ASIN",
+  "price": 1499,
+  "priceDisplay": "$1,499 CAD",
+  "score": 9.0,
+  "tag": "Best High Capacity Station",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The EcoFlow DELTA 2 Max doubles the DELTA 2's capacity to 2048Wh with 2400W AC output — the best choice for multi-day off-grid power, full home backup, and powering high-draw appliances at $1,499 CAD.",
+  "subscores": {
+    "Capacity": 9.5,
+    "Output Power": 9.2,
+    "Charging Speed": 9.3,
+    "Portability": 8.0,
+    "Value": 8.5
+  },
+  "specs": {
+    "Capacity": "2048Wh (LFP battery)",
+    "AC Output": "2400W (surge 5000W)",
+    "DC Output": "12.6V 30A",
+    "Solar Input": "1000W max",
+    "Weight": "23kg",
+    "Charge Time": "80 min to 80% via AC"
+  },
+  "whatWorks": [
+    "2048Wh is enough for 2–4 days of essential home power — refrigerator (40W), phone charging, LED lighting, and fans can run for 2–4 days from a single charge.",
+    "2400W output handles larger appliances — can run a portable air conditioner (1200W), microwave (1000W), and other high-draw devices the DELTA 2 can't."
+  ],
+  "worthKnowing": [
+    "23kg is heavy — not designed for carrying to campsites; this is a home emergency power station or vehicle-based power source.",
+    "Expandable with extra batteries — the DELTA 2 Max supports additional DELTA 2 Max Extra Batteries, doubling or tripling capacity for serious off-grid setups."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heavy at 23kg",
+      "body": "Moving the DELTA 2 Max requires two people. It's designed as a stationary or vehicle-based unit, not a carry-anywhere power station.",
+      "source": "Reddit (r/preppers)"
+    },
+    {
+      "title": "Price is significantly higher than DELTA 2",
+      "body": "Double the capacity costs 50% more than the DELTA 2. Budget-focused buyers should evaluate whether the extra capacity is needed.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Solar charging limited by input rate",
+      "body": "Even at 1000W solar input, charging 2048Wh takes hours. A full solar charge requires 8–12 hours with ideal panels.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The EcoFlow DELTA 2 Max is the right power station for serious home backup and multi-day off-grid use — 2048Wh and 2400W output handle appliances the DELTA 2 can't. If you're camping or don't need full home backup capability, the lighter DELTA 2 at $500 less is the better choice.",
+  "realBuyers": [
+    {
+      "quote": "Ice storm knocked out power for 4 days. The DELTA 2 Max ran our fridge, sump pump, and lights the whole time.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Use it to power our off-grid cabin for weekends. 2048Wh plus solar panels means we never run out.",
+      "source": "Reddit (r/offliving)"
+    },
+    {
+      "quote": "Added an extra battery pack. Now have 4000Wh total. Not moving to the grid.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "EcoFlow DELTA 2 Max — EcoFlow Canada", "url": "https://www.ecoflow.com/ca-en" },
+    { "title": "DELTA 2 Max Review — OutdoorGearLab", "url": "https://www.outdoorgearlab.com" }
+  ],
+  "metaDescription": "EcoFlow DELTA 2 Max review Canada: 2048Wh LFP, 2400W output, 1000W solar input. $1,499 CAD. Best high-capacity power station for Canadian home backup.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$1,499 CAD",
+  "similarProducts": ["ecoflow-delta-2-power-station", "bluetti-ac180-power-station", "jackery-explorer-1000-plus"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

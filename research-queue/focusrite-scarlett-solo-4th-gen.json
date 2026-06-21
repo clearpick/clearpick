@@ -11,7 +11,7 @@
   "priceDisplay": "$179 CAD",
   "score": 9.1,
   "tag": "Best Single-Input Audio Interface for Vocalists and Guitarists",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn11.bigcommerce.com/s-7exlzlf13h/products/304/images/807/scarlett-solo-4g__93789.1711664540.386.513.png?c=3",
   "affiliateUrl": "https://www.amazon.ca/dp/B09QDNKJ1N/?tag=clearpick06-20",
   "introText": "The Focusrite Scarlett Solo 4th Gen offers the same Scarlett preamp quality as the 2i2 in a single-input package — one XLR for mics and one instrument input for guitar, all you need for solo recording at home.",
   "subscores": {
@@ -19,7 +19,7 @@
     "Ease of Use": 9.5,
     "Driver Stability": 9.5,
     "Value for Money": 9.5,
-    "Software Bundle": 9.0
+    "Software Bundle": 9
   },
   "specs": {
     "Inputs": "1 x XLR (mic) + 1 x 1/4-inch instrument input (simultaneous)",
@@ -105,7 +105,7 @@
     "audio-technica-at2020-condenser"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/focusrite-scarlett-solo-4th-gen/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

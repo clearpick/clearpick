@@ -11,13 +11,13 @@
   "priceDisplay": "$1,399 CAD",
   "score": 8.8,
   "tag": "Best Mirrorless for Video Creators",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://asset.fujifilm.com/common/img/fujifilm_ogp.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B0C5VDDXWB/?tag=clearpick06-20",
   "introText": "The Fujifilm X-S20 packs 6.2K/30fps open-gate recording, 5-axis IBIS, 20 film simulations, and USB-C live streaming into a compact APS-C body — the most video-capable camera Fujifilm has offered at this price.",
   "subscores": {
-    "Image Quality": 9.0,
+    "Image Quality": 9,
     "Video Quality": 9.5,
-    "Autofocus": 8.0,
+    "Autofocus": 8,
     "Ease of Use": 8.5,
     "Value for Money": 8.5
   },
@@ -106,7 +106,7 @@
     "sony-zv-e10-ii-mirrorless-camera"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/fujifilm-x-s20-camera/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

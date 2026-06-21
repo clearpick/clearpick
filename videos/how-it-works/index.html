@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.14.2/dist/gsap.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #F8F9FC;
+      font-family: 'Inter', sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    #root {
+      position: relative;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+    }
+
+    .scene {
+      position: absolute;
+      inset: 0;
+      width: 1080px;
+      height: 1920px;
+      overflow: hidden;
+      background: #F8F9FC;
+    }
+
+    #s1 { z-index: 1; }
+    #s2 { z-index: 2; opacity: 0; }
+    #s3 { z-index: 3; opacity: 0; }
+    #s4 { z-index: 4; opacity: 0; }
+    #s7 { z-index: 5; opacity: 0; }
+    #s8 { z-index: 6; opacity: 0; }
+    #s9  { z-index: 7; opacity: 0; }
+    #s10 { z-index: 8; opacity: 0; }
+
+    .scene-content {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+      box-sizing: border-box;
+      z-index: 1;
+    }
+
+    /* ── Decorative elements ── */
+    .bg-glow {
+      position: absolute;
+      border-radius: 50%;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .ghost-txt {
+      position: absolute;
+      font-weight: 700;
+      white-space: nowrap;
+      pointer-events: none;
+      user-select: none;
+      z-index: 0;
+    }
+
+    /* ═══════════ SCENE 1 ═══════════ */
+    #s1-glow {
+      width: 920px; height: 920px;
+      background: radial-gradient(ellipse, rgba(26,140,255,0.05) 0%, rgba(248,249,252,0) 68%);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .s1-word {
+      position: absolute;
+      font-size: 66px;
+      font-weight: 700;
+      color: #1A8CFF;
+      letter-spacing: 0.06em;
+      pointer-events: none;
+      user-select: none;
+      z-index: 0;
+      opacity: 0;
+    }
+    #s1-g-reddit { top: 108px;  left: 62px; }
+    #s1-g-amazon { top: 510px;  left: 572px; }
+    #s1-g-forums { top: 1080px; left: 44px; }
+    #s1-g-rtings { top: 1660px; left: 320px; }
+    #s1 .sc {
+      justify-content: center;
+      align-items: flex-start;
+      padding: 220px 90px;
+      gap: 44px;
+    }
+    #s1 .step-lbl {
+      font-size: 13px; font-weight: 500;
+      letter-spacing: 0.2em; color: #5C6080; opacity: 0.65;
+    }
+    #s1 h1 {
+      font-size: 68px; font-weight: 700;
+      color: #14162A; line-height: 1.12;
+      letter-spacing: -0.02em; max-width: 860px;
+    }
+    #s1-rule {
+      width: 540px; height: 2px;
+      background: #E2E4EE;
+      transform-origin: left center;
+    }
+    #s1-foot {
+      position: absolute; bottom: 80px; left: 90px;
+      font-size: 13px; font-weight: 400;
+      color: #5C6080; letter-spacing: 0.1em;
+    }
+
+    /* ═══════════ SCENE 2 ═══════════ */
+    #s2-glow {
+      width: 800px; height: 800px;
+      background: radial-gradient(ellipse, rgba(26,140,255,0.07) 0%, rgba(248,249,252,0) 68%);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #s2 .sc {
+      justify-content: center;
+      align-items: center;
+      padding: 200px 90px;
+      gap: 30px;
+    }
+    .accent-rule {
+      width: 160px; height: 4px;
+      background: #1A8CFF;
+      transform-origin: center center;
+    }
+    #s2 h1 {
+      font-size: 130px; font-weight: 700;
+      color: #14162A; line-height: 1.0;
+      letter-spacing: -0.04em; text-align: center;
+    }
+    #s2-step {
+      position: absolute; bottom: 80px; left: 90px;
+      font-size: 13px; font-weight: 500;
+      letter-spacing: 0.2em; color: #5C6080;
+    }
+
+    /* ═══════════ SCENE 3 ═══════════ */
+    #s3-glow {
+      width: 700px; height: 700px;
+      background: radial-gradient(ellipse, rgba(26,140,255,0.04) 0%, rgba(248,249,252,0) 68%);
+      top: 42%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #s3-ghost {
+      font-size: 120px; letter-spacing: 0.18em;
+      color: #1A8CFF; opacity: 0.04;
+      top: 660px; left: 50%;
+      transform: translateX(-50%) rotate(-3deg);
+    }
+    #s3 .sc {
+      justify-content: center;
+      align-items: center;
+      padding: 200px 90px;
+      gap: 54px;
+    }
+    #s3-icons { display: flex; gap: 36px; font-size: 48px; }
+    #s3 p {
+      font-size: 40px; font-weight: 400;
+      color: #5C6080; line-height: 1.42;
+      text-align: center; max-width: 800px;
+    }
+
+    /* ═══════════ SCENES 4–6 ═══════════ */
+    #s4-glow {
+      width: 620px; height: 420px;
+      background: radial-gradient(ellipse, rgba(26,140,255,0.05) 0%, rgba(248,249,252,0) 68%);
+      top: 0; left: 50%;
+      transform: translateX(-50%);
+    }
+    #s4 .sc {
+      align-items: stretch;
+      padding: 240px 80px 100px;
+      gap: 28px;
+    }
+
+    .product-header {
+      background: #FFFFFF;
+      border: 2px solid #E2E4EE;
+      border-radius: 14px;
+      padding: 40px 44px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 32px;
+    }
+    .ph-text {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+    }
+    .ph-img {
+      width: 164px; height: 164px;
+      object-fit: contain;
+      flex-shrink: 0;
+      border-radius: 8px;
+    }
+    .ph-cat {
+      font-size: 17px; font-weight: 500;
+      color: #1A8CFF; text-transform: uppercase;
+      letter-spacing: 0.15em;
+    }
+    .ph-name {
+      font-size: 34px; font-weight: 700;
+      color: #14162A; line-height: 1.18;
+      letter-spacing: -0.01em;
+    }
+    .ph-pill {
+      display: inline-flex; align-items: center;
+      background: #E8F0FE; color: #1A8CFF;
+      font-size: 17px; font-weight: 500;
+      padding: 8px 18px; border-radius: 6px;
+      align-self: flex-start;
+    }
+
+    #s4-div {
+      height: 1px; background: #E2E4EE;
+      transform-origin: left center;
+    }
+
+    .rev-card {
+      background: #EEF0F6;
+      border-radius: 10px;
+      padding: 30px 34px 30px 36px;
+      display: flex; flex-direction: column; gap: 14px;
+    }
+    .rev-card--good { border-left: 4px solid #16A34A; }
+    .rev-card--bad  { border-left: 4px solid #DC2626; }
+    .rc-quote {
+      font-size: 22px; font-weight: 400;
+      color: #14162A; font-style: italic; line-height: 1.46;
+    }
+    .rc-title {
+      font-size: 22px; font-weight: 500;
+      color: #14162A; line-height: 1.28;
+    }
+    .rc-body {
+      font-size: 20px; font-weight: 400;
+      color: #5C6080; font-style: italic; line-height: 1.4;
+    }
+    .rc-src {
+      font-size: 19px; font-weight: 700; color: #1A8CFF;
+    }
+
+    /* ═══════════ SCENE 7 ═══════════ */
+    #s7-glow {
+      width: 720px; height: 720px;
+      background: radial-gradient(ellipse, rgba(26,140,255,0.07) 0%, rgba(248,249,252,0) 65%);
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    #s7 .sc {
+      justify-content: center;
+      align-items: center;
+      padding: 120px 80px;
+    }
+
+    .score-card {
+      background: #FFFFFF;
+      border: 1.5px solid #E2E4EE;
+      border-radius: 18px;
+      padding: 54px 60px;
+      width: 100%;
+      display: flex; flex-direction: column; gap: 40px;
+      box-shadow: 0 4px 32px rgba(26,140,255,0.07);
+    }
+    .sc-hdr {
+      display: flex; align-items: center; gap: 14px;
+    }
+    .sc-check {
+      width: 44px; height: 44px;
+      background: #1A8CFF; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+      position: relative;
+    }
+    .sc-check::after {
+      content: '';
+      display: block;
+      width: 14px; height: 8px;
+      border-left: 3px solid #FFFFFF;
+      border-bottom: 3px solid #FFFFFF;
+      transform: rotate(-45deg) translateY(-2px);
+    }
+    .sc-lbl {
+      font-size: 15px; font-weight: 500;
+      color: #5C6080; text-transform: uppercase; letter-spacing: 0.14em;
+    }
+    .sc-score-row {
+      display: flex; align-items: flex-end; gap: 22px;
+    }
+    #score-number {
+      font-size: 104px; font-weight: 700;
+      color: #1A8CFF; line-height: 1;
+      letter-spacing: -0.02em;
+      font-variant-numeric: tabular-nums;
+    }
+    .sc-denom {
+      display: flex; flex-direction: column; gap: 4px;
+      padding-bottom: 14px;
+    }
+    .sc-ten {
+      font-size: 36px; font-weight: 400;
+      color: #5C6080; line-height: 1;
+    }
+    .sc-desc {
+      font-size: 22px; font-weight: 500; color: #5C6080;
+    }
+    .sc-bars {
+      display: flex; flex-direction: column; gap: 22px;
+    }
+    .bar-row {
+      display: flex; align-items: center; gap: 18px;
+    }
+    .bar-lbl {
+      font-size: 20px; font-weight: 500;
+      color: #14162A; width: 180px; flex-shrink: 0;
+    }
+    .bar-track {
+      flex: 1; height: 10px;
+      background: #E2E4EE; border-radius: 5px; overflow: hidden;
+    }
+    .bar-fill {
+      height: 100%; background: #1A8CFF;
+      border-radius: 5px; transform-origin: left center;
+    }
+    .bar-val {
+      font-size: 20px; font-weight: 500;
+      color: #14162A; width: 42px; text-align: right;
+      font-variant-numeric: tabular-nums; flex-shrink: 0;
+    }
+
+    /* ═══════════ SCENE 8 ═══════════ */
+    #s8 .sc {
+      justify-content: center; align-items: center;
+      padding: 200px 90px;
+    }
+    #s8 p {
+      font-size: 34px; font-weight: 400;
+      color: #5C6080; text-align: center; line-height: 1.5;
+    }
+
+    /* ═══════════ SCENE 9 ═══════════ */
+    #s9 .sc {
+      justify-content: center; align-items: center;
+      padding: 200px 90px; gap: 28px;
+    }
+
+    /* ═══════════ SCENE 10 ═══════════ */
+    #s10 .sc {
+      justify-content: center; align-items: center;
+      padding: 200px 90px; gap: 40px;
+    }
+    .s10-tagline {
+      font-size: 34px; font-weight: 400;
+      color: #5C6080; text-align: center;
+      line-height: 1.52; max-width: 820px;
+    }
+    .logo-row {
+      display: flex; align-items: center; gap: 20px;
+    }
+    .logo-circle {
+      width: 58px; height: 58px;
+      background: #1A8CFF; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      color: #FFFFFF; font-size: 26px; font-weight: 700;
+      flex-shrink: 0;
+    }
+    .logo-word {
+      font-size: 52px; font-weight: 700;
+      color: #14162A; letter-spacing: -0.02em;
+    }
+    .logo-url {
+      font-size: 26px; font-weight: 400; color: #5C6080;
+    }
+  </style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-width="1080" data-height="1920" data-start="0" data-duration="19.7">
+
+  <!-- ═══ S1: "Most review sites are paid to be nice." ═══ -->
+  <div id="s1" class="scene">
+    <div id="s1-glow" class="bg-glow" data-layout-ignore></div>
+    <div id="s1-g-reddit" class="s1-word" data-layout-ignore>REDDIT</div>
+    <div id="s1-g-amazon" class="s1-word" data-layout-ignore>AMAZON</div>
+    <div id="s1-g-forums" class="s1-word" data-layout-ignore>FORUMS</div>
+    <div id="s1-g-rtings" class="s1-word" data-layout-ignore>RTINGS</div>
+    <div class="scene-content sc" id="s1c">
+      <div class="step-lbl" id="s1-step">01 / 09</div>
+      <h1 id="s1-h1">Most review sites are paid to be nice.</h1>
+      <div id="s1-rule"></div>
+    </div>
+    <div id="s1-foot" data-layout-ignore>clearpick.ca</div>
+  </div>
+
+  <!-- ═══ S2: "We're not." ═══ -->
+  <div id="s2" class="scene">
+    <div id="s2-glow" class="bg-glow" data-layout-ignore></div>
+    <div class="scene-content sc" id="s2c">
+      <div class="accent-rule" id="s2-pre"></div>
+      <h1 id="s2-h1">We're not.</h1>
+      <div class="accent-rule" id="s2-post"></div>
+    </div>
+    <div id="s2-step" data-layout-ignore>02 / 09</div>
+  </div>
+
+  <!-- ═══ S3: "Here's how we actually score a product." ═══ -->
+  <div id="s3" class="scene">
+    <div id="s3-glow" class="bg-glow" data-layout-ignore></div>
+    <div id="s3-ghost" class="ghost-txt" data-layout-ignore>SOURCE</div>
+    <div class="scene-content sc" id="s3c">
+      <div id="s3-icons">📱 &nbsp;💬 &nbsp;🎯</div>
+      <p id="s3-body">Here's how we actually score a product.</p>
+    </div>
+  </div>
+
+  <!-- ═══ S4–6: Product header + review cards ═══ -->
+  <div id="s4" class="scene">
+    <div id="s4-glow" class="bg-glow" data-layout-ignore></div>
+    <div class="scene-content sc" id="s4c">
+
+      <div id="s4-hdr" class="product-header">
+        <div class="ph-text">
+          <div class="ph-cat">KITCHEN &amp; DINING</div>
+          <div class="ph-name">Ninja Air Fryer Max XL AF161</div>
+          <div class="ph-pill">Best Air Fryer for Crispy Results</div>
+        </div>
+        <img id="s4-img" class="ph-img" src="assets/ninja-af161.jpg" alt="" />
+      </div>
+
+      <div id="s4-div" class=""></div>
+
+      <div id="s4-quote" class="rev-card rev-card--good">
+        <p class="rc-quote">"Wings came out perfectly golden at 380°F for 25 min. I may never use my oven again."</p>
+        <p class="rc-src">Amazon reviewer</p>
+      </div>
+
+      <div id="s4-quote2" class="rev-card rev-card--good">
+        <p class="rc-quote">"Fries, fish, veggies — everything comes out crispier than the oven. Total game changer."</p>
+        <p class="rc-src">Reddit · r/airfryer</p>
+      </div>
+
+      <div id="s4-complaint" class="rev-card rev-card--bad">
+        <p class="rc-title">Noticeably louder than expected</p>
+        <p class="rc-body">"I can hear the fan from the next room when it spins up."</p>
+        <p class="rc-src">Amazon reviewer</p>
+      </div>
+
+      <div id="s4-complaint2" class="rev-card rev-card--bad">
+        <p class="rc-title">Basket coating started chipping after 6 months</p>
+        <p class="rc-body">"Already looking at replacements."</p>
+        <p class="rc-src">Reddit · r/BuyItForLife</p>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- ═══ S7: ClearPick Score ═══ -->
+  <div id="s7" class="scene">
+    <div id="s7-glow" class="bg-glow" data-layout-ignore></div>
+    <div class="scene-content sc" id="s7c">
+      <div class="score-card" id="score-card">
+        <div class="sc-hdr" id="sc-hdr">
+          <div class="sc-check"></div>
+          <div class="sc-lbl">ClearPick Score</div>
+        </div>
+        <div class="sc-score-row" id="sc-row">
+          <div id="score-number">0.0</div>
+          <div class="sc-denom">
+            <div class="sc-ten" id="sc-ten">/ 10</div>
+            <div class="sc-desc" id="sc-desc">Very Good</div>
+          </div>
+        </div>
+        <div class="sc-bars" id="sc-bars">
+          <div class="bar-row">
+            <span class="bar-lbl">Cook Quality</span>
+            <div class="bar-track"><div class="bar-fill" id="bar-cook" style="width:90%"></div></div>
+            <span class="bar-val">9.0</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-lbl">Ease of Use</span>
+            <div class="bar-track"><div class="bar-fill" id="bar-ease" style="width:85%"></div></div>
+            <span class="bar-val">8.5</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-lbl">Capacity</span>
+            <div class="bar-track"><div class="bar-fill" id="bar-capacity" style="width:85%"></div></div>
+            <span class="bar-val">8.5</span>
+          </div>
+          <div class="bar-row">
+            <span class="bar-lbl">Value</span>
+            <div class="bar-track"><div class="bar-fill" id="bar-value" style="width:82%"></div></div>
+            <span class="bar-val">8.2</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ═══ S8: "No sponsors. No fluff." ═══ -->
+  <div id="s8" class="scene">
+    <div class="scene-content sc" id="s8c">
+      <p id="s8-tag">No sponsors. No fluff.</p>
+    </div>
+  </div>
+
+  <!-- ═══ S9: ClearPick logo ═══ -->
+  <div id="s9" class="scene">
+    <div class="scene-content sc" id="s9c">
+      <div class="logo-row">
+        <div class="logo-circle" id="s9-circle">✓</div>
+        <div class="logo-word" id="s9-word">ClearPick</div>
+      </div>
+      <div class="logo-url" id="s9-url">clearpick.ca</div>
+    </div>
+  </div>
+
+  <!-- ═══ S10: End card — logo + tagline ═══ -->
+  <div id="s10" class="scene">
+    <div class="scene-content sc" id="s10c">
+      <div class="logo-row" id="s10-logo">
+        <div class="logo-circle" id="s10-circle">✓</div>
+        <div class="logo-word" id="s10-word">ClearPick</div>
+      </div>
+      <p class="s10-tagline" id="s10-tag">One Review. Thousands of Opinions Behind It.</p>
+      <div class="logo-url" id="s10-url">clearpick.ca</div>
+    </div>
+  </div>
+
+</div><!-- #root -->
+
+<script>
+window.__timelines = window.__timelines || {};
+var tl = gsap.timeline({ paused: true });
+var scoreObj = { val: 0 };
+
+// ─────────────────────────────────────────────────────
+// S1 ENTRANCES
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s1-glow',    { scale: 1.0 }, { scale: 1.1, duration: 1.8, ease: 'sine.inOut' }, 0.0);
+tl.fromTo('#s1-g-reddit', { opacity: 0, scale: 0, rotation: -4 }, { opacity: 0.07, scale: 1, rotation: -4, duration: 0.42, ease: 'back.out(2.2)' }, 0.08);
+tl.fromTo('#s1-g-forums', { opacity: 0, scale: 0, rotation: -3 }, { opacity: 0.07, scale: 1, rotation: -3, duration: 0.42, ease: 'back.out(2.2)' }, 0.18);
+tl.fromTo('#s1-g-amazon', { opacity: 0, scale: 0, rotation:  4 }, { opacity: 0.07, scale: 1, rotation:  4, duration: 0.42, ease: 'back.out(2.2)' }, 0.28);
+tl.fromTo('#s1-g-rtings', { opacity: 0, scale: 0, rotation:  3 }, { opacity: 0.07, scale: 1, rotation:  3, duration: 0.42, ease: 'back.out(2.2)' }, 0.40);
+tl.fromTo('#s1-step',    { opacity: 0, x: -22 }, { opacity: 0.65, x: 0, duration: 0.5, ease: 'expo.out' }, 0.15);
+tl.fromTo('#s1-h1',      { opacity: 0, y: 42, scale: 0.97 }, { opacity: 1, y: 0, scale: 1.0, duration: 0.8, ease: 'power3.out' }, 0.25);
+tl.fromTo('#s1-rule',    { scaleX: 0 }, { scaleX: 1, duration: 0.65, ease: 'power2.out' }, 0.78);
+tl.fromTo('#s1-foot',    { opacity: 0 }, { opacity: 0.55, duration: 0.5, ease: 'power1.out' }, 0.9);
+
+// ─────────────────────────────────────────────────────
+// S1 → S2: HARD CUT at t=2.0
+// ─────────────────────────────────────────────────────
+tl.set('#s2', { opacity: 1 }, 2.0);
+tl.set('#s1', { opacity: 0 }, 2.05); // hard-kill s1 behind s2
+
+// ─────────────────────────────────────────────────────
+// S2 ENTRANCES
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s2-glow',  { scale: 1.0 }, { scale: 1.12, duration: 1.8, ease: 'sine.inOut' }, 2.0);
+tl.fromTo('#s2-pre',   { scaleX: 0 }, { scaleX: 1, duration: 0.18, ease: 'power4.out' }, 2.05);
+tl.fromTo('#s2-h1',    { opacity: 0, scale: 1.12, y: -24 }, { opacity: 1, scale: 1.0, y: 0, duration: 0.2, ease: 'power4.out' }, 2.1);
+tl.fromTo('#s2-post',  { scaleX: 0 }, { scaleX: 1, duration: 0.2, ease: 'power4.out' }, 2.2);
+tl.fromTo('#s2-step',  { opacity: 0 }, { opacity: 0.58, duration: 0.35, ease: 'power2.out' }, 2.28);
+
+// ─────────────────────────────────────────────────────
+// S2 → S3: BLUR CROSSFADE at t=4.0
+// ─────────────────────────────────────────────────────
+tl.to('#s2',   { opacity: 0, filter: 'blur(10px)', scale: 1.02, duration: 0.35, ease: 'power2.inOut' }, 4.0);
+tl.fromTo('#s3', { opacity: 0, filter: 'blur(10px)', scale: 0.98 }, { opacity: 1, filter: 'blur(0px)', scale: 1.0, duration: 0.35, ease: 'power2.inOut' }, 4.06);
+tl.set('#s2',  { opacity: 0, filter: 'blur(0px)', scale: 1.0 }, 4.42);
+
+// ─────────────────────────────────────────────────────
+// S3 ENTRANCES
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s3-icons', { opacity: 0, y: 22 }, { opacity: 1, y: 0, duration: 0.5, ease: 'power3.out' }, 4.3);
+tl.fromTo('#s3-body',  { opacity: 0, y: 32 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power2.out' }, 4.46);
+
+// ─────────────────────────────────────────────────────
+// S3 → S4: BLUR CROSSFADE at t=5.5
+// ─────────────────────────────────────────────────────
+tl.to('#s3',   { opacity: 0, filter: 'blur(10px)', scale: 1.02, duration: 0.4, ease: 'power2.inOut' }, 5.5);
+tl.fromTo('#s4', { opacity: 0, filter: 'blur(10px)', scale: 0.98 }, { opacity: 1, filter: 'blur(0px)', scale: 1.0, duration: 0.4, ease: 'power2.inOut' }, 5.56);
+tl.set('#s3',  { opacity: 0, filter: 'blur(0px)', scale: 1.0 }, 5.98);
+
+// S4 bg glow
+tl.fromTo('#s4-glow', { opacity: 0.4 }, { opacity: 1.0, duration: 4.0, ease: 'sine.inOut', yoyo: true, repeat: 1 }, 5.6);
+
+// ─────────────────────────────────────────────────────
+// S4 ENTRANCES — product header
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s4-hdr',           { opacity: 0, y: 38 }, { opacity: 1, y: 0, duration: 0.6, ease: 'power3.out' }, 5.8);
+tl.fromTo('#s4-hdr .ph-cat',   { opacity: 0, x: -18 }, { opacity: 1, x: 0, duration: 0.5, ease: 'expo.out' }, 5.95);
+tl.fromTo('#s4-hdr .ph-name',  { opacity: 0, y: 18 },  { opacity: 1, y: 0, duration: 0.55, ease: 'power3.out' }, 6.12);
+tl.fromTo('#s4-hdr .ph-pill',  { opacity: 0, scale: 0.86 }, { opacity: 1, scale: 1.0, duration: 0.4, ease: 'back.out(1.4)' }, 6.4);
+tl.fromTo('#s4-img', { opacity: 0, x: 18, scale: 0.92 }, { opacity: 1, x: 0, scale: 1.0, duration: 0.55, ease: 'power3.out' }, 5.9);
+
+// ─────────────────────────────────────────────────────
+// S5–S6 — Review cards pour in
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s4-div',
+  { opacity: 0, scaleX: 0 },
+  { opacity: 1, scaleX: 1, duration: 0.35, ease: 'power2.out' }, 6.9);
+
+tl.fromTo('#s4-quote',     { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power3.out' }, 7.1);
+tl.fromTo('#s4-quote2',    { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power3.out' }, 7.8);
+tl.fromTo('#s4-complaint', { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power3.out' }, 8.6);
+tl.fromTo('#s4-complaint2',{ opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.45, ease: 'power3.out' }, 9.4);
+
+// ─────────────────────────────────────────────────────
+// S4 → S7: BLUR CROSSFADE at t=14.0
+// ─────────────────────────────────────────────────────
+tl.to('#s4',   { opacity: 0, filter: 'blur(12px)', scale: 1.02, duration: 0.5, ease: 'power2.inOut' }, 14.0);
+tl.fromTo('#s7', { opacity: 0, filter: 'blur(12px)', scale: 0.96 }, { opacity: 1, filter: 'blur(0px)', scale: 1.0, duration: 0.5, ease: 'power2.inOut' }, 14.1);
+tl.set('#s4',  { opacity: 0, filter: 'blur(0px)', scale: 1.0 }, 14.65);
+
+// S7 glow pulses
+tl.fromTo('#s7-glow', { scale: 0.9, opacity: 0.5 }, { scale: 1.12, opacity: 1.0, duration: 1.5, ease: 'sine.inOut', yoyo: true, repeat: 1 }, 14.1);
+
+// ─────────────────────────────────────────────────────
+// S7 ENTRANCES — score card
+// ─────────────────────────────────────────────────────
+tl.fromTo('#score-card', { opacity: 0, y: 38, scale: 0.96 }, { opacity: 1, y: 0, scale: 1.0, duration: 0.6, ease: 'power3.out' }, 14.4);
+tl.fromTo('#sc-hdr',     { opacity: 0, y: -12 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 14.55);
+tl.fromTo('#score-number', { opacity: 0, scale: 0.76 }, { opacity: 1, scale: 1.0, duration: 0.42, ease: 'back.out(1.2)' }, 14.66);
+tl.fromTo('#sc-ten',     { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power1.out' }, 14.78);
+
+// Score counter 0.0 → 8.4
+tl.to(scoreObj, {
+  val: 8.4,
+  duration: 1.5,
+  ease: 'power2.out',
+  onUpdate: function () {
+    var el = document.getElementById('score-number');
+    if (el) el.textContent = scoreObj.val.toFixed(1);
+  }
+}, 14.7);
+
+// Progress bars, staggered 150ms
+['#bar-cook','#bar-ease','#bar-capacity','#bar-value'].forEach(function (sel, i) {
+  tl.fromTo(sel, { scaleX: 0 }, { scaleX: 1, duration: 0.6, ease: 'power3.out' }, 14.85 + i * 0.15);
+});
+
+// "Very Good" last
+tl.fromTo('#sc-desc', { opacity: 0, y: 8 }, { opacity: 1, y: 0, duration: 0.38, ease: 'power2.out' }, 15.52);
+
+// ─────────────────────────────────────────────────────
+// S7 → S8: CROSSFADE at t=17.0
+// ─────────────────────────────────────────────────────
+tl.to('#s7',   { opacity: 0, duration: 0.35, ease: 'power1.inOut' }, 17.0);
+tl.fromTo('#s8', { opacity: 0 }, { opacity: 1, duration: 0.35, ease: 'power1.inOut' }, 17.06);
+tl.set('#s7',  { opacity: 0 }, 17.4);
+
+// ─────────────────────────────────────────────────────
+// S8 ENTRANCE
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s8-tag', { opacity: 0, y: 16 }, { opacity: 1, y: 0, duration: 0.32, ease: 'power2.out' }, 17.18);
+
+// ─────────────────────────────────────────────────────
+// S8 → S9: CROSSFADE at t=17.5
+// ─────────────────────────────────────────────────────
+tl.to('#s8',   { opacity: 0, duration: 0.25, ease: 'power1.inOut' }, 17.5);
+tl.fromTo('#s9', { opacity: 0 }, { opacity: 1, duration: 0.3, ease: 'power1.inOut' }, 17.56);
+tl.set('#s8',  { opacity: 0 }, 17.82);
+
+// ─────────────────────────────────────────────────────
+// S9 ENTRANCES (final)
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s9-circle', { scale: 0.64, opacity: 0 }, { scale: 1.0, opacity: 1, duration: 0.42, ease: 'back.out(1.5)' }, 17.66);
+tl.fromTo('#s9-word',   { opacity: 0, x: -14 }, { opacity: 1, x: 0, duration: 0.35, ease: 'power2.out' }, 17.8);
+tl.fromTo('#s9-url',    { opacity: 0 }, { opacity: 1, duration: 0.32, ease: 'power1.out' }, 17.92);
+
+// ─────────────────────────────────────────────────────
+// S9 → S10: CROSSFADE at t=18.0
+// ─────────────────────────────────────────────────────
+tl.to('#s9',    { opacity: 0, duration: 0.28, ease: 'power1.inOut' }, 18.0);
+tl.fromTo('#s10', { opacity: 0 }, { opacity: 1, duration: 0.28, ease: 'power1.inOut' }, 18.0);
+tl.set('#s9',   { opacity: 0 }, 18.32);
+
+// ─────────────────────────────────────────────────────
+// S10 ENTRANCES
+// ─────────────────────────────────────────────────────
+tl.fromTo('#s10-logo',   { opacity: 0, y: -12 }, { opacity: 1, y: 0, duration: 0.4, ease: 'power2.out' }, 18.1);
+tl.fromTo('#s10-tag',    { opacity: 0, y: 16 },  { opacity: 1, y: 0, duration: 0.45, ease: 'power2.out' }, 18.28);
+tl.fromTo('#s10-url',    { opacity: 0 },          { opacity: 1, duration: 0.32, ease: 'power1.out' }, 18.55);
+
+window.__timelines['main'] = tl;
+</script>
+</body>
+</html>

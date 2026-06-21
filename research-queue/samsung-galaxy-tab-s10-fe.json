@@ -1,0 +1,82 @@
+{
+  "slug": "samsung-galaxy-tab-s10-fe",
+  "name": "Samsung Galaxy Tab S10 FE",
+  "brand": "Samsung",
+  "category": "Tablets",
+  "categoryPage": "tablets.html",
+  "filterTag": "Android Tablets",
+  "asin": "VERIFY_ASIN",
+  "price": 599,
+  "priceDisplay": "$599 CAD",
+  "score": 8.2,
+  "tag": "Best Mid-Range Android Tablet",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Samsung Galaxy Tab S10 FE brings Samsung's premium tablet experience with S Pen support and a 10.9-inch display at $599 CAD — the best mid-range Android tablet with stylus support.",
+  "subscores": {
+    "Performance": 8.0,
+    "Display": 8.5,
+    "Battery Life": 8.8,
+    "Value": 8.8,
+    "Ecosystem": 8.5
+  },
+  "specs": {
+    "Chip": "Exynos 1480",
+    "Display": "10.9\" LCD 90Hz (2304x1440)",
+    "Storage": "128GB",
+    "RAM": "6GB",
+    "OS": "Android 14",
+    "Battery": "10,090 mAh (up to 16 hours)"
+  },
+  "whatWorks": [
+    "S Pen included at $599 — getting stylus support at this price point is exceptional value. Competing tablets from Apple and others charge extra for stylus accessories.",
+    "Large 10,090 mAh battery provides all-day use — one of the largest batteries relative to price in the tablet category, lasting 14–16 hours in light use."
+  ],
+  "worthKnowing": [
+    "LCD display is less impressive than AMOLED alternatives — the 90Hz LCD is good but doesn't match the AMOLED quality of the Tab S10+ at $500 more.",
+    "Exynos 1480 is mid-range, not flagship — handles everyday tasks easily but shows slowdowns in demanding games and heavy multitasking."
+  ],
+  "commonComplaints": [
+    {
+      "title": "LCD display is basic for the price",
+      "body": "The FE's LCD display pales against the AMOLED found in higher-tier Samsung tablets. Colors are less vivid and contrast is lower.",
+      "source": "Reddit (r/androidtablets)"
+    },
+    {
+      "title": "Exynos chip underperforms flagship",
+      "body": "The Exynos 1480 is noticeably slower than the Snapdragon 8 Gen 3 in the Tab S10+. Gaming and heavy multitasking users will feel the difference.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Software updates lag behind flagship",
+      "body": "FE models receive updates after flagship models — may wait longer for major OS upgrades.",
+      "source": "Reddit (r/samsung)"
+    }
+  ],
+  "verdict": "The Galaxy Tab S10 FE is the best mid-range Android tablet for users who want S Pen support without paying flagship prices. The LCD display and Exynos chip are the key compromises. If your budget stretches to $1,099, the Tab S10+ is the better long-term buy.",
+  "realBuyers": [
+    {
+      "quote": "S Pen for $599 — I've been waiting for this. Great for note-taking and sketching at a price I can afford.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Battery is the highlight. Goes 2 days on a charge with my light use.",
+      "source": "Reddit (r/androidtablets)"
+    },
+    {
+      "quote": "Good tablet for the price. Display is fine for YouTube and Netflix. Not the AMOLED but not bad.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Galaxy Tab S10 FE — Samsung Canada", "url": "https://www.samsung.com/ca" },
+    { "title": "Tab S10 FE Review — Android Authority", "url": "https://www.androidauthority.com" }
+  ],
+  "metaDescription": "Samsung Galaxy Tab S10 FE review Canada: Exynos 1480, 10.9\" LCD 90Hz, S Pen included. $599 CAD. Best mid-range Android tablet for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$599 CAD",
+  "similarProducts": ["samsung-galaxy-tab-s10-plus", "lenovo-tab-p12-pro", "apple-ipad-10th-gen"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

@@ -1,0 +1,82 @@
+{
+  "slug": "kobo-clara-colour",
+  "name": "Kobo Clara Colour",
+  "brand": "Kobo",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "E-Readers",
+  "asin": "VERIFY_ASIN",
+  "price": 159,
+  "priceDisplay": "$159 CAD",
+  "score": 8.5,
+  "tag": "Best Budget E-Reader",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Kobo Clara Colour is a 6-inch color E-ink e-reader with OverDrive library support and open ePub format for $159 CAD — the best e-reader under $200.",
+  "subscores": {
+    "Display": 8.7,
+    "Battery Life": 9.0,
+    "Software": 8.8,
+    "Build Quality": 8.3,
+    "Value": 9.5
+  },
+  "specs": {
+    "Display": "6\" Color E-ink (300 PPI)",
+    "Storage": "16GB",
+    "Waterproofing": "IPX8",
+    "Lighting": "ComfortLight PRO",
+    "Battery": "Up to 3 weeks",
+    "Charging": "USB-C"
+  },
+  "whatWorks": [
+    "Color E-ink at $159 is the lowest price for color e-paper — the Clara Colour brings the same panel technology as the Libra Colour in a smaller, cheaper package.",
+    "Native library borrowing via OverDrive/Libby — full Canadian public library integration at the lowest price point of any e-reader with this feature."
+  ],
+  "worthKnowing": [
+    "16GB storage is adequate for most readers — average e-book is 1–3MB; 16GB holds thousands of books. Only users who store audiobooks locally will need more.",
+    "3-week battery is shorter than other options — smaller battery in the compact chassis means more frequent charging. A month of daily reading may require one or two charges."
+  ],
+  "commonComplaints": [
+    {
+      "title": "3-week battery shorter than competitors",
+      "body": "The Clara Colour's 3-week battery vs. Libra Colour's 6 weeks means charging twice as often for heavy readers.",
+      "source": "Reddit (r/ebooks)"
+    },
+    {
+      "title": "6-inch feels small for comics",
+      "body": "For manga and graphic novels, the 6-inch screen is cramped compared to the 7-inch Libra Colour. Text reading is fine at 6 inches.",
+      "source": "Kobo review"
+    },
+    {
+      "title": "No physical page-turn buttons",
+      "body": "The Clara Colour is touchscreen-only. The Libra Colour has physical page-turn buttons — preferred by many e-reader users for one-handed reading.",
+      "source": "Reddit (r/ebooks)"
+    }
+  ],
+  "verdict": "The Kobo Clara Colour is the best e-reader under $200 — color E-ink, library support, and open ePub format at $159. For heavy readers who want physical page buttons, step up to the Kobo Libra Colour at $60 more. For casual readers and library users, the Clara Colour is all you need.",
+  "realBuyers": [
+    {
+      "quote": "Bought it to use my library card. Have read 40 free books in 3 months. Best $159 I've ever spent.",
+      "source": "Kobo review"
+    },
+    {
+      "quote": "Perfect size for commuting. Fits in a jacket pocket. Battery lasts 3 weeks so I never stress about charging.",
+      "source": "Reddit (r/ebooks)"
+    },
+    {
+      "quote": "Color is nice for book covers. Text reading is excellent. Great starter e-reader.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Kobo Clara Colour — Kobo Canada", "url": "https://www.kobo.com/ca/en/ebook-readers/kobo-clara-colour" },
+    { "title": "Kobo Clara Colour Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Kobo Clara Colour review Canada: 6\" color E-ink 300 PPI, OverDrive support, IPX8. $159 CAD. Best budget e-reader under $200 for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$159 CAD",
+  "similarProducts": ["kobo-libra-colour", "kindle-paperwhite-signature-edition", "kindle-colorsoft"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

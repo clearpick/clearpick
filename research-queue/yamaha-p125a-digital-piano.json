@@ -9,17 +9,17 @@
   "asin": "B0B3BP87DC",
   "price": 899,
   "priceDisplay": "$899 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Slim Digital Piano for Beginners and Students",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://ca.yamaha.com/en/files/P-125a_ogp_tcm140-1657641.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B0B3BP87DC/?tag=clearpick06-20",
   "introText": "The Yamaha P-125a offers Graded Hammer Standard 88-key action, CFX/Bösendorfer sound samples, and Bluetooth MIDI connectivity in a 11.5kg portable slab format — the most recommended beginner-intermediate digital piano for students under $900.",
   "subscores": {
-    "Key Action": 9.0,
+    "Key Action": 9,
     "Sound Quality": 9.5,
     "Portability": 8.5,
     "Features": 8.5,
-    "Value for Money": 9.0
+    "Value for Money": 9
   },
   "specs": {
     "Keys": "88 Graded Hammer Standard (GHS) weighted keys",
@@ -106,7 +106,7 @@
     "arturia-minilab-3-midi-controller"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/yamaha-p125a-digital-piano/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

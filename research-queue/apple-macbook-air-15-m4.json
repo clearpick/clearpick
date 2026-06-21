@@ -1,0 +1,83 @@
+{
+  "slug": "apple-macbook-air-15-m4",
+  "name": "Apple MacBook Air 15-inch (M4, 2025)",
+  "brand": "Apple",
+  "category": "Laptops",
+  "categoryPage": "laptops.html",
+  "filterTag": "MacBooks",
+  "asin": "B0DKFB9LRP",
+  "price": 1599,
+  "priceDisplay": "$1,599 CAD",
+  "score": 9.1,
+  "tag": "Best Large Screen MacBook",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.amazon.ca/dp/B0DKFB9LRP/?tag=clearpick06-20",
+  "introText": "The MacBook Air 15-inch with M4 offers the same fanless M4 performance as the 13-inch in a larger 15.3\" display, ideal for users who work at a desk but want portability without a MacBook Pro premium.",
+  "subscores": {
+    "Performance": 9.4,
+    "Display": 9.2,
+    "Battery Life": 9.3,
+    "Build Quality": 9.1,
+    "Value": 8.6
+  },
+  "specs": {
+    "Chip": "Apple M4",
+    "RAM": "16GB unified memory",
+    "Storage": "256GB SSD",
+    "Display": "15.3\" Liquid Retina (2880x1864)",
+    "Weight": "1.51kg",
+    "Battery": "Up to 18 hours"
+  },
+  "whatWorks": [
+    "15.3\" display is noticeably more comfortable for extended desk work — the larger screen reduces the need for an external monitor, making it a strong single-device setup for remote workers.",
+    "Same M4 chip and battery life as the 13-inch at $300 more — for users who prioritize screen size, the upgrade cost is modest compared to buying a separate monitor."
+  ],
+  "worthKnowing": [
+    "Heavier than 13-inch at 1.51kg — still lighter than most 15\" Windows laptops, but noticeably bulkier in a bag for daily commutes.",
+    "No HDMI or SD card — same port limitation as the 13-inch; a hub is needed for external monitors."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Price jump over 13-inch feels steep",
+      "body": "The 15-inch costs $300 more for a larger screen and slightly larger battery — users who mostly use an external monitor say the 13-inch is a better value.",
+      "source": "Reddit (r/macbook)"
+    },
+    {
+      "title": "Base 256GB storage insufficient",
+      "body": "The same storage concern applies — 256GB fills quickly. Apple's SSD upgrade pricing makes the 512GB model the recommended starting point.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Only two Thunderbolt ports",
+      "body": "Two USB-C ports shared between charging, external monitors, and peripherals requires hub management for desk users.",
+      "source": "Reddit (r/macbook)"
+    }
+  ],
+  "verdict": "The MacBook Air 15 M4 is the right choice for users who want a large, comfortable screen with excellent battery life but don't need the MacBook Pro's fan-cooled sustained performance. If you work primarily at a desk, the 13-inch plus an external monitor may be a smarter split — but as a single-device solution, the 15-inch Air is exceptional.",
+  "realBuyers": [
+    {
+      "quote": "Use it for spreadsheets and video calls all day. The bigger screen makes a real difference — rarely need to connect to a monitor.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Battery lasts all day even with the larger screen. Exactly what I wanted for travel without the MacBook Pro price.",
+      "source": "Reddit (r/macbook)"
+    },
+    {
+      "quote": "Replaced my 16-inch MacBook Pro. Don't need the extra power, and this is lighter and cheaper. Perfect upgrade path.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "MacBook Air 15 M4 — Amazon.ca", "url": "https://www.amazon.ca/dp/B0DKFB9LRP" },
+    { "title": "MacBook Air 15 M4 Review — The Verge", "url": "https://www.theverge.com" },
+    { "title": "MacBook Air Discussion — Reddit", "url": "https://www.reddit.com/r/macbook" }
+  ],
+  "metaDescription": "MacBook Air 15 M4 review Canada: 16GB RAM, 15.3\" display, 18-hr battery. $1,599 CAD on Amazon.ca. Best large-screen MacBook for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "B0DKFB9LRP",
+  "verifiedPrice": "$1,599 CAD",
+  "similarProducts": ["apple-macbook-air-13-m4", "apple-macbook-pro-14-m4", "lg-gram-16-2024"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

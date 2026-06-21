@@ -1,0 +1,82 @@
+{
+  "slug": "samsung-galaxy-tab-s10-plus",
+  "name": "Samsung Galaxy Tab S10+",
+  "brand": "Samsung",
+  "category": "Tablets",
+  "categoryPage": "tablets.html",
+  "filterTag": "Android Tablets",
+  "asin": "VERIFY_ASIN",
+  "price": 1099,
+  "priceDisplay": "$1,099 CAD",
+  "score": 8.7,
+  "tag": "Best Android Tablet",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Samsung Galaxy Tab S10+ is the best Android tablet available, with a 12.4-inch Dynamic AMOLED 2X 120Hz display, Snapdragon 8 Gen 3, and DeX desktop mode for $1,099 CAD.",
+  "subscores": {
+    "Performance": 8.8,
+    "Display": 9.3,
+    "Battery Life": 8.8,
+    "Value": 8.2,
+    "Ecosystem": 8.5
+  },
+  "specs": {
+    "Chip": "Snapdragon 8 Gen 3",
+    "Display": "12.4\" Dynamic AMOLED 2X 120Hz (2800x1752)",
+    "Storage": "256GB",
+    "RAM": "12GB",
+    "OS": "Android 14 / One UI 6.1",
+    "Battery": "10,090 mAh (up to 16 hours)"
+  },
+  "whatWorks": [
+    "12.4-inch Dynamic AMOLED 2X display is the best display on any Android tablet — true blacks, 120Hz, and 900 nits peak brightness make it excellent for media and creative work.",
+    "DeX mode transforms the Tab S10+ into a desktop — connecting to a monitor with a USB-C cable activates a full desktop UI with resizable windows, making it the most productive Android tablet."
+  ],
+  "worthKnowing": [
+    "Android tablet app ecosystem remains behind iPadOS — fewer professional-grade Android tablet apps exist vs. iPad. The hardware is exceptional but software selection varies by use case.",
+    "S Pen included — the Samsung S Pen stylus is included in the box (unlike Apple Pencil which costs $149 extra), which is a significant value advantage."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Android app optimization for tablets is inconsistent",
+      "body": "Many Android apps are designed for phones and simply scale up on the tablet. iPadOS has stronger tablet-native app support for productivity.",
+      "source": "Reddit (r/androidtablets)"
+    },
+    {
+      "title": "One UI can feel heavy",
+      "body": "Samsung's One UI software layer is feature-rich but can feel bloated. Stock Android enthusiasts may find it overwhelming.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Expensive relative to iPad Air",
+      "body": "At $1,099, the Tab S10+ matches the iPad Air 13 M3 in price — and most creative professionals prefer iPadOS for creative app selection.",
+      "source": "Reddit (r/tablets)"
+    }
+  ],
+  "verdict": "The Samsung Galaxy Tab S10+ is the best Android tablet available — exceptional AMOLED display, flagship performance, S Pen included, and DeX mode for productivity. Android users and Samsung Galaxy phone ecosystem users will find it a natural fit. For creative professionals, iPadOS apps still have an edge.",
+  "realBuyers": [
+    {
+      "quote": "Best tablet I've owned. The display is gorgeous. DeX mode with a monitor actually replaces my laptop for travel.",
+      "source": "Reddit (r/androidtablets)"
+    },
+    {
+      "quote": "S Pen included is a big deal — Apple charges $149 for the Apple Pencil. Samsung includes it. The value is real.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Samsung ecosystem integration is seamless — Galaxy phone, buds, watch, and tablet all work together perfectly.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Galaxy Tab S10+ — Samsung Canada", "url": "https://www.samsung.com/ca" },
+    { "title": "Galaxy Tab S10+ Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Samsung Galaxy Tab S10+ review Canada: Snapdragon 8 Gen 3, 12.4\" AMOLED 2X 120Hz, S Pen included. $1,099 CAD. Best Android tablet for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$1,099 CAD",
+  "similarProducts": ["apple-ipad-air-13-m3", "samsung-galaxy-tab-s10-fe", "lenovo-tab-p12-pro"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

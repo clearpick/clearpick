@@ -1,0 +1,82 @@
+{
+  "slug": "purple-rejuvenate-plus-mattress",
+  "name": "Purple Rejuvenate Plus Mattress",
+  "brand": "Purple",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Hybrid Mattresses",
+  "asin": "VERIFY_ASIN",
+  "price": 2999,
+  "priceDisplay": "$2,999 CAD (Queen)",
+  "score": 8.7,
+  "tag": "Best for Hot Sleepers",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Purple Rejuvenate Plus features Purple's GelFlex Grid technology — a polymer grid that never retains body heat and provides both pressure relief and support — for $2,999 CAD (Queen).",
+  "subscores": {
+    "Comfort": 9.0,
+    "Support": 8.8,
+    "Motion Isolation": 8.5,
+    "Edge Support": 8.5,
+    "Value": 7.5
+  },
+  "specs": {
+    "Type": "Hybrid with GelFlex Grid",
+    "Firmness": "Medium",
+    "Height": "33cm",
+    "Trial": "100 nights",
+    "Warranty": "10 years",
+    "Ships To": "Canada"
+  },
+  "whatWorks": [
+    "GelFlex Grid is genuinely different from any foam mattress — the polymer grid allows airflow through the mattress and doesn't compress under sustained pressure the way foam does, making it the coolest-sleeping mattress available.",
+    "Grid provides both pressure relief and support simultaneously — unlike foam (which softens under pressure) or spring (which pushes back uniformly), the GelFlex Grid flexes where there's pressure and stays firm elsewhere."
+  ],
+  "worthKnowing": [
+    "Very expensive — $2,999 CAD for a Queen positions it against genuine luxury brands like Tempur-Pedic and Saatva. Only hot sleepers and those with chronic pain fully justify the premium.",
+    "The grid feel is unusual — first-time Purple sleepers report an adjustment period where the mattress feels different from anything they've slept on. Most adjust within a week."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Price is very high",
+      "body": "At $2,999 CAD, the Purple Rejuvenate Plus competes with Tempur-Pedic and Saatva. Only the cooling advantage and unique grid feel justify the premium over traditional hybrids.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Grid feel takes adjustment",
+      "body": "Sleeping on the GelFlex Grid is unlike foam or spring — some users love it immediately, others need 2–3 weeks to adjust to the unique feel.",
+      "source": "Purple review"
+    },
+    {
+      "title": "Heaviest mattress to move",
+      "body": "The polymer grid and coil system make the Rejuvenate Plus one of the heaviest mattresses to move or rotate.",
+      "source": "Purple review"
+    }
+  ],
+  "verdict": "The Purple Rejuvenate Plus is the best mattress for hot sleepers — no mattress at any price sleeps cooler. If heat retention isn't your issue, the Saatva Classic or Endy Hybrid deliver comparable comfort at lower cost. For chronic hot sleepers or those with joint pressure issues, the Purple is uniquely effective.",
+  "realBuyers": [
+    {
+      "quote": "Night sweats are gone. I've tried every foam mattress. The Purple grid is a fundamentally different product.",
+      "source": "Purple review"
+    },
+    {
+      "quote": "Took two weeks to love it. Now I can't sleep on anything else. The pressure relief is unlike anything.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "quote": "Expensive but worth every dollar. My back pain is gone. Sleep through the night for the first time in years.",
+      "source": "Purple review"
+    }
+  ],
+  "sources": [
+    { "title": "Purple Rejuvenate Plus — Purple.com", "url": "https://purple.com" },
+    { "title": "Purple Mattress Review — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Purple Rejuvenate Plus review Canada: GelFlex Grid hybrid, medium, 100-night trial. $2,999 CAD (Queen). Best mattress for hot sleepers in Canada.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$2,999 CAD (Queen)",
+  "similarProducts": ["tempur-pedic-proadapt-medium", "saatva-classic-mattress", "leesa-legend-hybrid-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

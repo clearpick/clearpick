@@ -11,7 +11,7 @@
   "priceDisplay": "$99 CAD",
   "score": 8.5,
   "tag": "Best Ceramic Tower Heater for Living Rooms",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://lasko.com/cdn/shop/files/Artboard_5_1_3d7e83c9-04b2-4dc5-bbd2-8a54d19581cc.png?v=1761825588",
   "affiliateUrl": "https://www.amazon.ca/dp/B0009X2OGG/?tag=clearpick06-20",
   "introText": "The Lasko 755320 is the most consistently top-rated ceramic tower heater on Amazon.ca — oscillating, remote-controlled, with a cool-touch exterior and tip-over protection, at $99 with a years-long reliability track record.",
   "subscores": {
@@ -19,7 +19,7 @@
     "Safety": 9.5,
     "Features": 8.5,
     "Reliability": 9.5,
-    "Value for Money": 9.0
+    "Value for Money": 9
   },
   "specs": {
     "Power": "1500W ceramic (2 heat settings + fan-only)",
@@ -104,7 +104,7 @@
     "honeywell-hyf290b-tower-fan"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/lasko-755320-ceramic-tower-heater/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

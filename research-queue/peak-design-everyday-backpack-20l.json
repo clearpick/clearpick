@@ -9,16 +9,16 @@
   "asin": "B07DPLS5H7",
   "price": 319,
   "priceDisplay": "$319 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Camera Backpack for Everyday Carry",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn.shopify.com/s/files/1/2986/1172/files/everyday-backpack-black-20-1.jpg?v=1762275581",
   "affiliateUrl": "https://www.amazon.ca/dp/B07DPLS5H7/?tag=clearpick06-20",
   "introText": "The Peak Design Everyday Backpack 20L has a MagLatch one-handed magnetic closure, FlexFold dividers that reconfigure instantly, and a lifetime guarantee — the best-designed camera bag for photographers who also use it as an everyday pack.",
   "subscores": {
     "Design": 9.5,
     "Camera Access": 9.5,
     "Build Quality": 9.5,
-    "Versatility": 9.0,
+    "Versatility": 9,
     "Value for Money": 7.5
   },
   "specs": {
@@ -104,7 +104,7 @@
     "manfrotto-compact-action-tripod"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/peak-design-everyday-backpack-20l/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

@@ -7,11 +7,11 @@
     { slug: 'software',               icon: '💻', label: 'Software',                   count: 13, desc: 'Productivity & subscriptions'        },
     { slug: 'smart-home',             icon: '🏠', label: 'Smart Home',                 count: 32, desc: 'Speakers, cameras & automation'      },
     { slug: 'robot-vacuums',          icon: '🤖', label: 'Robot Vacuums',              count: 12, desc: 'Smart vacuums & mops'                },
-    { slug: 'fitness',                icon: '💪', label: 'Fitness Equipment',          count: 32, desc: 'Cardio, weights & recovery'          },
+    { slug: 'fitness',                icon: '💪', label: 'Fitness Equipment',          count: 4    , desc: 'Cardio, weights & recovery'          },
     { slug: 'pet-supplies',           icon: '🐾', label: 'Pet Supplies',               count: 27, desc: 'Food, beds & accessories'            },
     { slug: 'gaming',                 icon: '🎮', label: 'Gaming',                     count: 35, desc: 'Peripherals, gear & monitors'        },
     { slug: 'lawn-garden',            icon: '🌿', label: 'Lawn & Garden',              count: 29, desc: 'Mowers, trimmers & more'             },
-    { slug: 'home-entertainment',     icon: '📺', label: 'Home Entertainment',         count: 31, desc: 'TVs, soundbars & streaming'          },
+    { slug: 'home-entertainment',     icon: '📺', label: 'Home Entertainment',         count: 40         , desc: 'TVs, soundbars & streaming'          },
     { slug: 'outdoor-cooking',        icon: '🔥', label: 'Outdoor Cooking',            count: 3                                              },
     { slug: 'cameras',                icon: '📷', label: 'Cameras & Content Creation', count: 2                                              },
     { slug: 'kitchen-dining',         icon: '🍽️', label: 'Kitchen & Dining',           count: 44, desc: 'Appliances, cookware & more'         },
@@ -19,7 +19,7 @@
     { slug: 'sports-fitness',         icon: '🏃', label: 'Sports & Fitness',           count: 2                                              },
     { slug: 'photography-video',      icon: '📷', label: 'Photography & Video',        count: 3                                              },
     { slug: 'health-beauty',          icon: '💄', label: 'Health & Beauty',            count: 20, desc: 'Skincare, dental & grooming'         },
-    { slug: 'office-work',            icon: '💼', label: 'Office & Work',              count: 20, desc: 'Monitors, desks & accessories'       },
+    { slug: 'office-work',            icon: '💼', label: 'Office & Work',              count: 25     , desc: 'Monitors, desks & accessories'       },
     { slug: 'tools-home-improvement', icon: '🔧', label: 'Tools & Home Improvement',   count: 20, desc: 'Power tools & storage'               },
     { slug: 'bbq-outdoor-cooking',    icon: '🍖', label: 'BBQ & Outdoor Cooking',      count: 17, desc: 'Grills, smokers & griddles'          },
     { slug: 'sports-outdoors',        icon: '⛰️', label: 'Sports & Outdoors',          count: 20, desc: 'Running, hiking & cycling'           },
@@ -29,6 +29,10 @@
     { slug: 'music-instruments', icon: '🎸', label: 'Music & Instruments', count: 20                      },
     { slug: 'home-comfort', icon: '🌡️', label: 'Home Comfort', count: 18                    },
     { slug: 'cameras-photography', icon: '📸', label: 'Cameras & Photography', count: 19                     },
+    { slug: 'laptops',           icon: '💻', label: 'Laptops',               count: 15               , desc: 'MacBooks, ultrabooks & gaming'   },
+    { slug: 'mattresses-sleep',  icon: '🛏️', label: 'Mattresses & Sleep',    count: 10          , desc: 'Foam, hybrid & luxury mattresses' },
+    { slug: 'tablets',           icon: '📱', label: 'Tablets',               count: 8        ,  desc: 'iPads, Android & budget tablets'  },
+    { slug: 'power-stations',    icon: '⚡', label: 'Power Stations',        count: 8        ,  desc: 'Portable power for camping & home' },
   ];
 
   var GROUPS = [
@@ -38,7 +42,7 @@
     },
     {
       label: 'Tech & Entertainment',
-      slugs: ['home-entertainment', 'gaming', 'headphones', 'smart-home', 'office-work', 'cameras-photography'],
+      slugs: ['home-entertainment', 'gaming', 'headphones', 'smart-home', 'office-work', 'cameras-photography', 'laptops', 'tablets'],
     },
     {
       label: 'Health & Wellness',
@@ -46,7 +50,7 @@
     },
     {
       label: 'Home & Garden',
-      slugs: ['tools-home-improvement', 'lawn-garden', 'robot-vacuums', 'pet-supplies', 'home-comfort'],
+      slugs: ['tools-home-improvement', 'lawn-garden', 'robot-vacuums', 'pet-supplies', 'home-comfort', 'mattresses-sleep', 'power-stations'],
     },
     {
       label: 'Lifestyle',

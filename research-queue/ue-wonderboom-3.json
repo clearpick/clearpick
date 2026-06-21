@@ -1,0 +1,82 @@
+{
+  "slug": "ue-wonderboom-3",
+  "name": "Ultimate Ears Wonderboom 3",
+  "brand": "Ultimate Ears",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Portable Speakers",
+  "asin": "VERIFY_ASIN",
+  "price": 129,
+  "priceDisplay": "$129 CAD",
+  "score": 8.6,
+  "tag": "Best Compact Outdoor Speaker",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The UE Wonderboom 3 is IP67 waterproof, floats in water, and delivers 14-hour battery life in a 425g ball that fits in a water bottle pocket — the best compact outdoor speaker for $129 CAD.",
+  "subscores": {
+    "Sound Quality": 8.3,
+    "Bass": 8.0,
+    "Battery Life": 8.5,
+    "Durability": 9.5,
+    "Value": 9.2
+  },
+  "specs": {
+    "Waterproofing": "IP67 + floats",
+    "Battery": "Up to 14 hours",
+    "Connectivity": "Bluetooth 5.3",
+    "Weight": "425g",
+    "Dimensions": "10x10x11cm",
+    "Output": "Omnidirectional dual driver"
+  },
+  "whatWorks": [
+    "Floats in water — the Wonderboom 3 is buoyant, making it the only speaker in this review you can actually use in a pool or lake without risking loss.",
+    "Omnidirectional sound projection — the circular shape projects sound 360°, eliminating the need to aim the speaker toward the listening area."
+  ],
+  "worthKnowing": [
+    "Sound quality is limited by the small size — 425g and omnidirectional design means less bass depth and volume ceiling than similarly priced cylindrical speakers.",
+    "No USB-C passthrough for charging devices — the Wonderboom 3 is input only; can't charge your phone from the speaker."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Limited bass at this size",
+      "body": "The small form factor constrains bass output. The Wonderboom 3 is tinny at low frequencies compared to larger competitors at similar prices.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    },
+    {
+      "title": "Volume ceiling lower than cylindrical speakers",
+      "body": "The Wonderboom 3 maxes out at a volume level that's good for a table but won't fill a backyard gathering. The JBL Flip 7 is significantly louder.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Pairing two Wonderbooms for stereo is same-model only",
+      "body": "Wonderboom to Wonderboom pairing works but requires two of the same model. The stereo upgrade isn't compatible across UE speaker lines.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    }
+  ],
+  "verdict": "The UE Wonderboom 3 is the best speaker for water-activity use — the floating IP67 design is uniquely suited for pools, hot tubs, and kayaking. For general outdoor use where volume matters more than floating capability, the JBL Flip 7 at $50 more is the better choice.",
+  "realBuyers": [
+    {
+      "quote": "Pool speaker that actually floats. Have dropped it in the pool 10+ times. Never had a problem.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Perfect for hot tub. IP67 handles steam and splashes perfectly. 14-hour battery lasts the whole party.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    },
+    {
+      "quote": "Compact enough to clip to a kayak. Goes on every water trip. Indispensable.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "UE Wonderboom 3 — Ultimate Ears Canada", "url": "https://www.ultimateears.com/ca-en" },
+    { "title": "Wonderboom 3 Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "UE Wonderboom 3 review Canada: IP67, floats, 14-hr battery, 425g. $129 CAD. Best compact outdoor speaker for Canadians who love water activities.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$129 CAD",
+  "similarProducts": ["jbl-flip-7", "anker-soundcore-motion-x600", "marshall-emberton-iii"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

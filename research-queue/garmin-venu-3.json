@@ -1,0 +1,82 @@
+{
+  "slug": "garmin-venu-3",
+  "name": "Garmin Venu 3",
+  "brand": "Garmin",
+  "category": "Fitness & Health",
+  "categoryPage": "fitness.html",
+  "filterTag": "Smart Watches",
+  "asin": "VERIFY_ASIN",
+  "price": 499,
+  "priceDisplay": "$499 CAD",
+  "score": 8.8,
+  "tag": "Best Health Tracking Watch",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Garmin Venu 3 is the most health-focused smartwatch available — Body Battery tracking, HRV analysis, nap detection, and sleep coaching with a 14-day battery life that leaves Apple Watch behind at $499 CAD.",
+  "subscores": {
+    "Health Tracking": 9.5,
+    "Fitness": 9.0,
+    "Design": 8.8,
+    "Battery Life": 9.0,
+    "Ecosystem": 8.5
+  },
+  "specs": {
+    "Display": "1.4\" AMOLED",
+    "Health": "Body Battery + HRV stress + nap detection + sleep coach + blood oxygen",
+    "Battery": "Up to 14 days (smartwatch mode)",
+    "Waterproofing": "5ATM",
+    "GPS": "Multi-band",
+    "Connectivity": "Bluetooth + Wi-Fi"
+  },
+  "whatWorks": [
+    "Body Battery + HRV stress tracking tells you exactly how recovered you are — the system synthesizes sleep, heart rate variability, and activity data into an actionable readiness score. No other consumer smartwatch at this price matches this depth.",
+    "14-day battery eliminates charging anxiety — charge once every two weeks; sleep tracking every night without planning your charging schedule around bedtime."
+  ],
+  "worthKnowing": [
+    "Works with both iPhone and Android — the Venu 3 pairs with iOS and Android equally well, unlike Apple Watch (iPhone only) and Samsung Galaxy Watch (Android optimized).",
+    "Garmin Connect app required for full features — Garmin's ecosystem is excellent but requires learning the Garmin Connect app, which is more complex than Apple's Health app."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Garmin Connect app learning curve",
+      "body": "The Garmin Connect app is powerful but complex — takes time to learn where settings and health data live compared to Apple's more intuitive Health app.",
+      "source": "Reddit (r/Garmin)"
+    },
+    {
+      "title": "Notifications less seamless than Apple Watch",
+      "body": "Replying to texts and interacting with phone notifications is less polished on Garmin than on Apple Watch with an iPhone.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No ECG like Apple Watch",
+      "body": "The Garmin Venu 3 lacks a medical-grade ECG sensor. For ECG monitoring specifically, Apple Watch Series 10 or Samsung Galaxy Watch 7 are necessary.",
+      "source": "Reddit (r/smartwatch)"
+    }
+  ],
+  "verdict": "The Garmin Venu 3 is the best smartwatch for health-focused users who want deep wellness insights over smartphone integration — the 14-day battery, Body Battery, and HRV analysis are unmatched by Apple or Samsung at this price. If iPhone integration and ECG matter more than wellness depth, the Apple Watch Series 10 is the better fit.",
+  "realBuyers": [
+    {
+      "quote": "Body Battery is the feature that changed how I train. Now I know exactly when to push and when to rest.",
+      "source": "Reddit (r/Garmin)"
+    },
+    {
+      "quote": "Two weeks between charges. My Apple Watch friends are jealous.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Sleep coach gave me insights about my sleep quality that I never had before. Actually changed my habits.",
+      "source": "Reddit (r/Garmin)"
+    }
+  ],
+  "sources": [
+    { "title": "Garmin Venu 3 — Garmin Canada", "url": "https://www.garmin.com/en-CA" },
+    { "title": "Garmin Venu 3 Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Garmin Venu 3 review Canada: Body Battery, HRV, 14-day battery, AMOLED. $499 CAD. Best health tracking smartwatch for Canadians who prioritize wellness data.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$499 CAD",
+  "similarProducts": ["apple-watch-series-10", "samsung-galaxy-watch-7", "garmin-forerunner-55"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

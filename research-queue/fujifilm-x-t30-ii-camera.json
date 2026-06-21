@@ -11,15 +11,15 @@
   "priceDisplay": "$1,249 CAD",
   "score": 8.3,
   "tag": "Best Compact Mirrorless for Enthusiast Photographers",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://asset.fujifilm.com/common/img/fujifilm_ogp.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B09FKXTDPL/?tag=clearpick06-20",
   "introText": "The Fujifilm X-T30 II is a compact, rangefinder-style APS-C mirrorless with a 26.1MP X-Trans sensor, Fujifilm's 20 film simulations, and a tactile dial-driven interface — designed for photographers who prefer a traditional shooting experience.",
   "subscores": {
-    "Image Quality": 9.0,
-    "Autofocus": 8.0,
+    "Image Quality": 9,
+    "Autofocus": 8,
     "Video Quality": 7.5,
-    "Ease of Use": 8.0,
-    "Value for Money": 8.0
+    "Ease of Use": 8,
+    "Value for Money": 8
   },
   "specs": {
     "Sensor": "26.1MP X-Trans CMOS 4",
@@ -106,7 +106,7 @@
     "canon-eos-r10-camera"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/fujifilm-x-t30-ii-camera/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

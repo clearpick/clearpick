@@ -11,14 +11,14 @@
   "priceDisplay": "$1,799 CAD",
   "score": 8.9,
   "tag": "Best Premium Compact Camera for Travel",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://d1ncau8tqf99kp.cloudfront.net/converted/74956_original_local_1200x1050_v3_converted.webp",
   "affiliateUrl": "https://www.amazon.ca/dp/B07WX4SN6Q/?tag=clearpick06-20",
   "introText": "The Sony RX100 VII packs a 24-200mm ZEISS zoom, Real-time Eye AF, 4K HDR video, and 1000fps super slow-motion into a 302g pocket-sized body — the most capable compact camera available for serious travel photographers.",
   "subscores": {
-    "Image Quality": 9.0,
+    "Image Quality": 9,
     "Zoom Range": 9.5,
-    "Autofocus": 9.0,
-    "Portability": 9.0,
+    "Autofocus": 9,
+    "Portability": 9,
     "Value for Money": 7.5
   },
   "specs": {
@@ -104,7 +104,7 @@
     "sony-a6700-mirrorless-camera"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/sony-rx100-vii-point-shoot/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

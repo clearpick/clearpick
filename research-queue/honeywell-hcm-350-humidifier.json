@@ -11,13 +11,13 @@
   "priceDisplay": "$79 CAD",
   "score": 8.5,
   "tag": "Best Evaporative Humidifier for Bedrooms",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://www.honeywellhome.com/cdn/shop/files/T6_Living_Room_Wide_72.jpg?crop=center&height=1200&v=1757600586&width=1200",
   "affiliateUrl": "https://www.amazon.ca/dp/B01N4SPJMS/?tag=clearpick06-20",
   "introText": "The Honeywell HCM350W uses evaporative technology to produce invisible, mineral-free humidity — no white dust, no over-humidification, and natural self-regulation that stops adding moisture when the room reaches optimal humidity.",
   "subscores": {
-    "Air Quality Impact": 9.0,
+    "Air Quality Impact": 9,
     "Noise Level": 8.5,
-    "Coverage": 8.0,
+    "Coverage": 8,
     "Maintenance": 7.5,
     "Value for Money": 8.5
   },
@@ -104,7 +104,7 @@
     "frigidaire-ffad5033w1-dehumidifier"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/honeywell-hcm-350-humidifier/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

@@ -1,0 +1,82 @@
+{
+  "slug": "saatva-classic-mattress",
+  "name": "Saatva Classic Mattress",
+  "brand": "Saatva",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Luxury / Premium",
+  "asin": "NOT_ON_AMAZON_CA",
+  "price": 1595,
+  "priceDisplay": "$1,595 USD (Queen)",
+  "score": 9.0,
+  "tag": "Best Luxury Mattress",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "https://www.saatva.com",
+  "introText": "The Saatva Classic is a luxury innerspring hybrid with a 365-night trial, lifetime warranty, and white-glove delivery — the gold standard for luxury mattresses available in Canada.",
+  "subscores": {
+    "Comfort": 9.2,
+    "Support": 9.3,
+    "Motion Isolation": 8.5,
+    "Edge Support": 9.5,
+    "Value": 8.5
+  },
+  "specs": {
+    "Type": "Hybrid Innerspring (dual coil system)",
+    "Firmness": "Plush Soft / Luxury Firm / Firm (your choice)",
+    "Height": "35cm",
+    "Trial": "365 nights",
+    "Warranty": "Lifetime",
+    "Ships To": "Canada (USD pricing applies)"
+  },
+  "whatWorks": [
+    "Dual coil construction delivers exceptional edge support — the perimeter coil system provides the strongest edge support in this review, making the entire mattress surface usable.",
+    "365-night trial and lifetime warranty are unmatched in the industry — Saatva's willingness to exchange or replace over a full year removes all purchase risk."
+  ],
+  "worthKnowing": [
+    "Priced in USD — Canadians pay exchange rate premium; $1,595 USD translates to ~$2,200+ CAD at current rates.",
+    "White-glove delivery is included — Saatva sets up the mattress in your room and removes the old one, which is a significant value-add that competitors charge extra for."
+  ],
+  "commonComplaints": [
+    {
+      "title": "USD pricing is a sting for Canadians",
+      "body": "Saatva prices in USD — Canadians pay currency exchange on top of the base price, making it more expensive than it appears.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Less motion isolation than foam alternatives",
+      "body": "The coil system transmits movement more than foam or hybrid designs — light sleepers with active partners may prefer a foam mattress.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Heavier and harder to move",
+      "body": "At 35cm height and dual coil construction, the Saatva Classic is one of the heaviest mattresses — rotating or moving requires professional help.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The Saatva Classic is the best luxury mattress for Canadians who want a hotel-quality sleep surface with the best trial and warranty in the industry. The USD pricing premium is real — budget accordingly. If you want Canadian company with simpler logistics, the Endy Hybrid is the better value.",
+  "realBuyers": [
+    {
+      "quote": "Slept on hundreds of hotel mattresses. This is the closest I've found to a 5-star hotel bed at home.",
+      "source": "Saatva review"
+    },
+    {
+      "quote": "365-night trial removed all hesitation. Kept it — it's the best mattress we've owned.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "quote": "White glove delivery was fantastic — set up in the room, old mattress hauled away. Worth the price alone.",
+      "source": "Saatva review"
+    }
+  ],
+  "sources": [
+    { "title": "Saatva Classic — saatva.com", "url": "https://www.saatva.com" },
+    { "title": "Saatva Classic Review — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Saatva Classic Mattress review: luxury innerspring hybrid, 365-night trial, lifetime warranty. ~$1,595 USD (Queen). Best luxury mattress available in Canada.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "NOT_ON_AMAZON_CA",
+  "verifiedPrice": "$1,595 USD (Queen)",
+  "similarProducts": ["tempur-pedic-proadapt-medium", "leesa-legend-hybrid-mattress", "purple-rejuvenate-plus-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

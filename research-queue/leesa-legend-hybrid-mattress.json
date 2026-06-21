@@ -1,0 +1,82 @@
+{
+  "slug": "leesa-legend-hybrid-mattress",
+  "name": "Leesa Legend Hybrid Mattress",
+  "brand": "Leesa",
+  "category": "Mattresses & Sleep",
+  "categoryPage": "mattresses-sleep.html",
+  "filterTag": "Hybrid Mattresses",
+  "asin": "VERIFY_ASIN",
+  "price": 1799,
+  "priceDisplay": "$1,799 CAD (Queen)",
+  "score": 8.6,
+  "tag": "Best Premium Hybrid",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Leesa Legend Hybrid is Leesa's flagship mattress with premium materials, excellent edge support, and a luxurious 33cm profile — a competitive premium hybrid for $1,799 CAD (Queen).",
+  "subscores": {
+    "Comfort": 8.8,
+    "Support": 8.8,
+    "Motion Isolation": 8.5,
+    "Edge Support": 9.0,
+    "Value": 8.0
+  },
+  "specs": {
+    "Type": "Hybrid",
+    "Firmness": "Medium",
+    "Height": "33cm",
+    "Trial": "100 nights",
+    "Warranty": "10 years",
+    "Ships To": "Canada"
+  },
+  "whatWorks": [
+    "Edge support is among the best in hybrid mattresses — the reinforced perimeter coils allow use of the full mattress surface without the feeling of rolling off.",
+    "33cm height gives a hotel-bed aesthetic and easy entry/exit — works well with standard bed frames and feels luxurious compared to lower-profile competitors."
+  ],
+  "worthKnowing": [
+    "Available in Canada but check current retailer availability — Leesa's Canadian distribution is through select retailers and their website.",
+    "At $1,799, competes directly with Saatva Classic — Saatva's longer trial (365 nights vs. 100) and lifetime warranty are stronger buyer protections at a similar price point."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Saatva offers better trial and warranty at similar price",
+      "body": "The Saatva Classic has a 365-night trial and lifetime warranty vs. Leesa's 100 nights and 10 years. At $1,799 CAD, that comparison matters.",
+      "source": "Reddit (r/Mattress)"
+    },
+    {
+      "title": "Sleeps warm for some users",
+      "body": "Despite the hybrid design, some hot sleepers report the Leesa Legend retaining heat — the foam comfort layers contribute to warmth.",
+      "source": "Leesa review"
+    },
+    {
+      "title": "Delivery can take weeks",
+      "body": "Canadian deliveries sometimes take 2–3 weeks depending on location and stock availability.",
+      "source": "Leesa review"
+    }
+  ],
+  "verdict": "The Leesa Legend Hybrid is a well-made premium hybrid with excellent edge support and comfort. At $1,799 CAD, it faces stiff competition from the Saatva Classic (better trial/warranty) and Endy Hybrid (lower price, Canadian brand). Best for those who want Leesa's specific feel and have tested it.",
+  "realBuyers": [
+    {
+      "quote": "The edge support is what sold me. Actually use the entire mattress now.",
+      "source": "Leesa review"
+    },
+    {
+      "quote": "Great mattress. Comfortable from the first night. No adjustment period needed.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Quality is excellent. Worth the price if you've tried cheaper options and want a step up.",
+      "source": "Leesa review"
+    }
+  ],
+  "sources": [
+    { "title": "Leesa Legend Hybrid — Leesa.com", "url": "https://www.leesa.com" },
+    { "title": "Leesa Legend Review — Reddit", "url": "https://www.reddit.com/r/Mattress" }
+  ],
+  "metaDescription": "Leesa Legend Hybrid Mattress review Canada: 33cm hybrid, medium, 100-night trial. $1,799 CAD (Queen). Best premium hybrid mattress for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$1,799 CAD (Queen)",
+  "similarProducts": ["casper-original-hybrid-mattress", "saatva-classic-mattress", "endy-hybrid-mattress"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

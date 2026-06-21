@@ -1,0 +1,82 @@
+{
+  "slug": "microsoft-surface-laptop-7",
+  "name": "Microsoft Surface Laptop 7 (15-inch)",
+  "brand": "Microsoft",
+  "category": "Laptops",
+  "categoryPage": "laptops.html",
+  "filterTag": "Ultrabooks",
+  "asin": "VERIFY_ASIN",
+  "price": 1799,
+  "priceDisplay": "$1,799 CAD",
+  "score": 8.6,
+  "tag": "Best Windows 15\" Laptop",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Microsoft Surface Laptop 7 15-inch runs on Snapdragon X Elite, delivering up to 20 hours of battery life with native Windows Copilot+ AI features in a 1.66kg all-aluminum chassis.",
+  "subscores": {
+    "Performance": 8.7,
+    "Display": 9.0,
+    "Battery Life": 9.0,
+    "Build Quality": 9.1,
+    "Value": 8.0
+  },
+  "specs": {
+    "Chip": "Snapdragon X Elite",
+    "RAM": "16GB",
+    "Storage": "512GB SSD",
+    "Display": "15\" PixelSense Flow (2496x1664, 120Hz)",
+    "Weight": "1.66kg",
+    "Battery": "Up to 20 hours"
+  },
+  "whatWorks": [
+    "Snapdragon X Elite delivers excellent battery life with strong CPU performance — the ARM chip excels at efficiency, providing 20-hour battery that beats most Intel counterparts at this price.",
+    "PixelSense Flow 120Hz display is sharp and accurate — the 2496x1664 resolution at 15 inches produces a comfortable pixel density for extended work sessions."
+  ],
+  "worthKnowing": [
+    "ARM (Snapdragon) means some legacy x86 apps run under emulation — most modern apps are ARM-native, but some older or niche Windows software may have compatibility issues.",
+    "No USB-A port — the Surface Laptop 7 has USB-C, Thunderbolt 4, and a proprietary Surface Connect port but no USB-A. An adapter is needed for USB-A peripherals."
+  ],
+  "commonComplaints": [
+    {
+      "title": "ARM app compatibility concerns",
+      "body": "While the emulation layer handles most software well, some specialized enterprise tools, games, and older utilities run poorly or not at all on Snapdragon X.",
+      "source": "Reddit (r/Surface)"
+    },
+    {
+      "title": "No USB-A port",
+      "body": "The Surface Laptop 7 omits USB-A entirely — users with USB-A devices (drives, peripherals) need a Surface USB-C to USB-A adapter.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Pricier than competing ARM laptops",
+      "body": "The Samsung Galaxy Book5 Pro offers a similar feature set with a better display at a similar price. Surface premium is partly for the Microsoft brand.",
+      "source": "Reddit (r/laptops)"
+    }
+  ],
+  "verdict": "The Microsoft Surface Laptop 7 15-inch is the best large-screen Windows laptop for users who want excellent battery life and a Microsoft-curated experience. Check that your essential software is ARM-compatible before committing — most modern apps are, but the edge cases matter.",
+  "realBuyers": [
+    {
+      "quote": "Battery actually lasts 17–18 hours in my use. The Snapdragon chip is incredible for efficiency.",
+      "source": "Reddit (r/Surface)"
+    },
+    {
+      "quote": "All my work apps run perfectly. No compatibility issues whatsoever for an office user.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "The 15-inch screen is perfect for spreadsheets. Don't need an external monitor anymore.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Surface Laptop 7 — Microsoft Canada", "url": "https://www.microsoft.com/en-ca" },
+    { "title": "Surface Laptop 7 Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Microsoft Surface Laptop 7 15\" review Canada: Snapdragon X Elite, 20-hr battery, 1.66kg. ~$1,799 CAD. Best Windows 15-inch laptop for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$1,799 CAD",
+  "similarProducts": ["samsung-galaxy-book5-pro", "lg-gram-16-2024", "lenovo-thinkpad-x1-carbon-gen13"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

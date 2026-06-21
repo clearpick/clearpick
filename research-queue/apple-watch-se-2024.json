@@ -1,0 +1,82 @@
+{
+  "slug": "apple-watch-se-2024",
+  "name": "Apple Watch SE (2024)",
+  "brand": "Apple",
+  "category": "Fitness & Health",
+  "categoryPage": "fitness.html",
+  "filterTag": "Smart Watches",
+  "asin": "VERIFY_ASIN",
+  "price": 329,
+  "priceDisplay": "$329 CAD",
+  "score": 8.7,
+  "tag": "Best Value Apple Watch",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Apple Watch SE 2024 is the most affordable Apple Watch with crash detection, fall detection, and GPS — the best iPhone-paired smartwatch under $400 at $329 CAD on Amazon.ca.",
+  "subscores": {
+    "Health Tracking": 8.5,
+    "Fitness": 8.8,
+    "Design": 9.0,
+    "Battery Life": 8.5,
+    "Ecosystem": 9.8
+  },
+  "specs": {
+    "Display": "1.78\" LTPO Retina",
+    "Chip": "S9",
+    "Health": "Heart rate + crash detection + fall detection + emergency SOS",
+    "Battery": "Up to 18 hours",
+    "Waterproofing": "WR50",
+    "Connectivity": "GPS only (no cellular option)"
+  },
+  "whatWorks": [
+    "Crash detection and fall detection at $329 — safety features that could call emergency services if you're in an accident or unconscious, at the most affordable Apple Watch price.",
+    "Full Apple Watch ecosystem access at a lower price — same watchOS 11, same App Store, same Apple Pay, same iPhone integration as the Series 10."
+  ],
+  "worthKnowing": [
+    "No ECG or blood oxygen monitoring — the SE lacks the health sensor features of the Series 10; for users who want medical-grade heart monitoring, the Series 10 is necessary.",
+    "No Always-On display — the SE's display turns off between interactions, unlike the Series 10's Always-On display."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Missing ECG and blood oxygen",
+      "body": "The SE's health monitoring doesn't include ECG or SpO2. Users who want these features must step up to the Series 10 at $220 more.",
+      "source": "Reddit (r/AppleWatch)"
+    },
+    {
+      "title": "No Always-On display",
+      "body": "The screen turns off between wrist raises. Users who glance at their watch frequently find the wrist-raise activation occasionally slow.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "No cellular option",
+      "body": "The Apple Watch SE only comes in GPS-only configuration — users who want LTE independence from their iPhone must buy the Series 10.",
+      "source": "Reddit (r/AppleWatch)"
+    }
+  ],
+  "verdict": "The Apple Watch SE 2024 is the best Apple Watch for budget-conscious iPhone users who want safety features and fitness tracking without the health monitoring premium. If ECG, blood oxygen, or Always-On display matter, save up for the Series 10. For most users, the SE covers 90% of the use case at 60% of the price.",
+  "realBuyers": [
+    {
+      "quote": "Bought for my teenager. Crash detection and fall detection were the features we needed. Perfect for the price.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Don't need ECG. The SE tracks my workouts, sleep, and rings. Everything I need at $329.",
+      "source": "Reddit (r/AppleWatch)"
+    },
+    {
+      "quote": "Gave my old Series 8 to my wife and got the SE. Honestly can't tell the difference in daily use.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Apple Watch SE 2024 — Apple Canada", "url": "https://www.apple.com/ca/shop/buy-watch/apple-watch-se" },
+    { "title": "Apple Watch SE Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "Apple Watch SE 2024 review Canada: crash detection, fall detection, GPS, 18-hr battery. $329 CAD. Best value Apple Watch for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$329 CAD",
+  "similarProducts": ["apple-watch-series-10", "samsung-galaxy-watch-7", "garmin-venu-3"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

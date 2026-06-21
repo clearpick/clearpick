@@ -16,7 +16,8 @@ const { execSync } = require('child_process');
 
 const ROOT      = path.resolve(__dirname, '..');
 const QUEUE_DIR = path.join(ROOT, 'research-queue');
-const DRY_RUN   = process.argv.includes('--dry-run');
+const DRY_RUN            = process.argv.includes('--dry-run');
+const SKIP_SIMILAR_CHECK = process.argv.includes('--skip-similar-check');
 
 function getQueueFiles() {
   if (!fs.existsSync(QUEUE_DIR)) {
@@ -76,7 +77,8 @@ function processProduct(jsonPath, existingSlugs) {
   }
 
   try {
-    execSync(`node scripts/add-product.js "${jsonPath}"`, {
+    const skipFlag = SKIP_SIMILAR_CHECK ? ' --skip-similar-check' : '';
+    execSync(`node scripts/add-product.js "${jsonPath}"${skipFlag}`, {
       stdio: 'inherit',
       cwd: ROOT,
     });

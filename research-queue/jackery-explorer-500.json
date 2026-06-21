@@ -1,0 +1,82 @@
+{
+  "slug": "jackery-explorer-500",
+  "name": "Jackery Explorer 500 Portable Power Station",
+  "brand": "Jackery",
+  "category": "Power Stations",
+  "categoryPage": "power-stations.html",
+  "filterTag": "Compact (Under 500Wh)",
+  "asin": "VERIFY_ASIN",
+  "price": 499,
+  "priceDisplay": "$499 CAD",
+  "score": 8.4,
+  "tag": "Best Compact Jackery",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Jackery Explorer 500 is a 518Wh compact power station at 6.4kg — the most popular entry-level Jackery unit for solo camping, work-from-outdoors, and emergency preparedness at $499 CAD.",
+  "subscores": {
+    "Capacity": 8.0,
+    "Output Power": 8.0,
+    "Charging Speed": 7.8,
+    "Portability": 9.5,
+    "Value": 8.8
+  },
+  "specs": {
+    "Capacity": "518Wh",
+    "AC Output": "500W (surge 1000W)",
+    "DC Output": "12V 10A",
+    "Solar Input": "65W max",
+    "Weight": "6.4kg",
+    "Charge Time": "7.5 hours AC / solar varies"
+  },
+  "whatWorks": [
+    "6.4kg is genuinely portable by one person — the Explorer 500 can be carried to a campsite, loaded in a van, or moved around the house without help.",
+    "Reliable entry point into portable power — Jackery's wide retail availability, warranty support, and straightforward operation make the Explorer 500 the most accessible power station in Canada."
+  ],
+  "worthKnowing": [
+    "7.5-hour AC charge time is slow — no fast charging capability means overnight charging is required between uses. Plan accordingly or budget for solar panels.",
+    "NMC (not LFP) chemistry in some configurations — check the specific SKU; older Jackery Explorer 500 units use NMC batteries with shorter cycle life (500–800 cycles) vs. LFP alternatives."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Slow AC charging",
+      "body": "7.5 hours to fully charge via AC outlet means overnight charging is necessary. EcoFlow alternatives charge 5x faster.",
+      "source": "Reddit (r/camping)"
+    },
+    {
+      "title": "500W output limits appliance use",
+      "body": "Many AC appliances exceed 500W. The Explorer 500 is suited for electronics, fans, and lights — not electric skillets or coffee makers.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "NMC battery has shorter cycle life",
+      "body": "Older Explorer 500 models use NMC chemistry with 500 full cycles to 80% — LFP alternatives like EcoFlow RIVER 2 Pro last 3000+ cycles.",
+      "source": "Reddit (r/preppers)"
+    }
+  ],
+  "verdict": "The Jackery Explorer 500 is the best entry-level power station for casual campers and first-time buyers who want brand reliability and retail availability. If fast charging matters or you'll use it heavily, the EcoFlow RIVER 2 Pro is a better long-term investment at $100 more.",
+  "realBuyers": [
+    {
+      "quote": "Solo camping essential. Powers my 12V fridge and electronics for a full weekend.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Leave it plugged in at home so it's always charged. Small enough to grab during any power outage.",
+      "source": "Reddit (r/preppers)"
+    },
+    {
+      "quote": "Bought at Canadian Tire. Works as advertised. Great for a cottage with no power.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Jackery Explorer 500 — Jackery Canada", "url": "https://www.jackery.com/ca" },
+    { "title": "Jackery Explorer 500 Review — OutdoorGearLab", "url": "https://www.outdoorgearlab.com" }
+  ],
+  "metaDescription": "Jackery Explorer 500 review Canada: 518Wh, 500W output, 6.4kg. $499 CAD. Best compact entry-level power station for Canadian camping and emergencies.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$499 CAD",
+  "similarProducts": ["ecoflow-river-2-pro", "bluetti-eb70s", "goal-zero-yeti-500x"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

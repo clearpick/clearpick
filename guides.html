@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buying Guides | ClearPick</title>
+  <meta name="description" content="ClearPick buying guides — expert recommendations, comparisons, and how-to advice to help you buy the right product the first time." />
+  <meta property="og:title" content="Buying Guides | ClearPick" />
+  <meta property="og:description" content="ClearPick buying guides — expert recommendations and comparisons for every category." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://clearpick.ca/guides.html" />
+  <meta property="og:image" content="https://clearpick.ca/og-image.png" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://clearpick.ca/guides.html" />
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .guides-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
+    .guide-card { display: flex; flex-direction: column; background: var(--surface, #1a1a2e); border: 1px solid var(--border, rgba(255,255,255,.08)); border-radius: 12px; padding: 24px; text-decoration: none; color: inherit; transition: border-color .2s, transform .2s; }
+    .guide-card:hover { border-color: var(--accent, #1a8cff); transform: translateY(-2px); }
+    .guide-card__type { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .5; margin-bottom: 8px; }
+    .guide-card__title { font-size: 1.1rem; font-weight: 700; margin: 0 0 10px; }
+    .guide-card__desc { font-size: .9rem; opacity: .7; margin: 0 0 16px; flex: 1; }
+    .guide-card__cta { font-size: .85rem; font-weight: 600; color: var(--accent, #1a8cff); }
+    .guides-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+    .guides-empty { text-align: center; padding: 80px 20px; opacity: .5; }
+    .guides-empty h2 { font-size: 1.4rem; margin-bottom: 8px; }
+  </style>
+</head>
+<body>
+  <header class="site-header" id="site-header">
+    <div class="container">
+      <div class="header-inner">
+        <a href="index.html" class="logo">
+          <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          <span class="logo__wordmark">ClearPick<span class="logo__tagline">Every Review. One Clear Verdict.</span></span>
+        </a>
+        <nav class="nav" aria-label="Main">
+          <a href="index.html" class="nav__link">Home</a>
+          <details class="nav__dropdown">
+            <summary class="nav__link nav__dropdown-trigger">
+              Categories
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="dropdown-chevron"><path d="m6 9 6 6 6-6"/></svg>
+            </summary>
+            <div class="dropdown__menu" role="menu"></div>
+          </details>
+          <a href="guides.html" class="nav__link" aria-current="page">Guides</a>
+          <a href="blog/index.html" class="nav__link">Blog</a>
+          <a href="about.html" class="nav__link">About</a>
+          <a href="faq.html" class="nav__link">How It Works</a>
+        </nav>
+        <div class="header-search-wrap" id="header-search-wrap">
+          <div class="search-box">
+            <svg class="search-box__icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            <input type="search" id="header-search-input" class="search-box__input" placeholder="Search products&#8230;" autocomplete="off" aria-label="Search products" aria-autocomplete="list" aria-controls="header-search-results" aria-expanded="false" />
+            <button class="search-box__clear" id="header-search-clear" aria-label="Clear search" hidden><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+          </div>
+          <ul class="search-results" id="header-search-results" role="listbox" aria-label="Search suggestions" hidden></ul>
+        </div>
+        <div class="header-actions">
+          <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero__icon">📖</div>
+      <h1 class="page-hero__title">Buying Guides</h1>
+      <p class="page-hero__subtitle">Expert advice, head-to-head comparisons, and category deep-dives — everything you need to buy right the first time.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="guides-filter-bar" id="guides-filter-bar">
+        <button class="filter-pill filter-pill--active" data-guide-type="all">All Guides</button>
+        <button class="filter-pill" data-guide-type="buying-guide">Buying Guides</button>
+        <button class="filter-pill" data-guide-type="comparison">Comparisons</button>
+        <button class="filter-pill" data-guide-type="how-to">How-To</button>
+        <button class="filter-pill" data-guide-type="roundup">Roundups</button>
+      </div>
+      <div class="guides-grid" id="guides-grid">
+        <div class="guides-empty">
+          <h2>Guides Coming Soon</h2>
+          <p>We're building out our guides library. Check back soon.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">
+            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            ClearPick
+          </a>
+          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Categories</div>
+          <ul class="footer-links">
+            <li><a href="headphones.html">Headphones</a></li>
+            <li><a href="kitchen.html">Kitchen Appliances</a></li>
+            <li><a href="laptops.html">Laptops</a></li>
+            <li><a href="tablets.html">Tablets</a></li>
+            <li><a href="home-entertainment.html">Home Entertainment</a></li>
+            <li><a href="fitness.html">Fitness Equipment</a></li>
+            <li><a href="mattresses-sleep.html">Mattresses &amp; Sleep</a></li>
+            <li><a href="power-stations.html">Power Stations</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Site</div>
+          <ul class="footer-links">
+            <li><a href="guides.html">Buying Guides</a></li>
+            <li><a href="blog/index.html">Blog</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="faq.html">How It Works</a></li>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="privacy.html">Affiliate Disclosure</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="about.html">About</a> · <a href="faq.html">How It Works</a> · <a href="privacy.html">Privacy Policy</a></p>
+        <p class="footer-bottom__disclaimer">Some links on this site are affiliate links. We may earn a commission if you purchase through them, at no extra cost to you. Rankings are based solely on product quality.</p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
+  </script>
+  <script>
+    (function () {
+      fetch('guides.json')
+        .then(r => r.json())
+        .then(data => {
+          const guides = data.guides || [];
+          if (guides.length === 0) return;
+          const grid = document.getElementById('guides-grid');
+          grid.innerHTML = guides.map(g =>
+            '<a class="guide-card" href="guides/' + g.slug + '.html" data-guide-type="' + (g.type || 'buying-guide') + '">' +
+            '<div class="guide-card__type">' + (g.typeLabel || 'Buying Guide') + '</div>' +
+            '<h2 class="guide-card__title">' + g.title + '</h2>' +
+            '<p class="guide-card__desc">' + g.description + '</p>' +
+            '<span class="guide-card__cta">Read Guide &rarr;</span>' +
+            '</a>'
+          ).join('');
+
+          document.querySelectorAll('[data-guide-type]').forEach(btn => {
+            btn.addEventListener('click', function () {
+              const type = this.dataset.guideType;
+              document.querySelectorAll('[data-guide-type]').forEach(b => b.classList.remove('filter-pill--active'));
+              this.classList.add('filter-pill--active');
+              document.querySelectorAll('.guide-card').forEach(card => {
+                card.style.display = (type === 'all' || card.dataset.guideType === type) ? '' : 'none';
+              });
+            });
+          });
+        })
+        .catch(() => {});
+    })();
+  </script>
+  <script src="js/nav-inject.js"></script>
+  <script src="js/search.js"></script>
+</body>
+</html>

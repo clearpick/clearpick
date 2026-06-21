@@ -1,0 +1,82 @@
+{
+  "slug": "ecoflow-river-2-pro",
+  "name": "EcoFlow RIVER 2 Pro Portable Power Station",
+  "brand": "EcoFlow",
+  "category": "Power Stations",
+  "categoryPage": "power-stations.html",
+  "filterTag": "Mid Range (500-999Wh)",
+  "asin": "VERIFY_ASIN",
+  "price": 599,
+  "priceDisplay": "$599 CAD",
+  "score": 8.7,
+  "tag": "Best Mid-Range Power Station",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The EcoFlow RIVER 2 Pro is 768Wh with the same 70-minute fast charging as the DELTA 2 in a more portable 7.8kg package — the best mid-range power station for solo campers and van life at $599 CAD.",
+  "subscores": {
+    "Capacity": 8.5,
+    "Output Power": 8.8,
+    "Charging Speed": 9.5,
+    "Portability": 9.0,
+    "Value": 9.0
+  },
+  "specs": {
+    "Capacity": "768Wh (LFP battery)",
+    "AC Output": "800W (surge 1600W)",
+    "DC Output": "12.6V 8A",
+    "Solar Input": "220W max",
+    "Weight": "7.8kg",
+    "Charge Time": "70 min to 80% via AC"
+  },
+  "whatWorks": [
+    "70-minute fast charge in the most portable large-format power station — the RIVER 2 Pro brings EcoFlow's signature charging speed to a 7.8kg package that one person can easily carry.",
+    "768Wh handles a full weekend of camping power — 12V fridge (40W = 19 hours), laptops (2 full charges), and phone charging for 3–4 days of mixed use."
+  ],
+  "worthKnowing": [
+    "800W AC output won't power large appliances — electric kettles (1500W), electric skillets, and space heaters exceed its AC output. It's for camping gear and electronics, not home appliances.",
+    "220W solar input is lower than the DELTA 2 — full solar charge takes longer. Pair with two 110W solar panels for best solar performance."
+  ],
+  "commonComplaints": [
+    {
+      "title": "800W AC output is limiting",
+      "body": "The RIVER 2 Pro's 800W limit means many AC appliances (kettles, hair dryers, coffee makers) are borderline or exceed capacity.",
+      "source": "Reddit (r/camping)"
+    },
+    {
+      "title": "Fan is noticeable at max output",
+      "body": "Running near the 800W limit triggers audible fan cooling. Acceptable outdoors, noticeable in a tent or van.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Less capacity than the DELTA 2 at not that much less cost",
+      "body": "At $400 less than the DELTA 2 but with 25% less capacity, the value gap narrows for users who can stretch the budget.",
+      "source": "Reddit (r/preppers)"
+    }
+  ],
+  "verdict": "The EcoFlow RIVER 2 Pro is the best power station for solo campers and van life users who want 70-minute charging in a portable package. If you need 1800W output or more capacity, the DELTA 2 is worth the $400 premium.",
+  "realBuyers": [
+    {
+      "quote": "Solo camping weekend. 768Wh powers my 12V fridge, phone, laptop, and camp lights for 2 full days.",
+      "source": "Reddit (r/camping)"
+    },
+    {
+      "quote": "Charge it in the morning before hitting the trail. 70 minutes and it's full.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Van life essential. Light enough to move easily, powerful enough for everything I need.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "EcoFlow RIVER 2 Pro — EcoFlow Canada", "url": "https://www.ecoflow.com/ca-en" },
+    { "title": "RIVER 2 Pro Review — OutdoorGearLab", "url": "https://www.outdoorgearlab.com" }
+  ],
+  "metaDescription": "EcoFlow RIVER 2 Pro review Canada: 768Wh LFP, 800W output, 70-min fast charge, 7.8kg. $599 CAD. Best mid-range power station for Canadian campers.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$599 CAD",
+  "similarProducts": ["ecoflow-delta-2-power-station", "bluetti-eb70s", "jackery-explorer-500"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

@@ -9,9 +9,9 @@
   "asin": "B00FXNF5HC",
   "price": 149,
   "priceDisplay": "$149 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Air Circulator for Whole-Room Cooling",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://vornado.com/cdn/shop/files/Vornado-V-Square-Black.png?crop=center&height=500&v=1739891583&width=600",
   "affiliateUrl": "https://www.amazon.ca/dp/B00FXNF5HC/?tag=clearpick06-20",
   "introText": "The Vornado 630 uses vortex air circulation technology to move all the air in a room without oscillating — more effective whole-room cooling than tower fans that only direct a stream, with a 5-year satisfaction guarantee.",
   "subscores": {
@@ -19,7 +19,7 @@
     "Noise Level": 8.5,
     "Reliability": 9.5,
     "Value for Money": 8.5,
-    "Design": 8.0
+    "Design": 8
   },
   "specs": {
     "Airflow Technology": "Vortex circulation — whole-room air movement",
@@ -105,7 +105,7 @@
     "coway-ap-1512hh-air-purifier"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/vornado-630-air-circulator/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

@@ -9,14 +9,14 @@
   "asin": "B0006H92QK",
   "price": 149,
   "priceDisplay": "$149 CAD",
-  "score": 9.0,
+  "score": 9,
   "tag": "Best Entry-Level Condenser Mic for Home Studios",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://www.audio-technica.com/media/catalog/product/cache/c673bc7fec8808a80d23918742b3f339/a/t/at2020_01a.png",
   "affiliateUrl": "https://www.amazon.ca/dp/B0006H92QK/?tag=clearpick06-20",
   "introText": "The Audio-Technica AT2020 has been the default entry-level studio condenser microphone for 15+ years — flat, accurate frequency response, low self-noise at 20 dB SPL, and XLR output that interfaces with any standard audio interface.",
   "subscores": {
     "Sound Quality": 9.5,
-    "Build Quality": 9.0,
+    "Build Quality": 9,
     "Self-Noise": 8.5,
     "Value for Money": 9.5,
     "Longevity": 9.5
@@ -105,7 +105,7 @@
     "sennheiser-momentum-4"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/audio-technica-at2020-condenser/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

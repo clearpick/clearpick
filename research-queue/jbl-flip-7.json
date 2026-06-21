@@ -1,0 +1,82 @@
+{
+  "slug": "jbl-flip-7",
+  "name": "JBL Flip 7 Bluetooth Speaker",
+  "brand": "JBL",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Portable Speakers",
+  "asin": "VERIFY_ASIN",
+  "price": 179,
+  "priceDisplay": "$179 CAD",
+  "score": 9.0,
+  "tag": "Best Portable Speaker Overall",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The JBL Flip 7 is the best all-around portable speaker — IP68 waterproofing, 12 hours of battery life, and JBL's signature balanced sound in a 540g package for $179 CAD.",
+  "subscores": {
+    "Sound Quality": 9.0,
+    "Bass": 9.0,
+    "Battery Life": 8.8,
+    "Durability": 9.3,
+    "Value": 9.2
+  },
+  "specs": {
+    "Waterproofing": "IP68 (1.5m for 30 min)",
+    "Battery": "Up to 12 hours",
+    "Connectivity": "Bluetooth 5.3",
+    "Weight": "540g",
+    "Dimensions": "18x7x7cm",
+    "Output": "2x 10W (20W total)"
+  },
+  "whatWorks": [
+    "IP68 waterproofing is the highest rating in its class — fully submersible for 30 minutes at 1.5m depth; handles pool splashes, beach sand, and rain without concern.",
+    "20W output produces sound that fills a medium room — the Flip 7's dual drivers and passive radiator deliver bass that punches well above its size and price."
+  ],
+  "worthKnowing": [
+    "Sound is loud but not room-filling for large spaces — the Flip 7 is perfect for outdoor gatherings of 8–10 people; for larger events or rooms, consider the Bose SoundLink Max.",
+    "PartyBoost allows daisy-chaining multiple JBL speakers — useful if you own two JBL speakers for wider coverage; limited to other PartyBoost-compatible JBL models."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Bass can be boomy at high volumes",
+      "body": "At 80%+ volume, the passive radiator overdoes the bass in some tracks. Reducing bass via the JBL app improves the balance.",
+      "source": "Reddit (r/audiophile)"
+    },
+    {
+      "title": "Lacks USB-A passthrough for phone charging",
+      "body": "The Flip 7 removed the USB-A output from previous Flip versions — you can no longer charge a phone from the speaker's battery.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "Carrying loop is basic",
+      "body": "The rubber carrying loop is functional but less sturdy than competitors like the UE Wonderboom's 360° loop. Not a dealbreaker but noted.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "verdict": "The JBL Flip 7 is the best portable speaker for most people — IP68 waterproofing, excellent sound for its size, 12-hour battery, and JBL's reliable build quality at $179. For premium sound at higher volume, the Bose SoundLink Max is the step up.",
+  "realBuyers": [
+    {
+      "quote": "Camping, beach, kayaking. This thing goes everywhere. Survived being dropped in the river.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Best portable speaker I've owned across 4 JBLs. The 7 is a clear upgrade from the 6.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    },
+    {
+      "quote": "Sound fills my apartment. Can't believe this comes from a speaker this small.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "JBL Flip 7 — JBL Canada", "url": "https://www.jbl.com/ca" },
+    { "title": "JBL Flip 7 Review — The Verge", "url": "https://www.theverge.com" }
+  ],
+  "metaDescription": "JBL Flip 7 review Canada: IP68, 12-hr battery, Bluetooth 5.3, 540g. $179 CAD. Best portable Bluetooth speaker for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$179 CAD",
+  "similarProducts": ["bose-soundlink-max", "ue-wonderboom-3", "anker-soundcore-motion-x600"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}

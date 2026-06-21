@@ -11,7 +11,7 @@
   "priceDisplay": "$449 CAD",
   "score": 9.3,
   "tag": "Best Practice Amp for Home and Stage",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://static.roland.com/assets/images/products/main/katana-50_mk2_ex_main.jpg",
   "affiliateUrl": "https://www.amazon.ca/dp/B07MH5CCRB/?tag=clearpick06-20",
   "introText": "The Boss Katana-50 MkII delivers 50 watts into a 12-inch speaker, 5 amp characters, 60 built-in effects, and a headphone output with cab simulation — versatile enough for bedroom practice, rehearsals, and small venues from a single amp.",
   "subscores": {
@@ -105,7 +105,7 @@
     "audio-technica-ath-m50x"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/boss-katana-50-mkii-amp/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

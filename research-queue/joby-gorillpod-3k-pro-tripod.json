@@ -11,15 +11,15 @@
   "priceDisplay": "$149 CAD",
   "score": 8.5,
   "tag": "Best Flexible Tripod for Travel & Vlogging",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://joby.com/cdn/shop/files/JOBY_shopify_SEO.jpg?v=1773783521",
   "affiliateUrl": "https://www.amazon.ca/dp/B07BT1KR97/?tag=clearpick06-20",
   "introText": "The JOBY GorillaPod 3K Pro has flexible 10-segment legs that wrap around branches, poles, and railings — mounting your mirrorless camera anywhere a rigid tripod can't go, with 3kg payload for any APS-C system.",
   "subscores": {
     "Flexibility": 9.5,
-    "Build Quality": 9.0,
+    "Build Quality": 9,
     "Portability": 9.5,
     "Stability": 7.5,
-    "Value for Money": 8.0
+    "Value for Money": 8
   },
   "specs": {
     "Payload": "3kg maximum",
@@ -104,7 +104,7 @@
     "insta360-x4-360-camera"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/joby-gorillpod-3k-pro-tripod/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

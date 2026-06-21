@@ -11,7 +11,7 @@
   "priceDisplay": "$199 CAD",
   "score": 9.2,
   "tag": "Monitor Lights",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://image.benq.com/is/image/benqco/site-thumbnail-b2c-1200x630?$ResponsivePreset$",
   "affiliateUrl": "https://www.amazon.ca/dp/B07S769R5L/?tag=clearpick06-20",
   "subscores": {
     "Eye Comfort": 9.5,
@@ -102,5 +102,14 @@
   "verifiedAt": "2026-06-19",
   "verifiedAsin": "B07S769R5L",
   "verifiedPrice": "$199 CAD",
-  "similarProducts": ["benq-pd2700u-monitor", "asus-proart-pa278cv-monitor", "anker-575-usb-c-dock"]
+  "similarProducts": [
+    "benq-pd2700u-monitor",
+    "asus-proart-pa278cv-monitor",
+    "anker-575-usb-c-dock"
+  ],
+  "images": {
+    "hero": "/images/products/benq-screenbar-plus/hero.jpg",
+    "lifestyle": "",
+    "detail": ""
+  }
 }

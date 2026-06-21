@@ -11,7 +11,7 @@
   "priceDisplay": "$99 CAD",
   "score": 8.8,
   "tag": "Best Compact Space Heater for Any Room",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://vornado.com/cdn/shop/files/Vornado-V-Square-Black.png?crop=center&height=500&v=1739891583&width=600",
   "affiliateUrl": "https://www.amazon.ca/dp/B017HCZF9E/?tag=clearpick06-20",
   "introText": "The Vornado MVH uses vortex circulation to heat rooms more evenly than directional fan heaters — backed by a 5-year warranty, with auto safety shutoffs and a cool-touch exterior in a footprint small enough for desks and nightstands.",
   "subscores": {
@@ -19,7 +19,7 @@
     "Safety": 9.5,
     "Reliability": 9.5,
     "Noise Level": 8.5,
-    "Value for Money": 9.0
+    "Value for Money": 9
   },
   "specs": {
     "Power": "1500W (2 heat settings: 750W + 1500W + fan-only)",
@@ -104,7 +104,7 @@
     "dyson-hp09-purifier-heater-fan"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/vornado-mvh-space-heater/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

@@ -44,6 +44,15 @@ if (fs.existsSync(compareDir)) {
     .forEach(f => add(`${BASE_URL}/compare/${f}`, '0.6', 'monthly'));
 }
 
+// Guides
+const guidesDir = path.join(ROOT, 'guides');
+if (fs.existsSync(guidesDir)) {
+  fs.readdirSync(guidesDir)
+    .filter(f => f.endsWith('.html'))
+    .sort()
+    .forEach(f => add(`${BASE_URL}/guides/${f}`, '0.8', 'weekly'));
+}
+
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls.map(u =>

@@ -11,14 +11,14 @@
   "priceDisplay": "$229 CAD",
   "score": 9.3,
   "tag": "Best 2-Input Audio Interface for Home Studios",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "https://cdn11.bigcommerce.com/s-7exlzlf13h/products/307/images/785/scarlett-2i2-top-image-2400-2400__78159.1693324453.386.513.png?c=3",
   "affiliateUrl": "https://www.amazon.ca/dp/B09QQ86D3Y/?tag=clearpick06-20",
   "introText": "The Focusrite Scarlett 2i2 4th Gen has been the world's best-selling USB audio interface for the past decade — two high-quality preamps, class-leading 69 dB gain range, direct monitoring, and Air mode in the most trusted recording hardware brand for home studios.",
   "subscores": {
     "Preamp Quality": 9.5,
     "Gain Range": 9.5,
     "Driver Stability": 9.5,
-    "Software Bundle": 9.0,
+    "Software Bundle": 9,
     "Value for Money": 9.5
   },
   "specs": {
@@ -106,7 +106,7 @@
     "boss-katana-50-mkii-amp"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/focusrite-scarlett-2i2-4th-gen/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

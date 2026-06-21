@@ -11,14 +11,14 @@
   "priceDisplay": "$249 CAD",
   "score": 8.8,
   "tag": "Best Smart Air Purifier for Living Rooms",
-  "image": "VERIFY_IMAGE_ID",
+  "image": "http://levoit.com/cdn/shop/files/71ea9ab02fa043e7c724b952405e677dcdaba0ce.jpg?v=1764042625",
   "affiliateUrl": "https://www.amazon.ca/dp/B08JPBPC7P/?tag=clearpick06-20",
   "introText": "The Levoit Core 400S combines True HEPA filtration, a real built-in AQI sensor with auto mode, VeSync app control, and Alexa/Google voice control — the most feature-complete smart air purifier at this price for Canadian living rooms.",
   "subscores": {
-    "Air Purification": 9.0,
-    "Smart Features": 9.0,
+    "Air Purification": 9,
+    "Smart Features": 9,
     "Coverage": 8.5,
-    "Auto Mode": 9.0,
+    "Auto Mode": 9,
     "Value for Money": 8.5
   },
   "specs": {
@@ -105,7 +105,7 @@
     "blueair-blue-pure-411i-max"
   ],
   "images": {
-    "hero": "",
+    "hero": "/images/products/levoit-core-400s-air-purifier/hero.jpg",
     "lifestyle": "",
     "detail": ""
   }

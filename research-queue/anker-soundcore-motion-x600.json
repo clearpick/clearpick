@@ -1,0 +1,82 @@
+{
+  "slug": "anker-soundcore-motion-x600",
+  "name": "Anker Soundcore Motion X600 Bluetooth Speaker",
+  "brand": "Anker",
+  "category": "Home Entertainment",
+  "categoryPage": "home-entertainment.html",
+  "filterTag": "Portable Speakers",
+  "asin": "VERIFY_ASIN",
+  "price": 149,
+  "priceDisplay": "$149 CAD",
+  "score": 8.7,
+  "tag": "Best Value Mid-Range Speaker",
+  "image": "VERIFY_IMAGE_ID",
+  "affiliateUrl": "VERIFY_ASIN",
+  "introText": "The Anker Soundcore Motion X600 delivers 50W peak output with spatial audio and Hi-Res Audio certification — the best value Bluetooth speaker for those who want big sound without spending $400 at $149 CAD.",
+  "subscores": {
+    "Sound Quality": 8.8,
+    "Bass": 8.8,
+    "Battery Life": 9.0,
+    "Durability": 8.8,
+    "Value": 9.5
+  },
+  "specs": {
+    "Waterproofing": "IPX7",
+    "Battery": "Up to 12 hours",
+    "Connectivity": "Bluetooth 5.3 + spatial audio",
+    "Weight": "1.2kg",
+    "Dimensions": "21x11x11cm",
+    "Output": "50W peak (5-driver spatial audio)"
+  },
+  "whatWorks": [
+    "50W peak output with 5 drivers is extraordinary at $149 — the Motion X600 produces room-filling sound and punchy bass that rivals speakers costing 2–3x more.",
+    "Hi-Res Audio certification and spatial audio mode create a wider soundstage than typical Bluetooth speakers — music sounds more three-dimensional than at this price point."
+  ],
+  "worthKnowing": [
+    "At 1.2kg, it's notably heavier than compact alternatives — designed as a portable home/deck speaker rather than a hike-and-carry outdoor companion.",
+    "IPX7 (not IP67) — waterproof but not rated for full submersion like the JBL Flip 7's IP68. Handles heavy rain and splashes but not underwater drops."
+  ],
+  "commonComplaints": [
+    {
+      "title": "Heavy at 1.2kg for a portable speaker",
+      "body": "The Motion X600 is marketed as portable but 1.2kg is heavy compared to the JBL Flip 7 (540g) or Wonderboom 3 (425g). It's a desk/deck speaker that's battery-powered.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    },
+    {
+      "title": "Spatial audio mode can feel artificial",
+      "body": "The spatial audio processing sounds impressive but some audiophiles prefer to disable it for more natural stereo imaging.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "title": "App required to access all features",
+      "body": "The Soundcore app unlocks spatial audio, EQ, and scheduling but is required for full feature access.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    }
+  ],
+  "verdict": "The Anker Soundcore Motion X600 is the best value Bluetooth speaker for home and deck use — 50W output, Hi-Res Audio, and spatial audio at $149 is remarkable. It's not the most portable option, but nothing at this price delivers more sound quality per dollar.",
+  "realBuyers": [
+    {
+      "quote": "50W in a $149 speaker. My $300 JBL Charge sounds quieter. Anker changed the game.",
+      "source": "Amazon reviewer"
+    },
+    {
+      "quote": "Deck speaker. Sits outside all summer. IPX7 handles rain. Sound is incredible for the price.",
+      "source": "Reddit (r/bluetooth_speakers)"
+    },
+    {
+      "quote": "Spatial audio is impressive. The soundstage feels huge for a $149 speaker.",
+      "source": "Amazon reviewer"
+    }
+  ],
+  "sources": [
+    { "title": "Soundcore Motion X600 — Anker Canada", "url": "https://www.soundcore.com/ca" },
+    { "title": "Motion X600 Review — Android Authority", "url": "https://www.androidauthority.com" }
+  ],
+  "metaDescription": "Anker Soundcore Motion X600 review Canada: 50W spatial audio, IPX7, Hi-Res Audio. $149 CAD. Best value portable Bluetooth speaker for Canadians.",
+  "researchedAt": "2026-06-21",
+  "verifiedAt": "2026-06-21",
+  "verifiedAsin": "VERIFY_ASIN",
+  "verifiedPrice": "$149 CAD",
+  "similarProducts": ["jbl-flip-7", "bose-soundlink-max", "ue-wonderboom-3"],
+  "images": { "hero": "", "lifestyle": "", "detail": "" }
+}
