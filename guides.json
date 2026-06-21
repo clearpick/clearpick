@@ -423,6 +423,30 @@
       "type": "worthit",
       "typeLabel": "Buying Guide",
       "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "roborock-qrevo-s-owner-report",
+      "title": "Roborock Qrevo S: What Owners Actually Report After 6 Months of Daily Use",
+      "description": "Not a review, a report from Roborock Qrevo S owners after 6 or more months. What holds up, what annoys them daily, and whether they would buy it again.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "sony-wh-xm4-to-xm6-owner-report",
+      "title": "Sony XM4 to XM6: What Owners Who Upgraded Actually Found",
+      "description": "What happened when XM4 owners upgraded to the XM6. Honest reports from people who made the jump. What improved, what stayed the same, and who wishes they had saved the money.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "reddit-robot-vacuums-under-500",
+      "title": "What Reddit Actually Says About Robot Vacuums Under 500 CAD (2025 Owner Thread Synthesis)",
+      "description": "A synthesis of what robot vacuum owners on Reddit say about under-500 CAD options. Not brand marketing. Which ones get recommended, which ones get warned against, and why.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
     }
   ]
 }
