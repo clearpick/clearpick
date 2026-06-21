@@ -495,6 +495,62 @@
       "type": "sentiment",
       "typeLabel": "Buying Guide",
       "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "dog-auto-feeder-after-novelty-wears-off",
+      "title": "Automatic Dog Feeders: What Owners Say When the Novelty Wears Off",
+      "description": "A 6-month owner report on automatic dog feeders -- what actually keeps working, what jams, and whether dogs and owners still like them after the new-gadget glow fades.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "weber-spirit-ii-real-owner-report",
+      "title": "Weber Spirit II E-310: What Backyard Grillers Say After 3 Full Seasons",
+      "description": "A 3-season owner report on the Weber Spirit II E-310 -- what holds up, what rusts, and what grillers say about whether Weber's reputation was deserved.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "sony-a6700-long-term-report",
+      "title": "Sony A6700: What Photographers Say After 12 Months and 10,000-Plus Shots",
+      "description": "A 12-month Sony A6700 owner report -- what improves with firmware updates, what still frustrates, and what photographers say they would buy if choosing again.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "ego-power-homeowners-vs-pros",
+      "title": "EGO Power Tools: What Homeowners Say vs What Landscapers Report",
+      "description": "A split owner report from EGO tool users -- weekend homeowners vs regular-use landscapers describe the same tools very differently. What you should know before buying.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "theragun-daily-use-vs-drawer-report",
+      "title": "Theragun Owner Report: Who Uses It Daily and Who Put It in a Drawer",
+      "description": "The honest Theragun report -- data from owners who use it consistently vs owners who stopped. What separates the two groups, and which type of buyer are you?",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "hisense-vs-tcl-budget-tv-report",
+      "title": "Hisense vs TCL: What Budget TV Buyers Say After 1 Year",
+      "description": "A year-one owner report from Hisense and TCL buyers -- what holds up, what fades, and which one Canadians feel was better value at the 12-month mark.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "endy-vs-douglas-vs-casper-canada-report",
+      "title": "Endy vs Douglas vs Casper in Canada: What Owners Say After Sleeping on It for a Year",
+      "description": "A year-one Canadian mattress owner report -- Endy, Douglas, and Casper compared by what Canadian buyers say about comfort, durability, and whether the trial period promise holds up.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
     }
   ]
 }
