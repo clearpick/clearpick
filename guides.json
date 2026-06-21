@@ -447,6 +447,54 @@
       "type": "sentiment",
       "typeLabel": "Buying Guide",
       "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "vitamix-real-owner-complaints",
+      "title": "The Real Complaints About the Vitamix (and Whether They Matter to Most Owners)",
+      "description": "Not a Vitamix ad -- a report on what Vitamix owners complain about most, how serious those complaints are, and what they say after 3 or more years of daily use.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "nanit-pro-new-parents-report",
+      "title": "What New Parents Actually Say About the Nanit Pro After 6 Months",
+      "description": "A synthesis of what new parents say about the Nanit Pro after 6 months of 3am use -- what they love, what broke their trust, and whether the subscription is worth it.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "litter-robot-4-long-term-report",
+      "title": "Litter-Robot 4 Long-Term Owner Report: What Changes After 12 Months",
+      "description": "What Litter-Robot 4 owners say at 12 months -- not the unboxing glow. What breaks, what odour performance is really like, and whether multi-cat households stay happy with it.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "breville-barista-express-1-year-report",
+      "title": "Breville Barista Express Impress: What Owners Report After Pulling 500 or More Shots",
+      "description": "A year-one owner report from Breville Barista Express Impress owners on shot quality over time, what goes wrong, and whether the espresso obsession was worth it.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "dewalt-ecosystem-homeowners-vs-pros",
+      "title": "What DeWalt Owners Actually Say: Homeowners vs Contractors Report Differently",
+      "description": "A split report from DeWalt owners - what home DIYers say about their DeWalt tools vs what contractors say. The same tools, very different ownership experiences.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
+    },
+    {
+      "slug": "garmin-vs-apple-watch-daily-use",
+      "title": "Garmin vs Apple Watch: What Fitness Users Say About Using Each One Daily",
+      "description": "A real-owner comparison from people who use Garmin and Apple Watch - what they actually track daily, what they ignore, and which one fitness-focused users keep long-term.",
+      "type": "sentiment",
+      "typeLabel": "Buying Guide",
+      "publishedAt": "2026-06-21"
     }
   ]
 }
