@@ -389,6 +389,8 @@ async function main() {
 
   for (const guide of GUIDES) {
     process.stdout.write('[' + guide.slug + '] ... ');
+    // Inter-guide delay — prevents Reddit 429s from rapid sequential requests
+    await new Promise(r => setTimeout(r, 2000));
     try {
       const data = await processGuide(guide);
       if (!data) {

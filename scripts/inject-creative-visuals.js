@@ -338,7 +338,7 @@ function buildValueGauge(slug, score) {
   return `<div class="value-gauge-block">
   <h3>Value Score</h3>
   <div class="gauge-canvas-wrap">
-    <canvas id="${id}" width="300" height="175"></canvas>
+    <canvas id="${id}" width="300" height="200"></canvas>
   </div>
   <div class="gauge-label-row">
     <span>Poor Value</span>
@@ -352,7 +352,7 @@ function buildValueGauge(slug, score) {
     var el=document.getElementById('${id}');
     if(!el)return;
     var ctx=el.getContext('2d');
-    var W=300,H=175,cx=150,cy=148,r=108;
+    var W=300,H=200,cx=150,cy=148,r=108;
     var score=${score},colour='${colour}';
     var frac=Math.min(1,Math.max(0,(score-0)/10));
     // Background arc
@@ -366,9 +366,9 @@ function buildValueGauge(slug, score) {
     ctx.fillStyle='#1a1c2e';ctx.font='bold 36px Inter,system-ui,sans-serif';
     ctx.textAlign='center';ctx.textBaseline='middle';
     ctx.fillText(score+'/10',cx,cy-6);
-    // Subtext
+    // Subtext — 38px below centre, well within 200px canvas
     ctx.fillStyle='#6b7280';ctx.font='600 13px Inter,system-ui,sans-serif';
-    ctx.fillText('ClearPick Score',cx,cy+26);
+    ctx.fillText('ClearPick Score',cx,cy+38);
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',drawGauge);}else{drawGauge();}
 })();

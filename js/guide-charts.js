@@ -374,9 +374,22 @@
         var bySlug = {};
         products.forEach(function(p) { bySlug[p.id] = p; });
 
-        var allSlugs = Array.from(document.querySelectorAll('[data-slug]'))
-          .map(function(e) { return e.getAttribute('data-slug'); })
-          .filter(function(s) { return bySlug[s]; });
+        // guide-product-cards.js replaces [data-slug] divs with <a> tags (no data-slug attr)
+        // so we can't rely on [data-slug] — use product href links instead, they're stable
+        var seen = {};
+        var allSlugs = [];
+        // Use a.href (DOM-resolved absolute URL) so relative paths like ../products/ work too
+        document.querySelectorAll('a').forEach(function(a) {
+          var m = (a.href || '').match(/\/products\/([^\/]+)\.html/);
+          if (m && bySlug[m[1]] && !seen[m[1]]) { seen[m[1]] = true; allSlugs.push(m[1]); }
+        });
+        // Fallback: try data-slug if product cards haven't been replaced yet
+        if (!allSlugs.length) {
+          document.querySelectorAll('[data-slug]').forEach(function(e) {
+            var s = e.getAttribute('data-slug');
+            if (s && bySlug[s] && !seen[s]) { seen[s] = true; allSlugs.push(s); }
+          });
+        }
 
         var pA = bySlug[allSlugs[0]];
         var pB = bySlug[allSlugs[1]];
