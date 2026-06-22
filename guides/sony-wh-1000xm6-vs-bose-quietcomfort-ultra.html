@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/sony-wh-1000xm6-vs-bose-quietcomfort-ultra.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -185,6 +186,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_sony_wh_1000xm6_vs_bose_quietcomfort_ultra" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":549,"y":8.7,"label":"Sony WH-1000XM6"},{"x":599,"y":8.8,"label":"Bose QuietComfort U…"},{"x":499,"y":8.5,"label":"Jabra Evolve2 75"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_sony_wh_1000xm6_vs_bose_quietcomfort_ultra');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <p>Bose QCU buyers are disproportionately office workers and long-haul commuters who put comfort above customization. The single most common praise phrase across owner reviews: "wore them all day without noticing them." Buyers who chose Bose over Sony specifically mention preferring the simpler app experience and the plush earcup feel. A recurring pattern: QCU buyers who came from older Bose QC models and found the comfort expectation met immediately.</p>
 
 <div class="guide-section-break"></div>
@@ -235,6 +255,20 @@
   <div class="wba-number">80%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (8.7/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Sony WH-1000XM6</th><th>Bose QuietComfort…</th></tr></thead>
+    <tbody>
+    <tr><td>travel more than once a month and want to make it throu</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>use an Android device with LDAC support and want to hea</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>want granular ANC and ambient sound control across diff</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>wear headphones 6</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>You're already in the Bose ecosystem and value the simp</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

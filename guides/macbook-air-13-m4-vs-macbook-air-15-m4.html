@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/macbook-air-13-m4-vs-macbook-air-15-m4.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -180,6 +181,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_macbook_air_13_m4_vs_macbook_air_15_m4" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":1299,"y":9.3,"label":"Apple MacBook Air 1…"},{"x":1599,"y":9.1,"label":"Apple MacBook Air 1…"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_macbook_air_13_m4_vs_macbook_air_15_m4');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>The actual question: do you use an external monitor?</h2>
 <p>The MacBook Air 13-inch M4 and MacBook Air 15-inch M4 are the same laptop in different body sizes. Same M4 chip, same 16GB RAM, same 18-hour battery, same Liquid Retina display technology, same two Thunderbolt 4 ports, same 1080p webcam. The only differences that matter: screen size (13.6" vs 15.3"), weight (1.24kg vs 1.51kg), and price ($1,299 vs $1,599 CAD). The MacBook Air 13 M4 scores 9.3 on ClearPick; the MacBook Air 15 M4 scores 9.1.</p>
 <p>The one question that determines which size to buy: do you regularly connect to an external monitor at a desk? If yes — buy the 13-inch. You'll use an external monitor most of the time, the laptop's screen size matters only when traveling, and the 13-inch saves $300 and 270g. If you work primarily on the laptop screen without a monitor, the 15-inch is meaningfully more comfortable for extended work and the $300 premium is the real price of not needing to buy a monitor.</p>
@@ -228,6 +248,20 @@
   <div class="wba-number">85%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (9.3/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Apple MacBook Air…</th><th>Apple MacBook Air…</th></tr></thead>
+    <tbody>
+    <tr><td>use an external monitor at a desk most of the time</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>commute on foot, by transit, or travel frequently</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>want maximum portability and minimum bag weight</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Budget is a factor</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>work primarily on the built-in screen without an external mo</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

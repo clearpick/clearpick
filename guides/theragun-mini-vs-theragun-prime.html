@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/theragun-mini-vs-theragun-prime.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -180,6 +181,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_theragun_mini_vs_theragun_prime" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":199,"y":8.1,"label":"Theragun Mini"},{"x":399,"y":8.4,"label":"Therabody Theragun …"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_theragun_mini_vs_theragun_prime');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>The core question: which one will you actually use?</h2>
 <p>The most common pattern in Theragun owner data is that usage frequency predicts satisfaction more than the model purchased. Owners who use their massage gun 4–7 times per week consistently report satisfaction regardless of model. Owners who use it once a week or less consistently report the value case doesn't hold, regardless of model. This makes the Mini vs Prime question partly about which device is more likely to reach daily or near-daily use given your specific situation — and the answer depends heavily on where and how you actually recover.</p>
 
@@ -233,6 +253,20 @@
   <div class="wba-number">75%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (8.1/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Theragun Mini</th><th>Therabody Theragu…</th></tr></thead>
+    <tbody>
+    <tr><td>travel frequently or recover at the gym</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>primary use is post-run calves and quads, shoulder recovery,</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>USB-C charging matters</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>You've never owned a massage gun before and want to test whe</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>primary use is deep glutes, lateral quads, or dense muscle g</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

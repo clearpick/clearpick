@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/is-roborock-qrevo-curv-worth-it.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -179,6 +180,45 @@
   });
 })();
 </script>
+<div class="value-gauge-block">
+  <h3>Value Score</h3>
+  <div class="gauge-canvas-wrap">
+    <canvas id="gauge_is_roborock_qrevo_curv_worth_it" width="300" height="175"></canvas>
+  </div>
+  <div class="gauge-label-row">
+    <span>Poor Value</span>
+    <span>Strong Buy</span>
+    <span>Exceptional</span>
+  </div>
+</div>
+<script>
+(function(){
+  function drawGauge(){
+    var el=document.getElementById('gauge_is_roborock_qrevo_curv_worth_it');
+    if(!el)return;
+    var ctx=el.getContext('2d');
+    var W=300,H=175,cx=150,cy=148,r=108;
+    var score=9,colour='#16a34a';
+    var frac=Math.min(1,Math.max(0,(score-0)/10));
+    // Background arc
+    ctx.beginPath();ctx.arc(cx,cy,r,Math.PI,2*Math.PI);
+    ctx.lineWidth=18;ctx.strokeStyle='#e5e7eb';ctx.lineCap='round';ctx.stroke();
+    // Score arc
+    var end=Math.PI+(Math.PI*frac);
+    ctx.beginPath();ctx.arc(cx,cy,r,Math.PI,end);
+    ctx.lineWidth=18;ctx.strokeStyle=colour;ctx.lineCap='round';ctx.stroke();
+    // Score text
+    ctx.fillStyle='#1a1c2e';ctx.font='bold 36px Inter,system-ui,sans-serif';
+    ctx.textAlign='center';ctx.textBaseline='middle';
+    ctx.fillText(score+'/10',cx,cy-6);
+    // Subtext
+    ctx.fillStyle='#6b7280';ctx.font='600 13px Inter,system-ui,sans-serif';
+    ctx.fillText('ClearPick Score',cx,cy+26);
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',drawGauge);}else{drawGauge();}
+})();
+</script>
+
 <p>For most owners who run it in a pet household or care about kitchen floor hygiene after cooking, yes — the <a href="../products/roborock-qrevo-curv.html">Roborock Qrevo Curv</a>'s 0% pet hair tangle and hot-water mop dock deliver on what they promise. If you have a clutter-light home and mop floors that only need maintenance cleaning, the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> at roughly $150 less does nearly the same job.</p>
 
 <div class="guide-section-break"></div>
@@ -276,6 +316,155 @@
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (9/10) based on aggregated owner sentiment</div>
 </div>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Smart Home</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_roborock_qrevo_curv_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Amazon Echo Dot…","Amazon Echo Pop","ecobee Smart Th…","Roborock Qrevo …","Google Nest Lea…"];
+  var scores=[9.1,9,9,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_roborock_qrevo_curv_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="who-its-for-cards">
+  <h3>Who Should Buy Roborock Qrevo Curv…?</h3>
+  <div class="wif-grid">
+    <div class="wif-card wif-yes">
+      <div class="wif-header"><span class="wif-icon">&#x2705;</span><span class="wif-title">It's Worth It If...</span></div>
+      <ul class="wif-list">
+        <li>Multi-pet households with heavy shedders</li>
+        <li>Owners who cook regularly on hard floors</li>
+        <li>Homes with wall-edge and baseboard cleaning priority</li>
+        <li>Buyers coming from robot vacuums they've already decluttered thei</li>
+      </ul>
+    </div>
+    <div class="wif-card wif-no">
+      <div class="wif-header"><span class="wif-icon">&#x26A0;&#xFE0F;</span><span class="wif-title">Consider Skipping If...</span></div>
+      <ul class="wif-list">
+        <li>Homes with regular floor clutter</li>
+        <li>Maintenance-only hard floor mopping needs</li>
+        <li>Budget-conscious buyers</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Smart Home</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_roborock_qrevo_curv_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Amazon Echo Dot…","Amazon Echo Pop","ecobee Smart Th…","Roborock Qrevo …","Google Nest Lea…"];
+  var scores=[9.1,9,9,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_roborock_qrevo_curv_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Smart Home</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_roborock_qrevo_curv_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Amazon Echo Dot…","Amazon Echo Pop","ecobee Smart Th…","Roborock Qrevo …","Google Nest Lea…"];
+  var scores=[9.1,9,9,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_roborock_qrevo_curv_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Smart Home</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_roborock_qrevo_curv_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Amazon Echo Dot…","Amazon Echo Pop","ecobee Smart Th…","Roborock Qrevo …","Google Nest Lea…"];
+  var scores=[9.1,9,9,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_roborock_qrevo_curv_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Smart Home</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_roborock_qrevo_curv_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Amazon Echo Dot…","Amazon Echo Pop","ecobee Smart Th…","Roborock Qrevo …","Google Nest Lea…"];
+  var scores=[9.1,9,9,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_roborock_qrevo_curv_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Smart Home</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_roborock_qrevo_curv_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Amazon Echo Dot…","Amazon Echo Pop","ecobee Smart Th…","Roborock Qrevo …","Google Nest Lea…"];
+  var scores=[9.1,9,9,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_roborock_qrevo_curv_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For pet owners with two or more heavy shedders, or for anyone who mops hard floors after cooking regularly: the <a href="../products/roborock-qrevo-curv.html">Roborock Qrevo Curv</a> is worth the premium. The DuoDivide tangle-free brush and hot-water dock are the two features that consistently appear in owner write-ups as genuinely different from anything else at this price. For households without these specific needs, the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> does the core job well and keeps $150 in your pocket.</p>

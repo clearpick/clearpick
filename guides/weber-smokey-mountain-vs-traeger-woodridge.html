@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/weber-smokey-mountain-vs-traeger-woodridge.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -182,6 +183,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_weber_smokey_mountain_vs_traeger_woodridge" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":449,"y":9.1,"label":"Weber 18-Inch Smoke…"},{"x":1299,"y":8.2,"label":"Traeger Woodridge W…"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_weber_smokey_mountain_vs_traeger_woodridge');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>What kind of cook ends up with each</h2>
 <p>Owner language around the <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a> consistently includes words like "rewarding," "satisfying," and "earned" — the experience of a long charcoal smoke is described as something owners take pride in. In r/smoking and r/BBQ, the WSM buyer profile that appears repeatedly is someone who researched BBQ technique before buying, who describes wanting to "learn to smoke properly" rather than just producing smoked food. Many WSM owners describe buying it specifically because they wanted to understand fire management and temperature control as a skill.</p>
 <p>The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a> owner profile from community posts looks different. The language is "convenient," "consistent," and "reliable." A pattern across Traeger forums: buyers who have families, busy schedules, or limited weekend time want to put a brisket on at 7am and check it via app at noon without tending a fire. The WiFIRE app earns consistent praise for being a genuine usage tool — remote temperature monitoring and recipe integration are mentioned as features owners actually use, not marketing extras.</p>
@@ -241,6 +261,20 @@
   <div class="wba-number">85%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Weber 18-Inch Smo…</th><th>Traeger Woodridge…</th></tr></thead>
+    <tbody>
+    <tr><td>want to develop charcoal smoking as a skill</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers for whom authentic wood-smoke flavor is the prim</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers with a budget closer to $500 CAD</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>want to smoke food without developing fire-management s</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Families with busy schedules who want reliable results </td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

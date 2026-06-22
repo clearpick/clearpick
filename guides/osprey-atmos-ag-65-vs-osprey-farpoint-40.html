@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/osprey-atmos-ag-65-vs-osprey-farpoint-40.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -179,6 +180,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_osprey_atmos_ag_65_vs_osprey_farpoint_40" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":449,"y":9.1,"label":"Osprey Atmos AG 65 …"},{"x":249,"y":9,"label":"Osprey Farpoint 40 …"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_osprey_atmos_ag_65_vs_osprey_farpoint_40');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>These aren't competing products — they solve different problems</h2>
 <p>Buyers sometimes compare the <a href="../products/osprey-atmos-ag-65.html">Osprey Atmos AG 65</a> and <a href="../products/osprey-farpoint-40-backpack.html">Osprey Farpoint 40</a> because both are Osprey backpacks and appear in similar search results. They are completely different packs built for completely different trips. The <a href="../products/osprey-atmos-ag-65.html">Osprey Atmos AG 65</a> is a backpacking pack for multi-day wilderness trips — sleeping bag compartment, integrated rain cover, suspended ventilated back panel for trail comfort at full load. The <a href="../products/osprey-farpoint-40-backpack.html">Osprey Farpoint 40</a> is a travel backpack for airport-to-city travel — clamshell opening, stowable harness and hip belt for overhead bin and hotel rack presentation, international carry-on dimensions.</p>
 <p>If you're planning a camping or hiking trip with multiple nights in the backcountry: <a href="../products/osprey-atmos-ag-65.html">Osprey Atmos AG 65</a>. If you're planning travel — flying to a destination and moving between cities and hostels or hotels: <a href="../products/osprey-farpoint-40-backpack.html">Osprey Farpoint 40</a>. The comparison below helps buyers who are genuinely unsure which category their trip falls into.</p>
@@ -214,6 +234,18 @@
   <div class="wba-number">85%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Osprey Atmos AG 6…</th><th>Osprey Farpoint 4…</th></tr></thead>
+    <tbody>
+    <tr><td>Budget-conscious buyers</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Value per dollar spent</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Long-term reliability</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

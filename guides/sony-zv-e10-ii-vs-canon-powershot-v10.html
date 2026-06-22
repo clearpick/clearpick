@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/sony-zv-e10-ii-vs-canon-powershot-v10.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -186,6 +187,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_sony_zv_e10_ii_vs_canon_powershot_v10" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":999,"y":8.9,"label":"Sony ZV-E10 II Vlog…"},{"x":499,"y":7.8,"label":"Canon PowerShot V10…"},{"x":1499,"y":8.7,"label":"Sony ZV-E10 II Mirr…"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_sony_zv_e10_ii_vs_canon_powershot_v10');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <p>V10 buyers are almost uniformly people upgrading from a smartphone for social media content — particularly vertical video for Instagram Reels and TikTok. The built-in stand and phone-like flip screen design are consistently cited as the purchase reason. "I wanted something better than my phone that I'd actually carry" is the V10's core owner profile. Crucially, V10 owners frequently mention knowing about the fixed lens going in — it is a conscious trade-off, not a surprise complaint.</p>
 
 <div class="guide-section-break"></div>
@@ -233,6 +253,20 @@
   <div class="wba-number">80%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (8.9/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Sony ZV-E10 II Vl…</th><th>Canon PowerShot V…</th></tr></thead>
+    <tbody>
+    <tr><td>Smartphone upgraders creating stationary desk content, </td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Creators who genuinely need pocket-size carry and will </td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers for whom $499 is the budget ceiling and who want</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Creators who shoot in varied or low light</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Anyone with existing Sony E-mount lenses who wants a de</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
           <span class="verdict-eyebrow">Bottom Line from Owners</span>

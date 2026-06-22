@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/ecoflow-delta-2-vs-jackery-explorer-1000-plus.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -180,6 +181,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_ecoflow_delta_2_vs_jackery_explorer_1000_plus" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":999,"y":9.1,"label":"EcoFlow DELTA 2 Por…"},{"x":1099,"y":8.8,"label":"Jackery Explorer 10…"},{"x":1499,"y":9,"label":"EcoFlow DELTA 2 Max…"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_ecoflow_delta_2_vs_jackery_explorer_1000_plus');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>Two different takes on the same problem</h2>
 <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> and <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> sit close enough in spec — both are ~1000Wh LFP portable power stations in the $999–$1,399 CAD range — that buyers routinely compare them directly. They're not identical products. The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> wins on charging speed, port count, and price. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> wins on surge wattage, maximum expandable capacity, and Canadian retail availability. Which matters for your situation determines which one to buy.</p>
 <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> scores 9.1 on ClearPick. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> is available from Canadian Tire, REI Canada, and Amazon.ca — its distribution advantage for Canadians who want in-person purchase and local warranty support is real.</p>
@@ -234,6 +254,20 @@
   <div class="wba-number">85%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>EcoFlow DELTA 2 P…</th><th>Jackery Explorer …</th></tr></thead>
+    <tbody>
+    <tr><td>Charging speed matters</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>need more ports simultaneously</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Budget is a priority</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>plan a solar setup</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Canadian retail purchase and in-person warranty matters</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

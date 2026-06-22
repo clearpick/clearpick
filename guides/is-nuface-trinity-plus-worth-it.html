@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/is-nuface-trinity-plus-worth-it.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -179,6 +180,45 @@
   });
 })();
 </script>
+<div class="value-gauge-block">
+  <h3>Value Score</h3>
+  <div class="gauge-canvas-wrap">
+    <canvas id="gauge_is_nuface_trinity_plus_worth_it" width="300" height="175"></canvas>
+  </div>
+  <div class="gauge-label-row">
+    <span>Poor Value</span>
+    <span>Strong Buy</span>
+    <span>Exceptional</span>
+  </div>
+</div>
+<script>
+(function(){
+  function drawGauge(){
+    var el=document.getElementById('gauge_is_nuface_trinity_plus_worth_it');
+    if(!el)return;
+    var ctx=el.getContext('2d');
+    var W=300,H=175,cx=150,cy=148,r=108;
+    var score=8.5,colour='#16a34a';
+    var frac=Math.min(1,Math.max(0,(score-0)/10));
+    // Background arc
+    ctx.beginPath();ctx.arc(cx,cy,r,Math.PI,2*Math.PI);
+    ctx.lineWidth=18;ctx.strokeStyle='#e5e7eb';ctx.lineCap='round';ctx.stroke();
+    // Score arc
+    var end=Math.PI+(Math.PI*frac);
+    ctx.beginPath();ctx.arc(cx,cy,r,Math.PI,end);
+    ctx.lineWidth=18;ctx.strokeStyle=colour;ctx.lineCap='round';ctx.stroke();
+    // Score text
+    ctx.fillStyle='#1a1c2e';ctx.font='bold 36px Inter,system-ui,sans-serif';
+    ctx.textAlign='center';ctx.textBaseline='middle';
+    ctx.fillText(score+'/10',cx,cy-6);
+    // Subtext
+    ctx.fillStyle='#6b7280';ctx.font='600 13px Inter,system-ui,sans-serif';
+    ctx.fillText('ClearPick Score',cx,cy+26);
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',drawGauge);}else{drawGauge();}
+})();
+</script>
+
 <p>For buyers who would otherwise pay for professional microcurrent sessions at $150-300 CAD each, yes — the <a href="../products/nuface-trinity-plus.html">NuFace Trinity Plus</a> pays for itself within 3-4 uses and delivers measurable, consistent results for users who commit to the protocol. But it is not worth it if you won't use it daily for at least 60 days, or if you're unwilling to factor in the ongoing gel consumable cost of approximately $35-40 CAD per month.</p>
 
 <div class="guide-section-break"></div>
@@ -297,6 +337,156 @@
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (8.5/10) based on aggregated owner sentiment</div>
 </div>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Health & Beauty</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_nuface_trinity_plus_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Wahl Magic Clip…","Waterpik Aquari…","Dyson Airwrap M…","Revlon One-Step…","Dyson Supersoni…"];
+  var scores=[9.2,9.2,9.1,9.1,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_nuface_trinity_plus_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="who-its-for-cards">
+  <h3>Who Should Buy NuFACE Trinity+ Fac…?</h3>
+  <div class="wif-grid">
+    <div class="wif-card wif-yes">
+      <div class="wif-header"><span class="wif-icon">&#x2705;</span><span class="wif-title">It's Worth It If...</span></div>
+      <ul class="wif-list">
+        <li>Regular professional facial buyers spending $150+ per session</li>
+        <li>Consistent routine maintainers who can realistically commit to 5 </li>
+        <li>Buyers in their 30s-50s with early-stage facial laxity</li>
+        <li>Skincare enthusiasts who already have a gel-based skincare routin</li>
+      </ul>
+    </div>
+    <div class="wif-card wif-no">
+      <div class="wif-header"><span class="wif-icon">&#x26A0;&#xFE0F;</span><span class="wif-title">Consider Skipping If...</span></div>
+      <ul class="wif-list">
+        <li>Inconsistent skincare routine users</li>
+        <li>Buyers with medical contraindications</li>
+        <li>Value-focused buyers expecting permanent results</li>
+        <li>Buyers under 30 with minimal laxity</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Health & Beauty</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_nuface_trinity_plus_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Wahl Magic Clip…","Waterpik Aquari…","Dyson Airwrap M…","Revlon One-Step…","Dyson Supersoni…"];
+  var scores=[9.2,9.2,9.1,9.1,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_nuface_trinity_plus_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Health & Beauty</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_nuface_trinity_plus_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Wahl Magic Clip…","Waterpik Aquari…","Dyson Airwrap M…","Revlon One-Step…","Dyson Supersoni…"];
+  var scores=[9.2,9.2,9.1,9.1,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_nuface_trinity_plus_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Health & Beauty</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_nuface_trinity_plus_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Wahl Magic Clip…","Waterpik Aquari…","Dyson Airwrap M…","Revlon One-Step…","Dyson Supersoni…"];
+  var scores=[9.2,9.2,9.1,9.1,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_nuface_trinity_plus_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Health & Beauty</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_nuface_trinity_plus_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Wahl Magic Clip…","Waterpik Aquari…","Dyson Airwrap M…","Revlon One-Step…","Dyson Supersoni…"];
+  var scores=[9.2,9.2,9.1,9.1,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_nuface_trinity_plus_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Health & Beauty</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_nuface_trinity_plus_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Wahl Magic Clip…","Waterpik Aquari…","Dyson Airwrap M…","Revlon One-Step…","Dyson Supersoni…"];
+  var scores=[9.2,9.2,9.1,9.1,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_nuface_trinity_plus_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>The <a href="../products/nuface-trinity-plus.html">NuFace Trinity Plus</a> is worth it for buyers who are honest with themselves about usage commitment and who understand the ongoing gel cost. For consistent users who would otherwise pay for professional microcurrent sessions, this is among the best-value at-home facial devices with genuine clinical backing. For buyers who haven't maintained a daily skincare device routine before, the odds of consistent adherence are low — and inconsistent use produces no meaningful results. Know which buyer you are before purchasing.</p>

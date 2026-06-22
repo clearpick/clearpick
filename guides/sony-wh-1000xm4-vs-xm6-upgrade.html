@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/sony-wh-1000xm4-vs-xm6-upgrade.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -180,6 +181,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_sony_wh_1000xm4_vs_xm6_upgrade" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":373.6,"y":8.8,"label":"Sony WH-1000XM4"},{"x":549,"y":8.7,"label":"Sony WH-1000XM6"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_sony_wh_1000xm4_vs_xm6_upgrade');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>What <a href="../products/sony-wh-1000xm4.html">XM4</a> owners actually complained about</h2>
 <p>Before evaluating whether the <a href="../products/sony-wh-1000xm6.html">XM6</a> is worth the jump, it's worth establishing why <a href="../products/sony-wh-1000xm4.html">XM4</a> owners would want to leave. The <a href="../products/sony-wh-1000xm4.html">XM4</a>'s complaint data reveals three consistent issues that appear across multiple ownership cycles.</p>
 <p>The single most-reported hardware complaint in r/headphones and Amazon reviews is the right ear cup structural cracking — documented failures between 18–30 months of use where the plastic housing near the hinge snaps. Multiple Reddit threads and Amazon 1–2 star reviews report this. Some Sony support contacts resulted in free replacements; many did not. This is not a rare defect — it's a documented design weakness that owners account for when deciding on a replacement.</p>
@@ -226,6 +246,20 @@
   <div class="wba-number">80%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Sony WH-1000XM4</th><th>Sony WH-1000XM6</th></tr></thead>
+    <tbody>
+    <tr><td>XM4 has hinge cracking or it concerns you</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>XM4 is over 2 years old and battery capacity has dropped not</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>regularly travel on flights of 4+ hours and the XM4's 20-hou</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>use an Android device with LDAC and want the added benefit o</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>XM4 is under 18 months old, hinge is intact, and battery is </td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/braun-series-7-vs-series-9-pro.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -180,6 +181,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_braun_series_7_vs_series_9_pro" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":249,"y":8.6,"label":"Braun Series 7 7085…"},{"x":399,"y":8.9,"label":"Braun Series 9 Pro …"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_braun_series_7_vs_series_9_pro');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>What the $150 gap actually buys</h2>
 <p>The <a href="../products/braun-series-9-pro-shaver.html">Braun Series 9 Pro 9477cc</a> retails at ~$399 CAD; the <a href="../products/braun-series-7-shaver.html">Braun Series 7 7085cc</a> is ~$249 CAD. The most revealing data point from owner reviews is that a meaningful portion of Series 9 Pro buyers who upgraded from a Series 7 report they can't feel the difference in daily use. "I can't tell the difference between this and the Series 7 I replaced. Both shave well. I'm not sure the extra $150 was worth it for me personally" appears as the most common Series 9 Pro complaint, not a hardware failure. This is the core question of the guide: for what beard type and shaving pattern does the $150 upgrade actually change the experience?</p>
 
@@ -243,6 +263,20 @@
   <div class="wba-number">80%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (8.6/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Braun Series 7 70…</th><th>Braun Series 9 Pr…</th></tr></thead>
+    <tbody>
+    <tr><td>beard is average or fine density and your current shave resu</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Tight-area precision around the nose matters to you</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>want lower ongoing cassette replacement costs (~$40</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>You're switching to electric shavers from cartridge razors a</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>beard is thick, wiry, or coarse</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

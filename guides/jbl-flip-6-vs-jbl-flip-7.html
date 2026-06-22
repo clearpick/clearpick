@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/jbl-flip-6-vs-jbl-flip-7.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -180,6 +181,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_jbl_flip_6_vs_jbl_flip_7" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":149,"y":8.5,"label":"JBL Flip 6 Portable…"},{"x":179,"y":9,"label":"JBL Flip 7 Bluetoot…"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_jbl_flip_6_vs_jbl_flip_7');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>The short answer for Flip 6 owners</h2>
 <p>If you own a <a href="../products/jbl-flip-6.html">JBL Flip 6</a> and it's working, don't upgrade. The Flip 7 is better in measurable ways — louder output, improved IP68 rating over IP67, longer claimed battery — but owners who've compared both in r/bluetooth_speakers consistently land on the same conclusion: the gap in real-home use isn't large enough to justify the cost of switching. "The 7 is better than the 6, but not worth upgrading" is the phrase that surfaces repeatedly in community threads. If you're buying new, the Flip 7 is the right call at the same price tier. If you already own the 6, bank the money.</p>
 <p>The Flip 6 scores 8.5 on ClearPick; the Flip 7 scores 9.0. That half-point gap is real and reflects genuine product improvements — but both are in the "excellent" tier for compact waterproof Bluetooth speakers. For a new buyer, the Flip 7 is the right choice. For a current Flip 6 owner, it's a nice-to-have, not a need-to-have.</p>
@@ -214,6 +234,20 @@
   <div class="wba-number">80%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (8.5/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>JBL Flip 6 Portab…</th><th>JBL Flip 7 Blueto…</th></tr></thead>
+    <tbody>
+    <tr><td>ClearPick
+          
+          Honest product reviews for pe</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>How It Works</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Privacy Policy</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>

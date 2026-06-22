@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/is-weber-smokey-mountain-18-worth-it.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -179,6 +180,45 @@
   });
 })();
 </script>
+<div class="value-gauge-block">
+  <h3>Value Score</h3>
+  <div class="gauge-canvas-wrap">
+    <canvas id="gauge_is_weber_smokey_mountain_18_worth_it" width="300" height="175"></canvas>
+  </div>
+  <div class="gauge-label-row">
+    <span>Poor Value</span>
+    <span>Strong Buy</span>
+    <span>Exceptional</span>
+  </div>
+</div>
+<script>
+(function(){
+  function drawGauge(){
+    var el=document.getElementById('gauge_is_weber_smokey_mountain_18_worth_it');
+    if(!el)return;
+    var ctx=el.getContext('2d');
+    var W=300,H=175,cx=150,cy=148,r=108;
+    var score=9.1,colour='#16a34a';
+    var frac=Math.min(1,Math.max(0,(score-0)/10));
+    // Background arc
+    ctx.beginPath();ctx.arc(cx,cy,r,Math.PI,2*Math.PI);
+    ctx.lineWidth=18;ctx.strokeStyle='#e5e7eb';ctx.lineCap='round';ctx.stroke();
+    // Score arc
+    var end=Math.PI+(Math.PI*frac);
+    ctx.beginPath();ctx.arc(cx,cy,r,Math.PI,end);
+    ctx.lineWidth=18;ctx.strokeStyle=colour;ctx.lineCap='round';ctx.stroke();
+    // Score text
+    ctx.fillStyle='#1a1c2e';ctx.font='bold 36px Inter,system-ui,sans-serif';
+    ctx.textAlign='center';ctx.textBaseline='middle';
+    ctx.fillText(score+'/10',cx,cy-6);
+    // Subtext
+    ctx.fillStyle='#6b7280';ctx.font='600 13px Inter,system-ui,sans-serif';
+    ctx.fillText('ClearPick Score',cx,cy+26);
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',drawGauge);}else{drawGauge();}
+})();
+</script>
+
 <p><strong>For backyard pitmasters who want real wood smoke and are willing to spend 3–4 cooks learning the basics, yes — the <a href="../products/weber-smokey-mountain-18.html">Weber Smokey Mountain 18"</a> is worth every cent of its ~$449 CAD price.</strong> For buyers who want WiFi connectivity, set-and-forget convenience, or instant results on the first cook, a pellet grill is a better fit.</p>
 
 <div class="guide-section-break"></div>
@@ -284,6 +324,156 @@
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
 </div>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in BBQ & Outdoor Cooking</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_weber_smokey_mountain_18_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["ThermoWorks The…","Kamado Joe Clas…","MEATER Plus Wir…","Traeger Ironwoo…","Camp Chef Woodw…"];
+  var scores=[9.5,9.3,9.2,9.2,9.1];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_weber_smokey_mountain_18_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="who-its-for-cards">
+  <h3>Who Should Buy Weber 18-Inch Smoke…?</h3>
+  <div class="wif-grid">
+    <div class="wif-card wif-yes">
+      <div class="wif-header"><span class="wif-icon">&#x2705;</span><span class="wif-title">It's Worth It If...</span></div>
+      <ul class="wif-list">
+        <li>Buyers who prioritize smoke flavour above all else</li>
+        <li>Patient learners</li>
+        <li>Canadian backyard cooks who BBQ seasonally</li>
+        <li>Households smoking for 4</li>
+      </ul>
+    </div>
+    <div class="wif-card wif-no">
+      <div class="wif-header"><span class="wif-icon">&#x26A0;&#xFE0F;</span><span class="wif-title">Consider Skipping If...</span></div>
+      <ul class="wif-list">
+        <li>Buyers who want WiFi monitoring and app control</li>
+        <li>First-time smokers who want good results on cook #1</li>
+        <li>Groups of 10+</li>
+        <li>Apartment or condo dwellers</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in BBQ & Outdoor Cooking</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_weber_smokey_mountain_18_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["ThermoWorks The…","Kamado Joe Clas…","MEATER Plus Wir…","Traeger Ironwoo…","Camp Chef Woodw…"];
+  var scores=[9.5,9.3,9.2,9.2,9.1];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_weber_smokey_mountain_18_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in BBQ & Outdoor Cooking</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_weber_smokey_mountain_18_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["ThermoWorks The…","Kamado Joe Clas…","MEATER Plus Wir…","Traeger Ironwoo…","Camp Chef Woodw…"];
+  var scores=[9.5,9.3,9.2,9.2,9.1];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_weber_smokey_mountain_18_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in BBQ & Outdoor Cooking</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_weber_smokey_mountain_18_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["ThermoWorks The…","Kamado Joe Clas…","MEATER Plus Wir…","Traeger Ironwoo…","Camp Chef Woodw…"];
+  var scores=[9.5,9.3,9.2,9.2,9.1];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_weber_smokey_mountain_18_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in BBQ & Outdoor Cooking</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_weber_smokey_mountain_18_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["ThermoWorks The…","Kamado Joe Clas…","MEATER Plus Wir…","Traeger Ironwoo…","Camp Chef Woodw…"];
+  var scores=[9.5,9.3,9.2,9.2,9.1];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_weber_smokey_mountain_18_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in BBQ & Outdoor Cooking</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_weber_smokey_mountain_18_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["ThermoWorks The…","Kamado Joe Clas…","MEATER Plus Wir…","Traeger Ironwoo…","Camp Chef Woodw…"];
+  var scores=[9.5,9.3,9.2,9.2,9.1];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_weber_smokey_mountain_18_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For buyers who want authentic charcoal smoke flavour and are willing to spend 3–4 cooks learning fire management, the <a href="../products/weber-smokey-mountain-18.html">Weber Smokey Mountain 18"</a> is the best value smoker available in Canada at its price point. The ClearPick score of 9.1 reflects what long-term owners consistently report: once the learning period is behind you, it's a reliable, durable cooker that outperforms pellet grills on the one metric that matters most to serious pitmasters — smoke flavour. If you want WiFi monitoring, instant results, or a lower learning curve, buy a pellet grill instead. But if smoke flavour is the goal, very few products at any price beat the WSM over a decade of cooking.</p>

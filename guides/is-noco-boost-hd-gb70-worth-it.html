@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/is-noco-boost-hd-gb70-worth-it.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -179,6 +180,45 @@
   });
 })();
 </script>
+<div class="value-gauge-block">
+  <h3>Value Score</h3>
+  <div class="gauge-canvas-wrap">
+    <canvas id="gauge_is_noco_boost_hd_gb70_worth_it" width="300" height="175"></canvas>
+  </div>
+  <div class="gauge-label-row">
+    <span>Poor Value</span>
+    <span>Strong Buy</span>
+    <span>Exceptional</span>
+  </div>
+</div>
+<script>
+(function(){
+  function drawGauge(){
+    var el=document.getElementById('gauge_is_noco_boost_hd_gb70_worth_it');
+    if(!el)return;
+    var ctx=el.getContext('2d');
+    var W=300,H=175,cx=150,cy=148,r=108;
+    var score=9.1,colour='#16a34a';
+    var frac=Math.min(1,Math.max(0,(score-0)/10));
+    // Background arc
+    ctx.beginPath();ctx.arc(cx,cy,r,Math.PI,2*Math.PI);
+    ctx.lineWidth=18;ctx.strokeStyle='#e5e7eb';ctx.lineCap='round';ctx.stroke();
+    // Score arc
+    var end=Math.PI+(Math.PI*frac);
+    ctx.beginPath();ctx.arc(cx,cy,r,Math.PI,end);
+    ctx.lineWidth=18;ctx.strokeStyle=colour;ctx.lineCap='round';ctx.stroke();
+    // Score text
+    ctx.fillStyle='#1a1c2e';ctx.font='bold 36px Inter,system-ui,sans-serif';
+    ctx.textAlign='center';ctx.textBaseline='middle';
+    ctx.fillText(score+'/10',cx,cy-6);
+    // Subtext
+    ctx.fillStyle='#6b7280';ctx.font='600 13px Inter,system-ui,sans-serif';
+    ctx.fillText('ClearPick Score',cx,cy+26);
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',drawGauge);}else{drawGauge();}
+})();
+</script>
+
 <p>For Canadian drivers who own diesel trucks, large-displacement gas engines (5.0L+), boats, or commercial vehicles: yes, the <a href="../products/noco-boost-hd-gb70.html">NOCO Boost HD GB70</a> is worth it. For anyone with a standard passenger car or small SUV, no — the NOCO GB40 at $50 less handles every car start without the bulk or price.</p>
 
 <div class="guide-section-break"></div>
@@ -296,6 +336,155 @@
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
 </div>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Automotive</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_noco_boost_hd_gb70_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["BlackVue DR970X…","NOCO Boost HD G…","NOCO Boost HD G…","NOCO Boost Plus…","Thinkware U1000…"];
+  var scores=[9.1,9.1,9.1,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_noco_boost_hd_gb70_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="who-its-for-cards">
+  <h3>Who Should Buy NOCO Boost HD GB70 …?</h3>
+  <div class="wif-grid">
+    <div class="wif-card wif-yes">
+      <div class="wif-header"><span class="wif-icon">&#x2705;</span><span class="wif-title">It's Worth It If...</span></div>
+      <ul class="wif-list">
+        <li>Diesel truck owners in Canada</li>
+        <li>Gas truck or SUV owners with 5</li>
+        <li>Boat and RV owners</li>
+        <li>Anyone keeping one booster for a fleet</li>
+      </ul>
+    </div>
+    <div class="wif-card wif-no">
+      <div class="wif-header"><span class="wif-icon">&#x26A0;&#xFE0F;</span><span class="wif-title">Consider Skipping If...</span></div>
+      <ul class="wif-list">
+        <li>Standard car and compact SUV owners</li>
+        <li>Anyone who won't store it properly</li>
+        <li>Budget-limited buyers whose main vehicle is under 3</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Automotive</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_noco_boost_hd_gb70_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["BlackVue DR970X…","NOCO Boost HD G…","NOCO Boost HD G…","NOCO Boost Plus…","Thinkware U1000…"];
+  var scores=[9.1,9.1,9.1,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_noco_boost_hd_gb70_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Automotive</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_noco_boost_hd_gb70_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["BlackVue DR970X…","NOCO Boost HD G…","NOCO Boost HD G…","NOCO Boost Plus…","Thinkware U1000…"];
+  var scores=[9.1,9.1,9.1,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_noco_boost_hd_gb70_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Automotive</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_noco_boost_hd_gb70_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["BlackVue DR970X…","NOCO Boost HD G…","NOCO Boost HD G…","NOCO Boost Plus…","Thinkware U1000…"];
+  var scores=[9.1,9.1,9.1,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_noco_boost_hd_gb70_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Automotive</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_noco_boost_hd_gb70_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["BlackVue DR970X…","NOCO Boost HD G…","NOCO Boost HD G…","NOCO Boost Plus…","Thinkware U1000…"];
+  var scores=[9.1,9.1,9.1,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_noco_boost_hd_gb70_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<div class="category-standing-block guide-chart-block">
+  <h3 class="chart-block-title">Where It Ranks in Automotive</h3>
+  <p class="cat-standing-sub chart-block-source">ClearPick score vs. top products in this category (highlighted in blue)</p>
+  <canvas id="catstand_is_noco_boost_hd_gb70_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["BlackVue DR970X…","NOCO Boost HD G…","NOCO Boost HD G…","NOCO Boost Plus…","Thinkware U1000…"];
+  var scores=[9.1,9.1,9.1,9,9];
+  var colours=["#d1d5db","#d1d5db","#d1d5db","#d1d5db","#d1d5db"];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('catstand_is_noco_boost_hd_gb70_worth_it');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:scores,backgroundColor:colours,borderRadius:6,borderSkipped:false}]},options:{plugins:{legend:{display:false}},scales:{x:{grid:{display:false}},y:{min:0,max:10,ticks:{callback:function(v){return v+'/10';}},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For diesel truck owners, large-engine truck and SUV owners, and boat owners in Canada: the <a href="../products/noco-boost-hd-gb70.html">NOCO Boost HD GB70</a> is worth every dollar. The 2000A capacity, UltraSafe operation, and long charge retention justify the $200+ CAD price. Keep it in the cab on cold nights rather than the trunk and it performs. For standard car and compact SUV owners: save $50-70 and buy the GB40 — you're paying for capacity your engine doesn't need.</p>

@@ -14,6 +14,7 @@
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://clearpick.ca/guides/herman-miller-aeron-vs-steelcase-leap-v2.html" />
   <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/creative-visuals.css">
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -180,6 +181,25 @@
   });
 })();
 </script>
+<div class="price-score-block guide-chart-block">
+  <h3 class="chart-block-title">Price vs. Score at a Glance</h3>
+  <p class="chart-block-source">Score from ClearPick aggregated owner data · Price in CAD</p>
+  <canvas id="scatter_herman_miller_aeron_vs_steelcase_leap_v2" height="220"></canvas>
+</div>
+<script>
+(function(){
+  var pts=[{"x":1795,"y":9.5,"label":"Herman Miller Aeron…"},{"x":1299,"y":9.2,"label":"Steelcase Leap V2 C…"}];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('scatter_herman_miller_aeron_vs_steelcase_leap_v2');
+    if(!el||el.dataset.r)return;
+    el.dataset.r='1';
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 <h2>The price gap — and who's actually paying more</h2>
 <p>The <a href="../products/herman-miller-aeron-chair.html">Herman Miller Aeron Chair</a> runs ~$1,795 CAD; the <a href="../products/steelcase-leap-v2-chair.html">Steelcase Leap V2 Chair</a> is ~$1,299 CAD. The Aeron is the more expensive chair — a fact that surprises buyers who assume the Leap V2 is the budget option. On a used market, a Leap V2 in good condition can be found for $300–500 CAD, while a refurbished <a href="../products/herman-miller-aeron-chair.html">Herman Miller Aeron Chair</a> typically starts around $600–800. Owners in r/ErgoMechanicals and r/homeoffice consistently make the used-market point: "For sciatica relief, a $400 Leap V2 with a new gas cylinder often beats an $800 Aeron with worn mesh." The $500 new-price gap matters most to owners who are comparing only at full retail.</p>
 
@@ -235,6 +255,20 @@
   <div class="wba-number">90%</div>
   <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
   <div class="wba-context">Derived from ClearPick score (9.5/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Herman Miller Aer…</th><th>Steelcase Leap V2…</th></tr></thead>
+    <tbody>
+    <tr><td>run hot or work in a warm office</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>primary complaint is lower back pain from rounding posture</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>want the most proven long-term durability and strongest warr</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>are 5'8" or taller and fit Size B</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>shift positions frequently during the day</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
 </div>
 <div class="verdict-box">
   <span class="verdict-eyebrow">Bottom Line from Owners</span>
