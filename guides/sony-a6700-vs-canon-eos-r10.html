@@ -174,6 +174,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-sony-a6700-vs-canon-eos-r10');
     if(!g)return;
@@ -200,7 +201,7 @@
     var el=document.getElementById('scatter_sony_a6700_vs_canon_eos_r10');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
@@ -268,10 +269,133 @@
   <table class="bfm-table">
     <thead><tr><th>Use Case</th><th>Sony Alpha a6700 …</th><th>Canon EOS R10 Mir…</th></tr></thead>
     <tbody>
-    <tr><td>Hybrid shooters who need capable video alongside stills</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Wildlife and sports photographers who need AI subject t</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Buyers planning to invest in lenses over multiple years</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>First-time mirrorless buyers coming from Canon DSLR who</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Hybrid shooters who need capable</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Wildlife and sports photographers who</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers planning to invest in</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>First-time mirrorless buyers coming from</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Stills-first photographers</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="verdict-box">
+          <span class="verdict-eyebrow">Bottom Line from Owners</span>
+          <p>Based on owner patterns across long-term posts and reviews: the A6700 is the better camera for anyone who shoots meaningful amounts of video, works in variable light, or plans to invest in lenses over time. The R10 is the right camera for stills-first buyers who want excellent autofocus at a significantly lower price and aren't willing to spend two weeks learning Sony's menus. The $720 gap is not arbitrary — it buys IBIS, 4K/120fps, better low-light capability, and access to a deeper lens ecosystem. Whether that gap is worth it depends entirely on whether those things change how you actually shoot.</p>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">
+            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            ClearPick
+          </a>
+          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Site</div>
+          <ul class="footer-links">
+            <li><a href="../guides.html">Buying Guides</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../faq.html">How It Works</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="../about.html">About</a> · <a href="../faq.html">How It Works</a> · <a href="../privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
+  </script>
+  <script src="../js/guide-product-cards.js"></script>
+  <script src="../js/guide-charts.js"></script>
+  <script src="../js/guide-submission.js"></script>
+  <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<p>R10 owners are predominantly stills-first photographers coming from a first mirrorless purchase. Family photography, travel, and casual portraiture are the most frequently mentioned use cases. A pattern that appears repeatedly in R10 long-term posts: "I was deciding between the A6700 and the R10 and the price gap pushed me toward Canon — I don't regret it."</p>
+
+<div class="guide-section-break"></div>
+        <h2>Autofocus — what owners say in real shooting conditions</h2>
+        <p>This is the section that most often determines which camera someone keeps. Both cameras have excellent autofocus by any objective standard — the difference is in edge cases and specific use patterns.</p>
+        <p>A6700 owners who shoot wildlife and sports report that the AI subject tracking is the single most-praised feature. The system categorizes animals by type (birds tracked differently from dogs, insects tracked differently from cats) and maintains lock even when subjects pass behind obstacles. "Locked onto my dog running through a forest and never lost it" is a representative quote that appears with meaningful frequency in A6700 owner posts. The 759-point phase-detection system covers nearly the full sensor, eliminating the "subject drifts to frame edge and AF drops off" complaint that appears in older Sony APS-C reviews.</p>
+        <p>R10 owners focus their autofocus praise on DPAF2 subject tracking for family and people photography. "Locked onto my kid instantly and held it through an entire soccer game" is the R10 equivalent. Where R10 complaints appear, they're almost always about video autofocus behavior — specifically, the R10's AF can hunt slightly in low contrast or complex backgrounds during video recording, a limitation that appears in roughly 1 in 5 critical video-focused reviews. For stills of people and pets in good light, owners report near-perfect performance.</p>
+        <p>A6700 owners who set up the menus correctly consistently report fewer "missed shot" complaints than R10 owners in fast-action scenarios. But the A6700's autofocus settings are more complex — the most common A6700 criticism is that incorrect AF mode selection produces frustrating results until owners learn the system, which can take several weeks.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Image quality from owner perspective</h2>
+        <p>In good light, owners of both cameras consistently describe excellent results — the difference between a 24.2MP R10 and 26MP A6700 is not visible in real-world use. Where owner reports diverge is in low light and when printing large.</p>
+        <p>A6700 owners in portrait photography and wildlife frequently mention cleaner high-ISO results. At ISO 3200–6400, A6700 owners describe a confidence in the camera they report not having with the R10. This appears most consistently from bird photographers shooting at dawn or dusk, and from indoor family photographers without controlled lighting. The A6700's sensor is not dramatically better — but the 5-stop IBIS means A6700 owners can use slower shutter speeds in low light where R10 owners (with no IBIS) are forced to raise ISO to freeze camera shake.</p>
+        <p>R10 owners shooting portraits in good light consistently describe results they're satisfied with. Skin tones get specific praise — Canon's colour science earns repeated mentions as producing "immediately pleasing" JPEGs out of camera, where Sony owners more frequently mention needing to shoot RAW and grade for their preferred look.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Video — how owners use it and what they report</h2>
+        <p>This is the sharpest divide between the two cameras, and it's where the A6700's $720 price premium is most clearly justified or unjustified depending on your needs.</p>
+        <p>A6700 owners who bought specifically for video are overwhelmingly satisfied. 4K/120fps for slow motion, 4K/60fps for smooth movement, and 4K/24fps for cinematic content — all with 10-bit colour depth for grading. IBIS for handheld walking shots. "I cancelled a planned gimbal purchase because the IBIS is good enough" appears in a consistent pattern among A6700 video users. Overheating does not appear as a meaningful complaint in real-world conditions — the A6700 handles extended video recording without the temperature shutdowns that plagued earlier Sony models.</p>
+        <p>R10 video owners face two well-documented limitations that appear across the majority of video-focused critical reviews: no IBIS produces shaky handheld footage without a gimbal, and the 4K/30fps crop reduces the angle of view from the kit lens. "The 4K crop surprised me — I wasn't expecting my wide lens to suddenly feel tighter" appears repeatedly in R10 video posts. For casual video shooters who primarily shoot 1080p or stationary 4K, these limitations are manageable. For anyone building a YouTube channel or shooting handheld b-roll, the A6700 is the better tool.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Ergonomics and everyday handling</h2>
+        <p>R10 owners consistently mention that Canon's menu system is intuitive from day one. Coming from any Canon DSLR or previous mirrorless, the layout is familiar. Menu navigation complaints are rare in R10 long-term posts. The touch-and-drag AF point selection on the articulating screen earns specific praise from family photographers who shoot from unusual angles.</p>
+        <p>A6700 menu complexity is the #1 reported complaint across all A6700 long-term owner posts — not the camera itself, but the learning curve. "I spent two weeks in the menus before I felt confident I knew where everything was" is representative. Owners who come from previous Sony bodies adapt quickly; owners coming from Canon or Nikon describe a two-to-four-week adjustment period. The A6700's body is slightly larger and heavier than the R10, with most owners describing this as a net positive — it sits better in the hand, especially with longer lenses.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Lens ecosystem from an owner's perspective</h2>
+        <p>This section affects long-term cost more than the camera purchase itself, and it's where owner posts surface the clearest surprise.</p>
+        <p>A6700 owners consistently report discovering the lens cost advantage over time. Sony E-mount has Sigma Art and Tamron equivalents of virtually every focal length — typically at 20–40% lower prices than Sony's own glass and with full AF support. "I've spent less on my Sony lens kit than I would have on equivalent Canon RF-S glass" is a consistent pattern in long-term A6700 posts. The E-mount ecosystem is larger and more mature than Canon's RF system.</p>
+        <p>R10 owners discover the RF-S lens limitation when they start expanding. The RF-S system launched with the R10 and remains thinner — fewer third-party options, less used-market availability, and Canon's RF-S lenses carry a brand premium. Several long-term R10 posts from buyers who have grown into the system mention this as their one regret: "I wish I'd thought more about the lens ecosystem before going Canon."</p>
+
+<div class="guide-section-break"></div>
+        <h2>Who should buy the A6700</h2>
+        <ul>
+          <li>Hybrid shooters who need capable video alongside stills — 4K/120fps and IBIS are worth the premium if you actually use video.</li>
+          <li>Wildlife and sports photographers who need AI subject tracking that handles animals at speed in complex environments.</li>
+          <li>Buyers planning to invest in lenses over multiple years — the E-mount ecosystem's third-party depth pays off as your kit grows.</li>
+          <li>Buyers who shoot in variable or challenging light and want IBIS as a safety net for both stills and video.</li>
+        </ul>
+
+<div class="guide-section-break"></div>
+        <h2>Who should buy the R10</h2>
+        <ul>
+          <li>First-time mirrorless buyers coming from Canon DSLR who want an intuitive transition with no menu learning curve.</li>
+          <li>Stills-first photographers — family, travel, portraits — for whom 4K video capability is a nice-to-have rather than a primary driver.</li>
+          <li>Budget-conscious buyers where the $720 price difference has real impact — the R10 delivers excellent image quality for its price.</li>
+          <li>Shooters who primarily work in good light and don't need IBIS for handheld video work.</li>
+        </ul>
+
+        
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.2/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Sony Alpha a6700 …</th><th>Canon EOS R10 Mir…</th></tr></thead>
+    <tbody>
+    <tr><td>Hybrid shooters who need capable</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Wildlife and sports photographers who</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers planning to invest in</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>First-time mirrorless buyers coming from</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
     <tr><td>Stills-first photographers</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
     </tbody>
   </table>

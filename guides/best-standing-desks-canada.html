@@ -195,6 +195,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-best-standing-desks-canada');
     if(!g)return;
@@ -324,6 +325,12 @@
 
 <h3>How long does a standing desk take to assemble?</h3>
 <p>Most owners report 60–90 minutes for the <a href="../products/flexispot-e2-standing-desk.html">FlexiSpot E2 Height Adjustable Electric Standing Desk, 48x24 Inch</a> with two people, or 90–120 minutes solo. The motor connection and cable management are the steps where most owners spend extra time. The <a href="../products/flexispot-e7-standing-desk.html">FlexiSpot E7 Pro</a> takes similar time. Uplift assembly tends to run longer (90–120 minutes) due to more components. All desks include tools; no special tools required.</p>
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.5/10) based on aggregated owner sentiment</div>
+</div>
 <div class="price-spectrum-block">
   <h3>Price Spectrum</h3>
   <p class="price-spectrum-sub">All prices in CAD · approximate retail at time of review</p>

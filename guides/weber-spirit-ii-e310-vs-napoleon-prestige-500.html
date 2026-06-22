@@ -174,6 +174,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-weber-spirit-ii-e310-vs-napoleon-prestige-500');
     if(!g)return;
@@ -200,7 +201,118 @@
     var el=document.getElementById('scatter_weber_spirit_ii_e310_vs_napoleon_prestige_500');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<h2>Heat distribution and evenness — owner reports</h2>
+        <p>Weber's heat evenness is the most-praised functional characteristic in Spirit II E-310 long-term posts. "The center and edges finish at the same time" and "I've never had a hot spot in six years" appear with meaningful frequency across multi-year owner posts. Weber's Flavorizer bar design — angled metal bars above the burners — is credited both for even heat distribution and for the vaporized dripping flavor that long-term owners consistently mention as differentiating gas grill taste.</p>
+        <p><a href="../products/napoleon-prestige-500.html">Napoleon Prestige 500</a> owners also report good heat distribution, and WAVE cooking grates earn specific praise for grill marks. Where the Napoleon clearly leads: raw heat output. At 66,000 BTU across four burners (vs. Weber's 30,000 BTU across three), Napoleon owners describe faster preheat times and higher searing temperatures. "I can get steakhouse-quality sear marks that I couldn't on my previous grill" appears repeatedly in Napoleon Prestige posts — particularly from owners who sear steaks as a regular use case. <a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> owners who want maximum sear heat report that GrillGrates accessories improve results, but acknowledge the Napoleon's raw BTU advantage is real.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Build quality after 2–3 seasons</h2>
+        <p>Weber's 10-year warranty and long-term owner posts tell a consistent story: Spirit II grills last. "I've had mine for six years with zero problems" is representative. Weber's Canadian parts availability and warranty service earn specific praise — "called Weber Canada, replacement part arrived in three days for free under warranty" appears across multiple long-term posts. Weber's lid and body show wear after several seasons in the form of cosmetic oxidation on unpainted surfaces, but structural and functional reliability complaints are rare at the 3–5 year mark.</p>
+        <p><a href="../products/napoleon-prestige-500.html">Napoleon Prestige 500</a> owners describe build quality as "premium" and "clearly a cut above big box store grills" — and the Napoleon lifetime warranty on burners and grates reflects this confidence. The most consistent structural complaint that appears in Napoleon long-term posts is the side shelves — described as "lighter and less solid than the rest of the build" by a consistent subset of reviewers. Assembly takes 2–3 hours and is easier with two people; some owners describe unclear instructions for specific steps. Overall, at 2–3 seasons, Napoleon owners report no functional reliability issues at meaningful frequency.</p>
+
+<div class="guide-section-break"></div>
+        <h2>What <a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> owners love that isn't in the marketing</h2>
+        <p>Long-term Weber owners mention things the marketing copy doesn't emphasize. The compact footprint — 52 inches wide with tables folded — appears repeatedly in posts from condo deck owners and smaller-backyard buyers who explicitly note the Napoleon and other 4-burner alternatives wouldn't fit their space. Weber's parts ecosystem: replacement igniters, grates, and Flavorizer bars are stocked at Canadian Tire, Home Depot, and Weber directly, which matters when something eventually needs replacement after 5–7 years. And the emotional component: "I trust this grill" appears with striking frequency in long-term Weber posts — an owner confidence that correlates with the warranty and service reputation.</p>
+
+<div class="guide-section-break"></div>
+        <h2>What Napoleon Prestige owners feel justifies the price</h2>
+        <p>Three things appear consistently in posts where <a href="../products/napoleon-prestige-500.html">Napoleon Prestige 500</a> owners address the price gap directly. First: the infrared rear rotisserie burner. Owners who use the rotisserie weekly describe chicken, lamb, and pork results that they say justify the entire price premium on their own — "the best chicken I've ever cooked at home" appears in a consistent pattern from rotisserie-heavy users. Note: the rotisserie kit (motor and spit rod) is sold separately and not included — a surprise complaint from owners who didn't research this before purchase. Second: Canadian manufacturing. Napoleon is headquartered in Barrie, Ontario, and owners who care about this mention it with specific pride. Third: the cooking capacity — 500 sq in of primary cooking area vs. Weber Spirit II's 424 sq in is meaningful for families who regularly cook for six or more people.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Canadian-specific considerations</h2>
+        <p>Cold-climate ownership patterns appear in both brands' long-term owner posts, and the guidance is consistent: store the grill covered or indoors during Canadian winters if you want to preserve the finish. Weber owners in Ontario and Quebec describe surface rust on cast iron grates after leaving the grill exposed through winter without a cover — standard maintenance, but more pronounced in freeze-thaw cycles. Napoleon's stainless components hold up better to exterior exposure per owner reports, though covering the grill is recommended regardless.</p>
+        <p>Winter grilling: both grill owner communities report that preheating takes longer in cold weather. Napoleon's higher BTU output is mentioned as an advantage in temperatures below 0°C — the grill reaches cooking temperature faster. <a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> owners who grill in winter describe the lower BTU as "fine once it's up to temperature" but note preheating in winter cold takes longer than in summer. Both grills are sold and serviced through Canadian retailers; parts and warranty service are accessible across major Canadian markets for both brands.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Who should buy the <a href="../products/weber-spirit-ii-e310-gas-grill.html"><a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> E-310</a></h2>
+        <ul>
+          <li>Buyers with smaller decks or backyards where the compact footprint (52 inches wide) is a genuine constraint — the Spirit II fits where a 4-burner Napoleon won't.</li>
+          <li>Families of 3–4 who use the grill for everyday cooking and don't need rotisserie or side burner capability.</li>
+          <li>Buyers for whom the $600 price gap is a real consideration — the Spirit II delivers Weber quality, evenness, and warranty at a substantially lower price.</li>
+          <li>Anyone who values Weber's parts availability and service network in Canada as a long-term ownership consideration.</li>
+        </ul>
+
+<div class="guide-section-break"></div>
+        <h2>Who should buy the <a href="../products/napoleon-prestige-500.html">Napoleon Prestige 500</a></h2>
+        <ul>
+          <li>Buyers who intend to use the infrared rear rotisserie burner regularly — this is the Napoleon's single most distinctive feature and the one most frequently cited as justifying the price.</li>
+          <li>Families of 5–6+ who regularly cook for larger groups and will use 500 sq in of cooking area.</li>
+          <li>Buyers who want higher BTU output for faster preheat and higher-heat searing — Napoleon's 66,000 BTU vs. Weber's 30,000 BTU is a meaningful practical difference for steak-searing use cases.</li>
+          <li>Buyers for whom Canadian manufacturing matters as a purchase criterion — Napoleon is a Canadian brand and owners who care about this mention it explicitly.</li>
+        </ul>
+
+        
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Weber Spirit II E…</th><th>Napoleon Prestige…</th></tr></thead>
+    <tbody>
+    <tr><td>Long-term reliability</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Budget-conscious buyers</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Value per dollar spent</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="verdict-box">
+          <span class="verdict-eyebrow">Bottom Line from Owners</span>
+          <p>Based on long-term owner reports from both camps: the <a href="../products/weber-spirit-ii-e310-gas-grill.html"><a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> E-310</a> is the better grill for the majority of Canadian backyard cooks — compact, reliable, even-cooking, and backed by a warranty and service network that owners describe as genuinely excellent. The $600 premium for the <a href="../products/napoleon-prestige-500.html">Napoleon Prestige 500</a> is justified for buyers who will actually use the infrared rotisserie burner regularly, who cook for larger groups, and who want higher searing heat. The mistake both sets of buyers report making: choosing based on specs and price rather than actual use patterns. Know whether you'll use rotisserie before paying for it. Know whether 500 sq in vs. 424 sq in changes how you cook. If the answer to both is no, the <a href="../products/weber-spirit-ii-e310-gas-grill.html"><a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> E-310</a> is likely the right choice. Note: <a href="../products/napoleon-prestige-500.html">Napoleon Prestige 500</a> is not available on Amazon.ca — Canadian buyers can find it at Canadian Tire and Home Depot.</p>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">
+            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            ClearPick
+          </a>
+          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Site</div>
+          <ul class="footer-links">
+            <li><a href="../guides.html">Buying Guides</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../faq.html">How It Works</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="../about.html">About</a> · <a href="../faq.html">How It Works</a> · <a href="../privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
+  </script>
+  <script src="../js/guide-product-cards.js"></script>
+  <script src="../js/guide-charts.js"></script>
+  <script src="../js/guide-submission.js"></script>
+  <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();

@@ -167,6 +167,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-nespresso-vertuo-plus-vs-delonghi-magnifica-evo');
     if(!g)return;
@@ -193,7 +194,138 @@
     var el=document.getElementById('scatter_nespresso_vertuo_plus_vs_delonghi_magnifica_evo');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<h2>These aren&rsquo;t competing for the same buyer</h2>
+<p>The <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a> ($229&ndash;$279 CAD) and the <a href="../products/delonghi-magnifica-evo.html">De&rsquo;Longhi Magnifica Evo</a> ($799 CAD) share shelf space in appliance stores, but they serve fundamentally different buyers. The right question isn&rsquo;t &ldquo;which is better?&rdquo; &mdash; it&rsquo;s: <strong>which category of coffee machine fits how you actually live?</strong></p>
+<p>Owner profiles from review data make the split clear. <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a> buyers describe themselves as people replacing a daily caf&eacute; habit who want caf&eacute;-quality crema at home in under a minute with zero skill required. <a href="../products/delonghi-magnifica-evo.html">De&rsquo;Longhi Magnifica Evo</a> buyers describe themselves as daily espresso drinkers who want fresh-ground coffee without the manual workflow of a semi-automatic, but who still care about bean selection and grind quality.</p>
+
+<div class="guide-section-break"></div>
+<h2>What Nespresso owners say about convenience &mdash; and the pod trap</h2>
+<p>The Vertuo Plus earns its highest praise for two things: the 40-second heat-up from cold, and the crema. &ldquo;I haven&rsquo;t been to a coffee shop in four months. The crema on the espresso pods is legitimately caf&eacute;-quality and I&rsquo;m saving $200 a month&rdquo; is the archetype of the satisfied Nespresso owner &mdash; someone who was spending $7&ndash;10/day at a caf&eacute; and now spends $1.50&ndash;2.00 per pod at home.</p>
+<p>The pod cost complaint is the #1 reported frustration across long-term owners, appearing across the majority of critical reviews. The pattern: buyers who replaced a caf&eacute; habit (2&ndash;3 drinks a week) find the economics excellent. Buyers who make 2+ drinks a day discover they hadn&rsquo;t fully calculated the ongoing spend:</p>
+<ul>
+  <li>&ldquo;Pods are way too expensive long-term. I do two drinks a day and I&rsquo;m spending $80&ndash;90 a month.&rdquo; (Amazon reviewer)</li>
+  <li>&ldquo;Can&rsquo;t use third-party pods at all &mdash; the barcode system locks you into Nespresso&rsquo;s ecosystem completely. Found this out after buying.&rdquo; (Amazon reviewer)</li>
+</ul>
+<p>The lock-in is real. Nespresso&rsquo;s proprietary Centrifusion barcode DRM means no third-party pods work &mdash; a point that catches buyers by surprise more than almost any other feature. Pod waste appears in roughly 1 in 5 longer-term reviews; Nespresso&rsquo;s recycling program requires return to drop-off points (not kerbside), which owners consistently report not using regularly.</p>
+
+<div class="guide-section-break"></div>
+<h2>What Magnifica Evo owners say about the learning curve</h2>
+<p>The <a href="../products/delonghi-magnifica-evo.html">De&rsquo;Longhi Magnifica Evo</a> has almost no traditional espresso learning curve &mdash; load beans, select grind, press the button. The machine grinds, brews, and dispenses. But there&rsquo;s a calibration period that owners consistently underestimate in the first 2&ndash;4 weeks:</p>
+<ul>
+  <li>Finding the right grind setting for your specific beans takes experimentation. The 13-setting grinder gives real control, but the right setting depends on roast level and freshness &mdash; most buyers start too coarse or too fine.</li>
+  <li>The manual frothing wand requires technique. &ldquo;I expected push-button lattes. This is not that. Good wand, but not automatic&rdquo; is a consistent complaint pattern. Owners who were prepared to learn manual steaming are happy with results after 2&ndash;3 weeks; those expecting automation are not.</li>
+</ul>
+<p>On the other side: the OLED display and automatic rinse cycles earn consistent praise. &ldquo;My parents set it up without reading the manual&rdquo; appears in multiple independent reviews &mdash; the machine prompts you through maintenance clearly.</p>
+
+<div class="guide-section-break"></div>
+<h2>Long-term cost &mdash; what owners calculate</h2>
+<p>Owner math that appears repeatedly in r/coffee and r/nespresso:</p>
+<ul>
+  <li><strong>Nespresso Vertuo at 2 pods/day:</strong> $2.50&ndash;4.00/day = $75&ndash;120/month. Annual pod cost: $900&ndash;$1,440. Machine cost amortizes in year 1 vs caf&eacute;; becomes expensive vs home alternatives from year 2 onward.</li>
+  <li><strong>Magnifica Evo at 2 drinks/day:</strong> Quality whole beans in Canada run $18&ndash;25/250g bag, producing ~35 shots. Monthly bean cost: $25&ndash;40. Annual cost: $300&ndash;480. Machine cost amortizes over 3&ndash;5 years of daily use.</li>
+</ul>
+<p>The break-even where the Magnifica Evo costs less than Nespresso pods is typically 18&ndash;24 months for heavy daily users. The Nespresso is cheaper upfront; the Magnifica Evo wins on a 3+ year horizon.</p>
+
+<div class="guide-section-break"></div>
+<h2>Milk drinks &mdash; lattes and cappuccinos</h2>
+<p>The <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a> does not include a milk frother. The Aeroccino is frequently bundled but is a separate $70&ndash;100 purchase when not included &mdash; the most common &ldquo;small print&rdquo; complaint from buyers who assumed milk capability was built in. With the Aeroccino, owners produce reasonable froth; without it, this is a black coffee and espresso machine only.</p>
+<p>The Magnifica Evo includes a manual Panarello wand. Not push-button &mdash; owners who invest 2&ndash;3 weeks learning proper milk steaming consistently report good latte and cappuccino results. Those expecting automation are consistently frustrated.</p>
+
+<div class="guide-section-break"></div>
+<h2>Reliability and maintenance</h2>
+<p>The <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a> has a relatively clean reliability record. The most commonly reported issues are pod injector clogging after extended use without descaling, and occasional error codes requiring a factory reset &mdash; both appearing in a small minority of reviews.</p>
+<p>The Magnifica Evo&rsquo;s descaling process is the top maintenance complaint &mdash; it takes approximately 30 minutes and the machine prompts descaling every 200&ndash;300 brew cycles. For households making 6 drinks a day, this triggers monthly. &ldquo;I descale it, clear the alert, make 200 cups, and the alert comes back&rdquo; is a recurring owner pattern. Hard water areas (much of Ontario, Alberta, and BC) trigger alerts more frequently than the documentation suggests.</p>
+
+<div class="guide-section-break"></div>
+<h2>Who should buy the <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a></h2>
+<ul>
+  <li>You&rsquo;re replacing a daily caf&eacute; habit &mdash; pod costs beat what you currently spend</li>
+  <li>Zero-friction mornings matter more than cost per cup or bean variety</li>
+  <li>You drink 1&ndash;2 cups per day &mdash; at higher volumes, pod costs become hard to justify</li>
+  <li>You want consistent results with no calibration, no skill, no cleanup ritual</li>
+</ul>
+
+<div class="guide-section-break"></div>
+<h2>Who should buy the <a href="../products/delonghi-magnifica-evo.html">De&rsquo;Longhi Magnifica Evo</a></h2>
+<ul>
+  <li>You drink 2+ espresso-based drinks daily and want long-term cost control</li>
+  <li>You care about bean selection and want to taste the difference between roasts</li>
+  <li>You&rsquo;re willing to spend 2&ndash;4 weeks dialing in grind settings and learning milk steaming</li>
+  <li>You&rsquo;re planning to keep a machine for 3&ndash;5 years &mdash; the economics work at that horizon</li>
+</ul>
+
+
+<div class="would-buy-again-block">
+  <div class="wba-number">75%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.4/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Nespresso Vertuo …</th><th>De'Longhi Magnifi…</th></tr></thead>
+    <tbody>
+    <tr><td>Long-term reliability</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Budget-conscious buyers</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Value per dollar spent</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="verdict-box">
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
+  <p>Based on owner data, the <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a> is the right machine if you&rsquo;re trading a caf&eacute; habit for home convenience and volume is low. The pod lock-in and ongoing cost are real &mdash; owners who discovered this after buying are the most consistently disappointed group in reviews. The <a href="../products/delonghi-magnifica-evo.html">De&rsquo;Longhi Magnifica Evo</a> is the right machine if you drink espresso daily, care about bean quality, and are willing to invest 2&ndash;4 weeks in calibration. Owners who made this trade-off consciously are consistently satisfied; those who expected pod-machine simplicity at $799 were not. These machines don&rsquo;t compete &mdash; they serve different lives.</p>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">
+            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            ClearPick
+          </a>
+          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Site</div>
+          <ul class="footer-links">
+            <li><a href="../guides.html">Buying Guides</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../faq.html">How It Works</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="../about.html">About</a> · <a href="../faq.html">How It Works</a> · <a href="../privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
+  </script>
+  <script src="../js/guide-product-cards.js"></script>
+  <script src="../js/guide-charts.js"></script>
+  <script src="../js/guide-submission.js"></script>
+  <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();

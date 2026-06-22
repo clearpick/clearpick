@@ -168,6 +168,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-theragun-mini-vs-theragun-prime');
     if(!g)return;
@@ -194,7 +195,7 @@
     var el=document.getElementById('scatter_theragun_mini_vs_theragun_prime');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
@@ -260,11 +261,132 @@
   <table class="bfm-table">
     <thead><tr><th>Use Case</th><th>Theragun Mini</th><th>Therabody Theragu…</th></tr></thead>
     <tbody>
-    <tr><td>travel frequently or recover at the gym</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>primary use is post-run calves and quads, shoulder recovery,</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Travel frequently or recover at</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Primary use is post-run calves</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
     <tr><td>USB-C charging matters</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>You've never owned a massage gun before and want to test whe</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>primary use is deep glutes, lateral quads, or dense muscle g</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>You've never owned a massage</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Primary use is deep glutes</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="verdict-box">
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
+  <p>The <a href="../products/theragun-mini.html">Theragun Mini</a> is the better purchase for most buyers because it's more likely to be used. Its portability advantage — gym bag, travel, post-workout on-site — produces higher real-world usage frequency, which is the primary driver of satisfaction for any massage gun. For serious athletes doing heavy-pressure work on dense muscle groups (especially glutes and lateral quads), or for anyone who needs the triangular handle for solo back access, the <a href="../products/theragun-prime-5th-gen.html">Therabody Theragun Prime 5th Generation</a> is worth the premium — but only at the sale price ($279–$320). At full retail ($399), the Prime requires honest assessment of how frequently you'll use it at home only.</p>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">
+            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            ClearPick
+          </a>
+          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Site</div>
+          <ul class="footer-links">
+            <li><a href="../guides.html">Buying Guides</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../faq.html">How It Works</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="../about.html">About</a> · <a href="../faq.html">How It Works</a> · <a href="../privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
+  </script>
+  <script src="../js/guide-product-cards.js"></script>
+  <script src="../js/guide-charts.js"></script>
+  <script src="../js/guide-submission.js"></script>
+  <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<h2>The core question: which one will you actually use?</h2>
+<p>The most common pattern in Theragun owner data is that usage frequency predicts satisfaction more than the model purchased. Owners who use their massage gun 4–7 times per week consistently report satisfaction regardless of model. Owners who use it once a week or less consistently report the value case doesn't hold, regardless of model. This makes the Mini vs Prime question partly about which device is more likely to reach daily or near-daily use given your specific situation — and the answer depends heavily on where and how you actually recover.</p>
+
+<div class="guide-section-break"></div>
+<h2>The amplitude gap — what 4mm actually means in practice</h2>
+<p>The <a href="../products/theragun-mini.html">Theragun Mini</a> has 12mm amplitude; the <a href="../products/theragun-prime-5th-gen.html">Therabody Theragun Prime 5th Generation</a> has 16mm amplitude. Four millimeters less depth penetration is the technical difference — and its real-world impact depends on which muscle groups you're treating.</p>
+<p>For shoulders, traps, calves, and quads after a run, owner reports for the Mini are consistently positive: "the 12mm amplitude actually gets into the muscle instead of just buzzing on the surface." For these areas, most owners don't report feeling underpowered. The Mini stalls when you need to apply heavy pressure on dense or tight muscle groups — specifically lateral quadriceps and glutes — where the 20 lb stall force limit causes the head to slow down or recoil when pressed hard. Professional review testing documents this specifically: "pressing too hard will cause the shaft to slow down, stall, or recoil, which happened on several occasions." For runners whose primary use is calves and quads post-run, the Mini handles this adequately. For serious athletes working dense glutes and lateral quads under sustained pressure, the Prime's 30 lb stall force is the meaningful difference.</p>
+
+<div class="guide-section-break"></div>
+<h2>Why the Mini wins on portability (and why that matters for usage)</h2>
+<p>The <a href="../products/theragun-mini.html">Theragun Mini</a> is the only Theragun model small enough to fit in a jacket pocket or gym bag compartment without reorganizing. Owners consistently report this as the deciding factor for actual usage: "this is the first massage gun I actually travel with" appears across Mini owner reviews in Amazon, Reddit, and fitness community threads. The pattern is clear — Mini owners report using their device at the gym, on runs, during travel, and on flights in a way that full-size Theragun owners don't. Full-size Theragun ownership is associated with home use only, which means if your prime recovery opportunity is post-workout at a gym or while traveling, the Mini has a structural usage advantage regardless of the performance difference.</p>
+<p>The Mini's USB-C charging also matters for travel: it charges from the same brick as a phone or laptop. The <a href="../products/theragun-prime-5th-gen.html">Therabody Theragun Prime 5th Generation</a> uses a proprietary 15V charger — not USB-C. This is the most consistent Prime complaint from owners who travel: losing or forgetting the charger requires a $30–40 replacement and cannot be substituted. For gym bag users and travelers, this is a real friction point that the Mini avoids entirely.</p>
+
+<div class="guide-section-break"></div>
+<h2>What the Prime's 4 attachments actually add</h2>
+<p>The <a href="../products/theragun-prime-5th-gen.html">Therabody Theragun Prime 5th Generation</a> ships with 4 foam attachments: Standard Ball, Dampener, Thumb, and Micro-Point. The <a href="../products/theragun-mini.html">Theragun Mini</a> ships with 1 (Standard Ball). Owners of the Prime specifically mention the foam construction as meaningful — softer foam attachments work on sensitive areas near bones (neck, shins, wrists) where the hard-plastic-only attachment of the Mini is uncomfortable. The Dampener specifically is mentioned by Prime owners working near bony areas or injuries. Mini owners who want additional attachments can purchase them separately, but the attachments compatible with the Mini are limited compared to the Prime's ecosystem.</p>
+<p>The Prime's triangular ergonomic handle has three distinct grip positions, which owners specifically call out for one use case: reaching your own mid-back without a second person. "The ergonomic handle lets me hit my own mid-back without contorting, which is the whole reason I bought it" is representative Prime owner language. The Mini's straight handle makes back self-use possible but more limited in reach. If solo back treatment is your primary use case, the Prime's handle design is a real advantage.</p>
+
+<div class="guide-section-break"></div>
+<h2>Speed settings — does 5 vs 3 matter?</h2>
+<p>The <a href="../products/theragun-mini.html">Theragun Mini</a> has 3 speeds; the <a href="../products/theragun-prime-5th-gen.html">Therabody Theragun Prime 5th Generation</a> has 5 speeds, both ranging from 1,750–2,400 PPM. In practice, owner reports for both models indicate most users find 2–3 speeds they use regularly and don't meaningfully use the rest. The Prime's additional speed granularity is not mentioned as a significant benefit in owner reviews — it's a spec difference that doesn't translate to a practical difference for most users.</p>
+
+<div class="guide-section-break"></div>
+<h2>Battery life comparison</h2>
+<p>The <a href="../products/theragun-mini.html">Theragun Mini</a> claims up to 180 minutes of battery life; the <a href="../products/theragun-prime-5th-gen.html">Therabody Theragun Prime 5th Generation</a> claims up to 120 minutes. The Mini's battery claim is longer because it has a smaller, lower-power motor. For real-world use, owners who do focused 10–15 minute sessions report both devices lasting more than a week between charges. For owners doing extended full-body routines at high speed and pressure, the Mini's real-world battery is shorter than the 180-minute claim. Neither device has documented battery-related complaints at typical usage frequencies.</p>
+
+<div class="guide-section-break"></div>
+<h2>Price context — and when to buy the Prime</h2>
+<p>The <a href="../products/theragun-prime-5th-gen.html">Therabody Theragun Prime 5th Generation</a> lists at ~$399 CAD but regularly goes on sale at $279–$320 CAD on Amazon.ca. Canadian buyers in RedFlagDeals and Amazon review threads consistently recommend waiting for a sale — the Prime at $279 is described as a much easier recommendation than at full retail. If you want the Prime, setting a price alert and waiting for a deal materially changes the value equation. The <a href="../products/theragun-mini.html">Theragun Mini</a> at ~$199 CAD is the more stable price option.</p>
+
+<div class="guide-section-break"></div>
+<h2>Who should buy the Mini / who should buy the Prime</h2>
+<p><strong>Buy the <a href="../products/theragun-mini.html">Theragun Mini</a> (~$199 CAD) if:</strong></p>
+<ul>
+  <li>You travel frequently or recover at the gym — the pocketable form factor is the only reason to use a massage gun on the go, and it's the only Theragun model that actually fits</li>
+  <li>Your primary use is post-run calves and quads, shoulder recovery, or upper back — the Mini's 12mm amplitude handles these areas without stalling</li>
+  <li>USB-C charging matters — the Mini charges from any standard brick without a proprietary cable</li>
+  <li>You've never owned a massage gun before and want to test whether you'll actually use it before committing to a $400 device</li>
+</ul>
+<p><strong>Buy the <a href="../products/theragun-prime-5th-gen.html">Therabody Theragun Prime 5th Generation</a> (~$399 CAD, wait for $279 sale) if:</strong></p>
+<ul>
+  <li>Your primary use is deep glutes, lateral quads, or dense muscle groups under pressure — the 30 lb stall force and 16mm amplitude prevent the stalling and recoil the Mini shows under heavy pressure</li>
+  <li>Solo back treatment is a primary use case — the triangular multi-grip handle gives reach and leverage the Mini's straight handle doesn't</li>
+  <li>You use foam attachments regularly (Dampener, Thumb) for sensitive areas near bones — the Prime ships with 4 vs Mini's 1</li>
+  <li>You train 4–7x per week and want the device that will perform under sustained heavy use without stalling</li>
+  <li>Set a price alert — buy it at $279, not $399</li>
+</ul>
+
+
+<div class="would-buy-again-block">
+  <div class="wba-number">75%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.1/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Theragun Mini</th><th>Therabody Theragu…</th></tr></thead>
+    <tbody>
+    <tr><td>Travel frequently or recover at</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Primary use is post-run calves</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>USB-C charging matters</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>You've never owned a massage</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Primary use is deep glutes</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
     </tbody>
   </table>
 </div>

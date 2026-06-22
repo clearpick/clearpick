@@ -45,9 +45,30 @@
 }
 .bfm-table tr:last-child td { border-bottom: none; }
 .bfm-table tr:nth-child(even) td { background: rgba(0,0,0,0.025); }
-.cell-win   { color: #16a34a; font-weight: 700; }
-.cell-close { color: #d97706; font-weight: 600; }
-.cell-weak  { color: #dc2626; font-weight: 600; }
+.cell-win {
+  background: #dcfce7;
+  color: #15803d;
+  font-weight: 700;
+}
+.cell-win::before { content: '✓ '; font-weight: 800; }
+.cell-close {
+  background: #fffbeb;
+  color: #92400e;
+  font-weight: 600;
+}
+.cell-weak {
+  background: #f9fafb;
+  color: #9ca3af;
+  font-weight: 400;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) .cell-win  { background: rgba(34,197,94,0.15); color: #86efac; }
+  :root:not(.theme-light) .cell-close { background: rgba(217,119,6,0.12); color: #fcd34d; }
+  :root:not(.theme-light) .cell-weak { background: transparent; color: #4b5563; }
+}
+:root.theme-dark .cell-win  { background: rgba(34,197,94,0.15); color: #86efac; }
+:root.theme-dark .cell-close { background: rgba(217,119,6,0.12); color: #fcd34d; }
+:root.theme-dark .cell-weak { background: transparent; color: #4b5563; }
 
 /* Score Bars (top5) */
 .score-bars-block {
@@ -212,6 +233,21 @@
 }
 
 /* Who It's For Cards */
+.wif-product-img {
+  width: 72px;
+  height: 72px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 0.75rem;
+  border-radius: 8px;
+  background: #fff;
+  padding: 4px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) .wif-product-img { background: #1f2937; }
+}
+:root.theme-dark .wif-product-img { background: #1f2937; }
+
 .who-its-for-cards {
   margin: 2rem 0;
 }

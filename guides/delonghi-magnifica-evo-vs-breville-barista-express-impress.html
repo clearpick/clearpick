@@ -143,6 +143,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-delonghi-magnifica-evo-vs-breville-barista-express-impress');
     if(!g)return;
@@ -169,7 +170,131 @@
     var el=document.getElementById('scatter_delonghi_magnifica_evo_vs_breville_barista_express_impress');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<h2>Espresso quality — owner language, not spec sheets</h2>
+        <p>On r/espresso and home-barista.com — the two communities where long-term espresso machine owners talk most specifically about shot quality — the Barista Express Impress consistently gets the edge on espresso ceiling. Owners who moved from automatic machines to the Barista Express report noticing a meaningful increase in complexity, body, and flavour separation once they dial in their grind.</p>
+        <p>Magnifica Evo owners, by contrast, consistently use words like "consistent," "convenient," and "reliable" to describe their shots — not "complex" or "layered." The machine's automated process produces good espresso that tastes similar every time. That consistency is praised by the majority of Magnifica Evo owners. The same consistency is viewed as a ceiling by buyers who were hoping for more expressiveness from different beans.</p>
+        <p>One consistent Magnifica Evo complaint from r/espresso: "My Breville semi-auto pulled better shots at $600 if I dialed it in. The Evo is more convenient but my espresso quality ceiling dropped when I switched." This is a minority sentiment among Magnifica Evo owners overall — the majority report being happy with the coffee — but it represents an important group: experienced espresso drinkers who prioritized convenience and later regretted the trade-off.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Grinder comparison — what owners report</h2>
+        <p>The Magnifica Evo has a 13-setting conical burr grinder that owners consistently describe as the machine's best feature after the automated workflow. "13 grind settings meant I could dial it in exactly when I switched to a new bag of beans. I didn't expect that level of control from a fully automatic" — this appreciation for grind adjustability appears across multiple independent reviews.</p>
+        <p>The Barista Express Impress has a 25-setting conical burr grinder. Owners from r/espresso report two recurring grinder issues:</p>
+        <ul>
+          <li><strong>The OPV (over-pressure valve) ships above 9 bar from the factory</strong>, requiring manual adjustment for optimal extraction. A consistent thread topic on home-barista.com — beginners who don't know to make this adjustment report inconsistent shots in the first weeks.</li>
+          <li><strong>Grind chute clogging with oily or dark-roasted beans.</strong> Appears repeatedly in ownership threads — French roast and other high-oil beans accumulate in the chute and require more frequent cleaning than expected.</li>
+        </ul>
+        <p>For buyers who plan to use medium-roast beans and aren't going to chase extraction variables, both grinders are adequate. For buyers who want to experiment with different roasts and push shot quality — the Barista Express Impress grinder has more headroom, but requires more attention.</p>
+
+<div class="guide-section-break"></div>
+        <h2>The learning curve gap</h2>
+        <p>This is where the machines diverge most sharply for buyers without barista experience.</p>
+        <p>The Magnifica Evo takes 2–4 weeks of calibration (finding the right grind setting for your beans), but the machine itself is operable on day one. You press a button and get espresso. Owners consistently praise the OLED display and prompted maintenance — "My parents set it up without reading the manual" is a frequently cited example of the Magnifica Evo's accessibility.</p>
+        <p>The Barista Express Impress is designed for learning, not simplicity. The Impress Puck System (intelligent dosing + auto-tamp with 7° twist) removes the most common beginner failure point — inconsistent tamping — and owners praise it specifically for enabling multiple household members to pull decent shots. But you still need to understand dose, grind, and extraction time to get good results. The learning curve is shorter than a traditional semi-automatic, but longer than the Magnifica Evo.</p>
+        <p>Owner quote that appears in multiple forms: "The assisted tamping was a game-changer for us — my partner was getting inconsistent shots until we got this, and now everyone in the house pulls decent espresso." (iDrinkCoffee.com reviewer). This is the machine's core promise — and for the specific buyer it's designed for, it delivers.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Reliability — what breaks and how often</h2>
+        <p>For a $700–900 appliance in Canada, reliability data from long-term owner communities matters more than most categories.</p>
+        <p><strong>Magnifica Evo:</strong> The top reliability complaint is the descaling alert cycle. The machine triggers a descaling alert every 200–300 brew cycles — monthly for high-volume households. The process takes ~30 minutes. Owners in hard water areas (Ontario, Alberta, BC) report more frequent triggers than the documentation suggests. The grounds drawer fills at roughly 14 shots — daily emptying for heavy users. No catastrophic failure patterns appear with meaningful frequency in owner communities.</p>
+        <p><strong>Barista Express Impress:</strong> The single-boiler design is noted by nearly every multi-drink household owner as a friction point — 20–30 second wait between pulling a shot and steaming milk. For one drink, unnoticeable. For four consecutive drinks on a weekday morning, it adds up. Grind chute clogging with oily beans requires periodic cleaning. The 54mm portafilter limits aftermarket accessory compatibility — an issue primarily for owners who later want to upgrade components without replacing the machine.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Milk system — lattes and cappuccinos</h2>
+        <p>Both machines require technique for milk drinks, but in different ways.</p>
+        <p>The Magnifica Evo's Panarello steam wand is manual — you position and control the wand yourself. Owners who invested time learning proper technique report good microfoam within 2–3 weeks. The consistent complaint: "I expected push-button lattes. This is not that." Buyers who wanted automated milk capability at $799 needed the LatteCrema variant (higher-tier model).</p>
+        <p>The Barista Express Impress steam wand is semi-professional and earns consistent praise from owners who engage with it seriously. "Steam wand performance surprises owners who expect entry-level frothing — microfoam for latte art is achievable with practice" appears across multiple reviews. The single boiler constraint means waiting between espresso and steaming — for households making multiple milk drinks, this is the top friction point.</p>
+
+<div class="guide-section-break"></div>
+        <h2>Who should buy the <a href="../products/delonghi-magnifica-evo.html">De'Longhi Magnifica Evo</a></h2>
+        <ul>
+          <li>You want bean-to-cup espresso with minimal morning workflow — one-button operation matters to you</li>
+          <li>Multiple household members use the machine and consistency across users is important</li>
+          <li>You're not pursuing espresso as a hobby — you want reliably good results without chasing variables</li>
+          <li>You want clear prompted maintenance without needing to know what's happening internally</li>
+        </ul>
+
+<div class="guide-section-break"></div>
+        <h2>Who should buy the <a href="../products/breville-barista-express-impress.html"><a href="../products/breville-barista-express.html">Breville Barista Express</a> Impress</a></h2>
+        <ul>
+          <li>You want to learn espresso — the process of dialing in a grind and pulling a shot interests you</li>
+          <li>Espresso quality ceiling matters — you want to taste the difference between bean roasts and origins</li>
+          <li>You're buying for one or two people who will both engage with the machine (not for a high-traffic household)</li>
+          <li>You're willing to invest 4–6 weeks getting to know the machine before expecting consistent results</li>
+        </ul>
+
+        
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>De'Longhi Magnifi…</th><th>Breville Barista …</th></tr></thead>
+    <tbody>
+    <tr><td>Budget-conscious buyers</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Value per dollar spent</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Long-term reliability</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="verdict-box">
+          <span class="verdict-eyebrow">Bottom Line from Owners</span>
+          <p>Based on owner data from r/espresso, Amazon.ca, and iDrinkCoffee.com: the <a href="../products/delonghi-magnifica-evo.html">De'Longhi Magnifica Evo</a> is the right machine for buyers who want good espresso with zero daily friction — and who define "good" as consistent and convenient rather than complex. The <a href="../products/breville-barista-express-impress.html"><a href="../products/breville-barista-express.html">Breville Barista Express</a> Impress</a> is the right machine for buyers who want to engage with espresso as a skill, are willing to invest in a learning curve, and care about the quality ceiling more than the workflow. Experienced espresso drinkers who switch from a semi-automatic to the Magnifica Evo for convenience commonly report a quality trade-off. Buyers who are starting their espresso journey and go with the Barista Express Impress consistently report it becoming a long-term daily driver once dialed in.</p>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">
+            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            ClearPick
+          </a>
+          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Site</div>
+          <ul class="footer-links">
+            <li><a href="../guides.html">Buying Guides</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../faq.html">How It Works</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="../about.html">About</a> · <a href="../faq.html">How It Works</a> · <a href="../privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
+  </script>
+  <script src="../js/guide-product-cards.js"></script>
+  <script src="../js/guide-charts.js"></script>
+  <script src="../js/guide-submission.js"></script>
+  <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
++p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();

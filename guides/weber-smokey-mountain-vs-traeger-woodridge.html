@@ -170,6 +170,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-weber-smokey-mountain-vs-traeger-woodridge');
     if(!g)return;
@@ -196,7 +197,7 @@
     var el=document.getElementById('scatter_weber_smokey_mountain_vs_traeger_woodridge');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
@@ -268,11 +269,139 @@
   <table class="bfm-table">
     <thead><tr><th>Use Case</th><th>Weber 18-Inch Smo…</th><th>Traeger Woodridge…</th></tr></thead>
     <tbody>
-    <tr><td>want to develop charcoal smoking as a skill</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Buyers for whom authentic wood-smoke flavor is the prim</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Buyers with a budget closer to $500 CAD</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>want to smoke food without developing fire-management s</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>Families with busy schedules who want reliable results </td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Want to develop charcoal smoking</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers for whom authentic wood-smoke</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers with a budget closer</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Want to smoke food without</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Families with busy schedules who</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="verdict-box">
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
+  <p>The <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a> produces better-tasting smoke — owners who've used both consistently report this. It requires more skill, more active management, and more tolerance for Canadian winter conditions. The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a> produces consistent results with minimal technique, wider cooking range, and a monitoring experience suited for busy households. The $850 price gap between them is not really a spec question — it's a question about what kind of cook you are. Buyers who want to learn fire management and maximize smoke flavor: <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a>. Buyers who want reliable smoked food as part of a busy week without learning curves: <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a>. If you choose the Woodridge, seriously consider the Pro tier for the Super Smoke Mode — base owners who cook frequently mention wanting it.</p>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">
+            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            ClearPick
+          </a>
+          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Site</div>
+          <ul class="footer-links">
+            <li><a href="../guides.html">Buying Guides</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../faq.html">How It Works</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="../about.html">About</a> · <a href="../faq.html">How It Works</a> · <a href="../privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
+  </script>
+  <script src="../js/guide-product-cards.js"></script>
+  <script src="../js/guide-charts.js"></script>
+  <script src="../js/guide-submission.js"></script>
+  <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>
++p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<h2>What kind of cook ends up with each</h2>
+<p>Owner language around the <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a> consistently includes words like "rewarding," "satisfying," and "earned" — the experience of a long charcoal smoke is described as something owners take pride in. In r/smoking and r/BBQ, the WSM buyer profile that appears repeatedly is someone who researched BBQ technique before buying, who describes wanting to "learn to smoke properly" rather than just producing smoked food. Many WSM owners describe buying it specifically because they wanted to understand fire management and temperature control as a skill.</p>
+<p>The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a> owner profile from community posts looks different. The language is "convenient," "consistent," and "reliable." A pattern across Traeger forums: buyers who have families, busy schedules, or limited weekend time want to put a brisket on at 7am and check it via app at noon without tending a fire. The WiFIRE app earns consistent praise for being a genuine usage tool — remote temperature monitoring and recipe integration are mentioned as features owners actually use, not marketing extras.</p>
+
+<div class="guide-section-break"></div>
+<h2>The learning curve gap — owner reports</h2>
+<p>The <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a>'s learning curve is the single most discussed aspect of new owner reviews. Roughly 1 in 3 first-time charcoal smoker posts describes the first or second cook as frustrating — overshooting 275°F, struggling to bring temperature down, a rack of ribs that ran hot on one side. The consistent advice from experienced WSM owners in these threads: the Minion method (lighting a small section of charcoal and letting it spread slowly) solves most temperature management problems, but it takes a cook or two to internalize. "Once I learned the Minion method, I could predict my temperatures within 15 minutes" is representative long-term owner language.</p>
+<p>The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a> does not have a comparable learning curve entry in owner reviews. The dominant first-cook narrative for Traeger owners is: assembled, set temperature, put food on, watched app. First-time pellet grill owners rarely describe a frustrating first cook. This is a meaningful practical difference for buyers who have limited time to iterate on technique.</p>
+
+<div class="guide-section-break"></div>
+<h2>Temperature control — what owners actually experience</h2>
+<p>Temperature management on the <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a> is a hands-on process — adjusting the bottom air vents, monitoring the top vent, adding charcoal through the front door during long cooks. The water pan buffers temperature swings and is credited by experienced WSM owners as making the smoker more forgiving than a bare barrel design. Once owners master vent adjustment, their reviews describe stable multi-hour cooks at target temperature — "held 225°F for 8 hours on one charcoal load" appears with frequency in long-term posts.</p>
+<p>The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a>'s electronic controller manages temperature automatically. Owner reports consistently describe ±15–25°F temperature variance in normal conditions — tighter than most charcoal setups and sufficient for smoking. In cold Canadian weather below 0°C, Traeger owners note that the controller works to compensate but pellet consumption increases and preheating takes longer. The base Woodridge lacks Super Smoke Mode (available on the Pro tier), which generates denser smoke at low temperatures — this absence is the most frequently cited upgrade regret from Woodridge base owners who cook low-and-slow regularly.</p>
+
+<div class="guide-section-break"></div>
+<h2>Smoke flavour — the core debate</h2>
+<p>This is the most contested question between the two owner camps, and both sides have a coherent position based on real experience. <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a> owners who've used both — there are many posts from people who owned a pellet grill first and switched — consistently describe the charcoal smoke flavor as more complex, bolder, and more "authentic." Language like "pellet smoke is mild by comparison" and "my brisket didn't taste like BBQ on the Traeger the way it does on the WSM" appears in owner switching posts.</p>
+<p>The other side: experienced BBQ judges and competitive smokers posting in r/smoking note that blind taste tests rarely produce the dramatic differences that hobbyists describe. One cited comment: "Unless a smoker gets out of control, I generally cannot tell what equipment was cooked on — including taste and texture." What is clear from owner data: charcoal produces more pronounced smoke flavor at equivalent wood usage; pellet smoke is milder and lighter. For buyers who want smoke as a subtle background note, pellet output is adequate. For buyers who want smoke as a central flavor component in brisket, ribs, or pork shoulder, the charcoal experience is consistently reported as superior.</p>
+
+<div class="guide-section-break"></div>
+<h2>Maintenance and cleanup</h2>
+<p>Charcoal ash disposal after a WSM cook is the most commonly cited maintenance task — typically 30–45 minutes for full ash removal and grate cleaning after an 8–10 hour smoke. The front access door that allows charcoal addition mid-cook gets consistent criticism for poor fit: a meaningful subset of WSM owners report air leaks from an ill-fitting door that creates temperature inconsistency. The standard fix — high-temp gasket tape — costs under $15 and is mentioned in nearly every WSM forum as standard practice, though the fact that a $449 smoker requires this modification at all is a repeated complaint.</p>
+<p>The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a>'s EZ-Clean keg system earns specific praise in owner reviews — "cleanup is maybe 5 minutes now" and "the grease management is genuinely better than my old Traeger" appear across multiple Home Depot Canada reviewer posts. Pellet grill maintenance also includes hopper monitoring (the 24 lb hopper lasts through most cooks without refilling) and periodic firebox vacuuming to remove ash buildup. Overall maintenance burden for the Woodridge is consistently described as lower than charcoal equivalent in owner time-and-effort assessments.</p>
+
+<div class="guide-section-break"></div>
+<h2>Long-term reliability</h2>
+<p>The <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a>'s reputation for longevity in owner posts is strong. Weber's 10-year warranty on bowl and lid backs a product with minimal moving parts — the main wear components are the water pan, grates, and the front access door gasket. Long-term owner posts (5–10 years) describe the WSM as functional with cosmetic aging only. There are no electronic components to fail.</p>
+<p>The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a> is too new for long-term data, but its predecessor (Pro 575) informs the picture. Pellet grill long-term complaints that appear in r/pelletgrills: auger jams from wet or poor-quality pellets, controller resets after firmware updates, and rust on unpainted steel components in wet climates. Traeger's customer support is described as responsive in most posts, and replacement parts are stocked through Home Depot Canada. The electronic controller adds a failure mode that the WSM simply doesn't have — buyers should store the Woodridge covered and store pellets in dry conditions to avoid the most common failure causes.</p>
+
+<div class="guide-section-break"></div>
+<h2>Canadian winter use</h2>
+<p>The <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a> in winter is a topic that appears in Canadian-specific posts frequently. The consistent pattern: it works, but it requires more charcoal, more active vent management, and ideally a windscreen. One quoted owner: "Used mine at -15°C with a welding blanket around it. Held 225°F for 8 hours on one charcoal load." For buyers who want year-round Canadian outdoor smoking without modification or extra management, the WSM is a steeper ask in winter than in summer. A small but consistent minority of Canadian WSM owners describe giving up on winter cooks because the extra effort wasn't worth it.</p>
+<p>The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a>'s electronic controller compensates automatically for cold-weather temperature drops, but owners in Ottawa, Calgary, and Edmonton note that below -10°C, the grill burns significantly more pellets and takes longer to reach target temperature. Cold-weather Traeger owners recommend a grill blanket (Traeger sells one) for sub-zero cooking. The WiFIRE app's remote monitoring is specifically cited by Canadian owners as a winter advantage — monitoring a cook from inside rather than standing outside with the smoker.</p>
+
+<div class="guide-section-break"></div>
+<h2>Who should buy the Weber Smokey Mountain 18</h2>
+<ul>
+  <li>Buyers who want to develop charcoal smoking as a skill — the WSM has the richest owner community and best technique resources of any entry charcoal smoker.</li>
+  <li>Buyers for whom authentic wood-smoke flavor is the primary goal — owner comparisons consistently place charcoal smoke ahead of pellet smoke in flavor intensity.</li>
+  <li>Buyers with a budget closer to $500 CAD — the $850 price gap is real and significant.</li>
+  <li>Buyers who cook in warmer seasons or are willing to adapt for Canadian winter cooks.</li>
+  <li>Buyers who want a low-maintenance mechanical tool that will last 10+ years without electronic failure risk.</li>
+</ul>
+
+<div class="guide-section-break"></div>
+<h2>Who should buy the Traeger Woodridge</h2>
+<ul>
+  <li>Buyers who want to smoke food without developing fire-management skills — the set-it-and-monitor-it workflow is the <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a>'s defining advantage.</li>
+  <li>Families with busy schedules who want reliable results on a consistent timer — long cooks with WiFIRE monitoring fit into a different lifestyle than hands-on charcoal management.</li>
+  <li>Buyers who also want to grill at higher temperatures (up to 500°F) — the <a href="../products/traeger-woodridge.html">Traeger Woodridge</a> doubles as a grill; the WSM is a smoker only.</li>
+  <li>Buyers who want more cooking space — 860 sq in vs. 481 sq in is meaningful for larger families or entertaining.</li>
+  <li>Note: if you regularly cook low-and-slow, the Traeger Woodridge Pro (adds Super Smoke Mode and a pellet sensor) is worth the step up based on owner feedback.</li>
+</ul>
+
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Weber 18-Inch Smo…</th><th>Traeger Woodridge…</th></tr></thead>
+    <tbody>
+    <tr><td>Want to develop charcoal smoking</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers for whom authentic wood-smoke</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Buyers with a budget closer</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Want to smoke food without</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Families with busy schedules who</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
     </tbody>
   </table>
 </div>

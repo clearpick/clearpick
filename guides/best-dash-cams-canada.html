@@ -214,6 +214,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-best-dash-cams-canada');
     if(!g)return;
@@ -320,6 +321,12 @@
 <p>Yes — hardwire kits connect to the fuse box and provide low-voltage cutoff protection so parking mode doesn't drain your battery below starting voltage. This is the recommended setup for parking mode use. Most kits cut power at 11.8–12V to protect the battery. Professional installation at a car audio shop typically runs $50–$100 CAD in Canadian cities.</p>
 <h3>Are dashcam suction mounts reliable in Canadian winter temperature swings?</h3>
 <p>Suction cups can lose grip in extreme cold due to suction cup material stiffening. Both the <a href="../products/thinkware-u1000-dash-cam.html">Thinkware U1000 4K UHD Dual Channel Dash Cam</a> and <a href="../products/vantrue-n4-3-channel-dash-cam.html">Vantrue N4 Pro 4K 3-Channel Dash Cam</a> also offer adhesive mounts, which are more reliable in Canadian temperature swings. Owners in colder provinces consistently recommend the adhesive mount over suction.</p>
+
+<div class="would-buy-again-block">
+  <div class="wba-number">90%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9/10) based on aggregated owner sentiment</div>
+</div>
 <div class="price-spectrum-block">
   <h3>Price Spectrum</h3>
   <p class="price-spectrum-sub">All prices in CAD · approximate retail at time of review</p>

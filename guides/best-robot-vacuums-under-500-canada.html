@@ -241,6 +241,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-best-robot-vacuums-under-500-canada');
     if(!g)return;
@@ -324,6 +325,12 @@
 <p>Robot vacuums handle winter debris (sand, salt, tracked-in dirt) well. The main issue is suction on dry grit — higher-suction models like the <a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a> handle it better. None of these units are designed for wet mopping near entryways where water pools from snow boots — keep them away from wet floors.</p>
 <h3>How often does the dust bin need emptying without an auto-empty dock?</h3>
 <p>For daily use in a typical Canadian condo (800–1,200 sq ft), the <a href="../products/eufy-l60.html">eufy L60</a> bin needs emptying every 2–3 runs. Homes with pets or high foot traffic may need daily emptying. Self-empty docks (<a href="../products/eufy-auto-empty-c10.html">eufy Auto-Empty C10</a>, <a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a>) extend this to roughly monthly bag changes.</p>
+
+<div class="would-buy-again-block">
+  <div class="wba-number">88%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
+</div>
 <div class="price-spectrum-block">
   <h3>Price Spectrum</h3>
   <p class="price-spectrum-sub">All prices in CAD · approximate retail at time of review</p>

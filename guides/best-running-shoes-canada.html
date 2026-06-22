@@ -207,6 +207,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-best-running-shoes-canada');
     if(!g)return;
@@ -292,6 +293,12 @@
 
 <h3>Where do Canadian runners buy running shoes?</h3>
 <p>Running Room is the dominant specialty running retailer in Canada with locations in most provinces. SportChek carries major brands but with less specialty depth. Amazon.ca has the widest selection and typically the most competitive pricing, with free returns on most footwear. MEC is the top option for trail and outdoor footwear in Canada, including the <a href="../products/salomon-x-ultra-4-gtx.html"><a href="../products/salomon-x-ultra-4-gtx.html">Salomon X Ultra</a> 4</a> GTX.</p>
+
+<div class="would-buy-again-block">
+  <div class="wba-number">92%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.2/10) based on aggregated owner sentiment</div>
+</div>
 <div class="price-spectrum-block">
   <h3>Price Spectrum</h3>
   <p class="price-spectrum-sub">All prices in CAD · approximate retail at time of review</p>

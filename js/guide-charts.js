@@ -306,6 +306,11 @@
     });
   }
 
+  function safeNum(val) {
+    var n = parseFloat(val);
+    return (isNaN(n) || val == null) ? 0 : Math.min(100, Math.max(0, n));
+  }
+
   /* ── Render: Head-to-Head Radar (comparison guides) ── */
   function renderHeadToHead(data, container, Chart) {
     var h2h = data.headToHead;
@@ -354,10 +359,12 @@
       type: 'radar',
       data: {
         labels: radarLabels,
-        datasets: [
-          { label: h2h.productA.name, data: h2h.productA.radarData || [],
+        datasets: [ // safeNum() converts null → 0 so every axis always has a value
+          { label: h2h.productA.name,
+            data: (h2h.productA.radarData || []).map(safeNum),
             borderColor: COLORS.blue, backgroundColor: 'rgba(59,130,246,0.15)', pointRadius: 3 },
-          { label: h2h.productB.name, data: h2h.productB.radarData || [],
+          { label: h2h.productB.name,
+            data: (h2h.productB.radarData || []).map(safeNum),
             borderColor: COLORS.purple, backgroundColor: 'rgba(139,92,246,0.15)', pointRadius: 3 }
         ]
       },
@@ -414,10 +421,36 @@
     });
   }
 
+  /* ── Fix 5: inject product thumbnail into Who It's For cards ── */
+  function injectWifImages() {
+    var cards = document.querySelectorAll('.wif-card');
+    if (!cards.length) return;
+    var cardEl = document.querySelector('[data-slug]');
+    if (!cardEl) return;
+    var productSlug = cardEl.getAttribute('data-slug');
+    fetch('/products.json')
+      .then(function(r) { return r.json(); })
+      .then(function(products) {
+        var product = products.find(function(p) { return p.id === productSlug; });
+        if (!product || !product.image) return;
+        cards.forEach(function(card) {
+          var img = document.createElement('img');
+          img.src = product.image;
+          img.alt = product.name;
+          img.className = 'wif-product-img';
+          img.loading = 'lazy';
+          card.insertBefore(img, card.firstChild);
+        });
+      })
+      .catch(function() {});
+  }
+
   /* ── Main: load data → load Chart.js → render ── */
   function init() {
     var body = document.querySelector('.guide-article__body');
     if (!body) return;
+
+    injectWifImages();
 
     fetch('/guides/' + slug + '.data.json')
       .then(function(r) {

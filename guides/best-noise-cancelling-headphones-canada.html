@@ -265,6 +265,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-best-noise-cancelling-headphones-canada');
     if(!g)return;
@@ -371,6 +372,12 @@
 <p>Expect 15–25% more at current exchange rates. The <a href="../products/bose-quietcomfort-ultra-headphones.html">Bose QuietComfort Ultra Wireless Noise Cancelling Headphones</a> retails around USD $329 (US); it's approximately $599 CAD. Amazon.ca is generally the best Canadian price point — better than Best Buy Canada on most models.</p>
 <h3>Can I get ANC headphones under $100 in Canada that actually work?</h3>
 <p>Yes — the <a href="../products/anker-soundcore-q45.html">Anker Soundcore Q45 Adaptive Active Noise Cancelling Headphones</a> at approximately $79 CAD scores 8.1 overall with genuine ANC performance. It won't match the Bose or Sony, but it works well for office environments and mid-level transit noise. A legitimate entry point for first-time ANC buyers in Canada.</p>
+
+<div class="would-buy-again-block">
+  <div class="wba-number">88%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
+</div>
 <div class="price-spectrum-block">
   <h3>Price Spectrum</h3>
   <p class="price-spectrum-sub">All prices in CAD · approximate retail at time of review</p>

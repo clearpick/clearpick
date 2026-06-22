@@ -168,6 +168,7 @@
       document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
     }
     if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+    (function(){var g=document.getElementById('guide-glance-'+slug);if(!g)return;g.querySelectorAll('.glance-stat').forEach(function(el){var n=el.querySelector('.glance-number');if(n&&n.textContent==='\u2014')el.style.display='none';});var vs=[].slice.call(g.querySelectorAll('.glance-stat')).filter(function(el){return el.style.display!=='none';});g.querySelectorAll('.glance-divider').forEach(function(dv,i){if(i>=Math.max(0,vs.length-1))dv.style.display='none';});})(); // guide-glance-cleanup
   }).catch(function(){
     var g=document.getElementById('guide-glance-roborock-qrevo-s-vs-qrevo-curv');
     if(!g)return;
@@ -194,7 +195,117 @@
     var el=document.getElementById('scatter_roborock_qrevo_s_vs_qrevo_curv');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:8,pointHoverRadius:11}]},options:{plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': $'+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
+<h2>What the price gap actually buys you (according to owners)</h2>
+<p>The <a href="../products/roborock-qrevo-curv.html">Qrevo Curv</a> retails at approximately $1,299 CAD; the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> sits at ~$999 CAD. The $300 difference is real, and owners who've compared both in r/RobotVacuums are specific about what it buys. The three most-cited Curv advantages from owner data: the FlexiArm extending side brush that reaches corners and wall edges the S misses, the DuoDivide dual-roller brush system that achieves 0% pet hair tangle in Vacuum Wars testing, and the Multifunctional Dock 3.0 with 75°C hot-water mop washing. "The FlexiArm side brush actually gets into corners — every other robot I've had leaves a strip along the wall. This one doesn't" is representative owner language for the Curv.</p>
+<p>What the price gap does not buy: meaningfully better suction. The <a href="../products/roborock-qrevo-s.html">Qrevo S</a> runs 7,000Pa; the Curv runs 18,500Pa (HyperForce) — but owners comparing both in daily home use report that carpet cleaning results in practice are similar for most homes. The suction gap matters in thick carpet or heavy debris scenarios, less so in daily maintenance cleaning on hard floors.</p>
+
+<div class="guide-section-break"></div>
+<h2>Obstacle avoidance — the key differentiator</h2>
+<p>This is where the price story gets complicated. The Curv uses 3D structured light and an RGB camera for obstacle detection. In Vacuum Wars lab testing, it scored 3.54 out of 5 on obstacle avoidance — respectable but not dominant. In owner reports from r/RobotVacuums, the most common complaint for the Curv is specifically obstacle avoidance: smaller items — cables, small toys, socks — are not reliably detected and the robot runs over or pushes them. "Poor obstacle avoidance is the top negative raised in Reddit discussions" — this appears across multiple community threads from Curv owners.</p>
+<p>The <a href="../products/roborock-qrevo-s.html">Qrevo S</a> uses LiDAR plus camera obstacle avoidance and owner reviews are notably positive on navigation: "LiDAR mapping is shockingly good — first map completed in one pass, no missed zones." The S's obstacle avoidance appears in fewer complaints than the Curv's in r/RobotVacuums discussions, which is counterintuitive given the price difference. If your home has consistent clutter — cables, small toys, pet items on the floor — the Curv's obstacle avoidance advantage in spec does not consistently translate to advantage in practice per owner data.</p>
+
+<div class="guide-section-break"></div>
+<h2>Mopping performance</h2>
+<p>Mopping is where the Curv pulls ahead meaningfully in owner reports. The 75°C hot-water mop washing in the Multifunctional Dock 3.0 gets specific praise: "The dock washes the pads in hot water and they smell clean after" — owners of the S, by contrast, report the mop wash function using room-temperature water, with limitations on greasy kitchen floors flagged repeatedly. The S's no-detergent design means it handles maintenance mopping well but struggles on dried spills or cooking residue. This is the #1 reported limitation in <a href="../products/roborock-qrevo-s.html">Qrevo S</a> owner threads specifically about mopping.</p>
+<p>The Curv's lifted mop pad on carpet gets mixed reports. Owners generally confirm the mechanism works — the mop lifts when transitioning to carpet — but several report occasional edge cases where it doesn't lift fully on very low-pile rugs, leaving damp traces. Consistent pattern but low severity.</p>
+
+<div class="guide-section-break"></div>
+<h2>App and setup friction</h2>
+<p>Both use the Roborock app, so the app experience is nearly identical between them. The consistent pattern across both product's owner data: initial setup takes 20–30 minutes, mapping is accurate after one full run, and scheduling works reliably after the first week. App complaints that appear are not model-specific — they apply to Roborock's platform generally (occasional connectivity drops, update requirements that reset custom zones). Neither the S nor the Curv has a meaningful app advantage over the other per owner data.</p>
+
+<div class="guide-section-break"></div>
+<h2>Long-term reliability</h2>
+<p>Both products are relatively recent; long-term failure data is limited. The consistent negative that appears across Roborock's broader line — including both models' owner reviews — is post-warranty support. Roborock's responsiveness after the warranty window is flagged in r/RobotVacuums: owners who needed parts or resolution outside warranty report slow response times and difficulty getting support. This appears at higher frequency in Roborock threads generally than in competitor threads. It's product-line level, not model-specific.</p>
+
+<div class="guide-section-break"></div>
+<h2>Who should buy the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> / who should get the Curv</h2>
+<p><strong>Buy the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> (~$999 CAD) if:</strong></p>
+<ul>
+  <li>Pet hair management is your primary need — 7,000Pa suction handles this well and daily use owner reports are consistently positive</li>
+  <li>Your home has consistent floor clutter (cables, toys) — the S's obstacle avoidance appears in fewer owner complaints than the Curv's</li>
+  <li>You mop for maintenance, not deep-cleaning — room-temperature water mopping is adequate for daily hard floor upkeep</li>
+  <li>The $300 difference matters — owner reports indicate S performance meets the needs of most households</li>
+</ul>
+<p><strong>Buy the <a href="../products/roborock-qrevo-curv.html">Qrevo Curv</a> (~$1,299 CAD) if:</strong></p>
+<ul>
+  <li>Corner and edge cleaning is important — the FlexiArm extension genuinely solves the wall-strip problem that the S (and most robot vacuums) leave behind</li>
+  <li>You cook regularly and mop with hot water — the 75°C dock wash is the clearest differentiator in mopping performance</li>
+  <li>You have multiple dogs with heavy shedding — the DuoDivide system's 0% tangle rate in testing is the strongest data point the Curv has</li>
+  <li>You want the premium docking experience for its own sake — the Multifunctional Dock 3.0's self-maintenance features are the most complete in Roborock's lineup</li>
+</ul>
+
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.9/10) based on aggregated owner sentiment</div>
+</div>
+
+<div class="best-for-matrix">
+  <h3>Best For — At a Glance</h3>
+  <table class="bfm-table">
+    <thead><tr><th>Use Case</th><th>Roborock Qrevo S …</th><th>Roborock Qrevo Cu…</th></tr></thead>
+    <tbody>
+    <tr><td>Long-term reliability</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
+    <tr><td>Budget-conscious buyers</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    <tr><td>Value per dollar spent</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
+    </tbody>
+  </table>
+</div>
+<div class="verdict-box">
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
+  <p>The <a href="../products/roborock-qrevo-curv.html">Qrevo Curv</a> is a better robot vacuum than the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> in controlled testing. In real-home owner data, the gap is smaller than the price suggests — and in one specific area (obstacle avoidance with floor clutter), the S gets fewer complaints. The Curv is worth the extra $300 for owners who cook regularly and want hot-water mopping, or who have multiple heavy-shedding pets and want the tangle-free brush system. For everyone else — including most pet owners with moderate shedding — the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> delivers on its core job and keeps $300 in your pocket.</p>
+</div>
+
+      </div>
+    </div>
+  </article>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo">
+            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            ClearPick
+          </a>
+          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col__heading">Site</div>
+          <ul class="footer-links">
+            <li><a href="../guides.html">Buying Guides</a></li>
+            <li><a href="../blog/index.html">Blog</a></li>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../faq.html">How It Works</a></li>
+            <li><a href="../privacy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="../about.html">About</a> · <a href="../faq.html">How It Works</a> · <a href="../privacy.html">Privacy Policy</a></p>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const themeBtn = document.querySelector('[data-theme-toggle]');
+    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
+    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
+  </script>
+  <script src="../js/guide-product-cards.js"></script>
+  <script src="../js/guide-charts.js"></script>
+  <script src="../js/guide-submission.js"></script>
+  <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
+<script defer src="/_vercel/insights/script.js"></script>
+</body>
+</html>+p.x+' · '+p.y+'/10';}}}},scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
