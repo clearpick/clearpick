@@ -4895,3 +4895,195 @@ body.mob-nav-open {
   .guide-article__body .pros-cons-table th,
   .guide-article__body .pros-cons-table td { padding: var(--space-2) var(--space-3); }
 }
+
+/* ══════════════════════════════════════════════════════════
+   Guide Data Visualization System
+   ══════════════════════════════════════════════════════════ */
+
+/* ─── H2 accent in guide body ─── */
+.guide-article__body h2 {
+  padding-left: 0.85rem;
+  border-left: 3px solid var(--color-accent);
+}
+
+/* ─── Key takeaway box ─── */
+.key-takeaway {
+  background: rgba(245,158,11,0.08);
+  border: 1px solid rgba(245,158,11,0.25);
+  border-radius: 8px;
+  padding: 1rem 1.25rem;
+  margin: 1.25rem 0 2rem;
+}
+.key-takeaway .takeaway-label {
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgb(146,64,14);
+  display: block;
+  margin-bottom: 0.35rem;
+}
+[data-theme="dark"] .key-takeaway .takeaway-label { color: rgb(253,186,116); }
+.key-takeaway p { margin: 0; font-size: 0.92rem; color: var(--color-text-muted); line-height: 1.5; }
+
+/* ─── Complaint badge ─── */
+.complaint-item { margin: 1.25rem 0; }
+.complaint-badge {
+  display: inline-block;
+  background: var(--color-danger-dim);
+  border: 1px solid var(--color-danger);
+  color: var(--color-danger);
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.2rem 0.65rem;
+  border-radius: 999px;
+  margin-bottom: 0.4rem;
+  opacity: 0.85;
+}
+
+/* ─── Section divider ─── */
+.section-divider {
+  display: flex;
+  align-items: center;
+  margin: 2.5rem 0 1.5rem;
+  gap: 1rem;
+  color: var(--color-text-faint);
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+.section-divider::before,
+.section-divider::after { content: ''; flex: 1; height: 1px; background: var(--color-border); }
+
+/* ─── Guide data section wrapper ─── */
+.guide-data-section {
+  margin: 2rem 0;
+  padding: 1.5rem;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+}
+.guide-data-section .data-section-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin: 0 0 0.3rem;
+  padding: 0;
+  border: none;
+}
+.data-source-note { font-size: 0.8rem; color: var(--color-text-faint); margin-bottom: 1.25rem; }
+
+/* ─── Stat cards ─── */
+.stat-cards-row { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: 0.75rem; }
+.stat-card {
+  flex: 1;
+  min-width: 140px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  padding: 1.1rem 1rem;
+  text-align: center;
+}
+.stat-card-source { font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-text-faint); margin-bottom: 0.4rem; }
+.stat-card-number { font-size: 2rem; font-weight: 800; color: var(--color-accent); line-height: 1; }
+.stat-card-label { font-size: 0.8rem; color: var(--color-text-muted); margin-top: 0.2rem; }
+.stat-card-sub { font-size: 0.72rem; color: var(--color-text-faint); margin-top: 0.35rem; }
+
+/* ─── Chart layout ─── */
+.charts-row { display: flex; gap: 2rem; flex-wrap: wrap; align-items: flex-start; margin-top: 1rem; }
+.chart-block { flex: 1; min-width: 220px; }
+.chart-block h3 { font-size: 0.88rem; font-weight: 600; margin: 0 0 0.75rem; color: var(--color-text-muted); border: none; padding: 0; }
+.chart-stat-callout { text-align: center; margin-top: 0.75rem; font-size: 0.88rem; color: var(--color-text-muted); }
+
+/* ─── Reddit themes list ─── */
+.reddit-themes-list { list-style: none; padding: 0; margin: 0; font-size: 0.88rem; }
+.reddit-themes-list li { padding: 0.45rem 0; border-bottom: 1px solid var(--color-border); color: var(--color-text-muted); line-height: 1.4; }
+.reddit-themes-list li:last-child { border-bottom: none; }
+
+/* ─── Cross-platform comparison table ─── */
+.comparison-data-table { width: 100%; border-collapse: collapse; font-size: 0.85rem; margin-top: 0.5rem; }
+.comparison-data-table th,
+.comparison-data-table td { padding: 0.45rem 0.75rem; border: 1px solid var(--color-border); text-align: center; }
+.comparison-data-table th { background: var(--color-surface-2); font-weight: 600; color: var(--color-text); }
+.comparison-data-table td { color: var(--color-text-muted); }
+.comparison-data-table tr td:first-child { text-align: left; font-weight: 500; color: var(--color-text); }
+
+/* ─── Buy-again stat block (worthit guides) ─── */
+.buy-again-stat-block {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: var(--color-success-dim);
+  border: 2px solid var(--color-success);
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+.buy-again-stat-block .stat-big-number { font-size: 3.5rem; font-weight: 800; color: var(--color-success); line-height: 1; }
+.buy-again-stat-block .stat-big-label { font-size: 1rem; color: var(--color-text-muted); margin-top: 0.4rem; }
+.platform-sub-stats { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-top: 0.75rem; font-size: 0.83rem; color: var(--color-text-faint); }
+.stat-source-note { font-size: 0.75rem; color: var(--color-text-faint); margin-top: 0.75rem; }
+
+/* ─── User submission widget ─── */
+.user-submission-widget {
+  margin: 3rem 0 1rem;
+  padding: 2rem 1.5rem;
+  background: var(--color-surface-2);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  text-align: center;
+}
+.user-submission-widget h2 { font-size: 1.1rem; margin: 0 0 0.4rem; padding: 0; border: none; }
+.user-submission-widget > p { font-size: 0.88rem; color: var(--color-text-muted); margin: 0 0 1.25rem; }
+.submission-stars { display: flex; justify-content: center; gap: 0.4rem; margin-bottom: 1rem; }
+.star-btn { font-size: 2rem; background: none; border: none; cursor: pointer; color: var(--color-border); transition: color 0.1s, transform 0.1s; padding: 0; line-height: 1; }
+.star-btn:hover, .star-btn.active { color: #f59e0b; transform: scale(1.1); }
+.buy-again-buttons { display: flex; justify-content: center; gap: 0.65rem; flex-wrap: wrap; margin-bottom: 1rem; }
+.buy-again-btn {
+  padding: 0.45rem 1.1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface);
+  color: var(--color-text-muted);
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.buy-again-btn:hover { border-color: var(--color-accent); color: var(--color-accent); }
+.buy-again-btn.active { border-color: var(--color-accent); background: rgba(26,140,255,0.1); color: var(--color-accent); }
+.submission-textarea {
+  width: 100%;
+  max-width: 480px;
+  padding: 0.7rem;
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  background: var(--color-surface);
+  color: var(--color-text);
+  font-size: 0.88rem;
+  font-family: inherit;
+  resize: vertical;
+  margin: 0 auto 0.85rem;
+  display: block;
+}
+.submit-rating-btn {
+  padding: 0.55rem 2rem;
+  background: var(--color-accent);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.92rem;
+  font-family: inherit;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+.submit-rating-btn:hover { opacity: 0.85; }
+.submission-disclaimer { font-size: 0.72rem; color: var(--color-text-faint); margin-top: 0.75rem; }
+.submission-thanks { font-size: 0.95rem; color: var(--color-success); font-weight: 500; margin: 0; }
+
+@media (max-width: 640px) {
+  .stat-cards-row { gap: 0.65rem; }
+  .stat-card { min-width: 120px; padding: 0.85rem 0.6rem; }
+  .stat-card-number { font-size: 1.6rem; }
+  .charts-row { flex-direction: column; gap: 1.5rem; }
+  .buy-again-stat-block .stat-big-number { font-size: 2.5rem; }
+}
