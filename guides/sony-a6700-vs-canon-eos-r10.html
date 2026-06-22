@@ -195,17 +195,62 @@
 </div>
 <script>
 (function(){
-  var pts=[{"x":1699,"y":9.2,"label":"Sony Alpha a6700 Mi…"},{"x":979,"y":8.4,"label":"Canon EOS R10 Mirro…"}];
+  var pts=[{"x":1699,"y":9.2,"label":"Sony Alpha a6700 Mirr…"},{"x":979,"y":8.4,"label":"Canon EOS R10 Mirrorl…"}];
+  var clrs=["#1a8cff","#f97316"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_sony_a6700_vs_canon_eos_r10');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <p>R10 owners are predominantly stills-first photographers coming from a first mirrorless purchase. Family photography, travel, and casual portraiture are the most frequently mentioned use cases. A pattern that appears repeatedly in R10 long-term posts: "I was deciding between the A6700 and the R10 and the price gap pushed me toward Canon — I don't regret it."</p>
 
@@ -387,25 +432,7 @@
   <div class="wba-context">Derived from ClearPick score (9.2/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th>Sony Alpha a6700 …</th><th>Canon EOS R10 Mir…</th></tr></thead>
-    <tbody>
-    <tr><td>Hybrid shooters who need capable</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Wildlife and sports photographers who</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Buyers planning to invest in</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>First-time mirrorless buyers coming from</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>Stills-first photographers</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-          <span class="verdict-eyebrow">Bottom Line from Owners</span>
-          <p>Based on owner patterns across long-term posts and reviews: the A6700 is the better camera for anyone who shoots meaningful amounts of video, works in variable light, or plans to invest in lenses over time. The R10 is the right camera for stills-first buyers who want excellent autofocus at a significantly lower price and aren't willing to spend two weeks learning Sony's menus. The $720 gap is not arbitrary — it buys IBIS, 4K/120fps, better low-light capability, and access to a deeper lens ecosystem. Whether that gap is worth it depends entirely on whether those things change how you actually shoot.</p>
-        </div>
 
-      </div>
     </div>
   </article>
 

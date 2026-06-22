@@ -191,17 +191,62 @@
 </div>
 <script>
 (function(){
-  var pts=[{"x":449,"y":9.1,"label":"Weber 18-Inch Smoke…"},{"x":1299,"y":8.2,"label":"Traeger Woodridge W…"}];
+  var pts=[{"x":449,"y":9.1,"label":"Weber 18-Inch Smokey …"},{"x":1299,"y":8.2,"label":"Traeger Woodridge Woo…"}];
+  var clrs=["#1a8cff","#f97316"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_weber_smokey_mountain_vs_traeger_woodridge');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <h2>What kind of cook ends up with each</h2>
 <p>Owner language around the <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a> consistently includes words like "rewarding," "satisfying," and "earned" — the experience of a long charcoal smoke is described as something owners take pride in. In r/smoking and r/BBQ, the WSM buyer profile that appears repeatedly is someone who researched BBQ technique before buying, who describes wanting to "learn to smoke properly" rather than just producing smoked food. Many WSM owners describe buying it specifically because they wanted to understand fire management and temperature control as a skill.</p>
@@ -392,25 +437,7 @@
   <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th>Weber 18-Inch Smo…</th><th>Traeger Woodridge…</th></tr></thead>
-    <tbody>
-    <tr><td>Want to develop charcoal smoking</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Buyers for whom authentic wood-smoke</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Buyers with a budget closer</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Want to smoke food without</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>Families with busy schedules who</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-  <span class="verdict-eyebrow">Bottom Line from Owners</span>
-  <p>The <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a> produces better-tasting smoke — owners who've used both consistently report this. It requires more skill, more active management, and more tolerance for Canadian winter conditions. The <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a> produces consistent results with minimal technique, wider cooking range, and a monitoring experience suited for busy households. The $850 price gap between them is not really a spec question — it's a question about what kind of cook you are. Buyers who want to learn fire management and maximize smoke flavor: <a href="../products/weber-smokey-mountain-18.html">Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker</a>. Buyers who want reliable smoked food as part of a busy week without learning curves: <a href="../products/traeger-woodridge.html">Traeger Woodridge Wood Pellet Grill and Smoker</a>. If you choose the Woodridge, seriously consider the Pro tier for the Super Smoke Mode — base owners who cook frequently mention wanting it.</p>
-</div>
 
-      </div>
     </div>
   </article>
 

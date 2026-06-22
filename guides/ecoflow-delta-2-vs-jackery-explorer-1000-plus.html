@@ -189,17 +189,62 @@
 </div>
 <script>
 (function(){
-  var pts=[{"x":999,"y":9.1,"label":"EcoFlow DELTA 2 Por…"},{"x":1099,"y":8.8,"label":"Jackery Explorer 10…"},{"x":1499,"y":9,"label":"EcoFlow DELTA 2 Max…"}];
+  var pts=[{"x":999,"y":9.1,"label":"EcoFlow DELTA 2 Porta…"},{"x":1099,"y":8.8,"label":"Jackery Explorer 1000…"},{"x":1499,"y":9,"label":"EcoFlow DELTA 2 Max P…"}];
+  var clrs=["#1a8cff","#f97316","#8b5cf6"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_ecoflow_delta_2_vs_jackery_explorer_1000_plus');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <h2>Two different takes on the same problem</h2>
 <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> and <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> sit close enough in spec — both are ~1000Wh LFP portable power stations in the $999–$1,399 CAD range — that buyers routinely compare them directly. They're not identical products. The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> wins on charging speed, port count, and price. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> wins on surge wattage, maximum expandable capacity, and Canadian retail availability. Which matters for your situation determines which one to buy.</p>
@@ -379,25 +424,7 @@
   <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th>EcoFlow DELTA 2 P…</th><th>Jackery Explorer …</th></tr></thead>
-    <tbody>
-    <tr><td>Charging speed matters</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Need more ports simultaneously</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Budget is a priority</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Plan a solar setup</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>Canadian retail purchase and in-person</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-  <span class="verdict-eyebrow">Bottom Line from Owners</span>
-  <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> wins on pure performance per dollar — faster charging, more ports, and ~$300–400 less than the <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> at equivalent capacity. Jackery wins for Canadian buyers who value in-store purchase at Canadian Tire, higher surge output for demanding loads, and greater expandable capacity. For most camping and home backup use cases, the <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> is the smarter buy. The Jackery earns its premium only for buyers to whom its specific advantages — retail access, surge power, expansion ceiling — actually matter.</p>
-</div>
 
-      </div>
     </div>
   </article>
 

@@ -164,17 +164,62 @@
 </div>
 <script>
 (function(){
-  var pts=[{"x":799,"y":8.8,"label":"De'Longhi Magnifica…"},{"x":1149,"y":8.6,"label":"Breville Barista Ex…"},{"x":900,"y":8.5,"label":"Breville Barista Ex…"}];
+  var pts=[{"x":799,"y":8.8,"label":"De'Longhi Magnifica E…"},{"x":1149,"y":8.6,"label":"Breville Barista Expr…"},{"x":900,"y":8.5,"label":"Breville Barista Expr…"}];
+  var clrs=["#1a8cff","#f97316","#8b5cf6"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_delonghi_magnifica_evo_vs_breville_barista_express_impress');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <h2>Espresso quality — owner language, not spec sheets</h2>
         <p>On r/espresso and home-barista.com — the two communities where long-term espresso machine owners talk most specifically about shot quality — the Barista Express Impress consistently gets the edge on espresso ceiling. Owners who moved from automatic machines to the Barista Express report noticing a meaningful increase in complexity, body, and flavour separation once they dial in their grind.</p>
@@ -359,23 +404,7 @@
   <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th>De'Longhi Magnifi…</th><th>Breville Barista …</th></tr></thead>
-    <tbody>
-    <tr><td>Budget-conscious buyers</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Value per dollar spent</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Long-term reliability</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-          <span class="verdict-eyebrow">Bottom Line from Owners</span>
-          <p>Based on owner data from r/espresso, Amazon.ca, and iDrinkCoffee.com: the <a href="../products/delonghi-magnifica-evo.html">De'Longhi Magnifica Evo</a> is the right machine for buyers who want good espresso with zero daily friction — and who define "good" as consistent and convenient rather than complex. The <a href="../products/breville-barista-express-impress.html"><a href="../products/breville-barista-express.html">Breville Barista Express</a> Impress</a> is the right machine for buyers who want to engage with espresso as a skill, are willing to invest in a learning curve, and care about the quality ceiling more than the workflow. Experienced espresso drinkers who switch from a semi-automatic to the Magnifica Evo for convenience commonly report a quality trade-off. Buyers who are starting their espresso journey and go with the Barista Express Impress consistently report it becoming a long-term daily driver once dialed in.</p>
-        </div>
 
-      </div>
     </div>
   </article>
 

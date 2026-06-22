@@ -195,17 +195,62 @@
 </div>
 <script>
 (function(){
-  var pts=[{"x":699,"y":8.8,"label":"Weber Spirit II E-3…"},{"x":1299,"y":9,"label":"Napoleon Prestige 5…"}];
+  var pts=[{"x":699,"y":8.8,"label":"Weber Spirit II E-310…"},{"x":1299,"y":9,"label":"Napoleon Prestige 500…"}];
+  var clrs=["#1a8cff","#f97316"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_weber_spirit_ii_e310_vs_napoleon_prestige_500');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <h2>Heat distribution and evenness — owner reports</h2>
         <p>Weber's heat evenness is the most-praised functional characteristic in Spirit II E-310 long-term posts. "The center and edges finish at the same time" and "I've never had a hot spot in six years" appear with meaningful frequency across multi-year owner posts. Weber's Flavorizer bar design — angled metal bars above the burners — is credited both for even heat distribution and for the vaporized dripping flavor that long-term owners consistently mention as differentiating gas grill taste.</p>
@@ -365,23 +410,7 @@
   <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th>Weber Spirit II E…</th><th>Napoleon Prestige…</th></tr></thead>
-    <tbody>
-    <tr><td>Long-term reliability</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Budget-conscious buyers</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>Value per dollar spent</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-          <span class="verdict-eyebrow">Bottom Line from Owners</span>
-          <p>Based on long-term owner reports from both camps: the <a href="../products/weber-spirit-ii-e310-gas-grill.html"><a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> E-310</a> is the better grill for the majority of Canadian backyard cooks — compact, reliable, even-cooking, and backed by a warranty and service network that owners describe as genuinely excellent. The $600 premium for the <a href="../products/napoleon-prestige-500.html">Napoleon Prestige 500</a> is justified for buyers who will actually use the infrared rotisserie burner regularly, who cook for larger groups, and who want higher searing heat. The mistake both sets of buyers report making: choosing based on specs and price rather than actual use patterns. Know whether you'll use rotisserie before paying for it. Know whether 500 sq in vs. 424 sq in changes how you cook. If the answer to both is no, the <a href="../products/weber-spirit-ii-e310-gas-grill.html"><a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> E-310</a> is likely the right choice. Note: <a href="../products/napoleon-prestige-500.html">Napoleon Prestige 500</a> is not available on Amazon.ca — Canadian buyers can find it at Canadian Tire and Home Depot.</p>
-        </div>
 
-      </div>
     </div>
   </article>
 

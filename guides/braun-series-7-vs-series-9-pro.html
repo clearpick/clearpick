@@ -189,17 +189,62 @@
 </div>
 <script>
 (function(){
-  var pts=[{"x":249,"y":8.6,"label":"Braun Series 7 7085…"},{"x":399,"y":8.9,"label":"Braun Series 9 Pro …"}];
+  var pts=[{"x":249,"y":8.6,"label":"Braun Series 7 7085cc…"},{"x":399,"y":8.9,"label":"Braun Series 9 Pro 94…"}];
+  var clrs=["#1a8cff","#f97316"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_braun_series_7_vs_series_9_pro');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <h2>What the $150 gap actually buys</h2>
 <p>The <a href="../products/braun-series-9-pro-shaver.html">Braun Series 9 Pro 9477cc</a> retails at ~$399 CAD; the <a href="../products/braun-series-7-shaver.html">Braun Series 7 7085cc</a> is ~$249 CAD. The most revealing data point from owner reviews is that a meaningful portion of Series 9 Pro buyers who upgraded from a Series 7 report they can't feel the difference in daily use. "I can't tell the difference between this and the Series 7 I replaced. Both shave well. I'm not sure the extra $150 was worth it for me personally" appears as the most common Series 9 Pro complaint, not a hardware failure. This is the core question of the guide: for what beard type and shaving pattern does the $150 upgrade actually change the experience?</p>
@@ -397,25 +442,7 @@
   <div class="wba-context">Derived from ClearPick score (8.6/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th>Braun Series 7 70…</th><th>Braun Series 9 Pr…</th></tr></thead>
-    <tbody>
-    <tr><td>Beard is average or fine</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Tight-area precision around the nose</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Want lower ongoing cassette replacement</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Switching to electric shavers from</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>Beard is thick, wiry, or</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-  <span class="verdict-eyebrow">Bottom Line from Owners</span>
-  <p>The <a href="../products/braun-series-9-pro-shaver.html">Braun Series 9 Pro 9477cc</a>'s ProLift system makes a real difference for owners with coarse, wiry, or flat-lying beards — this is the specific beard type where the upgrade is clearly worth $150 more. For owners with average or fine beard density, roughly 1 in 3 Series 9 Pro upgrades from a <a href="../products/braun-series-7-shaver.html">Braun Series 7 7085cc</a> report no noticeable improvement in shave quality, making the Series 7 the better value for typical beard types. If your current shaves already feel clean, start with the Series 7. If you've had consistent problems with flat-lying hairs or missed patches on previous shavers, the Series 9 Pro is the right call.</p>
-</div>
 
-      </div>
     </div>
   </article>
 

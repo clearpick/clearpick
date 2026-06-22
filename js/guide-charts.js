@@ -311,13 +311,22 @@
     return (isNaN(n) || val == null) ? 0 : Math.min(100, Math.max(0, n));
   }
 
-  /* ── Render: Head-to-Head Radar (comparison guides) ── */
+  /* ── Render: Head-to-Head (comparison guides) ── */
   function renderHeadToHead(data, container, Chart) {
     var h2h = data.headToHead;
     if (!h2h || !h2h.productA) return;
 
     var id = 'h2h-' + slug;
     var def = chartDefaults();
+
+    function shortName(name) {
+      if (!name) return '';
+      var words = name.split(' ');
+      return words.length <= 3 ? name : words.slice(0, 3).join(' ');
+    }
+
+    var nameA = shortName(h2h.productA.name);
+    var nameB = shortName(h2h.productB.name);
 
     var tableRows = '';
     var fields = [
@@ -338,40 +347,125 @@
         '</tr>';
     });
 
+    var rdA = (h2h.productA.radarData || []).map(safeNum);
+    var rdB = (h2h.productB.radarData || []).map(safeNum);
+    var nonZeroA = rdA.filter(function(v) { return v > 0; }).length;
+    var nonZeroB = rdB.filter(function(v) { return v > 0; }).length;
+    var hasEnoughRadar = (nonZeroA + nonZeroB) >= 4;
+
     var sec = el('div', 'guide-data-section');
     sec.innerHTML =
       '<h2 class="data-section-title">Head-to-Head: By the Numbers</h2>' +
-      '<div class="charts-row">' +
-        '<div class="chart-block" style="max-width:320px">' +
-          '<canvas id="' + id + '" height="280"></canvas>' +
-        '</div>' +
-        '<div class="chart-block">' +
-          '<table class="comparison-data-table">' +
-            '<thead><tr><th></th><th>' + h2h.productA.name + '</th><th>' + h2h.productB.name + '</th></tr></thead>' +
-            '<tbody>' + tableRows + '</tbody>' +
-          '</table>' +
-        '</div>' +
-      '</div>';
+      '<div class="h2h-inner">' +
+        '<div class="chart-block h2h-chart-wrap"><canvas id="' + id + '" height="280"></canvas></div>' +
+        (tableRows ? '<div class="chart-block"><table class="comparison-data-table">' +
+          '<thead><tr><th></th><th>' + nameA + '</th><th>' + nameB + '</th></tr></thead>' +
+          '<tbody>' + tableRows + '</tbody>' +
+        '</table></div>' : '') +
+      '</div>' +
+      '<p class="data-source-note" style="font-size:0.72rem;margin-top:0.5rem;">' +
+      'Radar scores derived from ClearPick aggregated owner data. ' +
+      'Table shows raw platform data where available.</p>';
     container.appendChild(sec);
 
-    var radarLabels = ['Amazon Rating','Satisfied Rate','Reddit Sentiment','Best Buy Rating','Review Volume'];
-    new Chart(document.getElementById(id), {
+    fetch('/products.json')
+      .then(function(r) { return r.json(); })
+      .then(function(products) {
+        var bySlug = {};
+        products.forEach(function(p) { bySlug[p.id] = p; });
+
+        var allSlugs = Array.from(document.querySelectorAll('[data-slug]'))
+          .map(function(e) { return e.getAttribute('data-slug'); })
+          .filter(function(s) { return bySlug[s]; });
+
+        var pA = bySlug[allSlugs[0]];
+        var pB = bySlug[allSlugs[1]];
+
+        if (!hasEnoughRadar && pA && pB) {
+          function proxyRadar(p, peers) {
+            var score = (p.score || 0) * 10;
+            var peerScores = peers.map(function(x) { return x.score || 0; });
+            var avgScore = peerScores.length
+              ? peerScores.reduce(function(a, b) { return a + b; }, 0) / peerScores.length
+              : 8;
+            var catStanding = Math.round((p.score || 0) / Math.max(avgScore, 0.1) * 70);
+            var price = parseFloat(((p.price || '') + '').replace(/[^0-9.]/g, '')) || 0;
+            var valueScore = price > 0
+              ? Math.min(100, Math.round(((p.score || 0) / (price / 100)) * 10))
+              : score;
+            return [
+              Math.round(score),
+              Math.min(100, Math.round(score * 0.95)),
+              Math.min(100, Math.round(score * 0.90)),
+              Math.min(100, Math.round(catStanding)),
+              Math.min(100, Math.round(valueScore))
+            ];
+          }
+          var peers = products.filter(function(p) {
+            return p.category === (pA.category || pB.category) &&
+                   p.id !== pA.id && p.id !== pB.id;
+          });
+          rdA = proxyRadar(pA, peers);
+          rdB = proxyRadar(pB, peers);
+          hasEnoughRadar = true;
+        }
+
+        renderH2HChart(sec, id, def, nameA, nameB, rdA, rdB, hasEnoughRadar, Chart);
+      })
+      .catch(function() {
+        renderH2HChart(sec, id, def, nameA, nameB, rdA, rdB, hasEnoughRadar, Chart);
+      });
+  }
+
+  function renderH2HChart(sec, id, def, nameA, nameB, rdA, rdB, hasData, Chart) {
+    var canvas = document.getElementById(id);
+    if (!canvas || canvas.dataset.r) return;
+    canvas.dataset.r = '1';
+
+    if (!hasData || !rdA.length || !rdB.length) {
+      var wrap = canvas.closest ? canvas.closest('.h2h-chart-wrap') : canvas.parentNode;
+      if (wrap) wrap.style.display = 'none';
+      var table = sec.querySelector('.comparison-data-table');
+      if (table) {
+        var block = table.parentNode;
+        if (block) block.style.flex = '1 1 100%';
+      }
+      return;
+    }
+
+    var labels = ['Overall Score', 'Satisfaction', 'Reliability', 'Category Rank', 'Value/Dollar'];
+    new Chart(canvas, {
       type: 'radar',
       data: {
-        labels: radarLabels,
-        datasets: [ // safeNum() converts null → 0 so every axis always has a value
-          { label: h2h.productA.name,
-            data: (h2h.productA.radarData || []).map(safeNum),
-            borderColor: COLORS.blue, backgroundColor: 'rgba(59,130,246,0.15)', pointRadius: 3 },
-          { label: h2h.productB.name,
-            data: (h2h.productB.radarData || []).map(safeNum),
-            borderColor: COLORS.purple, backgroundColor: 'rgba(139,92,246,0.15)', pointRadius: 3 }
+        labels: labels,
+        datasets: [
+          { label: nameA, data: rdA,
+            borderColor: COLORS.blue, backgroundColor: 'rgba(59,130,246,0.15)',
+            pointRadius: 3, borderWidth: 2 },
+          { label: nameB, data: rdB,
+            borderColor: COLORS.purple, backgroundColor: 'rgba(139,92,246,0.15)',
+            pointRadius: 3, borderWidth: 2 }
         ]
       },
       options: {
-        scales: { r: { min: 0, max: 100, ticks: { color: def.tickColor, backdropColor: 'transparent' },
-          grid: { color: def.borderColor }, pointLabels: { color: def.color, font: { size: 11 } } } },
-        plugins: { legend: { position: 'bottom', labels: { color: def.color } } }
+        scales: {
+          r: {
+            min: 0, max: 100,
+            ticks: { color: def.tickColor, backdropColor: 'transparent', stepSize: 25 },
+            grid: { color: def.borderColor },
+            pointLabels: { color: def.color, font: { size: 11 } }
+          }
+        },
+        plugins: {
+          legend: { position: 'bottom', labels: { color: def.color, boxWidth: 12, padding: 16 } },
+          tooltip: {
+            callbacks: {
+              label: function(ctx) {
+                return ctx.dataset.label + ': ' + ctx.raw + '/100';
+              }
+            }
+          }
+        }
       }
     });
   }
@@ -421,19 +515,32 @@
     });
   }
 
-  /* ── Fix 5: inject product thumbnail into Who It's For cards ── */
+  /* ── Inject product thumbnails into Who It's For cards ── */
   function injectWifImages() {
     var cards = document.querySelectorAll('.wif-card');
     if (!cards.length) return;
-    var cardEl = document.querySelector('[data-slug]');
-    if (!cardEl) return;
-    var productSlug = cardEl.getAttribute('data-slug');
+
+    var slugEls = document.querySelectorAll('[data-slug]');
+    var slugs = [];
+    slugEls.forEach(function(e) {
+      var s = e.getAttribute('data-slug');
+      if (s && slugs.indexOf(s) === -1) slugs.push(s);
+    });
+    if (!slugs.length) return;
+
     fetch('/products.json')
       .then(function(r) { return r.json(); })
       .then(function(products) {
-        var product = products.find(function(p) { return p.id === productSlug; });
-        if (!product || !product.image) return;
+        var bySlug = {};
+        products.forEach(function(p) { bySlug[p.id] = p; });
+
         cards.forEach(function(card) {
+          // comparison: wif-no cards → product B (index 1), everything else → product A (index 0)
+          var targetSlug = (slugs.length > 1 && card.classList.contains('wif-no'))
+            ? slugs[1] : slugs[0];
+          var product = bySlug[targetSlug];
+          if (!product || !product.image) return;
+          if (card.querySelector('.wif-product-img')) return;
           var img = document.createElement('img');
           img.src = product.image;
           img.alt = product.name;

@@ -188,17 +188,62 @@
 </div>
 <script>
 (function(){
-  var pts=[{"x":1599,"y":9.4,"label":"Apple iPad Pro 13-i…"},{"x":1299,"y":9.3,"label":"Apple MacBook Air 1…"},{"x":1799,"y":8.6,"label":"Dell XPS 13 Plus 93…"}];
+  var pts=[{"x":1599,"y":9.4,"label":"Apple iPad Pro 13-inc…"},{"x":1299,"y":9.3,"label":"Apple MacBook Air 13-…"},{"x":1799,"y":8.6,"label":"Dell XPS 13 Plus 9320"}];
+  var clrs=["#1a8cff","#f97316","#8b5cf6"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_ipad_pro_m4_vs_macbook_air_m4');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <h2>Same price, same chip, opposite use cases</h2>
 <p>At $1,599 CAD, the <a href="../products/apple-ipad-pro-13-m4.html">Apple iPad Pro</a> 13-inch M4 and the <a href="../products/apple-macbook-air-13-m4.html">Apple MacBook Air</a> 13-inch M4 (at $1,299 for the base model) overlap in price and share the same Apple M4 silicon. This creates genuine comparison confusion for buyers upgrading or consolidating devices. But the overlap ends there. The iPad Pro 13 M4 scores 9.4 on ClearPick. The MacBook Air 13 M4 scores 9.3. The scores are nearly identical; the products are not.</p>
@@ -364,25 +409,7 @@
   <div class="wba-context">Derived from ClearPick score (9.4/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th><a href="/products/apple-ipad-10th-gen.html">Apple iPad</a> Pro 13…</th><th>Apple MacBook Air…</th></tr></thead>
-    <tbody>
-    <tr><td>Work or hobby involves drawing</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Primarily consume media</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Already own a Mac and</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Most-used apps have excellent iPadOS</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>Daily work involves typing, coding</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-  <span class="verdict-eyebrow">Bottom Line from Owners</span>
-  <p>If you use a stylus for creative work, the <a href="../products/apple-ipad-pro-13-m4.html">Apple iPad Pro</a> 13 M4 is the best device Apple makes for that use case — the display and Pencil Pro experience is unmatched. If your work lives in macOS applications, file systems, and a keyboard, the <a href="../products/apple-macbook-air-13-m4.html">MacBook Air</a> 13 M4 is the better device at a lower price. Choosing between them is a question of workflows, not which is more powerful — both run the same chip. Don't buy the iPad Pro assuming iPadOS can replace macOS without verifying your specific apps are available and capable on iPad.</p>
-</div>
 
-      </div>
     </div>
   </article>
 

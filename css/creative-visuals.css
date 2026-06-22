@@ -3,6 +3,22 @@
    Creative Guide Visuals — v2 components
    ═══════════════════════════════════════════════════════════ */
 
+/* Head-to-Head radar + table layout */
+.h2h-inner {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+.h2h-chart-wrap {
+  flex: 0 0 300px;
+  max-width: 320px;
+}
+@media (max-width: 600px) {
+  .h2h-inner { flex-direction: column; }
+  .h2h-chart-wrap { max-width: 100%; flex-basis: auto; }
+}
+
 /* Price-Score Scatter */
 .price-score-block {
   margin: 2rem 0;

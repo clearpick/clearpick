@@ -190,16 +190,61 @@
 <script>
 (function(){
   var pts=[{"x":373.6,"y":8.8,"label":"Sony WH-1000XM4"},{"x":549,"y":8.7,"label":"Sony WH-1000XM6"}];
+  var clrs=["#1a8cff","#f97316"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_sony_wh_1000xm4_vs_xm6_upgrade');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <h2>What <a href="../products/sony-wh-1000xm4.html">XM4</a> owners actually complained about</h2>
 <p>Before evaluating whether the <a href="../products/sony-wh-1000xm6.html">XM6</a> is worth the jump, it's worth establishing why <a href="../products/sony-wh-1000xm4.html">XM4</a> owners would want to leave. The <a href="../products/sony-wh-1000xm4.html">XM4</a>'s complaint data reveals three consistent issues that appear across multiple ownership cycles.</p>
@@ -363,25 +408,7 @@
   <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th>Sony WH-1000XM4</th><th>Sony WH-1000XM6</th></tr></thead>
-    <tbody>
-    <tr><td>XM4 has hinge cracking or</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>XM4 is over 2 years</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Regularly travel on flights of</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Use an Android device with</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>XM4 is under 18 months</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-  <span class="verdict-eyebrow">Bottom Line from Owners</span>
-  <p>The <a href="../products/sony-wh-1000xm6.html">WH-1000XM6</a> is a real upgrade from the <a href="../products/sony-wh-1000xm4.html">XM4</a> — not a spec-sheet refresh. The hinge is fixed, ANC is stronger in difficult environments, and battery life nearly doubles. For owners whose <a href="../products/sony-wh-1000xm4.html">XM4</a> is showing wear or damage, the upgrade is clearly justified. For owners with an intact <a href="../products/sony-wh-1000xm4.html">XM4</a> under 18 months old, the gap is meaningful but the value math doesn't clearly favour buying now. Hold, watch for promotional pricing on the <a href="../products/sony-wh-1000xm6.html">XM6</a>, and reassess when the <a href="../products/sony-wh-1000xm4.html">XM4</a> shows the first sign of failure.</p>
-</div>
 
-      </div>
     </div>
   </article>
 

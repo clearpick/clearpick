@@ -194,17 +194,62 @@
 </div>
 <script>
 (function(){
-  var pts=[{"x":549,"y":8.7,"label":"Sony WH-1000XM6"},{"x":599,"y":8.8,"label":"Bose QuietComfort U…"},{"x":499,"y":8.5,"label":"Jabra Evolve2 75"}];
+  var pts=[{"x":549,"y":8.7,"label":"Sony WH-1000XM6"},{"x":599,"y":8.8,"label":"Bose QuietComfort Ult…"},{"x":499,"y":8.5,"label":"Jabra Evolve2 75"}];
+  var clrs=["#1a8cff","#f97316","#8b5cf6"];
   function render(){
     if(typeof Chart==='undefined'){setTimeout(render,200);return;}
     var el=document.getElementById('scatter_sony_wh_1000xm6_vs_bose_quietcomfort_ultra');
     if(!el||el.dataset.r)return;
     el.dataset.r='1';
-    new Chart(el,{type:'scatter',data:{datasets:[{data:pts.map(function(p){return{x:p.x,y:p.y};}),backgroundColor:pts.map(function(_,i){return['#1a8cff','#f97316','#8b5cf6','#10b981','#ef4444'][i%5];}),pointRadius:10,pointHoverRadius:12}]},options:{animation:{onComplete:function(){var ctx=this.ctx,meta=this.getDatasetMeta(0);ctx.save();ctx.font='600 11px Inter,system-ui,sans-serif';ctx.textAlign='center';pts.forEach(function(p,i){if(!meta.data[i])return;var pos=meta.data[i].getProps(['x','y'],true);ctx.fillStyle='rgba(0,0,0,0.75)';ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);});ctx.restore();}},plugins:{legend:{display:false},tooltip:{callbacks:{label:function(c){var p=pts[c.dataIndex];return p.label+': ,scales:{x:{title:{display:true,text:'Price (CAD $)'},grid:{color:'#f3f4f6'}},y:{min:0,max:10,title:{display:true,text:'ClearPick Score'},grid:{color:'#f3f4f6'}}}}});
+    var dark=window.matchMedia&&window.matchMedia('(prefers-color-scheme:dark)').matches;
+    var gridClr=dark?'rgba(255,255,255,0.08)':'#f3f4f6';
+    var labelClr=dark?'#94a3b8':'#5c6080';
+    new Chart(el,{
+      type:'scatter',
+      data:{datasets:[{
+        data:pts.map(function(p){return{x:p.x,y:p.y};}),
+        backgroundColor:clrs,
+        pointRadius:10,
+        pointHoverRadius:13
+      }]},
+      options:{
+        animation:{
+          onComplete:function(){
+            var chart=this;
+            var ctx=chart.ctx;
+            var meta=chart.getDatasetMeta(0);
+            ctx.save();
+            ctx.font='600 11px Inter,system-ui,sans-serif';
+            ctx.textAlign='center';
+            pts.forEach(function(p,i){
+              var pt=meta.data[i];
+              if(!pt)return;
+              var pos=pt.getProps(['x','y'],true);
+              ctx.fillStyle=dark?'#e2e8f0':'rgba(0,0,0,0.75)';
+              ctx.fillText(p.label.split(' ').slice(0,2).join(' '),pos.x,pos.y-14);
+            });
+            ctx.restore();
+          }
+        },
+        plugins:{
+          legend:{display:false},
+          tooltip:{callbacks:{label:function(c){
+            var p=pts[c.dataIndex];
+            return p.label+': $'+p.x+' | '+p.y+'/10';
+          }}}
+        },
+        scales:{
+          x:{title:{display:true,text:'Price (CAD)',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}},
+          y:{min:0,max:10,title:{display:true,text:'ClearPick Score',color:labelClr},grid:{color:gridClr},ticks:{color:labelClr}}
+        }
+      }
+    });
   }
   if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
 })();
 </script>
+
+
 
 <p>Bose QCU buyers are disproportionately office workers and long-haul commuters who put comfort above customization. The single most common praise phrase across owner reviews: "wore them all day without noticing them." Buyers who chose Bose over Sony specifically mention preferring the simpler app experience and the plush earcup feel. A recurring pattern: QCU buyers who came from older Bose QC models and found the comfort expectation met immediately.</p>
 
@@ -376,25 +421,7 @@
   <div class="wba-context">Derived from ClearPick score (8.7/10) based on aggregated owner sentiment</div>
 </div>
 
-<div class="best-for-matrix">
-  <h3>Best For — At a Glance</h3>
-  <table class="bfm-table">
-    <thead><tr><th>Use Case</th><th>Sony WH-1000XM6</th><th>Bose QuietComfort…</th></tr></thead>
-    <tbody>
-    <tr><td>Travel more than once a</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Use an Android device with</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Want granular ANC and ambient</td><td class="cell-win">Winner</td><td class="cell-weak">Weaker</td></tr>
-    <tr><td>Wear headphones 6</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    <tr><td>Already in the Bose ecosystem</td><td class="cell-weak">Weaker</td><td class="cell-win">Winner</td></tr>
-    </tbody>
-  </table>
-</div>
-<div class="verdict-box">
-  <span class="verdict-eyebrow">Bottom Line from Owners</span>
-  <p>Based on owner data: the <a href="../products/sony-wh-1000xm6.html">Sony WH-1000XM6</a> is the better headphone for most buyers — it has more battery life, better ANC customization, comparable noise suppression, and a solved hinge problem. The <a href="../products/bose-quietcomfort-ultra-headphones.html">Bose QuietComfort Ultra</a> is the right choice for one specific buyer: the all-day wearer who prioritizes comfort over everything else and doesn't want to manage a feature-heavy app. If you're choosing between them, ask whether you've ever had a headphone give you ear or head fatigue during extended wear. If yes, Bose. If not, Sony.</p>
-</div>
 
-      </div>
     </div>
   </article>
 
