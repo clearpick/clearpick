@@ -4,10 +4,10 @@
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="favicon.svg" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Buying Guides | ClearPick</title>
-  <meta name="description" content="ClearPick buying guides — expert recommendations, comparisons, and how-to advice to help you buy the right product the first time." />
-  <meta property="og:title" content="Buying Guides | ClearPick" />
-  <meta property="og:description" content="ClearPick buying guides — expert recommendations and comparisons for every category." />
+  <title>Buying Guides &amp; Product Reports | ClearPick</title>
+  <meta name="description" content="In-depth buying guides, product comparisons, owner reports, and honest breakdowns to help Canadians make smarter purchases." />
+  <meta property="og:title" content="Buying Guides &amp; Product Reports | ClearPick" />
+  <meta property="og:description" content="In-depth buying guides, product comparisons, owner reports, and honest breakdowns to help Canadians make smarter purchases." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://clearpick.ca/guides.html" />
   <meta property="og:image" content="https://clearpick.ca/og-image.png" />
@@ -15,15 +15,18 @@
   <link rel="canonical" href="https://clearpick.ca/guides.html" />
   <link rel="stylesheet" href="css/style.css" />
   <style>
-    .guides-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 32px; }
-    .guide-card { display: flex; flex-direction: column; background: var(--surface, #1a1a2e); border: 1px solid var(--border, rgba(255,255,255,.08)); border-radius: 12px; padding: 24px; text-decoration: none; color: inherit; transition: border-color .2s, transform .2s; }
-    .guide-card:hover { border-color: var(--accent, #1a8cff); transform: translateY(-2px); }
-    .guide-card__type { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; opacity: .5; margin-bottom: 8px; }
-    .guide-card__title { font-size: 1.1rem; font-weight: 700; margin: 0 0 10px; }
-    .guide-card__desc { font-size: .9rem; opacity: .7; margin: 0 0 16px; flex: 1; }
-    .guide-card__cta { font-size: .85rem; font-weight: 600; color: var(--accent, #1a8cff); }
-    .guides-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
-    .guides-empty { text-align: center; padding: 80px 20px; opacity: .5; }
+    .guides-hero { padding: 2.5rem 0 1.5rem; }
+    .guides-hero h1 { font-size: clamp(1.6rem, 2.5vw + 1rem, 2.4rem); font-weight: 800; margin-bottom: 0.75rem; color: var(--color-text-primary); }
+    .guides-hero p { font-size: 1rem; line-height: 1.75; color: var(--color-text-secondary); max-width: 640px; }
+    .guides-filter-bar { display: flex; flex-wrap: wrap; gap: 8px; margin: 1.5rem 0 2rem; }
+    .guide-card { display: flex; flex-direction: column; background: var(--color-surface); border: 1px solid var(--color-border); border-radius: 10px; padding: 1.25rem 1.5rem; text-decoration: none; color: inherit; transition: border-color .2s, transform .2s, box-shadow .2s; }
+    .guide-card:hover { border-color: var(--color-accent); transform: translateY(-2px); box-shadow: 0 4px 16px rgba(0,0,0,.15); }
+    .guide-card__type { font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--color-accent); margin-bottom: 8px; }
+    .guide-card__title { font-size: 1rem; font-weight: 700; margin: 0 0 10px; line-height: 1.4; color: var(--color-text-primary); }
+    .guide-card__desc { font-size: .875rem; color: var(--color-text-secondary); margin: 0 0 1rem; flex: 1; line-height: 1.6; }
+    .guide-card__cta { font-size: .85rem; font-weight: 600; color: var(--color-accent); }
+    .guides-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 1.25rem; }
+    .guides-empty { text-align: center; padding: 80px 20px; color: var(--color-text-secondary); }
     .guides-empty h2 { font-size: 1.4rem; margin-bottom: 8px; }
   </style>
 </head>
@@ -58,6 +61,7 @@
           <ul class="search-results" id="header-search-results" role="listbox" aria-label="Search suggestions" hidden></ul>
         </div>
         <div class="header-actions">
+          <button class="header-search-btn" id="header-search-btn" aria-label="Open search"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></button>
           <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
           </button>
@@ -66,31 +70,26 @@
     </div>
   </header>
 
-  <section class="page-hero">
+  <main>
     <div class="container">
-      <div class="page-hero__icon">📖</div>
-      <h1 class="page-hero__title">Buying Guides</h1>
-      <p class="page-hero__subtitle">Expert advice, head-to-head comparisons, and category deep-dives — everything you need to buy right the first time.</p>
-    </div>
-  </section>
+      <section class="guides-hero">
+        <h1>Buying Guides &amp; Product Reports</h1>
+        <p>Not reviews. Reports — built from what real owners say after months of use. Every piece is sourced from Amazon reviews, Reddit threads, and owner communities.</p>
+      </section>
 
-  <section class="section">
-    <div class="container">
-      <div class="guides-filter-bar" id="guides-filter-bar">
-        <button class="filter-pill filter-pill--active" data-guide-type="all">All Guides</button>
-        <button class="filter-pill" data-guide-type="buying-guide">Buying Guides</button>
-        <button class="filter-pill" data-guide-type="comparison">Comparisons</button>
-        <button class="filter-pill" data-guide-type="how-to">How-To</button>
-        <button class="filter-pill" data-guide-type="roundup">Roundups</button>
-      </div>
+      <nav class="guides-filter-bar" aria-label="Filter guides by type" id="guides-filter-bar">
+        <button class="filter-pill filter-pill--active" data-filter="all">All</button>
+        <button class="filter-pill" data-filter="comparison">Comparisons</button>
+        <button class="filter-pill" data-filter="top5">Top 5 Lists</button>
+        <button class="filter-pill" data-filter="worthit">Is It Worth It?</button>
+        <button class="filter-pill" data-filter="sentiment">Owner Reports</button>
+      </nav>
+
       <div class="guides-grid" id="guides-grid">
-        <div class="guides-empty">
-          <h2>Guides Coming Soon</h2>
-          <p>We're building out our guides library. Check back soon.</p>
-        </div>
+        <div class="guides-empty"><h2>Loading guides…</h2></div>
       </div>
     </div>
-  </section>
+  </main>
 
   <footer class="site-footer">
     <div class="container">
@@ -100,7 +99,7 @@
             <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
             ClearPick
           </a>
-          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
+          <p class="footer-brand__tagline">One Review. Thousands of Opinions Behind It.</p>
         </div>
         <div class="footer-col">
           <div class="footer-col__heading">Categories</div>
@@ -133,40 +132,51 @@
       </div>
     </div>
   </footer>
-  <script>
-    const themeBtn = document.querySelector('[data-theme-toggle]');
-    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
-    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
-  </script>
+
   <script>
     (function () {
-      fetch('guides.json')
-        .then(r => r.json())
-        .then(data => {
-          const guides = data.guides || [];
-          if (guides.length === 0) return;
-          const grid = document.getElementById('guides-grid');
-          grid.innerHTML = guides.map(g =>
-            '<a class="guide-card" href="guides/' + g.slug + '.html" data-guide-type="' + (g.type || 'buying-guide') + '">' +
-            '<div class="guide-card__type">' + (g.typeLabel || 'Buying Guide') + '</div>' +
-            '<h2 class="guide-card__title">' + g.title + '</h2>' +
-            '<p class="guide-card__desc">' + g.description + '</p>' +
-            '<span class="guide-card__cta">Read Guide &rarr;</span>' +
-            '</a>'
-          ).join('');
+      var TYPE_LABELS = {
+        comparison: 'Comparison',
+        top5: 'Top 5 List',
+        worthit: 'Is It Worth It?',
+        sentiment: 'Owner Report'
+      };
 
-          document.querySelectorAll('[data-guide-type]').forEach(btn => {
+      fetch('guides.json')
+        .then(function (r) { return r.json(); })
+        .then(function (data) {
+          var guides = data.guides || [];
+          var grid = document.getElementById('guides-grid');
+
+          function render(filter) {
+            var filtered = filter === 'all' ? guides : guides.filter(function (g) { return g.type === filter; });
+            if (filtered.length === 0) {
+              grid.innerHTML = '<div class="guides-empty"><h2>No guides in this category yet</h2></div>';
+              return;
+            }
+            grid.innerHTML = filtered.map(function (g) {
+              return '<a class="guide-card" href="guides/' + g.slug + '.html" data-type="' + (g.type || '') + '">' +
+                '<div class="guide-card__type">' + (TYPE_LABELS[g.type] || g.typeLabel || 'Guide') + '</div>' +
+                '<h2 class="guide-card__title">' + g.title + '</h2>' +
+                '<p class="guide-card__desc">' + g.description + '</p>' +
+                '<span class="guide-card__cta">Read guide &rarr;</span>' +
+                '</a>';
+            }).join('');
+          }
+
+          render('all');
+
+          document.querySelectorAll('#guides-filter-bar .filter-pill').forEach(function (btn) {
             btn.addEventListener('click', function () {
-              const type = this.dataset.guideType;
-              document.querySelectorAll('[data-guide-type]').forEach(b => b.classList.remove('filter-pill--active'));
-              this.classList.add('filter-pill--active');
-              document.querySelectorAll('.guide-card').forEach(card => {
-                card.style.display = (type === 'all' || card.dataset.guideType === type) ? '' : 'none';
-              });
+              document.querySelectorAll('#guides-filter-bar .filter-pill').forEach(function (b) { b.classList.remove('filter-pill--active'); });
+              btn.classList.add('filter-pill--active');
+              render(btn.dataset.filter);
             });
           });
         })
-        .catch(() => {});
+        .catch(function () {
+          document.getElementById('guides-grid').innerHTML = '<div class="guides-empty"><h2>Guides unavailable</h2></div>';
+        });
     })();
   </script>
   <script src="js/nav-inject.js"></script>

@@ -144,6 +144,7 @@
         '<div class="mob-nav__body">' + mobGroups + '</div>' +
         '<nav class="mob-nav__footer" aria-label="Site links">' +
         '<a href="' + pre + 'index.html" class="mob-nav__footer-link">Home</a>' +
+        '<a href="' + pre + 'guides.html" class="mob-nav__footer-link">Guides</a>' +
         '<a href="' + pre + 'blog/index.html" class="mob-nav__footer-link">Blog</a>' +
         '<a href="' + pre + 'about.html" class="mob-nav__footer-link">About</a>' +
         '<a href="' + pre + 'faq.html" class="mob-nav__footer-link">How It Works</a>' +

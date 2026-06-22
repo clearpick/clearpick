@@ -2097,6 +2097,55 @@ a:hover { color: var(--color-primary-hover); }
   align-self: flex-start;
 }
 
+/* ─── Guide Callout (product pages) ─── */
+.guide-callouts {
+  padding: var(--space-4) 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+.guide-callout {
+  border-left: 3px solid var(--color-accent);
+  padding: 0.6rem 1rem;
+  background: var(--color-surface);
+  border-radius: 0 6px 6px 0;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  font-size: 0.9rem;
+}
+.guide-callout-label {
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--color-text-secondary);
+}
+.guide-callout a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+.guide-callout a:hover {
+  text-decoration: underline;
+}
+
+/* ─── Filter Pill (guides page) ─── */
+.filter-pill {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--color-border);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-family: inherit;
+  transition: all 0.15s;
+}
+.filter-pill--active,
+.filter-pill:hover {
+  background: var(--color-accent);
+  color: #fff;
+  border-color: var(--color-accent);
+}
+
 .featured-review__name {
   font-family: var(--font-display);
   font-size: var(--text-2xl);
