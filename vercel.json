@@ -3,5 +3,37 @@
   "outputDirectory": ".",
   "framework": null,
   "cleanUrls": false,
-  "trailingSlash": false
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/cameras.html",
+      "destination": "/cameras-photography.html",
+      "permanent": true
+    },
+    {
+      "source": "/outdoor-cooking.html",
+      "destination": "/bbq-outdoor-cooking.html",
+      "permanent": true
+    },
+    {
+      "source": "/outdoor-garden.html",
+      "destination": "/sports-outdoors.html",
+      "permanent": true
+    },
+    {
+      "source": "/sports-fitness.html",
+      "destination": "/fitness.html",
+      "permanent": true
+    },
+    {
+      "source": "/kitchen.html",
+      "destination": "/kitchen-dining.html",
+      "permanent": true
+    },
+    {
+      "source": "/photography-video.html",
+      "destination": "/cameras-photography.html",
+      "permanent": true
+    }
+  ]
 }
