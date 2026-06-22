@@ -190,21 +190,27 @@ function replaceNames(text, linked) {
 
 /* ── File collection ─────────────────────────────────────── */
 
+// Legal/utility pages where product links don't belong
+const EXCLUDED_FILES = [
+  'affiliate-links.html',
+  'privacy.html',
+  'faq.html',
+  'about.html',
+  'methodology.html',
+];
+
 function collectHtmlFiles() {
   const files = [];
-  const dirs  = [
-    { dir: ROOT,                  sub: false }, // root .html files only
-    { dir: path.join(ROOT, 'guides'),   sub: false },
-    { dir: path.join(ROOT, 'products'), sub: false },
-    { dir: path.join(ROOT, 'blog'),     sub: false },
-    { dir: path.join(ROOT, 'compare'),  sub: false },
-  ];
 
   // Root: just *.html files directly in root (not subdirectories)
   try {
-    fs.readdirSync(ROOT).filter(f => f.endsWith('.html') && f !== 'google490b2d51ae757074.html').forEach(f => {
-      files.push(path.join(ROOT, f));
-    });
+    fs.readdirSync(ROOT)
+      .filter(f => f.endsWith('.html') &&
+                   f !== 'google490b2d51ae757074.html' &&
+                   !EXCLUDED_FILES.includes(f))
+      .forEach(f => {
+        files.push(path.join(ROOT, f));
+      });
   } catch (e) {}
 
   // Subdirectories
@@ -230,6 +236,8 @@ function main() {
   const productHits = {}; // slug → count
 
   for (const filepath of files) {
+    if (EXCLUDED_FILES.some(ex => filepath.endsWith(ex))) continue;
+
     const slug = filepath.includes(path.sep + 'products' + path.sep)
       ? path.basename(filepath, '.html')
       : null;
