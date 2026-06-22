@@ -190,6 +190,7 @@
     if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
     document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
   </script>
+  <script src="../js/guide-product-cards.js"></script>
   <script src="../js/nav-inject.js"></script>
 </body>
 </html>

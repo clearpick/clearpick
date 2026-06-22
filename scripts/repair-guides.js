@@ -1,127 +1,92 @@
-<!DOCTYPE html>
-<html lang="en" data-theme="dark">
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="../favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Sony WH-1000XM4 to XM6: Owners Who Upgraded Report Back | ClearPick</title>
-  <meta name="description" content="XM4 owners who upgraded to the XM6 — what they actually found. Is it worth the jump? Data from real switchers." />
-  <meta property="og:title" content="Sony WH-1000XM4 to XM6: Owners Who Upgraded Report Back | ClearPick" />
-  <meta property="og:description" content="XM4 owners who upgraded to the XM6 — what they actually found. Is it worth the jump? Data from real switchers." />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://clearpick.ca/guides/sony-wh-1000xm4-vs-xm6-upgrade.html" />
-  <meta property="og:image" content="https://clearpick.ca/og-image.png" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://clearpick.ca/guides/sony-wh-1000xm4-vs-xm6-upgrade.html" />
-  <link rel="stylesheet" href="../css/style.css" />
-  <script type="application/ld+json">
+'use strict';
+const fs   = require('fs');
+const path = require('path');
+
+const ROOT       = path.join(__dirname, '..');
+const GUIDES_DIR = path.join(ROOT, 'guides');
+
+// ── 1. Fix jbl-flip-6-vs-jbl-flip-7.html ─────────────────────────────────────
 {
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "headline": "Sony WH-1000XM4 to XM6: Owners Who Upgraded Report Back",
-      "description": "XM4 owners who upgraded to the XM6 — what they actually found. Is it worth the jump? Data from real switchers.",
-      "datePublished": "2026-06-21",
-      "dateModified": "2026-06-21",
-      "author": {
-        "@type": "Organization",
-        "name": "ClearPick",
-        "url": "https://clearpick.ca"
-      },
-      "publisher": {
-        "@type": "Organization",
-        "name": "ClearPick",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://clearpick.ca/og-image.png"
-        }
-      },
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://clearpick.ca/guides/sony-wh-1000xm4-vs-xm6-upgrade.html"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "Home",
-          "item": "https://clearpick.ca/"
-        },
-        {
-          "@type": "ListItem",
-          "position": 2,
-          "name": "Guides",
-          "item": "https://clearpick.ca/guides.html"
-        },
-        {
-          "@type": "ListItem",
-          "position": 3,
-          "name": "Sony WH-1000XM4 to XM6: Owners Who Upgraded Report Back",
-          "item": "https://clearpick.ca/guides/sony-wh-1000xm4-vs-xm6-upgrade.html"
-        }
-      ]
-    }
-  ]
+  const file = path.join(GUIDES_DIR, 'jbl-flip-6-vs-jbl-flip-7.html');
+  let html = fs.readFileSync(file, 'utf8');
+
+  // The corrupted div+close strings come from $1 and $3 capture-group substitution:
+  //   $1  = '<div class="guide-article__body">'  (group 1)
+  //   $3  = '</div>\n    </div>\n  </article>'   (group 3)
+  // So "$149" → "$1" + "49" → '<div class="guide-article__body">49'
+  //    "$179" → '<div class="guide-article__body">79'
+  //    "$30"  → '$3' + '0' → '</div>\n    </div>\n  </article>0'
+
+  const close3 = '</div>\n    </div>\n  </article>';
+  const open1  = '<div class="guide-article__body">';
+
+  html = html
+    // Prices with $1XX → open1 + digits
+    .replace(open1 + '49 CAD. The <a href="../products/jbl-flip-7.html">JBL Flip 7</a> is approximately ' + open1 + '79 CAD — a ' + close3 + '0 difference.',
+             '$149 CAD. The <a href="../products/jbl-flip-7.html">JBL Flip 7</a> is approximately $179 CAD — a $30 difference.')
+    .replace('that ' + close3 + '0 premium for',
+             'that $30 premium for')
+    .replace('At ' + close3 + '0 more, the improvements',
+             'At $30 more, the improvements')
+    .replace('The Flip 6 at ' + open1 + '49 is only',
+             'The Flip 6 at $149 is only')
+    .replace('at ' + open1 + '79 CAD vs ' + open1 + '49 for',
+             'at $179 CAD vs $149 for');
+
+  fs.writeFileSync(file, html, 'utf8');
+  console.log('Fixed: jbl-flip-6-vs-jbl-flip-7.html');
 }
-  </script>
-</head>
-<body>
-  <header class="site-header" id="site-header">
-    <div class="container">
-      <div class="header-inner">
-        <a href="../index.html" class="logo">
-          <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          <span class="logo__wordmark">ClearPick<span class="logo__tagline">Every Review. One Clear Verdict.</span></span>
-        </a>
-        <nav class="nav" aria-label="Main">
-          <a href="../index.html" class="nav__link">Home</a>
-          <details class="nav__dropdown">
-            <summary class="nav__link nav__dropdown-trigger">
-              Categories
-              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" class="dropdown-chevron"><path d="m6 9 6 6 6-6"/></svg>
-            </summary>
-            <div class="dropdown__menu" role="menu"></div>
-          </details>
-          <a href="../guides.html" class="nav__link">Guides</a>
-          <a href="../blog/index.html" class="nav__link">Blog</a>
-          <a href="../about.html" class="nav__link">About</a>
-          <a href="../faq.html" class="nav__link">How It Works</a>
-        </nav>
-        <div class="header-actions">
-          <button class="theme-toggle" data-theme-toggle aria-label="Toggle theme">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
-          </button>
-        </div>
-      </div>
-    </div>
-  </header>
 
-  <nav class="breadcrumb" aria-label="Breadcrumb">
-    <div class="container">
-      <ol class="breadcrumb__list">
-        <li class="breadcrumb__item"><a href="../index.html">Home</a></li>
-        <li class="breadcrumb__item"><a href="../guides.html">Guides</a></li>
-        <li class="breadcrumb__item" aria-current="page">Sony WH-1000XM4 to XM6: Owners Who Upgraded Report Back</li>
-      </ol>
-    </div>
-  </nav>
+// ── 2. Fix ecoflow-delta-2-vs-jackery-explorer-1000-plus.html ─────────────────
+{
+  const file = path.join(GUIDES_DIR, 'ecoflow-delta-2-vs-jackery-explorer-1000-plus.html');
+  let html = fs.readFileSync(file, 'utf8');
 
-  <article class="guide-article">
-    <div class="container">
-      <header class="guide-article__header">
-        <div class="guide-article__type">Comparison</div>
-        <h1 class="guide-article__title">Sony WH-1000XM4 to XM6: Owners Who Upgraded Report Back</h1>
-        <p class="guide-article__lead">XM4 owners who upgraded to the XM6 — what they actually found. Is it worth the jump? Data from real switchers.</p>
-        <div class="guide-article__meta">
-          <time datetime="2026-06-21">Published 2026-06-21</time>
-          <span class="guide-article__author">by ClearPick</span>
-        </div>
-      </header>
-      <div class="guide-article__body">
+  const close3 = '</div>\n    </div>\n  </article>';
+  const open1  = '<div class="guide-article__body">';
+
+  // Nested anchor bug: <a href="X"><a href="X">Name</a> Plus</a>
+  // Replace all doubled anchors for Jackery Explorer 1000 Plus
+  const badJackery = '<a href="../products/jackery-explorer-1000-plus.html"><a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000</a> Plus</a>';
+  const goodJackery = '<a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a>';
+  while (html.includes(badJackery)) {
+    html = html.split(badJackery).join(goodJackery);
+  }
+
+  // Price corruptions:
+  // "$1,299" → open1 + ",299"
+  // "$1,399" → open1 + ",399"
+  // "$300–400" → close3 + "00–400" (from $3 + "00–400")
+  // "$400"     → close3 + "00" (appears in list item and verdict)
+  html = html
+    .replace('$999–' + open1 + ',399 CAD range',
+             '$999–$1,399 CAD range')
+    .replace('approximately ' + open1 + ',299–1,399 CAD depending',
+             'approximately $1,299–1,399 CAD depending')
+    .replace('The ~' + close3 + '00–400 gap is significant',
+             'The ~$300–400 gap is significant')
+    .replace('Budget is a priority — ' + close3 + '00–400 less',
+             'Budget is a priority — $300–400 less')
+    .replace('(~' + open1 + ',299 CAD) if:',
+             '(~$1,299 CAD) if:')
+    .replace('more ports, and ~' + close3 + '00–400 less',
+             'more ports, and ~$300–400 less');
+
+  fs.writeFileSync(file, html, 'utf8');
+  console.log('Fixed: ecoflow-delta-2-vs-jackery-explorer-1000-plus.html');
+}
+
+// ── 3. Fix sony-wh-1000xm4-vs-xm6-upgrade.html ───────────────────────────────
+{
+  const file = path.join(GUIDES_DIR, 'sony-wh-1000xm4-vs-xm6-upgrade.html');
+  let html = fs.readFileSync(file, 'utf8');
+
+  // Replace everything between the opening guide-article__body div and the
+  // final </article> closer with clean, single-copy, fully-linked content.
+  const bodyOpen  = '      <div class="guide-article__body">';
+  const bodyClose = '      </div>\n    </div>\n  </article>';
+
+  const cleanBody = `
 
 <div class="product-card-inline" data-slug="sony-wh-1000xm4"></div>
 <div class="product-card-inline" data-slug="sony-wh-1000xm6"></div>
@@ -168,42 +133,55 @@
   <p>The <a href="../products/sony-wh-1000xm6.html">WH-1000XM6</a> is a real upgrade from the <a href="../products/sony-wh-1000xm4.html">XM4</a> — not a spec-sheet refresh. The hinge is fixed, ANC is stronger in difficult environments, and battery life nearly doubles. For owners whose <a href="../products/sony-wh-1000xm4.html">XM4</a> is showing wear or damage, the upgrade is clearly justified. For owners with an intact <a href="../products/sony-wh-1000xm4.html">XM4</a> under 18 months old, the gap is meaningful but the value math doesn't clearly favour buying now. Hold, watch for promotional pricing on the <a href="../products/sony-wh-1000xm6.html">XM6</a>, and reassess when the <a href="../products/sony-wh-1000xm4.html">XM4</a> shows the first sign of failure.</p>
 </div>
 
-      </div>
-    </div>
-  </article>
+`;
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-inner">
-        <div class="footer-brand">
-          <a href="../index.html" class="logo">
-            <svg class="logo-mark" width="32" height="32" viewBox="0 0 36 36" aria-hidden="true"><circle cx="18" cy="18" r="12" fill="none" stroke="#1a8cff" stroke-width="2.5"/><line x1="9.5" y1="26.5" x2="5.3" y2="30.7" stroke="#1a8cff" stroke-width="3.5" stroke-linecap="round"/><polyline points="13,18.5 16.5,22 23.5,13.5" fill="none" stroke="#1a8cff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg>
-            ClearPick
-          </a>
-          <p class="footer-brand__tagline">Honest product reviews for people who want to buy right the first time.</p>
-        </div>
-        <div class="footer-col">
-          <div class="footer-col__heading">Site</div>
-          <ul class="footer-links">
-            <li><a href="../guides.html">Buying Guides</a></li>
-            <li><a href="../blog/index.html">Blog</a></li>
-            <li><a href="../about.html">About</a></li>
-            <li><a href="../faq.html">How It Works</a></li>
-            <li><a href="../privacy.html">Privacy Policy</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p class="footer-bottom__copy">© 2026 ClearPick. <a href="../about.html">About</a> · <a href="../faq.html">How It Works</a> · <a href="../privacy.html">Privacy Policy</a></p>
-      </div>
-    </div>
-  </footer>
-  <script>
-    const themeBtn = document.querySelector('[data-theme-toggle]');
-    if (themeBtn) { const html = document.documentElement; themeBtn.addEventListener('click', () => { html.setAttribute('data-theme', html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark'); }); }
-    document.addEventListener('click', function(e) { const dd = document.querySelector('.nav__dropdown'); if (dd && dd.open && !dd.contains(e.target)) dd.removeAttribute('open'); });
-  </script>
-  <script src="../js/guide-product-cards.js"></script>
-  <script src="../js/nav-inject.js"></script>
-</body>
-</html>
+  // Find the body open and the LAST </article> (which is the real one)
+  const bodyOpenIdx = html.indexOf(bodyOpen);
+  if (bodyOpenIdx === -1) {
+    console.error('ERROR: could not find body open in sony file');
+    process.exit(1);
+  }
+
+  const lastArticleClose = html.lastIndexOf(bodyClose);
+  if (lastArticleClose === -1) {
+    console.error('ERROR: could not find body close in sony file');
+    process.exit(1);
+  }
+
+  html =
+    html.slice(0, bodyOpenIdx + bodyOpen.length) +
+    cleanBody +
+    '      ' +
+    html.slice(lastArticleClose + '      '.length);
+
+  fs.writeFileSync(file, html, 'utf8');
+  console.log('Fixed: sony-wh-1000xm4-vs-xm6-upgrade.html');
+}
+
+// ── 4. Add guide-product-cards.js to all guide pages ─────────────────────────
+{
+  const SCRIPT_TAG  = '<script src="../js/guide-product-cards.js"></script>';
+  const NAV_SCRIPT  = '<script src="../js/nav-inject.js"></script>';
+  let added = 0;
+  let skipped = 0;
+
+  for (const name of fs.readdirSync(GUIDES_DIR)) {
+    if (!name.endsWith('.html')) continue;
+    const file = path.join(GUIDES_DIR, name);
+    let html = fs.readFileSync(file, 'utf8');
+
+    if (html.includes('guide-product-cards.js')) { skipped++; continue; }
+    if (!html.includes(NAV_SCRIPT)) {
+      console.warn('  [warn] nav-inject script not found in', name);
+      continue;
+    }
+
+    html = html.replace(NAV_SCRIPT, SCRIPT_TAG + '\n  ' + NAV_SCRIPT);
+    fs.writeFileSync(file, html, 'utf8');
+    added++;
+  }
+
+  console.log(`\nProduct cards script: added to ${added} guides, ${skipped} already had it`);
+}
+
+console.log('\nDone.');
