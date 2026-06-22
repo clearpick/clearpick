@@ -4969,11 +4969,11 @@ article.guide-content h2 {
 
 /* ─── Guide data section wrapper ─── */
 .guide-data-section {
-  margin: 2rem 0;
-  padding: 1.5rem;
+  margin: 2.75rem 0;
+  padding: 1.75rem;
   background: var(--color-surface-2);
   border: 1px solid var(--color-border);
-  border-radius: 10px;
+  border-radius: 12px;
 }
 .guide-data-section .data-section-title {
   font-size: 1.1rem;
@@ -5295,12 +5295,31 @@ article.guide-content h2 {
 .guide-section-break {
   height: 1px;
   background: linear-gradient(to right, transparent, #e5e7eb 20%, #e5e7eb 80%, transparent);
-  margin: 2.5rem 0;
+  margin: 3.25rem 0;
+}
+
+/* ─── Chart container rhythm ─── */
+.guide-charts-container {
+  margin: 2.5rem 0 3.5rem;
+}
+
+/* Transition from chart zone back to prose */
+.guide-charts-container + h2,
+.guide-charts-container + .guide-section-break {
+  margin-top: 0;
+}
+
+/* Inline chart containers distributed through article body */
+.guide-inline-chart {
+  margin: 2.5rem 0 3rem;
+}
+.guide-inline-chart .guide-data-section {
+  margin: 0;
 }
 
 /* ─── Guide chart block ─── */
 .guide-chart-block {
-  margin: 1.75rem 0;
+  margin: 2.25rem 0;
   padding: 1.5rem;
   background: var(--color-surface-2, #f8f9fc);
   border: 1px solid var(--color-border, #e0e3f0);

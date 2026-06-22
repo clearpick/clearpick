@@ -579,24 +579,78 @@
   function renderAll(data, body) {
     var C = window.Chart;
 
-    // Glance always goes first (no chart)
     renderGlance(data, body);
 
-    // Charts go after glance, before existing content
-    var chartContainer = el('div', 'guide-charts-container');
-    var firstH2 = body.querySelector('h2');
-    if (firstH2) {
-      body.insertBefore(chartContainer, firstH2);
-    } else {
-      body.appendChild(chartContainer);
+    var h2s = Array.from(body.querySelectorAll('h2'));
+    var totalH2s = h2s.length;
+
+    // Build list of render functions that have data
+    var renders = [];
+    if ((data.sources || {}).amazon && data.sources.amazon.reviewCount) {
+      renders.push(function(c) { renderAmazon(data, c, C); });
+    }
+    if ((data.sources || {}).reddit && data.sources.reddit.postCount) {
+      renders.push(function(c) { renderReddit(data, c, C); });
+    }
+    if (renders.length < 2 && (data.sources || {}).bestbuy) {
+      renders.push(function(c) { renderPlatforms(data, c, C); });
+    }
+    if (data.complaintsData && data.complaintsData.length) {
+      renders.push(function(c) { renderComplaints(data, c, C); });
+    }
+    if ((data.headToHead || {}).productA) {
+      renders.push(function(c) { renderHeadToHead(data, c, C); });
+    }
+    if (data.timeline) {
+      renders.push(function(c) { renderTimeline(data, c, C); });
     }
 
-    renderAmazon(data, chartContainer, C);
-    renderReddit(data, chartContainer, C);
-    renderPlatforms(data, chartContainer, C);
-    renderComplaints(data, chartContainer, C);
-    renderHeadToHead(data, chartContainer, C);
-    renderTimeline(data, chartContainer, C);
+    if (!renders.length) return;
+
+    // Fallback: fewer than 2 H2s → single container before first H2
+    if (totalH2s < 2) {
+      var fallback = el('div', 'guide-charts-container');
+      var firstH2 = h2s[0];
+      if (firstH2 && firstH2.parentNode === body) {
+        body.insertBefore(fallback, firstH2);
+      } else {
+        body.appendChild(fallback);
+      }
+      renders.forEach(function(fn) { fn(fallback); });
+      return;
+    }
+
+    // Distribute: space sections evenly across H2 positions
+    var step = Math.floor(totalH2s / (renders.length + 1));
+    if (step < 1) step = 1;
+
+    renders.forEach(function(renderFn, i) {
+      var container = el('div', 'guide-inline-chart');
+      var h2Index = Math.min((i + 1) * step - 1, totalH2s - 1);
+      var targetH2 = h2s[h2Index];
+      var nextH2 = h2s[h2Index + 1];
+
+      // Find section-break between this H2 and next — inject before it
+      var sib = targetH2.nextElementSibling;
+      var insertPoint = nextH2 || null;
+      while (sib && sib !== nextH2) {
+        if (sib.classList && sib.classList.contains('guide-section-break')) {
+          insertPoint = sib;
+          break;
+        }
+        sib = sib.nextElementSibling;
+      }
+
+      if (insertPoint && insertPoint.parentNode === body) {
+        body.insertBefore(container, insertPoint);
+      } else if (nextH2 && nextH2.parentNode === body) {
+        body.insertBefore(container, nextH2);
+      } else {
+        body.appendChild(container);
+      }
+
+      renderFn(container);
+    });
   }
 
   if (document.readyState === 'loading') {
