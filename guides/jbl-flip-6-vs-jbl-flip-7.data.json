@@ -1,0 +1,42 @@
+{
+  "slug": "jbl-flip-6-vs-jbl-flip-7",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:24.163Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "JBL Flip 6 Portable Bluetooth Speaker with IP67 and PartyBoost",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        85,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "JBL Flip 7 Bluetooth Speaker",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        90,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

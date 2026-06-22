@@ -126,9 +126,64 @@
 <div class="product-card-inline" data-slug="sony-wh-1000xm4"></div>
 <div class="product-card-inline" data-slug="sony-wh-1000xm6"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-sony-wh-xm4-to-xm6-owner-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.8/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="sony-wh-xm4-to-xm6-owner-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-sony-wh-xm4-to-xm6-owner-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Data Sources</h2>
 <p>This report draws from r/headphones, r/sony, and r/Earphones Reddit threads specifically from owners who upgraded from the <a href="../products/sony-wh-1000xm4.html">Sony WH-1000XM4</a> to the <a href="../products/sony-wh-1000xm6.html">WH-1000XM6</a>, approximately 300+ Amazon verified purchase reviews filtered for "upgraded from XM4" language, and discussions on Head-Fi and r/BudgetAudiophile. The XM6 launched in 2025; long-term ownership data covers the 6–9 month range. The XM4 retails at approximately $373 CAD; the XM6 at approximately $549 CAD — a gap of roughly $175 CAD.</p>
 
+<div class="guide-section-break"></div>
 <h2>First Impressions vs Long-Term Reality</h2>
 <p>The most consistent pattern among XM4 owners who upgraded: the ANC improvement is immediately noticeable in the first session, the comfort improvement is gradual, and the sound quality difference takes a few days to fully appreciate. Initial impressions lean strongly positive — "it's noticeably better at blocking out my office HVAC" appears repeatedly in first-week reviews. The upgraded headband — wider, less plasticky, no fragile hinge — gets called out early as a physical improvement owners feel immediately.</p>
 
@@ -136,6 +191,7 @@
 
 <blockquote><p>"Upgraded from XM4 after 3 years. The ANC is genuinely better — I can feel it on the subway in a way I couldn't before. Sound is warmer and less fatiguing for long sessions. What surprised me is the call quality: people can actually hear me clearly in busy environments now. Worth it for me but I work from cafes."</p><cite>Reddit r/headphones, upgrade thread, 5-month XM6 owner</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Who Upgraded Consistently Praise</h2>
 <p><strong>ANC improvement</strong> — this is the most cited reason for upgrading and the most consistently validated one. The QN3 HD processor and 12-microphone array versus the XM4's V1 chip and 5 mics produces a measurable and owner-perceptible difference. Roughly 70% of upgrade reviews mention ANC improvement as their primary reason for buying and confirm it was delivered. "The plane engine at 30,000 feet goes from a hum to silence" is representative language.</p>
 
@@ -145,14 +201,17 @@
 
 <blockquote><p>"My XM4 headband started creaking after 18 months. The XM6 feels like a different league in terms of build — wider and softer, doesn't clamp as hard, and the hinge doesn't feel like it'll snap one day. If your XM4 headband is starting to go, the upgrade makes even more sense."</p><cite>Amazon verified purchase, 7-month XM6 owner, previously 2-year XM4 owner</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who Regrets Upgrading</h2>
 <p>Roughly 15–20% of upgrade reviewers express some level of regret, clustering in two groups. The first: owners who primarily listen to music in quiet home environments, who find the sound quality delta smaller than the price gap suggests. "At home in a quiet room, I struggle to hear the difference" is representative. The second: owners who upgraded primarily for the LC3 codec or Bluetooth 5.3 improvements, who find those features don't meaningfully impact their daily listening setup.</p>
 
 <p>A notable pattern: XM4 owners who got strong resale value report lower regret. The XM4 holds resale value well; upgraders who effectively paid $80–120 CAD after resale describe it as a clear win. Those who paid the full ~$175 CAD net gap with no resale are more divided on value.</p>
 
+<div class="guide-section-break"></div>
 <h2>XM4 Owners Who Kept Their Headphones</h2>
 <p>Owners who evaluated the upgrade and stayed with the XM4 cluster around one pattern: home listeners with no noise-cancellation-critical use case. "For sitting at my desk listening to music, my XM4 is genuinely excellent. I couldn't justify $550 for what would be a marginal upgrade for my situation." The XM4 at its post-XM6 discounted price remains a consistently praised value buy in long-term discussions.</p>
 
+<div class="guide-section-break"></div>
 <h2>XM4 vs XM6: Owner-Reported Differences</h2>
 <table class="owner-table">
   <thead>
@@ -196,6 +255,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>Hidden Costs and Surprises</h2>
 <ul>
   <li><strong>LC3 requires a compatible source</strong> — owners who upgraded for LC3 find it only activates with Bluetooth 5.2+ devices running Android 13+ or Windows 11. iPhone users get no LC3 benefit at all.</li>
@@ -203,11 +263,13 @@
   <li><strong>Case redesign</strong> — the XM6 ships with a new case. Owners with aftermarket XM4 cases or carry bags find they don't fit the XM6.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Value at 1 Year: What Owners Say About the Price in Hindsight</h2>
 <p>Among XM6 owners at 6+ months, those who commute daily, work in noisy open offices, or take frequent calls report the upgrade as fully justified. "I use these 6 hours a day for work — the better ANC and call quality is worth every dollar" is a consistent pattern for high-daily-use owners.</p>
 
 <p>Among owners who use headphones primarily for casual music listening at home, value assessments are more mixed. Approximately 1 in 4 would, in hindsight, have kept the XM4 or waited for a larger-generation jump. The XM6 is better on every measurable axis — but whether it's meaningfully better for a specific owner's situation depends heavily on actual use.</p>
 
+<div class="guide-section-break"></div>
 <h2>Bottom Line From Owners</h2>
 <p>Owners who commute, work in open offices, or take calls regularly on the <a href="../products/sony-wh-1000xm4.html">Sony WH-1000XM4</a> report that upgrading to the <a href="../products/sony-wh-1000xm6.html">WH-1000XM6</a> is worth the ~$175 CAD gap — the ANC and call quality improvements are things daily users notice every session.</p>
 
@@ -252,5 +314,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

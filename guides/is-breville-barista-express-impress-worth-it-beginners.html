@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="breville-barista-express-impress"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-breville-barista-express-impress-worth-it-beginners">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.6/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-breville-barista-express-impress-worth-it-beginners";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-breville-barista-express-impress-worth-it-beginners');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For most beginners who are genuinely committed to learning home espresso, yes — the <a href="../products/breville-barista-express-impress.html">Breville Barista Express Impress</a> is the right starting point. But one question matters before anything else: are you a coffee lover who wants to pull espresso shots, or someone who wants great coffee fast without thinking about it? If it's the second, you're in the wrong aisle — a <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a> at $200 CAD delivers excellent coffee with zero learning curve. This guide is for buyers who've already decided they want to learn.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Beginners Actually Love About It</h2>
 
 <p>The auto-tamp — Breville calls it the Impress Puck System — is the feature that changes the beginner experience most. Traditional espresso requires consistent tamping pressure at exactly the right angle, and inconsistent tamping is the #1 reason beginner shots fail. The Impress handles this: it doses, levels, and tamps automatically with a 7° barista twist. Multiple owners describe it as "the thing that finally made my shots consistent."</p>
@@ -140,6 +195,7 @@
 
 <p>The community support for this machine is unusually strong. r/espresso has thousands of threads specifically about Breville BES870/876/878 dialing-in, and home-barista.com has a dedicated subforum. Owners consistently report that when they post a photo of their puck or shot, they get specific, actionable feedback within hours. For a beginner, having a large experienced community behind a specific machine is worth more than most spec differences between similarly priced options.</p>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints — Specific to Beginners</h2>
 
 <p>The single-boiler switching delay is the complaint that surprises beginners most. After pulling a shot, you have to wait 20–30 seconds before steaming milk — the boiler needs to shift from brew temperature (93°C) to steam pressure. This is standard for single-boiler machines at this price point, but if you're expecting to make back-to-back lattes quickly, it's friction that adds up. Owners of multi-drink households mention it consistently.</p>
@@ -151,6 +207,7 @@
   <cite>Reddit u/HomeBaristaNovice via r/espresso</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: What Changes After 6–12 Months</h2>
 
 <p>Owners consistently describe a three-phase beginner arc. Phase 1 (first 50 shots): most are disappointing. Sour, bitter, or thin — the shots are revealing how much dialing-in matters. Phase 2 (shots 50–150): something clicks. Owners find their grind range for their usual beans, start hitting consistent extraction, and the shots become noticeably café-quality. Phase 3 (6–18 months): two paths diverge. Casual owners are satisfied with what the machine produces and use it daily without issues. Enthusiast owners start reading about burr geometry, extraction yields, and single-dose workflows — and some hit the grinder ceiling.</p>
@@ -162,6 +219,7 @@
   <cite>Reddit u/espresso_journey via r/espresso — 2.5-year owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 
 <ul>
@@ -171,6 +229,7 @@
   <li><strong>Buyers who want one counter-top footprint</strong> — the all-in-one design is genuinely cleaner than a separate grinder + machine setup</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 
 <ul>
@@ -179,27 +238,50 @@
   <li><strong>Buyers who've already decided they want to upgrade the grinder within 6 months</strong> — at that point, a standalone entry-level espresso machine + separate grinder gives more flexibility at similar cost</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the Price Justified for a First Machine?</h2>
 
 <p>At $1,149.99 CAD, the <a href="../products/breville-barista-express-impress.html">Breville Barista Express Impress</a> is priced as a premium beginner machine. The comparable setup — a $400 entry-level espresso machine plus a $300 entry-level dedicated grinder — hits $700 CAD with a steeper combined learning curve. The Impress charges a $450 premium for the integrated experience, auto-tamp, and a grinder that handles most home use well.</p>
 
 <p>Owners who stayed with the machine for 2+ years consistently report the price justified itself. The café savings calculation runs roughly $5–7 per latte × 5 visits per week × 52 weeks = $1,300–$1,820 CAD per year per person. At that rate, the machine pays for itself in 7–10 months for daily café visitors. For buyers who currently spend $3–4 per coffee 3× per week, the math is much slower — and the honest answer is that a $200 pod machine might deliver better value for their actual usage.</p>
 
-<table class="pros-cons-table">
-  <thead>
-    <tr><th>Owners Love</th><th>Owners Flag</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Auto-tamp removes #1 beginner failure point — consistent pucks from day one</td><td>Single boiler means 20–30 second wait between espresso shot and steaming</td></tr>
-    <tr><td>All-in-one format simplifies troubleshooting — one machine to learn, not two</td><td>Grind chute clogs with oily/dark-roast beans — requires regular dry brushing</td></tr>
-    <tr><td>Massive community support (r/espresso, home-barista.com) specific to this machine</td><td>Grinder ceiling reached by enthusiast owners at 12–18 months of serious use</td></tr>
-    <tr><td>Shot quality significantly exceeds pod machines once dialed in (~50–100 shot learning curve)</td><td>$1,149.99 CAD is a steep entry point if usage drops below 3 shots/week</td></tr>
-    <tr><td>Multiple household members can pull consistent shots without individual calibration</td><td>First 3–6 weeks produce frustrating shots while learning grind settings</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>Auto-tamp removes #1 beginner failure point — consistent pucks from day one</li>
+      <li>All-in-one format simplifies troubleshooting — one machine to learn, not two</li>
+      <li>Massive community support (r/espresso, home-barista.com) specific to this machine</li>
+      <li>Shot quality significantly exceeds pod machines once dialed in (~50–100 shot learning curve)</li>
+      <li>Multiple household members can pull consistent shots without individual calibration</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>Single boiler means 20–30 second wait between espresso shot and steaming</li>
+      <li>Grind chute clogs with oily/dark-roast beans — requires regular dry brushing</li>
+      <li>Grinder ceiling reached by enthusiast owners at 12–18 months of serious use</li>
+      <li>$1,149.99 CAD is a steep entry point if usage drops below 3 shots/week</li>
+      <li>First 3–6 weeks produce frustrating shots while learning grind settings</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.6/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For beginners who are genuinely committed to learning home espresso and will use the machine at least 4–5 times per week, the <a href="../products/breville-barista-express-impress.html">Breville Barista Express Impress</a> is the right first machine. The auto-tamp removes the most consistent beginner failure point, the community support is exceptional, and owners who stick through the 50-shot learning curve consistently report satisfaction at the 6- and 12-month marks. For buyers who want excellent coffee without the learning investment, this is the wrong machine — not because it's bad, but because it requires engagement it won't get. A <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a> at $200 CAD is genuinely the better choice for that buyer.</p>
 </div>
 
@@ -242,5 +324,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

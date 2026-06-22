@@ -165,6 +165,60 @@
 
 <h3>3. <a href="../products/salomon-x-ultra-4-gtx.html"><a href="../products/salomon-x-ultra-4-gtx.html">Salomon X Ultra</a> 4</a> GTX Men's Hiking Shoes (Gore-Tex) — 9.0/10</h3>
 <div class="product-card-inline" data-slug="salomon-x-ultra-4-gtx"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-running-shoes-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.2/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-running-shoes-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-running-shoes-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p><em>Note: The <a href="../products/salomon-x-ultra-4-gtx.html"><a href="../products/salomon-x-ultra-4-gtx.html">Salomon X Ultra</a> 4</a> GTX is a hiking shoe, not a road running shoe. It is included here as the top-ranked trail and outdoor option for Canadian buyers who need grip, waterproofing, and support on unpaved terrain.</em></p>
 <p><strong>Why it ranked here:</strong> GTX waterproofing (9.5) and Contagrip grip (9.5) are the two most-cited strengths in owner reviews. For Canadian buyers who hike through spring snowmelt, wet Pacific coast trails, or muddy shoulder-season conditions, the Gore-Tex membrane and aggressive outsole make this the most capable option in the ClearPick trail footwear catalog.</p>
 <p><strong>What owners love:</strong> The Gore-Tex waterproofing keeps feet dry through standing water and prolonged rain exposure — owners specifically test this and report success repeatedly in reviews. The Contagrip outsole provides traction on wet rock, mud, and mixed surfaces that trail runners and hikers encounter across BC, Ontario, and Atlantic Canada. Support subscore of 9.0 reflects owner reports of excellent ankle stability on uneven terrain.</p>
@@ -257,5 +311,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

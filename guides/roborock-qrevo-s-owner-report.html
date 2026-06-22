@@ -125,9 +125,64 @@
 
 <div class="product-card-inline" data-slug="roborock-qrevo-s"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-roborock-qrevo-s-owner-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="roborock-qrevo-s-owner-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-roborock-qrevo-s-owner-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Data Sources</h2>
 <p>This report synthesizes owner feedback from approximately 400+ Amazon.ca and Amazon.com verified purchase reviews, r/RobotVacuums threads from 2024–2025, and long-term owner posts in r/homeautomation and r/smarthome. Primary weight given to reviews marked 3+ months of use and Reddit threads with 50+ upvotes discussing real-world daily use. The <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> carries a ClearPick score of 8.7/10 based on this owner data.</p>
 
+<div class="guide-section-break"></div>
 <h2>First Impressions vs Long-Term Reality</h2>
 <p>The first two weeks generate near-universal positive responses. The unboxing and setup receive consistent praise — owners report the app-guided setup takes 25–35 minutes, the first mapping run completes accurately in a single pass, and the auto-empty dock functions correctly from day one. The phrase that appears most consistently across first-week reviews is "set it and forget it," specifically about the dock handling emptying, mop washing, drying, and water refill without user intervention.</p>
 
@@ -135,6 +190,7 @@
 
 <blockquote><p>"Running it for 8 months now and it still maps perfectly every time. The dock handles everything and I genuinely forget it exists until I need to refill the water tank. My only complaint is it smears dried stuff around rather than cleaning it — for anything but maintenance it's a supplement, not a replacement."</p><cite>Amazon verified purchase reviewer, 8-month ownership</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Consistently Praise</h2>
 <p><strong>The dock autonomy</strong> — this is the single most praised feature in long-term owner reviews by a wide margin. Owners consistently describe the experience of the dock handling mop washing, auto-emptying, and self-drying as the main differentiator from cheaper robot vacuums. Roughly 4 in 5 long-term reviews specifically call out the dock as what justifies the price. "I haven't touched the vacuum in 3 weeks" is a representative comment pattern.</p>
 
@@ -144,6 +200,7 @@
 
 <blockquote><p>"Have two German shepherds and use the wet mop option every other day. It's been 6 months and I've had zero brush tangles. The auto-empty dock just works — the app tells me when the dustbin bag needs replacing but otherwise it's completely hands off."</p><cite>Reddit r/RobotVacuums, u/[account], verified owner post</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Most Common Complaints (Ranked by Frequency)</h2>
 <p><strong>1. Mopping greasy or sticky floors (appears in ~30% of mopping-focused reviews)</strong> — the most common complaint from owners who use the mop as their primary cleaning mechanism for the kitchen. Room-temperature water with no detergent handles light dust and maintenance mopping. It does not dissolve cooking grease, dried coffee, or sticky residue. Owners who understood this going in report satisfaction; those who expected it to replace manual kitchen mopping report disappointment. This is a design choice, not a defect — but it's consistently under-communicated.</p>
 
@@ -154,12 +211,34 @@
 <p><strong>4. App connectivity drops (~10%)</strong> — intermittent connectivity drops between the robot and the Roborock app appear in long-term reviews. Usually resolved by restarting the app or reconnecting to Wi-Fi. Not severe enough to affect cleaning but frustrating for owners who rely on scheduled runs and zone cleaning.</p>
 
 <p><strong>5. Post-warranty support (~8% of relevant reviews)</strong> — owners who experienced mechanical issues outside the 12-month warranty report slow response times and difficulty obtaining replacement parts. This appears at higher frequency in Roborock reviews broadly than in competitor threads and should be factored into the long-term ownership equation.</p>
+<div class="guide-chart-block">
+  <h3 class="chart-block-title">Most Common Complaints — By Frequency</h3>
+  <p class="chart-block-source">Derived from owner reviews and community threads</p>
+  <canvas id="cc_roborock_qrevo_s_owner_report" height="240"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Moppingfocused reviews)  the most common complaint from ow","Longterm reviews)  cables, small toys, and socks on the fl","Edge and corner gaps","App connectivity drops","Postwarranty support"];
+  var values=[30,20,15,10,8];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,250);return;}
+    var el=document.getElementById('cc_roborock_qrevo_s_owner_report');
+    if(!el||el.dataset.rendered)return;
+    el.dataset.rendered='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:values,backgroundColor:values.map(function(_,i){return i===0?'#ef4444':i===1?'#f97316':'#fbbf24';}),borderRadius:6,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{callback:function(v){return v+'%';}},grid:{color:'#f3f4f6'}},y:{grid:{display:false}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 
+
+<div class="guide-section-break"></div>
 <h2>Who Keeps It vs Who Returns or Resells</h2>
 <p>Owners who keep the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> long-term share two consistent characteristics: they use it for daily maintenance cleaning on mixed flooring (hard floor primary, area rugs secondary), and they keep their floors clear of cables and small items before each run. The "set and forget" experience is real for owners whose homes and habits match the vacuum's operating assumptions.</p>
 
 <p>Owners who return or resell cluster in two groups. The first: those who expected a full-replacement mop for kitchen deep-cleaning — the room-temperature water mopping creates a genuine expectation gap. The second: those in homes with heavy clutter at floor level (households with young children, cable-heavy office setups) where obstacle avoidance limitations make the autonomous cleaning promise unreliable.</p>
 
+<div class="guide-section-break"></div>
 <h2>Hidden Costs and Surprises</h2>
 <ul>
   <li><strong>Replacement dustbin bags</strong> — the auto-empty dock uses proprietary bags. Owners report needing replacement every 4–6 weeks with daily use. Multi-packs via Amazon are the common solution, but this is an ongoing consumable cost most owners didn't factor in at purchase.</li>
@@ -168,11 +247,13 @@
   <li><strong>Mapping reset after furniture moves</strong> — the LiDAR map needs manual editing or a fresh mapping run after significant furniture rearrangement. Multiple owners mention this as a surprise — the "it knows my home" claim is accurate until the home changes.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Value at 1 Year: What Owners Say About the Price in Hindsight</h2>
 <p>At the 1-year mark, owners who kept the vacuum split roughly into two camps. Owners in the "worth every dollar" camp report that the dock autonomy and pet hair performance justify the ~$999 CAD price against the alternative of manual vacuuming and mopping daily. "I've given back hours of my week to this thing" is representative language.</p>
 
 <p>Owners who feel it was "probably more than I needed" tend to be those who primarily vacuum (not mop) and could have achieved similar results with a lower-priced LiDAR-equipped model without the full dock ecosystem. The dock's self-maintenance features — the thing that separates the Qrevo S from cheaper alternatives — are only fully appreciated by owners who use the mop function regularly.</p>
 
+<div class="guide-section-break"></div>
 <h2>Bottom Line From Owners</h2>
 <p>Owners who use the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> primarily for daily maintenance vacuuming and light mopping on hard floors, in homes with moderate pet shedding and relatively uncluttered floors, report high long-term satisfaction. The dock autonomy is real and consistently praised.</p>
 
@@ -217,5 +298,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

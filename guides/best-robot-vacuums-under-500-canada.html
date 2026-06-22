@@ -124,6 +124,7 @@
       <div class="guide-article__body">
 <p>We ranked every robot vacuum under $500 available on Amazon.ca by ClearPick Score — a weighted composite built from verified Canadian owner reviews. Four products cleared the bar for inclusion based on review volume and real-world sentiment. For each, we analyzed what owners say works, what they complain about most, and what kind of home it actually fits. One step-up option just over budget is included for buyers who can stretch.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
   <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>ClearPick Score</th></tr></thead>
@@ -136,6 +137,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>1. eufy L60 — Best Robot Vacuum Under $500 in Canada</h2>
 <div class="product-card-inline" data-slug="eufy-l60"></div>
 <ul>
@@ -151,6 +153,7 @@
   <cite>Amazon reviewer (eufy L60)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>2. <a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a> — Best Self-Cleaning Robot Vacuum Under $500</h2>
 <div class="product-card-inline" data-slug="dreame-l10s-ultra"></div>
 <ul>
@@ -166,6 +169,7 @@
   <cite>Amazon reviewer (<a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a>)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>3. <a href="../products/eufy-auto-empty-c10.html"><a href="../products/eufy-auto-empty-c10.html"><a href="../products/eufy-auto-empty-c10.html">eufy Auto-Empty C10</a></a></a> — Best Self-Empty Robot Vacuum Under $400</h2>
 <div class="product-card-inline" data-slug="eufy-auto-empty-c10"></div>
 <ul>
@@ -176,6 +180,7 @@
   <li><strong>Canadian price:</strong> ~$349.99 CAD on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>4. <a href="../products/eufy-boostiq-robovac-11s.html"><a href="../products/eufy-boostiq-robovac-11s.html"><a href="../products/eufy-boostiq-robovac-11s.html">eufy BoostIQ RoboVac</a> 11S</a></a> — Best Robot Vacuum Under $250</h2>
 <div class="product-card-inline" data-slug="eufy-boostiq-robovac-11s"></div>
 <ul>
@@ -191,10 +196,66 @@
   <cite>Amazon reviewer (<a href="../products/eufy-boostiq-robovac-11s.html"><a href="../products/eufy-boostiq-robovac-11s.html"><a href="../products/eufy-boostiq-robovac-11s.html">eufy BoostIQ RoboVac</a> 11S</a></a>)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Step-Up Pick: <a href="../products/roborock-q8-max.html"><a href="../products/roborock-q8-max.html"><a href="../products/roborock-q8-max.html">roborock Q8 Max+</a></a></a> (Just Over $500)</h2>
 <div class="product-card-inline" data-slug="roborock-q8-max"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-robot-vacuums-under-500-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.8/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-robot-vacuums-under-500-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-robot-vacuums-under-500-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>If you can stretch to ~$550 CAD, the <a href="../products/roborock-q8-max.html">roborock Q8 Max+</a> scores 8.9 — higher than anything in this guide. It combines LiDAR navigation (9.5 subscore), 5,500Pa suction, and an auto-empty dock that rivals systems costing $200 more. Owners specifically praise its mopping precision and multi-floor mapping. If the $50 gap above $500 isn't a hard constraint, most buyers who were comparing the <a href="../products/eufy-l60.html">eufy L60</a> and <a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a> end up recommending the Q8 Max+ instead.</p>
 
+<div class="guide-section-break"></div>
 <h2>How They Compare</h2>
 <table class="owner-table">
   <thead><tr><th>Product</th><th>Score</th><th>Navigation</th><th>Suction</th><th>Pet Hair</th><th>Self-Empty</th><th>Mopping</th><th>Price (CAD)</th></tr></thead>
@@ -207,6 +268,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For</h2>
 <h3>LiDAR vs. Gyroscope Navigation</h3>
 <p>LiDAR-equipped robots (the <a href="../products/eufy-l60.html">eufy L60</a>, <a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a>, <a href="../products/roborock-q8-max.html">roborock Q8 Max+</a>) map your home on the first run and follow a systematic path. Gyroscope-based models (the <a href="../products/eufy-auto-empty-c10.html">eufy Auto-Empty C10</a> and <a href="../products/eufy-boostiq-robovac-11s.html">eufy BoostIQ RoboVac 11S</a>) navigate randomly. In larger Canadian homes and condos over 1,000 sq ft, LiDAR makes a real difference in coverage completion.</p>
@@ -219,6 +281,7 @@
 <h3>Mopping: Nice-to-Have or Not</h3>
 <p>Mopping at this price range is maintenance-level — good for dusty hard floors, not deep-cleaning. Only the <a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a> in this guide includes mopping, and it's the only one with a self-washing dock. If mopping is important, it's the right choice at the top of this budget.</p>
 
+<div class="guide-section-break"></div>
 <h2>Frequently Asked Questions</h2>
 <h3>Is a robot vacuum under $500 actually worth it in Canada?</h3>
 <p>Yes — the <a href="../products/eufy-l60.html">eufy L60</a> and <a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a> both score above 8.5 and match features you'd pay $700+ for in premium brands. Owner satisfaction at this price tier has improved significantly in 2024–2025 compared to earlier generations.</p>
@@ -269,5 +332,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

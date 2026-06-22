@@ -124,6 +124,7 @@
       <div class="guide-article__body">
 <p>We ranked the best dash cams available to Canadian drivers by ClearPick Score — built from verified owner reviews. Three models are in our Canadian catalog; we've also included two additional highly-rated options from Amazon.ca for broader coverage. All five are ranked by real-world performance in Canadian conditions: cold starts at -30°C, winter glare, parking mode reliability, and image quality that holds up in claim situations. Note: products without a ClearPick page are noted with an asterisk.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
   <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>ClearPick Score</th></tr></thead>
@@ -136,6 +137,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>1. Thinkware U1000 — Best Premium Dash Cam for Canadian Drivers</h2>
 <div class="product-card-inline" data-slug="thinkware-u1000-dash-cam"></div>
 <ul>
@@ -151,6 +153,7 @@
   <cite>Amazon reviewer (Thinkware U1000)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>2. <a href="../products/vantrue-n4-3-channel-dash-cam.html">Vantrue N4 Pro</a> — Best 3-Channel Dash Cam</h2>
 <div class="product-card-inline" data-slug="vantrue-n4-3-channel-dash-cam"></div>
 <ul>
@@ -166,8 +169,63 @@
   <cite>Amazon reviewer (<a href="../products/vantrue-n4-3-channel-dash-cam.html">Vantrue N4 Pro</a>)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>3. <a href="../products/garmin-dash-cam-67w.html">Garmin Dash Cam</a> 67W — Best Wide-Angle Dash Cam</h2>
 <div class="product-card-inline" data-slug="garmin-dash-cam-67w"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-dash-cams-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-dash-cams-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-dash-cams-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
   <li><strong>Why it ranked third:</strong> The <a href="../products/garmin-dash-cam-67w.html">Garmin Dash Cam 67W, Wide 180-Degree Field of View</a> scores 8.8 overall — tied with the Thinkware for second-best app experience in this guide. App &amp; Connectivity scores 8.5 and video quality scores 9.0 (1440p Quad HD). The 180-degree ultra-wide field of view is unique in this price tier and covers full intersection width — something the narrower front cameras on the Thinkware and Vantrue don't achieve.</li>
   <li><strong>What owners love:</strong> The 180° field of view captures pedestrians and cyclists in wide intersections — a feature specifically valued in dense Canadian cities (Toronto, Vancouver, Montreal). Garmin's app is consistently rated the best dash cam app experience across r/dashcam threads. Built-in GPS with speed and location overlay means footage is admissible and context-rich for insurance claims. Cold-weather startup has no reported failures in Canadian winter owner data.</li>
@@ -181,6 +239,7 @@
   <cite>Amazon reviewer (<a href="../products/garmin-dash-cam-67w.html">Garmin Dash Cam</a> 67W)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>4. BlackVue DR970X — Best Cloud-Connected Dash Cam*</h2>
 <p><em>* Not yet on ClearPick — no product card available. Available on Amazon.ca.</em></p>
 <ul>
@@ -191,6 +250,7 @@
   <li><strong>Canadian price:</strong> ~$499–$599 CAD on Amazon.ca (before subscription costs)</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>5. Viofo A229 Pro — Best Value 4K Dual-Channel*</h2>
 <p><em>* Not yet on ClearPick — no product card available. Available on Amazon.ca.</em></p>
 <ul>
@@ -201,6 +261,7 @@
   <li><strong>Canadian price:</strong> ~$199–$249 CAD on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>How They Compare</h2>
 <table class="owner-table">
   <thead><tr><th>Product</th><th>Score</th><th>Front Res.</th><th>Rear Included</th><th>Interior Cam</th><th>Parking Mode</th><th>App Quality</th><th>Price (CAD)</th></tr></thead>
@@ -213,6 +274,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For</h2>
 <h3>Cold-Weather Startup — Critical for Canadian Drivers</h3>
 <p>All five options in this guide have been reported as reliable at -20°C to -30°C by Canadian owners in cold-weather provinces. The key variable is capacitor vs. battery — capacitor-based dash cams (like the <a href="../products/thinkware-u1000-dash-cam.html">Thinkware U1000 4K UHD Dual Channel Dash Cam</a>) handle extreme cold better than battery-based units because capacitors don't degrade or swell at low temperatures. Battery-based units can fail to start at -30°C after 2–3 Canadian winters; capacitors don't have this issue.</p>
@@ -225,6 +287,7 @@
 <h3>MicroSD Card Selection</h3>
 <p>4K recording chews through storage. A 256GB card covers approximately 6–8 hours of continuous 4K footage before loop recording overwrites. Endurance-rated cards (Samsung PRO Endurance, SanDisk High Endurance) are strongly preferred for dash cams because they're designed for continuous write cycles — standard cards can fail within 6–12 months of daily use. Budget $30–$50 CAD for the right card when budgeting for any dash cam purchase.</p>
 
+<div class="guide-section-break"></div>
 <h2>Frequently Asked Questions</h2>
 <h3>Do I need a dash cam in Canada?</h3>
 <p>Legally, no. Practically, yes for many drivers — insurance adjusters increasingly request dash cam footage for at-fault disputes, and Canadian parking lot hit-and-runs are common. Several Canadian provinces also allow dash cam footage as evidence in traffic court. Given the $150–$400 CAD cost, many owners report the camera paying for itself on the first incident.</p>
@@ -275,5 +338,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

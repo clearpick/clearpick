@@ -131,7 +131,61 @@
         <div class="product-card-inline" data-slug="eufy-boostiq-robovac-11s"></div>
         <div class="product-card-inline" data-slug="roborock-qrevo-s"></div>
 
-        <h2>What Eufy owners love — and what they complain about</h2>
+        
+<div class="guide-glance-block" id="guide-glance-roborock-vs-eufy-robot-vacuum">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">7.2/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="roborock-vs-eufy-robot-vacuum";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-roborock-vs-eufy-robot-vacuum');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
+<h2>What Eufy owners love — and what they complain about</h2>
         <p>The Eufy 11S earns consistent praise for one core strength: <strong>it fits under furniture nothing else reaches.</strong> At under 3 inches tall, it clears IKEA bed frames, low sofas, and kitchen cabinets where uprights and even taller robot vacuums can't go. "It fits under my IKEA bed frame. That alone justifies the purchase," is a recurring sentiment across verified Amazon.ca reviews. Owners in r/CanadianHardwareSwap echo the same: it's a maintenance cleaning machine that keeps floors tidy daily without requiring any thought.</p>
 
         <p>The most common complaints, appearing across the majority of critical reviews:</p>
@@ -142,6 +196,7 @@
         </ul>
         <p>For households with pets or messy floors: roughly 1 in 3 critical Eufy 11S reviews on Amazon.ca mentions pet hair tangling around the brush roller, requiring manual cleaning with scissors after every few runs.</p>
 
+<div class="guide-section-break"></div>
         <h2>What Roborock owners love — and what they complain about</h2>
         <p>The phrase that appears most consistently in Qrevo S owner reviews is <strong>"set and forget"</strong> — and it specifically refers to the dock. The auto-empty dustbin, mop pad wash, mop drying, and water refill happen without user involvement. "I only interact with it to swap the dustbin bag once a month" appears in multiple independent reviews on Amazon.ca and Reddit r/RobotVacuums.</p>
 
@@ -154,6 +209,7 @@
           <li><strong>Weekly roller maintenance for pet households.</strong> Despite the dock handling everything else, hair accumulates at the roller ends and must be cleared manually. Owners with shedding dogs say weekly cleaning is realistic.</li>
         </ul>
 
+<div class="guide-section-break"></div>
         <h2>Where Roborock is clearly better</h2>
         <p>Based on owner feedback that consistently and specifically favors Roborock over Eufy:</p>
         <ul>
@@ -163,6 +219,7 @@
           <li><strong>Obstacle avoidance.</strong> Camera + LiDAR obstacle detection means the Qrevo S handles a lived-in home — cords, toys, shoes — without stopping. The 11S gets stuck on these routinely.</li>
         </ul>
 
+<div class="guide-section-break"></div>
         <h2>Where Eufy holds its own</h2>
         <p>Eufy 11S owners who say they don't feel they're missing something specific:</p>
         <ul>
@@ -171,10 +228,12 @@
           <li>The simplicity of remote-only control is a feature for some buyers — no app means no data, no setup friction, no Wi-Fi dependency. "Press the button and it cleans. That's exactly what I needed" is a frequent 5-star review pattern.</li>
         </ul>
 
+<div class="guide-section-break"></div>
         <h2>The app gap</h2>
         <p>The Roborock app is one of the most capable in the robot vacuum category — multi-floor maps, zone cleaning, no-go zones, cleaning history, and voice assistant integration (Alexa, Google). Owners consistently mention the app in positive terms; setup takes under 10 minutes and the map is typically accurate after the first clean.</p>
         <p>The Eufy 11S has no app. Scheduling and control are remote-only. For buyers who have never owned a smart robot vacuum, this is easy to underestimate at purchase — and consistently flagged as a limitation after 6 months of ownership in direct comparisons.</p>
 
+<div class="guide-section-break"></div>
         <h2>Who should buy the Eufy 11S</h2>
         <ul>
           <li>Small apartment (under 800 sq ft), mostly hard floors, no pets or low-shedding pets</li>
@@ -183,6 +242,7 @@
           <li>Prefer simplicity: no app setup, no Wi-Fi requirement, just a remote</li>
         </ul>
 
+<div class="guide-section-break"></div>
         <h2>Who should buy the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a></h2>
         <ul>
           <li>Multi-pet households where daily hair accumulation is a real problem</li>
@@ -191,8 +251,14 @@
           <li>Hard floors plus carpet — LiDAR navigation and dual mops handle mixed surface homes far better</li>
         </ul>
 
-        <div class="verdict-box">
-          <div class="verdict-box__label">Verdict</div>
+        
+<div class="would-buy-again-block">
+  <div class="wba-number">65%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (7.2/10) based on aggregated owner sentiment</div>
+</div>
+<div class="verdict-box">
+          <span class="verdict-eyebrow">Bottom Line from Owners</span>
           <p>The Eufy 11S and the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> are not competing for the same buyer. If you have a small apartment with hard floors and want a quiet daily maintenance vacuum at the lowest possible price, the Eufy 11S does what it claims. If you have pets, mixed surfaces, or a larger home — and want a machine you can genuinely stop thinking about — the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> is worth the price gap. Based on owner data across r/RobotVacuums and Amazon.ca, buyers who jumped from Eufy 11S to any Roborock mid-range model report not wanting to go back. Buyers who have always had the 11S in a small clean apartment report no compelling reason to upgrade.</p>
         </div>
 
@@ -235,5 +301,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

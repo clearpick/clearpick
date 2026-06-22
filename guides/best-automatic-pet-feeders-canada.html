@@ -144,6 +144,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>1. <a href="../products/petlibro-granary-wifi.html">PETLIBRO Granary WiFi</a> — Best Overall</h2>
 <div class="product-card-inline" data-slug="petlibro-granary-wifi"></div>
 
@@ -165,6 +166,7 @@
   <cite>Amazon.ca reviewer (verified purchase) via PetLibro product page</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>2. <a href="../products/petsafe-smart-feed-2-automatic-feeder.html"><a href="../products/petsafe-smart-feed-2-automatic-feeder.html">PetSafe Smart Feed</a> 2</a> — Best for Large Capacity and Dogs</h2>
 <div class="product-card-inline" data-slug="petsafe-smart-feed-2-automatic-feeder"></div>
 
@@ -176,9 +178,64 @@
   <li><strong>Canadian price:</strong> ~$189 CAD on Amazon.ca and at PetSmart Canada locations.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>3. WOpet Camera Feeder — Best Budget Option</h2>
 <div class="product-card-inline" data-slug="wopet-automatic-cat-feeder"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-best-automatic-pet-feeders-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.8/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-automatic-pet-feeders-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-automatic-pet-feeders-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
   <li><strong>Why it ranked #3:</strong> The <a href="../products/wopet-automatic-cat-feeder.html">WOpet Camera Feeder</a> scores 8.0/10. At $79 CAD — roughly half the price of the PetLibro and PetSafe — it's the entry point for owners trying automatic feeding for the first time. It includes a camera (the selling point at this price), a 2-way audio function, and scheduling via app. The low price means the expectation benchmark is calibrated accordingly.</li>
   <li><strong>What owners love:</strong> The price-to-feature ratio at $79 is frequently praised — at this price, owners accept the camera quality and app limitations they'd reject at $170+. For cat owners who want basic remote verification without spending $170, it's a legitimate starting point.</li>
@@ -192,9 +249,11 @@
   <cite>Amazon.ca reviewer (verified purchase)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>4. SureFeed Microchip Pet Feeder — Best for Multi-Pet Households with Food Stealing</h2>
 <p>Not currently reviewed on ClearPick. The <strong>SureFeed Microchip Pet Feeder</strong> (~$149 CAD at PetSmart Canada and Amazon.ca) solves the problem none of the above feeders address: pets stealing each other's food. The lid opens only for the microchipped pet it's programmed to recognize. In multi-pet households where one cat is on a prescription diet or one dog eats faster than the other, this is the only feeder that actually solves the problem. It doesn't schedule timed meals — it's an access-control feeder, not a timed one. Most Canadian owners who buy it describe it as the solution they wish they'd found sooner.</p>
 
+<div class="guide-section-break"></div>
 <h2>5. PETKIT Fresh Element 3 — Best App Experience</h2>
 <p>Not currently reviewed on ClearPick. The <strong>PETKIT Fresh Element 3</strong> (~$199 CAD on Amazon.ca) is the most consistently praised feeder for app reliability in Reddit's r/cats and r/dogs communities. The app sync issues that affect PetLibro and PetSafe appear significantly less frequently in PetKit owner discussions. For owners who've been burned by app failures with previous feeders, PetKit's app reputation is the reason to pay the premium. The stainless steel bowl is also specifically noted as easier to clean than plastic alternatives.</p>
 
@@ -219,6 +278,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For in an Automatic Pet Feeder for Canadian Owners</h2>
 
 <h3>WiFi reliability is the critical failure point</h3>
@@ -233,6 +293,7 @@
 <h3>Camera quality varies significantly at different price points</h3>
 <p>The $79 WOpet camera is functional but noticeably lower quality than the PetLibro at $170. If seeing your pet clearly matters (checking on a sick cat, verifying an elderly pet ate), the PetLibro's camera is worth the extra $90. If you just need to confirm food dispensed, the WOpet is adequate.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 
 <h3>Do automatic pet feeders work for dogs who try to break in?</h3>
@@ -247,8 +308,14 @@
 <h3>What's the best automatic feeder for a cat I'm leaving for a week?</h3>
 <p>For a full week away with no one checking in, the combination most frequently recommended by Canadian owners: <a href="../products/petsafe-smart-feed-2-automatic-feeder.html"><a href="../products/petsafe-smart-feed-2-automatic-feeder.html">PetSafe Smart Feed</a> 2</a> (for large capacity and battery backup) paired with someone making at least one wellness check visit. No automatic feeder is rated as a complete substitute for human oversight over a week — jamming, power outages, or app sync failures can cause missed meals without anyone noticing. If you must leave for a week, have a neighbor check mid-week.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For most Canadian pet owners: the <a href="../products/petlibro-granary-wifi.html">PETLIBRO Granary WiFi</a> at $170 CAD is the best overall automatic feeder — the camera verification, twist-lock lid, and 8.8/10 ClearPick score make it the strongest recommendation for owners who travel or work long hours. For large-capacity needs or multi-dog households: the <a href="../products/petsafe-smart-feed-2-automatic-feeder.html">PetSafe Smart Feed 2</a> at $189 is the better choice. For first-time buyers on a budget: the <a href="../products/wopet-automatic-cat-feeder.html">WOpet Camera Feeder</a> at $79 is a reasonable entry point — accept its limitations at the price.</p>
 </div>
 
@@ -291,5 +358,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

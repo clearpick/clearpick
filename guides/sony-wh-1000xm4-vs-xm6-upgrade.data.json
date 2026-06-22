@@ -1,0 +1,42 @@
+{
+  "slug": "sony-wh-1000xm4-vs-xm6-upgrade",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:00:37.446Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Sony WH-1000XM4",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        88,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Sony WH-1000XM6",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        87,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

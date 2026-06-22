@@ -126,9 +126,64 @@
 <h1>Litter-Robot 4 Long-Term Owner Report: What Changes After 12 Months</h1>
 <div class="product-card-inline" data-slug="litter-robot-4"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-litter-robot-4-long-term-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="litter-robot-4-long-term-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-litter-robot-4-long-term-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Data Sources</h2>
 <p>This report draws on owner threads from r/LitterRobot, r/CatAdvice, r/Pets, and Amazon Canada verified purchase reviews from <a href="../products/litter-robot-4.html">Litter-Robot 4</a> owners at 6, 12, and 18+ months. Focus on long-term reliability data, parts replacement patterns, maintenance burden evolution, and the specific multi-cat household experience. The Litter-Robot 4 launched in late 2022, so genuine 18-month owner data is now available across multiple communities.</p>
 
+<div class="guide-section-break"></div>
 <h2>First Impressions vs Long-Term Reality</h2>
 <p>The first month with a Litter-Robot 4 consistently generates one of two reactions: "this is incredible" or "my cat refuses to use it and I've wasted $700." Cat acceptance is the make-or-break variable in the first 30 days, and it appears in roughly 20–25% of r/LitterRobot threads as an early challenge. Owners who get past this hurdle — usually by placing the old litter box next to the Litter-Robot until the cat investigates on its own — describe the first 3 months as transformational: the litter box smell problem essentially disappears, manual scooping is eliminated.</p>
 <p>At 6–12 months, a different picture begins forming. The maintenance burden, which was sold as "near-zero," starts showing its actual shape. The waste drawer still needs emptying every 5–7 days for single-cat households (more often for multiple cats). The bonnet needs periodic cleaning. The sensors need occasional recalibration. "It's not no maintenance, it's less maintenance" is how most 12-month owners describe it.</p>
@@ -138,6 +193,7 @@
   <cite>Reddit r/LitterRobot, verified 14-month owner, 2-cat household</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Consistently Praise</h2>
 <p>Odor control is the most consistent praise in long-term owner threads. The sealed waste drawer combined with the carbon filter keeps odor at bay in a way that open litter boxes can't match. Owners in apartments, condos, or small living spaces describe this as the single most life-quality-improving product they've ever bought for pet ownership. This praise holds at 12+ months — no degradation in the value of odor control over time.</p>
 <p>The OmniSense detection system, which weighs cats to track which cat used the box, gets specific praise in multi-cat households. Owners with 2–3 cats describe being able to notice health anomalies (frequency changes, weight changes) earlier than they would with a traditional box.</p>
@@ -147,6 +203,7 @@
   <cite>Reddit r/CatAdvice, 13-month owner, 3-cat household</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Most Common Complaints (Ranked by Frequency)</h2>
 
 <p><strong>1. Parts cost and ongoing consumables — higher than expected (~40% of 12-month threads)</strong><br>
@@ -161,45 +218,69 @@ The globe rotation motor is the most-cited mechanical failure point in 12–18 m
 <p><strong>4. Multi-cat households — cycle timing conflicts (~20% of multi-cat threads)</strong><br>
 Owners with 3+ cats describe a specific problem: a cat enters the globe during or immediately after a cycle begins, triggering a restart. With multiple cats, the LR4 can spend significant time in restart loops rather than completing cycles. The default 3-minute wait timer (between cat exit detection and cycle start) gets adjusted by most multi-cat owners to 7–10 minutes, which helps but doesn't eliminate the issue entirely. This appears as a design limitation rather than a defect.</p>
 
-<table class="pros-cons-table">
-  <thead>
-    <tr>
-      <th>Owners Love</th>
-      <th>Owners Flag</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Odor control — apartment and condo owners cite this as the highest-impact feature, holds at 12 months</td>
-      <td>Ongoing consumables cost — $100–$250/year for filters, liners, accessories</td>
-    </tr>
-    <tr>
-      <td>OmniSense cat health tracking — catches weight and frequency anomalies early in multi-cat homes</td>
-      <td>DFI sensor errors — false "drawer full" readings require regular lens cleaning</td>
-    </tr>
-    <tr>
-      <td>Litter-Robot app — cycle history and cat usage logs are useful for multi-cat household management</td>
-      <td>Motor grinding or cycle failure in the 12–18 month window (~15% of long-term owners)</td>
-    </tr>
-    <tr>
-      <td>Near-elimination of manual scooping — actual time savings are real and consistent at 1 year</td>
-      <td>Multi-cat cycle conflicts — 3+ cats creates restart loops that require timer adjustment</td>
-    </tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>Odor control — apartment and condo owners cite this as the highest-impact feature, holds at 12 months</li>
+      <li>OmniSense cat health tracking — catches weight and frequency anomalies early in multi-cat homes</li>
+      <li>Litter-Robot app — cycle history and cat usage logs are useful for multi-cat household management</li>
+      <li>Near-elimination of manual scooping — actual time savings are real and consistent at 1 year</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>Ongoing consumables cost — $100–$250/year for filters, liners, accessories</li>
+      <li>DFI sensor errors — false "drawer full" readings require regular lens cleaning</li>
+      <li>Motor grinding or cycle failure in the 12–18 month window (~15% of long-term owners)</li>
+      <li>Multi-cat cycle conflicts — 3+ cats creates restart loops that require timer adjustment</li>
+    </ul>
+<div class="guide-chart-block">
+  <h3 class="chart-block-title">Most Common Complaints — By Frequency</h3>
+  <p class="chart-block-source">Derived from owner reviews and community threads</p>
+  <canvas id="cc_litter_robot_4_long_term_report" height="192"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Parts cost and ongoing consumables  higher than expected","DFI sensor in particular)","Multicat households  cycle timing conflicts","G Motor grinding or cycle failure in the 1218 month window"];
+  var values=[40,30,20,15];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,250);return;}
+    var el=document.getElementById('cc_litter_robot_4_long_term_report');
+    if(!el||el.dataset.rendered)return;
+    el.dataset.rendered='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:values,backgroundColor:values.map(function(_,i){return i===0?'#ef4444':i===1?'#f97316':'#fbbf24';}),borderRadius:6,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{callback:function(v){return v+'%';}},grid:{color:'#f3f4f6'}},y:{grid:{display:false}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 
+  </div>
+</div>
+
+<div class="guide-section-break"></div>
 <h2>Who Keeps It vs Who Returns or Resells</h2>
 <p>Resale rate for the Litter-Robot 4 is low among owners who achieved cat acceptance in the first 30 days. The product retains significant value on the secondhand market (~$400–$500 CAD), which means owners who do sell aren't losing their full investment. The owners most likely to sell (before the 12-month mark) are those whose cats never adopted the unit — roughly 10–15% of buyers based on r/LitterRobot patterns. The small subset who experience motor failure outside warranty are more likely to sell for parts rather than pay for an out-of-warranty repair.</p>
 <p>At the 12-month mark, the vast majority of owners (estimated 80%+) describe themselves as likely to buy again if their unit broke tomorrow. This is a product where the lifestyle improvement is sticky enough that the complaints don't generate buyer's remorse at scale.</p>
 
+<div class="guide-section-break"></div>
 <h2>Hidden Costs and Surprises</h2>
 <p>Beyond consumables, the biggest hidden cost is cat litter compatibility. The Litter-Robot 4 requires clumping clay litter — crystal litter is explicitly not supported, and some lightweight litters cause tracking issues. Owners who used non-clumping or crystal litter had to switch, and premium clumping clay litters that minimize tracking (Arm &amp; Hammer Clump &amp; Seal, for example) are more expensive than what many cat owners were previously buying. The LR4 effectively locks you into a specific category of litter at a higher per-bag cost.</p>
 <p>Setup space is also a common post-purchase surprise. The LR4 footprint is larger than it appears in product photos — roughly 22" × 24" with the waste drawer open for emptying. Owners who planned to put it in a small bathroom or laundry room frequently discover it doesn't fit comfortably where they intended.</p>
 
+<div class="guide-section-break"></div>
 <h2>Value at 1 Year: What Owners Say About the Price in Hindsight</h2>
 <p>At 12 months, approximately 75% of Litter-Robot 4 owners in long-term threads describe the purchase as worth it. The value calculation that most owners land on: divide the price by 12 months and compare to the time savings and lifestyle improvement. "It cost me $58/month in year one including the unit cost and consumables — I'd easily pay that not to scoop a litter box daily" is a representative framing from r/LitterRobot annual retrospectives.</p>
 <p>The 25% who express some regret are typically in one of three situations: cats that partially adopted but still prefer the old box intermittently; motor or sensor issues that required support interactions; or single-cat households where the ROI calculation felt less compelling than multi-cat scenarios.</p>
 
+<div class="guide-section-break"></div>
 <h2>Bottom Line From Owners</h2>
 <p>The <a href="../products/litter-robot-4.html">Litter-Robot 4</a> at 12 months is a product where what changes is your expectations, not the product. The first-month magic (no more scooping!) transitions to a 12-month reality (less scooping + monthly sensor cleaning + quarterly filter replacement + emptying the drawer twice a week). That's still a significant improvement over manual litter box management for most multi-cat owners. The DFI sensor cleaning is the maintenance task no one tells you about; the consumables budget is the cost no one includes in the purchase price. Factor in $150–$250/year in ongoing costs and those two maintenance realities, and the honest long-term owner picture is: yes, it's worth it for most, but not in the frictionless way the marketing implies.</p>
 
@@ -242,5 +323,6 @@ Owners with 3+ cats describe a specific problem: a cat enters the globe during o
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

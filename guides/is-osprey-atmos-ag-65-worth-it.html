@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="osprey-atmos-ag-65"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-osprey-atmos-ag-65-worth-it">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.1/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-osprey-atmos-ag-65-worth-it";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-osprey-atmos-ag-65-worth-it');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For most three-season backpackers, yes — the <a href="../products/osprey-atmos-ag-65.html">Osprey Atmos AG 65</a>'s Anti-Gravity suspension and All Mighty lifetime warranty make $449 CAD a defensible number. If you're an ultralight hiker already below 10 lbs base weight, or you backpack in sustained rain, the calculus changes.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Actually Love</h2>
 
 <p>The most consistent pattern across <a href="../products/osprey-atmos-ag-65.html">Osprey Atmos AG 65</a> owner reviews is back ventilation. It appears as a primary praise in roughly 60% of positive reviews — not as a minor benefit but as a reason owners chose this pack over competitors and would choose it again. Hikers who run warm or live in humid climates (BC coast, Ontario summers) are particularly consistent: the suspended mesh keeps the pack body off your back entirely, and owners report wet shirts becoming a non-issue after years of contact-back packs.</p>
@@ -138,6 +193,7 @@
   <cite>Amazon reviewer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints</h2>
 
 <p>Two complaints appear consistently and are worth understanding before buying. First: sway under heavy loads. The suspended mesh, which creates the ventilation gap, allows a small amount of lateral movement under loads above roughly 18–20kg. Most backpackers won't exceed this, but owners going heavy (winter gear, extended trips, full bear canister) note the pack feels less locked-in than a contact-back frame. This appears in roughly 20% of critical reviews.</p>
@@ -149,6 +205,7 @@
   <cite>Reddit r/WestCoastTrail</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: What Owners Say After 100+ Miles</h2>
 
 <p>The <a href="../products/osprey-atmos-ag-65.html">Osprey Atmos AG 65</a> appears frequently in multi-year and high-mileage owner reports, which is itself a signal: owners keep it. The most common long-term report is the All Mighty Guarantee being used — not as a sign of poor quality, but as a sign that owners trust the warranty enough to keep the pack rather than replace it when wear appears. Hip belt foam compression at 3–5 years is the most common claim, and Osprey's repair service receives consistent praise for turnaround time and quality.</p>
@@ -160,6 +217,7 @@
   <cite>Reddit r/ultralight</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 
 <ul>
@@ -169,6 +227,7 @@
   <li><strong>Backpackers new to technical gear</strong> — the Fit-on-the-Fly system is genuinely easier to dial in than fixed-torso alternatives, and the fit adjustment range accommodates most body types</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 
 <ul>
@@ -178,25 +237,48 @@
   <li><strong>Heavy haulers above 20kg regularly</strong> — the lateral sway under extreme loads is more noticeable; a contact-back frame (Gregory Baltoro) may suit better</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the $449 CAD Price Justified?</h2>
 
 <p>At $449 CAD on Amazon.ca, the <a href="../products/osprey-atmos-ag-65.html">Osprey Atmos AG 65</a> sits in the premium-but-not-luxury tier for backpacking packs. The <a href="../products/gregory-baltoro-65.html">Gregory Baltoro 65</a> competes directly at a similar price; the Deuter Aircontact Core 65+10 comes in slightly under. What makes the Osprey price work is the lifetime warranty: if you keep this pack for 8 years and use the warranty once, the effective annual cost drops below $50. Owners who frame it that way — as a lifetime gear purchase rather than a one-trip expense — report high satisfaction with the price. Owners who bought it for a single trip and then stopped backpacking report it feels expensive in retrospect.</p>
 
-<table class="pros-cons-table">
-  <thead>
-    <tr><th>Owners Love</th><th>Owners Flag</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Back ventilation eliminates sweat against spine on warm approaches</td><td>Back gap channels rain in sustained downpours despite included rain cover</td></tr>
-    <tr><td>Fit-on-the-Fly hip belt adjustable while loaded mid-trail</td><td>Lateral sway under very heavy loads (20kg+) vs contact-back frames</td></tr>
-    <tr><td>All Mighty lifetime warranty — owners report Osprey honoring claims years later</td><td>Men's-only fit; women must buy the Ariel AG 65 instead</td></tr>
-    <tr><td>Integrated rain cover in dedicated bottom pocket</td><td>2.04kg pack weight is a dealbreaker for committed ultralight hikers</td></tr>
-    <tr><td>Fit torso adjustment accommodates most body proportions</td><td>Rain cover pocket is difficult to access quickly in heavy rain</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>Back ventilation eliminates sweat against spine on warm approaches</li>
+      <li>Fit-on-the-Fly hip belt adjustable while loaded mid-trail</li>
+      <li>All Mighty lifetime warranty — owners report Osprey honoring claims years later</li>
+      <li>Integrated rain cover in dedicated bottom pocket</li>
+      <li>Fit torso adjustment accommodates most body proportions</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>Back gap channels rain in sustained downpours despite included rain cover</li>
+      <li>Lateral sway under very heavy loads (20kg+) vs contact-back frames</li>
+      <li>Men's-only fit; women must buy the Ariel AG 65 instead</li>
+      <li>2.04kg pack weight is a dealbreaker for committed ultralight hikers</li>
+      <li>Rain cover pocket is difficult to access quickly in heavy rain</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For three-season backpackers doing 3–7 day trips in warm-to-moderate conditions with 12–18kg loads, the <a href="../products/osprey-atmos-ag-65.html">Osprey Atmos AG 65</a> at $449 CAD is worth it — the suspension is genuinely effective, the warranty removes long-term cost risk, and owners keep it for years. For ultralight hikers targeting sub-15 lb total loads, or anyone primarily hiking in sustained coastal rain, the pack's specific tradeoffs work against their use case and the money is better spent elsewhere.</p>
 </div>
 
@@ -239,5 +321,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

@@ -1,0 +1,42 @@
+{
+  "slug": "roborock-vs-eufy-robot-vacuum",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:00:46.137Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "eufy BoostIQ RoboVac 11S",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        72,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Roborock Qrevo S Robot Vacuum and Mop",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        89,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

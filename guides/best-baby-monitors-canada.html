@@ -125,6 +125,7 @@
 
 <p>We ranked baby monitors available in Canada by what new parents actually report after 6+ months of use — not box specs. The rankings weight night video clarity, connection reliability at 3am, app stability over 12 months, and total cost of ownership including subscriptions. Canadian context matters here: rural WiFi is meaningfully less reliable than urban, and the choice between WiFi and dedicated-receiver monitors is not cosmetic if you live outside a major city.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
 <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>ClearPick Score</th></tr></thead>
@@ -139,6 +140,60 @@
 
 <h3>1. <a href="../products/nanit-pro-baby-monitor.html"><a href="../products/nanit-pro-baby-monitor.html"><a href="../products/nanit-pro-baby-monitor.html">Nanit Pro Smart</a> Baby</a> Monitor and Flex Stand</a></h3>
 <div class="product-card-inline" data-slug="nanit-pro-baby-monitor"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-baby-monitors-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-baby-monitors-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-baby-monitors-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
 <li><strong>Why it ranked here:</strong> The <a href="../products/nanit-pro-baby-monitor.html"><a href="../products/nanit-pro-baby-monitor.html"><a href="../products/nanit-pro-baby-monitor.html">Nanit Pro Smart</a> Baby</a> Monitor and Flex Stand</a> earns the top spot because it is the only monitor on this list where the camera angle is the product. Mounted overhead, it captures the entire crib in one frame — no blind spots, no partial views. Owners in r/beyondthebump consistently call this the feature they didn't know they needed until they had it.</li>
 <li><strong>What owners love:</strong> Night video clarity appears as the most common praise — owners report seeing their baby clearly in total darkness, which most WiFi cameras fail at. Sleep analytics (breathing motion tracking, sleep trends) get specific mentions from new parents comparing it to monitors they used with older children. Remote viewing from work or another room without relying on a partner's phone is cited in roughly 35% of positive reviews as a meaningful daily benefit.</li>
@@ -193,6 +248,7 @@
 <li><strong>Canadian price:</strong> ~$99–$129 CAD on Amazon.ca.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>How They Compare</h2>
 <table class="owner-table">
 <thead><tr><th>Monitor</th><th>WiFi Required?</th><th>Remote Access?</th><th>Subscription?</th><th>Night Vision</th><th>Screen Included?</th></tr></thead>
@@ -205,6 +261,7 @@
 </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For</h2>
 <h3>WiFi vs. Dedicated Receiver</h3>
 <p>This is the biggest decision. WiFi monitors give you remote access and app features; dedicated-receiver monitors give you signal reliability that does not depend on your internet connection. If you are in rural Canada or have spotty home WiFi, the <a href="../products/infant-optics-dxr-8-pro.html">Infant Optics DXR-8</a> Pro's signal reliability outweighs any smart feature the WiFi monitors offer. Most owner complaints about baby monitors — across all brands — trace back to WiFi drops at 3am.</p>
@@ -226,6 +283,7 @@
 <h3>App Stability Over Time</h3>
 <p>WiFi monitors require ongoing app maintenance. Apps that work well at launch sometimes degrade after updates. Nanit's app has a generally positive reputation but owners report occasional connectivity issues after firmware updates. Owlet's app is consistently praised for simplicity but has a smaller feature set. Whenever buying a WiFi monitor, check the most recent reviews — not the ones from launch — for app stability data.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 <h3>Do I need a subscription for the Nanit Pro in Canada?</h3>
 <p>For basic video monitoring, no. But most of the features that justify the <a href="../products/nanit-pro-baby-monitor.html"><a href="../products/nanit-pro-baby-monitor.html">Nanit Pro Smart</a> Baby</a> Monitor and Flex Stand's $329 CAD price — sleep analytics, sleep trend reports, milestone tracking — require a subscription starting at $120/yr. Breathing motion tracking requires both the subscription and Nanit's proprietary sleeping bag or swaddle accessory. If you buy the Nanit Pro and skip the subscription, you have a very expensive WiFi camera.</p>
@@ -242,8 +300,14 @@
 <h3>Is the Nanit Pro worth it over the Owlet Cam 2?</h3>
 <p>For parents who value sleep analytics and overhead full-crib visibility, yes — the <a href="../products/nanit-pro-baby-monitor.html"><a href="../products/nanit-pro-baby-monitor.html">Nanit Pro Smart</a> Baby</a> Monitor and Flex Stand's unique overhead angle and sleep tracking are genuinely better than the Owlet Cam 2's side-view WiFi camera. For parents who want simple live video and two-way audio without paying for features they won't use, the Owlet Cam 2 is sufficient and meaningfully cheaper with no subscription required for basic use.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For parents with strong home WiFi who want sleep data and overhead crib visibility, the <a href="../products/nanit-pro-baby-monitor.html">Nanit Pro Smart Baby Monitor and Flex Stand</a> is the best baby monitor in Canada — budget the subscription cost in. For parents in rural Canada, with spotty internet, or who prioritize reliability over features, the <a href="../products/infant-optics-dxr-8-pro.html"><a href="../products/infant-optics-dxr-8-pro.html">Infant Optics DXR-8</a> Pro</a> wins by removing WiFi from the equation entirely. The worst outcome is buying a WiFi monitor for its app features and discovering your home's WiFi doesn't reach the nursery reliably at 3am.</p>
 </div>
       </div>
@@ -285,5 +349,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

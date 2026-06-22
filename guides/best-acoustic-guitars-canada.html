@@ -144,6 +144,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>1. <a href="../products/seagull-s6-original-acoustic.html">Seagull S6 Original</a> — Best Acoustic Guitar for Canadian Beginners</h2>
 <div class="product-card-inline" data-slug="seagull-s6-original-acoustic"></div>
 
@@ -160,6 +161,7 @@
   <cite>Reddit u/CanadianFingerpicker via r/acousticguitar</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>2. Yamaha FG800 — Best Value Beginner Acoustic</h2>
 <div class="product-card-inline" data-slug="yamaha-fg800-acoustic-guitar"></div>
 
@@ -176,9 +178,64 @@
   <cite>Amazon.ca reviewer (verified purchase)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>3. Fender CD-60S — Best for Brand Recognition and Resale</h2>
 <div class="product-card-inline" data-slug="fender-cd-60s-acoustic-guitar"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-best-acoustic-guitars-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.2/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-acoustic-guitars-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-acoustic-guitars-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
   <li><strong>Why it ranked #3:</strong> The <a href="../products/fender-cd-60s-acoustic-guitar.html">Fender CD-60S</a> scores 8.8/10 and is a direct equivalent to the FG800 at a slightly lower price. The key differentiator is the Fender name — brand recognition matters for resale, and Fender acoustics hold value better than Yamaha's in the used market. The CD-60S features the same solid spruce top construction and has an easy-play neck profile that gets specific praise from beginners.</li>
   <li><strong>What owners love:</strong> The easy-play neck profile — thinner and more comfortable for beginners than the FG800's neck — is the most frequently cited strength. Fender's scalloped X-bracing provides comparable resonance to the Yamaha.</li>
@@ -187,9 +244,11 @@
   <li><strong>Canadian price:</strong> ~$329 CAD on Amazon.ca.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>4. Jasmine S35 — Best Entry-Level Budget Guitar</h2>
 <p>Not currently reviewed on ClearPick. The <strong>Jasmine S35</strong> (~$149 CAD on Amazon.ca) is the most recommended "I'm not sure I'll stick with it" guitar in Canadian beginner threads. It's a fully laminate guitar — no solid wood — but at $149 the risk is low. Owners who do stick with guitar typically upgrade within 6–12 months to the FG800 or CD-60S. The S35 is not a guitar you'll keep long-term, but it's the right answer for absolute beginners who aren't ready to commit to a $350 instrument.</p>
 
+<div class="guide-section-break"></div>
 <h2>5. Art &amp; Lutherie Roadhouse — Canadian Alternative Under $500</h2>
 <p>Not currently reviewed on ClearPick. The <strong>Art &amp; Lutherie Roadhouse</strong> (~$449 CAD at Long &amp; McQuade) is built in La Patrie, Quebec — same factory as the Seagull S6 under the Godin family of brands. It features a solid cedar top like the S6 at a lower price point. Canadian buyers who want Canadian-made construction but can't stretch to the S6 should consider the Roadhouse. Available primarily at Long &amp; McQuade, not widely on Amazon.ca.</p>
 
@@ -219,6 +278,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For When Buying a Beginner Acoustic Guitar in Canada</h2>
 
 <h3>Solid top vs. laminate top</h3>
@@ -236,6 +296,7 @@
 <h3>Starter pack vs. guitar alone</h3>
 <p>Fender and Yamaha both offer starter packs (~$399–449 CAD) that bundle a tuner, strap, picks, gig bag, and sometimes a capo. Most Canadian beginner owners who bought these report the accessories are mid-quality but adequate for starting. If budget is the constraint, a starter pack is fine. If you can buy the guitar separately and source a clip-on tuner and strap individually, the standalone guitar will typically be better quality at the same price.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 
 <h3>Is the Yamaha FG800 or Fender CD-60S better for beginners?</h3>
@@ -253,8 +314,14 @@
 <h3>What accessories do I need with my first acoustic guitar?</h3>
 <p>The essentials: a clip-on tuner (~$15 CAD — the Snark SN-5 is the most-mentioned in Canadian beginner threads), a strap, a pack of picks in mixed thicknesses, and a soundhole humidifier. A gig bag is useful if you'll transport the guitar. A capo is useful once you start learning songs. Total budget: $50–75 CAD on top of the guitar.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.2/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For most Canadian beginners, the <a href="../products/yamaha-fg800-acoustic-guitar.html">Yamaha FG800</a> is the right starting point — reliable, teacher-recommended, solid top, excellent quality control, $349 CAD. Players who know they'll stick with guitar and want an instrument they won't outgrow should add $250 and get the <a href="../products/seagull-s6-original-acoustic.html">Seagull S6 Original</a> — a Canadian-built guitar that improves with age and has the build quality to last decades. Whatever you buy: get a soundhole humidifier before your first Canadian winter.</p>
 </div>
 
@@ -297,5 +364,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

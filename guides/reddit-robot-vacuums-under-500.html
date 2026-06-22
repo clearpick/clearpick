@@ -128,9 +128,64 @@
 <div class="product-card-inline" data-slug="eufy-auto-empty-c10"></div>
 <div class="product-card-inline" data-slug="dreame-l10s-ultra"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-reddit-robot-vacuums-under-500">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">7.2/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="reddit-robot-vacuums-under-500";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-reddit-robot-vacuums-under-500');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>About This Report</h2>
 <p>This is a synthesis of what the r/RobotVacuums community actually says in recommendation threads, wiki guides, and purchase-advice posts — not a lab review or spec comparison. The community has 400,000+ members and a highly active wiki with curated buying advice updated by long-term owners. This report covers the under-$500 CAD segment: what gets recommended, what gets warned against, and how the consensus has shifted. Products from ClearPick's database referenced: <a href="../products/eufy-boostiq-robovac-11s.html">eufy BoostIQ RoboVac 11S</a> (~$219.99 CAD), <a href="../products/eufy-l60.html">eufy L60</a> (~$299.99 CAD), <a href="../products/eufy-auto-empty-c10.html">eufy Auto-Empty C10</a> (~$349.99 CAD), <a href="../products/dreame-l10s-ultra.html">Dreame L10s Ultra</a> (~$499.99 CAD).</p>
 
+<div class="guide-section-break"></div>
 <h2>What Reddit's Robot Vacuum Community Actually Recommends (and Why)</h2>
 <p>The r/RobotVacuums community has consolidated around one firm rule over the past two years: <strong>LiDAR mapping is non-negotiable for anything above the true entry level</strong>. The community wiki actively warns against bump-navigation models regardless of price — and models like the <a href="../products/eufy-boostiq-robovac-11s.html">eufy BoostIQ RoboVac 11S</a>, which uses random-pattern bump navigation, appear in recommendation threads primarily as "the cheapest starting point if you're not ready to spend" rather than as enthusiastic recommendations.</p>
 
@@ -138,6 +193,7 @@
 
 <blockquote><p>"If you're spending $200-$300 on a bump-nav vacuum, you're spending $200-$300 on frustration. Save another $100-150 and get something with LiDAR. The difference in how it actually cleans your home is not comparable — one learns your home, the other bounces around."</p><cite>r/RobotVacuums, frequently-cited comment in weekly recommendation threads, 2025</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What Reddit Warns Against</h2>
 <p><strong>Bump-navigation models at premium prices</strong> — the community is consistent that paying more than $150–200 CAD for a bump-nav model is not rational when LiDAR alternatives exist in the $250–350 range. The <a href="../products/eufy-boostiq-robovac-11s.html">RoboVac 11S</a> at ~$219.99 CAD gets flagged in this light — it's not a bad product for its price point, but the community treats it as a category floor, not a value winner.</p>
 
@@ -147,6 +203,7 @@
 
 <p><strong>"Deals" on older non-LiDAR models</strong> — seasonal sales regularly surface older bump-nav models at attractive prices. The community consistently warns against these — a 2020-era bump-nav vacuum at $150 is still a bump-nav vacuum with no software update path.</p>
 
+<div class="guide-section-break"></div>
 <h2>The Pet Hair Question: What the Community Says</h2>
 <p>Pet hair is the most-discussed use case in r/RobotVacuums recommendation threads, and the community's guidance is specific: <strong>rubber brush rolls are non-negotiable for heavy pet shedding</strong>. Traditional bristle brush rolls tangle with pet hair reliably — owners with cats or long-haired dogs report cleaning the brush roll every 2–3 runs. Rubber or anti-tangle brush systems (standard on most Dreame and higher-end Eufy models) reduce this to monthly cleaning for most pet owners.</p>
 
@@ -154,6 +211,7 @@
 
 <blockquote><p>"Two huskies. I've tried five robot vacuums. Rubber brush roll is the only thing that works. Bristle rolls are a nightmare — you spend more time cleaning the vacuum than it saves you. Don't compromise on this."</p><cite>r/RobotVacuums, top-voted comment in 2025 pet owner thread</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>App Quality: The Community's Consensus</h2>
 <p>App quality generates strong opinions in r/RobotVacuums. The community consensus in 2025 rates apps roughly as follows for reliability and feature completeness:</p>
 
@@ -165,6 +223,7 @@
 
 <p><strong>iRobot app</strong> — praised for reliability but iRobot's shift to subscription-based features (iRobot OS features behind a subscription wall) has generated community backlash. "Great app, questionable business model" is the common framing.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Changed in 2024–2025</h2>
 <p>The r/RobotVacuums community points to three significant shifts in the under-$500 landscape over the past 18 months:</p>
 
@@ -174,6 +233,7 @@
 
 <p><strong>Dreame and Roborock dominated recommendation threads</strong> — in 2022, iRobot dominated r/RobotVacuums recommendations. By 2025, the community wiki and active recommendation posts have largely shifted to Dreame, Roborock, and Ecovacs as primary recommendations at every price point. Brand skepticism toward Western incumbents (iRobot, Shark) is now the community default for budget segments.</p>
 
+<div class="guide-section-break"></div>
 <h2>The Canadian Pricing Reality</h2>
 <p>Canadian pricing is consistently flagged in r/canada and r/PersonalFinanceCanada robot vacuum discussions. The reality: models available at $300–400 USD in the US typically land at $350–500 CAD in Canada — roughly a 20–35% premium over straight currency conversion, driven by import costs, distributor margins, and Amazon.ca pricing premiums versus Amazon.com.</p>
 
@@ -220,5 +280,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

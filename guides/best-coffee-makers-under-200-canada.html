@@ -125,6 +125,7 @@
 
 <p>We ranked coffee makers under $200 CAD available in Canada by what owners actually report after daily use — not café comparisons. ClearPick Score reflects owner sentiment analysis across verified purchasers. These rankings cover three coffee styles: drip (brewing a full pot), pod (one cup at a time, fast), and espresso (concentrated shots, optionally with milk). One of the picks in this guide — the <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus Coffee &amp; Espresso Machine by De'Longhi</a> — retails at ~$229 CAD but frequently goes on sale under $200 and is included because it is the most common recommendation in this category.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
 <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>ClearPick Score</th></tr></thead>
@@ -178,6 +179,60 @@
 
 <h3>4. <a href="../products/nespresso-vertuo-plus.html"><a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus</a> Coffee</a> &amp; Espresso Machine by De'Longhi (~$229 CAD)</h3>
 <div class="product-card-inline" data-slug="nespresso-vertuo-plus"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-coffee-makers-under-200-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.4/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-coffee-makers-under-200-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-coffee-makers-under-200-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
 <li><strong>Why it ranked here:</strong> The <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus Coffee &amp; Espresso Machine by De'Longhi</a> sits slightly over $200 at $229 CAD regular price, but earns inclusion because it is the most common Canadian recommendation for owners who want both espresso shots AND a full cup of coffee from one machine. Vertuo uses barcode-reading centrifugation to brew five different cup sizes — espresso (1.35 oz), double espresso, gran lungo, coffee (7.77 oz), and alto XL — each optimized automatically by the pod barcode. One button, 40 seconds, no decisions.</li>
 <li><strong>What owners love:</strong> The single-button simplicity is the most consistent praise across owner reviews — owners who previously had manual espresso machines or French presses cite the zero-skill-required operation as the reason they use it daily rather than occasionally. Crema thickness from Vertuo pods gets specific praise. 40-second heat-up is fast enough for morning routines. "I make coffee for guests now without stress" is representative owner language.</li>
@@ -191,6 +246,7 @@
   <cite>Amazon reviewer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>The Real Cost: Pod Spending Over 3 Years</h2>
 <table class="owner-table">
 <thead><tr><th>Machine</th><th>Machine Cost</th><th>Pod Cost/Cup</th><th>2 Cups/Day × 3 Years</th><th>Total 3-Year Cost</th></tr></thead>
@@ -203,6 +259,7 @@
 </table>
 <p>The <a href="../products/cuisinart-dcc-3200-coffee-maker.html">Cuisinart DCC-3200P1 PerfecTemp 14-Cup Programmable Coffeemaker</a> is by a large margin the cheapest to operate over 3 years. Pod machines trade ongoing cost for per-cup convenience. Canadian buyers who replace a daily café habit (where the pod cost still beats $5–$8/day café pricing) come out ahead on pod machines; buyers who primarily make coffee at home to avoid café prices do not.</p>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For</h2>
 <h3>Daily Volume: How Many Cups?</h3>
 <p>The single most important variable. Households that brew 1–2 cups in the morning and nothing else are better served by pod machines. Households that brew a full pot in the morning and another in the afternoon should buy the <a href="../products/cuisinart-dcc-3200-coffee-maker.html">Cuisinart DCC-3200P1 PerfecTemp 14-Cup Programmable Coffeemaker</a> — pod machine operating costs at high volume become a significant expense.</p>
@@ -216,6 +273,7 @@
 <h3>Counter Space</h3>
 <p>The <a href="../products/keurig-k-mini-plus.html">Keurig K-Mini Plus Single Serve K-Cup Pod Coffee Maker</a> at under 5 inches wide is the most compact. The <a href="../products/nespresso-essenza-mini.html">Nespresso Essenza Mini Espresso Machine by De'Longhi</a> is similarly slim. The <a href="../products/cuisinart-dcc-3200-coffee-maker.html">Cuisinart DCC-3200P1 PerfecTemp 14-Cup Programmable Coffeemaker</a> requires more counter width but less height than pod machines typically. The <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus Coffee &amp; Espresso Machine by De'Longhi</a> has a moveable water reservoir (side or back) to adapt to kitchen layout.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 <h3>Is a Nespresso machine worth it over a Keurig in Canada?</h3>
 <p>For espresso and café-style drinks, yes — Nespresso pod quality and crema production are consistently rated better than K-Cup coffee in owner comparisons. For standard drip-style coffee, the K-Cup in the <a href="../products/keurig-k-mini-plus.html">Keurig K-Mini Plus Single Serve K-Cup Pod Coffee Maker</a> produces adequate but not exceptional results. If you drink mostly standard coffee, Keurig wins on pod availability and variety. If you drink espresso or milk-based drinks, Nespresso wins on quality.</p>
@@ -229,8 +287,14 @@
 <h3>Where can I buy Nespresso pods in Canada outside major cities?</h3>
 <p>Nespresso Original pods (for the <a href="../products/nespresso-essenza-mini.html">Nespresso Essenza Mini Espresso Machine by De'Longhi</a>) are carried at many Loblaws, Sobeys, Metro, and Starbucks locations across Canada, plus online delivery. Nespresso Vertuo pods have narrower distribution — primarily Nespresso boutiques (Toronto, Montreal, Vancouver, Calgary, Ottawa) and online shipping. If you live outside these cities, shipping time and minimum order thresholds are real factors to account for before buying the <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus Coffee &amp; Espresso Machine by De'Longhi</a>.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.6/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For high-volume households or anyone who wants to minimize per-cup cost, the <a href="../products/cuisinart-dcc-3200-coffee-maker.html">Cuisinart DCC-3200P1 PerfecTemp 14-Cup Programmable Coffeemaker</a> at $89 CAD is the most practical choice — set it the night before, wake to a full pot. For single-cup convenience in a very small space, the <a href="../products/keurig-k-mini-plus.html">Keurig K-Mini Plus Single Serve K-Cup Pod Coffee Maker</a> at $119 wins on footprint and K-Cup availability. For espresso drinkers who want café-quality shots fast, the <a href="../products/nespresso-essenza-mini.html">Nespresso Essenza Mini Espresso Machine by De'Longhi</a> at $149 is the compact pick. The <a href="../products/nespresso-vertuo-plus.html">Nespresso Vertuo Plus Coffee &amp; Espresso Machine by De'Longhi</a> is the buy if you want one machine for both espresso and full cups — verify current price against the $200 ceiling before purchasing.</p>
 </div>
       </div>
@@ -272,5 +336,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

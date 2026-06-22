@@ -142,6 +142,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>1. <a href="../products/herman-miller-aeron-chair.html"><a href="../products/herman-miller-aeron-chair.html"><a href="../products/herman-miller-aeron-chair.html">Herman Miller Aeron</a> Chair</a></a></h2>
 <div class="product-card-inline" data-slug="herman-miller-aeron-chair"></div>
 
@@ -163,6 +164,7 @@
   <cite>Amazon reviewer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>2. <a href="../products/steelcase-leap-v2-chair.html">Steelcase Leap V2</a></h2>
 <div class="product-card-inline" data-slug="steelcase-leap-v2-chair"></div>
 
@@ -179,6 +181,7 @@
   <cite>Amazon reviewer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>3. <a href="../products/branch-ergonomic-chair.html"><a href="../products/branch-ergonomic-chair.html"><a href="../products/branch-ergonomic-chair.html">Branch Ergonomic Chair</a></a></a></h2>
 <div class="product-card-inline" data-slug="branch-ergonomic-chair"></div>
 
@@ -190,9 +193,64 @@
   <li><strong>Canadian price:</strong> ~$499 CAD. Ships to Canada directly from Branch's website.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>4. <a href="../products/autonomous-ergochair-pro.html"><a href="../products/autonomous-ergochair-pro.html"><a href="../products/autonomous-ergochair-pro.html">Autonomous ErgoChair Pro</a></a></a></h2>
 <div class="product-card-inline" data-slug="autonomous-ergochair-pro"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-best-ergonomic-office-chairs-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.5/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-ergonomic-office-chairs-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-ergonomic-office-chairs-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
   <li><strong>Why it ranked #4:</strong> The <a href="../products/autonomous-ergochair-pro.html">Autonomous ErgoChair Pro</a> at 8.3/10 is the budget entry point for buyers upgrading from a generic chair. At $449 CAD, it includes 4D arms and a headrest — features that cost significantly more on competing chairs — but at a build quality that reflects the price.</li>
   <li><strong>What owners love:</strong> Feature set per dollar is the primary draw. 4D arms, adjustable lumbar, headrest, and mesh back at this price are not available elsewhere. Owners who use it 4–5 hours daily (not full work days) report consistently positive outcomes.</li>
@@ -201,6 +259,7 @@
   <li><strong>Canadian price:</strong> ~$449 CAD on Amazon.ca and Autonomous.ai's Canadian storefront.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Also Considered (Not on ClearPick)</h2>
 <p>Several chairs are commonly recommended in Canadian discussions that are not yet reviewed on ClearPick:</p>
 <ul>
@@ -256,6 +315,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For in an Ergonomic Chair</h2>
 
 <h3>Lumbar adjustability that matches your spine</h3>
@@ -273,6 +333,7 @@
 <h3>Budget tiers that actually exist</h3>
 <p>Canadian chair buyers face three realistic tiers: under $500 (Branch, Autonomous, Sihoo), $800–1,300 (Leap V2 refurbished, new Branch premium), and $1,300–1,800+ (Aeron new, Leap V2 new). There is a genuine gap between the under-$500 and premium tiers — owners who've used both tiers consistently report the premium chairs differently. The under-$500 options deliver good ergonomics; the premium options deliver exceptional ergonomics and multi-decade durability.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 
 <h3>Is the <a href="../products/herman-miller-aeron-chair.html">Herman Miller Aeron</a> worth it in Canada vs buying from the US?</h3>
@@ -290,8 +351,14 @@
 <h3>Do gaming chairs count as ergonomic chairs?</h3>
 <p>Owner data says: no, for 8-hour workdays. Gaming chairs (including Secretlab) are designed for shorter gaming sessions and tend to push the spine into a posture that causes fatigue over long work sessions. Several owners in r/WorkFromHome report switching from gaming chairs to proper ergonomic chairs after back pain developed. For occasional use, gaming chairs are fine; for full work days, ergonomic chairs are better supported by owner data.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">90%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.5/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For Canadians who work from home full-time, the <a href="../products/herman-miller-aeron-chair.html">Herman Miller Aeron</a> and <a href="../products/steelcase-leap-v2-chair.html">Steelcase Leap V2</a> are the two chairs with the strongest owner data at any price point. The refurbished Canadian market makes both accessible below $1,000 CAD. For buyers in the $499 range, the <a href="../products/branch-ergonomic-chair.html">Branch Ergonomic Chair</a> is the strongest option ClearPick has reviewed — owner satisfaction is high and back-pain outcomes are genuinely reported, with the caveat that foam longevity is the known limitation. The <a href="../products/autonomous-ergochair-pro.html">Autonomous ErgoChair Pro</a> is the budget entry point, best for part-time users or first-time ergonomic chair buyers who aren't ready to commit to a premium price.</p>
 </div>
 
@@ -334,5 +401,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

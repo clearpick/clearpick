@@ -1,0 +1,42 @@
+{
+  "slug": "delonghi-magnifica-evo-vs-breville-barista-express-impress",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:00:53.796Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "De'Longhi Magnifica Evo Automatic Espresso and Coffee Machine",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        88,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Breville Barista Express Impress Espresso Machine BES876BSS",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        86,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

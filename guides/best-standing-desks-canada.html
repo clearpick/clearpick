@@ -125,6 +125,7 @@
 
 <p>We ranked the best electric standing desks available to Canadian buyers under $1,000 CAD by synthesizing thousands of owner reviews from r/StandingDesk, r/CanadaPersonalFinance, r/WorkFromHome, and Amazon.ca verified purchase reviews — weighting actual stability at standing height, motor reliability after 12 months, and Canadian-specific considerations like import duty on US brands and Amazon.ca availability. Only one desk in this ranking has a full ClearPick review (the <a href="../products/flexispot-e2-standing-desk.html">FlexiSpot E2 Height Adjustable Electric Standing Desk, 48x24 Inch</a>); additional desks are included based on owner data and Canadian availability.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
 <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>Price (CAD)</th></tr></thead>
@@ -137,6 +138,7 @@
 </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>Full Rankings</h2>
 
 <h3>1. <a href="../products/flexispot-e7-standing-desk.html">FlexiSpot E7 Pro</a> — Best Overall for Canadian Home Offices</h3>
@@ -151,6 +153,60 @@
 
 <h3>2. FlexiSpot E2 — Best Budget Standing Desk in Canada</h3>
 <div class="product-card-inline" data-slug="flexispot-e2-standing-desk"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-standing-desks-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.5/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-standing-desks-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-standing-desks-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
 <li><strong>Why it ranked #2:</strong> The <a href="../products/flexispot-e2-standing-desk.html">FlexiSpot E2 Height Adjustable Electric Standing Desk, 48x24 Inch</a> earns its position as the best budget standing desk for Canada because it's the most available, well-reviewed electric standing desk under $450 CAD on Amazon.ca. At $399 CAD, it's the entry point that turns the standing desk question from "can I afford one?" to "which one?" The dual-motor design, 4 memory presets, and 154 lb capacity meet most home office needs.</li>
 <li><strong>What owners love:</strong> Value for money — 9.5/10 subscore on ClearPick and confirmed in approximately 60% of positive Amazon.ca reviews as the #1 reason for choosing it. Amazon.ca Prime shipping and hassle-free returns praised by Canadian buyers over less-available alternatives. Assembly is manageable for most users (60–90 minutes reported).</li>
@@ -199,6 +255,7 @@
 <li><strong>Canadian price:</strong> ~$299–$350 CAD on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Comparison Table</h2>
 <table class="owner-table">
 <thead><tr><th>Desk</th><th>Motor</th><th>Height Range</th><th>Weight Capacity</th><th>Memory Presets</th><th>Warranty</th><th>Price (CAD)</th></tr></thead>
@@ -211,6 +268,7 @@
 </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For: Canadian Standing Desk Buyers</h2>
 
 <h3>Stability at Standing Height — The #1 Factor</h3>
@@ -233,6 +291,7 @@
 <h3>Warranty and Canadian Service</h3>
 <p>For Canadian buyers, warranty resolution requires either shipping a heavy desk component to a service center or having a local repair option. FlexiSpot Canada processes warranty claims from Canadian warehouses and ships replacement parts domestically — Canadian owners confirm this works. Uplift's 15-year warranty is the best in the industry but warranty service for Canadian customers requires US shipping in some scenarios. For most Canadian buyers, FlexiSpot's 5-year warranty with Canadian service is more practically valuable than a longer warranty requiring cross-border shipping.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 
 <h3>Is the FlexiSpot E2 good enough for a dual monitor setup?</h3>
@@ -289,5 +348,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

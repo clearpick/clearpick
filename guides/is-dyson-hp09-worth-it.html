@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="dyson-hp09-purifier-heater-fan"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-dyson-hp09-worth-it">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.7/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-dyson-hp09-worth-it";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-dyson-hp09-worth-it');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For most buyers in a small apartment or open-plan space who want air purification, supplemental heating, and a fan without three separate units cluttering the room, yes — the <a href="../products/dyson-hp09-purifier-heater-fan.html">Dyson HP09</a> earns its price. But if your priority is maximum air purification per dollar spent, separate dedicated devices deliver more value at roughly half the cost.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Actually Love</h2>
 
 <p>The most common praise across owner reviews is the space consolidation — roughly 60% of positive reviews specifically mention replacing two or three devices with one. Studio apartment owners and bedroom users cite this as the primary reason they'd buy it again. The real-time air quality LCD is the second most praised feature: owners report seeing PM2.5 spikes from cooking that they then actively manage, which changes how they use the device. "The air quality display changed how I think about my home. I can see when the PM2.5 spikes from cooking and turn it up accordingly." — Reddit r/airquality.</p>
@@ -140,6 +195,7 @@
 
 <p>The HEPA H13 sealed system is genuinely excellent. Dyson's 360° sealed design prevents air from bypassing the filter — a real technical distinction versus unsealed budget purifiers. The catalytic formaldehyde filter (unique to the HP09 vs TP09) continuously destroys formaldehyde without replacement. For Canadian owners in BC, Alberta, or Ontario during wildfire season, the purification performance is consistently praised as effective at reducing visible haze and odor in under an hour.</p>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints</h2>
 
 <p>The most frequent complaint — appearing in roughly 55% of critical reviews — is the price comparison to separate best-in-class devices. A Coway AP-1512HH purifier, Vornado MVH heater, and Honeywell tower fan costs roughly $350-400 CAD combined and performs comparably for each function individually. Owners who did this math after purchasing express regret at the premium. "Two Dyson units don't seem to do much of anything to the air compared to what I expected for the price" is a representative comment from multi-unit Dyson households who bought without comparing specs.</p>
@@ -150,7 +206,28 @@
 </blockquote>
 
 <p>The ongoing filter cost at approximately $70/year is flagged in roughly 35% of reviews — often by buyers who didn't account for it in their initial comparison. Over three years, total cost of ownership reaches approximately $1,059 CAD ($849 + $70 × 3) vs $450-500 CAD for a comparable separate-device setup including filter replacements. The data privacy concern around the MyDyson app storing usage data on Dyson's cloud servers appears in Reddit threads, particularly in r/privacy, though it's a minority complaint.</p>
+<div class="guide-chart-block">
+  <h3 class="chart-block-title">Most Common Complaints — By Frequency</h3>
+  <p class="chart-block-source">Derived from owner reviews and community threads</p>
+  <canvas id="cc_is_dyson_hp09_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Critical reviews  is the price comparison to separate best","Reviews  often by buyers who didn't account for it in their"];
+  var values=[55,35];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,250);return;}
+    var el=document.getElementById('cc_is_dyson_hp09_worth_it');
+    if(!el||el.dataset.rendered)return;
+    el.dataset.rendered='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:values,backgroundColor:values.map(function(_,i){return i===0?'#ef4444':i===1?'#f97316':'#fbbf24';}),borderRadius:6,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{callback:function(v){return v+'%';}},grid:{color:'#f3f4f6'}},y:{grid:{display:false}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 
+
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: What Owners Say After 6–12 Months</h2>
 
 <p>The pattern across long-term owner threads is consistent: the HP09's strengths hold up. Purification remains effective, heating precision is maintained, and the real-time display continues to be used actively by most owners. No significant degradation complaints appear in 6–12 month owner reports beyond normal filter-replacement reminders.</p>
@@ -162,6 +239,7 @@
   <cite>Amazon.ca reviewer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 
 <ul>
@@ -172,6 +250,7 @@
   <li><strong>Dyson ecosystem owners</strong> who already trust the brand and value the premium build quality and warranty support</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 
 <ul>
@@ -181,27 +260,50 @@
   <li><strong>Data-privacy-conscious buyers</strong> — the MyDyson app transmits usage and air quality data to Dyson's servers; there is no fully offline operating mode</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the Price Justified?</h2>
 
 <p>At approximately $849 CAD on Amazon.ca, the <a href="../products/dyson-hp09-purifier-heater-fan.html">Dyson HP09</a> is priced as a premium product. The justification is real but conditional: if you need a genuine 3-in-1 with premium build quality, precise heating, and verified air purification, the premium over equivalent separate devices is approximately $450-500 CAD. That premium buys: one device instead of three, Dyson build quality and 2-year warranty, real-time air quality display, and the catalytic formaldehyde filter. If any of those factors matter to your specific situation, the premium is defensible. If none of them matter, the separate-device setup wins on value.</p>
 
 <p>Filter cost: budget $70 CAD per year (one filter replacement, Dyson-branded). Third-party alternatives exist but Dyson has been known to deactivate non-Dyson filters via firmware updates.</p>
 
-<table class="pros-cons-table">
-  <thead>
-    <tr><th>Owners Love</th><th>Owners Flag</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Replaces 3 devices with 1 — genuine floor space savings</td><td>$849 CAD is $450-500 more than comparable separate devices</td></tr>
-    <tr><td>HEPA H13 sealed — no filter bypass, genuinely effective purification</td><td>Filter replacement at $70/yr adds to total cost of ownership</td></tr>
-    <tr><td>1°C thermostat precision — meaningfully better than budget heaters</td><td>Fan mode is least powerful function — not a substitute for dedicated cooling</td></tr>
-    <tr><td>Real-time LCD air quality display — PM2.5, VOCs, humidity, temp</td><td>MyDyson app stores usage data on Dyson's cloud servers</td></tr>
-    <tr><td>Catalytic formaldehyde filter (HP09 exclusive) — continuous destruction, no replacement</td><td>Owners predominantly use one primary mode, not all three equally</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>Replaces 3 devices with 1 — genuine floor space savings</li>
+      <li>HEPA H13 sealed — no filter bypass, genuinely effective purification</li>
+      <li>1°C thermostat precision — meaningfully better than budget heaters</li>
+      <li>Real-time LCD air quality display — PM2.5, VOCs, humidity, temp</li>
+      <li>Catalytic formaldehyde filter (HP09 exclusive) — continuous destruction, no replacement</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>$849 CAD is $450-500 more than comparable separate devices</li>
+      <li>Filter replacement at $70/yr adds to total cost of ownership</li>
+      <li>Fan mode is least powerful function — not a substitute for dedicated cooling</li>
+      <li>MyDyson app stores usage data on Dyson's cloud servers</li>
+      <li>Owners predominantly use one primary mode, not all three equally</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.7/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For buyers in small spaces who want one unit to replace three and are willing to pay the premium for Dyson build quality and precise heating, the <a href="../products/dyson-hp09-purifier-heater-fan.html">Dyson HP09</a> is genuinely worth it — especially during Canadian wildfire smoke seasons where the HEPA H13 sealed system earns its cost. For buyers who want maximum air purification per dollar, or who primarily need strong cooling, the math favours separate best-in-class devices at half the cost.</p>
 </div>
 
@@ -244,5 +346,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

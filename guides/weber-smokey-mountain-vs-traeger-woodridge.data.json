@@ -1,0 +1,42 @@
+{
+  "slug": "weber-smokey-mountain-vs-traeger-woodridge",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:37.503Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Weber 18-Inch Smokey Mountain Cooker Charcoal Smoker",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        91,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Traeger Woodridge Wood Pellet Grill and Smoker, 860 Sq. In.",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        82,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

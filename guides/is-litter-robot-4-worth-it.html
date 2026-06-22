@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="litter-robot-4"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-litter-robot-4-worth-it">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-litter-robot-4-worth-it";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-litter-robot-4-worth-it');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For multi-cat households who hate scooping, yes — the <a href="../products/litter-robot-4.html">Litter-Robot 4</a> earns its price through reliable automation, genuine odour elimination, and a surprisingly useful health-monitoring app. But if you have a single cat, a tight budget, or a cat that rejects enclosed spaces, it does not make financial sense.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Actually Love</h2>
 <p>The most common praise across <a href="../products/litter-robot-4.html">Litter-Robot 4</a> owners is the elimination of daily scooping — this appears in roughly 70% of positive long-term reviews and is consistently described as transformative, not just convenient. The automated cleaning cycle fires 30 minutes after each use, and the sealed drawer contains odour far more effectively than any open litter box. Multi-cat households that previously battled smell report guests can no longer detect a litter box is present.</p>
 
@@ -139,6 +194,7 @@
 
 <p>Build quality is also consistently praised. Owners who've had the unit for 4+ years report the globe mechanism runs as reliably as day one. Litter-Robot's customer support reputation is the best in the automatic litter box category.</p>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints</h2>
 <p>The most common negative pattern — appearing in roughly 25% of long-term reviews — is cat rejection. Some cats, particularly older cats or cats who dislike enclosed spaces, refuse to use the globe-shaped enclosure entirely. Litter-Robot offers a trial period, but the transition can take 2–4 weeks of deliberate effort (treats inside, removing the old box, waiting it out), and a small percentage of cats never accept it. This is the single most frequent reason for returns.</p>
 
@@ -150,7 +206,28 @@
 </blockquote>
 
 <p>Mechanical failure appears in roughly 8–12% of reviews at the 12–18 month mark — most commonly the globe motor. Litter-Robot's support sells replacement parts at cost, but a $700 appliance requiring a motor replacement in year two is a real frustration point.</p>
+<div class="guide-chart-block">
+  <h3 class="chart-block-title">Most Common Complaints — By Frequency</h3>
+  <p class="chart-block-source">Derived from owner reviews and community threads</p>
+  <canvas id="cc_is_litter_robot_4_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Longterm owners mention this as a budget surprise","Longterm reviews  is cat rejection","Reviews at the 1218 month mark  most commonly the globe mo"];
+  var values=[40,25,8];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,250);return;}
+    var el=document.getElementById('cc_is_litter_robot_4_worth_it');
+    if(!el||el.dataset.rendered)return;
+    el.dataset.rendered='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:values,backgroundColor:values.map(function(_,i){return i===0?'#ef4444':i===1?'#f97316':'#fbbf24';}),borderRadius:6,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{callback:function(v){return v+'%';}},grid:{color:'#f3f4f6'}},y:{grid:{display:false}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 
+
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: What Owners Say After 6–12 Months</h2>
 <p>The honeymoon period — roughly the first 3 months — produces near-unanimous satisfaction in reviews. The long-term picture is slightly more nuanced. Owners who bought it for a single cat sometimes reassess the value proposition around month 6. Owners with two or more cats remain consistently satisfied: the per-cat cost calculation improves significantly, and the time savings are more meaningful.</p>
 
@@ -161,6 +238,7 @@
   <cite>Amazon reviewer, verified purchase</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 <ul>
   <li><strong>Multi-cat households (2+ cats):</strong> The per-cat cost of ownership drops to $350 or less, time savings compound, and the health-monitoring data becomes more useful with multiple cats to compare.</li>
@@ -169,6 +247,7 @@
   <li><strong>Anyone who physically dreads scooping daily:</strong> The elimination of this chore is the core value proposition, and it delivers on it reliably.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 <ul>
   <li><strong>Single-cat households on a tight budget:</strong> At $699+ CAD plus consumables, the ROI case is weak. A high-quality manual box costs $30–60 and a 30-second daily scoop habit is the honest alternative.</li>
@@ -177,24 +256,49 @@
   <li><strong>Small apartments:</strong> The unit is nearly 30 inches tall and 24 inches wide. Multiple owners report it doesn't fit in bathrooms they expected it to fit in.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the Price Justified?</h2>
 <p>At ~$699 CAD on Amazon.ca, the <a href="../products/litter-robot-4.html">Litter-Robot 4</a> is roughly 10× a quality manual litter box. The value calculation hinges on cat count, scooping frequency, and whether you travel. For a single-cat household that doesn't travel, owner sentiment divides roughly 60/40 in favour of worth-it. For two-cat households, sentiment is closer to 80/20 worth-it. The health-monitoring feature is not in the financial calculation — it's a genuine bonus that owners discover over time.</p>
 
 <p>The ongoing cost (~$6/month CAD for consumables) should be factored into the decision. Over 3 years: $699 + $216 = $915 CAD. For a multi-cat household, this replaces the equivalent of daily manual scooping across multiple boxes, which many owners assign real monetary value to.</p>
 
-<table class="pros-cons-table">
-  <thead><tr><th>Owners Love</th><th>Owners Flag</th></tr></thead>
-  <tbody>
-    <tr><td>Near-zero daily scooping — drawer empties weekly for single cat</td><td>Some cats reject the globe enclosure — no guaranteed fix</td></tr>
-    <tr><td>Odour elimination that surprises multi-cat households</td><td>Consumables add $60–100/year CAD on top of purchase price</td></tr>
-    <tr><td>WhiskerApp flags health anomalies before symptoms appear</td><td>Occasional motor failure reported at 12–18 months</td></tr>
-    <tr><td>Build quality that holds up for 5–10 years</td><td>Large footprint — doesn't fit all bathrooms</td></tr>
-    <tr><td>Litter-Robot customer support praised across the board</td><td>Clumping litter only — no flexibility on litter type</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>Near-zero daily scooping — drawer empties weekly for single cat</li>
+      <li>Odour elimination that surprises multi-cat households</li>
+      <li>WhiskerApp flags health anomalies before symptoms appear</li>
+      <li>Build quality that holds up for 5–10 years</li>
+      <li>Litter-Robot customer support praised across the board</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>Some cats reject the globe enclosure — no guaranteed fix</li>
+      <li>Consumables add $60–100/year CAD on top of purchase price</li>
+      <li>Occasional motor failure reported at 12–18 months</li>
+      <li>Large footprint — doesn't fit all bathrooms</li>
+      <li>Clumping litter only — no flexibility on litter type</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">60%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Based on long-term owner reports and community threads</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For multi-cat households and frequent travellers, the <a href="../products/litter-robot-4.html">Litter-Robot 4</a> is worth it — the automation is reliable, the odour control is genuine, and the health monitoring adds real value over time. For single-cat households on a budget, or owners with cats who may reject an enclosed globe, the $699+ CAD price is hard to justify. The honest question to ask first: will your cat use it? Litter-Robot's trial period exists for this reason — use it.</p>
 </div>
 
@@ -237,5 +341,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

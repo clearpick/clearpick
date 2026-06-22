@@ -126,27 +126,87 @@
 <div class="product-card-inline" data-slug="apple-macbook-air-13-m4"></div>
 <div class="product-card-inline" data-slug="apple-macbook-air-15-m4"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-macbook-air-13-m4-vs-macbook-air-15-m4">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.3/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="macbook-air-13-m4-vs-macbook-air-15-m4";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-macbook-air-13-m4-vs-macbook-air-15-m4');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>The actual question: do you use an external monitor?</h2>
 <p>The MacBook Air 13-inch M4 and MacBook Air 15-inch M4 are the same laptop in different body sizes. Same M4 chip, same 16GB RAM, same 18-hour battery, same Liquid Retina display technology, same two Thunderbolt 4 ports, same 1080p webcam. The only differences that matter: screen size (13.6" vs 15.3"), weight (1.24kg vs 1.51kg), and price ($1,299 vs $1,599 CAD). The MacBook Air 13 M4 scores 9.3 on ClearPick; the MacBook Air 15 M4 scores 9.1.</p>
 <p>The one question that determines which size to buy: do you regularly connect to an external monitor at a desk? If yes — buy the 13-inch. You'll use an external monitor most of the time, the laptop's screen size matters only when traveling, and the 13-inch saves $300 and 270g. If you work primarily on the laptop screen without a monitor, the 15-inch is meaningfully more comfortable for extended work and the $300 premium is the real price of not needing to buy a monitor.</p>
 
+<div class="guide-section-break"></div>
 <h2>Screen size: what 2 inches actually means</h2>
 <p>The jump from 13.6" to 15.3" is more noticeable than the number suggests. 13.6" is comfortable for short-to-medium work sessions and travel; it starts to feel small when side-by-side window comparisons, spreadsheets with many columns, or documents with reference material become the daily workflow. Owners who spend all day working on the MacBook's built-in display report the 15-inch as a meaningful quality-of-life improvement: "Replaced my 16-inch MacBook Pro — don't need the extra power, and this is lighter and cheaper" is representative of the 15-inch owner who wanted a large-screen device without the Pro's cost.</p>
 <p>The flip side: owners who primarily dock their MacBook at a desk report the 13-inch is the right call. "If you mostly use an external monitor, the 13-inch is the better value" surfaces in multiple 15-inch owner threads — the screen size advantage disappears entirely in a docked setup, and you've paid $300 for a heavier bag to carry.</p>
 
+<div class="guide-section-break"></div>
 <h2>Weight and portability</h2>
 <p>1.24kg vs. 1.51kg — a 270g difference. In a backpack, most owners describe this as imperceptible. In a shoulder bag worn for hours across an airport or campus, the difference becomes noticeable by the end of the day. Owners who commute by foot or transit more frequently cite the 13-inch's weight as relevant; car commuters and home workers rarely mention it. Both are lighter than most Windows 15-inch laptops, so the 15-inch Air compares favorably to Windows alternatives even at the higher weight.</p>
 
+<div class="guide-section-break"></div>
 <h2>Performance: identical</h2>
 <p>The M4 chip is the same in both. Fanless operation is the same in both. Battery life is the same 18 hours. The 15-inch has a marginally larger battery (66.5Wh vs. 52.6Wh) to compensate for the larger display — net battery life is the same. Owners who benchmark both report within-margin-of-error performance differences in every real-world workload. For buyers choosing on performance: there is no performance reason to choose one over the other.</p>
 <p>Both sustain the same sustained-performance ceiling — the fanless design limits very long high-CPU workloads like 60-minute 4K renders or extended large codebase compilations. The MacBook Pro 14 M4 is the solution for sustained professional workloads; neither Air is the right tool for those tasks, regardless of screen size.</p>
 
+<div class="guide-section-break"></div>
 <h2>Ports: identical limitation on both</h2>
 <p>Both have two Thunderbolt 4/USB-C ports and MagSafe. No HDMI, no SD card, no USB-A. This is the most consistent owner complaint across both models. Multi-monitor desk setups or video workflows with SD cards require a hub or dock — typically $50–100. The 15-inch's larger screen mitigates the external monitor need somewhat, but the port limitation is otherwise the same on both.</p>
 
+<div class="guide-section-break"></div>
 <h2>Storage: upgrade to 512GB on either model</h2>
 <p>The base 256GB model is the same starting point. Owners who bought 256GB consistently report it filling within 12–18 months without active management. The 512GB upgrade ($200 extra) is worth it for anyone storing photos, videos, Xcode projects, or large files locally. Storage cannot be upgraded post-purchase — this is a configure-at-purchase decision.</p>
 
+<div class="guide-section-break"></div>
 <h2>Situation-by-situation guidance</h2>
 <p><strong>Buy the MacBook Air 13 M4 ($1,299 CAD) if:</strong></p>
 <ul>
@@ -163,8 +223,14 @@
   <li>You want a single-device solution without buying a monitor</li>
 </ul>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.3/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>The MacBook Air 13 M4 is the right choice for most buyers — travelers, students, and anyone who docks to an external monitor. The MacBook Air 15 M4 is the right choice for remote workers who rely on the built-in screen all day and want to avoid buying a separate display. Both are the same laptop performance-wise; this is purely a screen-size-versus-price tradeoff based on how and where you work.</p>
 </div>
 
@@ -207,5 +273,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

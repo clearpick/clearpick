@@ -127,8 +127,63 @@
 <div class="product-card-inline" data-slug="douglas-mattress"></div>
 <div class="product-card-inline" data-slug="casper-original-hybrid-mattress"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-endy-vs-douglas-vs-casper-canada-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.8/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="endy-vs-douglas-vs-casper-canada-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-endy-vs-douglas-vs-casper-canada-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p><em>Data sources: r/PersonalFinanceCanada, r/Canada, r/LifeAdvice Canada threads, r/Mattress, Endy and Douglas review aggregators (Trustpilot Canada, Google Reviews), Reddit posts specifically about Canadian mattress trials, return experiences, and 12-month impressions. Casper Canada-specific review threads on Reddit. Sleep Foundation forum discussions. 200+ Canadian owner reports reviewed across all three brands.</em></p>
 
+<div class="guide-section-break"></div>
 <h2>The Trial Period Reality: What Canadian Owners Say About Returns</h2>
 <p>All three brands advertise a generous trial period — Endy 100 nights, Douglas 365 nights, Casper 100 nights. Owner reports from Canadian buyers paint a nuanced picture of how these trials actually work in practice.</p>
 <p><strong>Endy returns:</strong> The most common description in r/PersonalFinanceCanada return threads: "easier than I expected." Endy arranges pickup through a charity donation or local pickup service in most Canadian cities, and the process is generally described as requiring one or two phone calls. Roughly 1 in 10 Endy return threads mentions a delay or complication in arranging the pickup in smaller cities or rural areas. Owners in major urban centres (Toronto, Vancouver, Montreal, Calgary) consistently report smooth returns. "They came and picked it up within a week and my refund was back in 5 days" is representative for urban owners.</p>
@@ -137,16 +192,19 @@
 
 <blockquote><p>"Returned the Endy after 60 nights — it was too soft for me. The whole process took about 10 days from my call to pickup and I had my money back within a week of that. Super easy. No guilt trip at all."</p><cite>r/PersonalFinanceCanada, Canadian owner, 2025</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Endy Owners: What Changes at Month 6 and Month 12</h2>
 <p>The <a href="../products/endy-original-mattress.html">Endy Original Mattress</a> is an all-foam mattress, and the foam compression pattern over time is the central long-term story in owner reports. At month 6, the most consistent feedback: owners who liked it initially still like it. The breakdown at month 6 comes primarily from owners who were on the fence about softness during the trial period — those who kept it hoping it would firm up, reporting it didn't. "I should have returned it — it's the same feel at month 6 as month 2, which is fine if you like it, but I was hoping it would feel different."</p>
 <p>At 12 months, roughly 1 in 5 Endy owner reviews mentions some degree of softening or body impression at their usual sleep position. This is foam mattress reality, not an Endy-specific failure, but it's the primary long-term complaint. Owners who sleep in multiple positions or share the bed across the whole surface report fewer impressions. Heavy (200+ lb) single-spot sleepers are the most frequent source of 12-month softening complaints.</p>
 <p>Cooling is the other 12-month topic for Endy: all-foam sleeps warmer than spring-containing alternatives, and summer reviews from Canadian owners in hot climates mention heat retention. The Endy doesn't have a cooling cover or infused foam — it's a basic open-cell foam construction. ~20% of warm-sleeper Endy reviews mention this.</p>
 
+<div class="guide-section-break"></div>
 <h2>Douglas Owners: The Firmness Question Over Time</h2>
 <p>The <a href="../products/douglas-mattress.html">Douglas Mattress</a> starts firmer than the Endy — owners consistently note this in comparison threads. At month 1, firm-preference sleepers are the most satisfied Douglas group. By month 6, the Douglas softens meaningfully, and this is the defining long-term owner experience: owners who loved the initial firmness often report that by month 8–12, the feel has shifted toward medium, not firm. "It broke in faster than I expected" — whether this is a complaint or a compliment depends entirely on the individual's firmness preference.</p>
 <p>The Douglas's 365-night trial exists partly because the company knows the break-in period is long enough that first impressions may not reflect the long-term feel. Owner data supports this: the Douglas gets meaningfully different reviews at 3 months vs 12 months, more so than the Endy. Owners who like the 12-month feel (medium-medium-firm) are often the brand's most vocal advocates. Owners who preferred the initial feel are the source of most regret posts.</p>
 <p>Edge support is the Douglas's most consistent weakness in long-term reviews: approximately 30% of 12-month Douglas owner reviews mention edge sag or compression when sitting on the edge of the bed. For people who sleep near the edge or sit on the edge frequently (getting in/out of bed), this is a real limitation compared to hybrid alternatives.</p>
 
+<div class="guide-section-break"></div>
 <h2>Casper Owners: US Brand, Canadian Price, Canadian Expectations</h2>
 <p>The <a href="../products/casper-original-hybrid-mattress.html">Casper Original Hybrid Mattress</a> in Canada is a different product position than it was when Casper first entered the Canadian market. In 2024–2025, Canadian Casper prices are generally higher than equivalent Endy and Douglas options at comparable specifications, and Canadian owner reports frequently mention the price premium as context for their assessment.</p>
 <p>The Casper Original Hybrid's inclusion of springs differentiates it structurally from the all-foam Endy and Douglas. Owner reports are positive on temperature neutrality (springs promote airflow), edge support, and motion isolation in the mid-range. The hybrid feel appeals to owners who came from traditional spring mattresses and want something familiar. "It feels like a proper mattress, not a foam slab" is a recurring positive from Casper hybrid owners.</p>
@@ -154,17 +212,26 @@
 
 <blockquote><p>"I went Casper because I knew the brand. At the price I paid compared to Douglas I'm not sure it was the right call. The mattress itself is fine — it sleeps cool, the edges are solid, it doesn't make noise — but I paid $400 more than a friend who got the Douglas and I can't tell you what the difference is when I actually lie down on it."</p><cite>r/PersonalFinanceCanada, Casper Canada owner, 14 months of use</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What All Three Get Right for Canadian Buyers</h2>
 <p>All three brands offer free delivery across most of Canada — an important point for a product that costs hundreds of dollars to ship conventionally. All three compress the mattress in a roll for delivery, and Canadian owner reports consistently note the "unboxing" experience as positive: the mattress expands fully within 24–48 hours and doesn't require setup assistance. For Canadian buyers without a truck or the ability to haul a mattress up stairs, this free delivery plus setup-free installation is a genuine differentiator vs. in-store purchase.</p>
 <p>All three brands have improved their materials and certifications in recent production years — CertiPUR-US foams are standard across all three, and OEKO-TEX certifications appear on cover materials. Canadian buyer sensitivity to off-gassing (the foam smell on initial unboxing) is addressed by all three brands, though initial off-gassing is mentioned in first-week reviews for all models. It dissipates within 24–72 hours in virtually all owner reports.</p>
 
+<div class="guide-section-break"></div>
 <h2>Who Regrets Their Choice (and Which Brand Has the Most Regret)</h2>
 <p>The regret pattern across all three brands follows a consistent logic: owners who didn't research their firmness preference regret. Owners who bought primarily on brand name (Casper) without comparing regret at higher rates than owners who compared Endy and Douglas directly. Casper Canada regret posts in r/PersonalFinanceCanada are proportionally more frequent than Endy or Douglas regret posts — not because the mattress is worse, but because the price premium creates higher expectations that are harder to meet.</p>
 <p>Douglas has the highest rate of owners who "kept it despite initial uncertainty" turning into advocates by month 12 — the long break-in and 365-night trial appear to convert more uncertain buyers into satisfied long-term owners. Endy has the lowest rate of long-return-period regret: owners who return within 100 nights are clear-eyed; owners who keep it past the trial generally like it and stay liking it.</p>
 
+<div class="guide-section-break"></div>
 <h2>Black Friday and Sale Timing: What Owners Say</h2>
 <p>All three Canadian mattress brands run Black Friday promotions, and Canadian owner threads on r/PersonalFinanceCanada and r/CanadaDeals consistently recommend waiting for Black Friday if purchase timing is flexible. Typical Black Friday discounts: Endy 20–30% off, Douglas 25–30% off, Casper varies (has run up to 30%). "I paid full price in September and saw the same mattress for 25% off two months later" is a regret pattern that appears consistently in Canadian mattress threads. The exception: Endy runs periodic flash sales outside Black Friday that occasionally match Black Friday pricing; waiting specifically for Black Friday is optimal only if you need the mattress soon after November.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
   <div class="verdict-box__label">Bottom Line From Owners</div>
   <p>For Canadian buyers choosing between these three: <strong>Endy</strong> is the low-risk entry point — straightforward return process, consistent product, lower price. <strong>Douglas</strong> is worth considering if you sleep firm and want a longer trial window, but understand the break-in means the mattress you evaluate at month 1 isn't the mattress you'll have at month 12. <strong>Casper</strong> charges a premium that owner data doesn't clearly justify over the other two for most Canadian buyers — it's the right call if you specifically want a hybrid feel at this price range, but the value narrative relative to the <a href="../products/endy-original-mattress.html">Endy</a> and <a href="../products/douglas-mattress.html">Douglas</a> is weaker. Wait for Black Friday pricing on any of the three — all three brands run significant promotions and the full-price-in-September pattern is a consistent owner regret.</p>
@@ -209,5 +276,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

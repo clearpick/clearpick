@@ -125,6 +125,7 @@
 
 <p>We ranked 7 portable power stations available on Amazon.ca by synthesizing thousands of owner reviews from Canadian buyers, r/camping, r/preppers, and product community threads — weighting real-world battery performance, cold-weather capacity loss, solar charging reliability, and what actually keeps running at 2am at a Canadian cottage. Rankings reflect ClearPick scores plus owner sentiment frequency, not sponsored placement.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
 <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>ClearPick Score</th></tr></thead>
@@ -139,6 +140,7 @@
 </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>Full Rankings</h2>
 
 <h3>1. <a href="../products/ecoflow-delta-2-power-station.html"><a href="../products/ecoflow-delta-2-power-station.html"><a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> Portable</a> Power Station</a></h3>
@@ -213,6 +215,60 @@
 
 <h3>7. <a href="../products/goal-zero-yeti-500x.html"><a href="../products/goal-zero-yeti-500x.html"><a href="../products/goal-zero-yeti-500x.html">Goal Zero Yeti</a> 500X</a> Portable Power Station</a></h3>
 <div class="product-card-inline" data-slug="goal-zero-yeti-500x"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-portable-power-stations-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.1/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-portable-power-stations-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-portable-power-stations-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
 <li><strong>Why it ranked #7:</strong> The <a href="../products/goal-zero-yeti-500x.html">Goal Zero Yeti 500X Portable Power Station</a> at $749 CAD occupies a difficult position: it costs significantly more than the BLUETTI EB70S and <a href="../products/ecoflow-river-2-pro.html"><a href="../products/ecoflow-river-2-pro.html">EcoFlow RIVER 2</a> Pro</a> but offers less capacity. Its ranking reflects niche appeal to the Goal Zero ecosystem — owners with Goal Zero Nomad solar panels get seamless compatibility that owners in other ecosystems won't value equally.</li>
 <li><strong>What owners love:</strong> Goal Zero ecosystem compatibility praised by existing customers in approximately 60% of reviews. Build quality and brand reputation for outdoor use cited by long-term Goal Zero customers.</li>
@@ -221,6 +277,7 @@
 <li><strong>Canadian price:</strong> ~$749 CAD on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Comparison Table</h2>
 <table class="owner-table">
 <thead><tr><th>Station</th><th>Capacity</th><th>AC Output</th><th>Battery Type</th><th>AC Charge Time</th><th>Weight</th><th>Price (CAD)</th><th>Score</th></tr></thead>
@@ -235,6 +292,7 @@
 </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For: Canadian Buyers</h2>
 
 <h3>LFP vs. NMC Battery Chemistry</h3>
@@ -257,6 +315,7 @@
 <h3>Warranty and Canadian Support</h3>
 <p>EcoFlow and Jackery both have Canadian presence for warranty claims. Bluetti ships from US warehouses but processes warranty claims without requiring return to China. Goal Zero has established Canadian outdoor retail partnerships. Owner reports on warranty resolution are generally positive for all four brands — the distinction shows up in warranty duration: <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> includes a 5-year warranty on the unit; Jackery includes 3 years; Bluetti includes 4 years.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 
 <h3>Do portable power stations lose capacity in Canadian winters?</h3>
@@ -313,5 +372,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

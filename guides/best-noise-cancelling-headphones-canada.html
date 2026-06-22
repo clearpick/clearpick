@@ -124,6 +124,7 @@
       <div class="guide-article__body">
 <p>We ranked the top noise-cancelling headphones available in Canada by ClearPick Score — a composite built from verified Canadian owner reviews. Seven models are included across three price tiers: premium ($549–$599 CAD), mid-range ($349–$379 CAD), and budget ($79 CAD). Rankings reflect ANC performance, real-world comfort across long sessions, and the complaints that actually show up in owner data — not lab specs.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
   <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>ClearPick Score</th></tr></thead>
@@ -138,6 +139,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>1. <a href="../products/bose-quietcomfort-ultra-headphones.html">Bose QuietComfort Ultra</a> — Best ANC Headphones in Canada</h2>
 <div class="product-card-inline" data-slug="bose-quietcomfort-ultra-headphones"></div>
 <ul>
@@ -153,6 +155,7 @@
   <cite>Amazon reviewer (<a href="../products/bose-quietcomfort-ultra-headphones.html">Bose QuietComfort Ultra</a>)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>2. <a href="../products/sony-wh-1000xm4.html"><a href="../products/sony-wh-1000xm4.html"><a href="../products/sony-wh-1000xm4.html">Sony WH-1000XM4</a></a></a> — Best Value Premium ANC</h2>
 <div class="product-card-inline" data-slug="sony-wh-1000xm4"></div>
 <ul>
@@ -168,6 +171,7 @@
   <cite>Amazon reviewer (<a href="../products/sony-wh-1000xm4.html"><a href="../products/sony-wh-1000xm4.html"><a href="../products/sony-wh-1000xm4.html">Sony WH-1000XM4</a></a></a>)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>3. <a href="../products/sony-wh-1000xm6.html"><a href="../products/sony-wh-1000xm6.html"><a href="../products/sony-wh-1000xm6.html">Sony WH-1000XM6</a></a></a> — Best ANC Technology</h2>
 <div class="product-card-inline" data-slug="sony-wh-1000xm6"></div>
 <ul>
@@ -178,6 +182,7 @@
   <li><strong>Canadian price:</strong> ~$549 CAD on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>4. <a href="../products/sennheiser-momentum-4.html"><a href="../products/sennheiser-momentum-4.html"><a href="../products/sennheiser-momentum-4.html">Sennheiser MOMENTUM 4</a> Wireless</a></a> — Best Battery Life</h2>
 <div class="product-card-inline" data-slug="sennheiser-momentum-4-wireless"></div>
 <ul>
@@ -193,6 +198,7 @@
   <cite>Amazon reviewer (<a href="../products/sennheiser-momentum-4.html"><a href="../products/sennheiser-momentum-4.html"><a href="../products/sennheiser-momentum-4.html">Sennheiser MOMENTUM 4</a> Wireless</a></a>)</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>5. <a href="../products/jbl-tour-one-m2.html"><a href="../products/jbl-tour-one-m2.html">JBL Tour One</a> M2</a> — Best Mid-Range ANC</h2>
 <div class="product-card-inline" data-slug="jbl-tour-one-m2"></div>
 <ul>
@@ -203,6 +209,7 @@
   <li><strong>Canadian price:</strong> ~$349 CAD on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>6. <a href="../products/anker-soundcore-q45.html">Anker Soundcore Q45</a> — Best Budget ANC Under $100</h2>
 <div class="product-card-inline" data-slug="anker-soundcore-q45"></div>
 <ul>
@@ -213,8 +220,63 @@
   <li><strong>Canadian price:</strong> ~$79 CAD on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>7. <a href="../products/apple-airpods-max-usb-c.html">Apple AirPods Max</a> — Best for Apple Ecosystem</h2>
 <div class="product-card-inline" data-slug="apple-airpods-max-usb-c"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-noise-cancelling-headphones-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.8/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-noise-cancelling-headphones-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-noise-cancelling-headphones-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
   <li><strong>Why it ranked seventh:</strong> The <a href="../products/apple-airpods-max-usb-c.html">Apple AirPods Max Wireless Over-Ear Headphones with USB-C Charging</a> scores 8.0 overall. ANC scores 8.5 and sound quality scores 9.0, but value-for-money scores 6.5 at approximately $599 CAD. It ranks seventh because non-Apple users get better ANC, comfort, and battery per dollar from the <a href="../products/bose-quietcomfort-ultra-headphones.html">Bose QuietComfort Ultra Wireless Noise Cancelling Headphones</a> or <a href="../products/sony-wh-1000xm6.html">Sony WH-1000XM6</a> at the same price. For iPhone/Mac users specifically, the ecosystem integration changes this calculus.</li>
   <li><strong>What owners love:</strong> Automatic switching between Apple devices appears in roughly 55% of positive reviews from iPhone/iPad/Mac users. Sound quality is the second most-cited positive — spatial audio with head tracking in Apple TV+ content gets consistent praise. Build quality (aluminum ear cups) is called out as premium in nearly every long-term review.</li>
@@ -223,6 +285,7 @@
   <li><strong>Canadian price:</strong> ~$599 CAD on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>How They Compare</h2>
 <table class="owner-table">
   <thead><tr><th>Product</th><th>Score</th><th>ANC</th><th>Comfort</th><th>Battery (hrs)</th><th>Sound</th><th>Price (CAD)</th></tr></thead>
@@ -237,6 +300,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For</h2>
 <h3>ANC Depth vs. Comfort Trade-Off</h3>
 <p>The deepest ANC headphones — the <a href="../products/bose-quietcomfort-ultra-headphones.html">Bose QuietComfort Ultra Wireless Noise Cancelling Headphones</a> and <a href="../products/sony-wh-1000xm6.html">Sony WH-1000XM6</a> — handle this differently. Bose prioritizes long-session comfort; Sony prioritizes maximum silence. For commuters wearing headphones 6+ hours daily, the Bose comfort advantage is consistently reported in owner data. For frequent flyers on shorter hauls, the XM6's silence advantage wins.</p>
@@ -249,6 +313,7 @@
 <h3>Ecosystem Lock-In</h3>
 <p>The <a href="../products/apple-airpods-max-usb-c.html">Apple AirPods Max Wireless Over-Ear Headphones with USB-C Charging</a> is the clearest ecosystem play in this guide. Seamless iPhone/Mac switching and spatial audio integration are real features AirPods Max owners value — but they don't translate to Android or Windows users. If you're considering switching phones, avoid locking into Apple headphones.</p>
 
+<div class="guide-section-break"></div>
 <h2>Frequently Asked Questions</h2>
 <h3>Which noise-cancelling headphones are best for a Canadian commute?</h3>
 <p>The <a href="../products/bose-quietcomfort-ultra-headphones.html">Bose QuietComfort Ultra Wireless Noise Cancelling Headphones</a> and <a href="../products/sony-wh-1000xm4.html">Sony WH-1000XM4</a> are the top picks for daily transit commuters. The Bose wins on all-day comfort; the XM4 wins on price. Both handle subway and bus noise well per owner data.</p>
@@ -299,5 +364,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

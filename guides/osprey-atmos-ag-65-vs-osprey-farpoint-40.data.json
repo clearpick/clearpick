@@ -1,0 +1,42 @@
+{
+  "slug": "osprey-atmos-ag-65-vs-osprey-farpoint-40",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:33.042Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Osprey Atmos AG 65 Men's Backpacking Backpack",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        91,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Osprey Farpoint 40 Travel Pack",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        90,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

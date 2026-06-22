@@ -1,0 +1,42 @@
+{
+  "slug": "weber-spirit-ii-e310-vs-napoleon-prestige-500",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:05.973Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Weber Spirit II E-310 3-Burner Gas Grill",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        85,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Napoleon Prestige 500 4-Burner Propane Gas Grill with Infrared Rear Burner",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        90,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

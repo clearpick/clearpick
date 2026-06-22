@@ -1,0 +1,42 @@
+{
+  "slug": "braun-series-7-vs-series-9-pro",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:15.274Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Braun Series 9 Pro 9477cc Wet & Dry Electric Shaver with 5 Sync Elements",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        89,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Braun Series 7 7085cc Wet & Dry Electric Shaver with Clean & Charge Station",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        86,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

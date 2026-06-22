@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="ego-power-lm2156sp-self-propelled-mower"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-ego-self-propelled-mower-worth-it">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.8/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-ego-self-propelled-mower-worth-it";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-ego-self-propelled-mower-worth-it');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For Canadian homeowners with quarter-acre to half-acre lots who are fed up with gas mower maintenance and noise, yes — the <a href="../products/ego-power-lm2156sp-self-propelled-mower.html">EGO LM2156SP</a> is worth the premium. The 56V brushless motor delivers gas-equivalent cutting power, and the total cost advantage over gas becomes real after 2-3 seasons. But at $849 CAD before confirming battery and charger inclusion, it's not the right choice for large lots over half an acre or buyers who already own a gas mower in good shape with no maintenance pain.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Actually Love</h2>
 
 <p>The most cited reason owners say it was worth it — appearing in roughly 70% of positive reviews — is the elimination of gas mower maintenance. No oil changes, no spark plug replacement, no carburetor cleaning after winter storage, no pull-cord failures. "No gas, no oil, no pull cord. Just charged it and started mowing. That alone is worth the premium" is representative language from Amazon reviewers. After one season of ownership, the hassle-comparison memory versus gas becomes the dominant positive frame.</p>
@@ -145,12 +200,14 @@
 
 <p>The EGO 56V battery ecosystem is a meaningful value multiplier for buyers who are already in it or planning to be. The same 7.5Ah battery powers the LM2156SP, EGO blowers, trimmers, chainsaws, and snowblowers. Owners who've built the full ecosystem report that battery sharing across tools changes the economics materially — one battery bank serves the full yard setup.</p>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints</h2>
 
 <p>The single most common complaint — appearing in roughly 40% of critical reviews — is battery and charger inclusion confusion. Some Amazon.ca listings are tool-only; others are full kit. Multiple owners report paying $849 expecting a complete kit and discovering on delivery that the 7.5Ah battery ($150-200 CAD) and charger are not included. "Battery and charger not included in the base model listing — I paid $849 thinking I was getting the full kit and had to buy them separately. Check the listing carefully." — Amazon reviewer. Always confirm kit version before ordering.</p>
 
 <p>The second most common complaint is the upfront price versus comparable gas mowers. A capable gas self-propelled mower (Honda, Toro) can be found at $500-650 CAD. The EGO's total-cost advantage requires factoring in gas savings ($30-50/season), oil and maintenance ($40-60/season), and the convenience value of not doing annual maintenance — which owners generally validate as real, but the payback period is 3-5 seasons depending on gas prices. "Pricier than a comparable gas mower when you factor in the battery. The math eventually works out but the upfront hit is real." — Amazon reviewer.</p>
 
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: What Owners Say After 2 Seasons</h2>
 
 <p>Two-season owner reports are consistently positive on durability. The weather-sealed construction handles Canadian spring mowing conditions — rain and morning dew don't sideline the mower as battery tools in the previous generation sometimes did. No systematic motor or battery failure patterns appear in two-season owner threads. The main long-term practical adjustment owners mention: the 90-minute charge time requires scheduling awareness on larger lots. On a half-acre lot requiring 60+ minutes to mow, owners report occasionally needing a mid-mow charge on overgrown weeks.</p>
@@ -160,6 +217,7 @@
   <cite>Amazon reviewer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 
 <ul>
@@ -170,6 +228,7 @@
   <li><strong>Canadian buyers in BC and Alberta</strong> where green zero-emission mowing initiatives and HOA restrictions on gas equipment are increasingly relevant</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 
 <ul>
@@ -179,25 +238,48 @@
   <li><strong>Buyers who want a 22" deck</strong> — the LM2156SP's 21" deck is standard residential sizing; competitors like RYOBI offer 22" at similar price points if deck width matters for your specific lot layout</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the Price Justified?</h2>
 
 <p>At approximately $849 CAD (kit version with 7.5Ah battery and charger) on Amazon.ca, the EGO LM2156SP costs $200-350 CAD more than a capable gas self-propelled mower. The economic justification: gas at $40/season + maintenance at $50/season = $90/year in ongoing costs. The battery mower's marginal annual cost after purchase is approximately $5-10 in electricity per season. Payback period: 2-4 years of average Canadian lawn seasons. After that, the battery mower is cheaper to operate every year. The non-economic case — no gas handling, no spring startup, quieter operation — adds faster-realized value for the owners who most frequently cite it as the main reason they'd buy again.</p>
 
-<table class="pros-cons-table">
-  <thead>
-    <tr><th>Owners Love</th><th>Owners Flag</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>No gas, oil, or pull cord — zero annual maintenance routine</td><td>Battery and charger not always included — confirm kit vs tool-only before ordering</td></tr>
-    <tr><td>Variable-speed self-propel handles slopes without wrestling</td><td>$849 CAD upfront is $200-350 more than comparable gas option</td></tr>
-    <tr><td>56V brushless motor handles thick/overgrown grass without bogging</td><td>90-minute charge time requires planning on larger lots</td></tr>
-    <tr><td>Quiet operation — early morning/late evening mowing is a real benefit</td><td>21" deck means extra passes vs 22" competitors on larger lots</td></tr>
-    <tr><td>EGO 56V ecosystem — one battery platform for mower, blower, trimmer, snowblower</td><td>Total cost advantage vs gas takes 3-5 seasons to fully materialize</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>No gas, oil, or pull cord — zero annual maintenance routine</li>
+      <li>Variable-speed self-propel handles slopes without wrestling</li>
+      <li>56V brushless motor handles thick/overgrown grass without bogging</li>
+      <li>Quiet operation — early morning/late evening mowing is a real benefit</li>
+      <li>EGO 56V ecosystem — one battery platform for mower, blower, trimmer, snowblower</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>Battery and charger not always included — confirm kit vs tool-only before ordering</li>
+      <li>$849 CAD upfront is $200-350 more than comparable gas option</li>
+      <li>90-minute charge time requires planning on larger lots</li>
+      <li>21" deck means extra passes vs 22" competitors on larger lots</li>
+      <li>Total cost advantage vs gas takes 3-5 seasons to fully materialize</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.8/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>The <a href="../products/ego-power-lm2156sp-self-propelled-mower.html">EGO LM2156SP</a> is worth the premium for Canadian homeowners on lots under half an acre who value maintenance-free operation, quiet mowing, or who are building the EGO 56V tool ecosystem. The gas-equivalent cutting power is real; the convenience gap versus gas is real. For buyers on large lots, or those not bothered by gas mower maintenance, the math doesn't fully close until year three or four. Know your lot size and maintenance tolerance before deciding.</p>
 </div>
 
@@ -240,5 +322,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

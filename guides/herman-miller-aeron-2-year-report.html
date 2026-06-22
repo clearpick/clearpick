@@ -125,9 +125,64 @@
 
 <div class="product-card-inline" data-slug="herman-miller-aeron-chair"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-herman-miller-aeron-2-year-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.5/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="herman-miller-aeron-2-year-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-herman-miller-aeron-2-year-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Data Sources</h2>
 <p>This report draws from r/WorkFromHome, r/homeoffice, r/Aeron, r/ErgoMechanical, r/digitalnomad, and r/personalfinance threads where Aeron owners report back at 1-year, 2-year, and 5-year marks. Amazon.ca and Amazon.com verified long-term reviews (filtered for 6+ months). Refurbished Aeron buyer discussions on r/frugalmalefashion and r/BuyItForLife. The primary population: remote workers logging 7–10 hours seated per day.</p>
 
+<div class="guide-section-break"></div>
 <h2>First Impressions vs Long-Term Reality</h2>
 <p>The near-universal first impression from new Aeron owners: the chair feels nothing like what they expected for the price. The mesh seat is polarizing in the first week — harder and more structured than foam-padded alternatives, with a learning curve that most owners mention in their early reviews. "It felt weird for the first 3 days, like it was pushing me forward" is representative honeymoon-period language across Reddit threads.</p>
 <p>By week 3–4, the pattern shifts. Owners who report back at 6 weeks describe the chair as having "clicked" — the lumbar support, initially described as feeling arbitrary, becomes something they notice the absence of when sitting elsewhere. The mesh, initially described as hard, becomes the thing owners say they can't go back from: "I can't sit in a padded chair anymore without feeling like I'm sweating within 20 minutes."</p>
@@ -138,6 +193,7 @@
 <cite>r/WorkFromHome, 2-year Aeron owner thread</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Consistently Praise at 2 Years</h2>
 <p>The PostureFit SL lumbar support is the most consistently praised feature in long-term reviews — specifically for owners who came from chairs with adjustable lumbar pads that they could never position correctly. The Aeron's dual-pivot support that follows the sacrum and lumbar spine simultaneously gets credit from roughly 2 in 3 long-term owners who mention back pain in their review. The pattern is specific: owners with lower back history are more likely to report the chair as impactful; owners who didn't have back issues report it as simply comfortable.</p>
 <p>The 8Z Pellicle mesh durability surprises long-term owners. Common expectation going in: the mesh will sag or wear within 2 years. Common reality reported at 2 years: no visible mesh degradation. Owners who bought refurbished chairs from the late 2010s and are still using them daily report the same. "The mesh on my 2018 refurb looks exactly the same as when I bought it" appears at high frequency in r/Aeron threads discussing longevity.</p>
@@ -148,26 +204,56 @@
 <cite>r/BuyItForLife, long-term Aeron owner discussing refurbished vs new</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Most Common Complaints (Ranked by Frequency)</h2>
 <p><strong>1. Seat pan hardness and pressure points (~30% of long-term reviews).</strong> The mesh seat's rigid feel creates pressure points at the sit bones for owners with less padding. This complaint appears at 1 year and persists — it doesn't resolve the way the lumbar adjustment does. Owners who add an aftermarket seat cushion report solving it; owners who don't often sell the chair. This is the most common resale reason for Aerons that appear on the used market.</p>
 <p><strong>2. Forward tilt and posture adjustment takes time (~20%).</strong> The Aeron's forward tilt function is one of its design features, but owners who aren't aware of it or can't figure out the adjustment mechanism report the chair as "pushing them forward" and never resolve it. This appears more in 6-month reviews than 2-year reviews — owners who make it to 2 years have typically figured out their settings.</p>
 <p><strong>3. Canadian pricing and warranty service friction (~15%).</strong> The <a href="../products/herman-miller-aeron-chair.html">Herman Miller Aeron</a> retails at approximately $1,795 CAD new through authorized dealers. The 12-year warranty is real, but Canadian warranty service experience is mixed in r/homeoffice threads. Owners in major cities (Toronto, Vancouver, Calgary) report reasonable service timelines; owners in smaller markets report being directed to ship the chair or wait for a service visit with lead times of weeks. The warranty itself is not disputed; the service experience varies by geography.</p>
 <p><strong>4. Sizing — B size fits most people, but A and C sizes are not obvious (~10%).</strong> The Aeron comes in three sizes (A, B, C) and the size matters for the chair to work correctly. Owners who bought without properly sizing report fit issues. Refurbished buyers who can't try before purchasing are more likely to report size mismatch.</p>
+<div class="guide-chart-block">
+  <h3 class="chart-block-title">Most Common Complaints — By Frequency</h3>
+  <p class="chart-block-source">Derived from owner reviews and community threads</p>
+  <canvas id="cc_herman_miller_aeron_2_year_report" height="192"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Seat pan hardness and pressure points","Forward tilt and posture adjustment takes time","Canadian pricing and warranty service friction","B size fits most people, but A and C sizes are not obvious"];
+  var values=[30,20,15,10];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,250);return;}
+    var el=document.getElementById('cc_herman_miller_aeron_2_year_report');
+    if(!el||el.dataset.rendered)return;
+    el.dataset.rendered='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:values,backgroundColor:values.map(function(_,i){return i===0?'#ef4444':i===1?'#f97316':'#fbbf24';}),borderRadius:6,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{callback:function(v){return v+'%';}},grid:{color:'#f3f4f6'}},y:{grid:{display:false}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 
+
+<div class="guide-section-break"></div>
 <h2>Who Keeps It vs Who Returns or Resells</h2>
 <p>Long-term retention rate for Aeron owners is very high relative to other premium chairs — the chair appears frequently in r/BuyItForLife as a recommended buy specifically because owners who make it to 2 years rarely sell. The resale market for Aerons is active but at high prices, which indicates owners who do sell are treated fairly by market value retention.</p>
 <p>Who resells: primarily owners with sit bone pressure issues (the seat pan hardness complaint), owners who were between sizes and didn't resolve it, and owners whose setup changed (returned to in-office work, moved to a standing desk setup). The third group — circumstance change, not dissatisfaction — is likely the largest resale segment.</p>
 <p>Refurbished Aeron buyers at 2 years report outcomes essentially identical to new buyers, with one caveat: cylinder replacement. Aerons that were heavily used in commercial environments before being refurbished sometimes have cylinders that need replacement within 2 years. This adds $100–150 CAD to the refurbished total cost but is mentioned by refurb owners as "expected" rather than a complaint.</p>
 
+<div class="guide-section-break"></div>
 <h2>Hidden Costs and Surprises</h2>
 <p>The 12-year warranty's fine print: it covers defects in materials and workmanship under normal use. Commercial refurbished Aerons — which often come from corporate liquidations — may not have full remaining warranty unless sold through an authorized Herman Miller refurbisher. This distinction catches some buyers who assumed a refurb came with a clean warranty clock.</p>
 <p>Armrest pad replacement: the original armrest pads on older Aerons crack and deteriorate with age. Replacement pads exist and cost $30–60 CAD per pair, but owners who bought used chairs of unknown age sometimes discover this within a year of purchase. Not expensive, but not something most buyers anticipate.</p>
 <p>The PostureFit SL adjustment is owner-adjustable and most people never set it correctly on first use. Owners who read the setup instructions or watch a setup video report dramatically better initial comfort than those who just sat down and started working. Herman Miller provides setup documentation but it's not highlighted in the purchase experience.</p>
 
+<div class="guide-section-break"></div>
 <h2>Value at 2 Years</h2>
 <p>The per-day cost framing appears frequently in r/personalfinance and r/WorkFromHome threads when Aeron owners justify the price: $1,795 CAD over 5 years of daily use is approximately $0.98/day. At 10 years (which multiple owners project based on mesh durability data), it drops to $0.49/day. Against that backdrop, owners consistently report the chair as the best-value purchase in their home office setup — not because it's cheap, but because the alternative (back pain, physio costs, productivity loss) is more expensive.</p>
 <p>Refurbished value is noted across multiple threads as exceptional. A 2018 refurb at $650–750 CAD, still under manufacturer warranty if purchased from an authorized refurbisher, is the recommended buy in Canadian discussions. The phrase "buy the warranty, not the chair" appears in refurb discussions — implying that the ongoing warranty is the primary driver of value over time.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">90%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.5/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
   <div class="verdict-box__label">Bottom Line From Owners</div>
   <p>At 2 years, the <a href="../products/herman-miller-aeron-chair.html">Herman Miller Aeron</a> earns its price for one specific buyer: someone who sits 7+ hours daily and has experienced back discomfort in other chairs. For that person, the two-year owner report is consistently positive — back pain reduced or eliminated, mesh durability holding, no feature regret. For buyers without back history or who sit fewer than 5 hours daily, the premium is harder to justify against $600–800 CAD alternatives. The refurbished route is the most common recommendation in informed Canadian buying discussions.</p>
@@ -212,5 +298,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

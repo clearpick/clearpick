@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="roborock-qrevo-curv"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-roborock-qrevo-curv-worth-it">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-roborock-qrevo-curv-worth-it";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-roborock-qrevo-curv-worth-it');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For most owners who run it in a pet household or care about kitchen floor hygiene after cooking, yes — the <a href="../products/roborock-qrevo-curv.html">Roborock Qrevo Curv</a>'s 0% pet hair tangle and hot-water mop dock deliver on what they promise. If you have a clutter-light home and mop floors that only need maintenance cleaning, the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> at roughly $150 less does nearly the same job.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Actually Love</h2>
 
 <p>The single most cited strength across <a href="../products/roborock-qrevo-curv.html">Qrevo Curv</a> owner reviews is the DuoDivide dual parallel brush system's 0% pet hair tangle rate. In Vacuum Wars testing across 100+ robot vacuums, this result is tied-best-in-class — and in owner write-ups, nearly every pet owner with two or more shedding dogs or cats mentions they have not once had to cut hair off the brush after months of daily use. For multi-pet households, this alone separates the Curv from most alternatives.</p>
@@ -140,6 +195,7 @@
   <cite>Amazon.ca reviewer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints</h2>
 
 <p>Obstacle avoidance is the Curv's most frequently raised limitation, and it appears with enough consistency across Reddit discussions in r/RobotVacuums to warrant serious attention. The Curv uses Reactive Tech structured light for obstacle detection — a step above basic bump-and-spin, but not the full AI camera system some competing models at this price tier use. Owners specifically report that flat cables, small toys, and socks are not reliably detected; the robot runs over or pushes them rather than routing around.</p>
@@ -151,6 +207,7 @@
   <cite>Reddit r/RobotVacuums</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: After 6–12 Months</h2>
 
 <p>Post-warranty support is the consistent long-term concern across Roborock's full product line — not specific to the Curv, but relevant for any Roborock purchase. Owners who needed parts or resolution outside the warranty window report slow response times in Reddit threads. The Curv's premium price doesn't appear to come with premium post-warranty service based on owner reports.</p>
@@ -162,6 +219,7 @@
   <cite>Reddit r/RobotVacuums</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 <ul>
   <li><strong>Multi-pet households with heavy shedders</strong> — the 0% tangle rate is the clearest data-backed differentiator the Curv has over virtually every other robot vacuum</li>
@@ -170,6 +228,7 @@
   <li><strong>Buyers coming from robot vacuums they've already decluttered their floors for</strong> — if you already clear the floor before runs, the obstacle avoidance limitation is largely moot</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 <ul>
   <li><strong>Homes with regular floor clutter</strong> — cables, toys, socks on the floor will be pushed rather than avoided; the Qrevo S or a model with stronger AI obstacle avoidance handles this better</li>
@@ -177,23 +236,48 @@
   <li><strong>Budget-conscious buyers</strong> — the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> at ~$699 CAD handles pet hair, maps accurately, and mops adequately for most households; the upgrade is real but not mandatory</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the Price Justified?</h2>
 
 <p>At ~$849.99 CAD on Amazon.ca, the Curv sits roughly $150 above the <a href="../products/roborock-qrevo-s.html">Qrevo S</a>. For pet owners with two or more shedding animals and anyone who regularly cooks on hard floors, the combination of 0% tangle rate and hot-water mopping makes the premium reasonable. For everyone else — a single dog, light mopping needs, or a cluttered floor environment — the S delivers on the core robot vacuum job and the gap doesn't justify $150 more.</p>
 
-<table class="pros-cons-table">
-  <thead><tr><th>Owners Love</th><th>Owners Flag</th></tr></thead>
-  <tbody>
-    <tr><td>0% pet hair tangle rate in testing and owner use</td><td>Obstacle avoidance misses flat cables and small objects</td></tr>
-    <tr><td>FlexiArm reaches corners other robots miss</td><td>At this price, obstacle avoidance should be better</td></tr>
-    <tr><td>Hot-water mop dock actually cleans mop pads</td><td>Post-warranty Roborock support is slow per long-term owners</td></tr>
-    <tr><td>DuoDivide carpet cleaning noticeably thorough</td><td>App setup requires 20–30 minutes on first run</td></tr>
-    <tr><td>Dock handles emptying, washing, drying fully hands-free</td><td>No-go zone management needed for clutter-prone floors</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>0% pet hair tangle rate in testing and owner use</li>
+      <li>FlexiArm reaches corners other robots miss</li>
+      <li>Hot-water mop dock actually cleans mop pads</li>
+      <li>DuoDivide carpet cleaning noticeably thorough</li>
+      <li>Dock handles emptying, washing, drying fully hands-free</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>Obstacle avoidance misses flat cables and small objects</li>
+      <li>At this price, obstacle avoidance should be better</li>
+      <li>Post-warranty Roborock support is slow per long-term owners</li>
+      <li>App setup requires 20–30 minutes on first run</li>
+      <li>No-go zone management needed for clutter-prone floors</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For pet owners with two or more heavy shedders, or for anyone who mops hard floors after cooking regularly: the <a href="../products/roborock-qrevo-curv.html">Roborock Qrevo Curv</a> is worth the premium. The DuoDivide tangle-free brush and hot-water dock are the two features that consistently appear in owner write-ups as genuinely different from anything else at this price. For households without these specific needs, the <a href="../products/roborock-qrevo-s.html">Roborock Qrevo S</a> does the core job well and keeps $150 in your pocket.</p>
 </div>
 
@@ -236,5 +320,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

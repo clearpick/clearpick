@@ -128,10 +128,65 @@
 
 <div class="product-card-inline" data-slug="sony-a6700-mirrorless-camera"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-sony-a6700-long-term-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.2/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="sony-a6700-long-term-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-sony-a6700-long-term-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>The data sources</h2>
 
 <p>This report draws primarily from structured owner threads — posts where users explicitly describe their ownership timeline and shooting history. Approximately 800 qualifying posts were identified across the platforms listed above, with r/SonyAlpha contributing the largest volume of long-term owner feedback. The dominant owner profiles in the data: hybrid shooters who use the camera for both stills and video (the plurality), wildlife and action photographers who specifically purchased for the AI autofocus, and video-primary shooters attracted by the 4K/120fps capability.</p>
 
+<div class="guide-section-break"></div>
 <h2>First impressions vs. long-term reality</h2>
 
 <p>Launch-window impressions of the A6700 were dominated by the autofocus and video specifications. At 12 months, the owner narrative has matured considerably.</p>
@@ -144,6 +199,7 @@
 
 <blockquote><p>"At launch I had some concerns about heat during video. Firmware 2.0 changed that significantly. The camera I have at month 12 is genuinely better than what shipped — I've never experienced that with a camera before. The autofocus improvements alone in the first year of updates were worth the price premium over the competition."</p><cite>Reddit u/hybrid_shooter_yvr via r/SonyAlpha</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What owners consistently praise</h2>
 
 <p><strong>Autofocus subject recognition after 12 months of firmware improvement</strong> — mentioned by the majority of 12-month owners as the camera's defining strength. The AI-based subject detection has improved through firmware updates, and the combination of tracking speed and subject-switch logic is described by wildlife and action photographers as class-leading at this price. Multiple owners who specifically mention shooting birds in flight report a hit rate they describe as not achievable with their previous cameras — including some full-frame bodies. The autofocus system is the most consistent "this is why I bought it" reference in 12-month owner feedback.</p>
@@ -154,6 +210,7 @@
 
 <p><strong>Firmware improvement trajectory</strong> — mentioned specifically in the context of what changed from launch to month 12. Multiple owners cite Sony's firmware update cadence as a reason they trust the platform. Updates have addressed video heat limits (expanded in firmware 2.0), autofocus edge cases, and buffer behavior. Owners who bought at launch and kept the camera through the update cycle describe the camera as meaningfully better than what they received. This is not universal — some owners expected faster resolution of specific issues — but the general sentiment toward Sony's firmware support is positive.</p>
 
+<div class="guide-section-break"></div>
 <h2>The most common complaints at 12 months</h2>
 
 <p><strong>The menu system remains genuinely frustrating after a year</strong> — mentioned by the majority of 12-month owners as the camera's most persistent negative. The Sony menu architecture — deep nesting, inconsistent logic for where settings live, lack of a clear hierarchy — does not improve with familiarity the way owners hoped it would. Multiple owners describe knowing where their most-used settings are after a year, but being completely lost when they need to access something less common. Comparison threads consistently cite Fujifilm's menu system as significantly more intuitive, and A6700 owners who have used both systems generally agree. The My Menu customization partially addresses this, but the underlying architecture is described as a permanent friction point.</p>
@@ -166,12 +223,14 @@
 
 <p><strong>Buffer depth at maximum burst speeds</strong> — mentioned by sports and wildlife photographers specifically. The A6700's buffer at 100fps electronic shutter fills quickly — owners describe 2 to 3 second bursts before buffer slowdown begins. This is adequate for many action scenarios but limiting for sports like hockey or basketball where longer sustained bursts matter. Owners who specifically bought for high-volume sports shooting describe the buffer as the camera's technical limitation that affects their shooting most. Owners who shoot wildlife in shorter bursts describe the buffer as manageable.</p>
 
+<div class="guide-section-break"></div>
 <h2>Who keeps it vs. who would choose differently</h2>
 
 <p>Owners who are most satisfied at 12 months and would buy the A6700 again share specific shooting profiles: hybrid shooters who use both stills and video and value the technical ceiling of the platform; wildlife photographers who need the AI autofocus at a sub-full-frame price; video creators who shoot in varied conditions and value IBIS; and photographers already in the Sony E-mount ecosystem who want to keep their full-frame lenses usable.</p>
 
 <p>Owners who express regret or say they would choose differently at 12 months tend to fall into a few patterns: stills-primary photographers who find the menu system and APS-C lens selection frustrating enough to consider switching to Fujifilm; sports photographers who need longer sustained burst performance; and owners who bought primarily for 4K/120fps video and found the heat limitations in warm environments to be a meaningful constraint on their use case.</p>
 
+<div class="guide-section-break"></div>
 <h2>The hidden costs and surprises owners missed</h2>
 
 <p><strong>The APS-C E-mount lens system costs more than expected to build out.</strong> The A6700 body price is not the full system cost. Owners who started with the kit lens and wanted to expand discovered that native APS-C Sony and Sigma lenses cover a narrower focal range than they expected. Several owners describe ultimately buying full-frame E-mount glass — which works on the A6700 but adds size and weight inconsistent with the compact body appeal. The system expansion cost surprised a meaningful number of 12-month owners.</p>
@@ -182,12 +241,14 @@
 
 <p><strong>The learning curve for the menu and custom button system is real.</strong> Multiple owners describe spending their first 30 to 60 days with the camera trying to learn where settings live rather than shooting. Owners who budgeted dedicated setup time report a better initial experience. Owners who expected to pick up and shoot immediately describe the learning curve as a friction point that affected their early enjoyment of the camera.</p>
 
+<div class="guide-section-break"></div>
 <h2>What owners say about value after 12 months</h2>
 
 <p>The dominant 12-month owner framing on value centers on what the camera enables versus what it costs. Owners who are shooting wildlife, hybrid content, or video-primary work consistently describe the A6700 as delivering capabilities that previously required full-frame bodies at substantially higher prices. The 4K/120fps, AI autofocus, and IBIS combination at the A6700's price point is described as having no direct competitor at 12 months.</p>
 
 <p>The value question is most contested among stills-primary photographers. These owners consistently note that the <a href="../products/canon-eos-r10-camera.html">Canon EOS R10</a> at a meaningfully lower price delivers excellent autofocus and stills performance, and that the A6700's video advantages are irrelevant to their use case. Multiple 12-month stills-primary owners in comparison threads describe the A6700 as more camera than they needed, with the price premium going to capabilities they do not use.</p>
 
+<div class="guide-section-break"></div>
 <h2>What A6700 owners say in comparison to Fujifilm X-S20 and <a href="../products/nikon-z50-ii-camera.html">Nikon Z50 II</a></h2>
 
 <p>In direct comparison threads — "I'm choosing between these cameras, help me decide" posts where A6700 owners weigh in — the community patterns are consistent enough to summarize.</p>
@@ -196,6 +257,7 @@
 
 <p>Against the <a href="../products/nikon-z50-ii-camera.html">Nikon Z50 II</a>: A6700 owners generally describe the A6700 as the stronger video choice and the stronger autofocus choice, while acknowledging that the <a href="../products/nikon-z50-ii-camera.html">Nikon Z50 II</a> is a more ergonomically conventional camera with a better grip for stills shooters who prioritize physical handling. The APS-C Z-mount lens selection is described as similarly limited to Sony's, so ecosystem arguments roughly cancel out.</p>
 
+<div class="guide-section-break"></div>
 <h2>Bottom line from owners</h2>
 
 <p>The 12-month owner consensus on the Sony A6700 is that the technical claims held up and the camera improved through firmware updates in ways that materially enhanced the ownership experience. The autofocus is as good as advertised. The video is as capable as specified. The IBIS works as promised.</p>
@@ -244,5 +306,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

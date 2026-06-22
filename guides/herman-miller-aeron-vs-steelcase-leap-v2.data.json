@@ -1,0 +1,42 @@
+{
+  "slug": "herman-miller-aeron-vs-steelcase-leap-v2",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:10.546Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Herman Miller Aeron Chair",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        95,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Steelcase Leap V2 Chair",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        92,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

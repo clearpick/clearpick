@@ -125,9 +125,64 @@
 
 <div class="product-card-inline" data-slug="dewalt-dcf787c1-impact-driver"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-dewalt-ecosystem-homeowners-vs-pros">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.7/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="dewalt-ecosystem-homeowners-vs-pros";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-dewalt-ecosystem-homeowners-vs-pros');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Data Sources</h2>
 <p>This report draws from r/Tools, r/DIY, r/Construction, and r/HomeImprovement threads, Amazon.ca verified long-term reviews for the <a href="../products/dewalt-dcf787c1-impact-driver.html">DEWALT DCF787C1 impact driver</a>, the <a href="../products/dewalt-dwe575sb-circular-saw.html">DEWALT DWE575SB circular saw</a>, the <a href="../products/dewalt-dwe6423k-random-orbit-sander.html">DEWALT DWE6423K random orbit sander</a>, the <a href="../products/dewalt-dcs331b-cordless-jigsaw.html">DEWALT DCS331B jigsaw</a>, and the <a href="../products/dewalt-dwe402-angle-grinder.html">DEWALT DWE402 angle grinder</a>. The goal: find where homeowner and contractor ownership experiences genuinely diverge on the same tools.</p>
 
+<div class="guide-section-break"></div>
 <h2>How Homeowners Use DeWalt Tools (and What They Say)</h2>
 <p>Homeowner use patterns are fundamentally different from contractor patterns, and that difference shows up immediately in owner reviews. The most common homeowner usage profile across these five tools: infrequent but varied. A weekend project requires the circular saw for 45 minutes, the impact driver for deck screws for an hour, and then the tools go back on the shelf for 3–4 weeks. The sander comes out for furniture refinishing twice a year. The angle grinder sits for months between uses.</p>
 <p>In this pattern, the tools perform consistently across all five products. "I've had the impact driver for three years. I use it maybe once a month. Still on the original battery, still drives screws perfectly" — this profile dominates homeowner reviews for every tool in the 20V MAX line. The 1.3Ah starter battery that contractors find inadequate is actually fine for homeowner intermittent use: 20–30 minutes of runtime per charge is enough for most weekend projects.</p>
@@ -170,6 +225,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>How Contractors Use the Same Tools (and What They Say Differently)</h2>
 <p>Contractor reviews bifurcate almost immediately on battery. The 1.3Ah battery bundled with the DCF787C1 kit is called out in nearly every contractor review as inadequate for job site use. "The kit battery is a joke for actual work — I burned through it in 45 minutes the first day. Bought two 5.0Ah batteries and now the tool works fine, but add that cost to the price" is representative. Contractors who already own larger 20V MAX batteries don't share this complaint — the frustration is specific to buyers who expect the kit battery to carry a workday.</p>
 <p>The circular saw DWE575SB gets more mixed contractor reviews than homeowner reviews. The 7-1/4 inch blade and 6.5 lbs are appropriate for light-duty framing but contractors doing high-volume cutting flag the motor heat issue during sustained use — multiple long rip cuts without breaks can cause the motor to throttle. "For a trim carpenter it's fine. For framing all day it runs hot and you need to let it breathe" — the tool's positioning is a factor. Trim carpenters and cabinetmakers in reviews are more positive than framing contractors.</p>
@@ -180,10 +236,12 @@
 <cite>r/Tools, verified cabinet installer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Where the Experiences Diverge: Durability</h2>
 <p>This is the sharpest split in owner data. Homeowners essentially never report durability failures on any of these five tools in reviews up to 3–4 years of ownership. Infrequent use means the tools operate far below their thermal and mechanical limits. The DCF787C1 impact driver in homeowner reviews is described as "indestructible for what I use it for" and "still going strong after four years of weekend projects."</p>
 <p>Contractor durability reports are more mixed and more specific. The angle grinder DWE402 sees motor wear reports after 2–3 years of daily professional use — mostly from metalworkers and fabricators who run it for extended sessions. The circular saw reports occasional carbon brush wear requiring replacement at around the 2-year mark in daily framing use. These are expected maintenance items in production-tool contexts, not failures — but homeowners who encounter these reviews sometimes over-weight them as risk signals. A homeowner using the DWE402 for occasional grinding will almost certainly not encounter motor wear in their ownership period.</p>
 
+<div class="guide-section-break"></div>
 <h2>Where the Experiences Align: What Both Groups Consistently Praise</h2>
 <p>Three things unite homeowner and contractor reviews across all five tools:</p>
 <ol>
@@ -195,6 +253,7 @@
 <h2>The Battery Ecosystem Question: Is FlexVolt Worth It for Homeowners?</h2>
 <p>Owner data on this is consistent: FlexVolt is not worth it for homeowners. The FlexVolt system (60V MAX for power tools, backwards-compatible with 20V MAX) targets high-demand tools — circular saws, miter saws, flexvolt-specific tools — where the voltage matters. For occasional homeowner use of the five tools in this report, 20V MAX is sufficient and the FlexVolt battery premium (roughly double the cost of a comparable 20V MAX battery) does not deliver proportional benefit for intermittent use. The r/DIY consensus is direct: "Buy one 20V MAX 5.0Ah battery and you're set for homeowner use. FlexVolt is for contractors running tools hard all day."</p>
 
+<div class="guide-section-break"></div>
 <h2>What Contractors Warn Homeowners About</h2>
 <blockquote>
 <p>"Homeowners see 'max torque 1,650 in-lbs' and think they need to worry about stripping screws. You won't strip screws — you'll over-drive them into soft wood before you notice. Learn to control the trigger. The tool has more power than most people will ever use correctly."</p>
@@ -245,5 +304,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

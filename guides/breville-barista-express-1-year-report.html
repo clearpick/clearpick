@@ -125,9 +125,64 @@
 
 <div class="product-card-inline" data-slug="breville-barista-express-impress"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-breville-barista-express-1-year-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.6/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="breville-barista-express-1-year-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-breville-barista-express-1-year-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Data Sources</h2>
 <p>This report draws from r/espresso threads tracking the <a href="../products/breville-barista-express-impress.html">Breville Barista Express Impress</a> (BES876BSS) over 6–18 months of ownership, Amazon.ca verified 6-month reviews, and long-form ownership accounts from home barista forums. Primary focus: owners who have pulled 300+ shots and can speak to what changes after the novelty phase.</p>
 
+<div class="guide-section-break"></div>
 <h2>First Impressions vs Long-Term Reality</h2>
 <p>The first 30–90 days are nearly universally positive in owner reports. The auto-tamp Impress Puck System removes what most beginners describe as their biggest obstacle — consistent tamping pressure — and shots that once came out watery or channeled improve immediately. "I was grinding and pulling manually for two years and this machine made it stick. First week I pulled ten shots in a row that I was actually proud of" is representative of the early-ownership arc across r/espresso and long-form Amazon reviews.</p>
 <p>The shift begins around shots 200–400, typically 3–5 months in for daily drinkers. Owners who started the hobby with this machine begin to explore what variables they can't control — and they bump into two limits consistently. First, the integrated grinder has a ceiling. The 54mm conical burrs are capable but the grind adjustment range and particle distribution become a constraint for owners chasing more dialed-in extraction. Second, the single boiler means pulling a shot and steaming milk are sequential, not simultaneous. A roughly 30-second wait between pulling and steaming is reported by nearly all multi-drink households as the most friction-causing reality of daily ownership.</p>
@@ -137,6 +192,7 @@
 <cite>r/espresso, verified 8-month owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Consistently Praise</h2>
 <p>The auto-tamp system remains the most praised feature in long-term reviews — not just for beginners but for owners who have been using the machine for a year or more. The consistency of the Impress Puck delivery is cited by roughly 70% of positive long-term owners as the key reason they kept the machine rather than upgrading. "I've made probably 600 shots and I still haven't had a tamping problem. That one thing alone is why I haven't sold it" is the kind of specific praise that appears repeatedly in 6–12 month review threads.</p>
 <p>Build quality and reliability also receive high marks in long-term ownership. Failed pump or heating element reports are uncommon across owner threads. Most reliability issues that appear are maintenance-adjacent: owners who skipped descaling past the machine's 3-month prompt, or who didn't clean the steam wand regularly. Owner-caused issues rather than manufacturing failures.</p>
@@ -147,6 +203,7 @@
 <cite>Amazon.ca verified review, 14-month owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Most Common Complaints (Ranked by Frequency)</h2>
 <ol>
   <li><strong>Single boiler wait time (most frequent complaint in multi-drink households)</strong>: The pause between pulling a shot and steaming milk is consistently cited. Owners who pull multiple drinks in sequence — a latte and an Americano, for example — find the workflow slower than expected. Roughly 40% of critical long-term reviews mention this specifically. Not a defect, but a real operational constraint that buyers often underestimate pre-purchase.</li>
@@ -154,11 +211,31 @@
   <li><strong>54mm portafilter accessory ecosystem (~20%)</strong>: The standard for third-party espresso accessories (baskets, tampers, portafilter stands) is 58mm. Owners who want to expand their accessory options find fewer choices in the 54mm size. Specifically, precision baskets and VST-style filtration are less available for 54mm than 58mm.</li>
   <li><strong>Bean hopper retention on grind (~10%)</strong>: Some owners report the grinder occasionally retaining small amounts of ground coffee between uses, creating minor inconsistency if left overnight. Addressed by running the grinder briefly before the first shot of the day.</li>
 </ol>
+<div class="guide-chart-block" id="complaintChart_breville_barista_express_1_year_reportBlock">
+  <h3 class="chart-block-title">Most Common Complaints — By Frequency</h3>
+  <p class="chart-block-source">From owner reviews and community threads</p>
+  <canvas id="complaintChart_breville_barista_express_1_year_report" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Critical long-term reviews mention this specifically","Long-term critical reviews) : Owners who started as beginner"];
+  var values=[40,30];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,200);return;}
+    var el=document.getElementById('complaintChart_breville_barista_express_1_year_report');
+    if(!el)return;
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:values,backgroundColor:values.map(function(v,i){return i===0?'#ef4444':i===1?'#f97316':'#fbbf24';}),borderRadius:6,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{callback:function(v){return v+'%';}},grid:{color:'#f3f4f6'}},y:{grid:{display:false}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
+
 
 <h2>Who Keeps It vs Who Returns or Resells</h2>
 <p><strong>Owners who keep the machine long-term</strong> share consistent characteristics: they drink 1–3 espresso-based drinks per day, are satisfied with good-not-great extraction quality for medium and dark roasts, and value the all-in-one form factor over the ability to customize every variable. Households with one casual coffee drinker and one more involved coffee drinker tend to keep the machine because it serves both use cases without requiring the casual user to learn technique.</p>
 <p><strong>Owners who sell or upgrade</strong> follow a predictable arc: they come in curious about espresso, learn from the machine, develop taste and knowledge over 8–14 months, and then hit the grinder ceiling. The upgrade path cited most often in r/espresso is to a separate grinder (Baratza Encore ESP or Fellow Opus) paired with a single-boiler or heat-exchange machine — a significant cost and counter space increase. Around 1 in 5 long-term owners in espresso forums report eventually separating the workflow into dedicated grinder plus dedicated machine.</p>
 
+<div class="guide-section-break"></div>
 <h2>Hidden Costs and Surprises</h2>
 <ul>
   <li><strong>Descaling tablets/solution</strong>: The machine prompts descaling approximately every 200 uses or every 2–3 months for daily drinkers. Breville-branded descaler runs ~$15–20 CAD per cycle, or owners use third-party citric acid solution. Ongoing cost that most buyers don't factor in pre-purchase.</li>
@@ -167,10 +244,12 @@
   <li><strong>Grind calibration time investment</strong>: Each new bag of beans typically requires 1–3 shots of adjustment to recalibrate the grind setting. Owners who switch roasts frequently cite this as a minor but real friction point.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Value at 1 Year: What Owners Say About the Price in Hindsight</h2>
 <p>Among owners who kept the machine for a full year, the value assessment is largely positive. "I've spent maybe $40 on maintenance supplies and I'm still pulling daily — at this price point in the all-in-one category, I don't know what else I would have bought" is representative. The competition in the all-in-one category (Jura, DeLonghi La Specialista) that matches the integrated grinder quality runs significantly higher; owners who did the category research before buying generally feel the price was justified.</p>
 <p>Owners who upgraded within the year assess the cost differently: they typically count the resale value (which is strong for this machine — used BES876 units consistently sell for $600–750 CAD on Facebook Marketplace per owner reports) against their upgrade cost. The strong resale floor softens the regret.</p>
 
+<div class="guide-section-break"></div>
 <h2>Bottom Line From Owners</h2>
 <p>After a year of daily use, owners sort into two groups with near-equal satisfaction levels but different reasons: those who found their ceiling on espresso curiosity and are happy with the machine as a reliable daily driver, and those who grew past the machine but credit it with teaching them enough to know what they actually wanted. Almost no one regrets buying it — they differ on whether they'd buy it again knowing where they'd end up. For households where one drink at a time, consistent quality, and minimal technique overhead are the requirements, owner consensus at the 1-year mark is that the <a href="../products/breville-barista-express-impress.html">Breville Barista Express Impress</a> delivers on its promise.</p>
 
@@ -213,5 +292,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

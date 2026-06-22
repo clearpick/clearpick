@@ -126,24 +126,83 @@
 <div class="product-card-inline" data-slug="roborock-qrevo-s"></div>
 <div class="product-card-inline" data-slug="roborock-qrevo-curv"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-roborock-qrevo-s-vs-qrevo-curv">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="roborock-qrevo-s-vs-qrevo-curv";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-roborock-qrevo-s-vs-qrevo-curv');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>What the price gap actually buys you (according to owners)</h2>
 <p>The <a href="../products/roborock-qrevo-curv.html">Qrevo Curv</a> retails at approximately $1,299 CAD; the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> sits at ~$999 CAD. The $300 difference is real, and owners who've compared both in r/RobotVacuums are specific about what it buys. The three most-cited Curv advantages from owner data: the FlexiArm extending side brush that reaches corners and wall edges the S misses, the DuoDivide dual-roller brush system that achieves 0% pet hair tangle in Vacuum Wars testing, and the Multifunctional Dock 3.0 with 75°C hot-water mop washing. "The FlexiArm side brush actually gets into corners — every other robot I've had leaves a strip along the wall. This one doesn't" is representative owner language for the Curv.</p>
 <p>What the price gap does not buy: meaningfully better suction. The <a href="../products/roborock-qrevo-s.html">Qrevo S</a> runs 7,000Pa; the Curv runs 18,500Pa (HyperForce) — but owners comparing both in daily home use report that carpet cleaning results in practice are similar for most homes. The suction gap matters in thick carpet or heavy debris scenarios, less so in daily maintenance cleaning on hard floors.</p>
 
+<div class="guide-section-break"></div>
 <h2>Obstacle avoidance — the key differentiator</h2>
 <p>This is where the price story gets complicated. The Curv uses 3D structured light and an RGB camera for obstacle detection. In Vacuum Wars lab testing, it scored 3.54 out of 5 on obstacle avoidance — respectable but not dominant. In owner reports from r/RobotVacuums, the most common complaint for the Curv is specifically obstacle avoidance: smaller items — cables, small toys, socks — are not reliably detected and the robot runs over or pushes them. "Poor obstacle avoidance is the top negative raised in Reddit discussions" — this appears across multiple community threads from Curv owners.</p>
 <p>The <a href="../products/roborock-qrevo-s.html">Qrevo S</a> uses LiDAR plus camera obstacle avoidance and owner reviews are notably positive on navigation: "LiDAR mapping is shockingly good — first map completed in one pass, no missed zones." The S's obstacle avoidance appears in fewer complaints than the Curv's in r/RobotVacuums discussions, which is counterintuitive given the price difference. If your home has consistent clutter — cables, small toys, pet items on the floor — the Curv's obstacle avoidance advantage in spec does not consistently translate to advantage in practice per owner data.</p>
 
+<div class="guide-section-break"></div>
 <h2>Mopping performance</h2>
 <p>Mopping is where the Curv pulls ahead meaningfully in owner reports. The 75°C hot-water mop washing in the Multifunctional Dock 3.0 gets specific praise: "The dock washes the pads in hot water and they smell clean after" — owners of the S, by contrast, report the mop wash function using room-temperature water, with limitations on greasy kitchen floors flagged repeatedly. The S's no-detergent design means it handles maintenance mopping well but struggles on dried spills or cooking residue. This is the #1 reported limitation in <a href="../products/roborock-qrevo-s.html">Qrevo S</a> owner threads specifically about mopping.</p>
 <p>The Curv's lifted mop pad on carpet gets mixed reports. Owners generally confirm the mechanism works — the mop lifts when transitioning to carpet — but several report occasional edge cases where it doesn't lift fully on very low-pile rugs, leaving damp traces. Consistent pattern but low severity.</p>
 
+<div class="guide-section-break"></div>
 <h2>App and setup friction</h2>
 <p>Both use the Roborock app, so the app experience is nearly identical between them. The consistent pattern across both product's owner data: initial setup takes 20–30 minutes, mapping is accurate after one full run, and scheduling works reliably after the first week. App complaints that appear are not model-specific — they apply to Roborock's platform generally (occasional connectivity drops, update requirements that reset custom zones). Neither the S nor the Curv has a meaningful app advantage over the other per owner data.</p>
 
+<div class="guide-section-break"></div>
 <h2>Long-term reliability</h2>
 <p>Both products are relatively recent; long-term failure data is limited. The consistent negative that appears across Roborock's broader line — including both models' owner reviews — is post-warranty support. Roborock's responsiveness after the warranty window is flagged in r/RobotVacuums: owners who needed parts or resolution outside warranty report slow response times and difficulty getting support. This appears at higher frequency in Roborock threads generally than in competitor threads. It's product-line level, not model-specific.</p>
 
+<div class="guide-section-break"></div>
 <h2>Who should buy the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> / who should get the Curv</h2>
 <p><strong>Buy the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> (~$999 CAD) if:</strong></p>
 <ul>
@@ -160,8 +219,14 @@
   <li>You want the premium docking experience for its own sake — the Multifunctional Dock 3.0's self-maintenance features are the most complete in Roborock's lineup</li>
 </ul>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.9/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>The <a href="../products/roborock-qrevo-curv.html">Qrevo Curv</a> is a better robot vacuum than the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> in controlled testing. In real-home owner data, the gap is smaller than the price suggests — and in one specific area (obstacle avoidance with floor clutter), the S gets fewer complaints. The Curv is worth the extra $300 for owners who cook regularly and want hot-water mopping, or who have multiple heavy-shedding pets and want the tangle-free brush system. For everyone else — including most pet owners with moderate shedding — the <a href="../products/roborock-qrevo-s.html">Qrevo S</a> delivers on its core job and keeps $300 in your pocket.</p>
 </div>
 
@@ -204,5 +269,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

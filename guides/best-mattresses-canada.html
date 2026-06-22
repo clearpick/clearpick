@@ -125,6 +125,7 @@
 
 <p>We ranked 6 mattresses available to Canadian buyers by synthesizing thousands of verified owner reviews from Canadian buyers, r/PersonalFinanceCanada, mattress community forums, and direct owner reports — weighting real trial period experiences, 1-year durability data, and Canadian-specific factors like shipping quality to rural provinces and return process clarity. Two brands on this list (Endy and Douglas) are Canadian companies; the rest ship from US warehouses with CAD pricing that reflects exchange rate and import costs.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
 <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>ClearPick Score</th></tr></thead>
@@ -138,6 +139,7 @@
 </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>Full Rankings</h2>
 
 <h3>1. <a href="../products/endy-original-mattress.html"><a href="../products/endy-original-mattress.html"><a href="../products/endy-original-mattress.html">Endy Original Mattress</a></a></a> — Best for Most Canadians</h3>
@@ -202,6 +204,60 @@
 
 <h3>6. <a href="../products/zinus-green-tea-mattress.html"><a href="../products/zinus-green-tea-mattress.html"><a href="../products/zinus-green-tea-mattress.html">Zinus Green Tea</a> Memory</a> Foam Mattress</a> — Best Ultra-Budget</h3>
 <div class="product-card-inline" data-slug="zinus-green-tea-mattress"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-mattresses-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.8/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-mattresses-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-mattresses-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
 <li><strong>Why it ranked #6:</strong> The <a href="../products/zinus-green-tea-mattress.html">Zinus Green Tea Memory Foam Mattress</a> at $299 CAD (Queen) is the only option under $500 on Amazon.ca that consistently earns positive reviews. Owner sentiment is positive for what it is — a functional mattress at entry-level price — but the ClearPick score (7.9) reflects genuine durability limitations. Multiple owners report body impressions and softening within 1–2 years, which doesn't appear at this frequency in higher-ranked options. Right for guest rooms, first apartments, or temporary situations.</li>
 <li><strong>What owners love:</strong> Price — $299 CAD for a Queen is unmatched on Amazon.ca. Quick shipping via Prime and arrives compressed in a box. Comfort on arrival praised by owners who expected worse for the price.</li>
@@ -210,6 +266,7 @@
 <li><strong>Canadian price:</strong> ~$299 CAD (Queen) on Amazon.ca</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Comparison Table</h2>
 <table class="owner-table">
 <thead><tr><th>Mattress</th><th>Type</th><th>Firmness</th><th>Trial</th><th>Warranty</th><th>Price Queen CAD</th><th>Score</th></tr></thead>
@@ -223,6 +280,7 @@
 </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For: Canadian Mattress Buyers</h2>
 
 <h3>Canadian Brand vs. US Brand — The Real Price Difference</h3>
@@ -242,6 +300,7 @@
 <h3>Black Friday Is the Best Time to Buy</h3>
 <p>Every major mattress brand offers their deepest discounts of the year during Canadian Black Friday (late November). Endy typically drops 20–25%, Douglas 20–30%, and Casper 20–30%. If you're not in urgent need, waiting for Black Friday typically saves $150–$300 on mid-range options. The <a href="../products/endy-original-mattress.html">Endy Original Mattress</a> at Black Friday pricing (around $700 CAD Queen) is the best all-around value for most Canadian mattress buyers.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 
 <h3>Is Endy really better than Douglas?</h3>
@@ -298,5 +357,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

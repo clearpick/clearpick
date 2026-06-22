@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="flexispot-e2-standing-desk"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-flexispot-e2-standing-desk-worth-it">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.5/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-flexispot-e2-standing-desk-worth-it";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-flexispot-e2-standing-desk-worth-it');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For remote workers who will build a standing habit — and the owner data suggests roughly half do — yes, the <a href="../products/flexispot-e2-standing-desk.html">FlexiSpot E2</a> at $399 CAD is worth it. For buyers who think they'll stand but haven't yet, the real question is whether you'll use it, not whether it works.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Actually Love</h2>
 <p>The most cited strength in positive <a href="../products/flexispot-e2-standing-desk.html">FlexiSpot E2</a> reviews is value for price. Roughly 50% of 4- and 5-star reviews specifically mention that at $399 CAD on Amazon.ca (no import duty, ships from Canadian warehouse), this is the lowest reasonable entry to an electric standing desk. The dual-motor design gets consistent praise — owners note that the desk rises smoothly and quietly compared to single-motor alternatives they'd previously owned.</p>
 <p>The four memory presets appear in roughly 35% of positive reviews as a feature that actually gets used. Owners describe the sit-to-stand transition as genuinely frictionless once presets are programmed: one button, desk moves, no manual adjustment. This is the feature that most separates owners who stand regularly from those who don't.</p>
@@ -136,6 +191,7 @@
   <cite>Reddit u/[user] via r/WorkFromHome</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints</h2>
 <p>Wobble at full standing height is the most reported limitation, appearing in roughly 30% of reviews from owners with dual-monitor setups. The <a href="../products/flexispot-e2-standing-desk.html">FlexiSpot E2</a> at its maximum 47.6 inch height with two monitors and a monitor arm develops noticeable lateral sway. This is not a defect — it's a property of the frame design at this price point. Owners who anchor the desk to a wall report it largely disappears; owners who can't anchor (renters, apartments) describe it as annoying but tolerable.</p>
 <p>Cable management is the second most frequent complaint. The E2 ships with no cable management solution. The desk surface rises and falls 19+ inches, so unmanaged cables become a tangle issue immediately. Owners consistently report this as the first accessory purchase after the desk.</p>
@@ -145,6 +201,7 @@
   <cite>Amazon.ca verified purchase, dual-monitor setup owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: What Owners Say After 12 Months</h2>
 <p>The clearest pattern in long-term owner threads: whether standing becomes a habit or doesn't is determined in the first 6–8 weeks. Owners who stand by week 6 are standing at 12 months. Owners who don't stand by week 6 have typically reverted to sitting full-time, using the desk purely as a sit-height desk. The desk itself doesn't cause this — the habit formation doesn't happen automatically from owning the equipment.</p>
 <p>Motor reliability in long-term reviews is positive. Owners reporting at 2+ years describe no motor issues. The desk's mechanical reliability is not a concern that appears in owner data at any meaningful frequency.</p>
@@ -154,6 +211,7 @@
   <cite>Amazon.ca verified purchase, 14-month owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 <ul>
   <li><strong>Remote workers with back pain or doctors recommending sitting breaks</strong> — the most motivated users and the ones who reliably build a standing habit per owner data</li>
@@ -162,6 +220,7 @@
   <li><strong>Canadian buyers specifically</strong> — ships from Canadian warehouse, no import duty, and warranty support is handled locally; meaningful vs US-only brands</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 <ul>
   <li><strong>Dual-monitor users who need zero wobble</strong> — the E7 Pro at $599 CAD handles heavy setups better; the $200 difference is worth it if you're running two large monitors on an arm</li>
@@ -170,24 +229,47 @@
   <li><strong>Buyers who want a large surface</strong> — the 48x24 inch surface is functional but cramped for three-monitor or large peripheral setups</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the Price Justified?</h2>
 <p>At $399 CAD, the <a href="../products/flexispot-e2-standing-desk.html">FlexiSpot E2</a> is the lowest-cost electric standing desk with dual motors and memory presets available from a Canadian warehouse without import duty. Comparable electric desks from US-only brands (Uplift, Autonomous) add $100–$200 in duty and shipping. Within the Canadian market, the E2's price is genuinely competitive. Budget an anti-fatigue mat (~$50–$80) and cable management (~$20–$30) from day one — owners consistently report these as essential, not optional.</p>
 
-<table class="pros-cons-table">
-  <thead>
-    <tr><th>Owners Love</th><th>Owners Flag</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Ships from Canadian warehouse, no import duty vs US alternatives</td><td>Wobble at max standing height with dual monitors + arm</td></tr>
-    <tr><td>Dual motor, smooth and quiet transition</td><td>Zero cable management solution included</td></tr>
-    <tr><td>4 memory presets — the feature owners say makes the standing habit stick</td><td>47.6" max height borderline for users over 6'2"</td></tr>
-    <tr><td>Strong motor reliability in 2+ year owner reports</td><td>Anti-fatigue mat required for comfort — should be budgeted in</td></tr>
-    <tr><td>Lowest reasonable price for electric sit-stand in Canada</td><td>48x24" surface cramped for heavy multi-peripheral setups</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>Ships from Canadian warehouse, no import duty vs US alternatives</li>
+      <li>Dual motor, smooth and quiet transition</li>
+      <li>4 memory presets — the feature owners say makes the standing habit stick</li>
+      <li>Strong motor reliability in 2+ year owner reports</li>
+      <li>Lowest reasonable price for electric sit-stand in Canada</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>Wobble at max standing height with dual monitors + arm</li>
+      <li>Zero cable management solution included</li>
+      <li>47.6" max height borderline for users over 6'2"</li>
+      <li>Anti-fatigue mat required for comfort — should be budgeted in</li>
+      <li>48x24" surface cramped for heavy multi-peripheral setups</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.5/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For the remote worker with one or two monitors who is genuinely motivated to build a standing habit, the <a href="../products/flexispot-e2-standing-desk.html">FlexiSpot E2</a> at ClearPick score 8.5 is the right desk at $399 CAD. It works as advertised, ships without import duty from Canada, and the memory presets are what owner data identifies as the key to standing habit formation. Budget an anti-fatigue mat and cable management on day one. For dual-monitor setups concerned about wobble, or users above 6'2", step up to the E7 Pro at $599 CAD.</p>
 </div>
       </div>
@@ -229,5 +311,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

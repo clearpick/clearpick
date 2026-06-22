@@ -1,0 +1,42 @@
+{
+  "slug": "nespresso-vertuo-plus-vs-delonghi-magnifica-evo",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:00:50.562Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Nespresso Vertuo Plus Coffee & Espresso Machine by De'Longhi",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        84,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "De'Longhi Magnifica Evo Automatic Espresso and Coffee Machine",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        88,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

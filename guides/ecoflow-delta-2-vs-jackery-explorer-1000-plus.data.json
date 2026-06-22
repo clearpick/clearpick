@@ -1,0 +1,42 @@
+{
+  "slug": "ecoflow-delta-2-vs-jackery-explorer-1000-plus",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:28.559Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "EcoFlow DELTA 2 Max Portable Power Station",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        90,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Jackery Explorer 1000 Plus Portable Power Station",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        88,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

@@ -128,12 +128,67 @@
 
 <div class="product-card-inline" data-slug="petsafe-smart-feed-2-automatic-feeder"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-dog-auto-feeder-after-novelty-wears-off">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.3/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="dog-auto-feeder-after-novelty-wears-off";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-dog-auto-feeder-after-novelty-wears-off');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>The data sources</h2>
 
 <p>This report synthesizes owner feedback from approximately 2,400 combined Amazon reviews across the three featured feeders, filtered for reviews posted more than 90 days after purchase, plus active threads from r/dogs, r/petadvice, and r/Pets spanning 2023 to 2025. The time period skews toward owners who have lived through at least one seasonal cycle — which matters for understanding jamming patterns, app drift, and the question of whether owners actually kept using it.</p>
 
 <p>Dog owners represent roughly 40 percent of automatic feeder owners in these communities despite most feeder marketing targeting cats. The dog-specific issues are meaningfully different and consistently underreported in product reviews, which tend to be written by cat owners.</p>
 
+<div class="guide-section-break"></div>
 <h2>First impressions vs. long-term reality</h2>
 
 <p>At weeks one and two, the pattern across all three feeders is consistent: owners are delighted. The dog gets fed on time, the app works, portions look right, and the novelty of monitoring feedings remotely generates positive posts. Nearly every new owner in r/dogs who posts about their feeder in the first month reports satisfaction.</p>
@@ -150,6 +205,7 @@
 
 <blockquote><p>"Month one I was checking the app every feed. Month four I completely forgot to check it for two weeks. Came home from a trip and the feeder had disconnected from WiFi three days earlier and I had no idea. My dog had been on the backup timer only, which luckily still worked."</p><cite>Amazon reviewer (verified purchase, <a href="../products/petsafe-smart-feed-2-automatic-feeder.html"><a href="../products/petsafe-smart-feed-2-automatic-feeder.html">PetSafe Smart Feed</a> 2</a>, posted 5 months after purchase)</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What owners consistently praise</h2>
 
 <p><strong>Consistent feeding times regardless of owner schedule</strong> — mentioned by the majority of satisfied 6-month owners. The most durable positive across all three feeders at month six is that the schedule runs reliably even when owner routines do not. Dogs that were previously anxious around variable feeding times — pacing, barking, waking owners early — show measurably calmer behaviour once the feeding schedule is predictable. Multiple owners in r/dogs specifically credit the feeder with eliminating food-obsession behaviours that had become chronic.</p>
@@ -160,6 +216,7 @@
 
 <p><strong>Slow-feed mode genuinely solved fast-eating problems</strong> — mentioned by Smart Feed 2 owners. Dogs that eat too fast and then vomit respond well to the 15-minute dispersion mode. Owners who bought feeders specifically for this reason report high long-term satisfaction because the underlying problem is resolved rather than managed.</p>
 
+<div class="guide-section-break"></div>
 <h2>The most common complaints at 6 months</h2>
 
 <p><strong>Food jamming</strong> — the single most common complaint at 6 months, across all three feeders. Jamming is not common in the first month. It becomes the dominant complaint by months five and six. The mechanism: kibble dust and oil from the food accumulates in the dispensing wheel or auger over weeks. As buildup increases, pieces bridge across the mechanism and block dispensing. The feeder attempts to dispense, the motor runs, but nothing comes out — and there is no alert on most models.</p>
@@ -172,6 +229,7 @@
 
 <p><strong>App abandonment combined with silent connection failures</strong> — mentioned across all three feeders. By month four, the majority of satisfied owners report they no longer actively use the app — they set the schedule and forgot about it. This matters because connection issues that would have been caught immediately at month one go undetected for days at month four. Multiple owners report returning home after a trip to discover the feeder had lost Wi-Fi connection days earlier and the dog had been missing meals from the onboard timer only.</p>
 
+<div class="guide-section-break"></div>
 <h2>Who keeps it vs. who returns or resells it</h2>
 
 <p>Owners who keep the feeder at 6 months tend to match a specific profile: a single dog household with one consistent kibble brand and size, a primary use case of consistent daily timing during work hours rather than travel coverage, a dog with a specific dietary need the feeder is solving, and an owner who discovered early that monthly cleaning is required and made it a routine.</p>
@@ -180,6 +238,7 @@
 
 <blockquote><p>"My Lab figured out that pawing at the dispense button gives him food. He gained 4 lbs in the first two months. I had to physically tape over the manual button. The feeder still works but it's not what I expected to be troubleshooting."</p><cite>Reddit u/grilling_with_labs via r/dogs</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>The hidden costs and surprises owners missed</h2>
 
 <p><strong>Kibble compatibility is not obvious at purchase.</strong> Most feeders recommend kibble between 8mm and 15mm in diameter with low dust content. Owners who feed prescription diets, small-breed kibble, or budget brands with high fines discover the compatibility issue at the first jam, not at purchase. The cost of switching kibble to match the feeder's mechanical requirements is not mentioned anywhere in most product listings.</p>
@@ -190,12 +249,14 @@
 
 <p><strong>App updates can reset or alter schedules.</strong> Both PetSafe and PETLIBRO have documented cases of firmware updates pushing to feeders automatically and either resetting or altering scheduled feedings. The incidents are not common, but they happen invisibly. Owners who set the schedule and never check the app again are most exposed to this.</p>
 
+<div class="guide-section-break"></div>
 <h2>What owners say about value after 1 year</h2>
 
 <p>Owners who reach the one-year mark divide into two camps. The majority camp — roughly 65 to 70 percent of long-term owners in community threads — frames the value in terms of behavioural improvement. The dog is calmer. The vomiting stopped. The weight came down. Owners who travel feel genuinely free. For these owners, the feeder solved a real problem and the solution held up over time.</p>
 
 <p>The minority camp — roughly 30 to 35 percent — almost universally ties their regret to one of three things: a dog that defeated the feeder, a kibble compatibility problem they could not fully resolve, or app reliability anxiety that never went away. These owners often note that they should have just bought a better food bowl or, in several cases, switched to a timed gravity feeder with no app dependency at all.</p>
 
+<div class="guide-section-break"></div>
 <h2>Bottom line from owners</h2>
 
 <p>The owner community consensus at six months is not that automatic feeders do not work. It is that they work for a specific owner and dog profile, and that profile is narrower than the marketing suggests.</p>
@@ -208,6 +269,7 @@
 
 <p>The owner community's most repeated advice to prospective buyers: verify your kibble size is compatible before buying, plan to clean monthly, and honestly assess whether your dog is the type to leave the feeder alone. The technology works. The fit-to-dog is the variable that owners did not know to check.</p>
 
+<div class="guide-section-break"></div>
 <h2>How the three feeders compare at 6 months</h2>
 
 <table class="owner-table">
@@ -303,5 +365,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

@@ -127,14 +127,70 @@
 <div class="product-card-inline" data-slug="garmin-forerunner-265"></div>
 <div class="product-card-inline" data-slug="garmin-fenix-7-solar"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-garmin-vs-apple-watch-daily-use">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.3/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="garmin-vs-apple-watch-daily-use";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-garmin-vs-apple-watch-daily-use');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Data Sources</h2>
 <p>This report draws from r/AppleWatch, r/Garmin, r/running, and r/Fitness threads from owners who have used both brands and can speak to the daily-use differences. Primary products: <a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra 2</a> (49mm titanium, ~$1,099 CAD), <a href="../products/garmin-forerunner-265.html">Garmin Forerunner 265</a> (~$599 CAD), <a href="../products/garmin-fenix-7-solar.html">Garmin Fenix 7 Solar</a> (~$999 CAD), and <a href="../products/garmin-venu-3.html">Garmin Venu 3</a> (~$499 CAD). Focus: what owners who have owned both say about which one they wear every day and why.</p>
 
+<div class="guide-section-break"></div>
 <h2>Who Switches from Apple Watch to Garmin (and Why)</h2>
 <p>The most common Apple Watch to Garmin switch profile in r/Garmin and r/running threads: runners and cyclists who want deeper training data. "I've been on Apple Watch for three years and I like it, but I have no idea if I'm actually getting fitter or just logging miles. The Garmin training load and recovery advisor are the reason I switched" — this is the dominant trigger. Apple Watch's fitness data is considered accurate for general health tracking; it's considered less useful for structured athletic training where owners want VO2 max trends, training load balance, and periodization guidance.</p>
 <p>Battery anxiety is the second most common reason. The <a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra 2</a> gets approximately 60 hours in low-power mode — better than standard Apple Watch but still measured in days, not weeks. The <a href="../products/garmin-forerunner-265.html">Garmin Forerunner 265</a> gets approximately 13 days in smartwatch mode, and the <a href="../products/garmin-fenix-7-solar.html">Garmin Fenix 7 Solar</a> can run for months with solar supplementation. "I was charging my Apple Watch every night and sometimes in the middle of the day before races. The Garmin changed my relationship with the watch — I charge it once a week and forget about it" is a representative owner post.</p>
 <p>A smaller but consistent group switches for sleep tracking quality. Multiple owners in r/Garmin report that Garmin's sleep tracking — particularly the Body Battery and sleep stage accuracy — is more useful for recovery planning than Apple Watch's sleep data, which is described as "accurate but not actionable."</p>
 
+<div class="guide-section-break"></div>
 <h2>Who Switches from Garmin to Apple Watch (and Why)</h2>
 <p>The Garmin to Apple Watch switch profile is nearly the inverse: iPhone users who want a watch that does more than fitness. "I had the Fenix 5 for four years and it was a great running watch but I was carrying my phone everywhere for texts, payments, and music. The Apple Watch lets me leave my phone at home for most things" — this is the primary driver. Apple Watch's iPhone notification integration, Apple Pay, and Siri functionality create a genuinely different daily use experience for iPhone owners who want one device to handle both fitness and life.</p>
 <p>A second group switches from Garmin specifically because of aesthetics. The <a href="../products/garmin-forerunner-265.html">Garmin Forerunner 265</a> and <a href="../products/garmin-fenix-7-solar.html">Garmin Fenix 7 Solar</a> are visually distinct from fashion watches in ways that draw daily attention in office settings. "I wore the Fenix 7 to work for a week and got four comments about it looking like a military watch. Switched to the <a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra</a> and nobody says anything" — this aesthetic consideration appears in multiple r/AppleWatch posts from former Garmin owners.</p>
@@ -193,10 +249,12 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>Fitness Tracking: What Owners Say About Accuracy After 6 Months</h2>
 <p>GPS accuracy has largely converged between the two ecosystems in owner reports from the past two years. Both <a href="../products/apple-watch-ultra-2.html"><a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra</a> 2</a> (dual-frequency L1/L5 GPS) and <a href="../products/garmin-forerunner-265.html">Garmin Forerunner 265</a> (dual-frequency) are described as accurate by owners who run measured courses. Roughly 15% of long-term owner posts in r/running report GPS drift on Apple Watch in dense urban environments (tall buildings, heavy tree cover); Garmin users report similar issues less frequently, and the <a href="../products/garmin-fenix-7-solar.html">Garmin Fenix 7 Solar</a>'s multi-band GPS gets the fewest complaints on accuracy.</p>
 <p>Heart rate accuracy in running is considered comparable between platforms. Where the two diverge: VO2 max estimation and training load. Garmin's VO2 max calibration is considered more stable and reliable by owners who've tested it against lab results; Apple Watch's Fitness+ fitness level metrics are seen as useful directional signals but less precise for structured training planning. "My Garmin VO2 max tracked my fitness progress accurately over a six-month training block. My Apple Watch fitness level metric tells me I'm at a 'high' level. Those aren't the same kind of data" is a common framing from dual-ecosystem owners.</p>
 
+<div class="guide-section-break"></div>
 <h2>Battery Reality: What Daily Use Actually Looks Like</h2>
 <p>The battery gap is the most discussed topic in cross-ecosystem comparisons, and the reality diverges from the specs in interesting ways. <a href="../products/apple-watch-ultra-2.html"><a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra</a> 2</a> owners who don't track workouts daily report getting 2–3 days on a charge in normal use. Owners who track a 90-minute run with GPS, music playback, and heart rate get closer to 1.5 days per charge. Nightly charging becomes standard practice. "I charge it every night without thinking about it now. It's not a problem, it's just a habit" — this is how most Apple Watch owners frame the battery situation after the first few months.</p>
 <p>Garmin owners describe a different mental model. "I charged my Forerunner 265 on March 3rd. I've run 6 times since then and it's at 40%. I haven't thought about the battery once" — this is the specific value Garmin owners point to, and it comes up more frequently in positive Garmin reviews than almost any other feature. Owners who travel frequently or camp/hike cite the battery difference as decisive.</p>
@@ -206,11 +264,13 @@
 <cite>r/Garmin, verified Fenix 7 Solar owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>The Ecosystem Factor: What Keeps Owners Locked In</h2>
 <p>Ecosystem lock-in operates differently for each brand. Apple Watch requires an iPhone — this is not a preference but a hard constraint. Owners who switch to Android must leave Apple Watch behind. This creates significant switching friction for iPhone users who become invested in the Apple Watch experience (Fitness+, Activity rings, Apple Pay, ECG). "I'm stuck with Apple Watch because I'm never leaving iPhone, and I've stopped thinking of that as a limitation" is a common framing.</p>
 <p>Garmin's ecosystem lock-in is data-based. Years of Connect IQ history, course libraries, route data, and training load logs represent a kind of accumulated fitness data that owners don't want to rebuild on a new platform. "I have four years of running data in Garmin Connect. Switching would mean starting over. Not worth it even when I'm frustrated with Garmin's UI" — this is the stickiness mechanism Garmin owners describe.</p>
 <p>Garmin's platform-agnostic approach (works with both iOS and Android) is cited by approximately 25% of Garmin long-term owners as a meaningful consideration — particularly owners who switch phones or share household devices across ecosystems.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Both Communities Agree On</h2>
 <ul>
   <li><strong>Sleep tracking has improved on both platforms</strong>: Long-term owners (2+ years) on both platforms note that sleep tracking quality has meaningfully improved via software updates. Apple Watch sleep stages are more accurate than they were at launch; Garmin's Body Battery recovery metric is more calibrated than early versions. Neither community describes sleep tracking as a reason to switch.</li>
@@ -258,5 +318,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

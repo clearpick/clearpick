@@ -126,9 +126,64 @@
 <h1>What New Parents Actually Say About the Nanit Pro After 6 Months</h1>
 <div class="product-card-inline" data-slug="nanit-pro-baby-monitor"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-nanit-pro-new-parents-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="nanit-pro-new-parents-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-nanit-pro-new-parents-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Data Sources</h2>
 <p>This report synthesizes long-term parent discussions from r/beyondthebump, r/NewParents, r/BabyBumps, and Amazon Canada verified purchase reviews from parents who owned the <a href="../products/nanit-pro-baby-monitor.html">Nanit Pro Smart Baby Monitor</a> for 6+ months. Priority given to posts describing specific failure modes, specific night-time disruptions, and explicit hindsight assessments at 3, 6, and 12 months.</p>
 
+<div class="guide-section-break"></div>
 <h2>First Impressions vs Long-Term Reality</h2>
 <p>The out-of-box experience for the Nanit Pro is almost universally praised. Setup takes 15–20 minutes, the camera mounts above the crib cleanly, the video quality is sharp and night-vision is strong. New parents in the first week describe the product with relief: "It works exactly as advertised, and right now that's all I need." The app's sleep metrics — sleep tracking, wake detections, overnight duration — feel novel and reassuring in the first month.</p>
 <p>By month 3, patterns shift. Parents begin to notice the gap between sleep data and what they actually do with it. The Nanit's sleep score and breathing monitoring become either indispensable or background noise depending on the parent's anxiety profile. By month 6, the most common candid observation in r/beyondthebump is about the subscription: "I forgot that I signed up for the breathing wear tracking and I've been paying $10 a month since month 2 and I've checked the breathing data maybe 5 times."</p>
@@ -138,6 +193,7 @@
   <cite>Reddit r/beyondthebump, 7-month owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Consistently Praise</h2>
 <p>Video and night vision quality is the most consistent praise in 6-month owner threads — essentially no complaints. The camera is sharp, the wide angle covers the whole crib, and the night vision distinguishes the baby clearly without needing a separate light. Parents who compare to previous monitors (Owlet, older Motorola units) consistently say the Nanit's video is the best they've used.</p>
 <p>The over-crib mount design also gets consistent praise from parents who used it 6+ months. The bird's-eye angle gives a clear view of the whole sleep surface without repositioning. Parents with active infants who roll note that the angle tracks the baby across the crib naturally.</p>
@@ -147,6 +203,7 @@
   <cite>Amazon Canada, verified 6-month parent owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Most Common Complaints (Ranked by Frequency)</h2>
 
 <p><strong>1. WiFi drops at the worst possible time (~45% of 6-month+ threads mention this)</strong><br>
@@ -161,43 +218,67 @@ The Nanit's sleep score and analytics are technically sophisticated. In practice
 <p><strong>4. App reliability on Android — more issues than iOS (~20% of threads, Android-specific)</strong><br>
 Parents using Android phones report higher rates of app bugs, connection instability, and lag than iOS users. This is a consistent pattern in Nanit-specific threads: "I switched to using my old iPhone for the monitor app and the connection problems essentially stopped." Parents who relied on Android as their primary device had disproportionately more negative 6-month experiences.</p>
 
-<table class="pros-cons-table">
-  <thead>
-    <tr>
-      <th>Owners Love</th>
-      <th>Owners Flag</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Video and night vision quality — the best camera in this price range per parent comparisons</td>
-      <td>WiFi disconnections at night — 2–3 per week is common in the first 3 months</td>
-    </tr>
-    <tr>
-      <td>Over-crib mount angle — full sleep surface view that adjusts naturally as baby moves</td>
-      <td>Subscription surprise — breathing monitoring requires ongoing monthly payment post-purchase</td>
-    </tr>
-    <tr>
-      <td>Two-way talk quality — parents report it's clear enough to soothe without entering the room</td>
-      <td>Sleep data hard to act on — most parents stop checking detailed metrics by month 4</td>
-    </tr>
-    <tr>
-      <td>Background sound monitoring — plays to phone speaker when screen is off</td>
-      <td>Android app significantly more unstable than iOS version</td>
-    </tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>Video and night vision quality — the best camera in this price range per parent comparisons</li>
+      <li>Over-crib mount angle — full sleep surface view that adjusts naturally as baby moves</li>
+      <li>Two-way talk quality — parents report it's clear enough to soothe without entering the room</li>
+      <li>Background sound monitoring — plays to phone speaker when screen is off</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>WiFi disconnections at night — 2–3 per week is common in the first 3 months</li>
+      <li>Subscription surprise — breathing monitoring requires ongoing monthly payment post-purchase</li>
+      <li>Sleep data hard to act on — most parents stop checking detailed metrics by month 4</li>
+      <li>Android app significantly more unstable than iOS version</li>
+    </ul>
+<div class="guide-chart-block">
+  <h3 class="chart-block-title">Most Common Complaints — By Frequency</h3>
+  <p class="chart-block-source">Derived from owner reviews and community threads</p>
+  <canvas id="cc_nanit_pro_new_parents_report" height="192"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["WiFi drops at the worst possible time","On cost surprise  and questioning its value after 6 months","Sleep tracking data that's hard to act on","App reliability on Android  more issues than iOS"];
+  var values=[45,40,25,20];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,250);return;}
+    var el=document.getElementById('cc_nanit_pro_new_parents_report');
+    if(!el||el.dataset.rendered)return;
+    el.dataset.rendered='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:values,backgroundColor:values.map(function(_,i){return i===0?'#ef4444':i===1?'#f97316':'#fbbf24';}),borderRadius:6,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{callback:function(v){return v+'%';}},grid:{color:'#f3f4f6'}},y:{grid:{display:false}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 
+  </div>
+</div>
+
+<div class="guide-section-break"></div>
 <h2>Who Keeps It vs Who Returns or Resells</h2>
 <p>Return rates for the Nanit are low — most parents who buy it keep it past the return window. Resale typically happens at 12–18 months when the baby transitions out of the crib, not due to dissatisfaction. Parents who are most likely to sell early (before 12 months) are those whose WiFi issues went unresolved and who felt they couldn't rely on the monitor at night. This is a small subset but appears in threads regularly.</p>
 <p>The majority of 6-month owners describe the Nanit as a "it works fine" product rather than a love-it product. The camera quality sustains the keeping decision even for owners who feel the subscription and sleep data didn't deliver on their expectations.</p>
 
+<div class="guide-section-break"></div>
 <h2>Hidden Costs and Surprises</h2>
 <p>Beyond the subscription, the Breathing Wear bands themselves (the swaddle/sleep sack with embedded sensors) are a separate purchase — roughly $30–$45 per item in Canada, and babies grow out of sizes at 3–4 month intervals. Parents who committed to breathing monitoring report buying 2–3 sizes of Breathing Wear in the first year, adding $60–$135 to the total cost. This is almost never flagged in pre-purchase research. The camera unit itself requires no ongoing costs beyond subscription if you opt out of breathing monitoring.</p>
 
+<div class="guide-section-break"></div>
 <h2>Value at 1 Year: What Owners Say About the Price in Hindsight</h2>
 <p>At 12 months, the Nanit Pro owner sentiment is generally positive but qualified. "The camera was worth it; the subscription probably wasn't for us" is the dominant framing among candid 1-year retrospectives. Parents who used breathing monitoring actively — particularly high-anxiety first-time parents in the first 4 months — express higher overall value satisfaction. Parents who relied primarily on the video and sound monitoring describe it as a solid camera that they're happy they bought but wouldn't necessarily buy again over a simpler (and cheaper) alternative that just streams video reliably.</p>
 
+<div class="guide-section-break"></div>
 <h2>Bottom Line From Owners</h2>
 <p>The <a href="../products/nanit-pro-baby-monitor.html">Nanit Pro</a> is a best-in-class baby camera with a subscription model that most parents underestimate at purchase. Six months in, the WiFi reliability complaint is the one that most affects daily parenting quality — and it's real. If you're on iOS and have a solid dedicated 2.4GHz WiFi band, connection issues are minimal and the camera earns its price. If you're on Android or have a complex home network, the experience is bumpier. The subscription decision should be made explicitly at purchase, not discovered at month 2.</p>
 
@@ -240,5 +321,6 @@ Parents using Android phones report higher rates of app bugs, connection instabi
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

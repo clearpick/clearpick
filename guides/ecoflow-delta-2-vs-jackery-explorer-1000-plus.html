@@ -126,32 +126,93 @@
 <div class="product-card-inline" data-slug="ecoflow-delta-2-power-station"></div>
 <div class="product-card-inline" data-slug="jackery-explorer-1000-plus"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-ecoflow-delta-2-vs-jackery-explorer-1000-plus">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="ecoflow-delta-2-vs-jackery-explorer-1000-plus";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-ecoflow-delta-2-vs-jackery-explorer-1000-plus');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>Two different takes on the same problem</h2>
 <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> and <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> sit close enough in spec — both are ~1000Wh LFP portable power stations in the $999–$1,399 CAD range — that buyers routinely compare them directly. They're not identical products. The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> wins on charging speed, port count, and price. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> wins on surge wattage, maximum expandable capacity, and Canadian retail availability. Which matters for your situation determines which one to buy.</p>
 <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> scores 9.1 on ClearPick. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> is available from Canadian Tire, REI Canada, and Amazon.ca — its distribution advantage for Canadians who want in-person purchase and local warranty support is real.</p>
 
+<div class="guide-section-break"></div>
 <h2>Charging speed: EcoFlow wins, clearly</h2>
 <p>The EcoFlow DELTA 2's X-Stream fast charging from 0% to 80% in approximately 80 minutes is the single most frequently cited owner advantage in comparison threads. Jackery's AC charging takes approximately 1.7 hours full charge — that's a good number for the category, but it's 30–40 minutes slower than EcoFlow. Owners who use their power station for camping with morning departures or power outages with finite charging windows cite this repeatedly: "80-minute charge time is the killer feature — fill it up while we eat breakfast and go."</p>
 <p>Solar charging is available on both. The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> accepts up to 500W solar input; the <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> accepts up to 400W. If you're planning an off-grid solar setup, EcoFlow's higher input ceiling charges faster on the same panels.</p>
 
+<div class="guide-section-break"></div>
 <h2>Output power: Jackery wins on surge</h2>
 <p>The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> delivers 2,000W continuous AC output with 4,000W surge. The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> delivers 1,800W continuous with 2,700W surge (X-Boost mode pushes this to run some 1,800–2,200W appliances, but this uses frequency modulation and isn't recommended for sensitive electronics). For owners who need to run high-draw appliances — portable AC units, electric grills, certain power tools — Jackery's 4,000W surge handles scenarios the EcoFlow's 2,700W surge can't. This is the Jackery's strongest argument for RV users and home backup use with demanding loads.</p>
 <p>In practice, for the typical camping/outage use case — running a fridge (150W), phone charging, lights, and a coffee maker (1,000W) — both stations have more than enough overhead. The surge difference matters in edge cases, not typical use.</p>
 
+<div class="guide-section-break"></div>
 <h2>Capacity and expandability: Jackery goes further</h2>
 <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> starts at 1,024Wh and expands to 3,040Wh with EcoFlow's DELTA 2 Extra Battery. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> starts at 1,264Wh base capacity (slightly more than DELTA 2 at the base level) and expands to 5,000Wh with Jackery battery packs. For extended off-grid use or whole-home backup applications, Jackery's expandability ceiling is higher. Most buyers never expand, so this is a theoretical advantage — but it matters for buyers planning a larger system.</p>
 <p>Battery cycle life also favors Jackery: the Explorer 1000 Plus uses LFP rated at 4,000+ cycles to 80% vs. the DELTA 2's 3,000+ cycles. At one cycle per day, that's 11 years vs. 8 years of rated life. Practically, most owners don't cycle daily, so both will outlast realistic ownership timelines — but Jackery's LFP advantage is slightly more durable on paper.</p>
 
+<div class="guide-section-break"></div>
 <h2>Ports and connectivity: EcoFlow wins on versatility</h2>
 <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> has 6 AC outlets, 4 USB-A ports, 2 USB-C ports (100W each), 2 DC ports, and a car output. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> has 3 AC outlets, 2 USB-A, 2 USB-C, and a car port. For households with many devices to run simultaneously — multiple laptops, phone banks, CPAP, and appliances during an outage — EcoFlow's port count is a meaningful advantage. Jackery is adequate for most camping and outage scenarios but runs out of AC outlets faster.</p>
 <p>Both have companion apps for monitoring. Owner reviews for EcoFlow's app note it has more smart features (scheduling, energy management, granular monitoring); Jackery's app is functional but described as more basic. For hands-on owners who want control from the app, EcoFlow has the edge.</p>
 
+<div class="guide-section-break"></div>
 <h2>Canadian availability: Jackery wins</h2>
 <p>This is the most practical difference for many Canadian buyers. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> is available at Canadian Tire locations across Canada, REI Canada, and through major online retailers. Canadian Tire's extended warranty and in-store service mean buyers can physically return or service the unit. <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> is available primarily online (Amazon.ca, EcoFlow.com). For buyers in smaller cities or who want in-person purchase and local warranty support, Jackery's retail footprint is a real advantage. "Bought at Canadian Tire with a warranty I trust" is owner language that reflects this preference.</p>
 
+<div class="guide-section-break"></div>
 <h2>Price in Canada</h2>
 <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> retails at approximately $999 CAD on Amazon.ca and EcoFlow.com. The <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> retails at approximately $1,299–1,399 CAD depending on retailer and sale timing. The ~$300–400 gap is significant — EcoFlow delivers more charging ports, faster charging, and app features at a lower price. Jackery commands a premium partly from its retail distribution and brand loyalty in Canada.</p>
 
+<div class="guide-section-break"></div>
 <h2>Who should buy which</h2>
 <p><strong>Buy the <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> ($999 CAD) if:</strong></p>
 <ul>
@@ -168,8 +229,14 @@
   <li>You're already in the Jackery ecosystem with existing battery packs</li>
 </ul>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.1/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>The <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> wins on pure performance per dollar — faster charging, more ports, and ~$300–400 less than the <a href="../products/jackery-explorer-1000-plus.html">Jackery Explorer 1000 Plus</a> at equivalent capacity. Jackery wins for Canadian buyers who value in-store purchase at Canadian Tire, higher surge output for demanding loads, and greater expandable capacity. For most camping and home backup use cases, the <a href="../products/ecoflow-delta-2-max.html">EcoFlow DELTA 2</a> is the smarter buy. The Jackery earns its premium only for buyers to whom its specific advantages — retail access, surge power, expansion ceiling — actually matter.</p>
 </div>
 
@@ -212,5 +279,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

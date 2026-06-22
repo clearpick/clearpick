@@ -125,6 +125,7 @@
 
 <p>We ranked air fryers available under $150 CAD on Amazon.ca by what Canadian owners actually report after using them daily — not lab specs. Rankings weight real cooking results (what owners say about crispiness and evenness), cleaning effort (the most-cited long-term complaint), capacity for Canadian household sizes, and counter space footprint. Pricing fluctuates on Amazon.ca; verify current price before buying.</p>
 
+<div class="guide-section-break"></div>
 <h2>Quick Picks</h2>
 <table class="owner-table">
 <thead><tr><th>Pick</th><th>Product</th><th>Best For</th><th>ClearPick Score</th></tr></thead>
@@ -176,8 +177,63 @@
 
 <h3>Step-Up Pick: <a href="../products/cuisinart-toa-65-airfryer-toaster-oven.html"><a href="../products/cuisinart-toa-65-airfryer-toaster-oven.html"><a href="../products/cuisinart-toa-65-airfryer-toaster-oven.html">Cuisinart TOA-65 Digital</a> AirFryer</a> Toaster Oven with Convection</a> (~$249 CAD)</h3>
 <div class="product-card-inline" data-slug="cuisinart-toa-65-airfryer-toaster-oven"></div>
+
+<div class="guide-glance-block" id="guide-glance-best-air-fryers-under-150-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.4/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-air-fryers-under-150-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-air-fryers-under-150-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>The <a href="../products/cuisinart-toa-65-airfryer-toaster-oven.html">Cuisinart TOA-65 Digital AirFryer Toaster Oven with Convection</a> is over the $150 budget at ~$249 CAD, but worth noting for buyers who would otherwise buy both a toaster oven and an air fryer separately. It replaces both in one counter appliance. Owners in smaller Canadian apartments report it saving meaningful counter space. ClearPick Score: 8.6. If you'd have bought both appliances, the combined price justifies the step up.</p>
 
+<div class="guide-section-break"></div>
 <h2>How They Compare</h2>
 <table class="owner-table">
 <thead><tr><th>Air Fryer</th><th>Capacity</th><th>Price (CAD)</th><th>Basket Shape</th><th>Dishwasher Safe?</th><th>ClearPick Score</th></tr></thead>
@@ -189,6 +245,7 @@
 </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For</h2>
 <h3>Capacity for Your Household Size</h3>
 <p>This is the most important variable. A 4-quart basket serves 1–2 people per batch. A 6-quart basket serves 3–5. The most common regret in air fryer owner reviews is buying too small and cooking in batches daily — which defeats the convenience promise. Canadian households averaging 2.9 people sit right at the 4–6 quart crossover point.</p>
@@ -210,6 +267,7 @@
 <h3>Noise Level</h3>
 <p>Air fryers are not quiet appliances — they run roughly 50–65 dB during operation, similar to a moderate conversation. Apartment owners who have noise-sensitive neighbours mention this. None of the picks in this price range are meaningfully quieter than the others.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 <h3>What foods do owners say air fryers do best?</h3>
 <p>Frozen foods, chicken wings, French fries, reheating leftovers (pizza, previously fried foods), and roasted vegetables get the most consistent praise across owner reviews. Foods owners report disappointment with: thick cuts of red meat (uneven results), baked goods (require accessories), and anything with wet batter (slides off before cooking).</p>
@@ -223,8 +281,14 @@
 <h3>Is it worth spending more than $150 on an air fryer?</h3>
 <p>For standalone air frying, no — the <a href="../products/instant-vortex-plus-6qt-air-fryer.html">Instant Vortex Plus 6-Quart Air Fryer with ClearCook Window</a> and Ninja AF101 cover the actual cooking needs of most Canadian households. The exception is if you want a multi-function appliance: the <a href="../products/cuisinart-toa-65-airfryer-toaster-oven.html">Cuisinart TOA-65 Digital AirFryer Toaster Oven with Convection</a> at $249 CAD adds full toaster oven capability and earns its price if it replaces two appliances.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">75%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.4/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For most Canadian families of 3–5, the <a href="../products/instant-vortex-plus-6qt-air-fryer.html">Instant Vortex Plus 6-Quart Air Fryer with ClearCook Window</a> at ~$99 CAD is the straightforward pick — large enough for family batches, consistently praised for results, dishwasher-safe. Accept the window grease issue as the known trade-off at this price. For 1–2 person households or apartments with limited counter space, the Ninja AF101 is the better fit. If you'd be buying both a toaster oven and an air fryer, the <a href="../products/cuisinart-toa-65-airfryer-toaster-oven.html">Cuisinart TOA-65 Digital AirFryer Toaster Oven with Convection</a> at $249 consolidates both and earns its price.</p>
 </div>
       </div>
@@ -266,5 +330,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

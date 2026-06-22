@@ -1,0 +1,42 @@
+{
+  "slug": "ipad-pro-m4-vs-macbook-air-m4",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:42.009Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Apple iPad Pro 13-inch (M4)",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        94,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Apple MacBook Air 13-inch (M4, 2025)",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        93,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

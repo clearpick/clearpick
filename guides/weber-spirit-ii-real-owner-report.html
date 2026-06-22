@@ -128,12 +128,67 @@
 
 <div class="product-card-inline" data-slug="weber-spirit-ii-e-310"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-weber-spirit-ii-real-owner-report">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.8/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="weber-spirit-ii-real-owner-report";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-weber-spirit-ii-real-owner-report');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <h2>The data sources</h2>
 
 <p>Approximately 1,800 Amazon Canada and Amazon USA reviews were filtered for verified purchases with review dates more than 18 months after the purchase date. Reddit threads from r/grilling and r/BBQ spanning 2022 to 2025 provided the qualitative owner narrative. Canadian-specific threads — particularly from r/canadagardening and Ontario and Alberta regional Facebook groups — contributed the winter storage and rust-specific data that differs from American owner experience.</p>
 
 <p>Three-season owners — those who have used the grill through three full spring-to-fall cycles and stored it through two winters — are the primary data source. Their feedback is meaningfully different from first-year owners.</p>
 
+<div class="guide-section-break"></div>
 <h2>First impressions vs. long-term reality</h2>
 
 <p>Year one Spirit II owners are overwhelmingly positive. The grill heats evenly, the Flavorizer bars do their job, the build quality feels solid compared to budget alternatives, and the push-button ignition works reliably. The consensus in first-year reviews is that Weber's reputation is justified.</p>
@@ -144,6 +199,7 @@
 
 <blockquote><p>"Year one was perfect. Year two I noticed the flavorizer bars starting to rust at the edges. Year three I replaced them — $75 at Weber Canada, took 20 minutes. The grill itself still cooks exactly as well as the day I bought it. I wish I'd known the bars were basically a consumable going in, but it hasn't changed my opinion of the grill."</p><cite>Amazon Canada reviewer (verified purchase, posted 3 years after purchase)</cite></blockquote>
 
+<div class="guide-section-break"></div>
 <h2>What owners consistently praise</h2>
 
 <p><strong>Even heat across the cooking surface holds at 3 seasons</strong> — mentioned consistently by multi-year owners as the Spirit II's most durable strength. The three-burner layout with Weber's heat tent design distributes heat more evenly than similarly priced competitors, and three-season owners report this performance has not degraded. The cold zone that owners identify is the left burner edge when grilling with only the center and right burners — a typical low-and-slow configuration — but full three-burner use is genuinely even according to the majority of long-term owners.</p>
@@ -154,6 +210,7 @@
 
 <p><strong>The 10-year warranty provides genuine peace of mind</strong> — mentioned frequently by Canadian owners, specifically in the context of having used it. Multiple owners report successfully claiming warranty replacement for grates, flavorizer bars, and igniter components. The warranty experience — not just the warranty existing — is what owners cite positively. Weber Canada's responsiveness to warranty claims is described as above average compared to other appliance warranty experiences.</p>
 
+<div class="guide-section-break"></div>
 <h2>The most common complaints at 3 seasons</h2>
 
 <p><strong>Rust on the flavorizer bars</strong> — the most common 3-season complaint for Canadian owners, mentioned in the majority of long-term Canadian owner threads. The porcelain-enameled flavorizer bars develop rust along the edges and at chips after one to two seasons of use in Canadian conditions. Owners who store the grill covered through winter report slower rust development than those who leave it uncovered or store it in unheated garages with temperature fluctuations that accelerate rust. The bars are available through Weber Canada and typically cost $60–80 CAD for a full replacement set.</p>
@@ -168,12 +225,14 @@
 
 <p><strong>Lid hinge loosening over time</strong> — mentioned by a smaller proportion of long-term owners. The lid hinge on the Spirit II is functional but not robust by 3-season standards. Multiple owners report the lid sits slightly unevenly by year three, creating a small gap at one end. Most describe this as a nuisance rather than a cooking problem, as it does not affect heat retention meaningfully in normal grilling conditions. Several owners tightened the hinge bolts as a fix.</p>
 
+<div class="guide-section-break"></div>
 <h2>Who keeps it vs. who would choose differently</h2>
 
 <p>Three-season Spirit II owners who say they would buy Weber again share a consistent profile: they prioritize cooking performance and even heat over BTU output, they value the warranty and Canadian parts availability, they are occasional to frequent grilllers (two to four times per week in season) rather than daily high-volume cooks, and they knew going in that they were buying for performance rather than size.</p>
 
 <p>Owners who say they would choose differently at the 3-season mark cluster around two groups. The first group wishes they had bought a larger grill — the Spirit II's 424 square inch primary cooking area is genuinely limiting for households that regularly cook for 6 or more people. These owners describe upgrading to the Weber Genesis or a larger Napoleon, not leaving the gas grill category. The second group found the flavorizer bar and igniter replacement costs and effort to be more than they expected and wished they had understood the maintenance schedule at purchase.</p>
 
+<div class="guide-section-break"></div>
 <h2>The hidden costs and surprises owners missed</h2>
 
 <p><strong>Flavorizer bar replacement every 2–3 years for Canadian owners.</strong> This is the most consistently mentioned hidden cost in 3-season owner threads. Weber's marketing does not prominently feature bar replacement as routine maintenance, and most buyers assume porcelain-enameled components are indefinitely durable. Canadian winter conditions accelerate rust in ways that American owner reviews do not capture. Three-season Canadian owners typically budget $60–80 CAD every two to three seasons for this replacement.</p>
@@ -184,6 +243,7 @@
 
 <p><strong>Cast iron grate seasoning and care.</strong> Multiple first-time cast iron grate owners were surprised by the maintenance requirements compared to stainless grates. The porcelain-enameled grates need regular oiling and should not be aggressively wire-brushed. Several owners who treated the grates like stainless steel grates from previous grills reported surface condition issues that were avoided by owners who adjusted their care routine.</p>
 
+<div class="guide-section-break"></div>
 <h2>What owners say about value after 3 seasons</h2>
 
 <p>The dominant 3-season owner framing is that the Spirit II has held its value as a cooking tool, but that Canadian owners should budget for the maintenance cycle that American reviews do not reflect.</p>
@@ -192,6 +252,7 @@
 
 <p>Owners who are less satisfied at 3 seasons are predominantly those who expected stainless steel component longevity from porcelain-coated components in Canadian winter conditions, or who needed more cooking area than the Spirit II provides.</p>
 
+<div class="guide-section-break"></div>
 <h2>Bottom line from owners</h2>
 
 <p>The 3-season owner community consensus on the <a href="../products/weber-spirit-ii-e310-gas-grill.html"><a href="../products/weber-spirit-ii-e310-gas-grill.html">Weber Spirit II</a> E-310</a> is that Weber's reputation for cooking performance is real and holds over time. The grill cooks evenly, the Flavorizer system works, and the build quality justifies the price compared to budget alternatives that owners consistently describe as having shorter service lives.</p>
@@ -240,5 +301,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

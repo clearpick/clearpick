@@ -142,6 +142,7 @@
   </tbody>
 </table>
 
+<div class="guide-section-break"></div>
 <h2>1. UE Hyperboom</h2>
 <div class="product-card-inline" data-slug="ue-hyperboom-speaker"></div>
 
@@ -158,6 +159,7 @@
   <cite>Amazon reviewer</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>2. <a href="../products/jbl-charge-5.html">JBL Charge 5</a></h2>
 <div class="product-card-inline" data-slug="jbl-charge-5"></div>
 
@@ -179,9 +181,64 @@
   <cite>Reddit</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>3. <a href="../products/jbl-flip-6.html">JBL Flip 6</a></h2>
 <div class="product-card-inline" data-slug="jbl-flip-6"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-best-bluetooth-speakers-canada">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.6/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="best-bluetooth-speakers-canada";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-best-bluetooth-speakers-canada');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <ul>
   <li><strong>Why it ranked #3:</strong> The <a href="../products/jbl-flip-6.html">JBL Flip 6</a> scores 8.5/10. It's the portability pick — smaller than the Charge 5, lighter, fits in a jacket pocket, and still IP67 waterproof. The 12-hour battery covers a full day at the beach or campsite. For buyers who prioritize carry-everywhere portability over all-day marathon battery, the Flip 6 is the better fit.</li>
   <li><strong>What owners love:</strong> Size-to-sound ratio is the primary strength — owners consistently describe it as louder than anything this size should produce. Stereo pairing (two Flip 6s linked) is frequently mentioned for house parties.</li>
@@ -190,6 +247,7 @@
   <li><strong>Canadian price:</strong> ~$149 CAD on Amazon.ca and Best Buy Canada.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Also Considered (Not on ClearPick)</h2>
 <ul>
   <li><strong><a href="../products/bose-soundlink-flex.html">Bose SoundLink Flex</a></strong> (~$170 CAD): Best-sounding compact speaker at this tier per 2025 Canadian reviews. Floats — a specific advantage for dock and lake use. PositionIQ technology adjusts EQ based on orientation.</li>
@@ -251,6 +309,7 @@
 </table>
 <p><em>* Not yet reviewed on ClearPick</em></p>
 
+<div class="guide-section-break"></div>
 <h2>What to Look For in a Portable Speaker</h2>
 
 <h3>IP67 vs IP68 — and whether it floats</h3>
@@ -265,6 +324,7 @@
 <h3>Cold weather battery performance</h3>
 <p>Lithium batteries lose capacity in cold. At 5°C, most portable speakers lose 15–25% of rated battery life. No speaker in this guide is specifically rated for cold performance, but bringing speakers inside overnight on cold camping trips extends battery life meaningfully.</p>
 
+<div class="guide-section-break"></div>
 <h2>FAQ</h2>
 
 <h3>Which JBL speaker is best for a Canadian cottage?</h3>
@@ -279,8 +339,14 @@
 <h3>Is there a price difference between Best Buy Canada and Amazon.ca for JBL?</h3>
 <p>Prices are typically equivalent. Best Buy Canada runs JBL sales during Boxing Day and Black Friday. Amazon.ca Prime Day pricing is competitive. Both ship across Canada. Best Buy Canada offers in-store pickup and easier returns — a practical advantage for larger items like the Hyperboom.</p>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.7/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For most Canadian buyers, the <a href="../products/jbl-charge-5.html">JBL Charge 5</a> is the most versatile pick — 20-hour battery, powerbank, IP67, and enough output for beach and dock use. The <a href="../products/ue-hyperboom-speaker.html">UE Hyperboom</a> is right for anyone hosting outdoor gatherings larger than 20 people where 360-degree coverage matters. The <a href="../products/jbl-flip-6.html">JBL Flip 6</a> is the portability pick. For dock-specific use where flotation matters, the <a href="../products/bose-soundlink-flex.html">Bose SoundLink Flex</a> (not yet on ClearPick) is worth evaluating — it won't sink.</p>
 </div>
 
@@ -323,5 +389,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

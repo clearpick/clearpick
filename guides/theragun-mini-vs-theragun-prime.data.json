@@ -1,0 +1,42 @@
+{
+  "slug": "theragun-mini-vs-theragun-prime",
+  "guideType": "comparison",
+  "collectedAt": "2026-06-22T05:01:19.743Z",
+  "sources": {},
+  "complaintsData": [],
+  "complaintSources": "",
+  "headToHead": {
+    "productA": {
+      "name": "Theragun Mini",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        81,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "productB": {
+      "name": "Therabody Theragun Prime 5th Generation Deep Tissue Percussion Massage Gun",
+      "amazonRating": null,
+      "amazonCount": null,
+      "satisfiedPct": null,
+      "criticalPct": null,
+      "redditPct": null,
+      "bestbuyRating": null,
+      "radarData": [
+        84,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

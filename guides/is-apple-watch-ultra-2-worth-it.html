@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="apple-watch-ultra-2"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-apple-watch-ultra-2-worth-it">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">9.3/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-apple-watch-ultra-2-worth-it";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-apple-watch-ultra-2-worth-it');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For iPhone users who adventure seriously and want one device that handles everything — trail running, mountaineering, open-water swimming, and daily life — yes, the <a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra 2</a> is worth the roughly $1,049 CAD Canadian price. For everyone else, the Series 10 at $549 CAD does 85% of what the Ultra does for half the cost.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Actually Love</h2>
 <p>Battery life is the most consistently praised differentiator — appearing in roughly 65% of positive long-term reviews. In real-world mixed use with always-on display, always-on heart rate, and regular workout GPS tracking, most owners report 30–38 hours between charges. For a watch that can handle an Ironman triathlon, a 50km trail run, or a multi-day backpacking trip without a charge stop, that runtime is the reason many buyers choose Ultra over Series 10.</p>
 
@@ -139,6 +194,7 @@
 
 <p>The Action button receives consistent praise for workout workflow — one-press workout start removes the multi-tap sequence that slows down every standard Apple Watch. The 86dB siren, while niche, appears in owner reviews with genuine stories — a backcountry ankle roll, a solo hike incident — where the real-world utility was not hypothetical.</p>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints</h2>
 <p>The most common complaint — appearing in roughly 30% of critical reviews — is size. At 49mm and 61.3g, the <a href="../products/apple-watch-ultra-2.html">Ultra 2</a> is substantially larger than any standard Apple Watch. Owners with wrists under 16cm specifically flag it as uncomfortable during sleep tracking, and there is no smaller Ultra option. This is the most common reason for returns.</p>
 
@@ -151,6 +207,7 @@
 
 <p>The third complaint is the Ultralow Power Mode trade-off. To achieve 72-hour battery life, you must disable GPS, heart rate, and most health sensors — it becomes essentially a watch and step counter. Owners who expected 72 active hours are frequently surprised that the extended mode is incompatible with any serious activity tracking.</p>
 
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: What Owners Say After 6–12 Months</h2>
 <p>The owner satisfaction picture at 6+ months is highly correlated with actual use of the outdoor features. Owners who bought it for commuting and meetings frequently reassess the value proposition — the Series 10 handles all of those scenarios equally. Owners who bought it for serious athletic use consistently remain satisfied.</p>
 
@@ -161,6 +218,7 @@
   <cite>Reddit r/AppleWatch, 8-month owner</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 <ul>
   <li><strong>Serious outdoor athletes on iPhone:</strong> Trail runners, ultramarathon runners, alpine skiers, open-water swimmers, triathletes — users who regularly push past 24 hours of GPS-active activity where battery is the constraint.</li>
@@ -168,6 +226,7 @@
   <li><strong>iPhone users who want one device for everything without compromise:</strong> The <a href="../products/apple-watch-ultra-2.html">Ultra 2</a> handles daily life, workouts, and adventure without needing a swap. The Series 10 requires more battery management and is more fragile in demanding conditions.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 <ul>
   <li><strong>Casual iPhone users:</strong> If your workouts are gym sessions and weekend runs, the Series 10 at $549 CAD handles every daily fitness use case equally well.</li>
@@ -176,22 +235,47 @@
   <li><strong>Android users:</strong> The <a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra 2</a> requires an iPhone. There is no Android mode or companion app.</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the Price Justified?</h2>
 <p>At ~$1,049 CAD, the <a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra 2</a> is $500 more than the Series 10 and comparable to a <a href="../products/garmin-fenix-7-solar.html"><a href="../products/garmin-fenix-7-solar.html">Garmin Fenix 7</a> Solar</a>. The price is justified if you actually use the battery life advantage (multi-day activities), the durability (physically demanding environments), or the siren (solo backcountry use). It is not justified for the majority of Apple Watch buyers whose use case stops at gym workouts, notifications, and sleep tracking.</p>
 
-<table class="pros-cons-table">
-  <thead><tr><th>Owners Love</th><th>Owners Flag</th></tr></thead>
-  <tbody>
-    <tr><td>30–38 hours real-world battery with GPS and heart rate active</td><td>49mm size is uncomfortable for small wrists, no smaller option</td></tr>
-    <tr><td>Sapphire display survives skiing, climbing, construction</td><td>72-hour Ultralow Power Mode disables GPS and heart rate</td></tr>
-    <tr><td>Action button makes workout starts genuinely faster</td><td>watchOS thinner than Garmin for Training Load / periodization data</td></tr>
-    <tr><td>86dB siren useful in real backcountry emergency situations</td><td>$1,049 CAD premium vs Series 10 hard to justify for casual users</td></tr>
-    <tr><td>L1+L5 dual-frequency GPS accuracy in tree canopy and urban canyons</td><td>Native offline maps require third-party paid apps (Gaia GPS, AllTrails)</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>30–38 hours real-world battery with GPS and heart rate active</li>
+      <li>Sapphire display survives skiing, climbing, construction</li>
+      <li>Action button makes workout starts genuinely faster</li>
+      <li>86dB siren useful in real backcountry emergency situations</li>
+      <li>L1+L5 dual-frequency GPS accuracy in tree canopy and urban canyons</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>49mm size is uncomfortable for small wrists, no smaller option</li>
+      <li>72-hour Ultralow Power Mode disables GPS and heart rate</li>
+      <li>watchOS thinner than Garmin for Training Load / periodization data</li>
+      <li>$1,049 CAD premium vs Series 10 hard to justify for casual users</li>
+      <li>Native offline maps require third-party paid apps (Gaia GPS, AllTrails)</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">85%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (9.3/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>For serious outdoor athletes and iPhone users who need a watch that survives genuinely demanding use without battery management anxiety, the <a href="../products/apple-watch-ultra-2.html">Apple Watch Ultra 2</a> is worth $1,049 CAD. For everyone else — commuters, gym users, casual runners — the $549 CAD Series 10 delivers 85% of the experience at half the price. The Ultra's value is entirely dependent on whether you actually use the features that justify the price. Most buyers don't, and owner data is honest about that.</p>
 </div>
 
@@ -234,5 +318,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>

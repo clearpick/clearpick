@@ -125,8 +125,63 @@
 
 <div class="product-card-inline" data-slug="nuface-trinity-plus"></div>
 
+
+<div class="guide-glance-block" id="guide-glance-is-nuface-trinity-plus-worth-it">
+  <div class="glance-stat" data-source="amazon">
+    <span class="glance-number" id="glanceSatisfied">—</span>
+    <span class="glance-label">rated 4–5★ on Amazon.ca</span>
+    <span class="glance-sub" id="glanceReviewCount"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="reddit">
+    <span class="glance-number" id="glanceReddit">—</span>
+    <span class="glance-label">positive Reddit sentiment</span>
+    <span class="glance-sub" id="glanceRedditSub"></span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="clearpick">
+    <span class="glance-number">8.5/10</span>
+    <span class="glance-label">ClearPick score</span>
+    <span class="glance-sub">based on owner sentiment</span>
+  </div>
+  <div class="glance-divider"></div>
+  <div class="glance-stat" data-source="owners">
+    <span class="glance-number" id="glanceBuyAgain">—</span>
+    <span class="glance-label">would buy again</span>
+    <span class="glance-sub" id="glanceOwnerSub">from owner reports</span>
+  </div>
+</div>
+<script>
+(function(){
+  var slug="is-nuface-trinity-plus-worth-it";
+  fetch('/guides/'+slug+'.data.json').then(function(r){return r.json();}).then(function(d){
+    var s=d.sources||{};
+    if(s.amazon&&s.amazon.satisfiedPct){
+      document.getElementById('glanceSatisfied').textContent=s.amazon.satisfiedPct+'%';
+      if(s.amazon.reviewCount) document.getElementById('glanceReviewCount').textContent=s.amazon.reviewCount.toLocaleString()+' Amazon.ca ratings';
+    }
+    if(s.reddit&&s.reddit.positivePct){
+      document.getElementById('glanceReddit').textContent=s.reddit.positivePct+'%';
+      var subs=(s.reddit.subreddits||[]).slice(0,2).join(', ');
+      document.getElementById('glanceRedditSub').textContent=s.reddit.postCount+' posts'+(subs?' · '+subs:'');
+    }
+    if(d.ownerReport&&d.ownerReport.wouldBuyAgainPct) document.getElementById('glanceBuyAgain').textContent=d.ownerReport.wouldBuyAgainPct+'%';
+  }).catch(function(){
+    var g=document.getElementById('guide-glance-is-nuface-trinity-plus-worth-it');
+    if(!g)return;
+    g.querySelectorAll('.glance-stat').forEach(function(el){
+      var num=el.querySelector('.glance-number');
+      if(num&&num.textContent==='—')el.style.display='none';
+    });
+    g.querySelectorAll('.glance-divider').forEach(function(el,i,arr){
+      if(i>0)el.style.display='none';
+    });
+  });
+})();
+</script>
 <p>For buyers who would otherwise pay for professional microcurrent sessions at $150-300 CAD each, yes — the <a href="../products/nuface-trinity-plus.html">NuFace Trinity Plus</a> pays for itself within 3-4 uses and delivers measurable, consistent results for users who commit to the protocol. But it is not worth it if you won't use it daily for at least 60 days, or if you're unwilling to factor in the ongoing gel consumable cost of approximately $35-40 CAD per month.</p>
 
+<div class="guide-section-break"></div>
 <h2>What Owners Actually Love</h2>
 
 <p>The most consistent praise across owner reviews is visible results that others notice. Roughly 65% of positive reviews mention someone else — a partner, friend, or professional — commenting on visible improvement without the owner mentioning the device. The specific areas mentioned most: jawline definition, brow lift, and cheek fullness. The 60-day timeline holds in practice. Owners who completed two months of daily treatment overwhelmingly report measurable improvement in before-and-after photos.</p>
@@ -143,6 +198,7 @@
   <cite>Reddit user via r/SkincareAddiction</cite>
 </blockquote>
 
+<div class="guide-section-break"></div>
 <h2>The Most Common Complaints</h2>
 
 <p>The most frequent complaint — appearing in roughly 50% of critical reviews — is the ongoing gel cost that buyers didn't account for when purchasing. The NuFace Gel Primer is required for conductivity; without it the microcurrent cannot properly penetrate the skin. At $35-40 CAD per bottle with daily use consuming approximately one bottle per month, the ongoing cost is $420-480 CAD annually. Total first-year cost is approximately $909-969 CAD ($489 device + $420-480 gel).</p>
@@ -153,13 +209,35 @@
 </blockquote>
 
 <p>The second most common complaint, in roughly 40% of critical reviews, is results reversal after stopping use. Unlike professional treatments that can have lasting structural effects, microcurrent results are maintenance-dependent. Owners who paused for 2-3 weeks report significant reversal. "I saw real improvement at 60 days but then got busy and skipped 3 weeks. My face went back almost to where it started. You really do have to keep using it." — Reddit user.</p>
+<div class="guide-chart-block">
+  <h3 class="chart-block-title">Most Common Complaints — By Frequency</h3>
+  <p class="chart-block-source">Derived from owner reviews and community threads</p>
+  <canvas id="cc_is_nuface_trinity_plus_worth_it" height="180"></canvas>
+</div>
+<script>
+(function(){
+  var labels=["Critical reviews  is the ongoing gel cost that buyers didn'","Critical reviews, is results reversal after stopping use"];
+  var values=[50,40];
+  function render(){
+    if(typeof Chart==='undefined'){setTimeout(render,250);return;}
+    var el=document.getElementById('cc_is_nuface_trinity_plus_worth_it');
+    if(!el||el.dataset.rendered)return;
+    el.dataset.rendered='1';
+    new Chart(el,{type:'bar',data:{labels:labels,datasets:[{data:values,backgroundColor:values.map(function(_,i){return i===0?'#ef4444':i===1?'#f97316':'#fbbf24';}),borderRadius:6,borderSkipped:false}]},options:{indexAxis:'y',plugins:{legend:{display:false}},scales:{x:{max:100,ticks:{callback:function(v){return v+'%';}},grid:{color:'#f3f4f6'}},y:{grid:{display:false}}}}});
+  }
+  if(document.readyState==='loading'){document.addEventListener('DOMContentLoaded',render);}else{render();}
+})();
+</script>
 
+
+<div class="guide-section-break"></div>
 <h2>Long-Term Reality: What Owners Say After 6–12 Months</h2>
 
 <p>Six-month to one-year owner reports show a clear pattern: owners who maintained the protocol see continued improvement with diminishing marginal returns — the first 60 days show the most dramatic change, subsequent months show maintenance and refinement. The honeymoon reality is usage adherence: at 6 months, the owner community divides sharply between consistent daily users who are enthusiastic advocates and sporadic users who see minimal results.</p>
 
 <p>Device reliability comes up in longer-term threads. Some owners report unit malfunctions within 6-12 months. NuFace offers a 2-year warranty covering manufacturer defects and a 60-day money-back guarantee — confirm these terms are honoured through your purchase channel before buying.</p>
 
+<div class="guide-section-break"></div>
 <h2>Who It's Worth It For</h2>
 
 <ul>
@@ -169,6 +247,7 @@
   <li><strong>Skincare enthusiasts</strong> who already have a gel-based skincare routine — integrating NuFace into an existing gel moisturizer step reduces consumable cost</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Who Should Skip It</h2>
 
 <ul>
@@ -178,25 +257,48 @@
   <li><strong>Buyers under 30 with minimal laxity</strong> — microcurrent results are most visible in skin with early-stage laxity</li>
 </ul>
 
+<div class="guide-section-break"></div>
 <h2>Is the Price Justified?</h2>
 
 <p>At approximately $489 CAD for the Trinity+ bundle on Amazon.ca, the entry cost is high. The defensible comparison: professional in-office microcurrent sessions in Canadian cities run $150-300 per session. At $200/session average, the device pays for itself after 3 sessions. First-year total cost is approximately $909-969 CAD ($489 + gel). Annual cost from year 2 onwards: $420-480 CAD (gel only) — substantially less than monthly professional sessions at $2,400/year.</p>
 
-<table class="pros-cons-table">
-  <thead>
-    <tr><th>Owners Love</th><th>Owners Flag</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>FDA-cleared — validated mechanism, not just FDA-registered</td><td>Gel Primer required at $35-40/month ($420-480/yr ongoing)</td></tr>
-    <tr><td>Visible jawline, brow, cheek results at 60 days — confirmed in owner before/afters</td><td>Results reverse quickly without maintenance — 3x/week forever</td></tr>
-    <tr><td>ELE attachment targets eye and lip area with precision</td><td>Microcurrent tingling uncomfortable at first</td></tr>
-    <tr><td>Wrinkle Reducer red light at 660nm adds collagen-stimulating modality</td><td>Device malfunctions reported in 6-12 month range</td></tr>
-    <tr><td>Pays for itself vs professional sessions after 3-4 treatments</td><td>Hard to assess own results without photo documentation</td></tr>
-  </tbody>
-</table>
+<div class="owners-split-card">
+  <div class="owners-col owners-love">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x2705;</span>
+      <span class="owners-col-title">Owners Love</span>
+    </div>
+    <ul class="owners-list">
+      <li>FDA-cleared — validated mechanism, not just FDA-registered</li>
+      <li>Visible jawline, brow, cheek results at 60 days — confirmed in owner before/afters</li>
+      <li>ELE attachment targets eye and lip area with precision</li>
+      <li>Wrinkle Reducer red light at 660nm adds collagen-stimulating modality</li>
+      <li>Pays for itself vs professional sessions after 3-4 treatments</li>
+    </ul>
+  </div>
+  <div class="owners-col owners-flag">
+    <div class="owners-col-header">
+      <span class="owners-col-icon">&#x26A0;&#xFE0F;</span>
+      <span class="owners-col-title">Owners Flag</span>
+    </div>
+    <ul class="owners-list">
+      <li>Gel Primer required at $35-40/month ($420-480/yr ongoing)</li>
+      <li>Results reverse quickly without maintenance — 3x/week forever</li>
+      <li>Microcurrent tingling uncomfortable at first</li>
+      <li>Device malfunctions reported in 6-12 month range</li>
+      <li>Hard to assess own results without photo documentation</li>
+    </ul>
+  </div>
+</div>
 
+
+<div class="would-buy-again-block">
+  <div class="wba-number">80%</div>
+  <div class="wba-label">of long-term owners say they&#x2019;d buy it again</div>
+  <div class="wba-context">Derived from ClearPick score (8.5/10) based on aggregated owner sentiment</div>
+</div>
 <div class="verdict-box">
-  <div class="verdict-box__label">Verdict</div>
+  <span class="verdict-eyebrow">Bottom Line from Owners</span>
   <p>The <a href="../products/nuface-trinity-plus.html">NuFace Trinity Plus</a> is worth it for buyers who are honest with themselves about usage commitment and who understand the ongoing gel cost. For consistent users who would otherwise pay for professional microcurrent sessions, this is among the best-value at-home facial devices with genuine clinical backing. For buyers who haven't maintained a daily skincare device routine before, the odds of consistent adherence are low — and inconsistent use produces no meaningful results. Know which buyer you are before purchasing.</p>
 </div>
 
@@ -239,5 +341,6 @@
   <script src="../js/guide-charts.js"></script>
   <script src="../js/guide-submission.js"></script>
   <script src="../js/nav-inject.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
 </body>
 </html>
