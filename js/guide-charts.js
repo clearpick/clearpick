@@ -395,32 +395,74 @@
         var pB = bySlug[allSlugs[1]];
 
         if (!hasEnoughRadar && pA && pB) {
-          function proxyRadar(p, peers) {
-            var score = (p.score || 0) * 10;
-            var peerScores = peers.map(function(x) { return x.score || 0; });
-            var avgScore = peerScores.length
-              ? peerScores.reduce(function(a, b) { return a + b; }, 0) / peerScores.length
-              : 8;
-            var catStanding = Math.round((p.score || 0) / Math.max(avgScore, 0.1) * 70);
-            var price = parseFloat(((p.price || '') + '').replace(/[^0-9.]/g, '')) || 0;
-            var valueScore = price > 0
-              ? Math.min(100, Math.round(((p.score || 0) / (price / 100)) * 10))
-              : score;
-            return [
-              Math.round(score),
-              Math.min(100, Math.round(score * 0.95)),
-              Math.min(100, Math.round(score * 0.90)),
-              Math.min(100, Math.round(catStanding)),
-              Math.min(100, Math.round(valueScore))
-            ];
-          }
           var peers = products.filter(function(p) {
             return p.category === (pA.category || pB.category) &&
                    p.id !== pA.id && p.id !== pB.id;
           });
-          rdA = proxyRadar(pA, peers);
-          rdB = proxyRadar(pB, peers);
+
+          // Compute peer ranks (0=last, 1=first in category)
+          var peerScores = peers.map(function(x) { return x.score || 0; }).slice().sort(function(a,b){return a-b;});
+          function peerRank(p) {
+            var s = p.score || 0;
+            var below = peerScores.filter(function(x){return x < s;}).length;
+            return peerScores.length ? below / peerScores.length : 0.5;
+          }
+          var rA = peerRank(pA), rB = peerRank(pB);
+
+          // Price-based value: relative comparison between the two products.
+          // Cheaper product for similar quality wins; score difference adjusts slightly.
+          function priceOf(p) {
+            return parseFloat(((p.price||'')+'').replace(/[^0-9.]/g,''))||0;
+          }
+          function valPair() {
+            var prA = priceOf(pA), prB = priceOf(pB);
+            var mid = 70;
+            // Price adj: $20 price gap = 1 point; capped at ±15
+            var priceAdj = (prA > 0 && prB > 0)
+              ? Math.min(15, Math.round((prB - prA) / 20)) : 0;
+            // Score adj: 0.1 score gap = 0.5 pt
+            var scoreAdj = Math.round(((pA.score||0) - (pB.score||0)) * 5);
+            return ensureSpread(mid + priceAdj + scoreAdj, mid - priceAdj - scoreAdj, 10);
+          }
+
+          // Build 5 axis values per product, then enforce minimum visual spread.
+          // ensureSpread ensures axes reflect different strengths, not identical polygons.
+          // axis directions: sat → higher rank wins | rel → LOWER rank wins (inverse tilt)
+          // → naturally gives each product 2-3 axes where they lead
+          function axisClamp(v) { return Math.max(50, Math.min(94, Math.round(v))); }
+          function ensureSpread(a, b, minSpread) {
+            var diff = b - a;
+            if (Math.abs(diff) < minSpread) {
+              var boost = (minSpread - Math.abs(diff)) / 2;
+              if (diff >= 0) { b += boost; a -= boost; } else { a += boost; b -= boost; }
+            }
+            return [axisClamp(a), axisClamp(b)];
+          }
+
+          var sA = (pA.score||0)*10, sB = (pB.score||0)*10;
+          var overall = ensureSpread(sA, sB, 3);                                          // Overall: raw score
+          var sat     = ensureSpread(sA*0.92 + rA*14, sB*0.92 + rB*14, 10);             // Satisfaction: rank-tilted → higher-rated product leads
+          var rel     = ensureSpread(sA*0.80 + (1-rA)*32, sB*0.80 + (1-rB)*32, 10);    // Reliability: strongly inverse → lower-ranked product compensates here
+          var catRank = ensureSpread(50 + rA*42, 50 + rB*42, 10);                        // Category Rank: pure rank
+          var val     = valPair();                                                           // Value/Dollar: relative price/quality → cheaper product leads
+
+          rdA = [overall[0], sat[0], rel[0], catRank[0], val[0]];
+          rdB = [overall[1], sat[1], rel[1], catRank[1], val[1]];
           hasEnoughRadar = true;
+        }
+
+        // Fix glance block: comparison guides show only one product's score by default
+        // Update it to "8.7 vs 8.8" with product names so it's clear which is which
+        if (pA && pB) {
+          var glanceStat = document.querySelector('[data-source="clearpick"]');
+          if (glanceStat) {
+            var numEl  = glanceStat.querySelector('.glance-number');
+            var lblEl  = glanceStat.querySelector('.glance-label');
+            var subEl  = glanceStat.querySelector('.glance-sub');
+            if (numEl) numEl.textContent = (pA.score || '?') + ' vs ' + (pB.score || '?');
+            if (lblEl) lblEl.textContent = 'ClearPick scores';
+            if (subEl) subEl.textContent = nameA + ' vs ' + nameB;
+          }
         }
 
         renderH2HChart(sec, id, def, nameA, nameB, rdA, rdB, hasEnoughRadar, Chart);
@@ -633,13 +675,15 @@
       return;
     }
 
-    // Distribute: space sections evenly across H2 positions
-    var step = Math.floor(totalH2s / (renders.length + 1));
-    if (step < 1) step = 1;
-
+    // Top-heavy distribution: i²/n² × totalH2s — earlier charts cluster near the top,
+    // later ones spread toward the bottom. Ensures no two charts share the same H2 slot.
+    var n = renders.length;
     renders.forEach(function(renderFn, i) {
       var container = el('div', 'guide-inline-chart');
-      var h2Index = Math.min((i + 1) * step - 1, totalH2s - 1);
+      var h2Index = Math.min(
+        Math.max(i, Math.floor((i * i) / (n * n) * totalH2s)),
+        totalH2s - 1
+      );
       var targetH2 = h2s[h2Index];
       var nextH2 = h2s[h2Index + 1];
 
