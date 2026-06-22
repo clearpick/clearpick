@@ -5248,6 +5248,36 @@ article.guide-content h2 {
   color: #6b7280;
   font-weight: 500;
 }
+/* Dark mode overrides for owner quotes and raw blockquotes */
+@media (prefers-color-scheme: dark) {
+  :root:not(.theme-light) .owner-quote {
+    background: rgba(59, 130, 246, 0.08);
+    color: #e2e8f0;
+    border-left-color: #60a5fa;
+  }
+  :root:not(.theme-light) .owner-quote cite {
+    color: #94a3b8;
+  }
+  :root:not(.theme-light) .guide-article__body blockquote {
+    background: rgba(59, 130, 246, 0.08);
+    color: #e2e8f0;
+    border-left-color: #60a5fa;
+  }
+}
+:root.theme-dark .owner-quote {
+  background: rgba(59, 130, 246, 0.08);
+  color: #e2e8f0;
+  border-left-color: #60a5fa;
+}
+:root.theme-dark .owner-quote cite {
+  color: #94a3b8;
+}
+:root.theme-dark .guide-article__body blockquote {
+  background: rgba(59, 130, 246, 0.08);
+  color: #e2e8f0;
+  border-left-color: #60a5fa;
+}
+
 /* Apply styling to raw blockquotes inside guide body too */
 .guide-article__body blockquote {
   border-left: 4px solid #3b82f6;

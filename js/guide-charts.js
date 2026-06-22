@@ -19,7 +19,9 @@
   };
 
   function isDark() {
-    return document.documentElement.getAttribute('data-theme') === 'dark';
+    return document.documentElement.classList.contains('theme-dark') ||
+           (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches &&
+            !document.documentElement.classList.contains('theme-light'));
   }
 
   function chartDefaults() {
@@ -273,7 +275,10 @@
     new Chart(document.getElementById(id), {
       type: 'bar',
       data: {
-        labels: complaints.map(function(c){ return c.label; }),
+        labels: complaints.map(function(c){
+          var label = (c.label || '').trim();
+          return label.length > 35 ? label.substring(0, 32).trimEnd() + '…' : label;
+        }),
         datasets: [{ label: '% of critical reviews mentioning this',
           data: complaints.map(function(c){ return c.pct; }),
           backgroundColor: COLORS.negative, borderRadius: 4 }]
@@ -284,7 +289,18 @@
         scales: {
           x: { max: 100, ticks: { callback: function(v){ return v+'%'; }, color: def.tickColor },
                grid: { color: def.borderColor } },
-          y: { ticks: { color: def.color }, grid: { display: false } }
+          y: {
+            ticks: {
+              color: def.color,
+              font: { size: 12 },
+              maxRotation: 0,
+              callback: function(value) {
+                var label = this.getLabelForValue(value);
+                return label && label.length > 35 ? label.substring(0, 32).trimEnd() + '…' : label;
+              }
+            },
+            grid: { display: false }
+          }
         }
       }
     });
